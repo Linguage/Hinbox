@@ -10,6 +10,7 @@ export interface Email {
   isStarred: boolean;
   hasAttachment: boolean;
   labels: string[]; // e.g., "Inbox", "Sent", "Michael Wolff"
+  body?: string; // The actual blog post content
 }
 
 export interface Person {
@@ -41,7 +42,15 @@ export const emails: Email[] = [
     isRead: true,
     isStarred: true,
     hasAttachment: false,
-    labels: ['Inbox', 'Michael Wolff', 'Steve Bannon']
+    labels: ['Inbox', 'Michael Wolff', 'Steve Bannon'],
+    body: `
+<p>Here is the inside story of what happened.</p>
+<p>The fix was always in. It wasn't about the prize, it was about the message being sent to the establishment.</p>
+<br>
+<h3>The Backstory</h3>
+<p>When we first looked at the candidates, it was clear that the criteria had shifted...</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    `
   },
   {
     id: '2',
