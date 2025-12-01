@@ -9,7 +9,7 @@ export const appShortcuts: AppShortcut[] = [
   { name: '账号', href: 'https://accounts.google.com/', initial: 'A', bg: 'bg-amber-500' },
   { name: '搜索', href: 'https://www.google.com/', initial: 'G', bg: 'bg-blue-500' },
   { name: '地图', href: 'https://maps.google.com/', initial: 'M', bg: 'bg-green-500' },
-  { name: 'Play', href: 'https://play.google.com/', initial: 'P', bg: 'bg-emerald-500' },
+  { name: 'RSS', href: 'https://linguage.github.io/Hinbox/rss.xml', initial: 'R', bg: 'bg-orange-500' },
   { name: '云端硬盘', href: 'https://drive.google.com/', initial: 'D', bg: 'bg-sky-500' },
   { name: '日历', href: 'https://calendar.google.com/', initial: 'C', bg: 'bg-indigo-500' },
   { name: '翻译', href: 'https://translate.google.com/', initial: 'T', bg: 'bg-teal-500' },

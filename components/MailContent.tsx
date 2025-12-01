@@ -354,16 +354,8 @@ export default function MailContent({ email }: MailContentProps) {
             </div>
 
             {/* Reply & Comments Area (Giscus) */}
-            <div className={clsx("mt-12 flex items-start gap-4", isFullScreen && "max-w-4xl mx-auto")}>
-              <div className="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center text-white text-lg shrink-0">
-                J
-              </div>
-              <div className="flex-1 border border-subtle rounded-lg shadow-sm p-4 text-sm bg-surface">
-                <div className="text-xs text-muted mb-3">
-                  使用 GitHub 账号登录后，可以在下方对当前文章发表评论（由 Giscus 提供支持）。
-                </div>
-                <GiscusComments term={`post-${email.id}`} />
-              </div>
+            <div className={clsx("mt-12", isFullScreen && "max-w-4xl mx-auto")}>              
+              <GiscusComments term={`post-${email.id}`} />
             </div>
           </div>
 

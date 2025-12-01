@@ -1,5 +1,6 @@
 'use client';
 
+import { useEffect, useState } from 'react';
 import Giscus from '@giscus/react';
 
 interface GiscusCommentsProps {
@@ -21,6 +22,31 @@ const isConfigured =
   GISCUS_CATEGORY_ID !== 'CATEGORY_ID';
 
 export default function GiscusComments({ term }: GiscusCommentsProps) {
+  const [giscusTheme, setGiscusTheme] = useState('light');
+
+  useEffect(() => {
+    if (typeof document === 'undefined') return;
+
+    const applyTheme = () => {
+      const siteTheme = document.body.dataset.theme;
+      if (siteTheme === 'dark') {
+        setGiscusTheme('transparent_dark');
+      } else {
+        // light 与 sepia 统一使用浅色主题
+        setGiscusTheme('light');
+      }
+    };
+
+    applyTheme();
+
+    const observer = new MutationObserver(applyTheme);
+    observer.observe(document.body, { attributes: true, attributeFilter: ['data-theme'] });
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
   if (!isConfigured) {
     // 本地占位模式：尚未配置 Giscus 仓库信息，仅渲染一个预览卡片用于调试样式
     return (
@@ -81,7 +107,7 @@ export default function GiscusComments({ term }: GiscusCommentsProps) {
         reactionsEnabled="1"
         emitMetadata="0"
         inputPosition="bottom"
-        theme="preferred_color_scheme"
+        theme={giscusTheme}
         lang="zh-CN"
         loading="lazy"
       />
