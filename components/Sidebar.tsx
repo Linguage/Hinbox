@@ -1,8 +1,8 @@
  'use client';
 
- import { Pencil, Inbox, Star, Send, Users, CircleHelp, Settings, X } from 'lucide-react';
+import { Pencil, Inbox, Star, Send, Users, CircleHelp, Settings, X, Menu } from 'lucide-react';
 import { people } from '@/lib/data';
-import { aboutSite } from '@/ui/assets/ui';
+import { aboutSite, siteLogoLetters } from '@/ui/assets/ui';
 import clsx from 'clsx';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
@@ -12,9 +12,10 @@ import GiscusComments from '@/components/GiscusComments';
 interface SidebarProps {
   collapsed?: boolean;
   onOpenThemeSidebar?: () => void;
+  onToggleSidebar?: () => void;
 }
 
-function SidebarContent({ collapsed = false, onOpenThemeSidebar }: SidebarProps) {
+function SidebarContent({ collapsed = false, onOpenThemeSidebar, onToggleSidebar }: SidebarProps) {
   const [showMobileAbout, setShowMobileAbout] = useState(false);
   const [showCompose, setShowCompose] = useState(false);
   const searchParams = useSearchParams();
@@ -30,10 +31,19 @@ function SidebarContent({ collapsed = false, onOpenThemeSidebar }: SidebarProps)
   return (
     <aside
       className={clsx(
-        "h-[calc(100vh-64px)] flex flex-col overflow-y-auto pb-4 shrink-0 bg-surface-soft border-r border-subtle",
-        collapsed ? "w-16 items-center pr-0" : "w-64 pr-2"
+        "fixed top-0 left-0 bottom-0 z-[60] w-64 flex flex-col overflow-y-auto pb-4 bg-surface-soft border-r border-subtle md:relative md:h-[calc(100vh-64px)] md:shrink-0",
+        collapsed ? "md:w-16 md:items-center md:pr-0" : "md:w-64 md:pr-2"
       )}
     >
+      <div className="px-4 pt-3 pb-1 md:hidden">
+        <div className="text-2xl font-semibold flex">
+          {siteLogoLetters.map((item, index) => (
+            <span key={index} className={item.colorClass}>
+              {item.char}
+            </span>
+          ))}
+        </div>
+      </div>
       <div className={collapsed ? "p-2" : "p-4"}>
         {collapsed ? (
           <button

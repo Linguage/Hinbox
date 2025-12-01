@@ -66,7 +66,13 @@
         <div className="flex items-center gap-2">
           <div className="text-2xl font-semibold flex">
             {siteLogoLetters.map((item, index) => (
-              <span key={index} className={item.colorClass}>
+              <span
+                key={index}
+                className={clsx(
+                  item.colorClass,
+                  index === 0 ? 'inline-block' : 'hidden md:inline-block'
+                )}
+              >
                 {item.char}
               </span>
             ))}
