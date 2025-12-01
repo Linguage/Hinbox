@@ -24,7 +24,7 @@ export default function AppShell({ children }: AppShellProps) {
     <div className="h-screen flex flex-col overflow-hidden relative">
       <Header
         onToggleSidebar={() => setSidebarCollapsed((prev) => !prev)}
-        onOpenThemeSidebar={() => setShowThemeSidebar(true)}
+        onOpenThemeSidebar={() => setShowThemeSidebar((prev) => !prev)}
       />
       <div className="flex flex-1 overflow-hidden pt-2">
         <Sidebar collapsed={sidebarCollapsed} />
