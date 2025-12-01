@@ -6,6 +6,7 @@
  import Link from 'next/link';
  import clsx from 'clsx';
  import OverviewBar from '@/components/OverviewBar';
+ import GiscusComments from '@/components/GiscusComments';
 
 interface MailContentProps {
   email: Email;
@@ -213,6 +214,15 @@ export default function MailContent({ email }: MailContentProps) {
               <div className="flex-1 border border-subtle rounded-lg shadow-sm p-4 cursor-text text-muted text-sm hover:shadow-md transition-shadow bg-surface">
                 Reply to {email.sender}...
               </div>
+            </div>
+
+            {/* Comments Section (Giscus) */}
+            <div className={clsx("mt-10", isFullScreen && "max-w-4xl mx-auto")}>
+              <h2 className="text-sm font-medium text-main mb-2">评论</h2>
+              <p className="text-xs text-muted mb-3">
+                使用 GitHub 账号登录后，可以在这里对当前文章进行评论（由 Giscus 提供支持）。
+              </p>
+              <GiscusComments term={`post-${email.id}`} />
             </div>
           </div>
 

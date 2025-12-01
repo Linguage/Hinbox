@@ -4,6 +4,7 @@
  import { Menu, Search, SlidersHorizontal, CircleHelp, Settings, Grid } from 'lucide-react';
  import { usePathname, useRouter, useSearchParams } from 'next/navigation';
  import clsx from 'clsx';
+ import { appShortcuts, siteLogoLetters, siteSearchPlaceholder, aboutSite } from '@/ui/assets/ui';
 
  interface HeaderProps {
   onToggleSidebar?: () => void;
@@ -49,17 +50,7 @@
     router.replace(url);
   };
 
-  const apps = [
-    { name: '账号', href: 'https://accounts.google.com/', initial: 'A', bg: 'bg-amber-500' },
-    { name: '搜索', href: 'https://www.google.com/', initial: 'G', bg: 'bg-blue-500' },
-    { name: '地图', href: 'https://maps.google.com/', initial: 'M', bg: 'bg-green-500' },
-    { name: 'Play', href: 'https://play.google.com/', initial: 'P', bg: 'bg-emerald-500' },
-    { name: '云端硬盘', href: 'https://drive.google.com/', initial: 'D', bg: 'bg-sky-500' },
-    { name: '日历', href: 'https://calendar.google.com/', initial: 'C', bg: 'bg-indigo-500' },
-    { name: '翻译', href: 'https://translate.google.com/', initial: 'T', bg: 'bg-teal-500' },
-    { name: '相册', href: 'https://photos.google.com/', initial: 'P', bg: 'bg-pink-500' },
-    { name: 'YouTube', href: 'https://www.youtube.com/', initial: 'Y', bg: 'bg-red-500' },
-  ];
+  const apps = appShortcuts;
 
   return (
     <header className="flex items-center justify-between px-4 py-2 bg-surface border-b border-subtle sticky top-0 z-50 h-16">
@@ -74,11 +65,11 @@
         </button>
         <div className="flex items-center gap-2">
           <div className="text-2xl font-semibold flex">
-            <span className="text-blue-500">J</span>
-            <span className="text-red-500">m</span>
-            <span className="text-yellow-500">a</span>
-            <span className="text-blue-500">i</span>
-            <span className="text-green-500">l</span>
+            {siteLogoLetters.map((item, index) => (
+              <span key={index} className={item.colorClass}>
+                {item.char}
+              </span>
+            ))}
           </div>
         </div>
       </div>
@@ -88,7 +79,7 @@
           <Search className="absolute left-3 w-5 h-5 text-gray-500" />
           <input
             type="text"
-            placeholder="站内搜索（标题、摘要、发件人、标签）"
+            placeholder={siteSearchPlaceholder}
             className="w-full py-3 pl-12 pr-10 bg-gray-100 rounded-lg focus:bg-white focus:shadow-md outline-none transition-all placeholder:text-gray-600 text-gray-800"
             value={searchText}
             onChange={(e) => {
@@ -176,14 +167,14 @@
 
           {showAbout && (
             <div className="absolute right-0 mt-3 w-80 rounded-2xl bg-surface shadow-2xl border border-subtle p-4 text-sm text-main">
-              <div className="font-semibold text-main mb-1">关于本站</div>
+              <div className="font-semibold text-main mb-1">{aboutSite.title}</div>
               <p className="mb-2">
-                这是一个以 Gmail 界面为灵感的博客与阅读空间，用“收件箱”的方式整理名人相关内容。
+                {aboutSite.intro}
               </p>
               <ul className="list-disc list-inside space-y-1 text-xs text-muted">
-                <li>左侧标签可以在不同人物、文件夹之间切换。</li>
-                <li>点击中间列表中的条目可查看全文，上方按钮支持全屏预览。</li>
-                <li>右上角九宫格按钮可作为快速入口，跳转到常用站点或工具。</li>
+                {aboutSite.tips.map((tip) => (
+                  <li key={tip}>{tip}</li>
+                ))}
               </ul>
             </div>
           )}

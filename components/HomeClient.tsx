@@ -1,4 +1,4 @@
-'use client';
+ 'use client';
 
 import { useSearchParams } from 'next/navigation';
 import EmailList from '@/components/EmailList';
@@ -7,6 +7,7 @@ import { Person, Email } from '@/lib/data';
 import { ChevronLeft, ChevronRight, RefreshCcw, MoreVertical } from 'lucide-react';
 import { Suspense } from 'react';
 import OverviewBar from '@/components/OverviewBar';
+import GiscusComments from '@/components/GiscusComments';
 
 interface HomeClientProps {
   allEmails: Email[];
@@ -23,6 +24,7 @@ function HomeContent({ allEmails, people }: HomeClientProps) {
   // Filter Logic
   const currentPerson = selectedPersonId ? people.find(p => p.id === selectedPersonId) : null;
   const isContactsView = !currentPerson && selectedLabel === 'Contacts';
+  const isGuestbookView = !currentPerson && !isContactsView && selectedLabel === 'Sent';
   
   const filteredEmails = allEmails.filter(email => {
     // 1. 先按人物 / 标签过滤
@@ -73,10 +75,16 @@ function HomeContent({ allEmails, people }: HomeClientProps) {
   } else if (selectedLabel === 'Starred') {
     overviewText = `Overview of Starred items. These are messages you've marked as important.`;
   } else if (selectedLabel === 'Sent') {
-    overviewText = `Overview of Sent mail. Showing ${filteredEmails.length} messages you've sent.`;
+    overviewText = `Guestbook for your blog, powered by Giscus. Visitors can leave public messages using their GitHub accounts.`;
   } else {
     overviewText = `Overview of messages filtered by label "${selectedLabel}".`;
   }
+
+  const listSummaryText = isContactsView
+    ? `${people.length} contacts`
+    : isGuestbookView
+      ? 'Guestbook (Giscus)'
+      : `1-25 of ${filteredEmails.length}`;
 
   return (
     <main className="flex-1 flex flex-col min-w-0">
@@ -97,9 +105,7 @@ function HomeContent({ allEmails, people }: HomeClientProps) {
         </div>
         
         <div className="flex items-center gap-4 text-xs text-gray-500">
-          <span>
-            {isContactsView ? `${people.length} contacts` : `1-25 of ${filteredEmails.length}`}
-          </span>
+          <span>{listSummaryText}</span>
           <div className="flex items-center">
             <button className="p-1 hover:bg-gray-200 rounded-full disabled:opacity-50">
               <ChevronLeft className="w-4 h-4" />
@@ -120,6 +126,16 @@ function HomeContent({ allEmails, people }: HomeClientProps) {
 
       {isContactsView ? (
         <ContactsList people={people} />
+      ) : isGuestbookView ? (
+        <div className="flex-1 overflow-y-auto px-5 pb-4">
+          <div className="max-w-3xl">
+            <h2 className="text-lg font-medium text-main mb-2">留言板</h2>
+            <p className="text-xs text-muted mb-4">
+              这里是博客的公开留言板。使用 GitHub 账号登录后，可以通过 Giscus 发表留言或回复他人评论。
+            </p>
+            <GiscusComments term="guestbook" />
+          </div>
+        </div>
       ) : (
         <EmailList emails={filteredEmails} />
       )}

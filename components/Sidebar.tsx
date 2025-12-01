@@ -2,10 +2,12 @@
 
  import { Pencil, Inbox, Star, Send, Users, CircleHelp, Settings, X } from 'lucide-react';
 import { people } from '@/lib/data';
+import { aboutSite } from '@/ui/assets/ui';
 import clsx from 'clsx';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import { Suspense, useState } from 'react';
+import GiscusComments from '@/components/GiscusComments';
 
 interface SidebarProps {
   collapsed?: boolean;
@@ -14,6 +16,7 @@ interface SidebarProps {
 
 function SidebarContent({ collapsed = false, onOpenThemeSidebar }: SidebarProps) {
   const [showMobileAbout, setShowMobileAbout] = useState(false);
+  const [showCompose, setShowCompose] = useState(false);
   const searchParams = useSearchParams();
   const selectedPersonId = searchParams.get('person');
   const selectedLabel = searchParams.get('label') || 'Inbox'; // Default to Inbox if no params
@@ -33,11 +36,17 @@ function SidebarContent({ collapsed = false, onOpenThemeSidebar }: SidebarProps)
     >
       <div className={collapsed ? "p-2" : "p-4"}>
         {collapsed ? (
-          <button className="flex items-center justify-center w-10 h-10 bg-accent-soft hover:shadow-md transition-shadow text-main rounded-full">
+          <button
+            className="flex items-center justify-center w-10 h-10 bg-accent-soft hover:shadow-md transition-shadow text-main rounded-full"
+            onClick={() => setShowCompose(true)}
+          >
             <Pencil className="w-5 h-5" />
           </button>
         ) : (
-          <button className="flex items-center gap-3 bg-accent-soft hover:shadow-md transition-shadow text-main px-6 py-4 rounded-2xl font-medium text-sm">
+          <button
+            className="flex items-center gap-3 bg-accent-soft hover:shadow-md transition-shadow text-main px-6 py-4 rounded-2xl font-medium text-sm"
+            onClick={() => setShowCompose(true)}
+          >
             <Pencil className="w-5 h-5" />
             Compose
           </button>
@@ -192,6 +201,33 @@ function SidebarContent({ collapsed = false, onOpenThemeSidebar }: SidebarProps)
         </nav>
       )}
 
+      {showCompose && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/40"
+          onClick={() => setShowCompose(false)}
+        >
+          <div
+            className="mx-4 rounded-2xl bg-surface border border-subtle p-4 text-xs text-main max-w-xl w-full shadow-2xl"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flex items-center justify-between mb-2">
+              <span className="font-semibold text-sm">给博客留言</span>
+              <button
+                type="button"
+                className="icon-btn p-1 text-muted hover:text-main"
+                onClick={() => setShowCompose(false)}
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+            <p className="text-[11px] text-muted mb-3">
+              使用 GitHub 账号登录后，可以通过 Giscus 向博客作者留言或提问。
+            </p>
+            <GiscusComments term="guestbook" />
+          </div>
+        </div>
+      )}
+
       {showMobileAbout && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 md:hidden"
@@ -202,7 +238,7 @@ function SidebarContent({ collapsed = false, onOpenThemeSidebar }: SidebarProps)
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex items-center justify-between mb-1">
-              <span className="font-semibold">关于本站</span>
+              <span className="font-semibold">{aboutSite.title}</span>
               <button
                 type="button"
                 className="icon-btn p-1 text-muted hover:text-main"
@@ -212,12 +248,12 @@ function SidebarContent({ collapsed = false, onOpenThemeSidebar }: SidebarProps)
               </button>
             </div>
             <p className="mb-2">
-              这是一个以 Gmail 界面为灵感的博客与阅读空间，用“收件箱”的方式整理名人相关内容。
+              {aboutSite.intro}
             </p>
             <ul className="list-disc list-inside space-y-1 text-[11px] text-muted">
-              <li>左侧标签可以在不同人物、文件夹之间切换。</li>
-              <li>点击中间列表中的条目可查看全文，上方按钮支持全屏预览。</li>
-              <li>右上角九宫格按钮可作为快速入口，跳转到常用站点或工具。</li>
+              {aboutSite.tips.map((tip) => (
+                <li key={tip}>{tip}</li>
+              ))}
             </ul>
           </div>
         </div>
