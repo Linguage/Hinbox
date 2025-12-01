@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import { Menu, Search, SlidersHorizontal, CircleHelp, Settings, Grid } from 'lucide-react';
 
 interface HeaderProps {
@@ -7,6 +8,21 @@ interface HeaderProps {
 }
 
 export default function Header({ onToggleSidebar }: HeaderProps) {
+  const [showApps, setShowApps] = useState(false);
+  const [showAbout, setShowAbout] = useState(false);
+
+  const apps = [
+    { name: '账号', href: 'https://accounts.google.com/', initial: 'A', bg: 'bg-amber-500' },
+    { name: '搜索', href: 'https://www.google.com/', initial: 'G', bg: 'bg-blue-500' },
+    { name: '地图', href: 'https://maps.google.com/', initial: 'M', bg: 'bg-green-500' },
+    { name: 'Play', href: 'https://play.google.com/', initial: 'P', bg: 'bg-emerald-500' },
+    { name: '云端硬盘', href: 'https://drive.google.com/', initial: 'D', bg: 'bg-sky-500' },
+    { name: '日历', href: 'https://calendar.google.com/', initial: 'C', bg: 'bg-indigo-500' },
+    { name: '翻译', href: 'https://translate.google.com/', initial: 'T', bg: 'bg-teal-500' },
+    { name: '相册', href: 'https://photos.google.com/', initial: 'P', bg: 'bg-pink-500' },
+    { name: 'YouTube', href: 'https://www.youtube.com/', initial: 'Y', bg: 'bg-red-500' },
+  ];
+
   return (
     <header className="flex items-center justify-between px-4 py-2 bg-white border-b border-gray-200 sticky top-0 z-50 h-16">
       <div className="flex items-center gap-4 w-64">
@@ -39,15 +55,64 @@ export default function Header({ onToggleSidebar }: HeaderProps) {
       </div>
 
       <div className="flex items-center gap-2 w-64 justify-end">
-        <button className="icon-btn">
-          <CircleHelp className="w-6 h-6" />
-        </button>
+        <div className="relative">
+          <button
+            className="icon-btn"
+            onClick={() => setShowAbout((open) => !open)}
+          >
+            <CircleHelp className="w-6 h-6" />
+          </button>
+
+          {showAbout && (
+            <div className="absolute right-0 mt-3 w-80 rounded-2xl bg-white shadow-2xl border border-gray-200 p-4 text-sm text-gray-700">
+              <div className="font-semibold text-gray-900 mb-1">关于本站</div>
+              <p className="mb-2">
+                这是一个以 Gmail 界面为灵感的博客与阅读空间，用“收件箱”的方式整理名人相关内容。
+              </p>
+              <ul className="list-disc list-inside space-y-1 text-xs text-gray-600">
+                <li>左侧标签可以在不同人物、文件夹之间切换。</li>
+                <li>点击中间列表中的条目可查看全文，上方按钮支持全屏预览。</li>
+                <li>右上角九宫格按钮可作为快速入口，跳转到常用站点或工具。</li>
+              </ul>
+            </div>
+          )}
+        </div>
         <button className="icon-btn">
           <Settings className="w-6 h-6" />
         </button>
-        <button className="icon-btn">
-          <Grid className="w-6 h-6" />
-        </button>
+        <div className="relative">
+          <button
+            className="icon-btn"
+            onClick={() => setShowApps((open) => !open)}
+          >
+            <Grid className="w-6 h-6" />
+          </button>
+
+          {showApps && (
+            <div className="absolute right-0 mt-3 w-80 max-h-[480px] overflow-y-auto rounded-2xl bg-white shadow-2xl border border-gray-200 p-4">
+              <div className="grid grid-cols-3 gap-4">
+                {apps.map((app) => (
+                  <a
+                    key={app.name}
+                    href={app.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex flex-col items-center gap-2 rounded-xl p-2 hover:bg-gray-100 transition-colors"
+                  >
+                    <div
+                      className={`w-10 h-10 rounded-full flex items-center justify-center text-sm font-semibold text-white ${app.bg}`}
+                    >
+                      {app.initial}
+                    </div>
+                    <span className="text-xs text-gray-700 text-center truncate w-16">
+                      {app.name}
+                    </span>
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
         <div className="ml-2 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-lg cursor-pointer">
           J
         </div>

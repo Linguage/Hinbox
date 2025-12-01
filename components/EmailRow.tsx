@@ -1,9 +1,9 @@
-'use client';
+ 'use client';
 
-import { Star, Paperclip, Archive, Trash2, Mail, Clock } from 'lucide-react';
-import { Email } from '@/lib/data';
-import clsx from 'clsx';
-import Link from 'next/link';
+ import { Star, Paperclip, Archive, Trash2, Mail, Clock } from 'lucide-react';
+ import { Email, people } from '@/lib/data';
+ import clsx from 'clsx';
+ import Link from 'next/link';
 
 interface EmailRowProps {
   email: Email;
@@ -11,6 +11,8 @@ interface EmailRowProps {
 }
 
 export default function EmailRow({ email, selected }: EmailRowProps) {
+  const person = people.find((p) => p.name === email.sender);
+
   return (
     <Link href={`/mail/${email.id}`} className="block">
       <div
@@ -31,16 +33,36 @@ export default function EmailRow({ email, selected }: EmailRowProps) {
         </div>
 
         {/* Sender */}
-        <div className={clsx("w-48 truncate pr-4 text-sm", !email.isRead ? "font-bold text-black" : "text-gray-700")}>
-          {email.sender}
+        <div
+          className={clsx(
+            "relative w-48 pr-4 text-sm",
+            !email.isRead ? "font-bold text-black" : "text-gray-700"
+          )}
+        >
+          <span className="block max-w-full truncate peer">{email.sender}</span>
+          {person?.bio && (
+            <div className="pointer-events-none absolute left-0 top-full mt-1 z-30 hidden w-72 rounded-xl bg-gray-900 text-white text-xs p-3 shadow-lg peer-hover:block">
+              <div className="font-semibold mb-1">{person.name}</div>
+              <div className="text-gray-100 leading-snug">{person.bio}</div>
+            </div>
+          )}
         </div>
 
         {/* Subject & Snippet */}
-        <div className="flex-1 flex items-center gap-2 overflow-hidden text-sm text-gray-600">
-          {/* Labels could go here */}
-          <span className={clsx("truncate", !email.isRead ? "font-bold text-black" : "")}>
-            {email.subject}
-          </span>
+        <div className="flex-1 flex items-center gap-2 text-sm text-gray-600">
+          <div className="relative flex items-center gap-2 min-w-0">
+            <span
+              className={clsx("truncate peer", !email.isRead ? "font-bold text-black" : "")}
+            >
+              {email.subject}
+            </span>
+            {email.snippet && (
+              <div className="pointer-events-none absolute left-0 top-full mt-1 z-20 hidden w-80 rounded-xl bg-gray-900 text-white text-xs p-3 shadow-lg peer-hover:block">
+                <div className="font-semibold mb-1">{email.subject}</div>
+                <div className="text-gray-100 leading-snug">{email.snippet}</div>
+              </div>
+            )}
+          </div>
           <span className="text-gray-400">-</span>
           <span className="truncate text-gray-500">
             {email.snippet}

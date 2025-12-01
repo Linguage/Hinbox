@@ -17,19 +17,70 @@ export interface Person {
   id: string;
   name: string;
   email: string;
+  bio?: string;
 }
 
 export const people: Person[] = [
-  { id: 'mw', name: 'Michael Wolff', email: 'michael@example.com' },
-  { id: 'ls', name: 'Larry Summers', email: 'larry@example.com' },
-  { id: 'sb', name: 'Steve Bannon', email: 'steve@example.com' },
-  { id: 'ks', name: 'Ken Starr', email: 'ken@example.com' },
-  { id: 'ji', name: 'Joi Ito', email: 'joi@example.com' },
-  { id: 'gm', name: 'Ghislaine Maxwell', email: 'ghislaine@example.com' },
-  { id: 'nc', name: 'Noam Chomsky', email: 'noam@example.com' },
-  { id: 'tp', name: 'Tom Pritzker', email: 'tom@example.com' },
-  { id: 'ad', name: 'Alan Dershowitz', email: 'alan@example.com' },
-  { id: 'as', name: 'Al Seckel', email: 'al@example.com' },
+  {
+    id: 'mw',
+    name: 'Michael Wolff',
+    email: 'michael@example.com',
+    bio: 'Journalist and author focused on politics and media narratives.',
+  },
+  {
+    id: 'ls',
+    name: 'Larry Summers',
+    email: 'larry@example.com',
+    bio: 'Economist and policy adviser frequently engaged in public debate.',
+  },
+  {
+    id: 'sb',
+    name: 'Steve Bannon',
+    email: 'steve@example.com',
+    bio: 'Media executive and political strategist involved in populist movements.',
+  },
+  {
+    id: 'ks',
+    name: 'Ken Starr',
+    email: 'ken@example.com',
+    bio: 'Lawyer and former judge known for work on high-profile investigations.',
+  },
+  {
+    id: 'ji',
+    name: 'Joi Ito',
+    email: 'joi@example.com',
+    bio: 'Technology investor and advocate for open, experimental innovation.',
+  },
+  {
+    id: 'gm',
+    name: 'Ghislaine Maxwell',
+    email: 'ghislaine@example.com',
+    bio: 'Socialite connected to networks across business, media, and philanthropy.',
+  },
+  {
+    id: 'nc',
+    name: 'Noam Chomsky',
+    email: 'noam@example.com',
+    bio: 'Linguist and social critic whose writings span language, politics, and history.',
+  },
+  {
+    id: 'tp',
+    name: 'Tom Pritzker',
+    email: 'tom@example.com',
+    bio: 'Business executive and philanthropist active in global initiatives.',
+  },
+  {
+    id: 'ad',
+    name: 'Alan Dershowitz',
+    email: 'alan@example.com',
+    bio: 'Lawyer and legal scholar known for high-profile public commentary.',
+  },
+  {
+    id: 'as',
+    name: 'Al Seckel',
+    email: 'al@example.com',
+    bio: 'Writer and presenter who popularized ideas about visual perception and illusions.',
+  },
 ];
 
 export const emails: Email[] = [
