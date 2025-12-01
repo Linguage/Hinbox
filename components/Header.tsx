@@ -26,7 +26,7 @@
 
   return (
     <header className="flex items-center justify-between px-4 py-2 bg-surface border-b border-subtle sticky top-0 z-50 h-16">
-      <div className="flex items-center gap-4 w-64">
+      <div className="flex items-center gap-4 w-auto md:w-64">
         <button className="icon-btn" onClick={onToggleSidebar}>
           <Menu className="w-6 h-6" />
         </button>
@@ -55,8 +55,8 @@
         </div>
       </div>
 
-      <div className="flex items-center gap-2 w-64 justify-end">
-        <div className="relative">
+      <div className="flex items-center gap-2 w-auto md:w-64 justify-end">
+        <div className="relative hidden md:block">
           <button
             className="icon-btn"
             onClick={() => setShowAbout((open) => !open)}
@@ -79,7 +79,7 @@
           )}
         </div>
         <button
-          className="icon-btn"
+          className="icon-btn hidden md:inline-flex"
           onClick={onOpenThemeSidebar}
           title="主题设置"
         >

@@ -20,6 +20,12 @@ export default function AppShell({ children }: AppShellProps) {
     }
   }, [theme]);
 
+  useEffect(() => {
+    if (typeof window !== 'undefined' && window.innerWidth < 768) {
+      setSidebarCollapsed(true);
+    }
+  }, []);
+
   return (
     <div className="h-screen flex flex-col overflow-hidden relative">
       <Header
@@ -27,7 +33,10 @@ export default function AppShell({ children }: AppShellProps) {
         onOpenThemeSidebar={() => setShowThemeSidebar((prev) => !prev)}
       />
       <div className="flex flex-1 overflow-hidden pt-2">
-        <Sidebar collapsed={sidebarCollapsed} />
+        <Sidebar
+          collapsed={sidebarCollapsed}
+          onOpenThemeSidebar={() => setShowThemeSidebar((prev) => !prev)}
+        />
         {children}
       </div>
 

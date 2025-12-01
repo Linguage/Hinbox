@@ -1,17 +1,19 @@
-'use client';
+ 'use client';
 
-import { Pencil, Inbox, Star, Send, Users } from 'lucide-react';
+ import { Pencil, Inbox, Star, Send, Users, CircleHelp, Settings, X } from 'lucide-react';
 import { people } from '@/lib/data';
 import clsx from 'clsx';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
-import { Suspense } from 'react';
+import { Suspense, useState } from 'react';
 
 interface SidebarProps {
   collapsed?: boolean;
+  onOpenThemeSidebar?: () => void;
 }
 
-function SidebarContent({ collapsed = false }: SidebarProps) {
+function SidebarContent({ collapsed = false, onOpenThemeSidebar }: SidebarProps) {
+  const [showMobileAbout, setShowMobileAbout] = useState(false);
   const searchParams = useSearchParams();
   const selectedPersonId = searchParams.get('person');
   const selectedLabel = searchParams.get('label') || 'Inbox'; // Default to Inbox if no params
@@ -99,6 +101,35 @@ function SidebarContent({ collapsed = false }: SidebarProps) {
               </Link>
             ))}
           </div>
+
+          {/* Mobile-only settings section */}
+          <div className="mt-6 md:hidden">
+            <div className="px-6 pb-2 text-xs font-medium text-muted uppercase tracking-wider">
+              SETTINGS
+            </div>
+            <button
+              type="button"
+              onClick={() => setShowMobileAbout((prev) => !prev)}
+              className="w-full text-left"
+            >
+              <SidebarItem
+                icon={<CircleHelp className="w-4 h-4" />}
+                label="关于"
+                isActive={false}
+              />
+            </button>
+            <button
+              type="button"
+              onClick={() => onOpenThemeSidebar?.()}
+              className="w-full text-left mt-1"
+            >
+              <SidebarItem
+                icon={<Settings className="w-4 h-4" />}
+                label="主题设置"
+                isActive={false}
+              />
+            </button>
+          </div>
         </nav>
       ) : (
         // Collapsed icon-only navigation
@@ -143,16 +174,62 @@ function SidebarContent({ collapsed = false }: SidebarProps) {
               <Users className="w-5 h-5" />
             </button>
           </Link>
+          {/* Mobile-only icons for About & Theme */}
+          <button
+            type="button"
+            onClick={() => setShowMobileAbout((prev) => !prev)}
+            className="w-10 h-10 flex items-center justify-center rounded-full hover-surface-soft text-main md:hidden"
+          >
+            <CircleHelp className="w-5 h-5" />
+          </button>
+          <button
+            type="button"
+            onClick={() => onOpenThemeSidebar?.()}
+            className="w-10 h-10 flex items-center justify-center rounded-full hover-surface-soft text-main md:hidden"
+          >
+            <Settings className="w-5 h-5" />
+          </button>
         </nav>
+      )}
+
+      {showMobileAbout && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 md:hidden"
+          onClick={() => setShowMobileAbout(false)}
+        >
+          <div
+            className="mx-6 rounded-2xl bg-surface border border-subtle p-4 text-xs text-main max-w-sm w-full shadow-2xl"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flex items-center justify-between mb-1">
+              <span className="font-semibold">关于本站</span>
+              <button
+                type="button"
+                className="icon-btn p-1 text-muted hover:text-main"
+                onClick={() => setShowMobileAbout(false)}
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+            <p className="mb-2">
+              这是一个以 Gmail 界面为灵感的博客与阅读空间，用“收件箱”的方式整理名人相关内容。
+            </p>
+            <ul className="list-disc list-inside space-y-1 text-[11px] text-muted">
+              <li>左侧标签可以在不同人物、文件夹之间切换。</li>
+              <li>点击中间列表中的条目可查看全文，上方按钮支持全屏预览。</li>
+              <li>右上角九宫格按钮可作为快速入口，跳转到常用站点或工具。</li>
+            </ul>
+          </div>
+        </div>
       )}
     </aside>
   );
 }
 
-export default function Sidebar({ collapsed = false }: SidebarProps) {
+export default function Sidebar({ collapsed = false, onOpenThemeSidebar }: SidebarProps) {
   return (
     <Suspense fallback={<div className={collapsed ? "w-16" : "w-64"} />}>
-      <SidebarContent collapsed={collapsed} />
+      <SidebarContent collapsed={collapsed} onOpenThemeSidebar={onOpenThemeSidebar} />
     </Suspense>
   );
 }
