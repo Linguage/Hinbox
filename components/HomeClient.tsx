@@ -17,19 +17,49 @@ function HomeContent({ allEmails, people }: HomeClientProps) {
   const searchParams = useSearchParams();
   const selectedPersonId = searchParams.get('person');
   const selectedLabel = searchParams.get('label') || 'Inbox';
+  const rawQuery = (searchParams.get('q') || '').trim().toLowerCase();
+  const searchMode: 'meta' | 'full' = searchParams.get('searchMode') === 'full' ? 'full' : 'meta';
 
   // Filter Logic
   const currentPerson = selectedPersonId ? people.find(p => p.id === selectedPersonId) : null;
   const isContactsView = !currentPerson && selectedLabel === 'Contacts';
   
   const filteredEmails = allEmails.filter(email => {
+    // 1. 先按人物 / 标签过滤
     if (currentPerson) {
-      return email.labels.includes(currentPerson.name) || email.sender === currentPerson.name;
-    }
-    if (isContactsView) {
+      if (!(email.labels.includes(currentPerson.name) || email.sender === currentPerson.name)) {
+        return false;
+      }
+    } else if (isContactsView) {
       return false;
+    } else {
+      if (!email.labels.includes(selectedLabel)) {
+        return false;
+      }
     }
-    return email.labels.includes(selectedLabel);
+
+    // 2. 再按站内搜索关键字过滤
+    if (!rawQuery) return true;
+
+    const metaText = [
+      email.subject,
+      email.snippet,
+      email.sender,
+      (email.labels || []).join(' '),
+    ]
+      .filter(Boolean)
+      .join(' ') // 合并为一个字符串
+      .toLowerCase();
+
+    const inMeta = metaText.includes(rawQuery);
+    if (searchMode === 'meta') {
+      return inMeta;
+    }
+
+    // 全文搜索：在 meta 匹配基础上，额外检查正文 HTML 内容
+    if (inMeta) return true;
+    const bodyText = (email.body || '').toLowerCase();
+    return bodyText.includes(rawQuery);
   });
 
   // Overview 文案
