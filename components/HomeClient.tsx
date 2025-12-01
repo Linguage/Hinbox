@@ -4,10 +4,13 @@ import { useSearchParams } from 'next/navigation';
 import EmailList from '@/components/EmailList';
 import ContactsList from '@/components/ContactsList';
 import { Person, Email } from '@/lib/data';
-import { ChevronLeft, ChevronRight, RefreshCcw, MoreVertical } from 'lucide-react';
-import { Suspense } from 'react';
+import { ChevronLeft, ChevronRight, RefreshCcw, MoreVertical, Sparkles, X } from 'lucide-react';
+import { Suspense, useState } from 'react';
 import OverviewBar from '@/components/OverviewBar';
 import GiscusComments from '@/components/GiscusComments';
+import clsx from 'clsx';
+
+const PAGE_SIZE = 25;
 
 interface HomeClientProps {
   allEmails: Email[];
@@ -20,6 +23,8 @@ function HomeContent({ allEmails, people }: HomeClientProps) {
   const selectedLabel = searchParams.get('label') || 'Inbox';
   const rawQuery = (searchParams.get('q') || '').trim().toLowerCase();
   const searchMode: 'meta' | 'full' = searchParams.get('searchMode') === 'full' ? 'full' : 'meta';
+  const [showOverviewSidebar, setShowOverviewSidebar] = useState(false);
+  const [pageIndex, setPageIndex] = useState(0);
 
   // Filter Logic
   const currentPerson = selectedPersonId ? people.find(p => p.id === selectedPersonId) : null;
@@ -64,6 +69,19 @@ function HomeContent({ allEmails, people }: HomeClientProps) {
     return bodyText.includes(rawQuery);
   });
 
+  const isPaginatedList = !isContactsView && !isGuestbookView;
+  const totalItems = filteredEmails.length;
+
+  let pageStartIndex = 0;
+  let pageEndIndex = totalItems;
+
+  if (isPaginatedList && totalItems > 0) {
+    const totalPages = Math.ceil(totalItems / PAGE_SIZE);
+    const safePageIndex = Math.min(pageIndex, totalPages - 1);
+    pageStartIndex = safePageIndex * PAGE_SIZE;
+    pageEndIndex = Math.min(totalItems, pageStartIndex + PAGE_SIZE);
+  }
+
   // Overview 文案
   let overviewText = '';
   if (currentPerson) {
@@ -80,16 +98,58 @@ function HomeContent({ allEmails, people }: HomeClientProps) {
     overviewText = `Overview of messages filtered by label "${selectedLabel}".`;
   }
 
-  const listSummaryText = isContactsView
-    ? `${people.length} contacts`
-    : isGuestbookView
-      ? 'Guestbook (Giscus)'
-      : `1-25 of ${filteredEmails.length}`;
+  let listSummaryText: string;
+  if (isContactsView) {
+    listSummaryText = `${people.length} contacts`;
+  } else if (isGuestbookView) {
+    listSummaryText = 'Guestbook (Giscus)';
+  } else if (totalItems === 0) {
+    listSummaryText = '0 of 0';
+  } else {
+    listSummaryText = `${pageStartIndex + 1}-${pageEndIndex} of ${totalItems}`;
+  }
+
+  const canPrev = isPaginatedList && totalItems > 0 && pageStartIndex > 0;
+  const canNext = isPaginatedList && totalItems > 0 && pageEndIndex < totalItems;
+
+  const goPrevPage = () => {
+    if (!canPrev) return;
+    setPageIndex((prev) => Math.max(0, prev - 1));
+  };
+
+  const goNextPage = () => {
+    if (!canNext) return;
+    setPageIndex((prev) => prev + 1);
+  };
+
+  const visibleEmails = isPaginatedList
+    ? filteredEmails.slice(pageStartIndex, pageEndIndex)
+    : filteredEmails;
+
+  const overviewSidebarContent = (
+    <>
+      <div className="flex items-center justify-between px-4 py-3 border-b border-subtle">
+        <div className="flex items-center gap-2">
+          <Sparkles className="w-4 h-4 text-accent" />
+          <span className="text-sm font-medium text-main">Overview</span>
+        </div>
+        <button
+          className="icon-btn p-1 text-muted hover:text-main"
+          onClick={() => setShowOverviewSidebar(false)}
+        >
+          <X className="w-4 h-4" />
+        </button>
+      </div>
+      <div className="flex-1 overflow-y-auto pb-4">
+        <div className="pt-3">
+          <OverviewBar description={overviewText} />
+        </div>
+      </div>
+    </>
+  );
 
   return (
     <main className="flex-1 flex flex-col min-w-0">
-      <OverviewBar description={overviewText} />
-
       {/* Toolbar */}
       <div className="flex items-center justify-between px-4 pb-2">
         <div className="flex items-center gap-4">
@@ -107,13 +167,28 @@ function HomeContent({ allEmails, people }: HomeClientProps) {
         <div className="flex items-center gap-4 text-xs text-gray-500">
           <span>{listSummaryText}</span>
           <div className="flex items-center">
-            <button className="p-1 hover:bg-gray-200 rounded-full disabled:opacity-50">
+            <button
+              className="p-1 hover:bg-gray-200 rounded-full disabled:opacity-50"
+              onClick={goPrevPage}
+              disabled={!canPrev}
+            >
               <ChevronLeft className="w-4 h-4" />
             </button>
-            <button className="p-1 hover:bg-gray-200 rounded-full">
+            <button
+              className="p-1 hover:bg-gray-200 rounded-full disabled:opacity-50"
+              onClick={goNextPage}
+              disabled={!canNext}
+            >
               <ChevronRight className="w-4 h-4" />
             </button>
           </div>
+          <button
+            className="icon-btn p-1 ml-1 hover-surface-soft hover:text-accent"
+            title={showOverviewSidebar ? '隐藏 Overview' : '显示 Overview'}
+            onClick={() => setShowOverviewSidebar((open) => !open)}
+          >
+            <Sparkles className="w-4 h-4" />
+          </button>
         </div>
       </div>
 
@@ -124,21 +199,52 @@ function HomeContent({ allEmails, people }: HomeClientProps) {
         </div>
       )}
 
-      {isContactsView ? (
-        <ContactsList people={people} />
-      ) : isGuestbookView ? (
-        <div className="flex-1 overflow-y-auto px-5 pb-4">
-          <div className="max-w-3xl">
-            <h2 className="text-lg font-medium text-main mb-2">留言板</h2>
-            <p className="text-xs text-muted mb-4">
-              这里是博客的公开留言板。使用 GitHub 账号登录后，可以通过 Giscus 发表留言或回复他人评论。
-            </p>
-            <GiscusComments term="guestbook" />
-          </div>
+      <div className="flex-1 flex min-h-0">
+        <div
+          className={clsx(
+            'flex-1 min-w-0',
+            showOverviewSidebar && 'border-r border-subtle'
+          )}
+        >
+          {isContactsView ? (
+            <ContactsList people={people} />
+          ) : isGuestbookView ? (
+            <div className="flex-1 overflow-y-auto px-5 pb-4">
+              <div className="max-w-3xl">
+                <h2 className="text-lg font-medium text-main mb-2">留言板</h2>
+                <p className="text-xs text-muted mb-4">
+                  这里是博客的公开留言板。使用 GitHub 账号登录后，可以通过 Giscus 发表留言或回复他人评论。
+                </p>
+                <GiscusComments term="guestbook" />
+              </div>
+            </div>
+          ) : (
+            <EmailList emails={visibleEmails} />
+          )}
         </div>
-      ) : (
-        <EmailList emails={filteredEmails} />
-      )}
+
+        {showOverviewSidebar && (
+          <>
+            {/* 桌面端：右侧并排显示 */}
+            <aside className="hidden md:flex w-80 border-l border-subtle bg-surface-soft flex-col shrink-0">
+              {overviewSidebarContent}
+            </aside>
+
+            {/* 移动端：覆盖在主内容上方 */}
+            <div
+              className="fixed inset-0 z-40 bg-black/40 flex justify-end md:hidden"
+              onClick={() => setShowOverviewSidebar(false)}
+            >
+              <aside
+                className="h-full w-[calc(100%-3.5rem)] max-w-xs border-l border-subtle bg-surface-soft flex flex-col shadow-xl"
+                onClick={(e) => e.stopPropagation()}
+              >
+                {overviewSidebarContent}
+              </aside>
+            </div>
+          </>
+        )}
+      </div>
     </main>
   );
 }

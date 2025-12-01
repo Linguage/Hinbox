@@ -1,7 +1,7 @@
  'use client';
 
 import { Pencil, Inbox, Star, Send, Users, CircleHelp, Settings, X, Menu } from 'lucide-react';
-import { people } from '@/lib/data';
+import { people, emails } from '@/lib/data';
 import { aboutSite, siteLogoLetters } from '@/ui/assets/ui';
 import clsx from 'clsx';
 import Link from 'next/link';
@@ -21,6 +21,27 @@ function SidebarContent({ collapsed = false, onOpenThemeSidebar, onToggleSidebar
   const searchParams = useSearchParams();
   const selectedPersonId = searchParams.get('person');
   const selectedLabel = searchParams.get('label') || 'Inbox'; // Default to Inbox if no params
+
+  const now = new Date();
+  const weekAgo = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000);
+
+  const isWithinLastWeek = (dateString: string) => {
+    const d = new Date(dateString);
+    if (Number.isNaN(d.getTime())) return false;
+    return d >= weekAgo && d <= now;
+  };
+
+  const inboxWeeklyCount = emails.filter(
+    (email) => email.labels.includes('Inbox') && isWithinLastWeek(email.date)
+  ).length;
+
+  const sentWeeklyCount = emails.filter(
+    (email) => email.labels.includes('Sent') && isWithinLastWeek(email.date)
+  ).length;
+
+  const starredWeeklyCount = emails.filter(
+    (email) => email.isStarred && isWithinLastWeek(email.date)
+  ).length;
 
   // Determine active state logic
   const isInboxActive = !selectedPersonId && selectedLabel === 'Inbox';
@@ -71,7 +92,7 @@ function SidebarContent({ collapsed = false, onOpenThemeSidebar, onToggleSidebar
               <SidebarItem
                 icon={<Inbox className="w-4 h-4" />}
                 label="Inbox"
-                count={2233}
+                count={inboxWeeklyCount}
                 isActive={isInboxActive}
               />
             </Link>
@@ -79,6 +100,7 @@ function SidebarContent({ collapsed = false, onOpenThemeSidebar, onToggleSidebar
               <SidebarItem
                 icon={<Star className="w-4 h-4" />}
                 label="Starred"
+                count={starredWeeklyCount}
                 isActive={isStarredActive}
               />
             </Link>
@@ -86,7 +108,7 @@ function SidebarContent({ collapsed = false, onOpenThemeSidebar, onToggleSidebar
               <SidebarItem
                 icon={<Send className="w-4 h-4" />}
                 label="Sent"
-                count={1495}
+                count={sentWeeklyCount}
                 isActive={isSentActive}
               />
             </Link>
