@@ -38,7 +38,7 @@ export default function ThemeSidebar({ open, theme, onClose, onChangeTheme }: Th
   ];
 
   return (
-    <div className="absolute top-16 right-0 bottom-0 z-40 flex">
+    <div className="absolute top-16 right-0 bottom-0 z-[80] flex">
       <aside className="w-72 h-full bg-surface border-l border-subtle shadow-xl flex flex-col">
         <div className="flex items-center justify-between px-4 py-3 border-b border-subtle">
           <div className="flex flex-col">
