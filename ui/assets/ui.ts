@@ -22,17 +22,14 @@ export interface SiteLogoLetter {
   colorClass: string;
 }
 
-// Logo 文本：Linguista
+// Logo 文本：Hinbox
 export const siteLogoLetters: SiteLogoLetter[] = [
-  { char: 'L', colorClass: 'text-blue-500' },
+  { char: 'H', colorClass: 'text-blue-500' },
   { char: 'i', colorClass: 'text-red-500' },
   { char: 'n', colorClass: 'text-yellow-500' },
-  { char: 'g', colorClass: 'text-green-500' },
-  { char: 'u', colorClass: 'text-blue-500' },
-  { char: 'i', colorClass: 'text-red-500' },
-  { char: 's', colorClass: 'text-yellow-500' },
-  { char: 't', colorClass: 'text-green-500' },
-  { char: 'a', colorClass: 'text-blue-500' },
+  { char: 'b', colorClass: 'text-green-500' },
+  { char: 'o', colorClass: 'text-blue-500' },
+  { char: 'x', colorClass: 'text-red-500' },
 ];
 
 export const siteSearchPlaceholder = '站内搜索（标题、摘要、发件人、标签）';

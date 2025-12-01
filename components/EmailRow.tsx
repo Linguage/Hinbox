@@ -1,5 +1,6 @@
- 'use client';
+  'use client';
 
+ import { useEffect, useState } from 'react';
  import { Star, Paperclip, Archive, Trash2, Mail, Clock } from 'lucide-react';
  import { Email, people } from '@/lib/data';
  import clsx from 'clsx';
@@ -13,13 +14,42 @@ interface EmailRowProps {
 export default function EmailRow({ email, selected }: EmailRowProps) {
   const person = people.find((p) => p.name === email.sender);
 
+  const [effectiveIsRead, setEffectiveIsRead] = useState<boolean>(email.isRead);
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+
+    // 仅最近一周的内容才允许显示为“未读”
+    const emailDate = new Date(email.date);
+    const now = Date.now();
+    const diffMs = now - (isNaN(emailDate.getTime()) ? now : emailDate.getTime());
+    const weekMs = 7 * 24 * 60 * 60 * 1000;
+    const isOlderThanWeek = diffMs > weekMs;
+
+    let locallyMarkedRead = false;
+    try {
+      const raw = window.localStorage.getItem('hinbox:readEmails');
+      if (raw) {
+        const list = JSON.parse(raw);
+        if (Array.isArray(list)) {
+          locallyMarkedRead = list.includes(email.id);
+        }
+      }
+    } catch {
+      // 本地存储解析失败时，忽略并退回到默认逻辑
+    }
+
+    // 基础 isRead + 本地标记 + 超过一周都视为“已读”（不再加粗）
+    setEffectiveIsRead(email.isRead || locallyMarkedRead || isOlderThanWeek);
+  }, [email]);
+
   return (
     <Link href={`/mail/${email.id}`} className="block">
       <div
         className={clsx(
           "group flex items-center px-4 py-2 border-b border-subtle hover:shadow-md hover:z-10 relative cursor-pointer transition-shadow bg-surface",
           selected && "bg-accent-soft",
-          !email.isRead && "font-bold"
+          !effectiveIsRead && "font-bold"
         )}
       >
         {/* Controls */}
@@ -36,7 +66,7 @@ export default function EmailRow({ email, selected }: EmailRowProps) {
         <div
           className={clsx(
             "relative w-48 pr-4 text-sm",
-            !email.isRead ? "font-bold text-main" : "text-main"
+            !effectiveIsRead ? "font-bold text-main" : "text-main"
           )}
         >
           <span className="block max-w-full truncate peer">{email.sender}</span>
@@ -52,7 +82,7 @@ export default function EmailRow({ email, selected }: EmailRowProps) {
         <div className="flex-1 flex items-center gap-2 text-sm text-muted">
           <div className="relative flex items-center gap-2 min-w-0">
             <span
-              className={clsx("truncate peer", !email.isRead ? "font-bold text-black" : "")}
+              className={clsx("truncate peer", !effectiveIsRead ? "font-bold text-black" : "")}
             >
               {email.subject}
             </span>

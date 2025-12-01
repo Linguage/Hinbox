@@ -62,6 +62,18 @@ function SafeHtmlViewer({ content, isFullScreen }: { content: string, isFullScre
   return <div dangerouslySetInnerHTML={{ __html: content }} />;
 }
 
+function decodeHtmlEntities(text: string): string {
+  return text
+    .replace(/&amp;(#x[0-9a-fA-F]+;)/g, '$1')
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, hex) => String.fromCharCode(parseInt(hex, 16)))
+    .replace(/&#(\d+);/g, (_, num) => String.fromCharCode(parseInt(num, 10)))
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&apos;/g, "'");
+}
+
 function extractHeadingsFromHtml(html?: string) {
   if (!html) return [] as { level: number; text: string }[];
 
@@ -77,8 +89,9 @@ function extractHeadingsFromHtml(html?: string) {
       .replace(/&nbsp;/g, ' ')
       .trim();
 
-    if (rawText) {
-      headings.push({ level, text: rawText });
+    const decoded = decodeHtmlEntities(rawText);
+    if (decoded) {
+      headings.push({ level, text: decoded });
     }
   }
 
@@ -88,9 +101,132 @@ function extractHeadingsFromHtml(html?: string) {
 export default function MailContent({ email }: MailContentProps) {
   const [isFullScreen, setIsFullScreen] = useState(false);
   const [showPreviewSidebar, setShowPreviewSidebar] = useState(false);
+  const contentRef = useRef<HTMLDivElement | null>(null);
+  const scrollContainerRef = useRef<HTMLDivElement | null>(null);
+
+  // 打开文章时，将该邮件标记为“已读”（写入本地存储）
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    try {
+      const key = 'hinbox:readEmails';
+      const raw = window.localStorage.getItem(key);
+      let list: string[] = [];
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        if (Array.isArray(parsed)) {
+          list = parsed;
+        }
+      }
+      if (!list.includes(email.id)) {
+        list.push(email.id);
+        window.localStorage.setItem(key, JSON.stringify(list));
+      }
+    } catch {
+      // 失败时忽略，不影响页面展示
+    }
+  }, [email.id]);
 
   const overviewText = `Overview of this page. "${email.subject}" from ${email.sender} on ${email.date}. Labels: ${email.labels.join(', ')}.`;
   const headings = extractHeadingsFromHtml(email.body);
+  const mdTheme = email.mdTheme || 'default';
+  const isAmpTheme = mdTheme === 'amp';
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+
+    const handler = () => {
+      const anyWindow = window as any;
+      if (!anyWindow.MathJax || typeof anyWindow.MathJax.typesetPromise !== 'function') {
+        return;
+      }
+      if (!contentRef.current) return;
+      try {
+        if (typeof anyWindow.MathJax.typesetClear === 'function') {
+          anyWindow.MathJax.typesetClear([contentRef.current]);
+        }
+        anyWindow.MathJax.typesetPromise([contentRef.current]);
+      } catch {
+      }
+    };
+
+    handler();
+    window.addEventListener('MathJaxReady', handler);
+    return () => {
+      window.removeEventListener('MathJaxReady', handler);
+    };
+  }, [email.id, email.body, mdTheme, isAmpTheme, isFullScreen, showPreviewSidebar]);
+
+  const handleHeadingClick = (index: number) => {
+    if (!contentRef.current) return;
+    const headingNodes = contentRef.current.querySelectorAll('h1, h2, h3');
+    if (!headingNodes.length || index < 0 || index >= headingNodes.length) return;
+
+    const target = headingNodes[index] as HTMLElement | undefined;
+    if (!target) return;
+
+    const container = scrollContainerRef.current;
+    if (!container) {
+      try {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      } catch {
+      }
+      return;
+    }
+
+    const containerRect = container.getBoundingClientRect();
+    const targetRect = target.getBoundingClientRect();
+    const offset = targetRect.top - containerRect.top + container.scrollTop - 16;
+
+    container.scrollTo({
+      top: offset,
+      behavior: 'smooth',
+    });
+  };
+
+  const previewSidebarContent = (
+    <>
+      <div className="flex items-center justify-between px-4 py-3 border-b border-subtle">
+        <div className="flex items-center gap-2">
+          <Sparkles className="w-4 h-4 text-accent" />
+          <span className="text-sm font-medium text-main">预览</span>
+        </div>
+        <button
+          className="icon-btn p-1 text-muted hover:text-main"
+          onClick={() => setShowPreviewSidebar(false)}
+        >
+          <X className="w-4 h-4" />
+        </button>
+      </div>
+      <div className="flex-1 overflow-y-auto pb-4">
+        <div className="pt-3">
+          <OverviewBar description={overviewText} />
+        </div>
+        <div className="mt-2 px-4">
+          <div className="text-xs font-semibold text-muted mb-2">目录</div>
+          {headings.length === 0 ? (
+            <p className="text-xs text-muted">当前内容暂无可提取的标题。</p>
+          ) : (
+            <ul className="space-y-1 text-xs text-main">
+              {headings.map((h, index) => (
+                <li
+                  key={`${h.level}-${index}`}
+                  className={clsx(
+                    "truncate cursor-pointer hover:text-accent",
+                    h.level === 1 && "font-medium",
+                    h.level === 2 && "pl-3",
+                    h.level === 3 && "pl-5 text-muted"
+                  )}
+                  onClick={() => handleHeadingClick(index)}
+                >
+                  {h.text}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      </div>
+    </>
+  );
 
   return (
     <main 
@@ -141,6 +277,7 @@ export default function MailContent({ email }: MailContentProps) {
         <div className="flex h-full">
           {/* 主内容区域 */}
           <div
+            ref={scrollContainerRef}
             className={clsx(
               "flex-1 overflow-y-auto px-8 py-6 bg-surface",
               showPreviewSidebar && "border-r border-subtle"
@@ -192,83 +329,65 @@ export default function MailContent({ email }: MailContentProps) {
             {/* Email Body (Blog Content) */}
             <div
               className={clsx(
-                "prose max-w-none text-main text-sm leading-relaxed",
-                isFullScreen && "max-w-4xl mx-auto text-base"
+                isAmpTheme && "md-theme-amp-outer",
+                isFullScreen && !isAmpTheme && "max-w-4xl mx-auto"
               )}
             >
-              {email.body ? (
-                <SafeHtmlViewer content={email.body} isFullScreen={isFullScreen} />
-              ) : (
-                <div>
-                  <p>{email.snippet}</p>
-                  <p className="mt-4 text-muted italic">[This is a placeholder for the full blog content. Add 'body' to data.ts to see more.]</p>
-                </div>
-              )}
+              <div
+                ref={contentRef}
+                className={clsx(
+                  "prose max-w-none text-main text-sm leading-relaxed",
+                  mdTheme === 'default' && "md-theme-default",
+                  isAmpTheme && "md-theme-amp",
+                  isFullScreen && !isAmpTheme && "text-base"
+                )}
+              >
+                {email.body ? (
+                  <SafeHtmlViewer content={email.body} isFullScreen={isFullScreen} />
+                ) : (
+                  <div>
+                    <p>{email.snippet}</p>
+                    <p className="mt-4 text-muted italic">[This is a placeholder for the full blog content. Add 'body' to data.ts to see more.]</p>
+                  </div>
+                )}
+              </div>
             </div>
 
-            {/* Reply Box Area */}
+            {/* Reply & Comments Area (Giscus) */}
             <div className={clsx("mt-12 flex items-start gap-4", isFullScreen && "max-w-4xl mx-auto")}>
               <div className="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center text-white text-lg shrink-0">
                 J
               </div>
-              <div className="flex-1 border border-subtle rounded-lg shadow-sm p-4 cursor-text text-muted text-sm hover:shadow-md transition-shadow bg-surface">
-                Reply to {email.sender}...
+              <div className="flex-1 border border-subtle rounded-lg shadow-sm p-4 text-sm bg-surface">
+                <div className="text-xs text-muted mb-3">
+                  使用 GitHub 账号登录后，可以在下方对当前文章发表评论（由 Giscus 提供支持）。
+                </div>
+                <GiscusComments term={`post-${email.id}`} />
               </div>
-            </div>
-
-            {/* Comments Section (Giscus) */}
-            <div className={clsx("mt-10", isFullScreen && "max-w-4xl mx-auto")}>
-              <h2 className="text-sm font-medium text-main mb-2">评论</h2>
-              <p className="text-xs text-muted mb-3">
-                使用 GitHub 账号登录后，可以在这里对当前文章进行评论（由 Giscus 提供支持）。
-              </p>
-              <GiscusComments term={`post-${email.id}`} />
             </div>
           </div>
 
           {/* 右侧预览侧边栏 */}
           {showPreviewSidebar && (
-            <aside className="w-80 border-l border-subtle bg-surface-soft flex flex-col shrink-0">
-              <div className="flex items-center justify-between px-4 py-3 border-b border-subtle">
-                <div className="flex items-center gap-2">
-                  <Sparkles className="w-4 h-4 text-accent" />
-                  <span className="text-sm font-medium text-main">预览</span>
-                </div>
-                <button
-                  className="icon-btn p-1 text-muted hover:text-main"
-                  onClick={() => setShowPreviewSidebar(false)}
+            <>
+              {/* 桌面端：右侧并排显示 */}
+              <aside className="hidden md:flex w-80 border-l border-subtle bg-surface-soft flex-col shrink-0">
+                {previewSidebarContent}
+              </aside>
+
+              {/* 移动端：覆盖在主内容上方 */}
+              <div
+                className="fixed inset-0 z-40 bg-black/40 flex justify-end md:hidden"
+                onClick={() => setShowPreviewSidebar(false)}
+              >
+                <aside
+                  className="h-full w-[calc(100%-3.5rem)] max-w-xs border-l border-subtle bg-surface-soft flex flex-col shadow-xl"
+                  onClick={(e) => e.stopPropagation()}
                 >
-                  <X className="w-4 h-4" />
-                </button>
+                  {previewSidebarContent}
+                </aside>
               </div>
-              <div className="flex-1 overflow-y-auto pb-4">
-                <div className="pt-3">
-                  <OverviewBar description={overviewText} />
-                </div>
-                <div className="mt-2 px-4">
-                  <div className="text-xs font-semibold text-muted mb-2">目录</div>
-                  {headings.length === 0 ? (
-                    <p className="text-xs text-muted">当前内容暂无可提取的标题。</p>
-                  ) : (
-                    <ul className="space-y-1 text-xs text-main">
-                      {headings.map((h, index) => (
-                        <li
-                          key={`${h.level}-${index}`}
-                          className={clsx(
-                            "truncate",
-                            h.level === 1 && "font-medium",
-                            h.level === 2 && "pl-3",
-                            h.level === 3 && "pl-5 text-muted"
-                          )}
-                        >
-                          {h.text}
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-                </div>
-              </div>
-            </aside>
+            </>
           )}
         </div>
       </div>

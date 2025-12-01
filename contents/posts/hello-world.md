@@ -6,6 +6,7 @@ date: "Oct 21, 2023"
 labels: ["Inbox", "Michael Wolff"]
 isStarred: true
 isRead: false
+mdTheme: amp
 ---
 
 # The Beginning

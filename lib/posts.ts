@@ -17,7 +17,7 @@ async function processFile(filePath: string, id: string, isMarkdown: boolean) {
 
   if (isMarkdown) {
     const processedContent = await remark()
-      .use(html)
+      .use(html, { sanitize: false })
       .process(matterResult.content);
     contentHtml = processedContent.toString();
   }
@@ -32,7 +32,8 @@ async function processFile(filePath: string, id: string, isMarkdown: boolean) {
         date: string;
         labels: string[];
         isStarred?: boolean;
-        isRead?: boolean; 
+        isRead?: boolean;
+        mdTheme?: 'default' | 'amp';
     }),
   };
 }
@@ -71,7 +72,8 @@ export async function getEmailsFromPosts(): Promise<Email[]> {
     isStarred: post.isStarred ?? false,
     hasAttachment: false,
     labels: post.labels || [],
-    body: post.contentHtml
+    body: post.contentHtml,
+    mdTheme: post.mdTheme || 'default',
   }));
 }
 

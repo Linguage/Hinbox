@@ -11,6 +11,7 @@ export interface Email {
   hasAttachment: boolean;
   labels: string[]; // e.g., "Inbox", "Sent", "Michael Wolff"
   body?: string; // The actual blog post content
+  mdTheme?: 'default' | 'amp';
 }
 
 export interface Person {
