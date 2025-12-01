@@ -1,5 +1,7 @@
 import { getEmailsFromPosts } from '@/lib/posts';
 
+export const dynamic = 'force-static';
+
 function escapeXml(value: string): string {
   return value
     .replace(/&/g, '&amp;')
