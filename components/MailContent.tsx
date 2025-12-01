@@ -94,14 +94,14 @@ export default function MailContent({ email }: MailContentProps) {
   return (
     <main 
       className={clsx(
-        "flex flex-col bg-white overflow-hidden transition-all duration-300",
+        "flex flex-col bg-surface overflow-hidden transition-all duration-300",
         isFullScreen 
           ? "fixed inset-0 z-[100]" 
           : "flex-1 m-2 rounded-2xl shadow-sm min-w-0"
       )}
     >
       {/* Toolbar */}
-      <div className="flex items-center justify-between px-6 py-3 border-b border-gray-100 bg-white shrink-0">
+      <div className="flex items-center justify-between px-6 py-3 border-b border-subtle bg-surface shrink-0">
         <div className="flex items-center gap-4">
           {!isFullScreen && (
             <Link href="/" className="icon-btn p-2">
@@ -116,16 +116,16 @@ export default function MailContent({ email }: MailContentProps) {
           </div>
         </div>
         
-        <div className="flex items-center gap-2 text-gray-500">
+        <div className="flex items-center gap-2 text-muted">
           <button
-            className="icon-btn p-2 hover:bg-blue-50 hover:text-blue-600"
+            className="icon-btn p-2 hover-surface-soft hover:text-accent"
             onClick={() => setShowPreviewSidebar((open) => !open)}
             title={showPreviewSidebar ? '隐藏预览侧边栏' : '显示预览侧边栏'}
           >
             <Sparkles className="w-5 h-5" />
           </button>
           <button 
-            className="icon-btn p-2 hover:bg-blue-50 hover:text-blue-600" 
+            className="icon-btn p-2 hover-surface-soft hover:text-accent" 
             onClick={() => setIsFullScreen(!isFullScreen)}
             title={isFullScreen ? "Exit Full Screen" : "Full Screen View"}
           >
@@ -136,18 +136,18 @@ export default function MailContent({ email }: MailContentProps) {
       </div>
 
       {/* Scrollable Content Area */}
-      <div className="flex-1 overflow-hidden bg-white">
+      <div className="flex-1 overflow-hidden bg-surface">
         <div className="flex h-full">
           {/* 主内容区域 */}
           <div
             className={clsx(
-              "flex-1 overflow-y-auto px-8 py-6 bg-white",
-              showPreviewSidebar && "border-r border-gray-100"
+              "flex-1 overflow-y-auto px-8 py-6 bg-surface",
+              showPreviewSidebar && "border-r border-subtle"
             )}
           >
             {/* Subject Header */}
             <div className="flex items-start justify-between mb-6">
-              <h1 className="text-2xl font-normal text-gray-900">{email.subject}</h1>
+              <h1 className="text-2xl font-normal text-main">{email.subject}</h1>
               <div className="flex items-center gap-2">
                 <button className="icon-btn">
                   <Printer className="w-5 h-5" />
@@ -166,10 +166,10 @@ export default function MailContent({ email }: MailContentProps) {
               <div className="flex-1 min-w-0">
                 <div className="flex items-center justify-between">
                   <div className="flex items-baseline gap-2">
-                    <span className="font-bold text-gray-900">{email.sender}</span>
-                    <span className="text-sm text-gray-500">&lt;{email.sender.toLowerCase().replace(/\s+/g, '.')}@example.com&gt;</span>
+                    <span className="font-bold text-main">{email.sender}</span>
+                    <span className="text-sm text-muted">&lt;{email.sender.toLowerCase().replace(/\s+/g, '.')}@example.com&gt;</span>
                   </div>
-                  <div className="flex items-center gap-4 text-xs text-gray-500">
+                  <div className="flex items-center gap-4 text-xs text-muted">
                     <span>{email.date}</span>
                     <div className="flex items-center gap-2">
                       <button className="icon-btn p-1">
@@ -184,14 +184,14 @@ export default function MailContent({ email }: MailContentProps) {
                     </div>
                   </div>
                 </div>
-                <div className="text-xs text-gray-500 mt-0.5">to me</div>
+                <div className="text-xs text-muted mt-0.5">to me</div>
               </div>
             </div>
 
             {/* Email Body (Blog Content) */}
             <div
               className={clsx(
-                "prose max-w-none text-gray-800 text-sm leading-relaxed",
+                "prose max-w-none text-main text-sm leading-relaxed",
                 isFullScreen && "max-w-4xl mx-auto text-base"
               )}
             >
@@ -200,7 +200,7 @@ export default function MailContent({ email }: MailContentProps) {
               ) : (
                 <div>
                   <p>{email.snippet}</p>
-                  <p className="mt-4 text-gray-400 italic">[This is a placeholder for the full blog content. Add 'body' to data.ts to see more.]</p>
+                  <p className="mt-4 text-muted italic">[This is a placeholder for the full blog content. Add 'body' to data.ts to see more.]</p>
                 </div>
               )}
             </div>
@@ -210,7 +210,7 @@ export default function MailContent({ email }: MailContentProps) {
               <div className="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center text-white text-lg shrink-0">
                 J
               </div>
-              <div className="flex-1 border border-gray-300 rounded-lg shadow-sm p-4 cursor-text text-gray-500 text-sm hover:shadow-md transition-shadow">
+              <div className="flex-1 border border-subtle rounded-lg shadow-sm p-4 cursor-text text-muted text-sm hover:shadow-md transition-shadow bg-surface">
                 Reply to {email.sender}...
               </div>
             </div>
@@ -218,14 +218,14 @@ export default function MailContent({ email }: MailContentProps) {
 
           {/* 右侧预览侧边栏 */}
           {showPreviewSidebar && (
-            <aside className="w-80 border-l border-gray-200 bg-gray-50/80 flex flex-col shrink-0">
-              <div className="flex items-center justify-between px-4 py-3 border-b border-gray-200">
+            <aside className="w-80 border-l border-subtle bg-surface-soft flex flex-col shrink-0">
+              <div className="flex items-center justify-between px-4 py-3 border-b border-subtle">
                 <div className="flex items-center gap-2">
-                  <Sparkles className="w-4 h-4 text-blue-500" />
-                  <span className="text-sm font-medium text-gray-900">预览</span>
+                  <Sparkles className="w-4 h-4 text-accent" />
+                  <span className="text-sm font-medium text-main">预览</span>
                 </div>
                 <button
-                  className="icon-btn p-1 text-gray-500 hover:text-gray-700"
+                  className="icon-btn p-1 text-muted hover:text-main"
                   onClick={() => setShowPreviewSidebar(false)}
                 >
                   <X className="w-4 h-4" />
@@ -236,11 +236,11 @@ export default function MailContent({ email }: MailContentProps) {
                   <OverviewBar description={overviewText} />
                 </div>
                 <div className="mt-2 px-4">
-                  <div className="text-xs font-semibold text-gray-500 mb-2">目录</div>
+                  <div className="text-xs font-semibold text-muted mb-2">目录</div>
                   {headings.length === 0 ? (
-                    <p className="text-xs text-gray-400">当前内容暂无可提取的标题。</p>
+                    <p className="text-xs text-muted">当前内容暂无可提取的标题。</p>
                   ) : (
-                    <ul className="space-y-1 text-xs text-gray-700">
+                    <ul className="space-y-1 text-xs text-main">
                       {headings.map((h, index) => (
                         <li
                           key={`${h.level}-${index}`}
@@ -248,7 +248,7 @@ export default function MailContent({ email }: MailContentProps) {
                             "truncate",
                             h.level === 1 && "font-medium",
                             h.level === 2 && "pl-3",
-                            h.level === 3 && "pl-5 text-gray-500"
+                            h.level === 3 && "pl-5 text-muted"
                           )}
                         >
                           {h.text}

@@ -1,13 +1,14 @@
-'use client';
+ 'use client';
 
-import { useState } from 'react';
-import { Menu, Search, SlidersHorizontal, CircleHelp, Settings, Grid } from 'lucide-react';
+ import { useState } from 'react';
+ import { Menu, Search, SlidersHorizontal, CircleHelp, Settings, Grid } from 'lucide-react';
 
-interface HeaderProps {
+ interface HeaderProps {
   onToggleSidebar?: () => void;
-}
+  onOpenThemeSidebar?: () => void;
+ }
 
-export default function Header({ onToggleSidebar }: HeaderProps) {
+ export default function Header({ onToggleSidebar, onOpenThemeSidebar }: HeaderProps) {
   const [showApps, setShowApps] = useState(false);
   const [showAbout, setShowAbout] = useState(false);
 
@@ -24,7 +25,7 @@ export default function Header({ onToggleSidebar }: HeaderProps) {
   ];
 
   return (
-    <header className="flex items-center justify-between px-4 py-2 bg-white border-b border-gray-200 sticky top-0 z-50 h-16">
+    <header className="flex items-center justify-between px-4 py-2 bg-surface border-b border-subtle sticky top-0 z-50 h-16">
       <div className="flex items-center gap-4 w-64">
         <button className="icon-btn" onClick={onToggleSidebar}>
           <Menu className="w-6 h-6" />
@@ -64,12 +65,12 @@ export default function Header({ onToggleSidebar }: HeaderProps) {
           </button>
 
           {showAbout && (
-            <div className="absolute right-0 mt-3 w-80 rounded-2xl bg-white shadow-2xl border border-gray-200 p-4 text-sm text-gray-700">
-              <div className="font-semibold text-gray-900 mb-1">关于本站</div>
+            <div className="absolute right-0 mt-3 w-80 rounded-2xl bg-surface shadow-2xl border border-subtle p-4 text-sm text-main">
+              <div className="font-semibold text-main mb-1">关于本站</div>
               <p className="mb-2">
                 这是一个以 Gmail 界面为灵感的博客与阅读空间，用“收件箱”的方式整理名人相关内容。
               </p>
-              <ul className="list-disc list-inside space-y-1 text-xs text-gray-600">
+              <ul className="list-disc list-inside space-y-1 text-xs text-muted">
                 <li>左侧标签可以在不同人物、文件夹之间切换。</li>
                 <li>点击中间列表中的条目可查看全文，上方按钮支持全屏预览。</li>
                 <li>右上角九宫格按钮可作为快速入口，跳转到常用站点或工具。</li>
@@ -77,7 +78,11 @@ export default function Header({ onToggleSidebar }: HeaderProps) {
             </div>
           )}
         </div>
-        <button className="icon-btn">
+        <button
+          className="icon-btn"
+          onClick={onOpenThemeSidebar}
+          title="主题设置"
+        >
           <Settings className="w-6 h-6" />
         </button>
         <div className="relative">
@@ -89,7 +94,7 @@ export default function Header({ onToggleSidebar }: HeaderProps) {
           </button>
 
           {showApps && (
-            <div className="absolute right-0 mt-3 w-80 max-h-[480px] overflow-y-auto rounded-2xl bg-white shadow-2xl border border-gray-200 p-4">
+            <div className="absolute right-0 mt-3 w-80 max-h-[480px] overflow-y-auto rounded-2xl bg-surface shadow-2xl border border-subtle p-4">
               <div className="grid grid-cols-3 gap-4">
                 {apps.map((app) => (
                   <a
@@ -104,7 +109,7 @@ export default function Header({ onToggleSidebar }: HeaderProps) {
                     >
                       {app.initial}
                     </div>
-                    <span className="text-xs text-gray-700 text-center truncate w-16">
+                    <span className="text-xs text-main text-center truncate w-16">
                       {app.name}
                     </span>
                   </a>

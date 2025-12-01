@@ -9,7 +9,7 @@ interface EmailListProps {
 
 export default function EmailList({ emails }: EmailListProps) {
   return (
-    <div className="flex-1 overflow-y-auto bg-white rounded-tl-2xl shadow-sm mr-2 mb-2">
+    <div className="flex-1 overflow-y-auto bg-surface rounded-tl-2xl shadow-sm mr-2 mb-2">
       {emails.map((email) => (
         <EmailRow
           key={email.id}

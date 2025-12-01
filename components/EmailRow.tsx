@@ -17,9 +17,9 @@ export default function EmailRow({ email, selected }: EmailRowProps) {
     <Link href={`/mail/${email.id}`} className="block">
       <div
         className={clsx(
-          "group flex items-center px-4 py-2 border-b border-gray-200 hover:shadow-md hover:z-10 relative cursor-pointer transition-shadow",
-          selected ? "bg-blue-50" : "bg-white hover:bg-gray-50",
-          !email.isRead && "bg-white font-bold"
+          "group flex items-center px-4 py-2 border-b border-subtle hover:shadow-md hover:z-10 relative cursor-pointer transition-shadow bg-surface",
+          selected && "bg-accent-soft",
+          !email.isRead && "font-bold"
         )}
       >
         {/* Controls */}
@@ -36,7 +36,7 @@ export default function EmailRow({ email, selected }: EmailRowProps) {
         <div
           className={clsx(
             "relative w-48 pr-4 text-sm",
-            !email.isRead ? "font-bold text-black" : "text-gray-700"
+            !email.isRead ? "font-bold text-main" : "text-main"
           )}
         >
           <span className="block max-w-full truncate peer">{email.sender}</span>
@@ -49,7 +49,7 @@ export default function EmailRow({ email, selected }: EmailRowProps) {
         </div>
 
         {/* Subject & Snippet */}
-        <div className="flex-1 flex items-center gap-2 text-sm text-gray-600">
+        <div className="flex-1 flex items-center gap-2 text-sm text-muted">
           <div className="relative flex items-center gap-2 min-w-0">
             <span
               className={clsx("truncate peer", !email.isRead ? "font-bold text-black" : "")}
@@ -63,8 +63,8 @@ export default function EmailRow({ email, selected }: EmailRowProps) {
               </div>
             )}
           </div>
-          <span className="text-gray-400">-</span>
-          <span className="truncate text-gray-500">
+          <span className="text-muted">-</span>
+          <span className="truncate text-muted">
             {email.snippet}
           </span>
         </div>
@@ -78,11 +78,11 @@ export default function EmailRow({ email, selected }: EmailRowProps) {
           )}
           
           {/* Date or Hover Actions */}
-          <div className="group-hover:hidden text-xs font-bold text-gray-500 text-right w-[80px]">
+          <div className="group-hover:hidden text-xs font-bold text-muted text-right w-[80px]">
             {email.date}
           </div>
 
-          <div className="hidden group-hover:flex items-center gap-1 text-gray-500" onClick={(e) => e.preventDefault()}>
+          <div className="hidden group-hover:flex items-center gap-1 text-muted" onClick={(e) => e.preventDefault()}>
              <button className="icon-btn p-2" title="Archive">
                <Archive className="w-4 h-4" />
              </button>
