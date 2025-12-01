@@ -1,6 +1,6 @@
  'use client';
 
- import { useState } from 'react';
+ import { Suspense, useState } from 'react';
  import { Menu, Search, SlidersHorizontal, CircleHelp, Settings, Grid } from 'lucide-react';
  import { usePathname, useRouter, useSearchParams } from 'next/navigation';
  import clsx from 'clsx';
@@ -11,7 +11,7 @@
   onOpenThemeSidebar?: () => void;
  }
 
- export default function Header({ onToggleSidebar, onOpenThemeSidebar }: HeaderProps) {
+ function HeaderContent({ onToggleSidebar, onOpenThemeSidebar }: HeaderProps) {
   const [showApps, setShowApps] = useState(false);
   const [showAbout, setShowAbout] = useState(false);
   const [isMobileSearchActive, setIsMobileSearchActive] = useState(false);
@@ -225,4 +225,29 @@
       </div>
     </header>
   );
-}
+ }
+
+ export default function Header(props: HeaderProps) {
+  return (
+    <Suspense
+      fallback={
+        <header className="flex items-center justify-between px-4 py-2 bg-surface border-b border-subtle sticky top-0 z-50 h-16">
+          <div className="flex items-center gap-4 w-auto md:w-64">
+            <div className="w-9 h-9 rounded-full bg-gray-200" />
+            <div className="w-24 h-6 rounded bg-gray-200" />
+          </div>
+          <div className="flex-1 mx-4 max-w-2xl">
+            <div className="w-full h-10 rounded-lg bg-gray-200" />
+          </div>
+          <div className="items-center gap-2 w-auto md:w-64 justify-end hidden md:flex">
+            <div className="w-8 h-8 rounded-full bg-gray-200" />
+            <div className="w-8 h-8 rounded-full bg-gray-200" />
+            <div className="w-8 h-8 rounded-full bg-gray-200" />
+          </div>
+        </header>
+      }
+    >
+      <HeaderContent {...props} />
+    </Suspense>
+  );
+ }
