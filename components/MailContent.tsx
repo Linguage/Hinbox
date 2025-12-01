@@ -1,7 +1,7 @@
  'use client';
 
  import { useState, useEffect, useRef } from 'react';
- import { Email } from '@/lib/data';
+ import { Email, people } from '@/lib/data';
  import { ArrowLeft, Printer, ExternalLink, Star, Reply, MoreVertical, Maximize2, Minimize2, Sparkles, X } from 'lucide-react';
  import Link from 'next/link';
  import clsx from 'clsx';
@@ -103,6 +103,7 @@ export default function MailContent({ email }: MailContentProps) {
   const [showPreviewSidebar, setShowPreviewSidebar] = useState(false);
   const contentRef = useRef<HTMLDivElement | null>(null);
   const scrollContainerRef = useRef<HTMLDivElement | null>(null);
+  const commentsRef = useRef<HTMLDivElement | null>(null);
 
   // 打开文章时，将该邮件标记为“已读”（写入本地存储）
   useEffect(() => {
@@ -130,6 +131,18 @@ export default function MailContent({ email }: MailContentProps) {
   const headings = extractHeadingsFromHtml(email.body);
   const mdTheme = email.mdTheme || 'default';
   const isAmpTheme = mdTheme === 'amp';
+
+  const matchedPerson = people.find((p) => p.name === email.sender);
+  const fallbackAddress = `${email.sender.toLowerCase().replace(/\s+/g, '.')}` + '@example.com';
+  const displayAddress = email.senderEmail ?? matchedPerson?.email ?? fallbackAddress;
+
+  const addressHref = displayAddress
+    ? displayAddress.startsWith('http://') || displayAddress.startsWith('https://')
+      ? displayAddress
+      : displayAddress.startsWith('mailto:')
+        ? displayAddress
+        : `mailto:${displayAddress}`
+    : undefined;
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
@@ -165,6 +178,30 @@ export default function MailContent({ email }: MailContentProps) {
     if (!target) return;
 
     const container = scrollContainerRef.current;
+    if (!container) {
+      try {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      } catch {
+      }
+      return;
+    }
+
+    const containerRect = container.getBoundingClientRect();
+    const targetRect = target.getBoundingClientRect();
+    const offset = targetRect.top - containerRect.top + container.scrollTop - 16;
+
+    container.scrollTo({
+      top: offset,
+      behavior: 'smooth',
+    });
+  };
+
+  const handleScrollToComments = () => {
+    if (!commentsRef.current) return;
+
+    const container = scrollContainerRef.current;
+    const target = commentsRef.current;
+
     if (!container) {
       try {
         target.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -298,22 +335,42 @@ export default function MailContent({ email }: MailContentProps) {
 
             {/* Sender Info Row */}
             <div className="flex items-start gap-4 mb-8">
-              <div className="w-10 h-10 rounded-full bg-purple-600 flex items-center justify-center text-white font-medium text-lg shrink-0">
-                {email.sender[0]}
-              </div>
+              {/* Avatar: click to filter by person when matched */}
+              {matchedPerson ? (
+                <Link
+                  href={`/?person=${matchedPerson.id}`}
+                  className="w-10 h-10 rounded-full bg-purple-600 flex items-center justify-center text-white font-medium text-lg shrink-0 hover:bg-purple-500"
+                >
+                  {email.sender[0]}
+                </Link>
+              ) : (
+                <div className="w-10 h-10 rounded-full bg-purple-600 flex items-center justify-center text-white font-medium text-lg shrink-0">
+                  {email.sender[0]}
+                </div>
+              )}
+
+              {/* Name + meta + address block */}
               <div className="flex-1 min-w-0">
                 <div className="flex items-center justify-between">
-                  <div className="flex items-baseline gap-2">
-                    <span className="font-bold text-main">{email.sender}</span>
-                    <span className="text-sm text-muted">&lt;{email.sender.toLowerCase().replace(/\s+/g, '.')}@example.com&gt;</span>
+                  <div className="flex items-baseline gap-2 min-w-0">
+                    {matchedPerson ? (
+                      <Link
+                        href={`/?person=${matchedPerson.id}`}
+                        className="font-bold text-main truncate hover:text-accent"
+                      >
+                        {email.sender}
+                      </Link>
+                    ) : (
+                      <span className="font-bold text-main truncate">{email.sender}</span>
+                    )}
                   </div>
-                  <div className="flex items-center gap-4 text-xs text-muted">
+                  <div className="flex items-center gap-4 text-xs text-muted shrink-0">
                     <span>{email.date}</span>
                     <div className="flex items-center gap-2">
                       <button className="icon-btn p-1">
                         <Star className="w-4 h-4" />
                       </button>
-                      <button className="icon-btn p-1">
+                      <button className="icon-btn p-1" onClick={handleScrollToComments}>
                         <Reply className="w-4 h-4" />
                       </button>
                       <button className="icon-btn p-1">
@@ -322,7 +379,22 @@ export default function MailContent({ email }: MailContentProps) {
                     </div>
                   </div>
                 </div>
-                <div className="text-xs text-muted mt-0.5">to me</div>
+
+                {/* Address / website line under the name */}
+                <div className="text-xs text-muted mt-0.5 min-w-0">
+                  {displayAddress && addressHref ? (
+                    <a
+                      href={addressHref}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="truncate hover:text-accent hover:underline underline-offset-2"
+                    >
+                      {displayAddress}
+                    </a>
+                  ) : (
+                    <span className="truncate">{displayAddress}</span>
+                  )}
+                </div>
               </div>
             </div>
 
@@ -354,7 +426,10 @@ export default function MailContent({ email }: MailContentProps) {
             </div>
 
             {/* Reply & Comments Area (Giscus) */}
-            <div className={clsx("mt-12", isFullScreen && "max-w-4xl mx-auto")}>              
+            <div
+              ref={commentsRef}
+              className={clsx("mt-12", isFullScreen && "max-w-4xl mx-auto")}
+            >
               <GiscusComments term={`post-${email.id}`} />
             </div>
           </div>
