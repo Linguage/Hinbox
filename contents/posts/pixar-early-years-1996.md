@@ -1,21 +1,22 @@
 ---
-sender: "Jobs Archive"
-subject: "乔布斯关于皮克斯：那些不为人知的故事"
-snippet: "乔布斯关于皮克斯：那些不为人知的故事"
-date: "Nov 29, 2025"
-labels: ["Inbox", "Investment"]
-isStarred: true
+sender: "Hinbox"
+subject: "皮克斯的早期岁月：一段从未公开的1996年访谈"
+snippet: ""
+overview: >
+  
+date: "2025-12-02"
+labels: ["Inbox"]
+isStarred: false
 isRead: false
 mdTheme: amp
 ---
-
-# 一段从未公开的1996年访谈
+# 皮克斯的早期岁月：一段从未公开的1996年访谈
 
 [主页](https://stevejobsarchive.com/)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/R0XmBKsRJF8?si=He1BNRpsdgKHLF2Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
+一段从未公开的1996年访谈
 
 2025年11月18日
 

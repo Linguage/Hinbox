@@ -179,6 +179,22 @@ export default function MailContent({ email }: MailContentProps) {
   useEffect(() => {
     if (typeof window === 'undefined') return;
 
+    // 仅在正文中明显包含 TeX 数学标记时才调用 MathJax，
+    // 避免在普通括号/英文标题上进行不必要的数学排版。
+    const bodyHtml = email.body || '';
+    const hasTeXMath =
+      bodyHtml.includes('$') ||
+      bodyHtml.includes('\\(') ||
+      bodyHtml.includes('\\)') ||
+      bodyHtml.includes('\\[') ||
+      bodyHtml.includes('\\]') ||
+      bodyHtml.includes('\\begin{') ||
+      bodyHtml.includes('\\end{');
+
+    if (!hasTeXMath) {
+      return;
+    }
+
     const handler = () => {
       const anyWindow = window as any;
       if (!anyWindow.MathJax || typeof anyWindow.MathJax.typesetPromise !== 'function') {

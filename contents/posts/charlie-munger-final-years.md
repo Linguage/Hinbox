@@ -1,14 +1,15 @@
 ---
-sender: "WSJ"
+sender: "Hinbox"
 subject: "查理·芒格最后的岁月里，那些不为人知的故事"
-snippet: "查理·芒格最后的岁月里，那些不为人知的故事"
-date: "Nov 29, 2025"
-labels: ["Inbox", "Investment"]
-isStarred: true
+snippet: ""
+overview: >
+  
+date: "2025-12-02"
+labels: ["Inbox"]
+isStarred: false
 isRead: false
 mdTheme: amp
 ---
-
 
 # 查理·芒格最后的岁月里，那些不为人知的故事
 
@@ -287,10 +288,3 @@ mdTheme: amp
 
 他们进行了最后的告别。
 
-[主页](https://stevejobsarchive.com/)
-
-
-
-<iframe width="560" height="420" src="https://www.youtube.com/embed/St40YbtYLZo?si=_hLj6WaJoLGSKgL3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-一段从未公开的1996年访谈
