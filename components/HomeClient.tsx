@@ -202,7 +202,7 @@ function HomeContent({ allEmails, people }: HomeClientProps) {
       <div className="flex-1 flex min-h-0">
         <div
           className={clsx(
-            'flex-1 min-w-0',
+            'flex-1 min-w-0 flex flex-col min-h-0',
             showOverviewSidebar && 'border-r border-subtle'
           )}
         >
