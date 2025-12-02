@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
+import remarkGfm from 'remark-gfm';
 import html from 'remark-html';
 import { Email } from './data';
 
@@ -17,6 +18,7 @@ async function processFile(filePath: string, id: string, isMarkdown: boolean) {
 
   if (isMarkdown) {
     const processedContent = await remark()
+      .use(remarkGfm)
       .use(html, { sanitize: false })
       .process(matterResult.content);
     contentHtml = processedContent.toString();

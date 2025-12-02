@@ -98,6 +98,73 @@ function extractHeadingsFromHtml(html?: string) {
   return headings;
 }
 
+function detectTeXInHtml(html?: string): boolean {
+  if (!html) return false;
+
+  if (
+    !html.includes('$') &&
+    !html.includes('\\(') &&
+    !html.includes('\\)') &&
+    !html.includes('\\[') &&
+    !html.includes('\\]') &&
+    !html.includes('\\begin{') &&
+    !html.includes('\\end{')
+  ) {
+    return false;
+  }
+
+  const container = document.createElement('div');
+  container.innerHTML = html;
+
+  const shouldSkip = (el: Element) => {
+    const tag = el.tagName.toLowerCase();
+    return (
+      tag === 'pre' ||
+      tag === 'code' ||
+      tag === 'kbd' ||
+      tag === 'samp' ||
+      tag === 'script' ||
+      tag === 'style' ||
+      tag === 'textarea' ||
+      tag === 'mjx-container'
+    );
+  };
+
+  const hasMathInNode = (node: Node): boolean => {
+    if (node.nodeType === Node.ELEMENT_NODE) {
+      const el = node as Element;
+      if (shouldSkip(el)) return false;
+      for (let i = 0; i < el.childNodes.length; i += 1) {
+        if (hasMathInNode(el.childNodes[i])) return true;
+      }
+      return false;
+    }
+
+    if (node.nodeType === Node.TEXT_NODE) {
+      const text = node.textContent || '';
+      if (!text) return false;
+      // 只在存在成对的数学定界符时才认为是 TeX，避免将 $HOME、$ amp 等 Shell 用法误判为数学公式
+      const dollarMath = /(^|[^\\])\$[^$]+\$/; // $...$
+      const hasDollarMath = dollarMath.test(text) || /\$\$[^$]*\$\$/.test(text); // $$...$$
+
+      const hasParenMath = text.includes('\\(') && text.includes('\\)');
+      const hasBracketMath = text.includes('\\[') && text.includes('\\]');
+      const hasEnvMath = text.includes('\\begin{') && text.includes('\\end{');
+
+      return hasDollarMath || hasParenMath || hasBracketMath || hasEnvMath;
+    }
+
+    return false;
+  };
+
+  for (let i = 0; i < container.childNodes.length; i += 1) {
+    if (hasMathInNode(container.childNodes[i])) {
+      return true;
+    }
+  }
+  return false;
+}
+
 export default function MailContent({ email }: MailContentProps) {
   const [isFullScreen, setIsFullScreen] = useState(false);
   const [showPreviewSidebar, setShowPreviewSidebar] = useState(false);
@@ -182,14 +249,7 @@ export default function MailContent({ email }: MailContentProps) {
     // 仅在正文中明显包含 TeX 数学标记时才调用 MathJax，
     // 避免在普通括号/英文标题上进行不必要的数学排版。
     const bodyHtml = email.body || '';
-    const hasTeXMath =
-      bodyHtml.includes('$') ||
-      bodyHtml.includes('\\(') ||
-      bodyHtml.includes('\\)') ||
-      bodyHtml.includes('\\[') ||
-      bodyHtml.includes('\\]') ||
-      bodyHtml.includes('\\begin{') ||
-      bodyHtml.includes('\\end{');
+    const hasTeXMath = detectTeXInHtml(bodyHtml);
 
     if (!hasTeXMath) {
       return;
