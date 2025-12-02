@@ -2,7 +2,7 @@
 
  import { useState, useEffect, useRef } from 'react';
  import { Email, people } from '@/lib/data';
- import { ArrowLeft, Printer, ExternalLink, Star, Reply, MoreVertical, Maximize2, Minimize2, Sparkles, X } from 'lucide-react';
+ import { ArrowLeft, Printer, ExternalLink, Star, Reply, MoreVertical, Maximize2, Minimize2, Sparkles, X, Folder, Tag, FolderTree } from 'lucide-react';
  import Link from 'next/link';
  import clsx from 'clsx';
  import OverviewBar from '@/components/OverviewBar';
@@ -101,6 +101,7 @@ function extractHeadingsFromHtml(html?: string) {
 export default function MailContent({ email }: MailContentProps) {
   const [isFullScreen, setIsFullScreen] = useState(false);
   const [showPreviewSidebar, setShowPreviewSidebar] = useState(false);
+  const [activeMeta, setActiveMeta] = useState<'tags' | 'category' | null>(null);
   const contentRef = useRef<HTMLDivElement | null>(null);
   const scrollContainerRef = useRef<HTMLDivElement | null>(null);
   const commentsRef = useRef<HTMLDivElement | null>(null);
@@ -143,6 +144,37 @@ export default function MailContent({ email }: MailContentProps) {
         ? displayAddress
         : `mailto:${displayAddress}`
     : undefined;
+
+  const systemFolderLabels = ['Inbox', 'Sent'];
+  const folderLabel =
+    email.labels.find((label) => systemFolderLabels.includes(label)) ?? 'Inbox';
+  const tagLabels = email.labels.filter(
+    (label) => !systemFolderLabels.includes(label)
+  );
+  let folderPathSegments: string[] = [];
+
+  if (email.sourcePath) {
+    const rawParts = email.sourcePath.split(/[\\/]/).filter(Boolean);
+    if (rawParts.length > 1) {
+      // Use directory segments only, up to the parent of the file
+      folderPathSegments = rawParts.slice(0, -1);
+    } else {
+      // If we only have a file name with no parent directory, fall back to labels
+      folderPathSegments = [folderLabel, ...tagLabels];
+    }
+  } else {
+    // Fallback: derive a pseudo-path from folder + tags
+    folderPathSegments = [folderLabel, ...tagLabels];
+  }
+
+  if (folderPathSegments.length > 3) {
+    folderPathSegments = folderPathSegments.slice(0, 3);
+  }
+
+  const tagsText = tagLabels.length > 0 ? tagLabels.join(', ') : '无标签';
+  const categoryText = tagLabels.length > 0 ? tagLabels[0] : folderLabel;
+  const folderPathTitle =
+    folderPathSegments.length > 0 ? folderPathSegments.join(' / ') : '';
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
@@ -276,18 +308,29 @@ export default function MailContent({ email }: MailContentProps) {
     >
       {/* Toolbar */}
       <div className="flex items-center justify-between px-6 py-3 border-b border-subtle bg-surface shrink-0">
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-3 sm:gap-4">
           {!isFullScreen && (
             <Link href="/" className="icon-btn p-2">
               <ArrowLeft className="w-5 h-5 text-gray-600" />
             </Link>
           )}
-          <div className="flex items-center gap-2">
-             <button className="icon-btn p-2" title="Archive">
-               <div className="w-5 h-5 bg-gray-600 mask-icon" /> 
-               <span className="sr-only">Archive</span>
-             </button>
-          </div>
+          {folderPathSegments.length > 0 && (
+            <div
+              className="hidden sm:flex items-center gap-1 text-[11px] max-w-xs"
+              title={folderPathTitle ? `路径：${folderPathTitle}` : undefined}
+              aria-label={folderPathTitle ? `路径：${folderPathTitle}` : undefined}
+            >
+              <Folder className="w-4 h-4 mr-1" />
+              {folderPathSegments.map((seg, idx) => (
+                <span key={`${seg}-${idx}`} className="truncate max-w-[5rem]">
+                  {seg}
+                  {idx < folderPathSegments.length - 1 && (
+                    <span className="mx-1 text-[10px] text-muted">&gt;</span>
+                  )}
+                </span>
+              ))}
+            </div>
+          )}
         </div>
         
         <div className="flex items-center gap-2 text-muted">
@@ -298,6 +341,44 @@ export default function MailContent({ email }: MailContentProps) {
           >
             <Sparkles className="w-5 h-5" />
           </button>
+          <div className="hidden sm:flex items-center gap-1 text-xs mr-1">
+            <div className="relative">
+              <button
+                className="icon-btn p-1"
+                title={`标签：${tagsText}`}
+                aria-label={`标签：${tagsText}`}
+                onClick={() =>
+                  setActiveMeta((prev) => (prev === 'tags' ? null : 'tags'))
+                }
+              >
+                <Tag className="w-4 h-4" />
+              </button>
+              {activeMeta === 'tags' && (
+                <div className="absolute right-0 mt-1 z-[90] rounded-md border border-subtle bg-surface-soft px-2 py-1 text-[11px] shadow-sm max-w-xs">
+                  <div className="font-medium text-main mb-0.5">标签</div>
+                  <div className="text-muted truncate">{tagsText}</div>
+                </div>
+              )}
+            </div>
+            <div className="relative">
+              <button
+                className="icon-btn p-1"
+                title={`分类：${categoryText}`}
+                aria-label={`分类：${categoryText}`}
+                onClick={() =>
+                  setActiveMeta((prev) => (prev === 'category' ? null : 'category'))
+                }
+              >
+                <FolderTree className="w-4 h-4" />
+              </button>
+              {activeMeta === 'category' && (
+                <div className="absolute right-0 mt-1 z-[90] rounded-md border border-subtle bg-surface-soft px-2 py-1 text-[11px] shadow-sm max-w-xs">
+                  <div className="font-medium text-main mb-0.5">分类</div>
+                  <div className="text-muted truncate">{categoryText}</div>
+                </div>
+              )}
+            </div>
+          </div>
           <button 
             className="icon-btn p-2 hover-surface-soft hover:text-accent" 
             onClick={() => setIsFullScreen(!isFullScreen)}

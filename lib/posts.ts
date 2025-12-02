@@ -22,9 +22,12 @@ async function processFile(filePath: string, id: string, isMarkdown: boolean) {
     contentHtml = processedContent.toString();
   }
 
+  const relativePath = path.relative(contentsDirectory, filePath);
+
   return {
     id,
     contentHtml,
+    sourcePath: relativePath,
     ...(matterResult.data as { 
         sender: string; 
         subject: string; 
@@ -34,6 +37,7 @@ async function processFile(filePath: string, id: string, isMarkdown: boolean) {
         isStarred?: boolean;
         isRead?: boolean;
         mdTheme?: 'default' | 'amp';
+        sourcePath?: string;
     }),
   };
 }
@@ -74,6 +78,7 @@ export async function getEmailsFromPosts(): Promise<Email[]> {
     labels: post.labels || [],
     body: post.contentHtml,
     mdTheme: post.mdTheme || 'default',
+    sourcePath: post.sourcePath,
   }));
 }
 
