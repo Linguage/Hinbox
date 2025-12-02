@@ -52,8 +52,8 @@ export default function EmailRow({ email, selected }: EmailRowProps) {
           !effectiveIsRead && "font-bold"
         )}
       >
-        {/* Controls */}
-        <div className="flex items-center gap-3 min-w-[120px]">
+        {/* Controls (desktop only) */}
+        <div className="hidden sm:flex items-center gap-3 min-w-[120px]">
           <div className="p-2 rounded-full hover:bg-gray-200 text-gray-400" onClick={(e) => e.preventDefault()}>
             <div className="w-4 h-4 border-2 border-gray-400 rounded-sm" />
           </div>
@@ -65,7 +65,7 @@ export default function EmailRow({ email, selected }: EmailRowProps) {
         {/* Sender */}
         <div
           className={clsx(
-            "relative w-48 pr-4 text-sm",
+            "relative w-32 sm:w-48 pr-3 sm:pr-4 text-sm flex-shrink-0",
             !effectiveIsRead ? "font-bold text-main" : "text-main"
           )}
         >
@@ -79,10 +79,13 @@ export default function EmailRow({ email, selected }: EmailRowProps) {
         </div>
 
         {/* Subject & Snippet */}
-        <div className="flex-1 flex items-center gap-2 text-sm text-muted">
+        <div className="flex-1 min-w-0 text-sm text-muted">
           <div className="relative flex items-center gap-2 min-w-0">
             <span
-              className={clsx("truncate peer", !effectiveIsRead ? "font-bold text-black" : "")}
+              className={clsx(
+                "truncate peer",
+                !effectiveIsRead ? "font-bold text-black" : ""
+              )}
             >
               {email.subject}
             </span>
@@ -93,14 +96,15 @@ export default function EmailRow({ email, selected }: EmailRowProps) {
               </div>
             )}
           </div>
-          <span className="text-muted">-</span>
-          <span className="truncate text-muted">
-            {email.snippet}
-          </span>
+          {email.snippet && (
+            <div className="mt-0.5 text-xs text-muted truncate">
+              {email.snippet}
+            </div>
+          )}
         </div>
 
         {/* End Meta */}
-        <div className="flex items-center justify-end min-w-[100px] pl-2 gap-2">
+        <div className="flex items-center justify-end w-[80px] sm:min-w-[100px] pl-2 gap-2 shrink-0">
           {email.hasAttachment && (
             <div className="px-2">
                <Paperclip className="w-4 h-4 text-gray-500" />
@@ -112,7 +116,13 @@ export default function EmailRow({ email, selected }: EmailRowProps) {
             {email.date}
           </div>
 
-          <div className="hidden group-hover:flex items-center gap-1 text-muted" onClick={(e) => e.preventDefault()}>
+          <div
+            className="hidden group-hover:flex items-center gap-1 text-muted bg-surface-soft border border-subtle rounded-full px-1.5 py-0.5 shadow-sm z-20"
+            onClick={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
+            }}
+          >
              <button className="icon-btn p-2" title="Archive">
                <Archive className="w-4 h-4" />
              </button>
