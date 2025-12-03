@@ -2,7 +2,8 @@
 
 import { Pencil, Inbox, Star, Send, Users, CircleHelp, Settings, X, Menu } from 'lucide-react';
 import { people, emails } from '@/lib/data';
-import { aboutSite, siteLogoLetters } from '@/ui/assets/ui';
+import { aboutSite } from '@/ui/assets/ui';
+import { Logo } from '@/ui/logo';
 import clsx from 'clsx';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
@@ -57,13 +58,7 @@ function SidebarContent({ collapsed = false, onOpenThemeSidebar, onToggleSidebar
       )}
     >
       <div className="px-4 pt-3 pb-1 md:hidden">
-        <div className="text-2xl font-semibold flex">
-          {siteLogoLetters.map((item, index) => (
-            <span key={index} className={item.colorClass}>
-              {item.char}
-            </span>
-          ))}
-        </div>
+        <Logo variant="full" className="h-8 w-auto" />
       </div>
       <div className={collapsed ? "p-2" : "p-4"}>
         {collapsed ? (

@@ -1,17 +1,18 @@
  'use client';
 
- import { Suspense, useState } from 'react';
- import { Menu, Search, SlidersHorizontal, CircleHelp, Settings, Grid } from 'lucide-react';
- import { usePathname, useRouter, useSearchParams } from 'next/navigation';
- import clsx from 'clsx';
- import { appShortcuts, siteLogoLetters, siteSearchPlaceholder, aboutSite } from '@/ui/assets/ui';
+import { Suspense, useState } from 'react';
+import { Menu, Search, SlidersHorizontal, CircleHelp, Settings, Grid } from 'lucide-react';
+import { usePathname, useRouter, useSearchParams } from 'next/navigation';
+import clsx from 'clsx';
+import { appShortcuts, siteSearchPlaceholder, aboutSite } from '@/ui/assets/ui';
+import { Logo } from '@/ui/logo';
 
- interface HeaderProps {
+interface HeaderProps {
   onToggleSidebar?: () => void;
   onOpenThemeSidebar?: () => void;
- }
+}
 
- function HeaderContent({ onToggleSidebar, onOpenThemeSidebar }: HeaderProps) {
+function HeaderContent({ onToggleSidebar, onOpenThemeSidebar }: HeaderProps) {
   const [showApps, setShowApps] = useState(false);
   const [showAbout, setShowAbout] = useState(false);
   const [isMobileSearchActive, setIsMobileSearchActive] = useState(false);
@@ -64,19 +65,8 @@
           <Menu className="w-6 h-6" />
         </button>
         <div className="flex items-center gap-2">
-          <div className="text-2xl font-semibold flex">
-            {siteLogoLetters.map((item, index) => (
-              <span
-                key={index}
-                className={clsx(
-                  item.colorClass,
-                  index === 0 ? 'inline-block' : 'hidden md:inline-block'
-                )}
-              >
-                {item.char}
-              </span>
-            ))}
-          </div>
+          <Logo variant="icon" className="md:hidden h-8 w-auto" />
+          <Logo variant="full" className="hidden md:block h-8 w-auto" />
         </div>
       </div>
 
