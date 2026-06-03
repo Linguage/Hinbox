@@ -1,0 +1,213 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T5630,<h1>A Cryptography Engineer’s Perspective on Quantum Computing Timelines</h1>
+<p><a href="https://words.filippo.io/crqc-timeline/">原文链接</a></p>
+<p>近期量子计算领域的突破性研究，正深刻动摇密码学界的传统预期。本文以一线工程师的视角，揭示了抗量子密码部署紧迫性的陡然升级。随着最新论文大幅下调破解现有加密体系的量子比特门槛，业界专家已将“量子威胁”的兑现时间表激进地前移至2029年。作者冷静指出，安全决策的核心不在于“威胁是否绝对发生”，而在于“能否确信它不会发生”。鉴于时间窗口极度压缩，业界已无暇等待理想方案的打磨，必须立刻部署现有的抗量子密码标准。本文既是对前沿风险的精准评估，更是一份写给安全从业者的务实行动倡议。</p>
+<hr>
+<p>与仅仅几个月前相比，我对部署抗量子密码学（quantum-resistant cryptography）紧迫性的立场已经发生了变化。在过去几周里你可能私下听我说起过，但现在是在公开场合表明并论证这一想法转变的时候了。</p>
+<p>一段时间以来，一直有关于在密码学相关量子计算机（cryptographically-relevant quantum computers）方面取得预期和意外进展的传闻，但在过去一周，我们看到了两个公开的实例。</p>
+<p>首先，<a href="https://research.google/blog/safeguarding-cryptocurrency-by-disclosing-quantum-vulnerabilities-responsibly/">Google 发表了一篇论文，大幅下调了破解 NIST P-256 和 secp256k1 等 256 位椭圆曲线（elliptic curves）所需的逻辑量子比特（logical qubits）和逻辑门（gates）的估计数量</a>，这使得在像超导量子比特（superconducting qubits）这样具有快速时钟架构的平台上，攻击可以在几分钟内完成。他们奇怪地 <sup><a href="#user-content-fn-1" id="user-content-fnref-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup> 将其围绕加密货币、内存池（mempools）和打捞货物或其他什么东西来构建框架，但远更重要的含义是实用的 WebPKI 中间人攻击（MitM attacks）。</p>
+<p>紧接着，<a href="https://arxiv.org/abs/2603.28627">Oratomic 发布了另一篇论文，表明如果你拥有非局部连通性（non-local connectivity）（就像中性原子（neutral atoms）似乎提供的那样），得益于更好的纠错（error correction），只需 10,000 个物理量子比特（physical qubits）就能破解 256 位椭圆曲线</a>。这种攻击会慢一些，但即使每个月只有一个密钥被破解也是灾难性的。</p>
+<p>他们在第 2 页有一个非常出色的图表（<em>Babbush et al.</em> 是 Google 的论文，他们大概获得了预览权）：</p>
+<p><img src="https://assets.buttondown.email/images/c768727d-01a9-4f44-919b-bab3c84cb81d.png?w=960&#x26;fit=max" alt="graph of physical qubit cost over time"></p>
+<p>总体而言，似乎一切都在推进：硬件变得更好，算法变得更廉价，纠错的要求变得更低。</p>
+<p>坦白说，我其实并不知道那些论文里的所有物理学内容是什么意思。那不是我的工作，也不是我的专业领域。我的工作包括代表那些将安全托付给我的用户进行风险评估。我所知道的是，至少一些真正的专家正在告诉我们的东西。</p>
+<p>Heather Adkins 和 Sophie Schmieg <a href="https://blog.google/innovation-and-ai/technology/safety-security/cryptography-migration-timeline/">告诉我们</a>，“量子前沿可能比它们看起来的更近”，并且 <strong>2029</strong> 年是他们的最后期限。那是 33 个月后的事，而在本月之前，没有人设定过如此激进的时间表。</p>
+<p>Scott Aaronson <a href="https://scottaaronson.blog/?p=9425">告诉我们</a>，他“目前能在公开场合提供的关于迁移到后量子密码系统（post-quantum cryptosystems）紧迫性的最明确警告”，是与 1939 年至 1940 年间核裂变研究停止在公开场合进行这一情况所作的模糊类比。</p>
+<p>就在几周前的 RWPQC 2026 上提出的时间表，比几年前要紧凑得多，并且已经部分过时了。过去的笑话常说，量子计算机“还需要 10 年”这话已经说了 30 年了。嗯，不再是这样了，时间表已经开始推进。</p>
+<p>如果你在想“好吧，这可能会很糟，也可能什么都不是！”，我需要你认识到这有多么立刻具有决定性（immediately dispositive）。赌注不是“你是否有 100% 的把握 CRQC 会在 2030 年存在？”，赌注是“你是否有 100% 的把握 CRQC 在 2030 年不会存在？”我简直无法理解，一个非专家怎么能在看了专家们说的话之后，还决定“我更懂，实际上概率不到 1%”。请记住，你是在拿你用户的生活做赌注。<sup><a href="#user-content-fn-2" id="user-content-fnref-2" data-footnote-ref aria-describedby="footnote-label">2</a></sup></p>
+<p>换句话说，即使最可能的结果是我们有生之年不会出现 CRQC，那也完全无关紧要，因为我们的用户不想要仅仅略高于五五开的几率 <sup><a href="#user-content-fn-3" id="user-content-fnref-3" data-footnote-ref aria-describedby="footnote-label">3</a></sup> 来获得安全。</p>
+<p>当然，关于算盘和狗的论文很有趣，也能让你在论坛上看起来很聪明、很反传统。但那不是工作，而且那些论点 <a href="https://bas.westerbaan.name/notes/2026/04/02/factoring.html">暴露了专业知识的缺乏</a>。正如 Scott Aaronson <a href="https://scottaaronson.blog/?p=9665#comment-2029013">所说</a>：</p>
+<blockquote>
+<p>一旦你理解了量子容错（quantum fault-tolerance），问“那么你们打算什么时候用 Shor 算法（Shor’s algorithm）分解 35？”就有点像在 1943 年问曼哈顿计划的物理学家们，“那么你们打算什么时候至少制造出一次小规模的核爆炸？”</p>
+</blockquote>
+<p>工作不是对我们不擅长的领域持怀疑态度，工作是缓解可信的威胁，而且有可信的专家正在告诉我们一个迫在眉睫的威胁。</p>
+<p>总而言之，有可能 10 年后这些预测会被证明是错的，但在此时此刻，它们也可能很快就被证明是对的，而这一风险现在是不可接受的。</p>
+<h3>接下来怎么办</h3>
+<p>具体来说，这意味着什么？这意味着我们需要交付。</p>
+<p>遗憾的是，我们必须推出我们现有的东西。<sup><a href="#user-content-fn-4" id="user-content-fnref-4" data-footnote-ref aria-describedby="footnote-label">4</a></sup> 这意味着把<strong>庞大的 ML-DSA 签名</strong>塞进为小巧的 ECDSA 签名设计的地方，比如 X.509，除了 WebPKI 的 Merkle Tree 证书（谢天谢地，它<a href="https://security.googleblog.com/2026/02/cultivating-robust-and-efficient.html">进展得足够快</a>）。</p>
+<p>这<em>不是</em>我想要写的文章。几个月来我一直有一个未完成的草稿，解释说我们现在应该交付抗量子密钥交换（PQ key exchange），但要利用我们仍有的时间去调整协议以适应更大的签名，因为它们在设计时都假定签名开销很小。唉，那另一篇文章现在错了：如果我们需要在 2029 年而不是 2035 年完成，我们没有时间了。</p>
+<p>对于密钥交换，向 ML-KEM 的迁移进展得还算顺利，但是：</p>
+<ol>
+<li>任何**非抗量子密钥交换（non-PQ key exchange）**现在都应被视为潜在的主动泄密，值得警告用户<a href="https://www.openssh.org/pq.html">就像 OpenSSH 所做的那样</a>，因为很难确保通过连接传输或在文件中加密的所有秘密的保存期限短于三年。</li>
+<li>我们需要暂时忘掉<strong>非交互式密钥交换（non-interactive key exchanges (NIKEs)）</strong>；在抗量子工具箱中我们只有 KEM（在没有交互性的情况下只能进行单向认证）。</li>
+</ol>
+<p>部署<strong>非后量子的新方案</strong>不再有意义了。我知道，双线性映射（pairings）很好。我知道，所有抗量子东西都大得烦人。我知道，我们基本<em>才</em>刚刚弄清楚如何安全地在 P-256 上进行 ECDSA。我知道，门限签名或基于身份的加密可能没有实用的抗量子等价物。相信我，我知道这很让人痛心。但现实就是这样。</p>
+<p><strong>混合经典 + 后量子认证变得毫无意义</strong>，只会拖慢我们的速度；我们应该直接使用纯 ML-DSA-44。<sup><a href="#user-content-fn-6" id="user-content-fnref-6" data-footnote-ref aria-describedby="footnote-label">5</a></sup> 混合密钥交换相对容易，其临时密钥甚至不需要为复合私钥指定类型或传输格式，而在几年前，采取这种对冲做法是有意义的。认证不是那样的，即使有包含 18 种复合密钥类型的 <a href="https://www.ietf.org/archive/id/draft-ietf-lamps-pq-composite-sigs-15.html">draft-ietf-lamps-pq-composite-sigs-15</a> 即将发布，我们也会在集体弄清楚如何处理这些复合密钥以及如何将它们展示给用户上浪费宝贵的时间。距离 Kyber 混合方案出现也已经两年了，我们对 Module-Lattice 方案获得了显著的信心。混合签名会消耗时间和复杂度预算，<sup><a href="#user-content-fn-5" id="user-content-fnref-5" data-footnote-ref aria-describedby="footnote-label">6</a></sup>而唯一的好处是在<em>密码学相关量子计算机到来之前</em> ML-DSA 就被经典破解时的保护，这在目前看来是一个错误的权衡。</p>
+<p>在<strong>对称加密</strong>方面，谢天谢地，我们不需要做任何事情。有一个常见的误解，认为防范 Grover 需要 256 位密钥，但<a href="https://words.filippo.io/post-quantum-age/#128-bits-are-enough">那是基于对该算法极其简化的理解</a>。更准确的描述是，在具有 2⁶⁴ 个逻辑门的电路深度（当前经典计算架构在十年内可串行执行的逻辑门的大致数量）下，在 128 位密钥空间上运行 Grover 将需要 2¹⁰⁶ 的电路规模。据我所知，这方面没有任何进展，而且确实有早期的证明<a href="https://arxiv.org/abs/quant-ph/9711070">表明 Grover 是最优的，并且其量子加速不能并行化</a>。不必要的 256 位密钥要求在与真正紧迫的抗量子要求捆绑在一起时是有害的，因为它们混淆了互操作性目标，并有拖慢非对称抗量子密码学部署的风险。</p>
+<p>在我所在的领域，我们将不得不开始思考，Go 标准库中一半的<strong>密码学包</strong>突然变得不安全意味着什么，以及如何平衡降级攻击的风险与向后兼容性。这是我们职业生涯中第一次面临这样的事情：从 SHA-1 到 SHA-256 远没有这么大的破坏性，<sup><a href="#user-content-fn-7" id="user-content-fnref-7" data-footnote-ref aria-describedby="footnote-label">7</a></sup>即使那样也花了很长时间，并且偶尔会出现意外的降级攻击。</p>
+<p>像 Intel SGX 和 AMD SEV-SNP 这样的<strong>可信执行环境（Trusted Execution Environments (TEEs)）</strong>，以及一般的硬件认证，都彻底 f***d 了。它们所有的密钥和根都不是抗量子的，我也没听说在推出抗量子版本方面有任何进展，以硬件的速度来看，这迫使我们不得不接受它们可能来不及，并且无法被依赖。因为这个原因，我不得不重新评估一整个项目，并且我可能会在工具箱中将它们的级别降级为勉强的“纵深防御”。</p>
+<p><strong>具有密码学身份的生态系统</strong>（比如 <a href="https://atproto.com/">atproto</a>，是的，还有加密货币）需要很快开始迁移，因为如果密码学相关量子计算机在他们<em>完成</em>之前到来，他们将不得不做出极其艰难的决定，在让用户被攻破和让用户变砖之间做出选择。</p>
+<p>文件加密特别容易受到先存储后解密攻击，所以我们可能很快不得不开始对非抗量子的 <strong>age 收件人类型</strong>发出警告，然后报错退出。遗憾的是，我们甚至在 . 中添加抗量子收件人才只有几个月的时间。<sup><a href="#user-content-fn-8" id="user-content-fnref-8" data-footnote-ref aria-describedby="footnote-label">8</a></sup></p>
+<p>最后，本周我开始在博洛尼亚大学<strong>教授</strong>一门密码学博士课程，而我将只把 RSA、ECDSA 和 ECDH 作为遗留算法来提及，因为这就是那些学生在他们的职业生涯中会遇到它们的方式。我知道，感觉很奇怪。但现实就是这样。</p>
+<p>想要了解更多关于无论情愿与否的抗量子迁移的内容，请在 Bluesky 上关注 <a href="https://bsky.app/profile/filippo.abyssdomain.expert">@filippo.abyssdomain.expert</a> 或在 Mastodon 上关注 <a href="https://abyssdomain.expert/@filippo">@filippo@abyssdomain.expert</a>。</p>
+<h3>照片</h3>
+<p>从一场精彩的 <a href="https://atmosphereconf.org/">AtmosphereConf 2026</a> 返回途中，我从波音 747 北侧的舷窗看到了我的第一道极光。</p>
+<p><img src="https://assets.buttondown.email/images/e29aa9d6-cb9e-40ee-9340-a2d128ddaabf.jpeg?w=960&#x26;fit=max" alt="从飞机舷窗看到的北极光，云层上方有绿色垂直光柱和光帘，上方黑暗天空中可见星星。"></p>
+<p>我的工作得益于 <a href="https://geomys.org/">Geomys</a> 的支持，这是一个由专业 Go 维护者组成的组织，资金来源于 <a href="https://www.avalabs.org/">Ava Labs</a>、<a href="https://goteleport.com/">Teleport</a>、<a href="https://tailscale.com/">Tailscale</a> 和 <a href="https://sentry.io/">Sentry</a>。通过我们的聘用合同，他们确保了我们开源维护工作的可持续性和可靠性，并获得了直接获取我和其他 Geomys 维护者专业知识的渠道。（在 <a href="https://words.filippo.io/geomys">Geomys 公告</a> 中了解更多。）以下是来自其中几家的几句话！</p>
+<p>Teleport — 在过去五年中，攻击和入侵已从传统的恶意软件和安全漏洞，转向通过社会工程学、凭证窃取或网络钓鱼来识别并入侵有效的用户账户和凭证。<a href="https://goteleport.com/platform/identity/?utm=filippo">Teleport Identity</a> 旨在通过访问监控消除薄弱的访问模式，通过访问请求最小化攻击面，并通过强制访问审查清除未使用的权限。</p>
+<p>Ava Labs — 我们在 <a href="https://www.avalabs.org/">Ava Labs</a>（<a href="https://github.com/ava-labs/avalanchego">AvalancheGo</a> 的维护者，AvalancheGo 是与 <a href="https://www.avax.network/">Avalanche Network</a> 交互的最广泛使用的客户端）认为，开源密码协议的可持续维护和开发对于区块链技术的广泛采用至关重要。我们很自豪能通过对 Filippo 及其团队的持续赞助，来支持这项必要且富有影响力的工作。</p>
+<hr>
+<h2>术语表</h2>
+<table>
+<thead>
+<tr>
+<th>原文</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>age recipient types</td>
+<td>age 收件人类型</td>
+</tr>
+<tr>
+<td>cryptographically-relevant quantum computers</td>
+<td>密码学相关量子计算机</td>
+</tr>
+<tr>
+<td>elliptic curves</td>
+<td>椭圆曲线</td>
+</tr>
+<tr>
+<td>error correction</td>
+<td>纠错</td>
+</tr>
+<tr>
+<td>gates</td>
+<td>逻辑门</td>
+</tr>
+<tr>
+<td>HPKE hybrid recipients</td>
+<td>HPKE 混合收件人</td>
+</tr>
+<tr>
+<td>immediately dispositive</td>
+<td>立刻具有决定性</td>
+</tr>
+<tr>
+<td>lattices</td>
+<td>格</td>
+</tr>
+<tr>
+<td>logical qubits</td>
+<td>逻辑量子比特</td>
+</tr>
+<tr>
+<td>mempools</td>
+<td>内存池</td>
+</tr>
+<tr>
+<td>MitM attacks</td>
+<td>中间人攻击</td>
+</tr>
+<tr>
+<td>Module-Lattice schemes</td>
+<td>Module-Lattice 方案</td>
+</tr>
+<tr>
+<td>neutral atoms</td>
+<td>中性原子</td>
+</tr>
+<tr>
+<td>non-interactive key exchanges (NIKEs)</td>
+<td>非交互式密钥交换</td>
+</tr>
+<tr>
+<td>non-local connectivity</td>
+<td>非局部连通性</td>
+</tr>
+<tr>
+<td>non-PQ key exchange</td>
+<td>非抗量子密钥交换</td>
+</tr>
+<tr>
+<td>pairings</td>
+<td>双线性映射</td>
+</tr>
+<tr>
+<td>physical qubits</td>
+<td>物理量子比特</td>
+</tr>
+<tr>
+<td>post-quantum cryptography</td>
+<td>后量子密码学</td>
+</tr>
+<tr>
+<td>post-quantum cryptosystems</td>
+<td>后量子密码系统</td>
+</tr>
+<tr>
+<td>PQ key</td>
+<td>PQ 密钥</td>
+</tr>
+<tr>
+<td>PQ key exchange</td>
+<td>抗量子密钥交换</td>
+</tr>
+<tr>
+<td>preimage resistance</td>
+<td>原像抗性</td>
+</tr>
+<tr>
+<td>quantum fault-tolerance</td>
+<td>量子容错</td>
+</tr>
+<tr>
+<td>quantum-resistant cryptography</td>
+<td>抗量子密码学</td>
+</tr>
+<tr>
+<td>Shor’s algorithm</td>
+<td>Shor 算法</td>
+</tr>
+<tr>
+<td>store-now-decrypt-later attacks</td>
+<td>先存储后解密攻击</td>
+</tr>
+<tr>
+<td>superconducting qubits</td>
+<td>超导量子比特</td>
+</tr>
+<tr>
+<td>Trusted Execution Environments (TEEs)</td>
+<td>可信执行环境</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+<section data-footnotes class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes</h2>
+<ol>
+<li id="user-content-fn-1">
+<p>整篇论文有点滑稽：它包含了一个针对量子电路的零知识证明，而该电路在能够运行它的实际硬件问世之前，肯定会被重新推导和改进。他们似乎认为这关乎负责任的披露，所以我猜测这只是物理学家不是我们这个领域的专家，就像我们不是他们领域的专家一样。 <a href="#user-content-fnref-1" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-2">
+<p>“你”在这个句子中承担了很大的作用，但这篇帖子的受众对我来说有点不同寻常：我是在对我的同行以及那些把关后量子密码学（post-quantum cryptography）部署行动的决策者说话。 <a href="#user-content-fnref-2" data-footnote-backref="" aria-label="Back to reference 2" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-3">
+<p>我曾有一位审稿人对在 2⁶⁴ 工作量后攻击者成功概率为 1/536,870,912（0.0000002%，2⁻²⁹）提出异议，这是对的，因为在密码学中我们通常以 2⁻³² 为目标。 <a href="#user-content-fnref-3" data-footnote-backref="" aria-label="Back to reference 3" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-4">
+<p>那么为什么要信任这些新东西呢？这包含两个部分：数学和实现。数学也不是我的工作，所以我再次听从像 Sophie Schmieg 这样的专家的意见，她<a href="https://keymaterial.net/2025/12/13/a-very-unscientific-guide-to-the-security-of-various-pqc-algorithms/">告诉我们她对格（lattices）非常自信</a>，我也听从 NSA 的意见，NSA 已将 ML-KEM 和 ML-DSA 批准为绝密级别，用于所有国家安全目的。它的历史也比椭圆曲线密码学首次部署时更久远。（“NSA 难道不会为了破解我们的加密而撒谎吗？”不会，NSA 从未故意用非 <a href="https://en.wikipedia.org/wiki/NOBUS">NOBUS</a> 后门危及美国国家安全，并且 <a href="https://keymaterial.net/2025/11/27/ml-kem-mythbusting/">ML-KEM 和 ML-DSA 没有办法隐藏 NOBUS 后门</a>。）在实现方面，我实际上非常有资格发表看法，因为我已将密码学实现和测试作为我的专长。安全地实现 ML-KEM 和 ML-DSA 比实现它们的经典替代方案要容易得多，而且凭借我们现有的<a href="https://github.com/C2SP/wycheproof">更好的测试基础设施</a>，我预计在它们的实现中会看到极其少的错误。 <a href="#user-content-fnref-4" data-footnote-backref="" aria-label="Back to reference 4" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-6">
+<p>为什么在我们通常使用 ML-KEM-768 而不是 ML-KEM-512 的情况下，却使用 ML-DSA-44？因为 ML-KEM-512 是 1 级，而 ML-DSA-44 是 2 级，所以它对较小的密码分析改进已经有一点余量。 <a href="#user-content-fnref-6" data-footnote-backref="" aria-label="Back to reference 5" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-5">
+<p>一个小小的例外是，如果你在协议中<em>已经</em>具备传达来自多个公钥的多个签名的能力，那么通过要求来自一个经典公钥和一个纯 PQ 密钥（PQ key）的 2-of-2 签名来实现“穷人的混合签名”是说得通的。部分 tlog 生态可能会选择这条路，但这<em>仅仅</em>是因为现有的对嵌套 n-of-m 签名群组的支持大幅降低了成本。 <a href="#user-content-fnref-5" data-footnote-backref="" aria-label="Back to reference 6" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-7">
+<p>因为 SHA-256 是 SHA-1 更好的即插即用替代品，因为 SHA-1 的攻击面比整个 RSA 和 ECC 小得多，而且因为 SHA-1 并没有坏到<em>那种</em>程度：它仍然保留了原像抗性（preimage resistance），并且仍然可以在 HMAC 和 HKDF 中使用。 <a href="#user-content-fnref-7" data-footnote-backref="" aria-label="Back to reference 7" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-8">
+<p>延迟在很大程度上是由于我做出了一个不幸的决定，即在 HPKE 混合收件人（HPKE hybrid recipients）可用之前进行阻断，而这又阻断在了 CFRG 上，CFRG 花了<em>几乎两年</em>的时间才为 X-Wing（2024 年 1 月）与 ML-KEM（2024 年 8 月）选定一个稳定的标签字符串，尽管在设计上没有做任何更改。IETF 应该对此进行内部复盘，但我怀疑我们会看到这个复盘。 <a href="#user-content-fnref-8" data-footnote-backref="" aria-label="Back to reference 8" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-a-cryptography-engineers-perspective-on-quantum-computing-ti","sender":"Rosetta Reports","subject":"一位密码工程师的量子计算时间表视角","snippet":"近期量子计算领域的突破性研究，正深刻动摇密码学界的传统预期。本文以一线工程师的视角，揭示了抗量子密码部署紧迫性的陡然升级。随着最新论文大幅下调破解现有加密体系的量子比特门槛，业界专家已将“量子威胁”的兑现时间表激进地前移至2029年。作者冷静指出，安全决策的核心不在于“威胁是否绝对发生”，而在于“能否确信它不会发生”。","date":"2026-04-06","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["translated"],"mdTheme":"magazine","sourcePath":"reports/a-cryptography-engineers-perspective-on-quantum-computing-ti.md","sourceUrl":"https://words.filippo.io/crqc-timeline/","body":"$3","prompts":[]},"listPosition":{"index":139,"total":365}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

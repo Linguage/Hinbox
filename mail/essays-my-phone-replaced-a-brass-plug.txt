@@ -1,0 +1,307 @@
+1:"$Sreact.fragment"
+3:I[39756,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+4:I[37457,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"ViewportBoundary"]
+b:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"MetadataBoundary"]
+d:I[68027,[],"default"]
+:HL["/hinbox/_next/static/chunks/24888a04b79e7824.css","style"]
+:HL["/hinbox/_next/static/media/fba5a26ea33df6a3-s.p.1bbdebe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"vMUiZWVsRx3pCqxArlZcR","c":["","mail","essays-my-phone-replaced-a-brass-plug"],"q":"","i":false,"f":[[["",{"children":["mail",{"children":[["id","essays-my-phone-replaced-a-brass-plug","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hinbox/_next/static/chunks/24888a04b79e7824.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[79520,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],""]
+f:I[59665,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],"default"]
+:HL["https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","style"]
+2:["$","html",null,{"lang":"zh-CN","className":"plus_jakarta_sans_9710934b-module__-vnxFq__variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function () {\n  try {\n    var theme = window.localStorage.getItem('hinbox:theme');\n    if (theme !== 'light' && theme !== 'dark' && theme !== 'sepia') {\n      theme = 'light';\n    }\n    window['__HINBOX_THEME__'] = theme;\n    document.documentElement.dataset.theme = theme;\n    document.documentElement.style.colorScheme = theme === 'dark' ? 'dark' : 'light';\n    function applyBodyTheme() {\n      if (document.body) {\n        document.body.dataset.theme = theme;\n      }\n    }\n    if (document.body) {\n      applyBodyTheme();\n    } else {\n      document.addEventListener('DOMContentLoaded', applyBodyTheme);\n    }\n  } catch (error) {\n    window['__HINBOX_THEME__'] = 'light';\n    document.documentElement.dataset.theme = 'light';\n    document.documentElement.style.colorScheme = 'light';\n  }\n})();"}}],"",["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","rel":"stylesheet"}],["$","$Le",null,{"id":"mathjax-config","strategy":"afterInteractive","children":"\n          window.MathJax = {\n            tex: {\n              inlineMath: [['$', '$'], ['\\\\(', '\\\\)']],\n              displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']],\n              processEscapes: true,\n              packages: { '[+]': ['noerrors', 'noundefined'] },\n            },\n            svg: {\n              fontCache: 'none',\n            },\n            startup: {\n              typeset: false,\n              ready: () => {\n                window.MathJax.startup.defaultReady();\n                window.dispatchEvent(new Event('MathJaxReady'));\n              },\n            },\n          };\n          "}],["$","$Le",null,{"id":"mathjax-cdn","strategy":"afterInteractive","src":"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"}]]}],["$","body",null,{"className":"font-[family-name:var(--font-jakarta)] antialiased","suppressHydrationWarning":true,"children":["",["$","$Lf",null,{"weeklyNavCounts":{"inboxWeeklyCount":10,"sentWeeklyCount":0,"starredTotalCount":21},"people":[{"id":"david-perell","name":"David Perell","email":""},{"id":"lenny-s-podcast","name":"Lenny's Podcast","email":""},{"id":"ryan-peterman","name":"Ryan Peterman","email":""},{"id":"anthropic","name":"Anthropic","email":""},{"id":"dwarkesh-patel","name":"Dwarkesh Patel","email":""},{"id":"stripe","name":"Stripe","email":""},{"id":"stephen-wolfram","name":"Stephen Wolfram","email":""},{"id":"latent-space","name":"Latent Space","email":""},{"id":"lex-fridman","name":"Lex Fridman","email":""},{"id":"steve-jobs","name":"Steve Jobs","email":""},{"id":"20vc-with-harry-stebbings","name":"20VC with Harry Stebbings","email":""},{"id":"jeremy-stern","name":"Jeremy Stern","email":""},{"id":"turing","name":"Turing","email":""},{"id":"demis-hassabis","name":"Demis Hassabis","email":""},{"id":"the-diary-of-a-ceo","name":"The Diary Of A CEO","email":""},{"id":"elon-musk","name":"Elon Musk","email":""},{"id":"sauteedveggies","name":"SauteedVeggies","email":""},{"id":"andy-matuschak","name":"Andy Matuschak","email":""},{"id":"mind-the-game","name":"Mind the Game","email":""},{"id":"ramona-shelburne","name":"Ramona Shelburne","email":""},{"id":"jared-weiss","name":"Jared Weiss","email":""},{"id":"deeplearningai","name":"DeepLearningAI","email":""},{"id":"cursor","name":"Cursor","email":""},{"id":"y-combinator","name":"Y Combinator","email":""},{"id":"openai","name":"OpenAI","email":""},{"id":"every","name":"Every","email":""},{"id":"sequoia-capital","name":"Sequoia Capital","email":""},{"id":"alex-kantrowitz","name":"Alex Kantrowitz","email":""},{"id":"peter-dizikes-mit-news","name":"Peter Dizikes ｜ MIT News","email":""},{"id":"world-finance-journal","name":"World Finance Journal","email":""},{"id":"andrej-karpathy","name":"Andrej karpathy","email":""},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","email":""},{"id":"jd-vance","name":"JD Vance","email":""},{"id":"街-大学","name":"やまぐち街なか大学","email":""},{"id":"jc","name":"JC","email":""}],"tags":[{"id":"translated","name":"translated","count":123},{"id":"interview","name":"interview","count":24},{"id":"ai","name":"ai","count":17},{"id":"人工智能","name":"人工智能","count":17},{"id":"clippings","name":"clippings","count":15},{"id":"essays","name":"Essays","count":9},{"id":"talks","name":"Talks","count":8},{"id":"深度学习","name":"深度学习","count":8},{"id":"ai-agents","name":"ai-agents","count":7},{"id":"cognition","name":"cognition","count":6},{"id":"nba","name":"NBA","count":6},{"id":"ai编程","name":"AI编程","count":5},{"id":"humanity","name":"humanity","count":5},{"id":"math","name":"math","count":5},{"id":"steve-jobs","name":"steve-jobs","count":5},{"id":"大语言模型","name":"大语言模型","count":5},{"id":"机器学习","name":"机器学习","count":5},{"id":"agi","name":"AGI","count":4},{"id":"anthropic","name":"Anthropic","count":4},{"id":"claude-code","name":"Claude Code","count":4},{"id":"doge","name":"DOGE","count":4},{"id":"nvidia","name":"nvidia","count":4},{"id":"windsurf","name":"Windsurf","count":4},{"id":"政府效率","name":"政府效率","count":4},{"id":"文艺复兴科技","name":"文艺复兴科技","count":4},{"id":"英伟达","name":"英伟达","count":4},{"id":"软件工程","name":"软件工程","count":4},{"id":"ai编程工具","name":"AI编程工具","count":3},{"id":"apple","name":"apple","count":3},{"id":"cursor","name":"Cursor","count":3},{"id":"deepseek","name":"deepseek","count":3},{"id":"linus-torvalds","name":"Linus Torvalds","count":3},{"id":"linux内核","name":"Linux内核","count":3},{"id":"llm","name":"llm","count":3},{"id":"mathematics","name":"mathematics","count":3},{"id":"reports","name":"Reports","count":3},{"id":"偏微分方程","name":"偏微分方程","count":3},{"id":"勒布朗-詹姆斯","name":"勒布朗·詹姆斯","count":3},{"id":"开源","name":"开源","count":3},{"id":"开源ai","name":"开源AI","count":3},{"id":"强化学习","name":"强化学习","count":3},{"id":"数学哲学","name":"数学哲学","count":3},{"id":"数学教育","name":"数学教育","count":3},{"id":"访谈","name":"访谈","count":3},{"id":"量化投资","name":"量化投资","count":3},{"id":"马斯克","name":"马斯克","count":3},{"id":"黄仁勋","name":"黄仁勋","count":3},{"id":"ai-agent","name":"AI Agent","count":2},{"id":"ai-coding","name":"ai-coding","count":2},{"id":"ai代理","name":"AI代理","count":2},{"id":"ai基础设施","name":"AI基础设施","count":2},{"id":"ai安全","name":"AI安全","count":2},{"id":"ai数学","name":"AI数学","count":2},{"id":"ai智能体","name":"AI智能体","count":2},{"id":"ai计算","name":"AI计算","count":2},{"id":"alphafold","name":"AlphaFold","count":2},{"id":"claude","name":"Claude","count":2},{"id":"devin","name":"Devin","count":2},{"id":"economics","name":"economics","count":2},{"id":"emacs","name":"Emacs","count":2},{"id":"essay","name":"essay","count":2},{"id":"git","name":"Git","count":2},{"id":"google","name":"Google","count":2},{"id":"ilya-sutskever","name":"Ilya Sutskever","count":2},{"id":"jeff-dean","name":"jeff-dean","count":2},{"id":"jepa","name":"JEPA","count":2},{"id":"org-mode","name":"Org mode","count":2},{"id":"programming","name":"programming","count":2},{"id":"software-engineering","name":"software-engineering","count":2},{"id":"vibe-coding","name":"Vibe Coding","count":2},{"id":"writing","name":"writing","count":2},{"id":"世界模型","name":"世界模型","count":2},{"id":"人性","name":"人性","count":2},{"id":"代数几何","name":"代数几何","count":2},{"id":"代码编辑器","name":"代码编辑器","count":2},{"id":"价值投资","name":"价值投资","count":2},{"id":"伯克希尔哈撒韦","name":"伯克希尔哈撒韦","count":2},{"id":"关税政策","name":"关税政策","count":2},{"id":"创业历程","name":"创业历程","count":2},{"id":"加速计算","name":"加速计算","count":2},{"id":"吉姆-西蒙斯","name":"吉姆·西蒙斯","count":2},{"id":"哲学","name":"哲学","count":2},{"id":"国际合作","name":"国际合作","count":2},{"id":"大型语言模型","name":"大型语言模型","count":2},{"id":"好奇心","name":"好奇心","count":2},{"id":"季后赛","name":"季后赛","count":2},{"id":"工程实践","name":"工程实践","count":2},{"id":"巴菲特","name":"巴菲特","count":2},{"id":"形式化证明","name":"形式化证明","count":2},{"id":"彼得-蒂尔","name":"彼得·蒂尔","count":2},{"id":"微软","name":"微软","count":2},{"id":"提示工程","name":"提示工程","count":2},{"id":"数学","name":"数学","count":2},{"id":"数学研究","name":"数学研究","count":2},{"id":"文班亚马","name":"文班亚马","count":2},{"id":"智能代理开发","name":"智能代理开发","count":2},{"id":"毕业演讲","name":"毕业演讲","count":2},{"id":"版本控制","name":"版本控制","count":2},{"id":"科学发现","name":"科学发现","count":2},{"id":"科技停滞","name":"科技停滞","count":2},{"id":"软件工程变革","name":"软件工程变革","count":2},{"id":"软件开发","name":"软件开发","count":2},{"id":"量子力学","name":"量子力学","count":2},{"id":"阿贝尔奖","name":"阿贝尔奖","count":2},{"id":"风险投资","name":"风险投资","count":2},{"id":"agent设计","name":"Agent设计","count":1},{"id":"ai-for-science","name":"AI for Science","count":1},{"id":"ai-编程","name":"AI 编程","count":1},{"id":"ai伦理","name":"AI伦理","count":1},{"id":"ai最佳实践","name":"AI最佳实践","count":1},{"id":"ai大模型","name":"AI大模型","count":1},{"id":"ai并购","name":"AI并购","count":1},{"id":"ai应用","name":"AI应用","count":1},{"id":"ai开发者大会","name":"AI开发者大会","count":1},{"id":"ai推理","name":"AI推理","count":1},{"id":"ai收购","name":"AI收购","count":1},{"id":"ai数学发现","name":"AI数学发现","count":1},{"id":"ai生物医药","name":"AI生物医药","count":1},{"id":"ai竞争","name":"AI竞争","count":1},{"id":"ai编程代理","name":"AI编程代理","count":1},{"id":"ai芯片","name":"AI芯片","count":1},{"id":"ai规模化","name":"AI规模化","count":1},{"id":"ai辅助学习","name":"AI辅助学习","count":1},{"id":"ai辅助开发","name":"AI辅助开发","count":1},{"id":"anysphere","name":"Anysphere","count":1},{"id":"biography","name":"biography","count":1},{"id":"blackwell架构","name":"Blackwell架构","count":1},{"id":"cag","name":"CAG","count":1},{"id":"career","name":"career","count":1},{"id":"ceo交接","name":"CEO交接","count":1},{"id":"chatgpt","name":"ChatGPT","count":1},{"id":"chris-bishop","name":"Chris Bishop","count":1},{"id":"claude-4","name":"Claude 4","count":1},{"id":"claude-sonnet-4-5","name":"Claude Sonnet 4.5","count":1},{"id":"coding-agent","name":"Coding Agent","count":1},{"id":"context-engineering","name":"Context Engineering","count":1},{"id":"cs50","name":"CS50","count":1},{"id":"cuda生态","name":"CUDA生态","count":1},{"id":"deep-search","name":"Deep Search","count":1},{"id":"deepmind","name":"DeepMind","count":1},{"id":"distributed-systems","name":"distributed-systems","count":1},{"id":"elon-musk","name":"Elon Musk","count":1},{"id":"engineering","name":"engineering","count":1},{"id":"fields奖","name":"Fields奖","count":1},{"id":"geoffrey-hinton","name":"Geoffrey Hinton","count":1},{"id":"gpt-4","name":"GPT-4","count":1},{"id":"gpt-4-5","name":"GPT-4.5","count":1},{"id":"gpu与深度学习","name":"GPU与深度学习","count":1},{"id":"gpu架构","name":"GPU架构","count":1},{"id":"gpu算力","name":"GPU算力","count":1},{"id":"grok-3","name":"Grok 3","count":1},{"id":"haskell","name":"haskell","count":1},{"id":"incident","name":"incident","count":1},{"id":"jim-simons","name":"Jim Simons","count":1},{"id":"julia","name":"Julia","count":1},{"id":"june-huh","name":"june-huh","count":1},{"id":"kaggle","name":"Kaggle","count":1},{"id":"kiro-spec模式","name":"Kiro SPEC模式","count":1},{"id":"labor","name":"labor","count":1},{"id":"lean","name":"Lean","count":1},{"id":"lisp","name":"Lisp","count":1},{"id":"llm工具","name":"LLM工具","count":1},{"id":"mcp","name":"MCP","count":1},{"id":"mit","name":"MIT","count":1},{"id":"mvp","name":"MVP","count":1},{"id":"naval-ravikant","name":"Naval Ravikant","count":1},{"id":"ncaa疯狂三月","name":"NCAA疯狂三月","count":1},{"id":"noema","name":"noema","count":1},{"id":"notes","name":"notes","count":1},{"id":"notion","name":"Notion","count":1},{"id":"nvidia-gtc-2025","name":"NVIDIA GTC 2025","count":1},{"id":"openai","name":"OpenAI","count":1},{"id":"optimus机器人","name":"Optimus机器人","count":1},{"id":"peter-lax","name":"Peter Lax","count":1},{"id":"pixar","name":"pixar","count":1},{"id":"prompt-engineering","name":"Prompt Engineering","count":1},{"id":"psychology","name":"psychology","count":1},{"id":"publishing","name":"publishing","count":1},{"id":"python","name":"Python","count":1},{"id":"reliability","name":"reliability","count":1},{"id":"report","name":"report","count":1},{"id":"research","name":"Research","count":1},{"id":"research-career","name":"research-career","count":1},{"id":"robotics","name":"robotics","count":1},{"id":"sanjay-ghemawat","name":"Sanjay Ghemawat","count":1},{"id":"satya-nadella","name":"Satya Nadella","count":1},{"id":"scaling-laws","name":"Scaling Laws","count":1},{"id":"security","name":"security","count":1},{"id":"skills","name":"skills","count":1},{"id":"slimv","name":"Slimv","count":1},{"id":"technical-report","name":"technical-report","count":1},{"id":"terence-tao","name":"terence-tao","count":1},{"id":"vim","name":"Vim","count":1},{"id":"vlime","name":"Vlime","count":1},{"id":"wolfram","name":"Wolfram","count":1},{"id":"xai","name":"xAI","count":1},{"id":"yann-lecun","name":"Yann LeCun","count":1},{"id":"yc","name":"YC","count":1},{"id":"上下文工程","name":"上下文工程","count":1},{"id":"个人反思","name":"个人反思","count":1},{"id":"个人电脑","name":"个人电脑","count":1},{"id":"中美关系","name":"中美关系","count":1},{"id":"乌克兰战争","name":"乌克兰战争","count":1},{"id":"乔姆斯基","name":"乔姆斯基","count":1},{"id":"交通基础设施","name":"交通基础设施","count":1},{"id":"产品市场契合","name":"产品市场契合","count":1},{"id":"人工智能未来","name":"人工智能未来","count":1},{"id":"人形机器人","name":"人形机器人","count":1},{"id":"人机协作","name":"人机协作","count":1},{"id":"人机博弈","name":"人机博弈","count":1},{"id":"人生哲学","name":"人生哲学","count":1},{"id":"人类未来","name":"人类未来","count":1},{"id":"人类福祉","name":"人类福祉","count":1},{"id":"代理开发","name":"代理开发","count":1},{"id":"代理式编程","name":"代理式编程","count":1},{"id":"代码生成","name":"代码生成","count":1},{"id":"任务管理","name":"任务管理","count":1},{"id":"仿真学习","name":"仿真学习","count":1},{"id":"企业采用","name":"企业采用","count":1},{"id":"众包协作","name":"众包协作","count":1},{"id":"优绩主义","name":"优绩主义","count":1},{"id":"伦理监管","name":"伦理监管","count":1},{"id":"伯克希尔-哈撒韦","name":"伯克希尔·哈撒韦","count":1},{"id":"俄乌战争","name":"俄乌战争","count":1},{"id":"保罗-狄拉克","name":"保罗·狄拉克","count":1},{"id":"保险业务","name":"保险业务","count":1},{"id":"信号处理","name":"信号处理","count":1},{"id":"信息动力学","name":"信息动力学","count":1},{"id":"信息物理学","name":"信息物理学","count":1},{"id":"全球贸易","name":"全球贸易","count":1},{"id":"公共美德","name":"公共美德","count":1},{"id":"具身智能","name":"具身智能","count":1},{"id":"写作","name":"写作","count":1},{"id":"写作工具","name":"写作工具","count":1},{"id":"冷战数学","name":"冷战数学","count":1},{"id":"创业转型","name":"创业转型","count":1},{"id":"创业领导力","name":"创业领导力","count":1},{"id":"创造力与年龄","name":"创造力与年龄","count":1},{"id":"制度经济学","name":"制度经济学","count":1},{"id":"加性数论","name":"加性数论","count":1},{"id":"包容性制度","name":"包容性制度","count":1},{"id":"医疗应用","name":"医疗应用","count":1},{"id":"半导体","name":"半导体","count":1},{"id":"协同设计","name":"协同设计","count":1},{"id":"单位距离问题","name":"单位距离问题","count":1},{"id":"南非种族隔离","name":"南非种族隔离","count":1},{"id":"卢卡-东契奇","name":"卢卡·东契奇","count":1},{"id":"压缩感知","name":"压缩感知","count":1},{"id":"变换编码","name":"变换编码","count":1},{"id":"可持续能源","name":"可持续能源","count":1},{"id":"可重复性危机","name":"可重复性危机","count":1},{"id":"史蒂夫-乔布斯","name":"史蒂夫·乔布斯","count":1},{"id":"史蒂夫-纳什","name":"史蒂夫·纳什","count":1},{"id":"同伦类型论","name":"同伦类型论","count":1},{"id":"哲学辩论","name":"哲学辩论","count":1},{"id":"国际政治","name":"国际政治","count":1},{"id":"在线教育","name":"在线教育","count":1},{"id":"地缘政治","name":"地缘政治","count":1},{"id":"埃尔德什猜想","name":"埃尔德什猜想","count":1},{"id":"埃罗尔-马斯克","name":"埃罗尔·马斯克","count":1},{"id":"埃隆-马斯克","name":"埃隆·马斯克","count":1},{"id":"基督教与科学","name":"基督教与科学","count":1},{"id":"基础主义","name":"基础主义","count":1},{"id":"基础模型","name":"基础模型","count":1},{"id":"复合工程","name":"复合工程","count":1},{"id":"外交谈判","name":"外交谈判","count":1},{"id":"多伦多大学","name":"多伦多大学","count":1},{"id":"多体物理","name":"多体物理","count":1},{"id":"多智能体协同","name":"多智能体协同","count":1},{"id":"大数假说","name":"大数假说","count":1},{"id":"太空探索","name":"太空探索","count":1},{"id":"孤子理论","name":"孤子理论","count":1},{"id":"学习路径","name":"学习路径","count":1},{"id":"学术写作","name":"学术写作","count":1},{"id":"学术建议","name":"学术建议","count":1},{"id":"学术生态","name":"学术生态","count":1},{"id":"学术研究方法","name":"学术研究方法","count":1},{"id":"学术自传","name":"学术自传","count":1},{"id":"宇宙学","name":"宇宙学","count":1},{"id":"官僚主义改革","name":"官僚主义改革","count":1},{"id":"定理证明","name":"定理证明","count":1},{"id":"家族故事","name":"家族故事","count":1},{"id":"对冲基金","name":"对冲基金","count":1},{"id":"对称性","name":"对称性","count":1},{"id":"对称性破缺","name":"对称性破缺","count":1},{"id":"小平邦彦","name":"小平邦彦","count":1},{"id":"少林寺","name":"少林寺","count":1},{"id":"就业与经济","name":"就业与经济","count":1},{"id":"就业影响","name":"就业影响","count":1},{"id":"工作尊严","name":"工作尊严","count":1},{"id":"工作流","name":"工作流","count":1},{"id":"工程精神","name":"工程精神","count":1},{"id":"幸福与成功","name":"幸福与成功","count":1},{"id":"库珀-弗拉格","name":"库珀·弗拉格","count":1},{"id":"开发环境","name":"开发环境","count":1},{"id":"开发者工具","name":"开发者工具","count":1},{"id":"开发者生产力","name":"开发者生产力","count":1},{"id":"开源模型","name":"开源模型","count":1},{"id":"形式主义","name":"形式主义","count":1},{"id":"彼得-拉克斯","name":"彼得·拉克斯","count":1},{"id":"微分几何","name":"微分几何","count":1},{"id":"心理学","name":"心理学","count":1},{"id":"思维链","name":"思维链","count":1},{"id":"慈善","name":"慈善","count":1},{"id":"慈善事业","name":"慈善事业","count":1},{"id":"慕尼黑安全会议","name":"慕尼黑安全会议","count":1},{"id":"成长型思维","name":"成长型思维","count":1},{"id":"技术监管","name":"技术监管","count":1},{"id":"技能退化","name":"技能退化","count":1},{"id":"投资哲学","name":"投资哲学","count":1},{"id":"推理时计算","name":"推理时计算","count":1},{"id":"提纲写作","name":"提纲写作","count":1},{"id":"摩根大通","name":"摩根大通","count":1},{"id":"播客","name":"播客","count":1},{"id":"政治哲学","name":"政治哲学","count":1},{"id":"数字革命","name":"数字革命","count":1},{"id":"数学反例","name":"数学反例","count":1},{"id":"数学史","name":"数学史","count":1},{"id":"数学基础","name":"数学基础","count":1},{"id":"数学实践","name":"数学实践","count":1},{"id":"数学家传记","name":"数学家传记","count":1},{"id":"数学工作流","name":"数学工作流","count":1},{"id":"数学形式化","name":"数学形式化","count":1},{"id":"数据中心","name":"数据中心","count":1},{"id":"数据效率","name":"数据效率","count":1},{"id":"数据科学","name":"数据科学","count":1},{"id":"文化多样性","name":"文化多样性","count":1},{"id":"文化转型","name":"文化转型","count":1},{"id":"文学编程","name":"文学编程","count":1},{"id":"斯多葛主义","name":"斯多葛主义","count":1},{"id":"无人机","name":"无人机","count":1},{"id":"日本数学","name":"日本数学","count":1},{"id":"日记写作","name":"日记写作","count":1},{"id":"智能代理","name":"智能代理","count":1},{"id":"智能体ai","name":"智能体AI","count":1},{"id":"智能分析","name":"智能分析","count":1},{"id":"更衣室训话","name":"更衣室训话","count":1},{"id":"未来战争","name":"未来战争","count":1},{"id":"未来趋势","name":"未来趋势","count":1},{"id":"机器人技术","name":"机器人技术","count":1},{"id":"杰米-戴蒙","name":"杰米·戴蒙","count":1},{"id":"柏拉图主义","name":"柏拉图主义","count":1},{"id":"查尔斯-巴克利","name":"查尔斯·巴克利","count":1},{"id":"查理-芒格","name":"查理·芒格","count":1},{"id":"标记语言","name":"标记语言","count":1},{"id":"格罗滕迪克","name":"格罗滕迪克","count":1},{"id":"概形","name":"概形","count":1},{"id":"模仿理论","name":"模仿理论","count":1},{"id":"模型应用","name":"模型应用","count":1},{"id":"模型驱动交易","name":"模型驱动交易","count":1},{"id":"模拟宇宙假说","name":"模拟宇宙假说","count":1},{"id":"欧洲创新","name":"欧洲创新","count":1},{"id":"欧洲民主","name":"欧洲民主","count":1},{"id":"欧盟资本市场","name":"欧盟资本市场","count":1},{"id":"欺骗性ai","name":"欺骗性AI","count":1},{"id":"比尔-盖茨","name":"比尔·盖茨","count":1},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","count":1},{"id":"沉思录","name":"沉思录","count":1},{"id":"沙奎尔-奥尼尔","name":"沙奎尔·奥尼尔","count":1},{"id":"波波维奇","name":"波波维奇","count":1},{"id":"泽连斯基","name":"泽连斯基","count":1},{"id":"活文档","name":"活文档","count":1},{"id":"测试时计算","name":"测试时计算","count":1},{"id":"涌现","name":"涌现","count":1},{"id":"深度阅读","name":"深度阅读","count":1},{"id":"湖人三连冠","name":"湖人三连冠","count":1},{"id":"炒作与现实","name":"炒作与现实","count":1},{"id":"热力学第二定律","name":"热力学第二定律","count":1},{"id":"特斯拉","name":"特斯拉","count":1},{"id":"特朗普","name":"特朗普","count":1},{"id":"狄拉克","name":"狄拉克","count":1},{"id":"狄拉克方程","name":"狄拉克方程","count":1},{"id":"理论物理","name":"理论物理","count":1},{"id":"生产力工具","name":"生产力工具","count":1},{"id":"生成式ai","name":"生成式AI","count":1},{"id":"相对论","name":"相对论","count":1},{"id":"知识管理","name":"知识管理","count":1},{"id":"研究方法","name":"研究方法","count":1},{"id":"研究生指南","name":"研究生指南","count":1},{"id":"硅谷","name":"硅谷","count":1},{"id":"社交媒体","name":"社交媒体","count":1},{"id":"社会公平","name":"社会公平","count":1},{"id":"福柯","name":"福柯","count":1},{"id":"离散几何","name":"离散几何","count":1},{"id":"私募股权","name":"私募股权","count":1},{"id":"科学哲学","name":"科学哲学","count":1},{"id":"科学研究","name":"科学研究","count":1},{"id":"科学论文","name":"科学论文","count":1},{"id":"科技史","name":"科技史","count":1},{"id":"科比-布莱恩特","name":"科比·布莱恩特","count":1},{"id":"移民政策","name":"移民政策","count":1},{"id":"稀疏表示","name":"稀疏表示","count":1},{"id":"空间技术","name":"空间技术","count":1},{"id":"竞技长青","name":"竞技长青","count":1},{"id":"笔记技巧","name":"笔记技巧","count":1},{"id":"第一性原理","name":"第一性原理","count":1},{"id":"算法与社会","name":"算法与社会","count":1},{"id":"篮球战术","name":"篮球战术","count":1},{"id":"篮球访谈","name":"篮球访谈","count":1},{"id":"类型论","name":"类型论","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"约束等距性","name":"约束等距性","count":1},{"id":"纯文本写作","name":"纯文本写作","count":1},{"id":"纯粹数学","name":"纯粹数学","count":1},{"id":"线性代数","name":"线性代数","count":1},{"id":"经典阅读","name":"经典阅读","count":1},{"id":"结对编程","name":"结对编程","count":1},{"id":"编程教学","name":"编程教学","count":1},{"id":"编程语言","name":"编程语言","count":1},{"id":"美国ai政策","name":"美国AI政策","count":1},{"id":"美国政府改革","name":"美国政府改革","count":1},{"id":"美国经济","name":"美国经济","count":1},{"id":"美欧关系","name":"美欧关系","count":1},{"id":"翻译","name":"翻译","count":1},{"id":"职业自律","name":"职业自律","count":1},{"id":"职业辩护","name":"职业辩护","count":1},{"id":"联邦政府改革","name":"联邦政府改革","count":1},{"id":"联邦财政","name":"联邦财政","count":1},{"id":"股东信","name":"股东信","count":1},{"id":"股东大会","name":"股东大会","count":1},{"id":"能源","name":"能源","count":1},{"id":"能量基模型","name":"能量基模型","count":1},{"id":"自动驾驶","name":"自动驾驶","count":1},{"id":"自我认知","name":"自我认知","count":1},{"id":"自由意志主义","name":"自由意志主义","count":1},{"id":"自由民主","name":"自由民主","count":1},{"id":"苹果","name":"苹果","count":1},{"id":"苹果公司","name":"苹果公司","count":1},{"id":"药物研发","name":"药物研发","count":1},{"id":"蓝鳍金枪鱼","name":"蓝鳍金枪鱼","count":1},{"id":"虚拟细胞","name":"虚拟细胞","count":1},{"id":"蛋白质折叠","name":"蛋白质折叠","count":1},{"id":"蜂巢思维","name":"蜂巢思维","count":1},{"id":"行为偏差","name":"行为偏差","count":1},{"id":"西部决赛","name":"西部决赛","count":1},{"id":"规模法则","name":"规模法则","count":1},{"id":"规范驱动开发","name":"规范驱动开发","count":1},{"id":"言论自由","name":"言论自由","count":1},{"id":"计算增强生成","name":"计算增强生成","count":1},{"id":"计算数学","name":"计算数学","count":1},{"id":"计算机教育","name":"计算机教育","count":1},{"id":"计算机证明","name":"计算机证明","count":1},{"id":"训练体系","name":"训练体系","count":1},{"id":"论文写作","name":"论文写作","count":1},{"id":"论文撰写","name":"论文撰写","count":1},{"id":"访谈实录","name":"访谈实录","count":1},{"id":"詹姆斯-西蒙斯","name":"詹姆斯·西蒙斯","count":1},{"id":"语言学","name":"语言学","count":1},{"id":"诺贝尔经济学奖","name":"诺贝尔经济学奖","count":1},{"id":"谷歌","name":"谷歌","count":1},{"id":"贝叶斯方法","name":"贝叶斯方法","count":1},{"id":"财政削减","name":"财政削减","count":1},{"id":"资本配置","name":"资本配置","count":1},{"id":"超级智能","name":"超级智能","count":1},{"id":"超级计算","name":"超级计算","count":1},{"id":"跨领域训练","name":"跨领域训练","count":1},{"id":"身体转型","name":"身体转型","count":1},{"id":"软件工程范式","name":"软件工程范式","count":1},{"id":"软件开发最佳实践","name":"软件开发最佳实践","count":1},{"id":"软件开发未来","name":"软件开发未来","count":1},{"id":"运动恢复","name":"运动恢复","count":1},{"id":"还原论","name":"还原论","count":1},{"id":"通用人工智能","name":"通用人工智能","count":1},{"id":"重整化","name":"重整化","count":1},{"id":"量化交易","name":"量化交易","count":1},{"id":"金融服务","name":"金融服务","count":1},{"id":"金融监管","name":"金融监管","count":1},{"id":"阅读方法","name":"阅读方法","count":1},{"id":"集合论","name":"集合论","count":1},{"id":"非虚构阅读","name":"非虚构阅读","count":1},{"id":"预训练","name":"预训练","count":1},{"id":"领导力","name":"领导力","count":1},{"id":"香农信息熵","name":"香农信息熵","count":1},{"id":"马刺","name":"马刺","count":1},{"id":"马库斯-奥勒留","name":"马库斯·奥勒留","count":1}],"moduleNavItems":[{"id":"essays","label":"Essays","href":"/?label=Essays","order":40,"icon":"BookOpen","count":62},{"id":"talks","label":"Talks","href":"/?label=Talks","order":42,"icon":"Video","count":165},{"id":"reports","label":"Reports","href":"/?label=Reports","order":41,"icon":"FileText","count":36},{"id":"notes","label":"Notes","href":"/?label=Notes","order":30,"icon":"Eye","count":78}],"children":"$L10"}]]}]]}]
+10:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"min-h-screen px-12 py-12 font-sans text-slate-900","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n            (function () {\n              var pathname = window.location.pathname || '';\n              var canonicalPrefix = '/hinbox';\n\n              if (/^/hinbox(?:/|$)/i.test(pathname) && pathname !== pathname.replace(/^/hinbox/i, canonicalPrefix)) {\n                var target = pathname.replace(/^/hinbox/i, canonicalPrefix) + window.location.search + window.location.hash;\n                window.location.replace(target);\n                return;\n              }\n            }());\n          "}}],["$","div",null,{"className":"mx-auto flex min-h-[60vh] max-w-2xl flex-col justify-center gap-4","children":[["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"页面未找到"}],["$","p",null,{"className":"text-base leading-7 text-slate-600","children":"如果你是从大写路径进入本站，系统会自动跳转到小写的规范地址。"}],["$","p",null,{"className":"text-base","children":["返回首页：",["$","a",null,{"className":"text-sky-600 underline underline-offset-4","href":"/hinbox/","children":"/hinbox/"}]]}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+11:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+12:T5cfe,<h1>手机取代了黄铜塞子</h1>
+<p>在爱丁堡郊外一个铁皮隧道里，作者每周三傍晚穿着不舒服的夹克趴在地上打靶。真正让他感到疲惫的并非射击本身，而是那套繁琐的计分仪式——用黄铜塞子一个个填补弹孔、借助测环尺判定环数。作为一名 iOS 工程师，他决定用手机摄像头和计算机视觉来终结这一切。</p>
+<p>这篇文章的妙处在于，它表面上讲的是用技术替代机械劳动，实则揭示了一个更深层的命题：当你想用 AI 识别"什么东西不见了"时，你面对的是"负空间"识别这一根本性挑战。弹孔是纸上被移除的部分，而绝大多数视觉模型训练的是识别"存在的事物"，不是"缺失的事物"。作者从 Vision 框架的过度检测一路摸索到 OpenCV 的传统图像处理，最终找到了一个结合径向亮度剖面的几何解法。</p>
+<p>这是一篇关于"用工程思维解决实际问题"的好文章——它不堆砌术语，而是带你一步步走过从灵感到落地的全部思考过程。</p>
+<hr>
+<p>几个月来，我每周三傍晚都待在爱丁堡郊外一个铁皮隧道里，穿着一件看起来很可笑（也同样不舒服）的夹克。我躺在地上数呼吸，然后沿着靶场走下去，在横梁下低头躲避。每隔五米，地面上就用白漆写着 DUCK，横梁上也贴着写着"DUCK"的标语，但我偶尔还是会撞到头——忙着查看计分卡。</p>
+<p>如果不走运，一发子弹打在了环线附近，你就需要借助工具了。你走到一托盘 Greggs 香肠卷<sup><a href="#user-content-fn-1" id="user-content-fnref-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup>旁——我们地处北方，赞助商也是本地品牌——找到一个装着各种尺寸黄铜塞的木盒子，选一个合适的，小心地把它塞进弹孔里（最好只塞一次，以免撕裂），塞进去的位置就是你的得分。</p>
+<p><img src="https://drobinin.com/assets/scoring-gauge-usage.jpg" alt="使用测环尺的示例；via Gary Anderson, DCM 所著《测环尺入门》（A Primer on Scoring Gauges）"></p>
+<p>子弹会把纸向内推，所以即使环线本身没被破坏，只要（塞子的）凸缘超出外环，你就得算更低的分数。</p>
+<p>射击本身很有趣。但数环数、撞脑袋、塞塞子这套仪式必须终结。</p>
+<hr>
+<p>我去那里的起因是烹饪。</p>
+<p>我几十年前开始迷上烹饪，逐渐变得愈发痴迷：从羞涩地尝试复刻我去过的每一家高级餐厅的菜品，到建造自动化熟成柜（automated curing chamber）。不是买现成的麹（koji），而是自己培养霉菌，用真空腔体机（chamber vacuum）给拉面面团补水，用低温循环器（immersion circulator）加热蛋白酶（protease）和蚱蜢来制作鱼露（garum）。</p>
+<p>后来我迷上了熟食肉品（charcuterie），这意味着要弄来整只动物尸体自己屠宰。当我决定认真对待烹饪肉类时，我觉得应该学学打猎。我之前从没真正握过枪，虽然英国人对执照情有独钟，也不喜欢枪（我们更喜欢刀），但猎鹿既不需要狩猎执照也不需要步枪执照<sup><a href="#user-content-fn-2" id="user-content-fnref-2" data-footnote-ref aria-describedby="footnote-label">2</a></sup>。马鹿（Red deer）本质上是一种害兽——它们吃林木的速度超过了树木再生的速度，而且没有天敌——所以猎杀它们几乎没有任何限制。</p>
+<p>不过你确实需要一支步枪，而且最好知道怎么用<sup><a href="#user-content-fn-3" id="user-content-fnref-3" data-footnote-ref aria-describedby="footnote-label">3</a></sup>——于是我就每周去两次靶场，趴在那张垫子上。这和潜行猎鹿的纪律性完全不同：开枪，换靶纸，吃个甜甜圈，重复。半年后，在我尚未射杀一头鹿、离鹿肉牛排（venison steak）还有一段距离的路上，我倒是胖了几磅，而且大部分晚上都在寻找合适尺寸的测环尺（scoring gauge）。</p>
+<p>实在厌倦了，我想不如把这个过程自动化。</p>
+<h3>负空间（negative space）</h3>
+<p>我是一名 iOS 工程师，所以先从原生 iOS 方案入手：Apple 的 Vision 框架已经存在了一段时间，内置了现成的检测器，可用于物体识别、人物分割、文字识别甚至条形码扫描，但它不断把图像中的随机部分标记为弹孔——从靶心的小圆点到某个环线的碎片。</p>
+<p>弹孔是一种负空间（negative space）。物体检测器训练的是"应该存在的东西"，所以要用它们来寻找"原来存在但已被移除的东西"，并不那么直接。</p>
+<p><img src="https://drobinin.com/assets/notch-vision-overdetection.jpg" alt="一张 NSRA 靶纸的特写，每个检测到的特征上都叠有粉色的计算机视觉标记：同心计分环、中心瞄准十字、小型印刷计分数字以及四个方位上的注释方块。靶纸上的实际弹孔很小，且大多未被标记。"></p>
+<p>将 Vision 的环检测和物体检测应用于一张 NSRA 靶纸。</p>
+<p>我又试了几种更明显的方法：灰度化、反转图像、添加和去除噪声，但即使其他一切正常，落在环线上的弹孔还是会变成太小而无法识别的碎片。</p>
+<p>更好的方法是将靶纸视为一个几何已知的物体：先找到环线结构，然后再在其中寻找弹孔。我承认这次不打算重新发明轮子了，于是去查了查其他方案。</p>
+<hr>
+<h3>端口及其他</h3>
+<h3>2012 年的一篇论文</h3>
+<p>作为计算机视觉问题，射击靶标计分已经足够平淡到有人发表过相关论文。我找到了 Rudzinski 和 Luckner（华沙工业大学）2012 年发表的《Automatic Scoring of Shooting Targets with Tournament Precision》（自动竞赛精度射击靶标计分），该论文声称能检测 99% 的弹孔。</p>
+<p>有几个注意事项：该方法针对低分辨率图像进行了优化，但要求使用平坦的 ISSF 靶纸<sup><a href="#user-content-fn-4" id="user-content-fnref-4" data-footnote-ref aria-describedby="footnote-label">4</a></sup>、相机角度低、标注不与弹孔相似，且主要针对气枪射击设计。气枪铅弹会在纸上留下饼干切割器般整齐的圆孔，而 0.22 口径子弹在 25 码距离上则会留下参差不齐的边缘。</p>
+<p>我逐步复现了该论文。如果你不想阅读原文，可以概括为四个步骤：擦除环线，泛洪填充以找到弹孔形状，运行 Prewitt 边缘检测器，使用霍夫变换拟合圆。</p>
+<p><img src="https://drobinin.com/assets/notch-stage-1-grayscale.png" alt="牛眼灰度图：一条白色测环线笔直穿过两个弹孔。"></p>
+<p>从灰度靶纸开始</p>
+<p><img src="https://drobinin.com/assets/notch-stage-2-rings-erased.png" alt="环线已移除：每个弹孔现在分裂为环线两侧的两个新月形碎片。"></p>
+<ol>
+<li>擦除环线：弹孔分裂为两个月牙形。</li>
+</ol>
+<p><img src="https://drobinin.com/assets/notch-stage-3-flood-fill.png" alt="泛洪填充结果：白色背景上的四个暗色小碎片，每个都低于最小区域阈值。"></p>
+<ol start="2">
+<li>泛洪填充</li>
+</ol>
+<p><img src="https://drobinin.com/assets/notch-stage-4-prewitt.png" alt="碎片的 Prewitt 边缘：只有轮廓，没有完整的圆形可供霍夫变换拟合。"></p>
+<ol start="3">
+<li>检测边缘 4. 使用霍夫变换拟合圆。</li>
+</ol>
+<p>Vision 框架没有 Prewitt 边缘检测器，所以我同时引入了 OpenCV，前三个步骤运行良好。但步骤四有一个问题。NSRA 靶纸在四个基本方位标注了环值——9 环的北、东、南、西方向各有一个"9"——而霍夫变换也会将这些数字拟合成圆形。</p>
+<p>此外，环线擦除后的月牙形碎片有时太小，无法进行泛洪填充，所以我最终使用了 V 值径向强度剖面——从牛眼中心向外选取一条带状区域，沿该区域采样亮度，寻找白色环线交叉处的峰值。峰值位置就是环线半径。</p>
+<p><img src="https://drobinin.com/assets/notch-vradial-1-strip.png" alt="一个带有同心白色测环的黑色牛眼，上面叠加了一条从中心向右边缘延伸的橙色水平带状区域。"></p>
+<ol>
+<li>选取一条带状区域。</li>
+</ol>
+<p><img src="https://drobinin.com/assets/notch-vradial-2-samples.png" alt="同一个牛眼和带状区域；带有橙色边框的白色小圆圈标记了带状区域与白色环线相交的每个点。"></p>
+<ol start="2">
+<li>采样亮度。</li>
+</ol>
+<p><img src="https://drobinin.com/assets/notch-vradial-3-spikes.png" alt="沿带状区域的亮度条形图：五个高的橙色条（每个对应一次环线交叉）位于平坦基线上；最后一个条颜色较浅。"></p>
+<ol start="3">
+<li>绘制峰值。</li>
+</ol>
+<p>结合 Vision 的 <code>VNDetectContoursRequest</code> 和周长过滤器，我平均每张靶纸能检测出五个弹孔中的四个——即 80% 的准确率，仍有很长的路要走，而且我们还没有遇到重叠弹孔等边界情况。</p>
+<p><em>也想在你的应用中使用 Vision 和 CoreML 吗？<a href="https://drobinin.com/consulting/coreml-on-device-ml/?ref=brassplug">来聊聊 →</a></em></p>
+<h3>引入机器学习</h3>
+<p>射击者会在靶纸上做各种事情。他们会写名字、加日期、在接近的弹孔周围画圈。大多数靶纸有撕裂的订书钉孔，有时多发子弹在纸上留下的孔洞过于接近，以至于合并成一个泛洪填充区域。</p>
+<p>我最初的尝试是为每种情况添加启发式规则，每隔一周带着新的一批靶纸回来，再次调整参数，但这几乎不可扩展也不可持续。</p>
+<p>于是我再次回到 Google，找到了一篇 2023 年底发表的论文<sup><a href="#user-content-fn-5" id="user-content-fnref-5" data-footnote-ref aria-describedby="footnote-label">5</a></sup>。作者声称平均精度达 96.5%，但专注于弹孔检测，并通过边界框类别读出环值。</p>
+<p>我无法为我的靶纸手动准备边界框类别，但我已经有了可用的几何方法，这要归功于 Rudzinski 和 Luckner。我所缺少的是可靠的弹孔检测。YOLO 论文很好地解决了弹孔检测问题，但将几何部分留给了一个假设：靶纸是完美对齐的。</p>
+<p><img src="https://drobinin.com/assets/notch-yolo-1-grid.png" alt="一个带有三个白色弹孔的牛眼靶纸，弹孔位于 9 环和 8 环上，上面叠加了一个将图像划分为等尺寸方格的灰色虚线网格。"></p>
+<ol>
+<li>图像变为网格：每个面片是一个单元格。</li>
+</ol>
+<p><img src="https://drobinin.com/assets/notch-yolo-2-cells-vote.png" alt="同一张带网格的靶纸。三个网格单元格——各包含一个弹孔中心——被标记为绿色并带有勾号。"></p>
+<ol start="2">
+<li>单元格投票：弹孔在里面吗？</li>
+</ol>
+<p><img src="https://drobinin.com/assets/notch-yolo-3-boxes-proposed.png" alt="绿色的&#x22;是&#x22;单元格现在在每个弹孔周围画出了粉色虚线边界框。各个边界框略微偏移并相互重叠。"></p>
+<ol start="3">
+<li>"是"单元格绘制各自的边界框；相邻单元格的边界框略有不同并相互重叠。</li>
+</ol>
+<p><img src="https://drobinin.com/assets/notch-yolo-4-nms.png" alt="干净的结果：每个弹孔一个实心绿色边界框，没有网格，没有重叠的候选框。"></p>
+<ol start="4">
+<li>NMS（非极大值抑制）为每个弹孔保留最强的边界框。</li>
+</ol>
+<p>自然地，我合并了两种方法：OpenCV 处理结构几何——牛眼、椭圆、环线、透视变换。YOLOv8 进行弹孔定位，与 MDPI 论文相同的架构，在我自己的数据集上进行了微调。推理时丢弃学习模型的类别预测；环值来自弹孔中心到牛眼中心的距离对比几何环线半径。</p>
+<p>完成标注和训练后，我使用 <code>coremltools</code> 将模型导出为 CoreML——Xcode 导入后的最终包大小为 22.4 MB。</p>
+<p><img src="https://drobinin.com/assets/notch-coreml-preview.png" alt="Xcode 中名为 &#x27;BulletHoleDetector&#x27; 的 CoreML 模型预览，22.4 MB，目标平台 iOS 15+。右侧是一张 .22 口径靶纸，上面有手写倒置的 VAZ #5 标注。五个白色边界框标记了检测到的弹孔——牛眼上方一个高处，中心附近三个相互接触，左下方一个。"></p>
+<p>Xcode CoreML 预览中打包的检测器，运行在我自己的一张靶纸上。</p>
+<h3>计分</h3>
+<h3>坐标映射回</h3>
+<p>两个组件都就绪后，我本以为计分是最容易的部分。大多数情况下确实如此，只是我在坐标空间上反复浪费时间，并且完全忘记了透视变换的问题。</p>
+<p><img src="https://drobinin.com/assets/notch-rings-skewed.jpg" alt="一张十牛眼 NSRA 竞赛靶纸，以轻微角度拍摄。每个检测到的牛眼周围画有绿色椭圆；边缘散布着数十个红色小圆圈，是装饰性印刷点被误标为弹孔的结果。左上角显示总分：40。"></p>
+<p>以一定角度拍摄的照片会将每个牛眼变成椭圆，径向强度剖面需要后处理才能正确拟合它们。</p>
+<p>Vision 返回的边界框范围在 0-1 之间，原点在左下角，但 UIKit 的原点在左上角，因此很容易出现偏移一环的误差——这种误差看起来足够合理，以至于让人误以为是变换方法以外的问题。</p>
+<p>一旦坐标对齐，计算看起来很简单。不过，测环尺的存在是有原因的——检测到的弹孔比实际制造它的子弹要小，因为纸张被撕裂并向内挤压。CoreML 返回的是可见撕裂纸张区域的边界框，而非子弹本身，因此计分时需要的是弹孔中心加上子弹半径——即子弹到达的最远点。</p>
+<h3>子弹半径</h3>
+<p>0.22 口径子弹直径为 0.22 英寸（显然），而 NSRA .22 靶纸为 2.05 英寸，所以几何上子弹半径应为牛眼直径的 10.87%。</p>
+<p>不过纸张撕裂得没那么干净。此外，我以前在物理学和机器学习方面的表现都糟糕透顶，所以在重新阅读两篇论文后，我放弃了理论方法，开始凭经验调整乘数——即改变常数，在我手动计分的靶纸上重新运行测试。30% 对我而言效果不错（即牛眼直径的 14.13%），但我很想知道正确的方法——如果你了解，请<a href="mailto:nsra@drobinin.com">给我留言</a>。</p>
+<p><img src="https://drobinin.com/assets/notch-bbox-vs-reach.jpg" alt="之前那张下方 NSRA 靶纸，每个弹孔都有标注：红色矩形紧密包围每个弹孔的撕裂纸张区域（CoreML 检测到的边界框），每个矩形内部有一个较小的橙色圆形，表示子弹的实际中心（用于计分的到达范围）。"></p>
+<p>每个撕裂区域周围的红色矩形是 CoreML 检测到的内容；黄色圆形是用于计分的弹着点位置。</p>
+<hr>
+<h3>超越测环尺</h3>
+<p>开始六个月后，我仍然觉得自己枪法不佳，但现在大多数时候我知道原因了——姿势、扳机压力，或在击发时呼吸。不过这些都是靠感受而非测量的东西，这也正是初学者一开始会打分组靶纸的原因。靶纸上弹群分布的形状能告诉你很多信息——从扳机扣压和击发时呼吸等常见问题，到步枪本身的问题。<sup><a href="#user-content-fn-6" id="user-content-fnref-6" data-footnote-ref aria-describedby="footnote-label">6</a></sup></p>
+<p><img src="https://drobinin.com/assets/notch-group-pull-trigger.png" alt="带有同心计分环的靶面。约十个白色弹孔紧密聚集在中心偏右下位置，触及 8 环和 9 环。"></p>
+<p>紧集群，中心偏右下——扳机扣压。</p>
+<p><img src="https://drobinin.com/assets/notch-group-breathing.png" alt="带有同心计分环的靶面。弹着点形成一条纵向长条，从 10 环上方穿过中心一直延伸到下方。"></p>
+<p>穿过中心的纵向长条——击发时呼吸。</p>
+<p>比赛靶纸是按已知顺序逐牛眼射击的，所以只要知道哪个牛眼先打，就能将精度相对于位置作图，从而发现趋势。我经常看到自己在中间段漂移，然后在快结束时——当我注意到靶纸快用完了——又重新收紧。</p>
+<p>我踏上这个旅程的初衷是想降低测环尺（并停止带回家一堆打过的靶纸），但当计分功能实现时，我变得更感兴趣的是不仅要自动化计分，还要自动化反馈——经过几个月积累的计分靶纸，我可以将所有弹着点叠加到累计热力图上观察趋势，或者对比我在全部四支公用步枪上的表现。</p>
+<p>我甚至终于能证明，上场前几分钟吃一个甜甜圈平均会让我的成绩下降 7 分（满分为 100）。这可能是安慰剂效应，但我当前的理论是它提高了我的血糖水平（你可能看出来了，我不仅物理学得不好，生物学也不行——不过我已经尽力了）。</p>
+<p>最后我把它打包成了一个<a href="https://apps.apple.com/app/apple-store/id6747980153?pt=126702974&#x26;ct=drobinin.com-brass&#x26;mt=8">离线优先的小应用</a>——最初是为俱乐部里的伙伴们做的，但实际上是为任何想让自己的 <del>烹饪</del> 射击日常更有趣一点的人准备的。不过我也了解到世界上大部分人并不怎么关心 NSRA 靶纸，所以我一直在慢慢添加对其他项目和靶纸的支持。</p>
+<p><img src="https://drobinin.com/assets/notch-demo.gif" alt="iPhone 上 Notch 应用的短循环演示：从上方拍摄的比赛靶纸，牛眼自动检测，弹孔定位，每个牛眼旁写出了分数。"></p>
+<p>iPhone 上的 Notch，正在为比赛靶纸计分。</p>
+<hr>
+<p>在我对自己有足够信心去猎鹿（deer stalking）之前，我就出发去了加拿大。</p>
+<p>现在每周一和周三的晚上，有另一个人躺在普雷斯顿潘斯的那张垫子上<sup><a href="#user-content-fn-7" id="user-content-fnref-7" data-footnote-ref aria-describedby="footnote-label">7</a></sup>，躲避着同样的横梁，在靶纸之间数着呼吸。那个装测环尺的木盒仍然在桌子上——大多数伙计们说，这已经不是第一次有人觉得自己能比那把老黄铜塞规做得更好了。</p>
+<p>测环尺的真正工作是解决争议。当两名射手对一枚边界弹着点有分歧时，测环尺说了算，因为规则就是这么定的。他们俩谁都不在乎我最先进的计算机视觉模型。</p>
+<p>很可能，你身边也有类似的东西——一件在你出生之前就已经在履行职责的工具，试图替换它显得很愚蠢。</p>
+<p>我们也许无法让它们退休。但我渴望制造出二十年后仍会出现在别人桌上的东西，耐用得足以让人也傻到想去替换它们。</p>
+<p><em>想在应用中添加设备端机器学习？<a href="https://drobinin.com/consulting/coreml-on-device-ml/?ref=nsra">我可以帮忙 →</a></em></p>
+<hr>
+<h2>术语表</h2>
+<table>
+<thead>
+<tr>
+<th>原文</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>automated curing chamber</td>
+<td>自动化熟成柜</td>
+</tr>
+<tr>
+<td>bounding box</td>
+<td>边界框</td>
+</tr>
+<tr>
+<td>breathing through the shot</td>
+<td>击发时呼吸</td>
+</tr>
+<tr>
+<td>bull / bullseye</td>
+<td>牛眼</td>
+</tr>
+<tr>
+<td>chamber vacuum</td>
+<td>真空腔体机</td>
+</tr>
+<tr>
+<td>charcuterie</td>
+<td>熟食肉品</td>
+</tr>
+<tr>
+<td>deer stalking</td>
+<td>猎鹿</td>
+</tr>
+<tr>
+<td>fine-tune</td>
+<td>微调</td>
+</tr>
+<tr>
+<td>flood-fill</td>
+<td>泛洪填充</td>
+</tr>
+<tr>
+<td>garum</td>
+<td>鱼露</td>
+</tr>
+<tr>
+<td>Gary Anderson</td>
+<td>Gary Anderson</td>
+</tr>
+<tr>
+<td>grouping card</td>
+<td>分组靶纸</td>
+</tr>
+<tr>
+<td>heat map</td>
+<td>热力图</td>
+</tr>
+<tr>
+<td>heuristic</td>
+<td>启发式规则</td>
+</tr>
+<tr>
+<td>Hough transform</td>
+<td>霍夫变换</td>
+</tr>
+<tr>
+<td>immersion circulator</td>
+<td>低温循环器</td>
+</tr>
+<tr>
+<td>inference</td>
+<td>推理</td>
+</tr>
+<tr>
+<td>koji</td>
+<td>麹</td>
+</tr>
+<tr>
+<td>negative space</td>
+<td>负空间</td>
+</tr>
+<tr>
+<td>NMS (non-maximum suppression)</td>
+<td>NMS（非极大值抑制）</td>
+</tr>
+<tr>
+<td>non-maximum suppression</td>
+<td>非极大值抑制</td>
+</tr>
+<tr>
+<td>NSRA</td>
+<td>NSRA</td>
+</tr>
+<tr>
+<td>offline-first</td>
+<td>离线优先</td>
+</tr>
+<tr>
+<td>perspective transform</td>
+<td>透视变换</td>
+</tr>
+<tr>
+<td>Prewitt edge detector</td>
+<td>Prewitt 边缘检测器</td>
+</tr>
+<tr>
+<td>protease</td>
+<td>蛋白酶</td>
+</tr>
+<tr>
+<td>radial-intensity profile</td>
+<td>径向强度剖面</td>
+</tr>
+<tr>
+<td>Red deer</td>
+<td>马鹿</td>
+</tr>
+<tr>
+<td>ring line</td>
+<td>环线</td>
+</tr>
+<tr>
+<td>scoring gauge</td>
+<td>测环尺</td>
+</tr>
+<tr>
+<td>trigger pull</td>
+<td>扳机扣压</td>
+</tr>
+<tr>
+<td>venison steak</td>
+<td>鹿肉牛排</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+<section data-footnotes class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes</h2>
+<ol>
+<li id="user-content-fn-1">
+<p>大西洋这岸最好的精品糕点（而且他们也做甜甜圈！）。 <a href="#user-content-fnref-1" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-2">
+<p>《枪支法案》允许土地所有者在"监督"你使用的前提下把他们的枪借给你，几个世纪以来人们就是这样在他们的庄园里狩猎的（顺便说一句，这叫鹿狩——hunting 是给骑马的有钱蠢货干的，shooting 是给穿粗花呢的有钱蠢货干的）。 <a href="#user-content-fnref-2" data-footnote-backref="" aria-label="Back to reference 2" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-3">
+<p>我写代码时就已经多次搬起石头砸自己的脚了，想想我要是拿了真枪能干出什么事。 <a href="#user-content-fnref-3" data-footnote-backref="" aria-label="Back to reference 3" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-4">
+<p>与 NSRA 相比，ISSF 靶纸有不同的牛眼尺寸、环数、不同的环区以及不同的背景<br>
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/da/AR_target_paper.jpg" alt="ISSF 气步枪靶纸，Guvava，CC BY-SA 3.0，来自 Wikimedia Commons"> <a href="#user-content-fnref-4" data-footnote-backref="" aria-label="Back to reference 4" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-5">
+<p>Z. Ali 等人，"Application of YOLOv8 and Detectron2 for Bullet Hole Detection and Score Calculation from Shooting Cards"，<em>AI</em>，第 5 卷，第 1 期，72-90，2024 年。<a href="https://www.mdpi.com/2673-2688/5/1/5">10.3390/ai5010005</a> <a href="#user-content-fnref-5" data-footnote-backref="" aria-label="Back to reference 5" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-6">
+<p>一个干净紧密但偏离牛眼几环的弹群通常意味着，如果不是归零问题，你本可以完美命中牛眼——这个解释我觉得很安慰（但我的伙伴们不同意）。 <a href="#user-content-fnref-6" data-footnote-backref="" aria-label="Back to reference 6" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-7">
+<p>我终有一天会回来的。<br>
+<img src="https://drobinin.com/assets/notch-range-prestonpans.jpg" alt="普雷斯顿潘斯的射击场：一条长长的室内靶道，射击垫在纸质靶架前排成一排。"> <a href="#user-content-fnref-7" data-footnote-backref="" aria-label="Back to reference 7" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+5:["$","$L11",null,{"email":{"id":"essays-my-phone-replaced-a-brass-plug","sender":"Vadim Drobinin","subject":"手机取代了黄铜塞子","snippet":"在爱丁堡郊外一个铁皮隧道里，作者每周三傍晚穿着不舒服的夹克趴在地上打靶。真正让他感到疲惫的并非射击本身，而是那套繁琐的计分仪式——用黄铜塞子一个个填补弹孔、借助测环尺判定环数。作为一名 iOS 工程师，他决定用手机摄像头和计算机视觉来终结这一切。","date":"2026-04-23","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["translated"],"mdTheme":"magazine","sourcePath":"essays/my-phone-replaced-a-brass-plug.md","sourceUrl":"https://drobinin.com/posts/my-phone-replaced-a-brass-plug/","coverImage":"$undefined","body":"$12","prompts":[]},"listPosition":{"index":96,"total":365},"matchedPerson":"$undefined"}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[27201,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"IconMark"]
+c:[["$","title","0",{"children":"手机取代了黄铜塞子 · Hinbox"}],["$","meta","1",{"name":"description","content":"在爱丁堡郊外一个铁皮隧道里，作者每周三傍晚穿着不舒服的夹克趴在地上打靶。真正让他感到疲惫的并非射击本身，而是那套繁琐的计分仪式——用黄铜塞子一个个填补弹孔、借助测环尺判定环数。作为一名 iOS 工程师，他决定用手机摄像头和计算机视觉来终结这一切。"}],["$","meta","2",{"name":"application-name","content":"Hinbox"}],["$","link","3",{"rel":"canonical","href":"https://linguage.github.io/hinbox/mail/essays-my-phone-replaced-a-brass-plug"}],["$","meta","4",{"property":"og:title","content":"手机取代了黄铜塞子"}],["$","meta","5",{"property":"og:description","content":"在爱丁堡郊外一个铁皮隧道里，作者每周三傍晚穿着不舒服的夹克趴在地上打靶。真正让他感到疲惫的并非射击本身，而是那套繁琐的计分仪式——用黄铜塞子一个个填补弹孔、借助测环尺判定环数。作为一名 iOS 工程师，他决定用手机摄像头和计算机视觉来终结这一切。"}],["$","meta","6",{"property":"og:url","content":"https://linguage.github.io/hinbox/mail/essays-my-phone-replaced-a-brass-plug"}],["$","meta","7",{"property":"og:site_name","content":"Hinbox"}],["$","meta","8",{"property":"og:locale","content":"zh_CN"}],["$","meta","9",{"property":"og:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","meta","10",{"property":"og:image:width","content":"1200"}],["$","meta","11",{"property":"og:image:height","content":"630"}],["$","meta","12",{"property":"og:image:alt","content":"手机取代了黄铜塞子"}],["$","meta","13",{"property":"og:type","content":"article"}],["$","meta","14",{"property":"article:published_time","content":"2026-04-23T00:00:00.000Z"}],["$","meta","15",{"property":"article:author","content":"Vadim Drobinin"}],["$","meta","16",{"property":"article:tag","content":"translated"}],["$","meta","17",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","18",{"name":"twitter:title","content":"手机取代了黄铜塞子"}],["$","meta","19",{"name":"twitter:description","content":"在爱丁堡郊外一个铁皮隧道里，作者每周三傍晚穿着不舒服的夹克趴在地上打靶。真正让他感到疲惫的并非射击本身，而是那套繁琐的计分仪式——用黄铜塞子一个个填补弹孔、借助测环尺判定环数。作为一名 iOS 工程师，他决定用手机摄像头和计算机视觉来终结这一切。"}],["$","meta","20",{"name":"twitter:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","link","21",{"rel":"icon","href":"/hinbox/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","22",{"rel":"icon","href":"/hinbox/icon.svg?icon.6ca2692a.svg","sizes":"any","type":"image/svg+xml"}],["$","$L13","23",{}]]
+8:null

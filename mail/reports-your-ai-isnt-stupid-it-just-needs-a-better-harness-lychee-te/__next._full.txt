@@ -1,0 +1,251 @@
+1:"$Sreact.fragment"
+3:I[39756,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+4:I[37457,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"ViewportBoundary"]
+b:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"MetadataBoundary"]
+d:I[68027,[],"default"]
+:HL["/hinbox/_next/static/chunks/24888a04b79e7824.css","style"]
+:HL["/hinbox/_next/static/media/fba5a26ea33df6a3-s.p.1bbdebe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"vMUiZWVsRx3pCqxArlZcR","c":["","mail","reports-your-ai-isnt-stupid-it-just-needs-a-better-harness-lychee-te"],"q":"","i":false,"f":[[["",{"children":["mail",{"children":[["id","reports-your-ai-isnt-stupid-it-just-needs-a-better-harness-lychee-te","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hinbox/_next/static/chunks/24888a04b79e7824.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[79520,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],""]
+f:I[59665,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],"default"]
+:HL["https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","style"]
+2:["$","html",null,{"lang":"zh-CN","className":"plus_jakarta_sans_9710934b-module__-vnxFq__variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function () {\n  try {\n    var theme = window.localStorage.getItem('hinbox:theme');\n    if (theme !== 'light' && theme !== 'dark' && theme !== 'sepia') {\n      theme = 'light';\n    }\n    window['__HINBOX_THEME__'] = theme;\n    document.documentElement.dataset.theme = theme;\n    document.documentElement.style.colorScheme = theme === 'dark' ? 'dark' : 'light';\n    function applyBodyTheme() {\n      if (document.body) {\n        document.body.dataset.theme = theme;\n      }\n    }\n    if (document.body) {\n      applyBodyTheme();\n    } else {\n      document.addEventListener('DOMContentLoaded', applyBodyTheme);\n    }\n  } catch (error) {\n    window['__HINBOX_THEME__'] = 'light';\n    document.documentElement.dataset.theme = 'light';\n    document.documentElement.style.colorScheme = 'light';\n  }\n})();"}}],"",["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","rel":"stylesheet"}],["$","$Le",null,{"id":"mathjax-config","strategy":"afterInteractive","children":"\n          window.MathJax = {\n            tex: {\n              inlineMath: [['$', '$'], ['\\\\(', '\\\\)']],\n              displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']],\n              processEscapes: true,\n              packages: { '[+]': ['noerrors', 'noundefined'] },\n            },\n            svg: {\n              fontCache: 'none',\n            },\n            startup: {\n              typeset: false,\n              ready: () => {\n                window.MathJax.startup.defaultReady();\n                window.dispatchEvent(new Event('MathJaxReady'));\n              },\n            },\n          };\n          "}],["$","$Le",null,{"id":"mathjax-cdn","strategy":"afterInteractive","src":"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"}]]}],["$","body",null,{"className":"font-[family-name:var(--font-jakarta)] antialiased","suppressHydrationWarning":true,"children":["",["$","$Lf",null,{"weeklyNavCounts":{"inboxWeeklyCount":10,"sentWeeklyCount":0,"starredTotalCount":21},"people":[{"id":"david-perell","name":"David Perell","email":""},{"id":"lenny-s-podcast","name":"Lenny's Podcast","email":""},{"id":"ryan-peterman","name":"Ryan Peterman","email":""},{"id":"anthropic","name":"Anthropic","email":""},{"id":"dwarkesh-patel","name":"Dwarkesh Patel","email":""},{"id":"stripe","name":"Stripe","email":""},{"id":"stephen-wolfram","name":"Stephen Wolfram","email":""},{"id":"latent-space","name":"Latent Space","email":""},{"id":"lex-fridman","name":"Lex Fridman","email":""},{"id":"steve-jobs","name":"Steve Jobs","email":""},{"id":"20vc-with-harry-stebbings","name":"20VC with Harry Stebbings","email":""},{"id":"jeremy-stern","name":"Jeremy Stern","email":""},{"id":"turing","name":"Turing","email":""},{"id":"demis-hassabis","name":"Demis Hassabis","email":""},{"id":"the-diary-of-a-ceo","name":"The Diary Of A CEO","email":""},{"id":"elon-musk","name":"Elon Musk","email":""},{"id":"sauteedveggies","name":"SauteedVeggies","email":""},{"id":"andy-matuschak","name":"Andy Matuschak","email":""},{"id":"mind-the-game","name":"Mind the Game","email":""},{"id":"ramona-shelburne","name":"Ramona Shelburne","email":""},{"id":"jared-weiss","name":"Jared Weiss","email":""},{"id":"deeplearningai","name":"DeepLearningAI","email":""},{"id":"cursor","name":"Cursor","email":""},{"id":"y-combinator","name":"Y Combinator","email":""},{"id":"openai","name":"OpenAI","email":""},{"id":"every","name":"Every","email":""},{"id":"sequoia-capital","name":"Sequoia Capital","email":""},{"id":"alex-kantrowitz","name":"Alex Kantrowitz","email":""},{"id":"peter-dizikes-mit-news","name":"Peter Dizikes ｜ MIT News","email":""},{"id":"world-finance-journal","name":"World Finance Journal","email":""},{"id":"andrej-karpathy","name":"Andrej karpathy","email":""},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","email":""},{"id":"jd-vance","name":"JD Vance","email":""},{"id":"街-大学","name":"やまぐち街なか大学","email":""},{"id":"jc","name":"JC","email":""}],"tags":[{"id":"translated","name":"translated","count":123},{"id":"interview","name":"interview","count":24},{"id":"ai","name":"ai","count":17},{"id":"人工智能","name":"人工智能","count":17},{"id":"clippings","name":"clippings","count":15},{"id":"essays","name":"Essays","count":9},{"id":"talks","name":"Talks","count":8},{"id":"深度学习","name":"深度学习","count":8},{"id":"ai-agents","name":"ai-agents","count":7},{"id":"cognition","name":"cognition","count":6},{"id":"nba","name":"NBA","count":6},{"id":"ai编程","name":"AI编程","count":5},{"id":"humanity","name":"humanity","count":5},{"id":"math","name":"math","count":5},{"id":"steve-jobs","name":"steve-jobs","count":5},{"id":"大语言模型","name":"大语言模型","count":5},{"id":"机器学习","name":"机器学习","count":5},{"id":"agi","name":"AGI","count":4},{"id":"anthropic","name":"Anthropic","count":4},{"id":"claude-code","name":"Claude Code","count":4},{"id":"doge","name":"DOGE","count":4},{"id":"nvidia","name":"nvidia","count":4},{"id":"windsurf","name":"Windsurf","count":4},{"id":"政府效率","name":"政府效率","count":4},{"id":"文艺复兴科技","name":"文艺复兴科技","count":4},{"id":"英伟达","name":"英伟达","count":4},{"id":"软件工程","name":"软件工程","count":4},{"id":"ai编程工具","name":"AI编程工具","count":3},{"id":"apple","name":"apple","count":3},{"id":"cursor","name":"Cursor","count":3},{"id":"deepseek","name":"deepseek","count":3},{"id":"linus-torvalds","name":"Linus Torvalds","count":3},{"id":"linux内核","name":"Linux内核","count":3},{"id":"llm","name":"llm","count":3},{"id":"mathematics","name":"mathematics","count":3},{"id":"reports","name":"Reports","count":3},{"id":"偏微分方程","name":"偏微分方程","count":3},{"id":"勒布朗-詹姆斯","name":"勒布朗·詹姆斯","count":3},{"id":"开源","name":"开源","count":3},{"id":"开源ai","name":"开源AI","count":3},{"id":"强化学习","name":"强化学习","count":3},{"id":"数学哲学","name":"数学哲学","count":3},{"id":"数学教育","name":"数学教育","count":3},{"id":"访谈","name":"访谈","count":3},{"id":"量化投资","name":"量化投资","count":3},{"id":"马斯克","name":"马斯克","count":3},{"id":"黄仁勋","name":"黄仁勋","count":3},{"id":"ai-agent","name":"AI Agent","count":2},{"id":"ai-coding","name":"ai-coding","count":2},{"id":"ai代理","name":"AI代理","count":2},{"id":"ai基础设施","name":"AI基础设施","count":2},{"id":"ai安全","name":"AI安全","count":2},{"id":"ai数学","name":"AI数学","count":2},{"id":"ai智能体","name":"AI智能体","count":2},{"id":"ai计算","name":"AI计算","count":2},{"id":"alphafold","name":"AlphaFold","count":2},{"id":"claude","name":"Claude","count":2},{"id":"devin","name":"Devin","count":2},{"id":"economics","name":"economics","count":2},{"id":"emacs","name":"Emacs","count":2},{"id":"essay","name":"essay","count":2},{"id":"git","name":"Git","count":2},{"id":"google","name":"Google","count":2},{"id":"ilya-sutskever","name":"Ilya Sutskever","count":2},{"id":"jeff-dean","name":"jeff-dean","count":2},{"id":"jepa","name":"JEPA","count":2},{"id":"org-mode","name":"Org mode","count":2},{"id":"programming","name":"programming","count":2},{"id":"software-engineering","name":"software-engineering","count":2},{"id":"vibe-coding","name":"Vibe Coding","count":2},{"id":"writing","name":"writing","count":2},{"id":"世界模型","name":"世界模型","count":2},{"id":"人性","name":"人性","count":2},{"id":"代数几何","name":"代数几何","count":2},{"id":"代码编辑器","name":"代码编辑器","count":2},{"id":"价值投资","name":"价值投资","count":2},{"id":"伯克希尔哈撒韦","name":"伯克希尔哈撒韦","count":2},{"id":"关税政策","name":"关税政策","count":2},{"id":"创业历程","name":"创业历程","count":2},{"id":"加速计算","name":"加速计算","count":2},{"id":"吉姆-西蒙斯","name":"吉姆·西蒙斯","count":2},{"id":"哲学","name":"哲学","count":2},{"id":"国际合作","name":"国际合作","count":2},{"id":"大型语言模型","name":"大型语言模型","count":2},{"id":"好奇心","name":"好奇心","count":2},{"id":"季后赛","name":"季后赛","count":2},{"id":"工程实践","name":"工程实践","count":2},{"id":"巴菲特","name":"巴菲特","count":2},{"id":"形式化证明","name":"形式化证明","count":2},{"id":"彼得-蒂尔","name":"彼得·蒂尔","count":2},{"id":"微软","name":"微软","count":2},{"id":"提示工程","name":"提示工程","count":2},{"id":"数学","name":"数学","count":2},{"id":"数学研究","name":"数学研究","count":2},{"id":"文班亚马","name":"文班亚马","count":2},{"id":"智能代理开发","name":"智能代理开发","count":2},{"id":"毕业演讲","name":"毕业演讲","count":2},{"id":"版本控制","name":"版本控制","count":2},{"id":"科学发现","name":"科学发现","count":2},{"id":"科技停滞","name":"科技停滞","count":2},{"id":"软件工程变革","name":"软件工程变革","count":2},{"id":"软件开发","name":"软件开发","count":2},{"id":"量子力学","name":"量子力学","count":2},{"id":"阿贝尔奖","name":"阿贝尔奖","count":2},{"id":"风险投资","name":"风险投资","count":2},{"id":"agent设计","name":"Agent设计","count":1},{"id":"ai-for-science","name":"AI for Science","count":1},{"id":"ai-编程","name":"AI 编程","count":1},{"id":"ai伦理","name":"AI伦理","count":1},{"id":"ai最佳实践","name":"AI最佳实践","count":1},{"id":"ai大模型","name":"AI大模型","count":1},{"id":"ai并购","name":"AI并购","count":1},{"id":"ai应用","name":"AI应用","count":1},{"id":"ai开发者大会","name":"AI开发者大会","count":1},{"id":"ai推理","name":"AI推理","count":1},{"id":"ai收购","name":"AI收购","count":1},{"id":"ai数学发现","name":"AI数学发现","count":1},{"id":"ai生物医药","name":"AI生物医药","count":1},{"id":"ai竞争","name":"AI竞争","count":1},{"id":"ai编程代理","name":"AI编程代理","count":1},{"id":"ai芯片","name":"AI芯片","count":1},{"id":"ai规模化","name":"AI规模化","count":1},{"id":"ai辅助学习","name":"AI辅助学习","count":1},{"id":"ai辅助开发","name":"AI辅助开发","count":1},{"id":"anysphere","name":"Anysphere","count":1},{"id":"biography","name":"biography","count":1},{"id":"blackwell架构","name":"Blackwell架构","count":1},{"id":"cag","name":"CAG","count":1},{"id":"career","name":"career","count":1},{"id":"ceo交接","name":"CEO交接","count":1},{"id":"chatgpt","name":"ChatGPT","count":1},{"id":"chris-bishop","name":"Chris Bishop","count":1},{"id":"claude-4","name":"Claude 4","count":1},{"id":"claude-sonnet-4-5","name":"Claude Sonnet 4.5","count":1},{"id":"coding-agent","name":"Coding Agent","count":1},{"id":"context-engineering","name":"Context Engineering","count":1},{"id":"cs50","name":"CS50","count":1},{"id":"cuda生态","name":"CUDA生态","count":1},{"id":"deep-search","name":"Deep Search","count":1},{"id":"deepmind","name":"DeepMind","count":1},{"id":"distributed-systems","name":"distributed-systems","count":1},{"id":"elon-musk","name":"Elon Musk","count":1},{"id":"engineering","name":"engineering","count":1},{"id":"fields奖","name":"Fields奖","count":1},{"id":"geoffrey-hinton","name":"Geoffrey Hinton","count":1},{"id":"gpt-4","name":"GPT-4","count":1},{"id":"gpt-4-5","name":"GPT-4.5","count":1},{"id":"gpu与深度学习","name":"GPU与深度学习","count":1},{"id":"gpu架构","name":"GPU架构","count":1},{"id":"gpu算力","name":"GPU算力","count":1},{"id":"grok-3","name":"Grok 3","count":1},{"id":"haskell","name":"haskell","count":1},{"id":"incident","name":"incident","count":1},{"id":"jim-simons","name":"Jim Simons","count":1},{"id":"julia","name":"Julia","count":1},{"id":"june-huh","name":"june-huh","count":1},{"id":"kaggle","name":"Kaggle","count":1},{"id":"kiro-spec模式","name":"Kiro SPEC模式","count":1},{"id":"labor","name":"labor","count":1},{"id":"lean","name":"Lean","count":1},{"id":"lisp","name":"Lisp","count":1},{"id":"llm工具","name":"LLM工具","count":1},{"id":"mcp","name":"MCP","count":1},{"id":"mit","name":"MIT","count":1},{"id":"mvp","name":"MVP","count":1},{"id":"naval-ravikant","name":"Naval Ravikant","count":1},{"id":"ncaa疯狂三月","name":"NCAA疯狂三月","count":1},{"id":"noema","name":"noema","count":1},{"id":"notes","name":"notes","count":1},{"id":"notion","name":"Notion","count":1},{"id":"nvidia-gtc-2025","name":"NVIDIA GTC 2025","count":1},{"id":"openai","name":"OpenAI","count":1},{"id":"optimus机器人","name":"Optimus机器人","count":1},{"id":"peter-lax","name":"Peter Lax","count":1},{"id":"pixar","name":"pixar","count":1},{"id":"prompt-engineering","name":"Prompt Engineering","count":1},{"id":"psychology","name":"psychology","count":1},{"id":"publishing","name":"publishing","count":1},{"id":"python","name":"Python","count":1},{"id":"reliability","name":"reliability","count":1},{"id":"report","name":"report","count":1},{"id":"research","name":"Research","count":1},{"id":"research-career","name":"research-career","count":1},{"id":"robotics","name":"robotics","count":1},{"id":"sanjay-ghemawat","name":"Sanjay Ghemawat","count":1},{"id":"satya-nadella","name":"Satya Nadella","count":1},{"id":"scaling-laws","name":"Scaling Laws","count":1},{"id":"security","name":"security","count":1},{"id":"skills","name":"skills","count":1},{"id":"slimv","name":"Slimv","count":1},{"id":"technical-report","name":"technical-report","count":1},{"id":"terence-tao","name":"terence-tao","count":1},{"id":"vim","name":"Vim","count":1},{"id":"vlime","name":"Vlime","count":1},{"id":"wolfram","name":"Wolfram","count":1},{"id":"xai","name":"xAI","count":1},{"id":"yann-lecun","name":"Yann LeCun","count":1},{"id":"yc","name":"YC","count":1},{"id":"上下文工程","name":"上下文工程","count":1},{"id":"个人反思","name":"个人反思","count":1},{"id":"个人电脑","name":"个人电脑","count":1},{"id":"中美关系","name":"中美关系","count":1},{"id":"乌克兰战争","name":"乌克兰战争","count":1},{"id":"乔姆斯基","name":"乔姆斯基","count":1},{"id":"交通基础设施","name":"交通基础设施","count":1},{"id":"产品市场契合","name":"产品市场契合","count":1},{"id":"人工智能未来","name":"人工智能未来","count":1},{"id":"人形机器人","name":"人形机器人","count":1},{"id":"人机协作","name":"人机协作","count":1},{"id":"人机博弈","name":"人机博弈","count":1},{"id":"人生哲学","name":"人生哲学","count":1},{"id":"人类未来","name":"人类未来","count":1},{"id":"人类福祉","name":"人类福祉","count":1},{"id":"代理开发","name":"代理开发","count":1},{"id":"代理式编程","name":"代理式编程","count":1},{"id":"代码生成","name":"代码生成","count":1},{"id":"任务管理","name":"任务管理","count":1},{"id":"仿真学习","name":"仿真学习","count":1},{"id":"企业采用","name":"企业采用","count":1},{"id":"众包协作","name":"众包协作","count":1},{"id":"优绩主义","name":"优绩主义","count":1},{"id":"伦理监管","name":"伦理监管","count":1},{"id":"伯克希尔-哈撒韦","name":"伯克希尔·哈撒韦","count":1},{"id":"俄乌战争","name":"俄乌战争","count":1},{"id":"保罗-狄拉克","name":"保罗·狄拉克","count":1},{"id":"保险业务","name":"保险业务","count":1},{"id":"信号处理","name":"信号处理","count":1},{"id":"信息动力学","name":"信息动力学","count":1},{"id":"信息物理学","name":"信息物理学","count":1},{"id":"全球贸易","name":"全球贸易","count":1},{"id":"公共美德","name":"公共美德","count":1},{"id":"具身智能","name":"具身智能","count":1},{"id":"写作","name":"写作","count":1},{"id":"写作工具","name":"写作工具","count":1},{"id":"冷战数学","name":"冷战数学","count":1},{"id":"创业转型","name":"创业转型","count":1},{"id":"创业领导力","name":"创业领导力","count":1},{"id":"创造力与年龄","name":"创造力与年龄","count":1},{"id":"制度经济学","name":"制度经济学","count":1},{"id":"加性数论","name":"加性数论","count":1},{"id":"包容性制度","name":"包容性制度","count":1},{"id":"医疗应用","name":"医疗应用","count":1},{"id":"半导体","name":"半导体","count":1},{"id":"协同设计","name":"协同设计","count":1},{"id":"单位距离问题","name":"单位距离问题","count":1},{"id":"南非种族隔离","name":"南非种族隔离","count":1},{"id":"卢卡-东契奇","name":"卢卡·东契奇","count":1},{"id":"压缩感知","name":"压缩感知","count":1},{"id":"变换编码","name":"变换编码","count":1},{"id":"可持续能源","name":"可持续能源","count":1},{"id":"可重复性危机","name":"可重复性危机","count":1},{"id":"史蒂夫-乔布斯","name":"史蒂夫·乔布斯","count":1},{"id":"史蒂夫-纳什","name":"史蒂夫·纳什","count":1},{"id":"同伦类型论","name":"同伦类型论","count":1},{"id":"哲学辩论","name":"哲学辩论","count":1},{"id":"国际政治","name":"国际政治","count":1},{"id":"在线教育","name":"在线教育","count":1},{"id":"地缘政治","name":"地缘政治","count":1},{"id":"埃尔德什猜想","name":"埃尔德什猜想","count":1},{"id":"埃罗尔-马斯克","name":"埃罗尔·马斯克","count":1},{"id":"埃隆-马斯克","name":"埃隆·马斯克","count":1},{"id":"基督教与科学","name":"基督教与科学","count":1},{"id":"基础主义","name":"基础主义","count":1},{"id":"基础模型","name":"基础模型","count":1},{"id":"复合工程","name":"复合工程","count":1},{"id":"外交谈判","name":"外交谈判","count":1},{"id":"多伦多大学","name":"多伦多大学","count":1},{"id":"多体物理","name":"多体物理","count":1},{"id":"多智能体协同","name":"多智能体协同","count":1},{"id":"大数假说","name":"大数假说","count":1},{"id":"太空探索","name":"太空探索","count":1},{"id":"孤子理论","name":"孤子理论","count":1},{"id":"学习路径","name":"学习路径","count":1},{"id":"学术写作","name":"学术写作","count":1},{"id":"学术建议","name":"学术建议","count":1},{"id":"学术生态","name":"学术生态","count":1},{"id":"学术研究方法","name":"学术研究方法","count":1},{"id":"学术自传","name":"学术自传","count":1},{"id":"宇宙学","name":"宇宙学","count":1},{"id":"官僚主义改革","name":"官僚主义改革","count":1},{"id":"定理证明","name":"定理证明","count":1},{"id":"家族故事","name":"家族故事","count":1},{"id":"对冲基金","name":"对冲基金","count":1},{"id":"对称性","name":"对称性","count":1},{"id":"对称性破缺","name":"对称性破缺","count":1},{"id":"小平邦彦","name":"小平邦彦","count":1},{"id":"少林寺","name":"少林寺","count":1},{"id":"就业与经济","name":"就业与经济","count":1},{"id":"就业影响","name":"就业影响","count":1},{"id":"工作尊严","name":"工作尊严","count":1},{"id":"工作流","name":"工作流","count":1},{"id":"工程精神","name":"工程精神","count":1},{"id":"幸福与成功","name":"幸福与成功","count":1},{"id":"库珀-弗拉格","name":"库珀·弗拉格","count":1},{"id":"开发环境","name":"开发环境","count":1},{"id":"开发者工具","name":"开发者工具","count":1},{"id":"开发者生产力","name":"开发者生产力","count":1},{"id":"开源模型","name":"开源模型","count":1},{"id":"形式主义","name":"形式主义","count":1},{"id":"彼得-拉克斯","name":"彼得·拉克斯","count":1},{"id":"微分几何","name":"微分几何","count":1},{"id":"心理学","name":"心理学","count":1},{"id":"思维链","name":"思维链","count":1},{"id":"慈善","name":"慈善","count":1},{"id":"慈善事业","name":"慈善事业","count":1},{"id":"慕尼黑安全会议","name":"慕尼黑安全会议","count":1},{"id":"成长型思维","name":"成长型思维","count":1},{"id":"技术监管","name":"技术监管","count":1},{"id":"技能退化","name":"技能退化","count":1},{"id":"投资哲学","name":"投资哲学","count":1},{"id":"推理时计算","name":"推理时计算","count":1},{"id":"提纲写作","name":"提纲写作","count":1},{"id":"摩根大通","name":"摩根大通","count":1},{"id":"播客","name":"播客","count":1},{"id":"政治哲学","name":"政治哲学","count":1},{"id":"数字革命","name":"数字革命","count":1},{"id":"数学反例","name":"数学反例","count":1},{"id":"数学史","name":"数学史","count":1},{"id":"数学基础","name":"数学基础","count":1},{"id":"数学实践","name":"数学实践","count":1},{"id":"数学家传记","name":"数学家传记","count":1},{"id":"数学工作流","name":"数学工作流","count":1},{"id":"数学形式化","name":"数学形式化","count":1},{"id":"数据中心","name":"数据中心","count":1},{"id":"数据效率","name":"数据效率","count":1},{"id":"数据科学","name":"数据科学","count":1},{"id":"文化多样性","name":"文化多样性","count":1},{"id":"文化转型","name":"文化转型","count":1},{"id":"文学编程","name":"文学编程","count":1},{"id":"斯多葛主义","name":"斯多葛主义","count":1},{"id":"无人机","name":"无人机","count":1},{"id":"日本数学","name":"日本数学","count":1},{"id":"日记写作","name":"日记写作","count":1},{"id":"智能代理","name":"智能代理","count":1},{"id":"智能体ai","name":"智能体AI","count":1},{"id":"智能分析","name":"智能分析","count":1},{"id":"更衣室训话","name":"更衣室训话","count":1},{"id":"未来战争","name":"未来战争","count":1},{"id":"未来趋势","name":"未来趋势","count":1},{"id":"机器人技术","name":"机器人技术","count":1},{"id":"杰米-戴蒙","name":"杰米·戴蒙","count":1},{"id":"柏拉图主义","name":"柏拉图主义","count":1},{"id":"查尔斯-巴克利","name":"查尔斯·巴克利","count":1},{"id":"查理-芒格","name":"查理·芒格","count":1},{"id":"标记语言","name":"标记语言","count":1},{"id":"格罗滕迪克","name":"格罗滕迪克","count":1},{"id":"概形","name":"概形","count":1},{"id":"模仿理论","name":"模仿理论","count":1},{"id":"模型应用","name":"模型应用","count":1},{"id":"模型驱动交易","name":"模型驱动交易","count":1},{"id":"模拟宇宙假说","name":"模拟宇宙假说","count":1},{"id":"欧洲创新","name":"欧洲创新","count":1},{"id":"欧洲民主","name":"欧洲民主","count":1},{"id":"欧盟资本市场","name":"欧盟资本市场","count":1},{"id":"欺骗性ai","name":"欺骗性AI","count":1},{"id":"比尔-盖茨","name":"比尔·盖茨","count":1},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","count":1},{"id":"沉思录","name":"沉思录","count":1},{"id":"沙奎尔-奥尼尔","name":"沙奎尔·奥尼尔","count":1},{"id":"波波维奇","name":"波波维奇","count":1},{"id":"泽连斯基","name":"泽连斯基","count":1},{"id":"活文档","name":"活文档","count":1},{"id":"测试时计算","name":"测试时计算","count":1},{"id":"涌现","name":"涌现","count":1},{"id":"深度阅读","name":"深度阅读","count":1},{"id":"湖人三连冠","name":"湖人三连冠","count":1},{"id":"炒作与现实","name":"炒作与现实","count":1},{"id":"热力学第二定律","name":"热力学第二定律","count":1},{"id":"特斯拉","name":"特斯拉","count":1},{"id":"特朗普","name":"特朗普","count":1},{"id":"狄拉克","name":"狄拉克","count":1},{"id":"狄拉克方程","name":"狄拉克方程","count":1},{"id":"理论物理","name":"理论物理","count":1},{"id":"生产力工具","name":"生产力工具","count":1},{"id":"生成式ai","name":"生成式AI","count":1},{"id":"相对论","name":"相对论","count":1},{"id":"知识管理","name":"知识管理","count":1},{"id":"研究方法","name":"研究方法","count":1},{"id":"研究生指南","name":"研究生指南","count":1},{"id":"硅谷","name":"硅谷","count":1},{"id":"社交媒体","name":"社交媒体","count":1},{"id":"社会公平","name":"社会公平","count":1},{"id":"福柯","name":"福柯","count":1},{"id":"离散几何","name":"离散几何","count":1},{"id":"私募股权","name":"私募股权","count":1},{"id":"科学哲学","name":"科学哲学","count":1},{"id":"科学研究","name":"科学研究","count":1},{"id":"科学论文","name":"科学论文","count":1},{"id":"科技史","name":"科技史","count":1},{"id":"科比-布莱恩特","name":"科比·布莱恩特","count":1},{"id":"移民政策","name":"移民政策","count":1},{"id":"稀疏表示","name":"稀疏表示","count":1},{"id":"空间技术","name":"空间技术","count":1},{"id":"竞技长青","name":"竞技长青","count":1},{"id":"笔记技巧","name":"笔记技巧","count":1},{"id":"第一性原理","name":"第一性原理","count":1},{"id":"算法与社会","name":"算法与社会","count":1},{"id":"篮球战术","name":"篮球战术","count":1},{"id":"篮球访谈","name":"篮球访谈","count":1},{"id":"类型论","name":"类型论","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"约束等距性","name":"约束等距性","count":1},{"id":"纯文本写作","name":"纯文本写作","count":1},{"id":"纯粹数学","name":"纯粹数学","count":1},{"id":"线性代数","name":"线性代数","count":1},{"id":"经典阅读","name":"经典阅读","count":1},{"id":"结对编程","name":"结对编程","count":1},{"id":"编程教学","name":"编程教学","count":1},{"id":"编程语言","name":"编程语言","count":1},{"id":"美国ai政策","name":"美国AI政策","count":1},{"id":"美国政府改革","name":"美国政府改革","count":1},{"id":"美国经济","name":"美国经济","count":1},{"id":"美欧关系","name":"美欧关系","count":1},{"id":"翻译","name":"翻译","count":1},{"id":"职业自律","name":"职业自律","count":1},{"id":"职业辩护","name":"职业辩护","count":1},{"id":"联邦政府改革","name":"联邦政府改革","count":1},{"id":"联邦财政","name":"联邦财政","count":1},{"id":"股东信","name":"股东信","count":1},{"id":"股东大会","name":"股东大会","count":1},{"id":"能源","name":"能源","count":1},{"id":"能量基模型","name":"能量基模型","count":1},{"id":"自动驾驶","name":"自动驾驶","count":1},{"id":"自我认知","name":"自我认知","count":1},{"id":"自由意志主义","name":"自由意志主义","count":1},{"id":"自由民主","name":"自由民主","count":1},{"id":"苹果","name":"苹果","count":1},{"id":"苹果公司","name":"苹果公司","count":1},{"id":"药物研发","name":"药物研发","count":1},{"id":"蓝鳍金枪鱼","name":"蓝鳍金枪鱼","count":1},{"id":"虚拟细胞","name":"虚拟细胞","count":1},{"id":"蛋白质折叠","name":"蛋白质折叠","count":1},{"id":"蜂巢思维","name":"蜂巢思维","count":1},{"id":"行为偏差","name":"行为偏差","count":1},{"id":"西部决赛","name":"西部决赛","count":1},{"id":"规模法则","name":"规模法则","count":1},{"id":"规范驱动开发","name":"规范驱动开发","count":1},{"id":"言论自由","name":"言论自由","count":1},{"id":"计算增强生成","name":"计算增强生成","count":1},{"id":"计算数学","name":"计算数学","count":1},{"id":"计算机教育","name":"计算机教育","count":1},{"id":"计算机证明","name":"计算机证明","count":1},{"id":"训练体系","name":"训练体系","count":1},{"id":"论文写作","name":"论文写作","count":1},{"id":"论文撰写","name":"论文撰写","count":1},{"id":"访谈实录","name":"访谈实录","count":1},{"id":"詹姆斯-西蒙斯","name":"詹姆斯·西蒙斯","count":1},{"id":"语言学","name":"语言学","count":1},{"id":"诺贝尔经济学奖","name":"诺贝尔经济学奖","count":1},{"id":"谷歌","name":"谷歌","count":1},{"id":"贝叶斯方法","name":"贝叶斯方法","count":1},{"id":"财政削减","name":"财政削减","count":1},{"id":"资本配置","name":"资本配置","count":1},{"id":"超级智能","name":"超级智能","count":1},{"id":"超级计算","name":"超级计算","count":1},{"id":"跨领域训练","name":"跨领域训练","count":1},{"id":"身体转型","name":"身体转型","count":1},{"id":"软件工程范式","name":"软件工程范式","count":1},{"id":"软件开发最佳实践","name":"软件开发最佳实践","count":1},{"id":"软件开发未来","name":"软件开发未来","count":1},{"id":"运动恢复","name":"运动恢复","count":1},{"id":"还原论","name":"还原论","count":1},{"id":"通用人工智能","name":"通用人工智能","count":1},{"id":"重整化","name":"重整化","count":1},{"id":"量化交易","name":"量化交易","count":1},{"id":"金融服务","name":"金融服务","count":1},{"id":"金融监管","name":"金融监管","count":1},{"id":"阅读方法","name":"阅读方法","count":1},{"id":"集合论","name":"集合论","count":1},{"id":"非虚构阅读","name":"非虚构阅读","count":1},{"id":"预训练","name":"预训练","count":1},{"id":"领导力","name":"领导力","count":1},{"id":"香农信息熵","name":"香农信息熵","count":1},{"id":"马刺","name":"马刺","count":1},{"id":"马库斯-奥勒留","name":"马库斯·奥勒留","count":1}],"moduleNavItems":[{"id":"essays","label":"Essays","href":"/?label=Essays","order":40,"icon":"BookOpen","count":62},{"id":"talks","label":"Talks","href":"/?label=Talks","order":42,"icon":"Video","count":165},{"id":"reports","label":"Reports","href":"/?label=Reports","order":41,"icon":"FileText","count":36},{"id":"notes","label":"Notes","href":"/?label=Notes","order":30,"icon":"Eye","count":78}],"children":"$L10"}]]}]]}]
+10:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"min-h-screen px-12 py-12 font-sans text-slate-900","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n            (function () {\n              var pathname = window.location.pathname || '';\n              var canonicalPrefix = '/hinbox';\n\n              if (/^/hinbox(?:/|$)/i.test(pathname) && pathname !== pathname.replace(/^/hinbox/i, canonicalPrefix)) {\n                var target = pathname.replace(/^/hinbox/i, canonicalPrefix) + window.location.search + window.location.hash;\n                window.location.replace(target);\n                return;\n              }\n            }());\n          "}}],["$","div",null,{"className":"mx-auto flex min-h-[60vh] max-w-2xl flex-col justify-center gap-4","children":[["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"页面未找到"}],["$","p",null,{"className":"text-base leading-7 text-slate-600","children":"如果你是从大写路径进入本站，系统会自动跳转到小写的规范地址。"}],["$","p",null,{"className":"text-base","children":["返回首页：",["$","a",null,{"className":"text-sky-600 underline underline-offset-4","href":"/hinbox/","children":"/hinbox/"}]]}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+11:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+12:T5506,<h1>你的 AI 并不笨——它只是需要更好的缰绳</h1>
+<p>当你的 AI Agent 在第十步突然崩溃、编造数据、输出乱码时，你很容易觉得是模型不够聪明。但这篇文章提出了一个更值得深思的诊断：问题不在马，而在缰绳。作者梳理了 AI 工程从 Prompt Engineering 到 Context Engineering、再到 Harness Engineering 的范式跃迁，指出对于长周期自主任务而言，核心瓶颈已不再是「提问方式」或「知识范围」，而是系统有没有为模型设计好一套可执行的约束框架。文章给出了四條设计原则——用约束代替指令、将状态外化于上下文窗口、让每一步可验证、局部失败而非全局崩溃——并展开了一个七层 Harness 栈的具体结构，从认知层到工具层、合约层再到编排层，层层递进。这不是一篇空谈方法论的文章，而是直指生产级 Agent 系统最容易被忽视的工程短板。如果你曾为 Agent 的不可靠感到困惑，这篇文章会帮你把问题重新定义为：不是模型不行，是系统没兜住。</p>
+<hr>
+<h2>你的 AI 并不「蠢」——它只是需要更好的 Harness</h2>
+<p><strong>TL;DR.</strong> Agents 失败不是因为模型弱，而是因为系统未定义。</p>
+<p>一个好的 harness 做四件事：</p>
+<ul>
+<li>约束模型能做什么</li>
+<li>外部化它必须记住的内容</li>
+<li>验证它采取的每一步</li>
+<li>在出错时恢复</li>
+</ul>
+<h3>问题：十步崩溃</h3>
+<p>假设你部署一个自主 agent 来编写市场调研报告。第 1 到第 3 步完美执行：它规划任务、搜索网络、提取竞争对手数据。</p>
+<p>但到了第 7 步，它开始编造统计数据——因为搜索工具的载荷超过了上下文窗口并被静默截断。到了第 10 步，它输出了一段损坏的 JSON 字符串，因为循环中没有 schema 验证器。整个 pipeline 崩溃。</p>
+<p>我们都见证过这种「agentic collapse」。在那些时刻，我们很容易归咎于模型的推理能力。但在生产级 AI 中，问题通常不在马，而在缰绳。</p>
+<h3>根因：AI 工程中的范式转变</h3>
+<p>过去两年间，业界一直将 AI 失败视为沟通问题。如果模型失败了，我们以为只需要问得更好或给它更好的文档。但对于长周期、自主执行的任务，这些方法触及了硬上限。</p>
+<p>我们现在正进入 <strong>Harness Engineering</strong> 的时代——一门设计系统<em>围绕</em>模型的学科。Agent 不仅仅是 LLM。它是嵌入在代码、状态管理和恢复工作流的严格支架中的 LLM。</p>
+<p>以下是该领域的演变：</p>
+<table>
+<thead>
+<tr>
+<th>时代</th>
+<th>焦点</th>
+<th>局限</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Prompt Engineering</strong></td>
+<td>*指令：*如何提问。</td>
+<td>脆弱；步骤间零持久化。</td>
+</tr>
+<tr>
+<td><strong>Context Engineering</strong></td>
+<td>*信息：*知道什么（如 RAG）。</td>
+<td>无状态；无法控制长周期执行。</td>
+</tr>
+<tr>
+<td><strong>Harness Engineering</strong></td>
+<td>*系统设计：*如何约束和运行。</td>
+<td>解决持续的多步执行控制。</td>
+</tr>
+</tbody>
+</table>
+<p>每个时代并没有取代上一个——它包含了上一个。好的 Harness Engineering 仍然需要好的 prompts 和好的 context。但它增加了两者都不提供的执行层。</p>
+<p>自然而然的下一个问题是：<strong>那个执行层实际上是什么样的？</strong></p>
+<p>不是概念上的——而是结构上的。如果模型不再是系统，那么它位于何处？什么包围着它？什么控制着它？</p>
+<p>在高层面上，一个生产级 agent 系统看起来像这样：</p>
+<pre><code>┌─────────────────────────────────┐
+│          用户请求                │
+└────────────────┬────────────────┘
+                 ▼
+┌─────────────────────────────────┐
+│    HARNESS（7 层栈）            │
+│  ┌───────────────────────────┐  │
+│  │     LLM（模型）            │  │
+│  └───────────────────────────┘  │
+└────────────────┬────────────────┘
+                 ▼
+┌─────────────────────────────────┐
+│        经验证的输出              │
+└─────────────────────────────────┘
+</code></pre>
+<p>模型位于 harness <em>内部</em>。它从不直接与用户对话，也从不未经监督地与外部世界交流。每个输入在进入时被过滤；每个输出在发出前被验证。</p>
+<hr>
+<h3>好的 Harness 的设计原则</h3>
+<p>在深入具体层之前，有必要确立应指导每个设计决策的原则。当你不确定你的 harness 是否尽到职责时，回到这四条检验标准：</p>
+<p><strong>1. 约束而非指令。</strong> 如果你能通过编程方式限制模型的选择，就永远不要依赖模型「正确选择」一个写着「始终以有效 JSON 响应」的 prompt 是一种希望。一个拒绝畸形输出的 schema 验证器是一种保证。</p>
+<p><strong>2. 外部化状态。</strong> 如果一条信息对任务的连续性至关重要——已完成什么、待处理什么、什么失败了——它必须存在于上下文窗口之外。上下文窗口是易失的。磁盘上的文件不是。</p>
+<p><strong>3. 让每一步都可验证。</strong> 如果你无法检查它，你就不能信任它。Harness 的每一层都应产生可由生成它们的模型之外的东西验证的输出。</p>
+<p><strong>4. 局部失败而非全局失败。</strong> 一次工具调用失败应触发该步骤的重试——而不是整个 pipeline 的重启。任何失败的影响范围应尽可能小，小到你的状态管理允许的程度。</p>
+<p>这些不是抽象的理想到。它们是具有直接实现后果的工程约束，你将看到它们在下面的栈中反复出现。</p>
+<hr>
+<h3>7 层 Harness 栈</h3>
+<p>一个健壮的 harness 不仅仅是来回传递文本。它编排一个类型化、有状态、可观测的系统。以下是生产就绪栈在底层的样貌。</p>
+<h3>1. 认知</h3>
+<p>基础层。它限制模型的操作边界。Harness 不向模型提供庞大、百科全书式的 system prompt，而是提供其当前角色、成功标准和严格的否定约束（<em>不要</em>做什么）的局部「地图」。可以把它理解为给模型一份职位描述，而不是一本百科全书。</p>
+<p>在实践中，这通常表现为结构化的 system prompts、角色文件（如 <code>agents.md</code>），或限定于单个步骤的动态生成的任务简报。</p>
+<h3>2. 工具</h3>
+<p>Harness 并非简单地将原始工具输出传回给 LLM。它充当一个严格的中间件层，应用：</p>
+<ul>
+<li><strong>排序：</strong> 使用 embedding 相似度或 BM25 评分，只呈现最相关的结果。</li>
+<li><strong>去重：</strong> 在重复数据浪费宝贵的 token 之前将其去除。</li>
+<li><strong>Token 预算截断：</strong> 硬性限制工具载荷以防止上下文溢出——正是我们开场示例中的失败模式。</li>
+</ul>
+<h3>3. 合约与接口</h3>
+<p>这是大多数团队跳过的层——也是导致最神秘的生产故障的层。</p>
+<p>模型用概率说话。Harness 必须用类型说话。</p>
+<p>系统中的每个边界——LLM 与工具之间、一个 agent 与另一个之间、harness 与外部世界之间——都需要一个显式合约：严格的 JSON schema、类型化的函数签名、带版本的 API 规范。没有这个，你就会遇到 <strong>schema drift</strong>：模型一次将 <code>price</code> 字段生成为字符串，下一次生成为浮点数，你的下游 pipeline 就悄无声息地产生垃圾数据。</p>
+<p>合约层在每个边界交叉点验证输入和输出，在不符合的内容传播<em>之前</em>将其拒绝。这就是原则 1（约束而非指令）发挥作用的地方。没有合约，微妙的 schema drift 会悄无声息地破坏下游系统，例如，定价字段从 float 切换为 string，pipeline 没有崩溃但分析功能被破坏。</p>
+<h3>4. 编排</h3>
+<p>没有这一层，LLM 倾向于无限循环、跳过关键步骤或过早宣布胜利。Harness 强制执行一个结构化工作流——有向无环图（DAG）或状态机——定义合法的转换：<em>Plan → Gather → Draft → Verify</em>。模型提出动作；harness 决定哪些动作被允许。</p>
+<h3>5. 记忆与状态</h3>
+<p>状态必须被显式管理以防止遗忘。一个成熟的 harness 将记忆分为两个层级：</p>
+<ul>
+<li><strong>工作记忆（短期）：</strong> 当前步骤所需的即时对话和上下文窗口。</li>
+<li><strong>持久状态（长期）：</strong> 一个结构化文件（如 <code>state.json</code>），精确跟踪哪些子任务处于待处理、进行中或已完成状态——跨上下文重置甚至跨 session 存活。</li>
+</ul>
+<p>这就是原则 2（外部化状态）的实践。如果一条信息只存在于上下文窗口内，它最终会被丢失。</p>
+<h3>6. 评估与观测</h3>
+<p>系统不能仅仅依赖「另一个 LLM prompt」来做验证。评估层必须是异构的：</p>
+<ul>
+<li><strong>基于规则的检查：</strong> 验证 JSON schema、字符串长度或必填字段。</li>
+<li><strong>基于工具的验证：</strong> 通过编译器运行代码、执行测试套件，或使用浏览器自动化（如 Playwright）实际测试 UI。</li>
+<li><strong>LLM-as-judge：</strong> <em>仅</em>保留用于主观或语义评分——语气、连贯性、用户友好度——确定性检查无法适用的地方。</li>
+</ul>
+<h3>7. 约束与恢复</h3>
+<p>在自主环境中，工具故障和 API 超时是常态，而非例外。Harness 必须强制执行<strong>幂等性</strong>：如果某一步失败，系统重试该特定步骤，而不破坏整体状态或重复之前的工作。这就是将脆弱 demo 转变为弹性系统的关键——也是原则 4（局部失败而非全局失败）的具体化。</p>
+<hr>
+<h3>一次完整 Agent 运行示例</h3>
+<p>要理解这些层级如何防止级联崩溃，让我们追踪市场研究 Agent（Market Research Agent）的一个完整周期——包括一次真实的故障。</p>
+<p><strong>步骤 1 —— 用户请求：</strong> "比较竞争对手 A 与竞争对手 B 的定价。"</p>
+<p><strong>步骤 2 —— 编排与状态：</strong> Planner LLM 将该任务拆解为一个包含两个并行分支的 DAG。<code>state.json</code> 将"获取竞争对手 A"标记为 <code>IN_PROGRESS</code>。</p>
+<p><strong>步骤 3 —— 工具调用：</strong> LLM 触发一次网络搜索。Tool 层获取 50 条结果，应用 BM25 排序，对重叠文本进行去重，仅返回前 3,000 个 token——完全在预算之内。Contract 层在将工具输出传递给模型之前，依据预期的 schema 对其做校验。</p>
+<p><strong>步骤 4 —— 评估：</strong> LLM 生成定价数据。Evaluation 层运行基于规则的 schema 检查，捕获到 JSON 缺少必需的 <code>currency</code> 字段。</p>
+<p><strong>步骤 5 —— 恢复：</strong> 缰绳系统在用户看到错误之前截获它。由于该操作是幂等的，系统将完整的错误追踪信息传回给 LLM 进行局部重试——无需重新启动整个流水线。</p>
+<p><strong>步骤 6 —— 状态更新：</strong> 修正后的数据通过验证。<code>state.json</code> 将竞争对手 A 标记为 <code>COMPLETED</code>，缰绳系统转向竞争对手 B。</p>
+<p><strong>步骤 7 —— 硬故障：</strong> 网络搜索工具对竞争对手 B 返回空结果——目标网站已宕机。缰绳系统检测到空载荷，记录失败，并触发回退：使用替代搜索查询进行重试。关键在于，此时 <code>state.json</code> 保持不变——在该步骤完全成功之前，不会写入任何部分或损坏的数据。</p>
+<p><strong>步骤 8 —— 回退成功：</strong> 替代查询返回有效结果。Contract 层验证 schema，Evaluation 层确认所有必需字段均已存在，直到此时 <code>state.json</code> 才将竞争对手 B 标记为 <code>COMPLETED</code>。</p>
+<p>该周期在长时间运行的任务中重复数十次或数百次。与我们引言中那 10 步级联崩溃不同，当某个工具彻底失败时，系统吸收了冲击并在无需人工干预的情况下恢复。没有幻觉。没有静默失败。没有崩溃。</p>
+<hr>
+<h3>进阶陷阱：来自一线的 4 条经验教训</h3>
+<p>当你将这架构扩展到可连续运行数小时时，会涌现出一些新的故障模式，它们远超任何提示词调优所能修复的范围。以下是生产环境中屡屡让团队受挫的四种模式。</p>
+<h3>陷阱 1："上下文焦虑"现象</h3>
+<p>随着 Agent 持续工作，其上下文窗口逐渐填满，模型往往会表现出一种行为偏移——实践者们称其为"上下文焦虑"。当接近 token 限制时（通常超过 70% 容量），或当延迟飙升时，模型开始跳过步骤或过早地结束任务。它表现得仓促紧张，仿佛能感到围堵的墙壁正在逼近。</p>
+<p><strong>解决方案：</strong> 就地摘要并不够——它仍会让模型在杂乱、退化了的上下文中运行。相反，应当执行 <strong>上下文重置（Context Reset）</strong>。缰绳系统监控上下文利用率，并以编程方式触发重置：</p>
+<pre><code class="language-python"># 此阈值基于经验得出，需根据具体模型和工作负载调整。
+if (tokens_used / max_context) > 0.7:
+    save_state_to_disk(state)
+    terminate_current_instance()
+    launch_fresh_agent(state)
+</code></pre>
+<p>缰绳系统将精确的项目状态保存到持久化存储中，终止当前 LLM 实例，然后启动一个全新的 Agent——其上下文窗口是干净的。新 Agent 读取已保存的状态，进行自我定位，然后继续运行。这种做法成本高昂，但对于超出单个上下文窗口容量的任务而言，可靠性显著提升。</p>
+<h3>陷阱 2：自我评分幻觉</h3>
+<p>如果你让 AI 对自己的工作打分，它往往以不应有的自信去认可平庸的输出。这不是某个特定模型的 bug——而是一个结构性的缺陷。生成输出的同一组权重，定位能力不足以去批判它。</p>
+<p><strong>解决方案：</strong> 使用 <strong>Sprint Contract</strong> 实现严格的关注点分离。在开始工作之前，Generator Agent 与独立的 Evaluator Agent 协商出一个具体、可测试的"完成"定义。两条规则不可妥协：</p>
+<p>第一，Evaluator 必须<strong>执行</strong>：它应当运行代码、在无头浏览器中验证界面、或依据 schema 检查输出——而非仅阅读原始文本后做出判断。无法伪造的验证才是唯一有效的验证。</p>
+<p>第二，Evaluator 必须在干净的上下文中运行，而非读取 Generator 的完整推理链。如果 Evaluator 阅读了 Generator 的思维链，它就会继承 Generator 的假设和盲点——这彻底违背了独立审查的初衷。给 Evaluator 的只有输出结果和成功标准。除此之外，什么也不给。</p>
+<h3>陷阱 3：为"看起来正确"而优化</h3>
+<p>当 LLM 被置于不可能或自相矛盾的约束之下——修复这个 bug，但不要改动任何代码；让它更短，但什么都得包括——实践者们观察到一种一致的行为模式。模型不再尝试解决实际问题，而是转而优化"看起来正确"。输出变得流畅但空洞：幻觉数据、表面上合理但逻辑有误、或在技术上满足了提示词的字面要求却违背了其意图。</p>
+<p>最近关于转向向量和模型内部表示的研究——包括 Anthropic 在探查语言模型内部状态方面的工作——表明，这并非只是表层文本预测出了偏差。在矛盾压力下，模型内部状态似乎出现了可测量的偏移，尽管这一研究方向仍处于早期阶段。</p>
+<p><strong>解决方案：</strong> 实际的结论直截了当。LLM 基于当前上下文的轨迹来预测下一个 token。如果你的缰绳系统反馈回激进、情绪化的错误信息（"你真笨，这完全错了"），就会使上下文偏向一种"失败"叙事——模型随后的输出往往会进一步退化。缰绳系统的反馈必须严格保持客观：提供编译错误、断言失败、schema 不匹配。给模型一个需要解决的问题，而不是一个需要摆脱的恶名。</p>
+<h3>陷阱 4：记忆整合循环</h3>
+<p>要使 Agent 作为一个长期运行的系统来运转，持久化状态管理不是一次性配置。随着时间的推移，记忆日志会变得臃肿且自相矛盾——旧的决策与新的决策冲突，冗余的条目在每次读取时浪费 token。</p>
+<p>一些生产级 Agent 系统已采用一种通常被称为 <strong>记忆整合（Memory Consolidation）</strong> 的方法：一种自动化的例行程序，定期处理和压缩 Agent 积累的工作日志。来自使用此模式的团队的报告（包括开源 Agent 框架和 Anthropic 内部工具中的参考实现）显示出令人印象深刻的结果——在一个有记录的案例中，缰绳系统将 32K token 的嘈杂、重复历史压缩为一份干净的 7K token 状态文件，且无明显信息丢失。</p>
+<p><strong>解决方案：</strong> 实现一个自动化的整合周期。当 Agent 处于空闲状态时——在任务之间或低优先级的时间窗口内——触发一个后台作业，读取原始日志，去重条目，以最新数据为准解决冲突，并写入一份干净、压缩的状态文件。这使得 Agent 在下一次运行时保持快速、经济和准确。可以把它理解为对 AI 工作记忆执行磁盘碎片整理。</p>
+<hr>
+<h3>从何处入手：最小可行缰绳系统</h3>
+<p>如果这七层架构让你感到压力过大，不必在第一天就全部建完。从第 7 层——约束与恢复（Constraints &#x26; Recovery）——开始，然后反向推进。你可以忍受不完美的提示词。你可以忍受朴素的工具集成。但你无法容忍一个在失败时破坏自身状态或默默吞掉错误的 Agent。</p>
+<p>以下是一个 Day 1 缰绳系统在实际中的样貌：</p>
+<ul>
+<li><strong><code>state.json</code></strong> —— 一个单一的结构化文件，用于追踪任务状态。如果进程崩溃，你可以从中断处接续。</li>
+<li><strong>重试包装器</strong> —— 每个工具调用都附带 try/catch，至少包含一次自动重试和指数退避。</li>
+<li><strong>Schema 校验器</strong> —— 每个 LLM 输出在被接受之前，都先依据 JSON schema 进行校验。格式错误的输出触发重试，而非崩溃。</li>
+<li><strong>工具输出截断</strong> —— 对每个工具的载荷施加固定的 token 预算硬上限。上下文窗口内部的静默截断是幻觉最常见的成因之一。</li>
+</ul>
+<p>这四组件可以在一个下午内完成构建。一旦你的 Agent 能够体面地失败，你就有资格让它变得更智能了。</p>
+<h3>结语</h3>
+<p>软件的未来是 Agent 优先的。随着模型获得自主生成和验证复杂系统的原始能力，人类的价值正在发生转移。重要的不再是编写语法，而是设计能让自主执行变得可靠的约束条件。</p>
+<p>未来十年最成功的构建者，不会是写出最好代码的那些人。他们会是设计出最好缰绳系统的那些人——为最快的马匹打造最强韧的缰绳，而这些缰绳只不过是几条原则的一贯运用：约束（constrain）、外化（externalize）、验证（verify）、恢复（recover）。</p>
+<hr>
+<p><em>关于每一层的实现细节——状态存储、验证节点、Sprint Contract，以及从何处入手——请参阅配套 FAQ：</em><a href="https://blog.ltbase.dev/posts/agents/harness-engineering-faq.html"><strong>从理论到生产的 Harness Engineering</strong></a></p>
+<h2>术语表</h2>
+<table>
+<thead>
+<tr>
+<th>原文</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Agent</td>
+<td>自主智能体</td>
+</tr>
+<tr>
+<td>Agentic collapse</td>
+<td>Agent 级联崩溃</td>
+</tr>
+<tr>
+<td>BM25</td>
+<td>BM25（保留原文，信息检索中的排序算法）</td>
+</tr>
+<tr>
+<td>Context Reset</td>
+<td>上下文重置</td>
+</tr>
+<tr>
+<td>DAG</td>
+<td>DAG（有向无环图，Directed Acyclic Graph）</td>
+</tr>
+<tr>
+<td>Evaluator</td>
+<td>Evaluator Agent（保留原文，评估方 Agent）</td>
+</tr>
+<tr>
+<td>Generator</td>
+<td>Generator Agent（保留原文，生成方 Agent）</td>
+</tr>
+<tr>
+<td>Harness</td>
+<td>控制框架／缰绳系统（本文中特指围绕模型构建的系统约束层）</td>
+</tr>
+<tr>
+<td>Harness Engineering</td>
+<td>围绕模型进行系统设计的工程学科</td>
+</tr>
+<tr>
+<td>LLM-as-judge</td>
+<td>LLM 作为评判者</td>
+</tr>
+<tr>
+<td>Memory Consolidation</td>
+<td>记忆整合</td>
+</tr>
+<tr>
+<td>Schema drift</td>
+<td>Schema 偏移</td>
+</tr>
+<tr>
+<td>Sprint Contract</td>
+<td>Sprint Contract（保留原文，一种针对冲刺阶段的工作合约机制）</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+5:["$","$L11",null,{"email":{"id":"reports-your-ai-isnt-stupid-it-just-needs-a-better-harness-lychee-te","sender":"Lychee Technology","subject":"你的 AI 并不笨——它只是需要更好的缰绳","snippet":"当你的 AI Agent 在第十步突然崩溃、编造数据、输出乱码时，你很容易觉得是模型不够聪明。但这篇文章提出了一个更值得深思的诊断：问题不在马，而在缰绳。作者梳理了 AI 工程从 Prompt Engineering 到 Context Engineering、再到 Harness Engineering 的范式跃迁，指出对于长周期自主任务而言，核心瓶颈已不再是「提问方式」或「知识范围」，而是系统有没有为模型设计好一套可执行的约束框架。","date":"2026-04-16","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["translated"],"mdTheme":"magazine","sourcePath":"reports/your-ai-isnt-stupid-it-just-needs-a-better-harness-lychee-te.md","sourceUrl":"https://blog.ltbase.dev/posts/agents/harness-engineering","coverImage":"$undefined","body":"$12","prompts":[]},"listPosition":{"index":110,"total":365},"matchedPerson":"$undefined"}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[27201,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"IconMark"]
+c:[["$","title","0",{"children":"你的 AI 并不笨——它只是需要更好的缰绳 · Hinbox"}],["$","meta","1",{"name":"description","content":"当你的 AI Agent 在第十步突然崩溃、编造数据、输出乱码时，你很容易觉得是模型不够聪明。但这篇文章提出了一个更值得深思的诊断：问题不在马，而在缰绳。作者梳理了 AI 工程从 Prompt Engineering 到 Context Engineering、再到 Harness Engineering 的范式跃迁，指出对于长周期自主任务而言，核心瓶颈已不再是「提问方式」或「知识范围」，而是系…"}],["$","meta","2",{"name":"application-name","content":"Hinbox"}],["$","link","3",{"rel":"canonical","href":"https://linguage.github.io/hinbox/mail/reports-your-ai-isnt-stupid-it-just-needs-a-better-harness-lychee-te"}],["$","meta","4",{"property":"og:title","content":"你的 AI 并不笨——它只是需要更好的缰绳"}],["$","meta","5",{"property":"og:description","content":"当你的 AI Agent 在第十步突然崩溃、编造数据、输出乱码时，你很容易觉得是模型不够聪明。但这篇文章提出了一个更值得深思的诊断：问题不在马，而在缰绳。作者梳理了 AI 工程从 Prompt Engineering 到 Context Engineering、再到 Harness Engineering 的范式跃迁，指出对于长周期自主任务而言，核心瓶颈已不再是「提问方式」或「知识范围」，而是系…"}],["$","meta","6",{"property":"og:url","content":"https://linguage.github.io/hinbox/mail/reports-your-ai-isnt-stupid-it-just-needs-a-better-harness-lychee-te"}],["$","meta","7",{"property":"og:site_name","content":"Hinbox"}],["$","meta","8",{"property":"og:locale","content":"zh_CN"}],["$","meta","9",{"property":"og:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","meta","10",{"property":"og:image:width","content":"1200"}],["$","meta","11",{"property":"og:image:height","content":"630"}],["$","meta","12",{"property":"og:image:alt","content":"你的 AI 并不笨——它只是需要更好的缰绳"}],["$","meta","13",{"property":"og:type","content":"article"}],["$","meta","14",{"property":"article:published_time","content":"2026-04-16T00:00:00.000Z"}],["$","meta","15",{"property":"article:author","content":"Lychee Technology"}],["$","meta","16",{"property":"article:tag","content":"translated"}],["$","meta","17",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","18",{"name":"twitter:title","content":"你的 AI 并不笨——它只是需要更好的缰绳"}],["$","meta","19",{"name":"twitter:description","content":"当你的 AI Agent 在第十步突然崩溃、编造数据、输出乱码时，你很容易觉得是模型不够聪明。但这篇文章提出了一个更值得深思的诊断：问题不在马，而在缰绳。作者梳理了 AI 工程从 Prompt Engineering 到 Context Engineering、再到 Harness Engineering 的范式跃迁，指出对于长周期自主任务而言，核心瓶颈已不再是「提问方式」或「知识范围」，而是系…"}],["$","meta","20",{"name":"twitter:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","link","21",{"rel":"icon","href":"/hinbox/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","22",{"rel":"icon","href":"/hinbox/icon.svg?icon.6ca2692a.svg","sizes":"any","type":"image/svg+xml"}],["$","$L13","23",{}]]
+8:null

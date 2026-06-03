@@ -1,0 +1,280 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T70c1,<h1>Components of A Coding Agent</h1>
+<p><a href="https://magazine.sebastianraschka.com/p/components-of-a-coding-agent">原文链接</a></p>
+<p>Sebastian Raschka的这篇文章深入剖析了编码智能体的设计逻辑。作者指出，Claude Code等工具的惊艳表现，并非仅源于底层大语言模型，更核心的秘密在于其外围的“智能体框架”。文章清晰界定了模型、推理模型与智能体系统的层级关系：模型是引擎，框架则是调度工具、管理记忆与上下文的控制循环。作者揭示了一个关键洞见：在真实的软件工程中，仓库导航、上下文管理等外围系统的重要性丝毫不亚于模型本身。本文拆解了编码智能体的核心构建块，提供了一种超越“唯模型论”的务实视角，值得每一位关注AI工程落地的读者深思。</p>
+<hr>
+<h3>编码智能体如何使用工具、记忆与仓库上下文以让大语言模型在实践中表现更好</h3>
+<p>在本文中，我想涵盖编码智能体和智能体框架（agent harnesses）的整体设计：它们是什么，如何工作，以及不同部分在实践中如何组合在一起。我的《从头构建大语言模型》和《从头构建大推理模型》一书的读者经常询问关于智能体的问题，所以我觉得写一篇可以指给他们看的参考文章会很有用。</p>
+<p>更一般地说，智能体已成为一个重要话题，因为最近实用大语言模型系统的许多进展不仅在于更好的模型，还在于我们如何使用它们。在许多现实应用中，外围系统，如工具使用、上下文管理和记忆，起着与模型本身同等的作用。这也有助于解释为什么像 Claude Code 或 Codex 这样的系统，比起在简单聊天界面中使用相同模型，会感觉能力强得多。</p>
+<p>在本文中，我列出了编码智能体的六个主要构建块。</p>
+<h3>Claude Code、Codex CLI 及其他编码智能体</h3>
+<p>你可能已经熟悉 Claude Code 或 Codex CLI，但为了铺垫一下，它们本质上是具智能体特征的编码工具，将大语言模型包裹在一个应用层中，即所谓的智能体框架（agentic harness），以便在编码任务上更便捷、表现更好。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!zcE_!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc90147bc-4574-4b52-914f-8bda96620063_3467x2270.png" alt=""></p>
+<p>图 1：Claude Code CLI、Codex CLI 以及我的 Mini Coding Agent。</p>
+<p>编码智能体是为软件工作而设计的，其中显著的部分不仅是模型选择，还有外围系统，包括仓库上下文、工具设计、提示词缓存稳定性、记忆以及长会话连续性。</p>
+<p>这一区别很重要，因为当我们谈论大语言模型的编码能力时，人们经常将模型、推理行为和智能体产品混为一谈。但在深入编码智能体的细节之前，让我简要提供更多关于更广泛概念——大语言模型、推理模型和智能体——之间差异的上下文。</p>
+<h3>论大语言模型、推理模型与智能体之间的关系</h3>
+<p>大语言模型是核心的下一个词元（next-token）模型。推理模型仍然是大语言模型，但通常是经过训练和/或被提示去在中间推理、验证或对候选答案的搜索上花费更多推理时计算（inference-time compute）的模型。</p>
+<p>智能体是上面的一层，可以理解为围绕模型的控制循环。通常，给定一个目标，智能体层（或框架）决定接下来检查什么，调用哪些工具，如何更新其状态，以及何时停止等。</p>
+<p>粗略地说，我们可以这样看待它们的关系：大语言模型是引擎，推理模型是增强型引擎（更强大，但使用成本更高），而智能体框架帮助我们利用模型。这个比喻并不完美，因为我们也可以将传统和推理大语言模型作为独立模型使用（在聊天 UI 或 Python 会话中），但我希望它传达了主要观点。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!if1o!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F09a4d839-d572-4eab-a2ee-47f644a746e5_3501x885.png" alt=""></p>
+<p>图 2：传统大语言模型、推理大语言模型（或推理模型）以及包裹在智能体框架中的大语言模型之间的关系。</p>
+<p>换句话说，智能体是在环境中反复调用模型的系统。</p>
+<p>所以，简而言之，我们可以这样总结：</p>
+<ul>
+<li><em>大语言模型：</em> 原始模型</li>
+<li><em>推理模型：</em> 一个被优化以输出中间推理轨迹并进行更多自我验证的大语言模型</li>
+<li><em>智能体：</em> 一个使用模型加上工具、记忆和环境反馈的循环</li>
+<li><em>智能体框架（Agent harness）：</em> 围绕智能体的软件脚手架，负责管理上下文、工具使用、提示词、状态和控制流</li>
+<li><em>编码框架（Coding harness）：</em> 智能体框架的特例；即专为软件工程设计的特定任务框架，管理代码上下文、工具、执行和迭代反馈</li>
+</ul>
+<p>如上所列，在智能体和编码工具的上下文中，我们还有两个流行术语<em>智能体框架（agent harness）</em> 和（具智能体特征的）<em>编码框架（coding harness）</em>。编码框架是围绕模型的软件脚手架，帮助其有效地编写和编辑代码。而智能体框架更宽泛一些，并不特定于编码（例如，想想 OpenClaw）。Codex 和 Claude Code 可以被视为编码框架。</p>
+<p>无论如何，更好的大语言模型为推理模型提供了更好的基础（这涉及额外的训练），而框架能从这个推理模型中获得更多。</p>
+<p>当然，大语言模型和推理模型本身也有能力解决编码任务（没有框架），但编码工作只有一部分是关于生成下一个词元的。很大一部分在于仓库导航、搜索、函数查找、差异应用（diff application）、测试执行、错误检查，并将所有相关信息保持在上下文中。（编码者可能知道这是很费脑力的工作，这就是为什么我们在编码期间不喜欢被打扰：））。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!l4hd!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F76f2c37e-1996-4f30-96cd-e2e555169873_2227x992.png" alt=""></p>
+<p>图 3. 编码框架结合了三个层：模型家族、智能体循环和运行时支持。模型提供“引擎”，智能体循环驱动迭代式问题解决，而运行时支持提供管道设施。在循环内，“观察”从环境中收集信息，“检查”分析该信息，“选择”挑选下一步，“行动”执行它。</p>
+<p>这里的要点是，一个好的编码框架能让推理模型和非推理模型感觉比在简单聊天框中强大得多，因为它在上下文管理等方面提供了帮助。</p>
+<h3>编码框架</h3>
+<p>如上一节所述，当我说<em>框架</em>时，通常指的是围绕模型的软件层，它组装提示词、暴露工具、跟踪文件状态、应用编辑、运行命令、管理权限、缓存稳定前缀、存储记忆等等。</p>
+<p>如今，在使用大语言模型时，与直接提示模型或使用网页聊天 UI（这更接近于“与上传的文件聊天”）相比，这一层塑造了大部分的用户体验。</p>
+<p>因为在我看来，如今大语言模型的原始版本（vanilla versions）具有非常相似的能力（例如，GPT-5.4、Opus 4.6 和 GLM-5 左右的原始版本），框架往往是使一个大语言模型比另一个工作得更好的区分因素。</p>
+<p>这是推测性的，但我怀疑如果我们将最新的、最强大的开源权重大语言模型（open-weight LLMs）之一，如 GLM-5，放入类似的框架中，它很可能表现得与 Codex 中的 GPT-5.4 或 Claude Code 中的 Claude Opus 4.6 不相上下。话虽如此，一些特定于框架的后训练通常是有益的。例如，OpenAI 历来维护着独立的 GPT-5.3 和 GPT-5.3-Codex 变体。</p>
+<p>在下一节中，我想更深入细节，并使用我的 <em>Mini Coding Agent</em> 讨论编码框架的核心组件：<a href="https://github.com/rasbt/mini-coding-agent">https://github.com/rasbt/mini-coding-agent</a>。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!iPcp!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F82c0f343-afec-4a9f-b8fe-b60f7ad5db5f_3396x971.png" alt=""></p>
+<p>图 4：编码智能体 / 编码框架的主要框架特性，将在以下小节中讨论。</p>
+<p>顺便说一下，在本文中，为了简单起见，我交替使用“编码智能体”和“编码框架”这两个术语。（严格来说，智能体是模型驱动的决策循环，而框架是提供上下文、工具和执行支持的外围软件脚手架。）</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!0mGQ!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89ec8895-15ba-4f84-b600-190a40b58d62_2069x1285.png" alt=""></p>
+<p>图 5：最小但功能完备的、从零开始的 Mini Coding Agent（用纯 Python 实现）</p>
+<p>无论如何，以下是编码智能体的六个主要组件。你可以查看我的最小但功能完备的、从零开始的 <a href="https://github.com/rasbt/mini-coding-agent/blob/main/mini_coding_agent.py">Mini Coding Agent</a>（用纯 Python 实现）的源代码，以获取更具体的代码示例。该代码通过代码注释标注了下面讨论的六个组件：</p>
+<pre><code class="language-markup">##############################
+
+### Six Agent Components ####
+
+##############################
+# 1) Live Repo Context -> WorkspaceContext
+
+# 2) Prompt Shape And Cache Reuse -> build_prefix, memory_text, prompt
+# 3) Structured Tools, Validation, And Permissions -> build_tools, run_tool, validate_tool, approve, parse, path, tool_*
+# 4) Context Reduction And Output Management -> clip, history_text
+# 5) Transcripts, Memory, And Resumption -> SessionStore, record, note_tool, ask, reset
+# 6) Delegation And Bounded Subagents -> tool_delegate
+</code></pre>
+<h3>1. 实时代码仓库上下文</h3>
+<p>这或许是显而易见的组件，但也是最关键的组件之一。</p>
+<p>当用户说“修复测试”或“实现 xyz”时，模型应当知道它是否在 Git 仓库中，处于哪个分支，哪些项目文档可能包含指令，等等。</p>
+<p>这是因为这些细节经常会变化，或影响正确的操作是什么。例如，“修复测试”并不是一条自包含的指令。如果智能体看到了 AGENTS.md 或项目 README，它可能会了解到应该运行哪个测试命令，等等。如果它知道仓库根目录和布局，它就能去正确的地方查看，而不是靠猜测。</p>
+<p>此外，git 分支、状态和提交能够帮助提供更多关于当前正在进行哪些更改以及应聚焦何处的上下文。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!mPz4!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e3a1e6a-4eb5-4b60-b52f-0a4ee880dbca_2085x1428.png" alt=""></p>
+<p>图 6：智能体框架首先构建一个工作区摘要（workspace summary），该摘要与用户请求结合以提供额外的项目上下文。</p>
+<p>关键在于，编码智能体在执行任何工作之前会预先收集信息（作为工作区摘要的“稳定事实”），这样它就不会在每次提示时都从零开始、毫无上下文。</p>
+<h3>2. 提示词形态与缓存复用</h3>
+<p>一旦智能体有了仓库视图，下一个问题就是如何将这些信息输入给模型。前面的图展示了一种简化的视图（“组合提示词：前缀 + 请求”），但在实践中，在每次用户查询时都组合并重新处理工作区摘要会相对浪费。</p>
+<p>也就是说，编码会话是重复性的，智能体规则通常保持不变。工具描述通常也保持不变。甚至工作区摘要通常也（大部分）保持不变。主要的变动通常是最新的用户请求、最近的对话记录，以及可能的短期记忆。</p>
+<p>“智能”的运行时不会在每一轮都将所有内容重建为一个巨大的、无差别的提示词，如下图所示。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!keF3!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F92d9467c-1333-40f3-8d5d-c8bc0ffebb11_2698x1001.png" alt=""></p>
+<p>图 7：智能体框架构建一个稳定的提示词前缀（Stable prompt prefix），添加变化的会话状态，然后将该组合提示词输入给模型。</p>
+<p>与第 1 节的主要区别在于，第 1 节是关于收集仓库事实。而在这里，我们关心的是如何高效地打包和缓存这些事实，以便进行重复的模型调用。</p>
+<p>“稳定的”“Stable prompt prefix”意味着其中包含的信息不会变化太多。它通常包含通用指令、工具描述和工作区摘要。如果没有重要变化，我们不想浪费计算资源在每次交互中从头重建它。</p>
+<p>其他组件更新得更频繁（通常每轮一次）。这包括短期记忆、最近的对话记录以及最新的用户请求。</p>
+<p>简而言之，对于“Stable prompt prefix”的缓存方面，简单来说就是一个智能的运行时会尝试复用那部分。</p>
+<h3>3. 工具访问与使用</h3>
+<p>工具访问和工具使用是它开始感觉不像聊天、而更像智能体的地方。</p>
+<p>普通的模型可以用散文建议命令，但编码框架中的大语言模型应该做更狭隘、更有用的事情，并且能够实际执行命令并检索结果（而不是我们手动调用命令并将结果粘贴回聊天中）。</p>
+<p>但是，与其让模型即兴发挥任意语法，不如由框架提供一个预定义的、允许且命名的工具列表，具有清晰的输入和清晰的边界。（当然，像 Python 的 <code>subprocess.call</code> 这样的东西也可以是其中的一部分，以便智能体也能执行任意广泛的 shell 命令列表。）</p>
+<p>工具使用流程如下图所示。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!yL-u!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7aff251f-0ce2-44f1-9792-5449c24d5600_2172x927.png" alt=""></p>
+<p>图 8：模型发出一个结构化操作，框架验证它，可选地请求批准，执行它，并将有界的结果（bounded result）反馈回循环。</p>
+<p>为了说明这一点，下面是一个用户使用我的 Mini Coding Agent 时通常看到的示例。（这不如 Claude Code 或 Codex 漂亮，因为它非常极简，并且使用纯 Python 而没有任何外部依赖。）</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!nD22!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6ff4770e-c3a5-442f-a657-ef9bec6b9862_2493x2031.png" alt=""></p>
+<p>图 9：Mini Coding Agent 中工具调用批准请求的示例。</p>
+<p>在这里，模型必须选择一个框架能识别的操作，比如列出文件、读取文件、搜索、运行 shell 命令、写入文件等。它还必须提供以框架能够检查的格式的参数。</p>
+<p>因此，当模型要求做某事时，运行时可以停下来并运行程序化检查，比如</p>
+<ul>
+<li>“这是一个已知的工具吗？”，</li>
+<li>“参数有效吗？”，</li>
+<li>“这需要用户批准吗？”</li>
+<li>“请求的路径甚至在工作区内吗？”</li>
+</ul>
+<p>只有在这些检查通过后，才会真正运行任何东西。</p>
+<p>虽然运行编码智能体当然会带来一些风险，但框架检查也提高了可靠性，因为模型不会执行完全任意的命令。</p>
+<p>此外，除了拒绝格式错误的操作和批准门控（approval gating）之外，还可以通过检查文件路径将文件访问限制在仓库内。</p>
+<p>在某种意义上，框架给予了模型更少的自由，但同时也提高了可用性。</p>
+<h3>4. 最小化上下文膨胀</h3>
+<p>上下文膨胀并不是编码智能体独有的问题，而是大语言模型普遍面临的问题。诚然，如今的大语言模型支持越来越长的上下文（我最近写过关于使其在计算上更可行的<a href="https://magazine.sebastianraschka.com/p/visual-attention-variants">注意力变体</a>），但长上下文仍然很昂贵，并且也可能引入额外的噪音（如果存在大量无关信息的话）。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!8IKa!,w_140,h_140,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F51d52b9a-e820-45d6-8135-f94496ec1745_1600x900.png" alt=""></p>
+<h3><a href="https://magazine.sebastianraschka.com/p/visual-attention-variants">现代大语言模型中注意力变体的视觉指南</a></h3>
+<p><a href="https://substack.com/profile/27393275-sebastian-raschka-phd">Sebastian Raschka, PhD</a></p>
+<p>·</p>
+<p>3月22日<a href="https://magazine.sebastianraschka.com/p/visual-attention-variants">阅读全文</a></p>
+<p>由于重复的文件读取、冗长的工具输出、日志等，编码智能体比常规多轮聊天中的大语言模型更容易受到上下文膨胀的影响。</p>
+<p>如果运行时以完全保真的方式保留所有这些内容，它将很快耗尽可用的上下文词元。因此，一个好的编码框架通常在处理上下文膨胀方面相当复杂，超越了像常规聊天界面那样仅仅剪切或摘要信息。</p>
+<p>概念上，编码智能体中的上下文压缩（context compaction）可能如下方图表中所总结的那样工作。具体来说，我们稍微放大了上一节图 8 中的 clip（步骤 6）部分。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!ksfT!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1d61d701-1f2b-4010-9a1f-2cefc7265bde_2495x1213.png" alt=""></p>
+<p>图 10：大型输出被裁剪（clipping），较早的读取被去重，并且对话记录在被放回提示词之前被压缩。</p>
+<p>一个最小化的框架至少使用两种压缩策略来管理该问题。</p>
+<p>第一种是裁剪，它缩短长文档片段、大型工具输出、记忆笔记和对话记录条目。换句话说，它防止任何一段文本仅仅因为碰巧冗长而占据提示词预算。</p>
+<p>第二种策略是对话记录缩减（transcript reduction）或摘要，它将完整的会话历史（下一节会详细介绍）转化为一个更小的、可作为提示词的摘要。</p>
+<p>这里的一个关键技巧是保持近期事件更丰富，因为它们更有可能与当前步骤相关。而我们更激进地压缩较早的事件，因为它们可能不太相关。</p>
+<p>此外，我们还会对较早的文件读取进行去重，这样模型就不会仅仅因为在会话早些时候被多次读取而一遍又一遍地看到相同的文件内容。</p>
+<p>总的来说，我认为这是优秀的编码智能体设计中被低估的、枯燥的部分之一。许多表面上的“模型质量”实际上就是上下文质量。</p>
+<h3>5. 结构化会话记忆</h3>
+<p>在实践中，此处涵盖的所有这6个核心概念高度交织，不同的章节和图表以不同的焦点或缩放级别覆盖它们。在上一节中，我们涵盖了历史记录在提示时的使用，以及我们如何构建压缩的对话记录。那里的问题是：在下一轮中，过去的多少内容应该重新进入模型？因此，重点在于压缩、裁剪、去重和近期性。</p>
+<p>现在，本节“结构化会话记忆”是关于历史记录在存储时的结构。这里的问题是：智能体随着时间的推移保留什么作为永久记录？因此，重点是运行时保留一个更完整的对话记录作为持久状态，同时附带一个更轻量的记忆层，该层更小，并且会被修改和压缩，而不仅仅是追加。</p>
+<p>总结来说，编码智能体将状态分为（至少）两层：</p>
+<ul>
+<li>工作记忆（working memory）：智能体显式保留的、小而提炼过的状态</li>
+<li>完整对话记录（full transcript）：这涵盖了所有用户请求、工具输出和 LLM 响应</li>
+</ul>
+<p><img src="https://substackcdn.com/image/fetch/$s_!xWhc!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe58efdfb-9c19-42e8-a016-90b41b51ef15_2438x1346.png" alt=""></p>
+<p>图11：新事件被追加到完整对话记录中，并在工作记忆中被总结。磁盘上的会话文件通常存储为 JSON 文件。</p>
+<p>上图说明了两个主要的会话文件，即完整对话记录和工作记忆，它们通常作为 JSON 文件存储在磁盘上。如前所述，完整对话记录存储了整个历史，并且如果我们关闭智能体，它是可恢复的。工作记忆更像是一个包含当前最重要信息的提炼版本，这与压缩的对话记录有些关联。</p>
+<p>但压缩的对话记录和工作记忆有着略微不同的工作。压缩的对话记录用于提示词重构。它的工作是给模型一个近期历史的压缩视图，以便它能够继续对话，而无需每轮都看到完整的对话记录。工作记忆更多是为了任务连续性。它的工作是保留一个显式维护的、跨轮次的、重要事项的小型摘要，例如当前任务、重要文件和最近的笔记。</p>
+<p>按照上图中的步骤4，最新的用户请求连同 LLM 响应和工具输出，将在下一轮中作为“新事件”记录在完整对话记录和工作记忆中，为了减少上图的杂乱，这一点并未显示出来。</p>
+<h3>6. 使用（有界的）子智能体进行委派</h3>
+<p>一旦智能体有了工具和状态，下一个有用的能力之一就是委派。</p>
+<p>原因是它允许我们通过子智能体将某些工作并行化为子任务，从而加速主任务。例如，主智能体可能正在执行一个任务的中间，同时还需要一个侧面的答案，例如，哪个文件定义了一个符号，某个配置说明了什么，或者为什么一个测试失败。将其拆分为一个有界的子任务，而不是强迫一个循环同时承载每一条工作线索，是非常有用的。</p>
+<p>（在我的迷你编码智能体中，实现更简单，子智能体仍然同步运行，但底层的思想是一样的。）</p>
+<p>子智能体只有在继承了足够的上下文以做实际工作时才有用。但如果我们不限制它，我们现在就会有多个智能体重复工作、触碰相同的文件，或者生成更多的子智能体等等。</p>
+<p>所以，棘手的设计问题不仅仅是如何生成一个子智能体，还有如何绑定一个子智能体：）。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!Ygjt!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F81b2ae42-ea42-40bf-b2ba-fdfcf9b87912_2438x990.png" alt=""></p>
+<p>图12：子智能体继承了足够的上下文以发挥作用，但它在比主智能体更严格的边界内运行。</p>
+<p>这里的技巧是，子智能体继承了足够的上下文以发挥作用，但同时受到约束（例如，只读，并限制递归深度）</p>
+<p>Claude Code 长期以来一直支持子智能体，而 Codex 则是最近添加了它们。Codex 通常不会强制子智能体进入只读模式。相反，它们通常继承主智能体的大部分沙箱和批准门控设置。因此，边界更多是关于任务范围界定、上下文和深度。</p>
+<h3>组件总结</h3>
+<p>上一节试图涵盖编码智能体的主要组件。如前所述，它们在实现中或多或少地深度交织在一起。然而，我希望逐一涵盖它们有助于建立关于编码框架如何工作，以及为什么与简单的多轮聊天相比它们能使 LLM 更有用的整体心智模型。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!ml47!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4fe9e9f0-b04f-4c3e-be1f-fbd74b41c4aa_3396x971.png" alt=""></p>
+<p>图13：前几节中讨论的编码框架的六个主要特征。</p>
+<p>如果你有兴趣看到这些用干净、极简的 Python 代码实现，你可能会喜欢我的 <a href="https://github.com/rasbt/mini-coding-agent">Mini Coding Agent</a>。</p>
+<h3>这与 OpenClaw 相比如何？</h3>
+<p>OpenClaw 可能是一个有趣的比较对象，但它并不是完全相同类型的系统。</p>
+<p>OpenClaw 更像是一个本地的、通用的智能体平台，它也可以编码，而不是一个专门的（终端）编码助手。</p>
+<p>它与编码框架仍有几个重叠之处：</p>
+<ul>
+<li>它使用工作区中的提示词和指令文件，例如 AGENTS.md、SOUL.md 和 TOOLS.md</li>
+<li>它保留 JSONL 会话文件，并包含对话记录压缩和会话管理</li>
+<li>它可以生成辅助会话和子智能体</li>
+<li>等等。</li>
+</ul>
+<p>然而，如上所述，重点不同。编码智能体是为在代码库中工作并要求编码助手高效检查文件、编辑代码和运行本地工具的人优化的。OpenClaw 更优化于跨聊天、频道和工作区运行许多长期存活的本地智能体，其中编码只是几种工作负载中重要的一种。</p>
+<p>我很高兴地分享，我完成了 <em>Build A Reasoning Model (From Scratch)</em> 的撰写，所有章节都已在早期访问中。出版商目前正在制作版式，它应该会在今年夏天推出。</p>
+<p>这可能是迄今为止我最雄心勃勃的一本书。我花了大约 1.5 年的时间来写它，其中投入了大量的实验。就时间、精力和润色而言，它也可能是我最努力写的一本书，我希望你会喜欢它。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!2GF3!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68d954ed-83f7-40f8-9399-3323ecffd6e2_2128x1308.jpeg" alt=""></p>
+<p>Manning 和 Amazon 上的 <em>Build A Reasoning Model (From Scratch)</em>。</p>
+<p>主要主题是</p>
+<p>围绕 LLM 中的“推理”有很多讨论，我认为理解它在 LLM 语境下真正含义的最佳方法是从头开始实现一个！</p>
+<ul>
+<li><a href="https://amzn.to/4aAKiFY">Amazon</a>（预售）</li>
+<li><a href="https://mng.bz/Nwr7">Manning</a>（完整书籍在<a href="https://mng.bz/Nwr7">早期访问</a>中，最终版式前，528 页）</li>
+</ul>
+<h2>术语表</h2>
+<table>
+<thead>
+<tr>
+<th>原文</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>agent harness</td>
+<td>智能体框架</td>
+</tr>
+<tr>
+<td>agent harnesses</td>
+<td>智能体框架</td>
+</tr>
+<tr>
+<td>agentic harness</td>
+<td>智能体框架</td>
+</tr>
+<tr>
+<td>approval gating</td>
+<td>批准门控</td>
+</tr>
+<tr>
+<td>bounded result</td>
+<td>有界的结果</td>
+</tr>
+<tr>
+<td>Build A Reasoning Model (From Scratch)</td>
+<td><em>Build A Reasoning Model (From Scratch)</em></td>
+</tr>
+<tr>
+<td>clipping</td>
+<td>裁剪</td>
+</tr>
+<tr>
+<td>coding harness</td>
+<td>编码框架</td>
+</tr>
+<tr>
+<td>compact transcript</td>
+<td>压缩的对话记录</td>
+</tr>
+<tr>
+<td>context compaction</td>
+<td>上下文压缩</td>
+</tr>
+<tr>
+<td>diff application</td>
+<td>差异应用</td>
+</tr>
+<tr>
+<td>full transcript</td>
+<td>完整对话记录</td>
+</tr>
+<tr>
+<td>inference-time compute</td>
+<td>推理时计算</td>
+</tr>
+<tr>
+<td>next-token</td>
+<td>下一个词元</td>
+</tr>
+<tr>
+<td>open-weight LLMs</td>
+<td>开源权重大语言模型</td>
+</tr>
+<tr>
+<td>sandbox</td>
+<td>沙箱</td>
+</tr>
+<tr>
+<td>Stable prompt prefix</td>
+<td>稳定的提示词前缀</td>
+</tr>
+<tr>
+<td>subagent</td>
+<td>子智能体</td>
+</tr>
+<tr>
+<td>transcript compaction</td>
+<td>对话记录压缩</td>
+</tr>
+<tr>
+<td>transcript reduction</td>
+<td>对话记录缩减</td>
+</tr>
+<tr>
+<td>vanilla versions</td>
+<td>原始版本</td>
+</tr>
+<tr>
+<td>working memory</td>
+<td>工作记忆</td>
+</tr>
+<tr>
+<td>workspace summary</td>
+<td>工作区摘要</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-components-of-a-coding-agent","sender":"Sebastian Raschka","subject":"编码智能体的核心组件","snippet":"Sebastian Raschka的这篇文章深入剖析了编码智能体的设计逻辑。作者指出，Claude Code等工具的惊艳表现，并非仅源于底层大语言模型，更核心的秘密在于其外围的“智能体框架”。文章清晰界定了模型、推理模型与智能体系统的层级关系：模型是引擎，框架则是调度工具、管理记忆与上下文的控制循环。","date":"2026-04-04","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["translated"],"mdTheme":"magazine","sourcePath":"reports/components-of-a-coding-agent.md","sourceUrl":"https://magazine.sebastianraschka.com/p/components-of-a-coding-agent","body":"$3","prompts":[]},"listPosition":{"index":144,"total":365}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

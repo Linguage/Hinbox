@@ -1,0 +1,56 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T1b04,<h1>AI may be making us think and write more alike</h1>
+<p><a href="https://dornsife.usc.edu/news/stories/ai-may-be-making-us-think-and-write-more-alike/">原文链接</a></p>
+<p>当人工智能深度融入日常，我们是否正在交出思考的独特性？南加州大学的一项最新研究指出，大型语言模型正潜移默化地使人类的表达与思考走向同质化。过度依赖AI不仅会抹平个人写作的风格个性，更在重塑我们对“正确推理”的定义。由于模型训练数据偏向特定主流文化，其所推崇的线性推理正逐渐取代直觉与抽象思维，导致全球认知多样性面临萎缩风险，进而深刻威胁人类社会的集体智慧与适应能力。本文深入剖析了AI重塑认知的隐蔽机制，并呼吁在技术开发中引入真实世界的多样性。在习惯向AI寻求“标准答案”之前，我们有必要反思如何守住人类思维最宝贵的差异性。</p>
+<hr>
+<p><img src="https://dornsife.usc.edu/news/wp-content/uploads/sites/7/2026/03/llm-homogenous-thought-top-1920x1080.jpg" alt="Computer-generated illustration of a human-like head surrounded by thought bubbles containing meaningless wording"></p>
+<p>新研究表明，不断增加的AI使用可能会缩小人类思考和推理的方式数量。（图片来源：iStock。）</p>
+<p>南加州大学多恩西弗文学艺术与科学学院的计算机科学与心理学研究人员表示，大型语言模型（Large language models）可能正在使人类表达标准化——并潜移默化地影响我们的思考方式。</p>
+<p><strong>作者：<a href="mailto:communication@dornsife.usc.edu">Julia Grimmett</a></strong></p>
+<p>人工智能聊天机器人正在使人们说话、写作和思考的方式标准化。南加州大学的计算机科学家和心理学家在3月11日发表于Cell Press期刊《认知科学趋势》（<em>Trends in Cognitive Sciences</em>）的一篇<a href="https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(26)00003-3">观点文章</a>中提出，如果这种同质化不加遏制，将有可能削弱人类的集体智慧与适应能力。</p>
+<p>这些研究人员——由南加州大学多恩西弗文学艺术与科学学院心理学与计算机科学教授<a href="https://dornsife.usc.edu/profile/morteza-dehghani/">Morteza Dehghani</a>领导——表示，<a href="https://dornsife.usc.edu/news/stories/masters-program-teaches-math-behind-artificial-intelligence/">AI开发者</a>应在大型语言模型（LLM）训练集中引入更多现实世界的多样性，这不仅有助于保护人类认知的多样性，还能<a href="https://dornsife.usc.edu/news/stories/can-we-prevent-ai-from-acting-like-a-sociopath/">改善聊天机器人</a>的推理能力。</p>
+<p>“个体在写作、推理和看待世界的方式上存在差异，”该研究的第一作者、<a href="https://viterbischool.usc.edu/">南加州大学维特比工程学院</a>博士生Zhivar Sourati说。“当这些差异经由相同的LLM调节时，他们独特的语言风格、视角和推理策略便会趋于同质化，在用户中产生标准化的表达与思想。”</p>
+<h3>大型语言模型抑制个性</h3>
+<p>研究人员表示，在群体和社会中，认知多样性能够增强创造力和解决问题的能力。他们补充道，然而，随着数十亿人将同样的少数几款AI聊天机器人用于越来越多的任务，全球的认知多样性正在萎缩。例如，当人们使用聊天机器人帮助润色写作时，写出来的东西最终会失去其风格上的个性，人们对自己产出的内容也会感到较少的创造性归属感。</p>
+<p>“担忧不仅在于LLM塑造了人们的写作或说话方式，还在于它们潜移默化地重新定义了什么才算得上是可信的言论、正确的视角，甚至好的推理，”Dehghani的<a href="https://www.mola-lab.org/">道德与语言实验室</a>成员Sourati说。</p>
+<p>该团队指出了多项研究，表明LLM的输出比人类生成的写作变化更少，并且LLM的输出倾向于反映西方、受过教育、工业化、富裕和民主社会的语言、价值观和推理风格。</p>
+<p>“因为LLM被训练去捕捉并复现训练数据中的统计规律性，而这些数据往往过度代表了主流语言和意识形态，它们的输出通常只反映出人类经验中狭隘且偏颇的一部分，”Sourati说。</p>
+<p>研究人员指出，尽管研究表明个人在使用LLM时通常会生成更多且细节更丰富的想法，但当群体使用LLM时，产生的想法要比他们仅仅结合集体力量时更少，创造性也更低。</p>
+<p>“即使人们不是LLM的直接用户，LLM仍然会间接影响他们，”Sourati说。“如果我周围的许多人都在以某种方式思考和说话，而我做法不同，我会感到一种与之保持一致的压力，因为那似乎是一种更可信或更具社会接受度的表达想法的方式。”</p>
+<h3>LLM会减少推理风格的多样性</h3>
+<p>在语言之外，研究表明，在与带有偏见的LLM互动后，人们的观点会变得更像他们所使用的那个LLM。</p>
+<p>研究人员表示，LLM还偏爱线性的推理模式，例如“链式思维推理”（chain-of-thought reasoning），这要求模型展示逐步的推理过程。这种强调减少了对直觉或抽象推理风格的使用，而这些风格有时比线性推理更高效。</p>
+<p>他们还指出，LLM可以改变人们的期望，这能够微妙地改变一个人工作的方向。</p>
+<p>“用户往往不再主动引导生成过程，而是顺从模型建议的续写，选择那些看起来‘足够好’的选项，而不是自己构思，这逐渐将能动性从用户转移到了模型身上，”Sourati说。</p>
+<p>研究人员表示，AI开发者应有意识地在模型中引入语言、视角和推理的多样性。他们强调，这种多样性应基于全球人类内部存在的多样性，而不是引入随机的变异。</p>
+<p>“如果LLM在处理想法和问题时有更多样的方式，它们将能更好地支持我们社会的集体智能和解决问题的能力，”Sourati说。“我们需要使AI模型本身多样化，同时调整我们与它们互动的方式，特别是考虑到它们在各项任务和语境中被广泛使用，以此来保护未来几代人的认知多样性和构思潜力。”</p>
+<h3>关于该研究</h3>
+<p>南加州大学维特比工程学院博士生Alireza Ziabari也参与了这项研究，该研究获得了美国空军科学研究办公室的资助。</p>
+<h2>术语表</h2>
+<table>
+<thead>
+<tr>
+<th>原文</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>chain-of-thought reasoning</td>
+<td>链式思维推理</td>
+</tr>
+<tr>
+<td>Large language models</td>
+<td>大型语言模型</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"essays-ai-may-be-making-us-think-and-write-more-alike","sender":"Darrin Joy","subject":"AI 可能正在让我们的思考与写作趋于同质化","snippet":"当人工智能深度融入日常，我们是否正在交出思考的独特性？南加州大学的一项最新研究指出，大型语言模型正潜移默化地使人类的表达与思考走向同质化。过度依赖AI不仅会抹平个人写作的风格个性，更在重塑我们对“正确推理”的定义。由于模型训练数据偏向特定主流文化，其所推崇的线性推理正逐渐取代直觉与抽象思维，导致全球认知多样性面临萎缩风险，进而深刻威胁人类社会的集体智慧与适应能力。","date":"2026-03-12","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["translated"],"mdTheme":"magazine","sourcePath":"essays/ai-may-be-making-us-think-and-write-more-alike.md","sourceUrl":"https://dornsife.usc.edu/news/stories/ai-may-be-making-us-think-and-write-more-alike/","body":"$3","prompts":[]},"listPosition":{"index":173,"total":365}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

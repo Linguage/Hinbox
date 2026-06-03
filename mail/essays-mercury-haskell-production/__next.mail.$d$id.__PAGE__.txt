@@ -1,0 +1,214 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:Te9c7,<p><em>Haskell 博客的编辑们很高兴为大家推出一个名为“<strong>来自战壕的 Haskell 开发者</strong>（Haskellers from the trenches）”的全新系列文章。在此系列中，我们将邀请经验丰富的工程师来分享他们的专业领域、最佳实践以及生产环境中的真实故事。</em></p>
+<p><em>工程的严谨性与艺术的创造力是绝佳的组合，本系列旨在成为 Haskell 世界中这两个层面的综合体现。</em></p>
+<hr>
+<p>我十六岁那年第一次听说 Haskell。当时我正坐在高中的计算机科学课上写 Java，并且在那门课上了解到：如果你决定进入软件开发行业，<code>NullPointerException</code>（空指针异常）似乎是你不得不接受的一种生活方式。放学后，我在浏览 <code>/r/programming</code> 论坛时，偶然看到了一门语言的介绍。在这门语言中，空指针异常根本不可能发生，它的类型系统可以杜绝我每周都在与之搏斗的一整类 Bug。这门语言就是 Haskell。我立刻无可救药地迷上了这个理念。</p>
+<p>至今我写 Haskell 已经将近二十年了，我依然认为那个在十六岁时让我坠入爱河的核心价值主张基本是对的。不过，我花了更长的时间才弄明白：当代码库变得庞大，公司业务的增长速度超过了文档的更新速度，且系统开始涉及真金白银时，当初的那个“承诺”究竟长什么样。在这样的环境中，Haskell 以无数种坚实的方式证明了它的价值。它让你能够将运维知识打包进 API 中，将危险的机制关进严密的边界里，并让“安全”的路径成为“最容易”的路径。对于一家快速增长的公司而言，这些不仅仅是品味问题；当最初了解系统的人离开后，这正是你让系统保持可理解性的关键所在。</p>
+<p>把时间快进到今天：我在 Mercury 工作，这是一家提供银行服务的金融科技公司*。我们服务超过 30 万家企业。2025 年，我们处理了 2480 亿美元的交易额，年化收入达 6.5 亿美元，并且在撰写本文时，我们正在向美国货币监理署（OCC）申请国家银行牌照。我们有大约 1500 名员工。我们的工程团队主要招聘通用型人才（generalists），他们中的大多数人在加入之前从未写过一行 Haskell。</p>
+<p>在 Mercury 工作的这段时间，彻底改变了我对这门语言的看法，这种改变胜过任何关于“纯粹性（purity）”的说教。优雅固然令人愉悦，但让你的业务活下去才是强制要求。</p>
+<p>如果剔除注释等内容，我们的代码库大约有 200 万行 Haskell 代码。</p>
+<p>读到这里，你可能要倒吸一口凉气了。</p>
+<p>几百万行 Haskell 代码，由一群在工作中才现学这门语言的人维护，而且这还是一家处理巨额资金的公司？按照传统观念，这绝对是一场灾难。但令人惊讶的是，事实并非如此。我们构建的这个系统已经良好运行多年，它挺过了超高速增长期，挺过了硅谷银行（SVB）危机（那次危机让 20 亿美元的新存款在五天内涌入我们这里）<sup><a href="#user-content-fn-1" id="user-content-fnref-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup>，挺过了监管审查，挺过了一个大规模金融系统会遇到的所有寻常与不寻常的事件。</p>
+<p>这篇文章要讲的就是它为什么行得通。不是在“Haskell 很美”这个意义上（尽管它确实很美）。也不是在“编译器会拯救我们脱离苦海”这个意义上（尽管我经常对此心怀感激）。我所指的，是一个远没那么浪漫、但却实用得多的意义：我们在大规模的生产环境中运行这门语言，团队人员快速更迭，并且我们吸取了一些惨痛的教训，明白了要让这艘大船继续航行究竟需要什么。Haskell 的美貌固然迷人，但在它之外还存在着大片的运维与组织现实。如果你无视这些现实太久，你的公司很可能会开除整个 Haskell 团队<sup><a href="#user-content-fn-2" id="user-content-fnref-2" data-footnote-ref aria-describedby="footnote-label">2</a></sup>，转而去写 PHP 或别的什么东西。</p>
+<h2>我们如何思考可靠性</h2>
+<p>在深入探讨实用建议之前，先谈谈理念。</p>
+<p>关于系统可靠性，有一种传统的思维方式侧重于“预防故障”。你列举出可能出错的事情；你添加检查；你为每一个糟糕的情况编写测试；你四处寻找 Bug。当然，这些都是必要的工作，我们也会做。但这是不够的，如果你完全以它为导向，你会产生一个特定的盲区：你会变得非常擅长记录系统是如何崩溃的，却极其不擅长理解系统为什么通常能正常运行。<sup><a href="#user-content-fn-3" id="user-content-fnref-3" data-footnote-ref aria-describedby="footnote-label">3</a></sup></p>
+<p>我们试图用不同的方式来思考这个问题。一个系统之所以能可靠地运行，是因为它能够<strong>吸收变化（absorb variation）</strong>：它能优雅地降级；它的运维人员能够理解并调整它；它的架构让做正确的事变得容易，让做错误的事变得困难。<sup><a href="#user-content-fn-4" id="user-content-fnref-4" data-footnote-ref aria-describedby="footnote-label">4</a></sup> 可靠性不仅仅是没有故障，它是一种<strong>适应能力（adaptive capacity）</strong>。它是当现实世界继续保持其令人遗憾的、拒绝静止不动的习惯时，系统继续保持运转的能力。</p>
+<p>当你有数百名工程师在一个数百万行的代码库中工作，且其中许多人的 Haskell 生涯才刚刚六个月时，“适应能力”就不再只是弹性工程论文里的一个漂亮词汇，而是每天都必须面对的日常。Patrick McKenzie 曾观察到，在一家以每年 2 倍速度增长的公司里，你的一半同事将永远只有不到一年的经验。一年后，你的一半同事依然只有不到一年的经验。对于非常成功的公司来说，这永远是真理。<sup><a href="#user-content-fn-5" id="user-content-fnref-5" data-footnote-ref aria-describedby="footnote-label">5</a></sup> 无论你喜不喜欢，你在组织架构中会迅速变得“古老”，你所知道的东西会变成制度上的“暗物质”：它们承载着重量，但对你周围的大多数人来说却是隐形的。</p>
+<p>所以我们要问的问题是运维层面的：你团队的新员工能看懂这个模块并理解它是做什么的吗？如果数据库变慢了，这个服务是会降级，还是会崩溃并把相邻的服务也一起拖垮？如果有人误用了一个接口，是编译器会告诉他们，还是等系统报警把值班人员叫醒我们才会发现？如果你无法回答这些问题，那你其实正在酝酿一场未来的事故。</p>
+<p>这就是为什么我越来越倾向于将类型系统视为一种<strong>运维辅助工具</strong>，而不是一个正确性证明。它的价值不仅仅在于排除了某些类别的错误（尽管它确实做到了）。它的价值在于，它将制度知识编码成了一种形式，这种形式在编写它的人离职后依然能存活下来。在一家快速增长的公司里，人们会离职，会转岗，会休假或休产假，会有新人加入。这种人员流动意味着，除非你把人们知道的东西写在某个地方，否则这些知识就会跟着他们一起走出大门。理想情况下，你应该把它们写成编译器能读懂的形式，因为编译器比一般的 Wiki 页面要守纪律得多。</p>
+<p>这甚至延伸到了代码之外。作为稳定性工程团队的一员，我们不断地调查功能和产品在生产环境中预期的行为。我们这么做不是为了拖慢产品开发，而是与交付功能的团队合作，确保我们准备好应对它出现故障时的后果，并在可能的情况下，让这种后果变得枯燥乏味而不是惊心动魄。我们会问：如果这东西坏了，爆炸半径（影响范围）有多大？哪些操作必须是幂等的，如何实现？回滚流程是什么样的？飞行中（正在处理）的任务会怎样？哪些系统会吸收故障，哪些系统会放大故障？关键在于，要尽早进行这些对话，让它们去塑造设计，而不是等到所有重要决定都已经变得难以更改时，才在发布后进行审计。<sup><a href="#user-content-fn-6" id="user-content-fnref-6" data-footnote-ref aria-describedby="footnote-label">6</a></sup></p>
+<p>直白地说，我们的理念是：我们不是质量警察。我们是那些想帮你避免在凌晨 4 点被叫醒去处理某个故障功能后果的人。这并不是一种深奥的意识形态立场，我们只是单纯地想帮助大家。</p>
+<p>那么，鉴于此，我们究竟是如何让 Haskell 在生产环境中发挥作用的呢？</p>
+<h2>纯粹性是一种边界，而不是一种属性</h2>
+<p>我的一个犀利观点是：关于 Haskell 的第一个也是影响最深远的误解在于——“纯粹（purity）”与其说是这门语言本身<em>是</em>什么，不如说是你的接口所<em>强制执行</em>的东西。</p>
+<p>在底层，Haskell 并不是一台神奇的、在纯粹的情况下还能执行副作用的机器。在 <code>bytestring</code>、<code>text</code> 和 <code>vector</code> 每一个“纯”函数的背后，都隐藏着一个欢乐的小小地狱：可变内存分配、缓冲区写入、不安全的类型强转，以及其他如果在一个初级工程师的业余项目中发现会让你感到惊恐的行为。在 <code>ST</code> 单子（monad）背后，是原地状态突变（in-place mutation）和在计算过程中可观察到的副作用。让这一切变得可以接受的原因在于，这些副作用被封装了起来，其边界无法被打破。</p>
+<pre><code class="language-haskell">runST :: (forall s. ST s a) -> a
+</code></pre>
+<p><code>runST</code> 的 Rank-2 类型（即类型 <code>s</code> 的作用域被限制在括号内，无法逃逸）确保了在计算内部创建的可变引用，因为被标记了类型 <code>s</code>，所以无法逃逸到外部。在内部，各种命令式（imperative）的乱七八糟的操作都可能发生。但在外部，这个函数是纯粹的。边界外部的世界得不到任何突变状态，只能得到结果。</p>
+<p>我认为，从更宏观的层面来看，这是一个极好的设计原则：你可以在一个作用域内允许任意危险的操作，前提是这个作用域的出口类型足够严格，使得危险无法泄漏。这个原则适用于生产环境的每一个角落。你的数据库层在内部使用了连接池、重试逻辑和可变状态。你的缓存在内部使用了并发的可变映射（Map）。你的 HTTP 客户端内部可能有熔断器、连接池，以及相当于一个小市政当局工作量的记账逻辑。如果接口足够严密，能防止被误用且边界牢不可破，那么这些统统不是问题。</p>
+<p>在生产环境中，目标通常不是完全避免状态突变，因为对于大多数真实系统来说，这不是一个严肃的提议。目标是<strong>控制突变，让这种控制变得清晰可见，并验证它一直处于被控制的状态。</strong> 通常，正确的问题不是“这纯粹吗？”，而是“不纯粹的地方在哪里，代码库中有多少部分被允许知道它的存在？”</p>
+<p>对于一个三个月前刚学 Haskell 的新工程师来说，“纯粹性是你试图维护的边界”比“Haskell 是纯的”要有用得多。前者告诉他们在坐下来设计一个模块时该做什么，而后者只是摆在那里显得很高深而已。</p>
+<p>这种以边界为导向的纯粹性视角，奠定了一个在 Haskell 生产工程中反复出现的普遍模式：<strong>只要危险的事物被围栏围起来、小心翼翼地暴露，且难以被误用，它们就是可以容忍的。</strong> 状态突变是这样，重试、事务、状态机、分布式工作流和类型层面的机制也是这样。后文讲的很多内容，本质上都只是同一个思想换了不同的外衣。</p>
+<h2>让做正确的事变得最容易</h2>
+<p>在大型代码库中有一种模式：代码的正确性依赖于以特定的顺序执行操作，或者包含某个与主要工作没有明显联系的特定步骤。</p>
+<p>“记住每笔事务之后要刷新审计日志。”</p>
+<p>“调用这个接口之前，一定要检查特性开关（feature flag）。”</p>
+<p>“确保把发送通知的逻辑放在数据库事务<em>里面</em>，而不是后面。”</p>
+<p>这些都是运维传说中的咒语。它们存在于 Wiki 页面、入职文档、被遗忘了一半的设计评审，以及那些现在已经被调到另外三个团队之外、日程表排满到下周四的高级工程师的记忆里。在一家疯狂招人的公司里，部落知识（tribal knowledge）的半衰期短得惊人。当一个工程师离开时，这些咒语就会随之消散。当截止日期临近时，它们是最先被跳过的东西。当新工程师加入时，他们通常根本无从得知这些咒语的存在。没有什么比把一个关键的不变量塞进九个月前的 Slack 讨论帖里，更能体现所谓的“健壮系统设计”了。<sup><a href="#user-content-fn-7" id="user-content-fnref-7" data-footnote-ref aria-describedby="footnote-label">7</a></sup></p>
+<p>Haskell 为你提供了将这些咒语编码到类型中的工具，让它们无法被遗忘。在我看来，这是这门语言为生产工程组织提供的最有价值的东西。</p>
+<p>考虑一个真实模式的简化版：你需要确保某些副作用（发送通知、发布事件）与数据库写入<em>在同一个事务中</em>发生。不能在之前，不能在之后，也不能在单独的事务中。要么一起发生，要么都不发生。</p>
+<p>最天真的做法是告诉大家使用正确的函数：</p>
+<pre><code class="language-haskell">-- 请使用这个，不要用下面那几个
+writeWithEvents :: Transaction -> [Event] -> IO ()
+
+-- 不要直接使用这两个（但我们拦不住你）
+writeTransaction :: Transaction -> IO ()
+publishEvents :: [Event] -> IO ()
+</code></pre>
+<p>这是菜鸟级别的工程设计。它在不出问题的时候还行，但“出问题”的时候往往是在一个周五的下午，那个写 Wiki 页面的人正在休假，而其他人正在实时地发现那页 Wiki 原来是承重墙。</p>
+<p>更好的方法是重构类型，使得<em>提交（commit）</em> 工作的唯一路径，必须包含事件的发布：</p>
+<pre><code class="language-haskell">data Transact a -- 不透明类型（opaque）；不能直接运行
+record :: Transaction -> Transact ()
+emit :: Event -> Transact ()
+
+-- 执行 Transact 的 *唯一* 方式：原子性地提交和发布
+commit :: Transact a -> IO a
+</code></pre>
+<p>现在，这句咒语成了房间里唯一的门。你不可能忘记它，因为你没有别的事情可做。类型系统并没有证明关于你事件的任何高深定理，它做了一件更实际的事：<strong>它让正确的运维流程变成了阻力最小的路径。</strong></p>
+<p>这个区别很重要。在生产环境中，有很多地方我们不需要一个严密的数学定理。我们需要的是一种设计，让一个普通且忙碌的工程师在试图完成十多件完全合理的事情时，很难意外地做错事。编译器在这里不仅仅是在检查逻辑，它是在保护制度记忆，并将其转化为坚固的接口。</p>
+<p>当一个新工程师加入并问“我该如何编写一个事务？”时，类型系统会回答他们。当一个高级工程师离开时，这个答案依然存在。制度知识之所以能够存活，不是因为有人把它写得很漂亮（尽管有的话也很好），而是因为有人把它编码成了编译器会强制执行的形式。再说一次，编译器是比一般的 Wiki 更好的运维传说保管员，而且它不像人那样，会在系统现实发生变化时忘记去更新它。</p>
+<h2>耐久执行（Durable Execution）</h2>
+<p>上面提到的模式——通过构造类型使得正确的操作流程成为唯一的流程——在单一事务内部运作良好。然而不幸的是，金融系统从来都不觉得有义务老老实实呆在单一事务里。</p>
+<p>金融系统充满了跨越多个步骤、多个服务和多种故障模式的流程。发起一笔支付、等待合作伙伴确认、更新账本、通知客户、处理取消、处理超时；处理合作伙伴同意了但你的 worker 在记录答案前就死掉的情况；处理合作伙伴没吭声的情况，因为网络短暂地进入了更高的存在位面而拒绝告诉你。如果任何一个步骤失败了，你需要知道你当时在哪、已经发生了什么，以及还有什么没做。你需要状态，需要重试，需要超时控制，需要幂等性。你需要所有这些东西，以保证在进程崩溃和系统部署之间能够继续工作。很快，最初只是“一段简单的业务逻辑”的东西，就会堆积起大量为解决常见运维痛点而写出的一次性重复代码。</p>
+<p>以前在 Mercury，我们通过由 cron job（定时任务）和后台 worker 驱动、以数据库为后端的的状态机来协调这些流程，重试逻辑和超时处理散布在代码库的各个角落。它能跑起来。但它也需要一种通常只有在拆除未爆弹时才具备的警惕性。它很脆弱，难以推理，并且在我们运维事故中占了不成比例的很大份额。</p>
+<p><a href="https://temporal.io/">Temporal</a> 是我们的“耐久执行（durable execution）”框架，采用它是我们做过的最好的基础设施决定之一。你像写普通的顺序代码一样编写工作流，平台会在事件历史中记录每一步。如果一个 worker 在工作流中途崩溃了，另一个 worker 会重放（replay）确定性的前缀来重建状态，然后从它中断的地方继续。重试、超时、取消和错误处理都由平台提供，而不是由每个团队拙劣地重新实现。</p>
+<p>我认为 Temporal 就像科学怪人弗兰肯斯坦的怪物，这是夸奖的意思：由极好的部件组装而成，被不可思议的努力赋予了生命，并且比许多被它吓到的人都要聪明。它将耐久的历史记录、重放和确定性（这些是某些平台原生具备的特性）硬塞到了那些天生不知道该怎么做这些事的运行时（runtime）上。我们大多数人都不可能用 Erlang 重写我们公司的系统。Temporal 是给其余人准备的义肢。它通过一种稍微疯狂但极其有效的方式，让普通语言也能获得同样优秀的运维特性。</p>
+<p>它与 Haskell 的契合度完美呼应了人们常赋予 Haskell 的美德：在某种重要意义上，Temporal 工作流就是一个基于其事件历史的<strong>纯函数</strong>。Temporal 工作流有一个确定性要求——被重放的工作流必须产生与原始工作流相同的命令序列——这与 Haskell 对纯代码施加的约束完全相同：相同的输入，相同的输出。副作用被隔离在*活动（activities）*中，相当于工作流里的 <code>IO</code>。工作流负责编排；活动负责执行。如果你思考过“纯粹的核心 / 不纯的外壳（pure core / impure shell）”架构，这正是那种模型，只不过由平台来强制分离，而不是仅仅依赖纯粹的纪律。</p>
+<p>我们构建并开源了 <a href="https://github.com/MercuryTechnologies/hs-temporal-sdk"><code>hs-temporal-sdk</code></a>，这是我们为 Temporal 编写的 Haskell SDK。它封装了官方的 Core SDK（Rust 编写，通过 FFI 调用），并提供了一个原生的 Haskell API 来定义工作流、活动和 worker。</p>
+<p>我曾在 <a href="https://www.youtube.com/watch?v=FdGMaLcEP2M">Temporal 的 Replay 大会上做过一个关于我们落地模式的演讲</a>，简短来说就是：Temporal 让我们能够用平台负责协调的耐久工作流，取代了脆弱的 cron job 和基于数据库的状态机链条。运维方面的改善是巨大的。当你删掉一个手工打造的分布式状态机，用一个其故障语义不是在 Sprint 计划会上临时拍脑袋想出来的东西来替代它时，那种愉悦感怎么强调都不为过。</p>
+<p>这也同样是“适应能力”换了一套衣服。一个能够在 worker 崩溃、进程重启和长时间协调中幸存下来且不丢失自身位置的系统，能让它的运维人员在处理事故时拥有更多的杠杆，面临更少的谜团。</p>
+<h2>针对领域进行设计，而不是针对传输层</h2>
+<p>随着生产系统的增长，我观察到的一个常见错误是：让调用方系统（传输层）泄漏到了领域模型（Domain model）中。</p>
+<p>我们有一些代码会抛出包含 HTTP 状态码的异常，然后直接将结果返回给前端用户。在写这些代码时这是合理的，因为它运行在 HTTP 请求处理程序（handler）中。然后，就像在任何不断增长的代码库中会发生的那样，这些代码片段被提取出来并复用。现在它也在 cron job 里运行，在队列的后台 worker 里运行，在 Temporal 工作流里运行。而且，当出现问题时它依然会抛出 <code>StatusCodeException 409 "Conflict"</code>，让一个 cron job 做这种事实在是太疯狂了。cron job 并没有一个调用者在等着接收 409。根本没人看那个状态码。这个错误之所以在系统中传播，仅仅是因为最初的抽象与它的传输层耦合在了一起。</p>
+<p>修复方法在概念上很简单：<strong>将你的领域错误建模为领域类型。</strong> 一笔因为资金不足而失败的支付应该返回 <code>InsufficientFunds</code>（资金不足），而不是 402。一个重复的请求应该是 <code>DuplicateRequest</code>，而不是 409。这些是你的业务逻辑可以用来进行模式匹配、重试、记录有意义的日志，并根据上下文进行不同处理的东西。</p>
+<p>然后，你在每个边界处编写很薄的转换层：</p>
+<pre><code class="language-haskell">data PaymentError
+  = InsufficientFunds
+  | DuplicateRequest RequestId
+  | PartnerTimeout Partner
+
+toHttpError :: PaymentError -> HttpResponse
+toHttpError InsufficientFunds       = err402 "Insufficient funds"
+toHttpError (DuplicateRequest _)    = err409 "Duplicate request"
+toHttpError (PartnerTimeout _)      = err502 "Partner unavailable"
+
+toWorkerStrategy :: PaymentError -> WorkerAction
+toWorkerStrategy InsufficientFunds    = Fail "Insufficient funds"
+toWorkerStrategy (DuplicateRequest _) = Skip
+toWorkerStrategy (PartnerTimeout _)   = RetryWithBackoff
+</code></pre>
+<p>这没什么新奇的。但在实践中，这个步骤经常被跳过，跳过得令人惊讶。因为任何代码的第一个版本都是为一个特定的上下文编写的，而当你意识到它将被其他三个地方调用时，状态码异常已经成了“承重墙”——因为已经有人决定把捕获这些异常作为业务逻辑的一部分，没人愿意去重构它们了。</p>
+<p>你越早进行这种分离，代价就越小。你做得越晚，产生的行为就越诡异。最终你会看到 cron job 往 Sentry（错误追踪系统）里狂扔 409 错误，后台 worker 把 HTTP 特有的异常当成业务语义来解析——这就是抽象一旦打破控制边界后给你发送的信号。</p>
+<p>这与纯粹性的原理相同，只不过是用领域语言而不是运维语言表达出来的。你的传输层关注点应该呆在系统边缘。你的领域模型应当经得起从 Web 处理程序、CLI 工具、cron job、后台 worker 甚至工作流引擎中被调用，而不需要像婚车后面绑着的易拉罐一样，走到哪都拖着一个 HTTP 状态码。</p>
+<h2>类型编码的权衡</h2>
+<p>接下来我要告诉你，上面我刚让你做的事情，<strong>不要做得太过火</strong>。</p>
+<p>将不变量（invariants）编码到类型中是强大的，但也极其昂贵。不是在运行时昂贵，而是在认知开销上，在它引入的系统刚性上，以及当需求转变时后续修改的困难上很昂贵。而需求是<strong>一定</strong>会变的。如果你在一家需求不怎么变的公司工作，我很想知道你们的秘诀，顺便告诉我一下你们公司的股票代码。</p>
+<p>你推入类型系统里的每一个不变量，都是对未来每一个接触这段代码的工程师的约束。如果违反这个约束会导致数据丢失、财务错误、监管麻烦，或者让某个可怜虫的寻呼机狂响，那么这种代价是值得的。如果这个约束只是“我们目前碰巧是这么做的”，或者是“我看了篇关于依赖类型（dependent types）的文章，我<em>必须</em>把它用在我的鉴权逻辑里”，那么你可能只是让你的代码库变得更难修改，却没有带来任何运维上的好处。下一个遇到它的人要么花一个星期重构类型，要么（更有可能）找个歪门邪道绕过它们，而这比你最初想阻止的情况还要糟糕。</p>
+<p>这中间存在一个光谱，而生产环境的代码库必须诚实地选择它的位置。</p>
+<p><strong>在光谱的一端：你对一切进行编码。</strong> 你的类型是你领域的忠实模型。非法状态无法被表示。重构需要几周时间，因为修改一个业务规则意味着要在五十个模块里梳理类型的变化。新来的工程师盯着那些类型签名，怀疑自己究竟造了什么孽才沦落至此，然后默默开始找心理医生探讨自己的职业选择。你建起了一座大教堂。大教堂固然美丽，但也昂贵、冰冷，而且绝不会以“翻修管道速度快”而闻名。</p>
+<p><strong>在光谱的另一端：你什么都不编码。</strong> 你的类型全是 <code>String</code> 和 <code>IO ()</code>，最坏的情况下全是 <code>Dynamic</code>。代码很容易改，因为没有任何契约可以被违反。系统之所以还能运行，是因为当初写代码的人还在，他们还记得那些字符串是什么意思。等他们一走，系统就瘫痪了，而且没人知道为什么。你搭起了一顶帐篷。帐篷灵活、便携，而且在特定的天气下，它是你了解天空的最直接方式。当然，这也是很多开发者当初逃向 Haskell 的原因之一——为了避免这种方法带来的痛苦。</p>
+<p>最佳平衡点在中间。我认为有几个启发式原则很实用：</p>
+<p><strong>1. 编码那些用于防止静默损坏（silent corruption）的不变量。</strong> 如果违反规则会导致生成错误的数据却没有任何即时报错（比如事务没有带事件就提交了、支付处理了却没有审计日志、一个看似合理但在语义上不可能的状态流转），把它放进类型里。静默故障的反馈回路太长了，不能依赖人类的勤勉。</p>
+<p><strong>2. 对于那些失败时会“大声报错”的不变量，使用运行时检查。</strong> 如果违反规则会产生一个立即、明显的错误（比如返回一个 500、断言失败、JSON 边界处的类型不匹配），那么一个带有良好错误信息的运行时检查可能就足够了。你会在上线前，或者上线后极快地捕捉到它。</p>
+<p><strong>3. 抵制试图将你的整个领域都在类型中建模的冲动。</strong> 你的业务领域是杂乱无章的。它有边缘情况、祖父条款、互相矛盾的规则，还有给三个特定客户开的特例行为（这些特例甚至可以追溯到 2018 年，且没人完全理解）。类型系统渴望干净利落。你的业务给不了。永远都给不了。</p>
+<p><strong>4. 记住类型是给团队看的，不仅仅是给编译器看的。</strong> 编译器只是众多工具中的一个。测试、文档、代码审查、示例、运维手册：这些结合在一起提供了纵深防御。我们的目标不是去赢得与类型检查器的辩论。我们的目标是构建一个可以由人类团队（包括那些今年才学会 Haskell 的人类）来操作、扩展和维护的系统。</p>
+<p>话虽如此，极其复杂的类型级机制有时正是你所需要的。我们有一些内部库里的类型确实非常硬核：GADTs、类型家族（type families）、跟踪状态流转的幽灵类型（phantom types）。这些机制如果搞错了，意味着钱会去错地方，或者违反了监管要求。在这里，复杂性是绝对必要的。</p>
+<p>如果你想以可持续的方式做到这一点，关键在于我们必须<strong>封装</strong>这种复杂性。实现类型级状态机的模块通常只有少数几个作者能深刻理解，理想情况下，还会配备极其完善的测试套件。而<em>使用</em>它的模块拥有的表面 API，看起来就像是五个有着正常类型的正常函数。其他团队的产品工程师可以调用这些函数，而不需要知道也不需要关心，底层其实运行着一个微型的类型级定理证明器，以确保他们不会在错误的状态下提交事务。证明义务在边界内部被清偿，而不是泄露到边界之外。</p>
+<p>这是与“纯粹性”相同的控制原则，只不过在更高的一层应用。复杂性本身没问题，因为它为你买到了有价值的东西。引起问题的是复杂性越过了模块边界，渗透到了由那些根本不想碰这些复杂性的人所维护的代码中。我们在代码审查中最容易抓到这种情况。某人开了一个 PR，修改了一个他们不负责的模块，而 Diff 差异里全是他们为了让编译器停止尖叫，只能从附近的文件中盲目照搬（cargo-cult）过来的类型注解。这通常标志着抽象已经变成了一种友军火力。</p>
+<h2>为自省（Introspection）而设计</h2>
+<p>如果可靠性关乎适应能力，那么自省（introspection，即系统内部的可见性）就是你获取适应能力的途径之一。运维人员无法理解他们看不见的东西。团队无法让一个内部不透明的系统去适应变化。可观测性（Observability）不是你在最后才撒上去的配菜，它是软件设计表面的一部分。</p>
+<p>这在 Haskell 中尤为重要，因为 Haskell 没有猴子补丁（monkey patching）。你不能在运行时伸进一个库里，把它的 HTTP 客户端替换成一个记录耗时的客户端，或者把它的数据库调用换成发送 OpenTelemetry span 的调用。当然，这不是 Haskell 独有的。Rust 也有同样的根本限制：没有猴子补丁，没有运行时的防修改替换，没有语言级别的“让我在这里临时插一脚”的逃生舱。孤儿规则（orphan rule）甚至阻止你为你没有所有权的类型添加 trait 实现。区别在于，Rust 生态系统在很大程度上已经将 <code>tower</code> 中间件模式作为共识答案，而 Haskell 的生态系统仍在几种方法之间碎片化。限制是一样的；问题在于，你的生态系统是否提供了一个大家都遵守的常规逃生舱，还是让每个团队自己去凑合。</p>
+<p>因此，如果一个库将它的功能作为一组具体的顶层函数暴露出来，你对它进行插桩（instrumenting）的选择，就仅限于把这些函数包装在一个新模块里，并祈祷没人会忘记导入你的模块而去导入原来的。必须指出，祈祷可不是什么强大的架构模式。</p>
+<p>一个适用于所有语言的普适观点：<em><strong>你无法运维你看不见的东西。</strong></em> 如果你的调用链路追踪（traces）里有大段不透明的空白，仅仅是因为某个库执行了耗时操作且没有提供钩子让你去测量它，那么当客户抱怨时你才会发现哪里变慢了，而不是当你的监控面板报警时。如果是客户抱怨了面板才告诉你，那么你其实已经在为当初那个设计决定支付利息了。</p>
+<p>我最常用到的解决方案是<strong>函数记录（records of functions）</strong>。你暴露的不是一个装满具体函数的模块，而是一个以函数为字段的记录（Record）类型。这样调用者就可以包装、插桩、Mock 或替换任何单个函数，而无需触碰其余部分。我在 <a href="https://www.iankduncan.com/articles/2024-01-26-records-of-effects">Embracing Flexibility in Haskell Libraries</a> 这篇文章中详细探讨过这个话题，简而言之就是：</p>
+<pre><code class="language-haskell">-- 一个暴露具体函数的模块不给你任何杠杆：
+sendRequest :: Request -> IO Response
+
+-- 一个包含函数的记录类型给你全部的杠杆：
+data HttpClient = HttpClient
+  { sendRequest :: Request -> IO Response
+  , getManager  :: IO Manager
+  }
+</code></pre>
+<p>有了这个记录类型，你可以用记录耗时的代码去包装 <code>sendRequest</code>，并返回一个新的 <code>HttpClient</code>。你可以为了测试而注入故障。你可以把它替换成 Mock 实现。你可以添加重试、追踪、请求重写、租户特有行为，或是生产环境这个季度给你派发的任何跨领域（cross-cutting）关注点。所有这些都在运行时完成，不需要触碰库的源码。WAI 在 <code>type Middleware = Application -> Application</code> 的设计上就做得很对：行为的可组合转换在各种各样的系统中都极其有用，而且现实中的系统很少会那么好心地在最开始就把它们所有的跨领域需求都摆在台面上。</p>
+<p>这个模式中隐藏着一个很棒的代数性质，值得更多关注。我保证，这不是我贴个假胡子混进来偷偷讲范畴论；这绝对是非常实用的。中间件和拦截器类型几乎总是允许 <code>Semigroup</code> 和 <code>Monoid</code> 实例。WAI 的 <code>Middleware</code> 就是 <code>Application -> Application</code>，这是一个自同态（endomorphism），而自同态在组合操作和单位元 <code>id</code> 的作用下形成一个幺半群（monoid）。一个拦截器钩子的记录类型（其中每个字段本身就是一个自同态，或者是形状类似的继续传递函数），可以免费获得一个按字段逐个处理的 <code>Semigroup</code> 实例：<code>a &#x3C;> b</code> 会独立地组合每个字段，而 <code>mempty</code> 则是所有字段都是单位元（即把调用原封不动地传递过去）的记录。</p>
+<p>这把“组合”从一个工程难题变成了一个几乎不存在的问题。你不需要编写定制的管道来把你的追踪拦截器、超时拦截器和任务队列重写拦截器拼接在一起。你只需把它们 <code>mconcat</code> 起来：</p>
+<pre><code class="language-haskell">appTemporalInterceptors =
+ mconcat
+   [ retargetingInterceptor
+   , otelInterceptor
+   , sentryInterceptor
+   , sqlApplicationNameInterceptor
+   , loggingContextInterceptor
+   , statementTimeoutInterceptor
+   , teamNameInterceptor
+   , clientExceptionInterceptor
+   , workflowTypeNameInterceptor
+   ]
+</code></pre>
+<p>每个拦截器都在各自的模块中独立定义，由只关心那一件事的人编写。单个拦截器是通过重写 <code>mempty</code> 中的一个或多个字段来构建的——其他一切都原样通过。组合就是用 <code>(&#x3C;>)</code>。没有任何隐藏的接线。除了在钩子的形状上达成一致，不需要任何额外的协调成本。顺序在列表中显式排列。要添加新的跨领域关注点，只需在列表中追加一个元素；现有的拦截器根本不需要改动。</p>
+<p>这就是 <code>Monoid</code> 模式最实用的一面。这种抽象的存在并不是为了追求优雅（尽管优雅确实是一个不错的副作用）。它的存在是因为它在构造上使得“组合 N 个独立的跨领域关注点”这一运维任务变得轻而易举地正确。如果你的中间件类型支持 <code>mempty</code> 和 <code>(&#x3C;>)</code>，你就可以把它交给 15 个工程师，让他们每个人写一部分，然后这些部分会自然而然地组合在一起。</p>
+<p>效应系统（Effect systems，如 <code>effectful</code>、<code>polysemy</code>、<code>fused-effects</code>、<code>cleff</code> 等）提供了另一条路。你定义一个描述可用操作的效应类型，然后在调用点提供可以替换的解释器（interpreters）。一个用于生产，一个用于测试，一个在生产解释器外套一层追踪逻辑。这种重新解释（reinterpretation）的能力特别棒：拦截一个效应，记录一个指标或注入一个延迟，然后再把它发送给真正的处理程序。我曾在 <code>fused-effects</code> 的文档中写过一篇<a href="https://github.com/fused-effects/fused-effects/blob/main/docs/reinterpreting_effects.md">利用此机制进行故障注入和可观测性的指南</a>，其核心理念适用于任何效应系统。代价是效应系统引入了更复杂的机制（类型级的效应列表、处理栈，有时还会报出难以解读的类型错误），而“函数记录”模式则非常简单，一个新员工在一个下午就能理解。两者都行。最重要的是你选定一个，并保持足够的一致性，别让你们的系统运维方式本身变成一场考古挖掘。</p>
+<p>对我来说，<code>persistent</code> 库是这方面的一个典型的正面例子。它的 <code>SqlBackend</code> 类型就是一个函数记录：<code>connPrepare</code>、<code>connInsertSql</code>、<code>connBegin</code>、<code>connCommit</code>、<code>connRollback</code> 等等。当我在 <code>persistent</code> 中实现 OpenTelemetry 插桩时，我通过包装相关字段，就能在每个数据库操作周围加上追踪 spans。不需要 fork 库源码，几乎不需要改动源文件。只用了几行代码，我们就获得了数据库层的全面可见性。这就是一个优秀的“运维逃生舱”应该有的样子。</p>
+<p>那些不这么做的库，给我们带来了最大的运维痛苦。在 Mercury，我们极少使用 Hackage 上发布的 Web API 客户端绑定库。这并不一定是因为它们写得很差（有些其实写得相当好）。问题在于，我们无法信任我们不能插桩的代码。如果一个第三方绑定库通过具体的函数进行 HTTP 调用，我们就无法添加追踪，无法注入根据我们的 SLO（服务级别目标）调整的超时控制，无法在测试中模拟合作伙伴的宕机，也无法解释一个 trace 中出现的 400 毫秒空白，只能眯着眼睛看着它去猜想。所以我们选择自己写。前期的工作量比较大，但我们写出来的客户端天生就具备可观测性，因为我们从一开始就是这么构建的。</p>
+<p>此外，还有一种大家不常提及的隐性生态系统成本。你依赖的某些库并没有被明确“遗弃”；遗弃这个词太绝对了。它们仍在服役，在生态系统的结构中依然重要，也有足够的维护以确保它们还能运行，但显然已经没有任何全职负责改进它们的人在管了。</p>
+<p>这有几个原因。一些构建了现代 Haskell 生态系统很大一部分的先驱们，已经非常合理地转向了其他领域。例如，少数极高产、编写了广泛使用的库和框架的作者，似乎已经将大部分注意力转移到了 Rust 上。他们的库依然能用，在一定程度上依然有支持，并且依然有用户依赖。但管理模式变得模糊了。没有哪个负责人是像那种快速迭代的生产团队定义下的“负责人”，这让人在做破坏性更新（breaking changes）时会产生可以理解的犹豫，即便经验已经教会了我们设计这些系统的更好方法。</p>
+<p>这种分散的维护会导致技术上的后果。旧的接口往往会被保留。这些库在“依然能用”的意义上是稳定的，但在融入关于可观测性、边界设计或可运维性的新理念方面，并不是特别有活力。它们可能还会滞后于那些你认为理所当然的技术进步。例如，<code>http-client</code> 至今仍然只直接支持 HTTP/1.1，在出问题之前它用起来完全没问题。你可以想办法绕过这个限制。但这确实意味着，生态系统中的某些部分感觉不像是在积极进化的产品，而更像是公共基础设施：有用、耐久，但对翻新有些抗拒。</p>
+<p>这不是在抱怨志愿维护者。这仅仅是在一个较小的生态系统中构建严肃系统时所面临的环境风险之一。代码可能没有被遗弃。它可能只是以一种近乎斯多葛式（stoically）的姿态立在那里，等待着某个既有足够背景知识、又敢于承担对下游造成破坏风险的人，在列车还在运行的时候来对这个车站进行翻修。</p>
+<p>如果你正在编写一个 Haskell 库，请留下逃生舱。提供函数记录、或效应类型、或回调函数，或者<strong>任何</strong>能让你的代码消费者在不修改源码的情况下注入行为的东西。Haskell 的类型系统在强制约束方面极其出色。但如果你不小心，它也会把系统封死得让负责运维的人完全看不见内部。一个完美的抽象，如果在运维层面上是不透明的，那就根本无法在生产环境中使用。</p>
+<h3>致包作者的一个建议</h3>
+<p>请考虑将 <a href="https://hackage.haskell.org/package/hs-opentelemetry-api"><code>hs-opentelemetry-api</code></a> 作为依赖项，为你的包添加插桩（instrumentation）。这个 API 包被设计成一个遵守规矩的“好公民”：我们对破坏性更新极其保守，而且当应用层面没有初始化 OpenTelemetry SDK 时，它完全处于惰性状态（不消耗资源）。性能开销极小，也不会在用户的应用中产生意外的异常或日志。诚实地说，它的依赖足迹还没有达到我们期望的那样小，我们正积极在这方面进行改进。但即使只是在你的核心 <code>IO</code> 操作周围加上几个 spans，也会对任何在生产环境中运行你的库的人产生实质性的改变。</p>
+<p>还有，求求你们，千万别直接在库代码里打日志。不要导入一个日志框架然后直接写到 <code>stdout</code> 或 <code>stderr</code>。提供一个日志回调，或者接受一个 logger 作为参数，或者把你的日志消息作为一个数据类型暴露出来，让调用者自己决定发到哪里。当一个库决定了日志的去向时，它就越界做出了本该由应用程序负责的运维环境决定。在 Mercury，我们通过结构化的管道路由日志，最终送入我们的可观测性系统。当一个库直接向 <code>stderr</code> 写入时，这些消息会绕过所有管道，我们不得不编写定制的代码，去处理这些被强塞进原本是 JSON 行数据流中的日志，让任何人把有限的生命浪费在这种事情上都太荒谬了。一个回调对你来说几乎没有任何成本。请让应用程序自己决定它想被如何运维。</p>
+<p>给库作者的最后一件事：考虑暴露 <code>.Internal</code> 模块。这是一个有些争议的建议。其他人有理由认为，<code>.Internal</code> 模块创建了隐式的 API 表面，用户一旦依赖，就会让重构库内部而不破坏下游代码变得更加困难。这种担忧是合理的，但它的前提是你对自己的公开 API 设计有极高的自信，自信到了你预见到了用户会遇到的每一个用例。根据我的经验，这种自信很少是站得住脚的。</p>
+<p>一个附带明确的稳定性警告（“本模块的 API 可能会在次要版本之间不经通知而更改”）、并且文档齐全的 <code>.Internal</code> 模块，比另一种结果要好得多：你的用户 fork 你的包，将其 vendor 到他们的代码库中，从此维护一个分支副本，永远都无法接收到你上游的修复。Haskell 生态系统中最棒的库早就在这么做了（如 <code>containers</code>、<code>text</code>、<code>unordered-containers</code>）。提供它几乎不需要任何成本，却能把“我必须 fork 这个库”变成“我只需要导入一个不稳定的模块”，这对所有相关方来说通常都是个更好的局面。</p>
+<p>这里需要注意的一点是，暴露内部模块可能意味着你会听不到来自消费者的反馈，因为他们已经悄悄地打开了“引擎盖”去拿他们需要的东西。有时候这没什么。有时候这意味着你公开 API 缺失的部分将永远缺失下去，因为没人费心告诉你。</p>
+<h2>什么是我们不放在类型里的</h2>
+<p>并非所有生产环境的 Haskell 代码都是优美的。</p>
+<p>你日常依赖的库中都在使用 <code>unsafePerformIO</code>。<code>bytestring</code> 和 <code>text</code> 库在内部使用它来分配可变缓冲区，向其中写入数据，然后将结果冻结。类型层面完全看不出在构建过程中发生了什么。这种“被控制的边界”是靠约定、严密的推理和代码审查来维护的。你在任何生产级别的 Haskell 代码库中都会遇到这种情况。当类型安全的替代方案带来不可接受的性能或复杂性开销时，你甚至自己也会<em>写</em>这种代码。当你这样做时，要诚实地对待它。记录下类型未能检查的不变量。保持适度的警惕与不适感。定期重新审视类型安全的替代方案是否已经变得可行。生产环境的 Haskell 并非没有妥协。它是对妥协进行有纪律的隔离。</p>
+<p>然后是测试状况。Hackage 上有惊人数量的 Haskell 库几乎没有或完全没有测试。其中隐含的（有时是灾难性地明确的）论调是：只要能编译，就能跑。这对于约束极严的小型纯代码来说有时是对的。这无疑也是许多人早期的 Haskell 体验：你让非法状态无法被表示，编译器为你捕捉了惊人数量的错误，你有那么一瞬间甚至开始怀疑自己是否已经超越了凡人软件会出 Bug 的法则。</p>
+<p>这种感觉千万不能信。</p>
+<p>对于重度依赖 IO 的代码、与外部系统交互的代码，或者有趣 Bug 往往出在<em>语义（semantics）<em>而不是</em>结构</em>上的代码来说，这几乎从来都不成立。类型可以告诉你一个函数返回 <code>Either ParseError Transaction</code>，但它们无法告诉你该函数究竟是把 <code>amount</code> 字段解析成了美分还是美元。它们无法告诉你，你的合作伙伴 API 是把省略的字段和值为 Null 的字段当成两种不同含义来处理。它们无法告诉你，你的重试逻辑是否在闰年的某个特定时间窗口内导致了重复扣款。在生产环境中，你是建立在这些库的基础之上的，你继承了它们未经验证的假设。意识到这一点很重要，并且值得在你自己的层面上用集成测试来进行补偿。</p>
+<p>Haskell 的其他一些丑陋部分也会冒出来：孤儿实例（orphan instances）、你发誓在当前上下文中绝对安全的偏函数（partial functions）、你保证绝对不会被执行到的 <code>error</code> 调用、笨拙的 FFI 包装器、为了异常层级关系而手写的怪异技巧，以及理想抽象在现实的肉搏战中败下阵来的地方。这些东西会不断累积。在生产环境中运维 Haskell 就是在照料一个活的系统，而活的系统总是会不断积累妥协。你能做的是，通过文档、示例和测试，在代码审查中强制执行纪律，这样你就能知道每一个妥协在哪里、为什么必须妥协，以及如果移除它会破坏什么。我们的目标不是追求道德上的纯洁。目标是避免在发生事故时，突然发现系统一半的假设竟然仅仅是靠口耳相传的民间传说来维持的。</p>
+<h2>究竟为什么还要费事用 Haskell 呢？</h2>
+<p>每当有人考虑将 Haskell 用于生产系统时，总会出现这样一个问题：<strong>它值得吗？</strong></p>
+<p>在第一天，不值得。</p>
+<p>在第一天，你会慢得多。目前的 Haskell 生态系统根本没有 Next.js 或 Rails 那种一开箱就给你桌上倒满全套组件、还能热重载的开发环境的威力。像 IHP 这样的项目也许最终能达到那种程度，但不可避免的是，你要么发现你需要的库根本不存在，要么就是有这么个库，但只由一个人在业余时间维护。有时报错信息读起来就像是一个明知哪里错了、却极度怨恨还要跟你解释的疯子的长篇大论。</p>
+<p>不过，对招聘的担忧被夸大了。我们的 CTO Max Tagher 曾公开表示，后端 Haskell 工程师是整个 Mercury 中<strong>最容易</strong>招的职位。<sup><a href="#user-content-fn-8" id="user-content-fnref-8" data-footnote-ref aria-describedby="footnote-label">8</a></sup> 市场上寻找 Haskell 工作的需求远大于岗位供给，这彻底颠倒了通常的招聘供需关系。对 Haskell 展现出的兴趣可以作为衡量开发者基础素质的一个很好的代理指标（这就是 Paul Graham 的 <a href="http://www.paulgraham.com/pypar.html">Python 悖论</a>在抽象阶梯上再往上走一层的体现），它吸引的都是那些对工作发自内心感到兴奋、而不是漠不关心的人。我们既招聘有深厚 Haskell 经验的人，也招聘完全没有 Haskell 经验的人，我们有一套培训计划，能在六到八周内让后者快速形成生产力。如果你明天就需要一百个 Haskell 专家，那人才池确实是个问题。但如果你愿意招聘优秀的通用型工程师并投资培养他们，这根本不是什么大问题。</p>
+<p>真正没人警告过你的招聘风险并不是人才池的大小，而是这个人才池的<strong>性格倾向（disposition）</strong>。</p>
+<p>Haskell 吸引理想主义者。这在很大程度上是个优势：你能招到真正关心正确性、认真思考抽象、为了乐趣而读论文的人，他们愿意去质疑那些其他生态系统仅仅因为太累而早在多年前就妥协了的假设。但是，如果不加约束，理想主义就会成为生产环境的负债。那个想用关系代数的一种全新类型级编码来重写数据库层的工程师，帮不了你交付业务功能。那个因为一个用后即弃的脚本用了 <code>String</code> 而不是 <code>Text</code> 就拒绝合并代码的工程师，帮不了你赶上截止日期。那个把每一次设计讨论都当成推销他上周刚读过的一篇论文中倡导的彻底重写方案的工程师，无论多么聪明，都只会拖慢团队的速度。</p>
+<p>你必须积极培养一种<strong>实用主义的文化</strong>。Haskell 给了你强大的工具。但并不是说时时刻刻把所有工具都用上才叫实用主义，那是自我放纵。类型系统是一件强大的电动工具，不是宗教；生产系统也不是那种——你可以把每个业务需求都当成发明一种新机制去解决已经被完美解决的问题的借口的——试验田。</p>
+<p>回报会晚些到来，但它必定会来。你会发现，在动态类型代码库中需要数周时间的重构，在这里只需要几个小时，因为编译器会把变更穿透每一个调用点，并确切地告诉你遗漏了哪里。Haskell 中的机械式重构有一种难以言传的特定快感，除非你亲自体验过：你更改了一个类型，编译器会递给你一份需要修改的每一处地方的详尽清单。你有条不紊地一项项处理——不用去搜，不用去猜，不用担心是不是漏了某个你忘了它存在的模块里的调用——当它最终编译通过时，你就完工了。这是少数几种能让你感觉<strong>真正完成</strong>、而不是“可能完成”的编程体验之一。你会看到，一个新员工读了一个模块的类型签名，不用问任何人就能理解它的约束契约。在一家从 50 名工程师扩张到几百名工程师的公司里，这不再是所谓的便利，而是生存战术。你会发现，一次原本会发生的生产事故<strong>没有</strong>发生，仅仅是因为那个不可能的状态确确实实是不可能的，而不只是某个匆匆忙忙的人认为它“不太可能”。</p>
+<p>我们发现，这种投资通常在几个月的时间尺度上就能看到回报，而不是几年。在金融服务领域尤为如此，因为在这里，一个数据完整性 Bug 的代价不仅体现在用户投诉上，更体现在监管调查和别人的真金白银上。类型系统无法消除这些风险。但它给了你工具，让这些错误极难因为“不小心”而被引入，而在一个快速增长的代码库中，“不小心”正是绝大多数风险潜伏的地方。</p>
+<p>我们在生产环境中运行 Haskell 已经好几年了，在这样一个犯错将对客户和我们自己带来巨大后果的规模和领域中。这一路走来并非没有痛苦。有些痛苦是语言本身的错，有些是生态系统的错，而很大一部分是我们自己的错。但系统一直在运转，并且随着团队在它周围的成长和变化而继续运转着，而这并不是我职业生涯中做出的每一个技术选择都能得到的评价。</p>
+<p>十六岁那年，让我对 Haskell 着迷的是它作出的承诺：有些 Bug 是可以被彻底消灭的。我依然热爱这个前提，但我现在明白，它更深层的生产价值其实更广阔，也更有趣。Haskell 让你能够将那些来之不易的运维知识保存下来，即便最初发现它们的人已经下班、转岗或者离职。它让你能够在危险的机器周围画出坚固的边界。它让你能将最安全的路铺成最容易走的路。在一个必须在组织变动中继续保持运转的系统里，这已经超越了学术上的优雅，提供了实打实的、坚实的工程杠杆。</p>
+<p>如果你正在考虑在生产环境中使用 Haskell，我希望这篇文章能给你一幅真实的图景：它不是银弹，不是一场道德圣战，而是一套极其强大的工具——哪怕它是被一个在 Haskell 专业程度上参差不齐的团队所掌握时，也依然如此。</p>
+<hr>
+<p><em>Ian Duncan 是 <a href="https://mercury.com/">Mercury</a> 稳定性团队的工程师。他负责可靠性基础设施，包括 Mercury 的 Temporal SDK、OpenTelemetry 插桩，以及确保系统在他没盯着的时候不会突然崩溃死掉。自 2014 年起，他一直作为专业人士使用各种函数式编程语言。他与家人居住在海牙，对咖啡、力量金属（power metal）和系统架构有着强烈的个人见解。你可以在 <a href="https://bsky.app/profile/iankduncan.com">Bluesky</a> 和他的个人网站 <a href="https://iankduncan.com/">iankduncan.com</a> 上找到他。</em></p>
+<hr>
+<p><em>*Mercury 是一家金融科技公司，并非受 FDIC（美国联邦存款保险公司）承保的银行。银行服务由 FDIC 成员 Choice Financial Group 和 Column N.A. 提供。（截至本文撰写时。）</em></p>
+<section data-footnotes class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes</h2>
+<ol>
+<li id="user-content-fn-1">
+<p>2023 年 3 月，硅谷银行倒闭，这成为了美国历史上第二大银行破产案。Mercury 在五天内获得了超过 8700 名新客户和 20 亿美元的存款，因为没有什么比“整个初创企业生态系统同时决定把钱转移给你”更能对你的基础设施进行压力测试的了。参见 <a href="https://techcrunch.com/2023/07/07/mercury-says-it-gained-nearly-26k-new-customers-in-the-four-months-after-svbs-collapse/"><em>SVB's collapse drove 26K customers to Mercury in 4 months</em></a> (TechCrunch, 2023)。其中 95% 的客户留了下来。 <a href="#user-content-fnref-1" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-2">
+<p>到目前为止，我已经看到至少有三四家公司发生过这种事了！ <a href="#user-content-fnref-2" data-footnote-backref="" aria-label="Back to reference 2" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-3">
+<p>在复杂系统中，研究“失败”与研究“成功”之间的区别，是 Erik Hollnagel 在 <a href="https://www.routledge.com/Safety-I-and-Safety-II/Hollnagel/p/book/9781472423085"><em>Safety-I and Safety-II</em></a> (Ashgate, 2014) 一书中的核心论点。传统方法（"Safety-I"）侧重于防止事情出错。而替代方案（"Safety-II"）则侧重于理解事物为什么通常会<em>顺利运行</em>，并确保维持成功的条件。 <a href="#user-content-fnref-3" data-footnote-backref="" aria-label="Back to reference 3" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-4">
+<p>“适应能力（Adaptive capacity）”作为弹性系统基础的概念，源自弹性工程文献，特别是 David Woods 的研究。参见 <a href="https://www.routledge.com/Resilience-Engineering-Concepts-and-Precepts/Woods-Hollnagel-Leveson-Cook/p/book/9780754649045"><em>Resilience Engineering: Concepts and Precepts</em></a> (Ashgate, 2006) 以及 Woods 的 <a href="https://doi.org/10.1016/j.ress.2018.01.004"><em>Four Concepts for Resilience and the Implications for the Future of Resilience Engineering</em></a> (<em>Reliability Engineering &#x26; System Safety</em>, 2015)。 <a href="#user-content-fnref-4" data-footnote-backref="" aria-label="Back to reference 4" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-5">
+<p>Patrick McKenzie (patio11), <a href="https://www.kalzumeus.com/2020/10/09/four-years-at-stripe/"><em>What Working At Stripe Has Been Like</em></a> (2020)。在一家增长足够快的公司里，你的大多数同事将<em>永远</em>是新人，这意味着任何你知道但没有写进代码或文档里的东西，实际上都成了不传之秘。 <a href="#user-content-fnref-5" data-footnote-backref="" aria-label="Back to reference 5" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-6">
+<p>我们的流程深受 Google 的“生产就绪性评审（production readiness review）”模型的影响。该模型在 Betsy Beyer 等人合著的 <a href="https://sre.google/sre-book/table-of-contents/"><em>Site Reliability Engineering</em></a> (O'Reilly, 2016) 第 32-33 章中有描述。我们对其进行了改造，更强调协作式的审查而不是单纯的把关设卡。 <a href="#user-content-fnref-6" data-footnote-backref="" aria-label="Back to reference 6" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-7">
+<p>顺便说一句，Mercury 的 Slack 消息现在大概保留几年左右就会被删除。所以，在大型组织中，如果你不把那些深层次的历史记录写在更永久的地方，它们最终会彻底蒸发。 <a href="#user-content-fnref-7" data-footnote-backref="" aria-label="Back to reference 7" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-8">
+<p>Max Tagher, <a href="https://serokell.io/blog/haskell-in-production-mercury"><em>Haskell in Production: Mercury</em></a> (Serokell, 2022) 以及 <a href="https://serokell.io/blog/haskell-mercury-functionalfutures"><em>Haskell in Mercury</em></a> (Functional Futures, 2024)。 <a href="#user-content-fnref-8" data-footnote-backref="" aria-label="Back to reference 8" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"essays-mercury-haskell-production","sender":"Haskell.org","subject":"Mercury 的百万行 Haskell 生产实践","snippet":"Mercury 工程师回顾在金融科技生产环境中维护数百万行 Haskell 的经验，讨论类型系统、组织知识和运维可靠性如何共同支撑高速增长的业务。","date":"2026-05-05","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["translated","haskell","engineering","reliability"],"mdTheme":"magazine","sourcePath":"essays/mercury-haskell-production.md","sourceUrl":"https://blog.haskell.org/a-couple-million-lines-of-haskell/","body":"$3","prompts":[]},"listPosition":{"index":64,"total":365}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

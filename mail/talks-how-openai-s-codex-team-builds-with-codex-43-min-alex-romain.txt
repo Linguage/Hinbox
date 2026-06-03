@@ -1,0 +1,406 @@
+1:"$Sreact.fragment"
+3:I[39756,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+4:I[37457,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"ViewportBoundary"]
+b:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"MetadataBoundary"]
+d:I[68027,[],"default"]
+:HL["/hinbox/_next/static/chunks/24888a04b79e7824.css","style"]
+:HL["/hinbox/_next/static/media/fba5a26ea33df6a3-s.p.1bbdebe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"vMUiZWVsRx3pCqxArlZcR","c":["","mail","talks-how-openai-s-codex-team-builds-with-codex-43-min-alex-romain"],"q":"","i":false,"f":[[["",{"children":["mail",{"children":[["id","talks-how-openai-s-codex-team-builds-with-codex-43-min-alex-romain","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hinbox/_next/static/chunks/24888a04b79e7824.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[79520,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],""]
+f:I[59665,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],"default"]
+:HL["https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","style"]
+2:["$","html",null,{"lang":"zh-CN","className":"plus_jakarta_sans_9710934b-module__-vnxFq__variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function () {\n  try {\n    var theme = window.localStorage.getItem('hinbox:theme');\n    if (theme !== 'light' && theme !== 'dark' && theme !== 'sepia') {\n      theme = 'light';\n    }\n    window['__HINBOX_THEME__'] = theme;\n    document.documentElement.dataset.theme = theme;\n    document.documentElement.style.colorScheme = theme === 'dark' ? 'dark' : 'light';\n    function applyBodyTheme() {\n      if (document.body) {\n        document.body.dataset.theme = theme;\n      }\n    }\n    if (document.body) {\n      applyBodyTheme();\n    } else {\n      document.addEventListener('DOMContentLoaded', applyBodyTheme);\n    }\n  } catch (error) {\n    window['__HINBOX_THEME__'] = 'light';\n    document.documentElement.dataset.theme = 'light';\n    document.documentElement.style.colorScheme = 'light';\n  }\n})();"}}],"",["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","rel":"stylesheet"}],["$","$Le",null,{"id":"mathjax-config","strategy":"afterInteractive","children":"\n          window.MathJax = {\n            tex: {\n              inlineMath: [['$', '$'], ['\\\\(', '\\\\)']],\n              displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']],\n              processEscapes: true,\n              packages: { '[+]': ['noerrors', 'noundefined'] },\n            },\n            svg: {\n              fontCache: 'none',\n            },\n            startup: {\n              typeset: false,\n              ready: () => {\n                window.MathJax.startup.defaultReady();\n                window.dispatchEvent(new Event('MathJaxReady'));\n              },\n            },\n          };\n          "}],["$","$Le",null,{"id":"mathjax-cdn","strategy":"afterInteractive","src":"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"}]]}],["$","body",null,{"className":"font-[family-name:var(--font-jakarta)] antialiased","suppressHydrationWarning":true,"children":["",["$","$Lf",null,{"weeklyNavCounts":{"inboxWeeklyCount":10,"sentWeeklyCount":0,"starredTotalCount":21},"people":[{"id":"david-perell","name":"David Perell","email":""},{"id":"lenny-s-podcast","name":"Lenny's Podcast","email":""},{"id":"ryan-peterman","name":"Ryan Peterman","email":""},{"id":"anthropic","name":"Anthropic","email":""},{"id":"dwarkesh-patel","name":"Dwarkesh Patel","email":""},{"id":"stripe","name":"Stripe","email":""},{"id":"stephen-wolfram","name":"Stephen Wolfram","email":""},{"id":"latent-space","name":"Latent Space","email":""},{"id":"lex-fridman","name":"Lex Fridman","email":""},{"id":"steve-jobs","name":"Steve Jobs","email":""},{"id":"20vc-with-harry-stebbings","name":"20VC with Harry Stebbings","email":""},{"id":"jeremy-stern","name":"Jeremy Stern","email":""},{"id":"turing","name":"Turing","email":""},{"id":"demis-hassabis","name":"Demis Hassabis","email":""},{"id":"the-diary-of-a-ceo","name":"The Diary Of A CEO","email":""},{"id":"elon-musk","name":"Elon Musk","email":""},{"id":"sauteedveggies","name":"SauteedVeggies","email":""},{"id":"andy-matuschak","name":"Andy Matuschak","email":""},{"id":"mind-the-game","name":"Mind the Game","email":""},{"id":"ramona-shelburne","name":"Ramona Shelburne","email":""},{"id":"jared-weiss","name":"Jared Weiss","email":""},{"id":"deeplearningai","name":"DeepLearningAI","email":""},{"id":"cursor","name":"Cursor","email":""},{"id":"y-combinator","name":"Y Combinator","email":""},{"id":"openai","name":"OpenAI","email":""},{"id":"every","name":"Every","email":""},{"id":"sequoia-capital","name":"Sequoia Capital","email":""},{"id":"alex-kantrowitz","name":"Alex Kantrowitz","email":""},{"id":"peter-dizikes-mit-news","name":"Peter Dizikes ｜ MIT News","email":""},{"id":"world-finance-journal","name":"World Finance Journal","email":""},{"id":"andrej-karpathy","name":"Andrej karpathy","email":""},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","email":""},{"id":"jd-vance","name":"JD Vance","email":""},{"id":"街-大学","name":"やまぐち街なか大学","email":""},{"id":"jc","name":"JC","email":""}],"tags":[{"id":"translated","name":"translated","count":123},{"id":"interview","name":"interview","count":24},{"id":"ai","name":"ai","count":17},{"id":"人工智能","name":"人工智能","count":17},{"id":"clippings","name":"clippings","count":15},{"id":"essays","name":"Essays","count":9},{"id":"talks","name":"Talks","count":8},{"id":"深度学习","name":"深度学习","count":8},{"id":"ai-agents","name":"ai-agents","count":7},{"id":"cognition","name":"cognition","count":6},{"id":"nba","name":"NBA","count":6},{"id":"ai编程","name":"AI编程","count":5},{"id":"humanity","name":"humanity","count":5},{"id":"math","name":"math","count":5},{"id":"steve-jobs","name":"steve-jobs","count":5},{"id":"大语言模型","name":"大语言模型","count":5},{"id":"机器学习","name":"机器学习","count":5},{"id":"agi","name":"AGI","count":4},{"id":"anthropic","name":"Anthropic","count":4},{"id":"claude-code","name":"Claude Code","count":4},{"id":"doge","name":"DOGE","count":4},{"id":"nvidia","name":"nvidia","count":4},{"id":"windsurf","name":"Windsurf","count":4},{"id":"政府效率","name":"政府效率","count":4},{"id":"文艺复兴科技","name":"文艺复兴科技","count":4},{"id":"英伟达","name":"英伟达","count":4},{"id":"软件工程","name":"软件工程","count":4},{"id":"ai编程工具","name":"AI编程工具","count":3},{"id":"apple","name":"apple","count":3},{"id":"cursor","name":"Cursor","count":3},{"id":"deepseek","name":"deepseek","count":3},{"id":"linus-torvalds","name":"Linus Torvalds","count":3},{"id":"linux内核","name":"Linux内核","count":3},{"id":"llm","name":"llm","count":3},{"id":"mathematics","name":"mathematics","count":3},{"id":"reports","name":"Reports","count":3},{"id":"偏微分方程","name":"偏微分方程","count":3},{"id":"勒布朗-詹姆斯","name":"勒布朗·詹姆斯","count":3},{"id":"开源","name":"开源","count":3},{"id":"开源ai","name":"开源AI","count":3},{"id":"强化学习","name":"强化学习","count":3},{"id":"数学哲学","name":"数学哲学","count":3},{"id":"数学教育","name":"数学教育","count":3},{"id":"访谈","name":"访谈","count":3},{"id":"量化投资","name":"量化投资","count":3},{"id":"马斯克","name":"马斯克","count":3},{"id":"黄仁勋","name":"黄仁勋","count":3},{"id":"ai-agent","name":"AI Agent","count":2},{"id":"ai-coding","name":"ai-coding","count":2},{"id":"ai代理","name":"AI代理","count":2},{"id":"ai基础设施","name":"AI基础设施","count":2},{"id":"ai安全","name":"AI安全","count":2},{"id":"ai数学","name":"AI数学","count":2},{"id":"ai智能体","name":"AI智能体","count":2},{"id":"ai计算","name":"AI计算","count":2},{"id":"alphafold","name":"AlphaFold","count":2},{"id":"claude","name":"Claude","count":2},{"id":"devin","name":"Devin","count":2},{"id":"economics","name":"economics","count":2},{"id":"emacs","name":"Emacs","count":2},{"id":"essay","name":"essay","count":2},{"id":"git","name":"Git","count":2},{"id":"google","name":"Google","count":2},{"id":"ilya-sutskever","name":"Ilya Sutskever","count":2},{"id":"jeff-dean","name":"jeff-dean","count":2},{"id":"jepa","name":"JEPA","count":2},{"id":"org-mode","name":"Org mode","count":2},{"id":"programming","name":"programming","count":2},{"id":"software-engineering","name":"software-engineering","count":2},{"id":"vibe-coding","name":"Vibe Coding","count":2},{"id":"writing","name":"writing","count":2},{"id":"世界模型","name":"世界模型","count":2},{"id":"人性","name":"人性","count":2},{"id":"代数几何","name":"代数几何","count":2},{"id":"代码编辑器","name":"代码编辑器","count":2},{"id":"价值投资","name":"价值投资","count":2},{"id":"伯克希尔哈撒韦","name":"伯克希尔哈撒韦","count":2},{"id":"关税政策","name":"关税政策","count":2},{"id":"创业历程","name":"创业历程","count":2},{"id":"加速计算","name":"加速计算","count":2},{"id":"吉姆-西蒙斯","name":"吉姆·西蒙斯","count":2},{"id":"哲学","name":"哲学","count":2},{"id":"国际合作","name":"国际合作","count":2},{"id":"大型语言模型","name":"大型语言模型","count":2},{"id":"好奇心","name":"好奇心","count":2},{"id":"季后赛","name":"季后赛","count":2},{"id":"工程实践","name":"工程实践","count":2},{"id":"巴菲特","name":"巴菲特","count":2},{"id":"形式化证明","name":"形式化证明","count":2},{"id":"彼得-蒂尔","name":"彼得·蒂尔","count":2},{"id":"微软","name":"微软","count":2},{"id":"提示工程","name":"提示工程","count":2},{"id":"数学","name":"数学","count":2},{"id":"数学研究","name":"数学研究","count":2},{"id":"文班亚马","name":"文班亚马","count":2},{"id":"智能代理开发","name":"智能代理开发","count":2},{"id":"毕业演讲","name":"毕业演讲","count":2},{"id":"版本控制","name":"版本控制","count":2},{"id":"科学发现","name":"科学发现","count":2},{"id":"科技停滞","name":"科技停滞","count":2},{"id":"软件工程变革","name":"软件工程变革","count":2},{"id":"软件开发","name":"软件开发","count":2},{"id":"量子力学","name":"量子力学","count":2},{"id":"阿贝尔奖","name":"阿贝尔奖","count":2},{"id":"风险投资","name":"风险投资","count":2},{"id":"agent设计","name":"Agent设计","count":1},{"id":"ai-for-science","name":"AI for Science","count":1},{"id":"ai-编程","name":"AI 编程","count":1},{"id":"ai伦理","name":"AI伦理","count":1},{"id":"ai最佳实践","name":"AI最佳实践","count":1},{"id":"ai大模型","name":"AI大模型","count":1},{"id":"ai并购","name":"AI并购","count":1},{"id":"ai应用","name":"AI应用","count":1},{"id":"ai开发者大会","name":"AI开发者大会","count":1},{"id":"ai推理","name":"AI推理","count":1},{"id":"ai收购","name":"AI收购","count":1},{"id":"ai数学发现","name":"AI数学发现","count":1},{"id":"ai生物医药","name":"AI生物医药","count":1},{"id":"ai竞争","name":"AI竞争","count":1},{"id":"ai编程代理","name":"AI编程代理","count":1},{"id":"ai芯片","name":"AI芯片","count":1},{"id":"ai规模化","name":"AI规模化","count":1},{"id":"ai辅助学习","name":"AI辅助学习","count":1},{"id":"ai辅助开发","name":"AI辅助开发","count":1},{"id":"anysphere","name":"Anysphere","count":1},{"id":"biography","name":"biography","count":1},{"id":"blackwell架构","name":"Blackwell架构","count":1},{"id":"cag","name":"CAG","count":1},{"id":"career","name":"career","count":1},{"id":"ceo交接","name":"CEO交接","count":1},{"id":"chatgpt","name":"ChatGPT","count":1},{"id":"chris-bishop","name":"Chris Bishop","count":1},{"id":"claude-4","name":"Claude 4","count":1},{"id":"claude-sonnet-4-5","name":"Claude Sonnet 4.5","count":1},{"id":"coding-agent","name":"Coding Agent","count":1},{"id":"context-engineering","name":"Context Engineering","count":1},{"id":"cs50","name":"CS50","count":1},{"id":"cuda生态","name":"CUDA生态","count":1},{"id":"deep-search","name":"Deep Search","count":1},{"id":"deepmind","name":"DeepMind","count":1},{"id":"distributed-systems","name":"distributed-systems","count":1},{"id":"elon-musk","name":"Elon Musk","count":1},{"id":"engineering","name":"engineering","count":1},{"id":"fields奖","name":"Fields奖","count":1},{"id":"geoffrey-hinton","name":"Geoffrey Hinton","count":1},{"id":"gpt-4","name":"GPT-4","count":1},{"id":"gpt-4-5","name":"GPT-4.5","count":1},{"id":"gpu与深度学习","name":"GPU与深度学习","count":1},{"id":"gpu架构","name":"GPU架构","count":1},{"id":"gpu算力","name":"GPU算力","count":1},{"id":"grok-3","name":"Grok 3","count":1},{"id":"haskell","name":"haskell","count":1},{"id":"incident","name":"incident","count":1},{"id":"jim-simons","name":"Jim Simons","count":1},{"id":"julia","name":"Julia","count":1},{"id":"june-huh","name":"june-huh","count":1},{"id":"kaggle","name":"Kaggle","count":1},{"id":"kiro-spec模式","name":"Kiro SPEC模式","count":1},{"id":"labor","name":"labor","count":1},{"id":"lean","name":"Lean","count":1},{"id":"lisp","name":"Lisp","count":1},{"id":"llm工具","name":"LLM工具","count":1},{"id":"mcp","name":"MCP","count":1},{"id":"mit","name":"MIT","count":1},{"id":"mvp","name":"MVP","count":1},{"id":"naval-ravikant","name":"Naval Ravikant","count":1},{"id":"ncaa疯狂三月","name":"NCAA疯狂三月","count":1},{"id":"noema","name":"noema","count":1},{"id":"notes","name":"notes","count":1},{"id":"notion","name":"Notion","count":1},{"id":"nvidia-gtc-2025","name":"NVIDIA GTC 2025","count":1},{"id":"openai","name":"OpenAI","count":1},{"id":"optimus机器人","name":"Optimus机器人","count":1},{"id":"peter-lax","name":"Peter Lax","count":1},{"id":"pixar","name":"pixar","count":1},{"id":"prompt-engineering","name":"Prompt Engineering","count":1},{"id":"psychology","name":"psychology","count":1},{"id":"publishing","name":"publishing","count":1},{"id":"python","name":"Python","count":1},{"id":"reliability","name":"reliability","count":1},{"id":"report","name":"report","count":1},{"id":"research","name":"Research","count":1},{"id":"research-career","name":"research-career","count":1},{"id":"robotics","name":"robotics","count":1},{"id":"sanjay-ghemawat","name":"Sanjay Ghemawat","count":1},{"id":"satya-nadella","name":"Satya Nadella","count":1},{"id":"scaling-laws","name":"Scaling Laws","count":1},{"id":"security","name":"security","count":1},{"id":"skills","name":"skills","count":1},{"id":"slimv","name":"Slimv","count":1},{"id":"technical-report","name":"technical-report","count":1},{"id":"terence-tao","name":"terence-tao","count":1},{"id":"vim","name":"Vim","count":1},{"id":"vlime","name":"Vlime","count":1},{"id":"wolfram","name":"Wolfram","count":1},{"id":"xai","name":"xAI","count":1},{"id":"yann-lecun","name":"Yann LeCun","count":1},{"id":"yc","name":"YC","count":1},{"id":"上下文工程","name":"上下文工程","count":1},{"id":"个人反思","name":"个人反思","count":1},{"id":"个人电脑","name":"个人电脑","count":1},{"id":"中美关系","name":"中美关系","count":1},{"id":"乌克兰战争","name":"乌克兰战争","count":1},{"id":"乔姆斯基","name":"乔姆斯基","count":1},{"id":"交通基础设施","name":"交通基础设施","count":1},{"id":"产品市场契合","name":"产品市场契合","count":1},{"id":"人工智能未来","name":"人工智能未来","count":1},{"id":"人形机器人","name":"人形机器人","count":1},{"id":"人机协作","name":"人机协作","count":1},{"id":"人机博弈","name":"人机博弈","count":1},{"id":"人生哲学","name":"人生哲学","count":1},{"id":"人类未来","name":"人类未来","count":1},{"id":"人类福祉","name":"人类福祉","count":1},{"id":"代理开发","name":"代理开发","count":1},{"id":"代理式编程","name":"代理式编程","count":1},{"id":"代码生成","name":"代码生成","count":1},{"id":"任务管理","name":"任务管理","count":1},{"id":"仿真学习","name":"仿真学习","count":1},{"id":"企业采用","name":"企业采用","count":1},{"id":"众包协作","name":"众包协作","count":1},{"id":"优绩主义","name":"优绩主义","count":1},{"id":"伦理监管","name":"伦理监管","count":1},{"id":"伯克希尔-哈撒韦","name":"伯克希尔·哈撒韦","count":1},{"id":"俄乌战争","name":"俄乌战争","count":1},{"id":"保罗-狄拉克","name":"保罗·狄拉克","count":1},{"id":"保险业务","name":"保险业务","count":1},{"id":"信号处理","name":"信号处理","count":1},{"id":"信息动力学","name":"信息动力学","count":1},{"id":"信息物理学","name":"信息物理学","count":1},{"id":"全球贸易","name":"全球贸易","count":1},{"id":"公共美德","name":"公共美德","count":1},{"id":"具身智能","name":"具身智能","count":1},{"id":"写作","name":"写作","count":1},{"id":"写作工具","name":"写作工具","count":1},{"id":"冷战数学","name":"冷战数学","count":1},{"id":"创业转型","name":"创业转型","count":1},{"id":"创业领导力","name":"创业领导力","count":1},{"id":"创造力与年龄","name":"创造力与年龄","count":1},{"id":"制度经济学","name":"制度经济学","count":1},{"id":"加性数论","name":"加性数论","count":1},{"id":"包容性制度","name":"包容性制度","count":1},{"id":"医疗应用","name":"医疗应用","count":1},{"id":"半导体","name":"半导体","count":1},{"id":"协同设计","name":"协同设计","count":1},{"id":"单位距离问题","name":"单位距离问题","count":1},{"id":"南非种族隔离","name":"南非种族隔离","count":1},{"id":"卢卡-东契奇","name":"卢卡·东契奇","count":1},{"id":"压缩感知","name":"压缩感知","count":1},{"id":"变换编码","name":"变换编码","count":1},{"id":"可持续能源","name":"可持续能源","count":1},{"id":"可重复性危机","name":"可重复性危机","count":1},{"id":"史蒂夫-乔布斯","name":"史蒂夫·乔布斯","count":1},{"id":"史蒂夫-纳什","name":"史蒂夫·纳什","count":1},{"id":"同伦类型论","name":"同伦类型论","count":1},{"id":"哲学辩论","name":"哲学辩论","count":1},{"id":"国际政治","name":"国际政治","count":1},{"id":"在线教育","name":"在线教育","count":1},{"id":"地缘政治","name":"地缘政治","count":1},{"id":"埃尔德什猜想","name":"埃尔德什猜想","count":1},{"id":"埃罗尔-马斯克","name":"埃罗尔·马斯克","count":1},{"id":"埃隆-马斯克","name":"埃隆·马斯克","count":1},{"id":"基督教与科学","name":"基督教与科学","count":1},{"id":"基础主义","name":"基础主义","count":1},{"id":"基础模型","name":"基础模型","count":1},{"id":"复合工程","name":"复合工程","count":1},{"id":"外交谈判","name":"外交谈判","count":1},{"id":"多伦多大学","name":"多伦多大学","count":1},{"id":"多体物理","name":"多体物理","count":1},{"id":"多智能体协同","name":"多智能体协同","count":1},{"id":"大数假说","name":"大数假说","count":1},{"id":"太空探索","name":"太空探索","count":1},{"id":"孤子理论","name":"孤子理论","count":1},{"id":"学习路径","name":"学习路径","count":1},{"id":"学术写作","name":"学术写作","count":1},{"id":"学术建议","name":"学术建议","count":1},{"id":"学术生态","name":"学术生态","count":1},{"id":"学术研究方法","name":"学术研究方法","count":1},{"id":"学术自传","name":"学术自传","count":1},{"id":"宇宙学","name":"宇宙学","count":1},{"id":"官僚主义改革","name":"官僚主义改革","count":1},{"id":"定理证明","name":"定理证明","count":1},{"id":"家族故事","name":"家族故事","count":1},{"id":"对冲基金","name":"对冲基金","count":1},{"id":"对称性","name":"对称性","count":1},{"id":"对称性破缺","name":"对称性破缺","count":1},{"id":"小平邦彦","name":"小平邦彦","count":1},{"id":"少林寺","name":"少林寺","count":1},{"id":"就业与经济","name":"就业与经济","count":1},{"id":"就业影响","name":"就业影响","count":1},{"id":"工作尊严","name":"工作尊严","count":1},{"id":"工作流","name":"工作流","count":1},{"id":"工程精神","name":"工程精神","count":1},{"id":"幸福与成功","name":"幸福与成功","count":1},{"id":"库珀-弗拉格","name":"库珀·弗拉格","count":1},{"id":"开发环境","name":"开发环境","count":1},{"id":"开发者工具","name":"开发者工具","count":1},{"id":"开发者生产力","name":"开发者生产力","count":1},{"id":"开源模型","name":"开源模型","count":1},{"id":"形式主义","name":"形式主义","count":1},{"id":"彼得-拉克斯","name":"彼得·拉克斯","count":1},{"id":"微分几何","name":"微分几何","count":1},{"id":"心理学","name":"心理学","count":1},{"id":"思维链","name":"思维链","count":1},{"id":"慈善","name":"慈善","count":1},{"id":"慈善事业","name":"慈善事业","count":1},{"id":"慕尼黑安全会议","name":"慕尼黑安全会议","count":1},{"id":"成长型思维","name":"成长型思维","count":1},{"id":"技术监管","name":"技术监管","count":1},{"id":"技能退化","name":"技能退化","count":1},{"id":"投资哲学","name":"投资哲学","count":1},{"id":"推理时计算","name":"推理时计算","count":1},{"id":"提纲写作","name":"提纲写作","count":1},{"id":"摩根大通","name":"摩根大通","count":1},{"id":"播客","name":"播客","count":1},{"id":"政治哲学","name":"政治哲学","count":1},{"id":"数字革命","name":"数字革命","count":1},{"id":"数学反例","name":"数学反例","count":1},{"id":"数学史","name":"数学史","count":1},{"id":"数学基础","name":"数学基础","count":1},{"id":"数学实践","name":"数学实践","count":1},{"id":"数学家传记","name":"数学家传记","count":1},{"id":"数学工作流","name":"数学工作流","count":1},{"id":"数学形式化","name":"数学形式化","count":1},{"id":"数据中心","name":"数据中心","count":1},{"id":"数据效率","name":"数据效率","count":1},{"id":"数据科学","name":"数据科学","count":1},{"id":"文化多样性","name":"文化多样性","count":1},{"id":"文化转型","name":"文化转型","count":1},{"id":"文学编程","name":"文学编程","count":1},{"id":"斯多葛主义","name":"斯多葛主义","count":1},{"id":"无人机","name":"无人机","count":1},{"id":"日本数学","name":"日本数学","count":1},{"id":"日记写作","name":"日记写作","count":1},{"id":"智能代理","name":"智能代理","count":1},{"id":"智能体ai","name":"智能体AI","count":1},{"id":"智能分析","name":"智能分析","count":1},{"id":"更衣室训话","name":"更衣室训话","count":1},{"id":"未来战争","name":"未来战争","count":1},{"id":"未来趋势","name":"未来趋势","count":1},{"id":"机器人技术","name":"机器人技术","count":1},{"id":"杰米-戴蒙","name":"杰米·戴蒙","count":1},{"id":"柏拉图主义","name":"柏拉图主义","count":1},{"id":"查尔斯-巴克利","name":"查尔斯·巴克利","count":1},{"id":"查理-芒格","name":"查理·芒格","count":1},{"id":"标记语言","name":"标记语言","count":1},{"id":"格罗滕迪克","name":"格罗滕迪克","count":1},{"id":"概形","name":"概形","count":1},{"id":"模仿理论","name":"模仿理论","count":1},{"id":"模型应用","name":"模型应用","count":1},{"id":"模型驱动交易","name":"模型驱动交易","count":1},{"id":"模拟宇宙假说","name":"模拟宇宙假说","count":1},{"id":"欧洲创新","name":"欧洲创新","count":1},{"id":"欧洲民主","name":"欧洲民主","count":1},{"id":"欧盟资本市场","name":"欧盟资本市场","count":1},{"id":"欺骗性ai","name":"欺骗性AI","count":1},{"id":"比尔-盖茨","name":"比尔·盖茨","count":1},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","count":1},{"id":"沉思录","name":"沉思录","count":1},{"id":"沙奎尔-奥尼尔","name":"沙奎尔·奥尼尔","count":1},{"id":"波波维奇","name":"波波维奇","count":1},{"id":"泽连斯基","name":"泽连斯基","count":1},{"id":"活文档","name":"活文档","count":1},{"id":"测试时计算","name":"测试时计算","count":1},{"id":"涌现","name":"涌现","count":1},{"id":"深度阅读","name":"深度阅读","count":1},{"id":"湖人三连冠","name":"湖人三连冠","count":1},{"id":"炒作与现实","name":"炒作与现实","count":1},{"id":"热力学第二定律","name":"热力学第二定律","count":1},{"id":"特斯拉","name":"特斯拉","count":1},{"id":"特朗普","name":"特朗普","count":1},{"id":"狄拉克","name":"狄拉克","count":1},{"id":"狄拉克方程","name":"狄拉克方程","count":1},{"id":"理论物理","name":"理论物理","count":1},{"id":"生产力工具","name":"生产力工具","count":1},{"id":"生成式ai","name":"生成式AI","count":1},{"id":"相对论","name":"相对论","count":1},{"id":"知识管理","name":"知识管理","count":1},{"id":"研究方法","name":"研究方法","count":1},{"id":"研究生指南","name":"研究生指南","count":1},{"id":"硅谷","name":"硅谷","count":1},{"id":"社交媒体","name":"社交媒体","count":1},{"id":"社会公平","name":"社会公平","count":1},{"id":"福柯","name":"福柯","count":1},{"id":"离散几何","name":"离散几何","count":1},{"id":"私募股权","name":"私募股权","count":1},{"id":"科学哲学","name":"科学哲学","count":1},{"id":"科学研究","name":"科学研究","count":1},{"id":"科学论文","name":"科学论文","count":1},{"id":"科技史","name":"科技史","count":1},{"id":"科比-布莱恩特","name":"科比·布莱恩特","count":1},{"id":"移民政策","name":"移民政策","count":1},{"id":"稀疏表示","name":"稀疏表示","count":1},{"id":"空间技术","name":"空间技术","count":1},{"id":"竞技长青","name":"竞技长青","count":1},{"id":"笔记技巧","name":"笔记技巧","count":1},{"id":"第一性原理","name":"第一性原理","count":1},{"id":"算法与社会","name":"算法与社会","count":1},{"id":"篮球战术","name":"篮球战术","count":1},{"id":"篮球访谈","name":"篮球访谈","count":1},{"id":"类型论","name":"类型论","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"约束等距性","name":"约束等距性","count":1},{"id":"纯文本写作","name":"纯文本写作","count":1},{"id":"纯粹数学","name":"纯粹数学","count":1},{"id":"线性代数","name":"线性代数","count":1},{"id":"经典阅读","name":"经典阅读","count":1},{"id":"结对编程","name":"结对编程","count":1},{"id":"编程教学","name":"编程教学","count":1},{"id":"编程语言","name":"编程语言","count":1},{"id":"美国ai政策","name":"美国AI政策","count":1},{"id":"美国政府改革","name":"美国政府改革","count":1},{"id":"美国经济","name":"美国经济","count":1},{"id":"美欧关系","name":"美欧关系","count":1},{"id":"翻译","name":"翻译","count":1},{"id":"职业自律","name":"职业自律","count":1},{"id":"职业辩护","name":"职业辩护","count":1},{"id":"联邦政府改革","name":"联邦政府改革","count":1},{"id":"联邦财政","name":"联邦财政","count":1},{"id":"股东信","name":"股东信","count":1},{"id":"股东大会","name":"股东大会","count":1},{"id":"能源","name":"能源","count":1},{"id":"能量基模型","name":"能量基模型","count":1},{"id":"自动驾驶","name":"自动驾驶","count":1},{"id":"自我认知","name":"自我认知","count":1},{"id":"自由意志主义","name":"自由意志主义","count":1},{"id":"自由民主","name":"自由民主","count":1},{"id":"苹果","name":"苹果","count":1},{"id":"苹果公司","name":"苹果公司","count":1},{"id":"药物研发","name":"药物研发","count":1},{"id":"蓝鳍金枪鱼","name":"蓝鳍金枪鱼","count":1},{"id":"虚拟细胞","name":"虚拟细胞","count":1},{"id":"蛋白质折叠","name":"蛋白质折叠","count":1},{"id":"蜂巢思维","name":"蜂巢思维","count":1},{"id":"行为偏差","name":"行为偏差","count":1},{"id":"西部决赛","name":"西部决赛","count":1},{"id":"规模法则","name":"规模法则","count":1},{"id":"规范驱动开发","name":"规范驱动开发","count":1},{"id":"言论自由","name":"言论自由","count":1},{"id":"计算增强生成","name":"计算增强生成","count":1},{"id":"计算数学","name":"计算数学","count":1},{"id":"计算机教育","name":"计算机教育","count":1},{"id":"计算机证明","name":"计算机证明","count":1},{"id":"训练体系","name":"训练体系","count":1},{"id":"论文写作","name":"论文写作","count":1},{"id":"论文撰写","name":"论文撰写","count":1},{"id":"访谈实录","name":"访谈实录","count":1},{"id":"詹姆斯-西蒙斯","name":"詹姆斯·西蒙斯","count":1},{"id":"语言学","name":"语言学","count":1},{"id":"诺贝尔经济学奖","name":"诺贝尔经济学奖","count":1},{"id":"谷歌","name":"谷歌","count":1},{"id":"贝叶斯方法","name":"贝叶斯方法","count":1},{"id":"财政削减","name":"财政削减","count":1},{"id":"资本配置","name":"资本配置","count":1},{"id":"超级智能","name":"超级智能","count":1},{"id":"超级计算","name":"超级计算","count":1},{"id":"跨领域训练","name":"跨领域训练","count":1},{"id":"身体转型","name":"身体转型","count":1},{"id":"软件工程范式","name":"软件工程范式","count":1},{"id":"软件开发最佳实践","name":"软件开发最佳实践","count":1},{"id":"软件开发未来","name":"软件开发未来","count":1},{"id":"运动恢复","name":"运动恢复","count":1},{"id":"还原论","name":"还原论","count":1},{"id":"通用人工智能","name":"通用人工智能","count":1},{"id":"重整化","name":"重整化","count":1},{"id":"量化交易","name":"量化交易","count":1},{"id":"金融服务","name":"金融服务","count":1},{"id":"金融监管","name":"金融监管","count":1},{"id":"阅读方法","name":"阅读方法","count":1},{"id":"集合论","name":"集合论","count":1},{"id":"非虚构阅读","name":"非虚构阅读","count":1},{"id":"预训练","name":"预训练","count":1},{"id":"领导力","name":"领导力","count":1},{"id":"香农信息熵","name":"香农信息熵","count":1},{"id":"马刺","name":"马刺","count":1},{"id":"马库斯-奥勒留","name":"马库斯·奥勒留","count":1}],"moduleNavItems":[{"id":"essays","label":"Essays","href":"/?label=Essays","order":40,"icon":"BookOpen","count":62},{"id":"talks","label":"Talks","href":"/?label=Talks","order":42,"icon":"Video","count":165},{"id":"reports","label":"Reports","href":"/?label=Reports","order":41,"icon":"FileText","count":36},{"id":"notes","label":"Notes","href":"/?label=Notes","order":30,"icon":"Eye","count":78}],"children":"$L10"}]]}]]}]
+10:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"min-h-screen px-12 py-12 font-sans text-slate-900","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n            (function () {\n              var pathname = window.location.pathname || '';\n              var canonicalPrefix = '/hinbox';\n\n              if (/^/hinbox(?:/|$)/i.test(pathname) && pathname !== pathname.replace(/^/hinbox/i, canonicalPrefix)) {\n                var target = pathname.replace(/^/hinbox/i, canonicalPrefix) + window.location.search + window.location.hash;\n                window.location.replace(target);\n                return;\n              }\n            }());\n          "}}],["$","div",null,{"className":"mx-auto flex min-h-[60vh] max-w-2xl flex-col justify-center gap-4","children":[["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"页面未找到"}],["$","p",null,{"className":"text-base leading-7 text-slate-600","children":"如果你是从大写路径进入本站，系统会自动跳转到小写的规范地址。"}],["$","p",null,{"className":"text-base","children":["返回首页：",["$","a",null,{"className":"text-sky-600 underline underline-offset-4","href":"/hinbox/","children":"/hinbox/"}]]}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+11:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+12:Tfc1a,<figure class="video-embed video-embed--youtube">
+  <div class="video-embed__frame">
+    <iframe src="https://www.youtube.com/embed/9qXc-THAvc0" title="How OpenAI's Codex Team Builds with Codex" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+  <figcaption class="video-embed__caption">How OpenAI's Codex Team Builds with Codex</figcaption>
+</figure>
+<h2>1. 引言</h2>
+<p>在 AI 编程工具突飞猛进的今天，OpenAI 的 Codex 团队不仅是这场技术风暴的制造者，更是最硬核的“吃螃蟹者”。在这期播客中，Codex 产品负责人 Alex 与开发者体验负责人 Romain 做客 Peter Yang 的频道，首次揭秘了这支精英团队“疯狂”的日常运作模式。在这里，冗长的产品需求文档（PRD）成为了历史，短短十个要点就能驱动整个开发流程；设计师写出的代码，甚至比半年前的工程师还要多。</p>
+<p>这不仅仅是一场关于 Codex 极速生成游戏代码或智能体协作（Agentic Delegation）的酷炫功能演示，更是一次对未来软件开发范式的深度预判。传统的职业上升通道与岗位边界，正随着 AI 的普及而彻底瓦解。如果你想知道在通用人工智能（AGI）时代该如何构建产品、团队又该如何寻找真正的高能人才，这场干货满满的对话绝对不容错过。</p>
+<h2>2. 📺 视频基本信息</h2>
+<ul>
+<li><strong>节目/视频名称：</strong> Behind the Craft: How OpenAI's Codex Team Builds with Codex (OpenAI Codex 团队如何用 Codex 构建产品)</li>
+<li><strong>受访嘉宾/主讲人：</strong>
+<ul>
+<li><strong>Alex Embiricos</strong>：OpenAI Codex 团队的产品负责人（Product Lead），具备极客精神和前瞻性视野，主张模糊传统的岗位边界。</li>
+<li><strong>Romain Huet</strong>：OpenAI 开发者体验负责人（Head of Developer Experience），负责布道和推动 Codex 在开发者社区的普及。</li>
+<li><strong>主持人：</strong> Peter Yang（资深产品专家，知名科技博主）。</li>
+</ul>
+</li>
+<li><strong>讨论主题：</strong> 深入揭秘 OpenAI Codex 团队如何利用自家 AI 工具重塑开发流程（无PRD、无中期路线图），并探讨 AI 代理时代下软件工程的未来与人类职场梯队的彻底重构。</li>
+</ul>
+<h2>3. 💡 核心内容概述</h2>
+<ul>
+<li><strong>极致敏捷的“无文档”开发范式</strong>
+Codex 团队几乎不写长篇大论的产品需求文档（Specs）。遇到项目，他们通常只需列出 10 个左右的要点（Bullets）就能开干。核心理念是将决策权最大程度地下放给最靠近一线的执行者，借助 AI 工具的高效产出，一个人如今能装下并处理过去需要多人的信息量。</li>
+<li><strong>彻底抛弃“中期规划”，拥抱 AGI 愿景</strong>
+团队的规划哲学是：要么做极短期的执行规划（最长 8 周内），要么立足于模型未来一年的演进做长远预测，绝对不做尴尬的“中期产品路线图”。这种极度务实又极度浪漫的策略，保证了团队永远走在技术演进的最前沿。</li>
+<li><strong>工具赋能下的“职业边界消融”</strong>
+在 Codex 的加持下，设计师现在编写的代码量甚至超越了半年前的纯研发工程师；而产品经理（PM）也可以亲自拉分支、提代码（PR）。传统的“PM-设计师-工程师”职场晋升阶梯正在瓦解，未来将属于那些既懂用户又具备极高“主观能动性（Agency）”的泛全栈构建者（Builders）。</li>
+<li><strong>AI 代理多线程工作（Agentic Delegation）正成为现实</strong>
+随着前沿模型（如讨论中提及的 GPT-5.4）的成熟，开发者正从“单线作战”转向“多智能体委派”。Codex App 被设计成了能够自然编排和管理多个并行 Agent 的界面，连曾经习惯在终端开 20 个窗口的极客顶流，也开始转向这种更现代的桌面端 App。</li>
+<li><strong>全新的人才衡量标准：看重作品，无视学历</strong>
+在招募人才时，Codex 团队毫不关心候选人是否来自常春藤或大厂（FAANG）。他们最看重的是候选人的“主观能动性”和实际动手能力：你是否在互联网上发布过作品？是否有疯狂的创意？实干精神（Do things）远比一张精美的简历重要得多。</li>
+</ul>
+<hr>
+<h2>4. 📚 专业术语对照表</h2>
+<table>
+<thead>
+<tr>
+<th align="left">【英文原词】</th>
+<th align="left">【中文翻译】</th>
+<th align="left">【语境说明】</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Specs (Specifications)</td>
+<td align="left">需求文档 / 规格说明书</td>
+<td align="left">传统开发前编写的详细产品要求，Codex 团队认为这阻碍了效率，几乎不再撰写。</td>
+</tr>
+<tr>
+<td align="left">PR (Pull Request)</td>
+<td align="left">拉取请求 / 代码合并请求</td>
+<td align="left">开发者在版本控制系统中提交代码修改的请求。文中指 PM 现在也经常自己提 PR 来修小功能。</td>
+</tr>
+<tr>
+<td align="left">Vibe coded</td>
+<td align="left">“凭感觉”编码 / AI 全自动生成的代码</td>
+<td align="left">科技圈黑话，指系统代码绝大部分由 AI 代理根据提示词全自动生成，较少人工逐行雕琢。</td>
+</tr>
+<tr>
+<td align="left">Agentic delegation</td>
+<td align="left">智能体委派 / 代理委派</td>
+<td align="left">指不再让人工智能单步执行任务，而是将复杂的工程大项分发给多个自主 AI 代理并行完成。</td>
+</tr>
+<tr>
+<td align="left">t-muxing</td>
+<td align="left">使用 tmux 进行终端复用</td>
+<td align="left">极客圈黑话，指使用终端复用器 (tmux) 在一个屏幕中同时运行多个并行的命令行窗口。</td>
+</tr>
+<tr>
+<td align="left">AGI pilled</td>
+<td align="left">信仰 AGI / 被 AGI“洗脑”</td>
+<td align="left">借用《黑客帝国》“吞下红药丸（Red-pilled）”的梗，指团队笃信通用人工智能（AGI）即将到来，并基于此愿景思考产品。</td>
+</tr>
+<tr>
+<td align="left">Git work trees</td>
+<td align="left">Git 工作树</td>
+<td align="left">Git 的一种高级功能，允许开发者在同一台电脑上同时检出多个不同分支的代码目录进行开发。</td>
+</tr>
+<tr>
+<td align="left">FAANG</td>
+<td align="left">科技巨头公司</td>
+<td align="left">泛指顶级互联网大厂（原指 Facebook, Amazon, Apple, Netflix, Google）。文中指他们招聘根本不在乎候选人是否有这些光环。</td>
+</tr>
+<tr>
+<td align="left">In the weeds</td>
+<td align="left">深入细节 / 扎根一线</td>
+<td align="left">职场俚语，形容管理层或员工深入参与到非常具体、底层的业务和代码执行细节中。</td>
+</tr>
+<tr>
+<td align="left">Back-to-back meetings</td>
+<td align="left">连续不断的背靠背会议</td>
+<td align="left">形容职场人日程排满，上一个会议刚结束立刻无缝衔接下一个会议的状态。</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>5. 📖 全文翻译</h2>
+<p>这是一份完整的全文翻译，我已根据语境为您仔细区分了三位对话者的身份：</p>
+<ul>
+<li><strong>Peter（主持人）</strong>：播客节目的主持人</li>
+<li><strong>Alex（嘉宾）</strong>：OpenAI Codex 团队的产品经理（PM）</li>
+<li><strong>Roman（嘉宾）</strong>：OpenAI Codex 团队的开发者体验（DevEx）负责人</li>
+</ul>
+<hr>
+<h3>第 1 章：现场演示：使用 Codex Spark 在几秒钟内构建游戏 (Live demo: Building a game in seconds with Codex Spark)</h3>
+<p><strong>0:00 [精彩语录混剪]</strong>
+<strong>Alex</strong>：我们在 Codex 团队写的需求文档（Specs）非常非常少。基本上就是写个10个要点之类的，然后就完事了。
+<strong>Alex</strong>：Codex 团队的设计师现在写的代码，比六个月前一个工程师写的还要多。
+<strong>Roman</strong>：我刚刚写了一个简单的提示词，来创建一个 2D 小游戏。
+<strong>Peter</strong>：也许可以加点装饰，比如房子、树木之类的。
+<strong>Roman</strong>：你能再加点像树木一样的装饰吗？看，搞定了。就这么一个简单的修改，我们立马就看到了新长出来的树。
+<strong>Alex</strong>：很多时候，自己发一个 PR（代码合并请求）反倒比去跟某个人沟通，并且在别人还有一万件其他事情要做的时候让他们优先处理你的任务要快得多。我其实并不把 PM（产品经理）看作是一个领导职位。我认为它是一个“填补空缺”的职位。我觉得做任何事情，房间里需要的人越少，这件事情进展得就会越顺利，每一个决定也会越纯粹。</p>
+<p><strong>0:42[节目正式开始]</strong>
+<strong>Peter（主持人）</strong>：好的，欢迎大家。我今天非常激动能邀请到 OpenAI Codex 团队的 Alex 和 Roman。他们将为大家演示他们是如何构建 Codex 的新功能的，Codex 现在具备哪些能力，以及 Codex 团队是如何做到不断发布新东西的。欢迎你们！</p>
+<p><strong>0:57</strong>
+<strong>Alex/Roman</strong>：谢谢。感谢邀请。很高兴能来聊天。</p>
+<p><strong>1:00</strong>
+<strong>Peter（主持人）</strong>：那你们想不想先给大家快速展示一下，一次提示（one-shot）究竟能构建出什么样的东西？</p>
+<p><strong>1:05</strong>
+<strong>Roman</strong>：当然可以。我来分享一下我的屏幕，给大家一个直观的感受。能展示的东西太多了，我给大家快速看一眼。比如，这是一个我一直在开发的 iOS 应用程序。如果我想为这个应用创建一个新功能，我只需要直接口述录音说：“嘿，你能为 NASA 的阿尔忒弥斯（Artemis）重返月球任务添加一个新屏幕吗？”然后我可以使用 GPT 5.4 模型发送这个提示。
+模型就会为这个 iPhone 应用生成一个新的屏幕。看，我们有了这个应用。非常酷，它现在正在构建这个新功能，我们稍后就能看到结果。</p>
+<p><strong>1:48</strong>
+<strong>Roman</strong>：但我们还有 Codex Spark 模型，它可以帮助你在几秒钟内进行构思和迭代。实际上，让我给你们展示一下它在这里是如何工作的，看看拥有一个响应如此之快的 Spark 模型会带来什么不同。
+左边是 GPT 5.4 模型对吧？我先让它跑起来。右边是 Codex Spark 模型。砰！你看，平均每秒 1200 个 token 的生成速度。这速度简直疯狂。
+所以当你想构建点什么的时候，比如一个游戏。就在我们开始这次对话之前，我打开了 Codex App，写了一个快速提示，创建了一个类似于《动物森友会》的 2D 游戏，然后我就可以开始在这个基础上构建了。
+当我在心流状态中时，我最喜欢使用 Codex App 的方式就是把它像这样弹出来，把对话框悬浮在屏幕最顶层。这样一来，如果我正在开发这个游戏，我就可以不断迭代，随时加入新的想法。我不知道咱们下一步加点什么，Peter，对于这个游戏你想修改点什么吗？</p>
+<p><strong>2:51</strong>
+<strong>Peter（主持人）</strong>：嗯……也许可以加点更多的装饰，比如房子、树木之类的东西。让它看起来更有生气一点。</p>
+<p><strong>2:56</strong>
+<strong>Roman</strong>：好的，输入：“你能再加点像树木一样的装饰吗？”我发送这个任务。基本上短短几秒钟内，Codex Spark 就能完成编辑，我们就能实时看到变化。看，搞定了。新的树木已经出现了，我可以继续玩了。
+这速度简直不可思议，对吧？这就是为什么我对 Codex 如此兴奋。你既可以使用像 GPT 5.4 这样的前沿模型来处理极其复杂的任务，比如分析或迁移数百万行的代码；但如果你正处于心流状态，灵感迸发，你可以切换到“快速模式”甚至使用 Codex Spark，你就能拥有这种与思维同步的疯狂速度，真正做到随心所欲地构建任何东西。这就是用 Codex 构建应用的一个快速演示。</p>
+<p><strong>3:42</strong>
+<strong>Peter（主持人）</strong>：[赞助商口播] 本期节目由 Granola 赞助。如果你经常背靠背开会，你一定知道边开会边做笔记，然后事后还要整理有多麻烦。这就是为什么我超级喜欢 Granola，它是市场上最好的 AI 会议笔记应用。我是这么用它的：Granola 会在会议期间自动记录，我也可以随时补充自己的笔记。会议结束后，我使用 Granola 的预设模板，以我想要的精确格式提取清晰的要点和后续步骤。然后我就可以直接在 Slack 里和同事分享笔记，甚至让 Granola 自动帮我分享。老实说，在我使用的所有 AI 应用中，Granola 是最帮我省时间的一个。现在去 granola.ai/peter 试用，注册时使用优惠码 Peter 即可免费获得三个月的高级版。网址是 granola.ai/peter。好了，回到我们的节目。</p>
+<hr>
+<h3>第 2 章：对于需求文档，我们只写 10 个要点就完事了 (For specs, we write like 10 bullets and that's it)</h3>
+<p><strong>4:29</strong>
+<strong>Peter（主持人）</strong>：我真的很好奇，你们团队内部到底是怎么用 Codex 来构建产品的，对吧 Alex？你们现在还会写产品需求文档（Specs）吗？还是说你们让 GPT 帮你们写需求？要做成这些东西，你们通常用哪个模型？</p>
+<p><strong>4:41</strong>
+<strong>Alex（产品经理）</strong>：是这样的，我们在 Codex 团队写的需求文档非常非常少。实际上，我认为大部分的工作逻辑是：让最接近底层/最懂一线的人去做尽可能多的决定。因此，我们唯一会写需求文档的时候，是当遇到一个难以全部塞进一个人脑子里的复杂问题时。
+顺便说一句，现在一个人脑子里能装下的东西可多了，因为他们可以把绝大部分的编码工作都委托出去，对吧？所以一个人可以搞定很多事情。但如果某件事需要跨越几个人进行协调，或者我们需要做一个非常棘手的决定，那么也许我们会写个需求文档。
+但即使在这些情况下，我们写出来的文档往往也非常短。基本上就是写个大概 10 个要点，然后就完事了。</p>
+<p><strong>5:21</strong>
+<strong>Peter（主持人）</strong>：懂了。你们能给我展示一下这是怎么运作的吗？比如，你给了 Codex 几个要点，然后它也许会先帮你写出实际的需求，比如生成一个 Markdown 文件？</p>
+<p><strong>5:32</strong>
+<strong>Roman（开发者体验）</strong>：我们可以那么做。但还有一件事我想给你展示一下，非常简单。想象一下，回到我刚才提到的那个 iOS 应用，它现在刚好在这边完成了任务。假设你对这个新项目有了些新功能的想法，你有一些点子，但你并不完全确定下一步该怎么走。
+现在 Codex 非常让人兴奋的一点是，如果我开始和它聊“让我们计划一下后续步骤”，你可以看到 Codex 已经自动理解出我是在试图为下一步构建什么做计划。所以，我只需按下 Shift+Tab，它就会进入“计划模式（Plan mode）”。如果我问“我们应该构建什么？”，我就可以把 Codex 当作头脑风暴的伙伴来做计划。在这个计划模式下，它会查看代码，查看项目目前的进度，想出一些点子，然后我也可以提出我自己的想法，去引导模型生成一个好的计划。</p>
+<p><strong>6:28</strong>
+<strong>Roman（开发者体验）</strong>：基于此，比如就在我们说话这会儿，你可以看到 Codex 根据它对文件和当前进度的了解，已经给出了一些点子。然后它会主动向我寻求一些方向指引，比如：“我们该做什么？我们应该继续深挖刚才的阿尔忒弥斯任务的想法吗？还是我们应该先过一遍大盘，做一个可靠性的仪表盘？” 也许我们会说，“好啊，做个可靠性仪表盘挺不错的。” 等等，我们要为哪些用户群体优化？
+所以我可以这样来使用 Codex。当然，这里我没有输入任何指令。在 Alex 的例子中，作为产品负责人，我相信你会预先给出更多的指导意见，但我在这里是让 Codex 自己去发散一些想法。</p>
+<p><strong>7:07</strong>
+<strong>Alex（产品经理）</strong>：有趣的是，我经常这么干，并且去驱动它们。</p>
+<p><strong>7:09</strong>
+<strong>Alex（产品经理）</strong>：是的。通常我会……好的，有几种不同类型的代码修改情况对吧？有一种是超级简单的修改，你直接进去改，直接给提示词就行了。然后有一种是中等复杂度的修改，也许你需要去推理该怎么做，或者要求它给出一个具体的计划。
+但我经常做的一件事，跟这个有点类似：如果我只有一个模糊的想法，我可能就会直接进入 Codex，让它开始思考它可能会如何解决这个问题。我甚至脑子里都没有一个具体的功能形态，然后它就会去探索，并且问我一些问题。
+在我的情况下，我往往最后甚至都不需要真的去部署那个东西，因为那可能是一个相当复杂的修改（抱歉，这里稍微跑题一下，不过“PM 到底写什么代码”是个值得聊的有趣话题）。对于这种复杂的修改，我其实不想为后续的上线和维护承担责任。但我还是会走一遍这个“计划模式”的流程去探索它，因为这样之后，我就能对我们需要做的事情建立一个更好的心智模型。然后那些思考（不仅是计划本身，而是思考的过程）就变成了我可以和工程师分享的东西。</p>
+<hr>
+<h3>第 3 章：我们的设计师现在写的代码，比工程师六个月前写的还多 (Our designers now write more code than eng 6 months ago)</h3>
+<p><strong>8:09</strong>
+<strong>Alex（产品经理）</strong>：顺着刚才的话题稍微偏题一下，Codex 团队的设计师们，我们经常开玩笑说，他们现在写的代码，比六个月前一个工程师写的还要多。他们简直是绝对的 G.O.A.T（史上最佳）！但这很大程度上显然归功于我们的工具。
+团队之前还在嘲笑我，说我去年没提交过多少个 PR（代码合并请求）。我不会告诉你具体数字的，但我自己也觉得“是的，应该多提交点的”。特别是当你想到其中很多都只是些非常微小的调整时。
+但我觉得我们现在到了这样一个阶段：问题不再是“你能生成代码吗”。这些 Agent（智能体）非常棒，你可以把任务委托给它。现在的问题变成了：<strong>你决定要去做什么才变得极其重要。</strong> 我们对于这个东西未来要变成什么样子，意见一致吗？
+另一方面，就是我们如何确保这东西真的是高质量的？有人可能会很骄傲地说：“整个应用都是凭直觉/全靠 AI 自动生成的（vibe coded）”。但在 Codex 项目里，虽然绝大多数代码都是智能体生成的，但我们仍然投入了大量的关怀和精力去思考系统架构，确保它的质量极高。这就是为什么，如果是一个非常复杂的功能，我通常会确保有一个更稳健、更可靠的系统负责人（Owner）来接手。因为我认为 PM 的一部分价值在于他们可以非常分散精力、到处游走，所以你并不希望 PM 成为这些核心系统的代码负责人。</p>
+<p><strong>9:19</strong>
+<strong>Peter（主持人）</strong>：完全同意。你绝对不希望一个 PM 来维护某个功能代码。听起来就不是个好主意。</p>
+<p><strong>9:26</strong>
+<strong>Alex（产品经理）</strong>：我觉得我们会搞砸的。哈哈。</p>
+<p><strong>9:26</strong>
+<strong>Peter（主持人）</strong>：好的。市面上也有一些其他的 Pro 级工具，我也很喜欢那些工具，但你必须花大量的时间去学习它们怎么用，我甚至觉得如果我不怎么刷 Twitter（X），我根本不知道该怎么用其他的 Pro 产品。
+我超级喜欢 Codex 的一点就是它的 App 用起来非常简单直观。但里面确实有一些相当高级的功能，比如 Skills（技能）和 Automations（自动化），对吧？你们内部会用这些东西吗？</p>
+<p><strong>9:51</strong>
+<strong>Roman（开发者体验）</strong>：用，用得非常多。事实上，我认为 Skills 是 Codex App 界面为你解锁的最有趣的功能之一。比如，想象一下你正在和使用 Figma 的设计师结对工作，现在你只需开启 Figma 技能，就可以直接从 Figma 文件中提取所有细节——所有的 React 组件、各种变量，然后 Codex 就会相应地帮你实现这些代码。
+再想象一下，你正在构建一个应用，你想把它分享出去，想把它部署到 Vercel、Cloudflare 或者 Render 上。这些 Skills 都在那里准备好了，所以你只需简单地告诉 Codex 怎么做，它就会基本连接到这个任务生态系统中去。
+挺有趣的一件事，前几天晚上我在和一个朋友聊天。他告诉我，他对改进自己的产品有一大堆想法。于是他告诉 Codex：“把我们刚才说的这些全都写到 Linear（项目管理工具）的任务列表里，这样我们就能随时追踪所有进度。”通过使用那个 Skill，最后他说：“好了，我现在要去睡觉了。你继续把我们刚才讨论的所有任务都实现了，做完一个划掉一个。” 结果第二天他醒来，确实，一切都搞定了。</p>
+<p><strong>10:59</strong>
+<strong>Peter（主持人）</strong>：那太惊人了。</p>
+<p><strong>11:01</strong>
+<strong>Alex（产品经理）</strong>：回到你刚才关于 App 简洁性的问题，我觉得分享一点我们是如何思考它的设计可能会挺有趣的。不知道大家感不感兴趣？</p>
+<p><strong>11:08</strong>
+<strong>Peter（主持人）</strong>：当然感兴趣。</p>
+<p><strong>11:08</strong>
+<strong>Alex（产品经理）</strong>：在这个领域开发工具有个非常有趣的现象，那就是开发者们极度热爱为自己打造工具，自动化他们工作中的环节。所以我觉得这个产品非常重要的一点，就是它必须是“超级可配置（super configurable）”的，对吧？
+所以对我们 Codex 来说，底层引擎（Harness）是开源的，你可以深入研究。比如每当我们正在构建一个新功能，这个功能甚至还没在生产环境（Prod）正式上线，我们就开始在 Twitter 上看到有人抱怨这个功能“坏了”。原因居然是大家自己潜入了代码库，自己动手修改代码或者分叉（Fork）了代码，硬生生把这些新功能跑起来了。对我来说，这是产品极其棒的一部分。这意味着那些处于最前沿的用户们，正在和我们一起生活在未来，并且拉着我们走向那个未来。
+但另一方面，如果你只为这群高级玩家打造产品，你最终会得到一个几乎没人能看懂的复杂机器，而且你整天都得挂在 Twitter 上解答问题。所以我们的观点是，我们对于自己正在构建的核心基元（core primitives）是什么要非常谨慎。这些基元必须是被清晰定义写下来的，而不能只是瞎拼凑（vibe coded）出来的东西。我们真的很深思熟虑：我们怎样才能让产品尽量隐形、不要阻碍模型发挥，只要模型一变强，就让它能做越来越多事。</p>
+<p><strong>12:17</strong>
+<strong>Alex（产品经理）</strong>：然后从那出发，我们思考如何将这些能力以尽可能可配置的方式打包给超级用户（power users），让他们能弄懂这是什么。比如，目前市面上有一种“子智能体（sub-agents）”的实现方式正在野生环境中流传。人们正在使用它、实验它，即使我们并没有在产品里主动触发它，我们还是从他们身上学到了很多，它仅仅是用户可以去了解和使用的东西。
+我们会观察人们是如何使用这些高级玩法的，然后我们再考虑：“好，现在我们如何把这个能力做得让所有人用起来都极其简单？”
+Codex App 本身就是这方面的一个例子。大概在 12 月份，也就是 GPT 5.2 Codex 模型出来左右的时候，原本模型的进步都是稳步渐进的，但我们突然跨过了一个临界点——你可以开始把超长、超复杂的任务委派给模型，而且它总能一步到位（one-shot）给你搞定。</p>
+<p><strong>13:07</strong>
+<strong>Peter（主持人）</strong>：是的。</p>
+<p><strong>13:07</strong>
+<strong>Alex（产品经理）</strong>：所以我们开始看到人们开始用 T-muxing（使用 tmux 终端复用器同时运行多个任务）。如果不了解的人，就是他们开始在终端机里并行运行大量任务。我们在社交媒体上看到了极其疯狂的画面。比如 Peter Steinberger（现已加入 OpenAI）发了一张照片，显示他搞了个什么“Creative Open Claw”，在三个显示器上同时开着 18 个终端窗口在跑。
+当我们看到人们开始以这种极其高级的方式使用 Codex，我们非常兴奋。我们一直确保在基础的 CLI（命令行）产品中，这种委派功能运行良好。但后来我们想：“好吧，也许只有排名前 1% 的工程师才会这样工作。我们如何让这种体验变得非常直观易用？”
+于是我们就开发了 Codex App。当你启动它时，感觉超级简单，就像一个普通的聊天框，它能帮你干活。但紧接着你会发现：“哦，这里有个侧边栏；哦，我可以同时运行多个任务；哦，在它们之间切换非常容易！好吧，我现在效率变得极高了！”
+然后再过一阵，你又会发现：“啊，这里还有个 Skills（技能）标签页，让我进去看看。” 所以我们试图让整个体验感觉就像在玩游戏一样，你只是一步步在探索下一步能解锁什么。</p>
+<p><strong>14:00</strong>
+<strong>Roman（开发者体验）</strong>：完全赞同。而且我觉得，我们从一开始就一直有这样一个愿景：编程终将以这种“智能体委派（agentic delegation）”的方式进行。甚至在一年前我们刚启动 Codex 时，我们就一直在思考这样一个未来——作为一名工程师，你可以并行处理多项任务。但坦率地说，当时的 AI 模型能力还达不到，对吧？
+我们需要看到像 GPT 5.2 Codex 以及更高级模型带来的拐点，看到模型能够极其周密、能够稳定可靠地连续工作几个小时甚至几天。到了那个时候，你就会觉得：“如果在终端里打开一堆标签页，然后让它们自己跑上几个小时，这种交互界面太别扭了。” 所以我们需要一个全新的交互表面，我认为那个时候推出这样的 App 时机简直完美。</p>
+<p><strong>14:46</strong>
+<strong>Alex（产品经理）</strong>：在 Codex 的发展史上，有两次明显的“氛围转变（vibe shifts）”。第一次是在大概 8 月份，我们原本推出了一个 Codex 纯云端的产品。那是个好主意，大家至今都对那个概念很兴奋，但当时推出有点为时过早了。所以 8 月左右，我们发布了出色的交互式编码模型 GPT 5。我们当时觉得：“好，让我们去解决目前模型能解决的问题吧！” 于是我们发布了 Codex 命令行（CLI）和 IDE 扩展插件，增长开始爆炸。我记得几个月内我们增长了 20 到 30 倍，非常惊人。
+然后第二次转变是在 12 月到 1 月左右，我们终于可以回归最初的愿景——“把工作委派给多个模型”。</p>
+<hr>
+<h3>第 4 章：我们只做短期和长期规划，绝不做中期规划 (We plan short and long term, never medium term)</h3>
+<p><strong>15:21</strong>
+<strong>Peter（主持人）</strong>：让我们稍微深入聊聊 Codex App 的开发过程。你们是有一份某种“年度路线图（roadmap）”吗？比如一年前你们就计划好“在这个时间点我们要发布 Codex App”？还是说你们是观察到市场上的玩法，然后做了一堆原型？这个东西到底是怎么孕育出来的？</p>
+<p><strong>15:39</strong>
+<strong>Alex（产品经理）</strong>：两者都不是。我曾从 OpenAI 一位名叫 Andre 的研究员那里得到过一条非常棒的建议。他给我的建议是：<strong>在 OpenAI，你只能做近期规划（near-term）或者长期规划（long-term），永远不要做中期规划（medium-term）。</strong> 那太困难了。
+近期规划是指从现在起到未来八周的事情。八周是绝对的上限。它必须是一个具体的、你能激励团队团结一致、齐心协力去完成的事情。而在这方面（指凝聚团队搞定一个具体目标），OpenAI 非常擅长。</p>
+<p><strong>16:11</strong>
+<strong>Alex（产品经理）</strong>：另一种你可以做的是，你可以拥有一种“氛围/愿景（vibe）”。比如：一年后，我们将拥有聪明得多的模型。当然，我现在说的话现在听起来是显而易见的废话，并且实现它显然用不了一年。但当时你可以设想：“我们将拥有极其强大的模型，而我们肯定不想把自己的电脑借给它们来干活，因为那样我们一次就只能做一件事。我们将渴望拥有无限多个模型，它们独立并行地工作、自己验证自己的代码，甚至自己部署、自己监控。我们可能连提示词（prompt）都不需要怎么写了。”
+你提前去构想这种长期的愿景。
+而夹在两者之间的“中期规划”，就显得非常尴尬了。这种中间产物通常就是所谓的“产品路线图（product roadmap）”。我们基本上没有那种东西。
+我们的做法是结合“长期的发展方向”和“我们认为能带我们走向那个方向的具体动作”。举个例子，在做 Codex App 时，我们的一个战略目标是：<strong>将我们自己从“特定的工作空间（Workspace）”中解绑出来。</strong>
+这句话听起来有点抽象。我的意思是，如果你使用像 VS Code 这样的 IDE（顺便说一句那是我最喜欢的 IDE），你只能将 VS Code 打开到一个特定的工作空间，对吧？那对应着一次特定的代码拉取。也就是对应一个特定的文件夹。即使你使用 git work trees，你一次也只能打开一个。
+所以你基本上一次只能处理一件事情，对吧？对于 CLI 也是一样。因为我们有一个愿景——我们希望人们能够与他们在云端委派的、正在独立工作的多个 Agent（智能体）协作。所以我们知道，我们必须达到一个阶段，让用户觉得“同时跟多个智能体对话，或者由一个主智能体替你调度多个智能体”是一件非常自然的事情。</p>
+<p><strong>17:50</strong>
+<strong>Alex（产品经理）</strong>：然而，我们也学到了一个教训：如果你一开始就做纯云端，开发者会很难获得价值。因为你的工具链不在云上，你还得搞环境配置。而且如果模型只完成了任务的一半，你想拿点“部分步骤分”，想中途介入纠正方向或者查看细节时，在云端会变得很困难。
+所以我们就想：“好吧，我们需要一个本地的体验。它要与某个特定的文件夹解绑，但同时它要让你感觉在自己的电脑上操作各种文件夹时极其直观。”
+因此，当我们启动这个 App 项目时，我们脑子里有一堆这类“形而上”的愿景思考。同时，我们也有各种随机工程师做出来的原型，他们只是单纯觉得“我希望我们有一个属于自己的 App”，然后做出了这个或那个样子。实际上，在某次黑客松里，好几个各自独立的人都做了不同版本的 App，你（指 Roman）可能都做过一个，我不记得了。
+所以，当这个项目真正启动时，唯一需要被写下来的文档，就是“我们为什么认为做一个 App 是个好主意”。没有任何具体的 App 需求规格说明。当然，最终我们边做边生成了一份需求。但其实当时内部是相当有争议的：“我们到底应不应该做个 App？IDE 扩展插件现在这么火，我们是不是应该把精力集中在那上面，提高质量？那命令行（CLI）呢？感觉 CLI 也是个很重要的东西。如果我们真要做 App，这 App 到底是为了什么？走向哪里？” 这就是这些事情开始的方式。</p>
+<p><strong>19:10</strong>
+<strong>Roman（开发者体验）</strong>：是的。幸运的是，当时我们的 IDE 扩展插件已经是一个打磨得非常棒的解决方案了。你可以在 VS Code、Cursor、Windsurf 等环境中使用它。因此，我们从 IDE 扩展的代码库中提取了大量的经验教训，将其作为一个已经非常健壮的绝佳起点。</p>
+<p><strong>19:24</strong>
+<strong>Alex（产品经理）</strong>：是的。实际上，这个 App 与 IDE 扩展共享了大量的代码。在底层，无论是 App 还是 IDE 扩展，甚至是 CLI，都在与同一个由 Rust 编写的核心 Codex 引擎（Harness，已开源）进行对话。所以我们在代码共享和这些基础基元的分层设计上是非常刻意为之的。
+至于决定打造这个 App，现在看来似乎显而易见，因为用 Codex App 明显比在终端里开一堆窗口要简单得多。但最初决定做这个 App，主要是觉得它对新手友好，而且用户可以随便把玩。它成为了同时管理多个智能体最好的界面。</p>
+<p><strong>20:00</strong>
+<strong>Alex（产品经理）</strong>：是的。我应该这么说，我们的思维方式很大程度上是……你知道的，我们都是坚定的 AGI 信仰者（AGI pill）。所以我们总是在思考“我们正在向着一个怎样的未来滑行”。
+<strong>Peter（主持人）</strong>：我懂了，我懂了。
+<strong>Alex（产品经理）</strong>：是的，所以我其实会反转一下因果顺序。更像是：我们知道我们必须构建一个让“委派给多个智能体”感觉非常自然的界面。因为我们知道我们将拥有准备好承担这种任务的模型，事实上我们已经看到人们在跨越不同的智能体进行委派了。所以我们需要这样一个交互界面，它能让并行委派感觉极其自然，能完美扩展到云端，而且所有的操作都符合人体工学。它不能让人觉得你是用了什么奇怪极客的手段才实现了多智能体委派，而是让人觉得——这就应该是自然而然的工作方式。</p>
+<p><strong>20:38</strong>
+<strong>Roman（开发者体验）</strong>：没错。顺便说一句，这个工具绝对不仅仅吸引初级开发者。情况恰恰相反！甚至是最顶产、最资深的工程师，甚至在 OpenAI 内部，从 Peter (OpenClaw作者) 到 Greg Brockman（OpenAI总裁），他们现在都在把这个 App 作为开发构建的首选方式。
+所以，这非常体现了“智能体委派（agentic delegation）”愿景的落地。它不再局限于“哦，最精尖的工程师会留在终端命令行里”，他们实际上也都在迁移到这个 App 上。</p>
+<p><strong>21:05</strong>
+<strong>Alex（产品经理）</strong>：是的。既然我们一直在谈论 Peter（Steinberger），他刚刚加入了 OpenAI，我们真的超级兴奋！也就是做“Creative Open Claw”的大神。我不知道我有没有告诉你这件事，去年 10 月的时候，我和他在旧金山的梅森堡（Fort Mason）散过步。我当时没有直接挑明告诉他我们正在考虑做一个 App，但我开始试探性地抛出这种想法，比如“某种能够让委派任务感觉很自然的新界面”。他当时基本上是直接告诉我：他绝对不会用这种东西。
+然后上个周末，他发推特说：“其实这 App 还挺好用的。” 哈哈，地狱都结冰了，他现在喜欢用它了。</p>
+<p><strong>21:36</strong>
+<strong>Peter（主持人）</strong>：我也和 Peter 聊过了。如果你们能让他也用上这个 App，那这简直是一项巨大的成就。因为他平时可是得同时开着 20 个终端窗口工作的人，所以这绝对是项巨大的成就！
+<strong>Alex（产品经理）</strong>：完全正确。我得去跟进一下他的情况。他可能现在两者混着用，谁知道呢。</p>
+<p><strong>21:47</strong>
+<strong>Peter（主持人）</strong>：所以，Alex，有一段时间你好像是 Codex 团队里唯一的 PM，对吧？现在 Codex 团队有多少人？大概 50 到 100 人左右吗？</p>
+<p><strong>21:54</strong>
+<strong>Alex（产品经理）</strong>：听起来差不多在这个范围。我们在去年五月份的时候大概只有八个人？是这样吧？
+<strong>Roman（开发者体验）</strong>：对。
+<strong>Alex（产品经理）</strong>：具体记不太清了。但从那以后我们就迅速膨胀。50 到 100 人这个范围估计差不多。</p>
+<hr>
+<h3>第 5 章：Alex 作为 Codex PM 实际上是如何度过他的一天的 (How Alex actually spends his day as Codex PM)</h3>
+<p><strong>22:11</strong>
+<strong>Peter（主持人）</strong>：所以哥们，你平时都是怎么安排时间的？或者说你典型的一天是怎样的？还是说根本没有所谓“典型的一天”？</p>
+<p><strong>22:16</strong>
+<strong>Alex（产品经理）</strong>：哦，对。我最近也在思考这个问题，因为我发现我都不知道该怎么回答。
+我后来意识到，我在工作时有几种不同的“运行模式（modes）”。这并不是什么职业建议，仅仅是我个人的状态。比如，在我们要发布 Codex App 之前，我会进入一种纯粹的“执行模式（execution mode）”。每天沉迷于打磨质量，确保我们不遗漏任何一个角落的细节，把所有的边角料都处理好。
+在这个模式下，我会花大量的时间直接使用 Codex。一部分是为了了解目前的状况（我经常用 Codex 去总结 Slack 里的讨论、收集反馈，然后让 Codex 去跟进并把任务发到 Linear 里）。所以很大一部分是用 Codex 抓质量状况。
+另一部分则是用 Codex 去理解代码库，并直接用 Codex 去修改代码。因为现在情况是，如果只是做个小修改（不是去构建什么新系统，我尽量避免碰那些），自己直接发一个写得好并测试过的 PR，往往比费半天劲去跟某个人沟通，并且在别人还有一万件其他事情要做的时候让他们优先处理这个两周后要发布的功能，要快得多。</p>
+<p><strong>23:36</strong>
+<strong>Alex（产品经理）</strong>：当然了，我也要处理人际层面的事情，比如鼓舞士气、凝聚团队，同时也要对我们构建的东西保持批判的眼光。这是我注意到自己的一种模式。有趣的是，你可以通过我发 Twitter 的频率来判断我是否处于这种模式，如果我那阵子发推很多，基本就是这种模式了。我也不知道为什么。
+还有另一种模式，比如像现在。我脑子里非常清晰地意识到，我们处于一个全新的阶段：我们拥有像 GPT 5.4 这样惊人出色的模型；我们的 App 体验比我们预期的还要受欢迎，并且它现在登陆了包括 Windows 在内的所有平台。
+所以在我的脑海中，我开始思考：“好吧，现在是时候回归云端，并在这个方向加大投入了。” 当我们进入这种阶段时，我会花更多的时间去思考该做什么，去理解事物的状态。这是一种“协调模式（coordination mode）”。在这个阶段，我花在直接写代码上的时间会变少，我更倾向于用 Codex 辅助沟通，而不是写代码。所以，我至少有这两种模式，可能还有更多。</p>
+<p><strong>24:39</strong>
+<strong>Peter（主持人）</strong>：你需要做多少跨部门/跨团队对齐（cross-functional alignment）的工作？Codex 团队太牛了。</p>
+<p><strong>24:42</strong>
+<strong>Alex（产品经理）</strong>：在 Codex 团队<strong>内部</strong>，我们几乎不做跨职能的对齐。我们刻意将自己视作一艘“海盗船”一样的独立团队。
+甚至在 Codex 团队内，直到最近才变成了有我和另外 2 名 PM 的情况。有一些负责带头的人（虽然直到最近大家还都只向他们汇报），但我们大家基本上就是在一起热火朝天地埋头苦干。所以团队内部没什么繁文缛节。</p>
+<p><strong>25:15</strong>
+<strong>Alex（产品经理）</strong>：但随着时间的推移，我们开发 Codex 的很大一部分目标是打造一个“编码智能体（coding agent）”。现在越来越明显，大家都意识到了，一个强大的编码智能体对于那些“非编码”工作同样极其有用。我们看到人们使用 Codex App 做的事情早就超出了写代码，他们将其用于涵盖整个软件开发生命周期的各类任务。现在，绝大多数 OpenAI 员工都在使用 Codex App。即使在非技术部门，我也看到这款 App 随处可见。
+因此，当我们需要思考“如何帮助 Codex 在除了写代码的人群之外发挥作用”时，这就需要更多的跨部门对齐了。因为作为 OpenAI，我们还有 ChatGPT，很多人在用那个。所以我们必须深思熟虑该如何处理这层关系。</p>
+<p><strong>25:54</strong>
+<strong>Roman（开发者体验）</strong>：在我的开发者体验（DevEx）负责的板块，我们现在就像是 Codex 团队在外部的延伸。我们将绝大部分精力都花在 Codex 上，这有几个原因。首先，这显然是个激动人心的产品，开发者们非常喜欢它，我们要让它变得更好。而且正如 Alex 所说，我们也有不同的运作模式。我们要和 Codex 团队在战壕里并肩作战，筹备各种发布，准备指南物料教大家如何最大化利用 Codex；在发布之后，我们又要负责教育开发者通过各种不同的方式来使用它。
+另一个让我们觉得非常有意思的角度是，当你纵观整个 OpenAI 平台，我们今天有数百万开发者在基于 API 和模型进行构建，使用从 Imagen 到 Sora，再到语音等各种模态的能力。
+你猜怎么着？如今在 OpenAI 平台上进行开发的最佳方式，切入点已经变成了 Codex！如果退回一年前或者去年夏天我们刚发布 GPT 5 时，我们还得写大量的指南教开发者“如何向 GPT 5 写提示词”，因为它是一个推理模型，和之前的 GPT 4 模型截然不同。
+但现在，我们要做的只是教开发者如何使用 Codex 及其 Skills。比如，如果你想更新某个 API 集成，你可能直接用 Codex 加上相应的技能模块，Codex 绝对会完美地替你搞定。所以我们在这方面也是高度跨部门的，我们将 Codex 视为开发者平台的基石。</p>
+<p><strong>27:22</strong>
+<strong>Alex（产品经理）</strong>：关于我们如何协作，有一点非常有趣，那就是：在 Codex 团队工作最棒的部分，就是我们在互联网上、有时是现实活动中遇到的那个充满热情的社区。我们基本上把所有的工作节奏都锚定在社区反馈上。所以我们非常“以发布为导向（launch-oriented）”——我们什么时候能上线新东西？我们非常“以反馈为导向”——社区什么时候提出了反馈，我们就赶紧去修复并传达出去。
+我们都非常高强度地“在线（online）”。甚至在思考 Codex App 的发布时，我们和 Dom 及其团队紧密合作。Dom 基本上帮我们协调了一个相当广泛的 Alpha 测试圈子，我们和这些用户一起构建，获取反馈，同时为 App 打造配套的 Skills 功能，还有文档等等。
+我认为这是我们 Codex 团队独一无二的优势。同样由于我们是开源的，我们发现自己自然而然地对所做的每一件事都保持着极其开放的态度，并且我认为社区也对此给予了丰厚的回报。</p>
+<p><strong>28:30</strong>
+<strong>Peter（主持人）</strong>：没错兄弟。和用户与社区一起进行构建，绝对是当 PM 最爽的部分！就是每天都能和他们交谈。</p>
+<p><strong>28:37</strong>
+<strong>Roman（开发者体验）</strong>：是的。我们现在甚至在许多城市和国家有了自己的“Codex 大使”。他们正在组织自己的活动，在本地培训他们自己的社区开发者。因为我多希望能分身去每一个城市啊，但这不可能。但看到社区自发组织起这些活动、黑客松，一起并肩构建，看到他们散发出的能量和热情，简直太棒了。</p>
+<p><strong>28:58</strong>
+<strong>Peter（主持人）</strong>：也让我当个大使吧。我也想办几场活动。
+<strong>Roman（开发者体验）</strong>：听起来不错。
+<strong>Peter（主持人）</strong>：好嘞，我报名了。</p>
+<p><strong>29:06</strong>
+<strong>Peter（主持人）</strong>：让我们来聊聊 Peter（Steinberger）吧。我是 OpenClaw 的早期用户之一。虽然它现在用起来还有点卡壳，但它真的帮我完成了很多事情。前几天，因为它保留着我们所有对话的记忆库，它用极其粗俗的语言给我做了一段长达三分钟的“训话/打气（pep talk）”。那绝对是我从 AI 那里听到过的最具洞察力的发言。
+所以，你们打算如何将 Peter 整合进团队？这种“个人智能体（personal agent）”的愿景，是他正在做的事情的一部分吗？你们怎么看这个问题？</p>
+<p><strong>29:36</strong>
+<strong>Alex（产品经理）</strong>：关于这点有两件事。我能分享的有限，但第一件事是：他是一个绝对极其核心的 Codex 超级用户（ultra power user）。OpenClaw 在很大程度上就是用 Codex 构建出来的。所以他现在正在用潮水般的反馈和实际的改进工作为整个团队注入能量。帮助改进 Codex 算是他的副业，但他做得很出色，我们对此非常兴奋。
+至于其他的，我目前还不能透露太多细节，但这真的就是在帮助我们将下一代“个人智能体”的能力构建进 ChatGPT 中去。</p>
+<p><strong>30:06</strong>
+<strong>Roman（开发者体验）</strong>：这很有道理。Peter 的所作所为让我觉得最着迷的地方在于：很显然我认识 Peter 挺久了，每个人在开始玩 OpenClaw 的时候，都仿佛瞥见了未来的一角。但我最惊讶的是，Peter 其实很早之前就看到了这个愿景！如果你倒回去看整个 2025 年，他在去年构建了 40 多个开源项目。所有的项目都在向同一个愿景对齐：
+“我需要一个命令行接口来访问我的日历。”
+“我需要一个命令行接口来访问我的推特和 Gmail。”
+通过构建所有这些项目，他实际上提前勾勒出了我们今天编码智能体所依赖的这种围绕 Skills（技能）和命令行工具运作的愿景。而且未来的应用绝不仅仅是编码智能体，它将扩展到任何类型的个人智能体。
+因此，Peter 带着构建了整个 OpenClaw 生态系统的实战经验，将在这条路上为我们提供极其宝贵的反馈。</p>
+<p><strong>31:03</strong>
+<strong>Peter（主持人）</strong>：是的。我经常感叹“他明明只是一个人”，却建立起了这么棒的开源社区。他的应用让我再也不想打开其他任何 App 了。我只管和我的小机器人聊天就行了。这真的是天壤之别。</p>
+<p><strong>31:14</strong>
+<strong>Alex/Roman</strong>：等等，你都把它连到什么东西上了？你把它连到所有能连的东西上了吗？</p>
+<p><strong>31:17</strong>
+<strong>Peter（主持人）</strong>：老兄，我把它连到太多东西上了！它有我的银行信息，有我的 YouTube 后台信息。我激活了它的语音功能，连上了我的日历、我的全套 Google 账号。比如，晚上我躺在床上时，我老婆问我：“你在跟谁说话？” 我回答说：“我在跟我的 OpenClaw 机器人聊天啊。” 哈哈。它总能给我提供绝佳的灵感。</p>
+<p><strong>31:42</strong>
+<strong>Peter（主持人）</strong>：不过说真的，现在外面确实有很多趁机赚差价的人（rifters），帮别人设置一次 OpenClaw 就要收 5000 美金。所以如果你们能把它做成普通大众也能无缝使用的版本，那绝对会是一件具有轰动效应的大事！你们正在干票大的。等你们的好消息。
+<strong>Alex/Roman</strong>：哈哈，没问题。</p>
+<hr>
+<h3>第 6 章：传统的职业晋升阶梯不再有意义 (The traditional career ladder no longer makes sense)</h3>
+<p><strong>32:06</strong>
+<strong>Peter（主持人）</strong>：好了，节目最后，我们来聊聊你的一些“辛辣观点（hot takes）”吧，Alex。也可能是我自己记错了，但我隐约记得你好像说过一句类似于“现在大多数团队根本不需要那么多 PM”之类的话。
+咱们让话题更辛辣一点：你到底怎么想的老兄？我们还需要产品经理（PM）吗？</p>
+<p><strong>32:16</strong>
+<strong>Roman（开发者体验）</strong>：[抢先回答] 我觉得这些 AI 工具最让人惊叹的地方在于，在我看来这已经不是“需要 PM 还是不需要 PM”的问题了。而是几乎<strong>所有的职业发展阶梯都在开始变得模糊。</strong>
+你知道，过去的情况是：这里站着一个设计师，那里站着一个工程师，再那边是一个 PM。也许你们之间还有个所谓的“黄金人员配比”。
+但现在，如果你是一名工程师，你显然变得更高产了；如果你是一名设计师，你获得了一些“超能力”，可以让自己变得更懂技术并去实现想法；如果你是一名 PM，过去你只会写那些高高在上的战略文档，那好，你现在完全可以直接自己做一个产品原型出来！这并不意味着你必须为这个服务几十亿用户的功能负起最终责任，但你绝对可以通过自己亲自构建，向你的团队清晰地展示你愿景的一角。
+这就是让我觉得最着迷的地方：<strong>所有职位之间的界限都在变得模糊，我们所有人，全都变成了大融合的建设者（builders）。</strong></p>
+<p><strong>33:08</strong>
+<strong>Peter（主持人）</strong>：这话说得太有共鸣了。</p>
+<p><strong>33:12</strong>
+<strong>Alex（产品经理）</strong>：好吧，我在努力回忆我到底原话是怎么说的……我印象中我在网上某个地方说过：<strong>“如果一家初创公司在工程师不到 20 人的时候就招了一个 PM，我认为这是一个非常危险的红旗警告（red flag）。”</strong> 我大概是这么说的。
+就像 Roman 刚才说的，所有的角色都在大融合，对吧？设计师能干更多工程活，工程师能做更多设计，PM 也能亲自去构建。
+以前工程师通常需要高度专注，所以他们不想去给需求列表排优先级，不想做属于 PM 项目管理方面的工作，他们只想专心写代码。但现在写代码变得如此容易，你完全可以直接要求 Codex 这样的智能体去帮你分析反馈并排定优先级，所以你就有了更多空闲时间。
+所以我认为，每个人现在都有能力去做别人岗位的工作。正如 Scott Belsky 提出的那个概念：<strong>“人才技术栈的坍缩（collapsing the talent stack）”</strong>。</p>
+<p><strong>34:04</strong>
+<strong>Peter（主持人）</strong>：我喜欢这个概念。
+<strong>Alex（产品经理）</strong>：这种事正在真实发生。我认为，为了做成一件事，把你关在房间里所需的人越少，这件事的进展就会越顺利，产出的每一个决定也会越纯粹。</p>
+<p><strong>34:11</strong>
+<strong>Alex（产品经理）</strong>：所以随之而来的问题是：“那 PM 还剩下什么价值？”
+我认为许多 PM 实际上应该转型。如果作为一个 PM，你内心一直渴望成为一名工程师，你过去做 PM 仅仅是因为你比较擅长管理别人，但当时你不太擅长自己写代码。那么现在有了编码智能体的加持，你完全应该转型去当一个工程经理（Engineering Manager）。这可能对你来说是一个更清晰、更适合的角色。同理，有些 PM 现在可能只想直接去做设计师，因为这样能离打造产品更近。
+但我认为，<strong>归根结底，这取决于你的兴趣。</strong> 在一个拥有 AGI 的世界里，<strong>“兴趣（interest）”和“主动能动性（agency）”是人类身上仍然重要且最根本的品质。</strong>
+这就是我最终思考的方向：如果你从根本上对写代码更感兴趣，你过去做 PM 工作只是因为“总得有人来干这活”，那么你现在就该抹掉 PM 这个身份，转行成为一名工程师，从工程的角度去做同样的事情。设计同理。
+但如果你从根本上最感兴趣的是花大量时间去和用户交流（哪怕这会占用你实际动手构建的时间），或者你渴望去洞察未来的趋势、理解市场正在往哪走。并且，如果你所在的团队足够庞大，已经有足够多的工程师了，那么我认为那里仍然有属于 PM 的空间。但这真的完全取决于你最感兴趣的是什么。</p>
+<p><strong>35:36</strong>
+<strong>Alex（产品经理）</strong>：我再补充一点：我依然坚信每一个问题领域都需要有一个对此负责的人类（Accountable Human），我只是不认为那个人类非得是个顶着“PM”头衔的人。</p>
+<p><strong>35:44</strong>
+<strong>Roman（开发者体验）</strong>：而且我认为这也很大程度上取决于你产品的性质，正如你刚才说的。我们很幸运在这里做 Codex，这显然是一个针对开发者/构建者的极客产品。我们自己就是最好的用户，通过开源我们也和社区紧密结对。
+但你哪怕回退到十年前看我在 Stripe 的时候。Stripe 员工达到 250 人的时候，公司里连一个 PM 都没有。哪怕那时候没有任何 AI 工具。为什么？因为 Stripe 当时仅仅就是一个 API，我们所有人都是工程师，我们非常清楚一个伟大的 API 应该长什么样，所以我们只是在打造我们梦寐以求的那个 API 而已。我们希望 Stripe 极其优雅，只需寥寥几行代码就能搞定。
+如果你在其他的领域或行业工作，而你又想保持那种对客户的极度痴迷，你可能就需要更多的“PM 时间”去深入客户。因为那个垂直领域或问题空间你并不熟悉。我们做 Codex 是幸运的，因为我们是在造自己一直梦寐以求的工具。</p>
+<p><strong>36:41</strong>
+<strong>Alex（产品经理）</strong>：但比如你说的那种情况：“因为我们在一个工程师缺乏直觉的领域服务用户”。这里的“PM”，仅仅是一个标签，用来指代“那个虽然会设计也会写代码，但他更对研究用户感兴趣的人”而已，你懂我的意思吗？因为你同样可以找到一个对研究用户极其感兴趣的“工程师”。
+所以我认为，所有这些职位标签都在逐渐失去它们原有的意义。不过没关系，现在正是处于一个比较混沌的过渡期。</p>
+<p><strong>37:08</strong>
+<strong>Peter（主持人）</strong>：这也是我在我的团队中发现的现象。我觉得最优秀的工程师，绝对不会跑来问我“嘿 Peter，我们下一步该做什么功能？”。他们会自己跑去和用户交谈，弄清楚该做什么，然后我们再就此展开讨论。大家在想要做什么事情上，频率都是自然而然对齐的。这也是 Codex 团队运作的常态对吧？今天你们 Codex App 里用到的这么多功能，全是工程师完全自下而上提出来的绝佳主意，仅仅因为他们自己想要用这个功能。</p>
+<p><strong>37:32</strong>
+<strong>Alex（产品经理）</strong>：是的。不过我得说，有一类让我极度喜欢共事的工程师，他们热衷于和用户打交道并思考构建什么。但同时，也有另一类同样极其强大的工程师，他们敲代码的速度快得发指，在系统构建和架构推演上才华横溢，但他们对和用户聊天一丁点兴趣都没有！
+我认为这两种人都有非常广阔的发挥空间。这正是我眼中有着 AI 辅助的世界的样子：<strong>我们都可以变得更加固执、更加纯粹地去做我们自己。</strong> 懂我意思吗？你只管做你自己！因为 AI 还有你周围的团队，会去填补上那些你不愿意做的短板。</p>
+<p><strong>38:06</strong>
+<strong>Peter（主持人）</strong>：这个说法太赞了兄弟。但我确实认为“构建者（Builder）”这个标签非常重要。因为我觉得很多 PM 内心都想成为领导者（Leader）。按照传统的职业晋升阶梯，你最后升到了副总裁（VP）之类的职位，然后你就再也没时间亲自构建产品了老兄。你整天被泡在各种产品评审会上，这里给点反馈那里给点反馈。我觉得现在很多 PM 其实不想过那样的生活。我不知道你怎么想，但我希望在产品发布时，我依然能极其贴近用户一线。</p>
+<p><strong>38:30</strong>
+<strong>Alex（产品经理）</strong>：完全赞同。我其实根本就不把 PM 视作一个领导职位。我把它视作一个“填补空缺（fill in the gaps）”的职位。
+偶尔在某些情况下可能需要你发挥领导力。但即使在那时，所谓的领导力大概也只是在帮助大家对齐目标，而不是把自己当成什么想出了绝妙战略的天才。</p>
+<p><strong>38:46</strong>
+<strong>Alex（产品经理）</strong>：我可以确信地说一件事：<strong>在 OpenAI 最顶级的 PM，全都是极度“亲力亲为、深入细节（in the weeds）”的人。</strong>
+如果你想空降 OpenAI 担任高级领导职务是非常具有挑战性的。因为在这里，深入一线细节仍然是至关重要的。你必须想办法在作为高级领导者的同时，还能一头扎进泥土里。所以我认为在这里，最好的方式还是直接在基层一线加入并成长。</p>
+<hr>
+<h3>第 7 章：Codex 团队招人看重什么（反正不是你的简历） (What the Codex team looks for when hiring (it's not your resume))</h3>
+<p><strong>39:12</strong>
+<strong>Peter（主持人）</strong>：酷。最后一个问题了兄弟。你们最近终于招了另一个 PM，我想他叫 Rohan 对吧？当你们为 Codex 团队招人时，除了必须是 Codex 的深度重度用户之外，你们还看重候选人什么样的品质？</p>
+<p><strong>39:28</strong>
+<strong>Alex（产品经理）</strong>：好的，咱们俩都可以回答一下这个问题。
+我觉得，其实我刚才已经说过了。我还是要回到“主动能动性（Agency）”这个词上。<strong>能够自己主动找事情做、能够出活的人，这字面意义上就是在 OpenAI 以及特别是在 Codex 团队工作最重要的事情。</strong>
+我们刻意不让团队变成那种：“欢迎入职，这是按照难度递增排序的 12 个任务，开始干活吧”。我们这里更像是：“欢迎加入！……然后就没有然后了。剩下的你自己找事做吧。”
+所以我认为，那种具备高度自我驱动力的人，能够主动去执行，对什么是需要被完成的充满热情和主意的人。而且他们不介意去反驳现有的观点，因为我们之前的决定很可能都是瞎蒙的、错误的。并且愿意承担未知领域职责的完美队友，这就是我们的理想型。这就是一些宏观上的素质。如果你问具体对应什么职位比较合适，那任何涉及技术的，都是工程导向的。</p>
+<p><strong>40:28</strong>
+<strong>Roman（开发者体验）</strong>：完全同意。在我负责的开发者体验这一侧，我通常寻找的也是具有极高能动性的人。显然他们需要技术过硬，显然要精通 Codex 这种工具。但我同样看重他们是否对“花时间与开发者/构建者在一起并分享知识”抱有极大的热情。
+例如我们本周刚刚宣布，开发了开源 Codex 监控工具的 Thomas 这个月将加入我的团队。这太棒了，因为他不仅是一个非常有创造力、高产的 Codex 开发者，而且他热爱分享自己是如何用 Codex 构建事物的。我们需要将数以百万计的开发者带入 Codex 这个光明的未来。
+“Agentic coding（基于智能体的编程）”正在颠覆我们一直以来构建软件和产品的所有思考方式。这其中蕴含着巨大的潜力向全世界展示：现在任何人都可以构建任何东西！我们要在他们前进的路上给予教导。这就是我正在寻找的人才。</p>
+<p><strong>41:26</strong>
+<strong>Alex（产品经理）</strong>：听听我这个总结对不对：在我脑海中，你们 DevEx（开发者体验）角色的职位描述其实就是：“<strong>极高水平的工程师，而且非常擅长发 Twitter（X）。</strong>”</p>
+<p><strong>41:33</strong>
+<strong>Roman（开发者体验）</strong>：哈哈，你说中了一半。我在这个定义上还要加一个小小的星号注脚（asterisk）：那个人必须为我们这里的社区表现出极其卓越的贡献。当你在世界其他一些地方出差时，你会发现有些地方的开发者并不怎么刷 Twitter。比如在欧洲或一些其他地方，他们更爱用 LinkedIn 或者别的平台。所以我们要加上一个小星号：需要胸怀走向全世界的社交能力。但总体上来说，肯定是要精通社交媒体的，并且热爱花时间去教导和启迪他人。</p>
+<p><strong>42:06</strong>
+<strong>Peter（主持人）</strong>：而且我觉得，候选人身上有没有这种“能动性（Agency）”，你在他们进入面试流程之前其实就能看出来了，对吧？他们平时会在网上发布自己做出来的项目吗？他们有各种个人副业项目（side projects）吗？</p>
+<p><strong>42:14</strong>
+<strong>Alex（产品经理）</strong>：完全正确！所以当有人私信（DM）我说想一起工作时，我的第一反应是：“<strong>这里面有没有一个链接？</strong>” 如果有链接，我永远都会点进去看。（也许我该检查一下是不是恶意链接哈哈，但我几乎每次都会点进去。）我总是充满好奇心。
+如果附带了他们一些绝妙点子的长篇大论，我通常也都会认真看完。
+但我不知道接下来这话听起来会不会有点刺耳：如果对方发来的是一篇长篇大论来解释“为什么我对这个职位感兴趣”，然后附上他们的 PDF 简历……那么我点开去读这些东西的概率，远低于去阅读他们的产品点子，以及去直接看他们构建的实物链接。
+有人前几天问过我一个问题，然后我突然意识到：<strong>我根本不知道我们团队的人都是什么大学毕业的！</strong></p>
+<p><strong>42:55</strong>
+<strong>Peter（主持人）</strong>：谁在乎那个啊老兄！</p>
+<p><strong>42:56</strong>
+<strong>Alex/Roman</strong>：对啊！谁在乎？我真的太庆幸我们现在生活在这样一个世界了：所有那些愚蠢的学历背景、文凭光环都不再重要了。什么大厂光环、什么名校，都无所谓。直接向我展示你亲手造出来的东西就行了！</p>
+<p><strong>43:03</strong>
+<strong>Peter（主持人）</strong>：太酷了老兄。好吧，非常感谢你们！我超级爱 Codex。这个周末我绝对要去用它攒一堆非常 VIP 的酷东西出来，绝对好玩。
+<strong>Roman（开发者体验）</strong>：玩得开心！迫不及待想看到你的反馈了。非常感谢 Peter 邀请我们。
+<strong>Peter（主持人）</strong>：好的各位，再见！</p>
+5:["$","$L11",null,{"email":{"id":"talks-how-openai-s-codex-team-builds-with-codex-43-min-alex-romain","sender":"Peter Yang","subject":"OpenAI的Codex团队如何用Codex构建产品","snippet":"OpenAI Codex团队的产品负责人和开发者体验负责人首次揭秘团队日常运作：无需长篇需求文档，设计师写的代码比半年前的工程师还多，传统职业边界正在消融。","date":"2026-04-05","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["Talks"],"mdTheme":"magazine","sourcePath":"talks/how-openai-s-codex-team-builds-with-codex-43-min-alex-romain.md","sourceUrl":"https://www.youtube.com/watch?v=9qXc-THAvc0","coverImage":"$undefined","body":"$12","prompts":[]},"listPosition":{"index":143,"total":365},"matchedPerson":"$undefined"}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[27201,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"IconMark"]
+c:[["$","title","0",{"children":"OpenAI的Codex团队如何用Codex构建产品 · Hinbox"}],["$","meta","1",{"name":"description","content":"OpenAI Codex团队的产品负责人和开发者体验负责人首次揭秘团队日常运作：无需长篇需求文档，设计师写的代码比半年前的工程师还多，传统职业边界正在消融。"}],["$","meta","2",{"name":"application-name","content":"Hinbox"}],["$","link","3",{"rel":"canonical","href":"https://linguage.github.io/hinbox/mail/talks-how-openai-s-codex-team-builds-with-codex-43-min-alex-romain"}],["$","meta","4",{"property":"og:title","content":"OpenAI的Codex团队如何用Codex构建产品"}],["$","meta","5",{"property":"og:description","content":"OpenAI Codex团队的产品负责人和开发者体验负责人首次揭秘团队日常运作：无需长篇需求文档，设计师写的代码比半年前的工程师还多，传统职业边界正在消融。"}],["$","meta","6",{"property":"og:url","content":"https://linguage.github.io/hinbox/mail/talks-how-openai-s-codex-team-builds-with-codex-43-min-alex-romain"}],["$","meta","7",{"property":"og:site_name","content":"Hinbox"}],["$","meta","8",{"property":"og:locale","content":"zh_CN"}],["$","meta","9",{"property":"og:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","meta","10",{"property":"og:image:width","content":"1200"}],["$","meta","11",{"property":"og:image:height","content":"630"}],["$","meta","12",{"property":"og:image:alt","content":"OpenAI的Codex团队如何用Codex构建产品"}],["$","meta","13",{"property":"og:type","content":"article"}],["$","meta","14",{"property":"article:published_time","content":"2026-04-05T00:00:00.000Z"}],["$","meta","15",{"property":"article:author","content":"Peter Yang"}],["$","meta","16",{"property":"article:tag","content":"Talks"}],["$","meta","17",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","18",{"name":"twitter:title","content":"OpenAI的Codex团队如何用Codex构建产品"}],["$","meta","19",{"name":"twitter:description","content":"OpenAI Codex团队的产品负责人和开发者体验负责人首次揭秘团队日常运作：无需长篇需求文档，设计师写的代码比半年前的工程师还多，传统职业边界正在消融。"}],["$","meta","20",{"name":"twitter:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","link","21",{"rel":"icon","href":"/hinbox/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","22",{"rel":"icon","href":"/hinbox/icon.svg?icon.6ca2692a.svg","sizes":"any","type":"image/svg+xml"}],["$","$L13","23",{}]]
+8:null

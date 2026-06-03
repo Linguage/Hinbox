@@ -1,0 +1,110 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T2710,<h1>量子金融如何重塑市场工程</h1>
+<p>量子计算正在叩响金融世界的大门，但其承诺的兑现远比想象中复杂。EDHEC商学院教授Lionel Martellini在这篇访谈中，既揭示了量子技术在投资组合优化、衍生品定价和风险管理中的革命性潜力，也以冷静的视角审视了从实验室到交易大厅的现实鸿沟。他提醒我们区分NISQ机器与容错量子计算的根本差异，指出当下最有前景的路径不是替代经典系统，而是构建混合架构。尤其发人深省的是他对"量子洗白"现象的警示：当研究者有意无意地将问题复杂化来凸显量子优势时，真正的应用价值反而被遮蔽。对于关注金融科技前沿的读者而言，这篇文章提供了一个难得的清醒视角——它不回避量子计算的未来可能性，但更强调在狂热中保持判断力，追问每一项技术增益背后的真实经济成本。</p>
+<hr>
+<h1>量子技术的部署[^1]为解决复杂度超越传统系统处理能力的问题提供了广阔前景。金融机构在以下方面遭遇了经典计算架构的局限性：优化包含大量资产和复杂约束（上限、排除规则等）的投资组合、对复杂的衍生品进行定价建模，以及预测极端风险情景[^2]。这些操作既要求执行的精度，也要求巨大的计算能力，从而推动研究走向替代范式。通过利用叠加态同时处理多种配置、利用叠加态之间的干涉将概率导向最相关的结果、以及利用纠缠来同步变量之间的相互依赖关系，这一系统有望重塑当前的决策方法[^3]。</h1>
+<p>然而，这一转变需要对切实收益进行审慎评估，并与这些新工具固有的技术和方法论约束相衡量。在接受 Polytechnique Insights 采访时，EDHEC 商学院金融学教授、EDHEC 量子研究所创始人兼所长 Lionel Martellini 分享了他在这些算法融入证券选择、投资组合构建和风险管理方面的专业知识。他的研究尤其关注衡量这些创新在金融流程中的附加价值，以及它们在市场结构中可行的条件[^4]。</p>
+<p>这些技术在金融生态系统中的成熟度问题仍然是一个关键点。有必要区分哪些应用能够带来可衡量的进步，识别拖慢其部署的因素，并定义在日常使用成为可能之前所需达成的科学里程碑。因此，当前研究能力与现实操作可靠性要求之间的差距，代表了实验室假设与行业实际需求之间的交汇点[^5]。</p>
+<p><strong>量子计算：我们实际在谈论什么样的机器？</strong></p>
+<p>如今，"量子计算"一词涵盖了截然不同的现实。</p>
+<p>被称为 NISQ（含噪中等规模量子，Noisy Intermediate Scale Quantum）的机器是目前可用的设备。它们使用有限数量的量子比特[^6]，这些量子比特仍然对噪声和误差敏感。它们能够进行实验性演示，但在计算的规模和持续时间上仍受到限制。
+容错量子计算（Fault-tolerant quantum computing）指的是能够以系统化方式纠正错误的架构。这一阶段是大规模使用先进量子算法（尤其是针对优化或金融模拟）的先决条件。</p>
+<p>在这两个发展前景之外，目前还有一部分应用依赖于在经典计算机上运行的量子启发式方法（quantum-inspired methods）。这些方法借鉴源自量子计算的原理来增强某些计算，而无需物理量子比特[^7]。</p>
+<h3>高性能计算的动态：迈向解决金融复杂性</h3>
+<p>金融市场依赖的计算密集型操作日益增长。无论是构建多资产投资组合、对具有非线性特征的衍生品定价，还是模拟压力情景，随着问题规模的扩大，经典架构都会达到饱和阈值[^8]。在《量子加速蒙特卡洛方法》（<em>Quantum Speedup of Monte Carlo Methods</em>）中，Ashley Montanaro 证实，量子振幅估计算法在理论上为蒙特卡洛方法（衍生品定价和风险管理所必需）提供了显著的加速。他的工作表明，在给定目标精度水平下，所需的模拟量相比传统方法可得到平方级的缩减。这一效率提升为降低复杂金融计算的计算成本打开了大门，前提是容错量子计算机以及与算法要求兼容的模型能够就位[^9]。</p>
+<p>对于 Lionel Martellini 而言，"真正的量子优势在于改善投资组合的收益，或降低其风险，从而产生大于量子解决方案所带来的额外成本的经济收益。"他确认有必要衡量这些技术超越单纯速度提升的实际贡献，并明确指出"在得出结论认为存在量子优势之前，必须考虑成本。"事实上，这些系统所需的投资仍然巨大。</p>
+<p>在投资组合优化中，风险管理模型难以应对资产组合数量的指数级增长[^10]。诸如量子近似优化算法（QAOA）或 QUBO 公式化等技术为更智能地探索这些数据空间提供了前景，尤其在组合优化问题中——其目标是在约束条件下识别最优配置——这些方法正是为高效导航高维优化空间而专门开发的[^11]。在估值方面，Martellini 指出，"核心问题在于计算风险调整概率下收益的期望值，通常通过蒙特卡洛模拟来实现"，并且"量子振幅估计算法（QAE）提供了平方级的增益：定价误差下降更快，从而减少了所需轨迹的数量。"然而，经济可行性仍然是最终的裁决者："在技术层面上，增益是明确的，但经济优势仍需根据访问量子计算机的成本（包括其能耗）来评估。"</p>
+<h3>用例的认识论：模型相关性与算法漂移</h3>
+<p>量子处理器在投资组合优化方面的吸引力，完全实现于以高维度和动态数据结构为特征的环境中。"当参数数量少且稳定时，经典方法就足够了。小问题可以用简单、低成本的工具解决，"这位专家指出。量子方法的效用出现在数据流的动态复杂性压倒了传统方法的能力之时[^12]。</p>
+<p>然而，研究必须避免与真实世界需求脱节的用例。Martellini 警告不要"将证券选择和投资组合的风险-收益优化合并为单一问题。这会制造组合复杂性，使量子优势显得人为。"资产选择必须服务于明确的金融目标："它可以由业绩驱动——通过比较市场价格与公允价值，也可以由风险驱动——例如寻找低相关性的投资组合。"</p>
+<p>"量子洗白"（Quantum washing）指的是一种方法论漂移，即将量子优势归于那些被人为过度复杂化的问题。这种"量子洗白"倾向构成了一道屏障，阻碍了解决方案的可信度，从而也阻碍了其被采纳。事实上，根据 Lionel Martellini 的说法，"存在一种人为构建用例以凸显量子计算优势的倾向。这多少给人一种解决方案拼命寻找问题的印象，或者像一把过大的锤子在找钉子敲。"这种偏差可能导致虽有前景但无法应用的结论。"即使问题是真实的，"他继续说道，"也存在夸大所谓优势的风险。所呈现的好处往往依赖于关于技术成熟度或其实际成本的未明说假设。"</p>
+<hr>
+<h3>硬件现实与系统混合化的路径</h3>
+<p>将量子计算整合到金融领域所面临的制约因素超越了原始算力本身，尤其体现在技术成熟度和网络安全方面。当代的 NISQ 机器运行所需的组件仍不稳定。"目前的量子计算机对于大规模应用仍然限制太大，"Martellini 指出。实际收益取决于一个更为稳定的技术地平线，即所谓的容错[^13]。</p>
+<p>经济因素同样至关重要："有些机器将耗资数千万，另一些则达数亿甚至数十亿，"Martellini 指出，并补充说"这些机器的投资回报率及其能耗——无论是共享还是专用云使用——都将是决定性因素。"此外，处理敏感数据需要严格的加密协议和对云基础设施的细致管控。</p>
+<p>因此，这项技术最好被理解为现有系统的补充层。"如今，混合方法是向前最现实的路径，"这位金融教授表示。他还提到了"量子启发式模拟器，例如数字退火器或基于张量网络的方法。"这些工具允许在不受物理量子比特约束的情况下进行实验。此外，"虽然自主量子计算机仍是一个中期目标，但在短期到中期内，正是混合经典-量子架构代表了获得可行结果的最现实途径。"这一过渡使得在控制运营风险的前提下，捕获定向收益并探索用例成为可能。</p>
+<hr>
+<h2>术语表</h2>
+<table>
+<thead>
+<tr>
+<th>原文</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>cloud infrastructures</td>
+<td>云基础设施</td>
+</tr>
+<tr>
+<td>digital annealers</td>
+<td>数字退火器</td>
+</tr>
+<tr>
+<td>entanglement</td>
+<td>纠缠</td>
+</tr>
+<tr>
+<td>Fault-tolerant quantum computing</td>
+<td>容错量子计算</td>
+</tr>
+<tr>
+<td>hybrid classical-quantum architectures</td>
+<td>混合经典-量子架构</td>
+</tr>
+<tr>
+<td>Monte Carlo methods</td>
+<td>蒙特卡洛方法</td>
+</tr>
+<tr>
+<td>NISQ (Noisy Intermediate Scale Quantum)</td>
+<td>NISQ（含噪中等规模量子）</td>
+</tr>
+<tr>
+<td>QAOA (Quantum Approximate Optimization Algorithm)</td>
+<td>量子近似优化算法（QAOA）</td>
+</tr>
+<tr>
+<td>Quantum Amplitude Estimation (QAE)</td>
+<td>量子振幅估计（QAE）</td>
+</tr>
+<tr>
+<td>Quantum washing</td>
+<td>量子洗白</td>
+</tr>
+<tr>
+<td>quantum-inspired methods</td>
+<td>量子启发式方法</td>
+</tr>
+<tr>
+<td>quantum-inspired simulators</td>
+<td>量子启发式模拟器</td>
+</tr>
+<tr>
+<td>qubit</td>
+<td>量子比特</td>
+</tr>
+<tr>
+<td>QUBO</td>
+<td>QUBO</td>
+</tr>
+<tr>
+<td>superposition</td>
+<td>叠加（态）</td>
+</tr>
+<tr>
+<td>tensor network-based methods</td>
+<td>基于张量网络的方法</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"essays-how-quantum-finance-could-alter-market-engineering","sender":"Lionel Martellini","subject":"量子金融如何重塑市场工程","snippet":"量子计算正在叩响金融世界的大门，但其承诺的兑现远比想象中复杂。EDHEC商学院教授Lionel Martellini在这篇访谈中，既揭示了量子技术在投资组合优化、衍生品定价和风险管理中的革命性潜力，也以冷静的视角审视了从实验室到交易大厅的现实鸿沟。他提醒我们区分NISQ机器与容错量子计算的根本差异，指出当下最有前景的路径不是替代经典系统，而是构建混合架构。尤其发人深省的是他对\"量子洗白\"现象的警示：当研究者有意无意地将问题复杂化来凸显量","date":"2026-03-31","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["translated"],"mdTheme":"magazine","sourcePath":"essays/how-quantum-finance-could-alter-market-engineering.md","sourceUrl":"https://www.polytechnique-insights.com/en/columns/science/how-quantum-finance-could-alter-market-engineering/?utm_source=brevo&utm_campaign=newsletter201en&utm_medium=email&utm_id=158","body":"$3","prompts":[]},"listPosition":{"index":153,"total":365}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

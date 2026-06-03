@@ -1,0 +1,268 @@
+1:"$Sreact.fragment"
+3:I[39756,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+4:I[37457,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"ViewportBoundary"]
+b:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"MetadataBoundary"]
+d:I[68027,[],"default"]
+:HL["/hinbox/_next/static/chunks/24888a04b79e7824.css","style"]
+:HL["/hinbox/_next/static/media/fba5a26ea33df6a3-s.p.1bbdebe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"vMUiZWVsRx3pCqxArlZcR","c":["","mail","reports-kimi-k26-tech-blog-advancing-open-source-coding"],"q":"","i":false,"f":[[["",{"children":["mail",{"children":[["id","reports-kimi-k26-tech-blog-advancing-open-source-coding","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hinbox/_next/static/chunks/24888a04b79e7824.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[79520,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],""]
+f:I[59665,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],"default"]
+:HL["https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","style"]
+2:["$","html",null,{"lang":"zh-CN","className":"plus_jakarta_sans_9710934b-module__-vnxFq__variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function () {\n  try {\n    var theme = window.localStorage.getItem('hinbox:theme');\n    if (theme !== 'light' && theme !== 'dark' && theme !== 'sepia') {\n      theme = 'light';\n    }\n    window['__HINBOX_THEME__'] = theme;\n    document.documentElement.dataset.theme = theme;\n    document.documentElement.style.colorScheme = theme === 'dark' ? 'dark' : 'light';\n    function applyBodyTheme() {\n      if (document.body) {\n        document.body.dataset.theme = theme;\n      }\n    }\n    if (document.body) {\n      applyBodyTheme();\n    } else {\n      document.addEventListener('DOMContentLoaded', applyBodyTheme);\n    }\n  } catch (error) {\n    window['__HINBOX_THEME__'] = 'light';\n    document.documentElement.dataset.theme = 'light';\n    document.documentElement.style.colorScheme = 'light';\n  }\n})();"}}],"",["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","rel":"stylesheet"}],["$","$Le",null,{"id":"mathjax-config","strategy":"afterInteractive","children":"\n          window.MathJax = {\n            tex: {\n              inlineMath: [['$', '$'], ['\\\\(', '\\\\)']],\n              displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']],\n              processEscapes: true,\n              packages: { '[+]': ['noerrors', 'noundefined'] },\n            },\n            svg: {\n              fontCache: 'none',\n            },\n            startup: {\n              typeset: false,\n              ready: () => {\n                window.MathJax.startup.defaultReady();\n                window.dispatchEvent(new Event('MathJaxReady'));\n              },\n            },\n          };\n          "}],["$","$Le",null,{"id":"mathjax-cdn","strategy":"afterInteractive","src":"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"}]]}],["$","body",null,{"className":"font-[family-name:var(--font-jakarta)] antialiased","suppressHydrationWarning":true,"children":["",["$","$Lf",null,{"weeklyNavCounts":{"inboxWeeklyCount":10,"sentWeeklyCount":0,"starredTotalCount":21},"people":[{"id":"david-perell","name":"David Perell","email":""},{"id":"lenny-s-podcast","name":"Lenny's Podcast","email":""},{"id":"ryan-peterman","name":"Ryan Peterman","email":""},{"id":"anthropic","name":"Anthropic","email":""},{"id":"dwarkesh-patel","name":"Dwarkesh Patel","email":""},{"id":"stripe","name":"Stripe","email":""},{"id":"stephen-wolfram","name":"Stephen Wolfram","email":""},{"id":"latent-space","name":"Latent Space","email":""},{"id":"lex-fridman","name":"Lex Fridman","email":""},{"id":"steve-jobs","name":"Steve Jobs","email":""},{"id":"20vc-with-harry-stebbings","name":"20VC with Harry Stebbings","email":""},{"id":"jeremy-stern","name":"Jeremy Stern","email":""},{"id":"turing","name":"Turing","email":""},{"id":"demis-hassabis","name":"Demis Hassabis","email":""},{"id":"the-diary-of-a-ceo","name":"The Diary Of A CEO","email":""},{"id":"elon-musk","name":"Elon Musk","email":""},{"id":"sauteedveggies","name":"SauteedVeggies","email":""},{"id":"andy-matuschak","name":"Andy Matuschak","email":""},{"id":"mind-the-game","name":"Mind the Game","email":""},{"id":"ramona-shelburne","name":"Ramona Shelburne","email":""},{"id":"jared-weiss","name":"Jared Weiss","email":""},{"id":"deeplearningai","name":"DeepLearningAI","email":""},{"id":"cursor","name":"Cursor","email":""},{"id":"y-combinator","name":"Y Combinator","email":""},{"id":"openai","name":"OpenAI","email":""},{"id":"every","name":"Every","email":""},{"id":"sequoia-capital","name":"Sequoia Capital","email":""},{"id":"alex-kantrowitz","name":"Alex Kantrowitz","email":""},{"id":"peter-dizikes-mit-news","name":"Peter Dizikes ｜ MIT News","email":""},{"id":"world-finance-journal","name":"World Finance Journal","email":""},{"id":"andrej-karpathy","name":"Andrej karpathy","email":""},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","email":""},{"id":"jd-vance","name":"JD Vance","email":""},{"id":"街-大学","name":"やまぐち街なか大学","email":""},{"id":"jc","name":"JC","email":""}],"tags":[{"id":"translated","name":"translated","count":123},{"id":"interview","name":"interview","count":24},{"id":"ai","name":"ai","count":17},{"id":"人工智能","name":"人工智能","count":17},{"id":"clippings","name":"clippings","count":15},{"id":"essays","name":"Essays","count":9},{"id":"talks","name":"Talks","count":8},{"id":"深度学习","name":"深度学习","count":8},{"id":"ai-agents","name":"ai-agents","count":7},{"id":"cognition","name":"cognition","count":6},{"id":"nba","name":"NBA","count":6},{"id":"ai编程","name":"AI编程","count":5},{"id":"humanity","name":"humanity","count":5},{"id":"math","name":"math","count":5},{"id":"steve-jobs","name":"steve-jobs","count":5},{"id":"大语言模型","name":"大语言模型","count":5},{"id":"机器学习","name":"机器学习","count":5},{"id":"agi","name":"AGI","count":4},{"id":"anthropic","name":"Anthropic","count":4},{"id":"claude-code","name":"Claude Code","count":4},{"id":"doge","name":"DOGE","count":4},{"id":"nvidia","name":"nvidia","count":4},{"id":"windsurf","name":"Windsurf","count":4},{"id":"政府效率","name":"政府效率","count":4},{"id":"文艺复兴科技","name":"文艺复兴科技","count":4},{"id":"英伟达","name":"英伟达","count":4},{"id":"软件工程","name":"软件工程","count":4},{"id":"ai编程工具","name":"AI编程工具","count":3},{"id":"apple","name":"apple","count":3},{"id":"cursor","name":"Cursor","count":3},{"id":"deepseek","name":"deepseek","count":3},{"id":"linus-torvalds","name":"Linus Torvalds","count":3},{"id":"linux内核","name":"Linux内核","count":3},{"id":"llm","name":"llm","count":3},{"id":"mathematics","name":"mathematics","count":3},{"id":"reports","name":"Reports","count":3},{"id":"偏微分方程","name":"偏微分方程","count":3},{"id":"勒布朗-詹姆斯","name":"勒布朗·詹姆斯","count":3},{"id":"开源","name":"开源","count":3},{"id":"开源ai","name":"开源AI","count":3},{"id":"强化学习","name":"强化学习","count":3},{"id":"数学哲学","name":"数学哲学","count":3},{"id":"数学教育","name":"数学教育","count":3},{"id":"访谈","name":"访谈","count":3},{"id":"量化投资","name":"量化投资","count":3},{"id":"马斯克","name":"马斯克","count":3},{"id":"黄仁勋","name":"黄仁勋","count":3},{"id":"ai-agent","name":"AI Agent","count":2},{"id":"ai-coding","name":"ai-coding","count":2},{"id":"ai代理","name":"AI代理","count":2},{"id":"ai基础设施","name":"AI基础设施","count":2},{"id":"ai安全","name":"AI安全","count":2},{"id":"ai数学","name":"AI数学","count":2},{"id":"ai智能体","name":"AI智能体","count":2},{"id":"ai计算","name":"AI计算","count":2},{"id":"alphafold","name":"AlphaFold","count":2},{"id":"claude","name":"Claude","count":2},{"id":"devin","name":"Devin","count":2},{"id":"economics","name":"economics","count":2},{"id":"emacs","name":"Emacs","count":2},{"id":"essay","name":"essay","count":2},{"id":"git","name":"Git","count":2},{"id":"google","name":"Google","count":2},{"id":"ilya-sutskever","name":"Ilya Sutskever","count":2},{"id":"jeff-dean","name":"jeff-dean","count":2},{"id":"jepa","name":"JEPA","count":2},{"id":"org-mode","name":"Org mode","count":2},{"id":"programming","name":"programming","count":2},{"id":"software-engineering","name":"software-engineering","count":2},{"id":"vibe-coding","name":"Vibe Coding","count":2},{"id":"writing","name":"writing","count":2},{"id":"世界模型","name":"世界模型","count":2},{"id":"人性","name":"人性","count":2},{"id":"代数几何","name":"代数几何","count":2},{"id":"代码编辑器","name":"代码编辑器","count":2},{"id":"价值投资","name":"价值投资","count":2},{"id":"伯克希尔哈撒韦","name":"伯克希尔哈撒韦","count":2},{"id":"关税政策","name":"关税政策","count":2},{"id":"创业历程","name":"创业历程","count":2},{"id":"加速计算","name":"加速计算","count":2},{"id":"吉姆-西蒙斯","name":"吉姆·西蒙斯","count":2},{"id":"哲学","name":"哲学","count":2},{"id":"国际合作","name":"国际合作","count":2},{"id":"大型语言模型","name":"大型语言模型","count":2},{"id":"好奇心","name":"好奇心","count":2},{"id":"季后赛","name":"季后赛","count":2},{"id":"工程实践","name":"工程实践","count":2},{"id":"巴菲特","name":"巴菲特","count":2},{"id":"形式化证明","name":"形式化证明","count":2},{"id":"彼得-蒂尔","name":"彼得·蒂尔","count":2},{"id":"微软","name":"微软","count":2},{"id":"提示工程","name":"提示工程","count":2},{"id":"数学","name":"数学","count":2},{"id":"数学研究","name":"数学研究","count":2},{"id":"文班亚马","name":"文班亚马","count":2},{"id":"智能代理开发","name":"智能代理开发","count":2},{"id":"毕业演讲","name":"毕业演讲","count":2},{"id":"版本控制","name":"版本控制","count":2},{"id":"科学发现","name":"科学发现","count":2},{"id":"科技停滞","name":"科技停滞","count":2},{"id":"软件工程变革","name":"软件工程变革","count":2},{"id":"软件开发","name":"软件开发","count":2},{"id":"量子力学","name":"量子力学","count":2},{"id":"阿贝尔奖","name":"阿贝尔奖","count":2},{"id":"风险投资","name":"风险投资","count":2},{"id":"agent设计","name":"Agent设计","count":1},{"id":"ai-for-science","name":"AI for Science","count":1},{"id":"ai-编程","name":"AI 编程","count":1},{"id":"ai伦理","name":"AI伦理","count":1},{"id":"ai最佳实践","name":"AI最佳实践","count":1},{"id":"ai大模型","name":"AI大模型","count":1},{"id":"ai并购","name":"AI并购","count":1},{"id":"ai应用","name":"AI应用","count":1},{"id":"ai开发者大会","name":"AI开发者大会","count":1},{"id":"ai推理","name":"AI推理","count":1},{"id":"ai收购","name":"AI收购","count":1},{"id":"ai数学发现","name":"AI数学发现","count":1},{"id":"ai生物医药","name":"AI生物医药","count":1},{"id":"ai竞争","name":"AI竞争","count":1},{"id":"ai编程代理","name":"AI编程代理","count":1},{"id":"ai芯片","name":"AI芯片","count":1},{"id":"ai规模化","name":"AI规模化","count":1},{"id":"ai辅助学习","name":"AI辅助学习","count":1},{"id":"ai辅助开发","name":"AI辅助开发","count":1},{"id":"anysphere","name":"Anysphere","count":1},{"id":"biography","name":"biography","count":1},{"id":"blackwell架构","name":"Blackwell架构","count":1},{"id":"cag","name":"CAG","count":1},{"id":"career","name":"career","count":1},{"id":"ceo交接","name":"CEO交接","count":1},{"id":"chatgpt","name":"ChatGPT","count":1},{"id":"chris-bishop","name":"Chris Bishop","count":1},{"id":"claude-4","name":"Claude 4","count":1},{"id":"claude-sonnet-4-5","name":"Claude Sonnet 4.5","count":1},{"id":"coding-agent","name":"Coding Agent","count":1},{"id":"context-engineering","name":"Context Engineering","count":1},{"id":"cs50","name":"CS50","count":1},{"id":"cuda生态","name":"CUDA生态","count":1},{"id":"deep-search","name":"Deep Search","count":1},{"id":"deepmind","name":"DeepMind","count":1},{"id":"distributed-systems","name":"distributed-systems","count":1},{"id":"elon-musk","name":"Elon Musk","count":1},{"id":"engineering","name":"engineering","count":1},{"id":"fields奖","name":"Fields奖","count":1},{"id":"geoffrey-hinton","name":"Geoffrey Hinton","count":1},{"id":"gpt-4","name":"GPT-4","count":1},{"id":"gpt-4-5","name":"GPT-4.5","count":1},{"id":"gpu与深度学习","name":"GPU与深度学习","count":1},{"id":"gpu架构","name":"GPU架构","count":1},{"id":"gpu算力","name":"GPU算力","count":1},{"id":"grok-3","name":"Grok 3","count":1},{"id":"haskell","name":"haskell","count":1},{"id":"incident","name":"incident","count":1},{"id":"jim-simons","name":"Jim Simons","count":1},{"id":"julia","name":"Julia","count":1},{"id":"june-huh","name":"june-huh","count":1},{"id":"kaggle","name":"Kaggle","count":1},{"id":"kiro-spec模式","name":"Kiro SPEC模式","count":1},{"id":"labor","name":"labor","count":1},{"id":"lean","name":"Lean","count":1},{"id":"lisp","name":"Lisp","count":1},{"id":"llm工具","name":"LLM工具","count":1},{"id":"mcp","name":"MCP","count":1},{"id":"mit","name":"MIT","count":1},{"id":"mvp","name":"MVP","count":1},{"id":"naval-ravikant","name":"Naval Ravikant","count":1},{"id":"ncaa疯狂三月","name":"NCAA疯狂三月","count":1},{"id":"noema","name":"noema","count":1},{"id":"notes","name":"notes","count":1},{"id":"notion","name":"Notion","count":1},{"id":"nvidia-gtc-2025","name":"NVIDIA GTC 2025","count":1},{"id":"openai","name":"OpenAI","count":1},{"id":"optimus机器人","name":"Optimus机器人","count":1},{"id":"peter-lax","name":"Peter Lax","count":1},{"id":"pixar","name":"pixar","count":1},{"id":"prompt-engineering","name":"Prompt Engineering","count":1},{"id":"psychology","name":"psychology","count":1},{"id":"publishing","name":"publishing","count":1},{"id":"python","name":"Python","count":1},{"id":"reliability","name":"reliability","count":1},{"id":"report","name":"report","count":1},{"id":"research","name":"Research","count":1},{"id":"research-career","name":"research-career","count":1},{"id":"robotics","name":"robotics","count":1},{"id":"sanjay-ghemawat","name":"Sanjay Ghemawat","count":1},{"id":"satya-nadella","name":"Satya Nadella","count":1},{"id":"scaling-laws","name":"Scaling Laws","count":1},{"id":"security","name":"security","count":1},{"id":"skills","name":"skills","count":1},{"id":"slimv","name":"Slimv","count":1},{"id":"technical-report","name":"technical-report","count":1},{"id":"terence-tao","name":"terence-tao","count":1},{"id":"vim","name":"Vim","count":1},{"id":"vlime","name":"Vlime","count":1},{"id":"wolfram","name":"Wolfram","count":1},{"id":"xai","name":"xAI","count":1},{"id":"yann-lecun","name":"Yann LeCun","count":1},{"id":"yc","name":"YC","count":1},{"id":"上下文工程","name":"上下文工程","count":1},{"id":"个人反思","name":"个人反思","count":1},{"id":"个人电脑","name":"个人电脑","count":1},{"id":"中美关系","name":"中美关系","count":1},{"id":"乌克兰战争","name":"乌克兰战争","count":1},{"id":"乔姆斯基","name":"乔姆斯基","count":1},{"id":"交通基础设施","name":"交通基础设施","count":1},{"id":"产品市场契合","name":"产品市场契合","count":1},{"id":"人工智能未来","name":"人工智能未来","count":1},{"id":"人形机器人","name":"人形机器人","count":1},{"id":"人机协作","name":"人机协作","count":1},{"id":"人机博弈","name":"人机博弈","count":1},{"id":"人生哲学","name":"人生哲学","count":1},{"id":"人类未来","name":"人类未来","count":1},{"id":"人类福祉","name":"人类福祉","count":1},{"id":"代理开发","name":"代理开发","count":1},{"id":"代理式编程","name":"代理式编程","count":1},{"id":"代码生成","name":"代码生成","count":1},{"id":"任务管理","name":"任务管理","count":1},{"id":"仿真学习","name":"仿真学习","count":1},{"id":"企业采用","name":"企业采用","count":1},{"id":"众包协作","name":"众包协作","count":1},{"id":"优绩主义","name":"优绩主义","count":1},{"id":"伦理监管","name":"伦理监管","count":1},{"id":"伯克希尔-哈撒韦","name":"伯克希尔·哈撒韦","count":1},{"id":"俄乌战争","name":"俄乌战争","count":1},{"id":"保罗-狄拉克","name":"保罗·狄拉克","count":1},{"id":"保险业务","name":"保险业务","count":1},{"id":"信号处理","name":"信号处理","count":1},{"id":"信息动力学","name":"信息动力学","count":1},{"id":"信息物理学","name":"信息物理学","count":1},{"id":"全球贸易","name":"全球贸易","count":1},{"id":"公共美德","name":"公共美德","count":1},{"id":"具身智能","name":"具身智能","count":1},{"id":"写作","name":"写作","count":1},{"id":"写作工具","name":"写作工具","count":1},{"id":"冷战数学","name":"冷战数学","count":1},{"id":"创业转型","name":"创业转型","count":1},{"id":"创业领导力","name":"创业领导力","count":1},{"id":"创造力与年龄","name":"创造力与年龄","count":1},{"id":"制度经济学","name":"制度经济学","count":1},{"id":"加性数论","name":"加性数论","count":1},{"id":"包容性制度","name":"包容性制度","count":1},{"id":"医疗应用","name":"医疗应用","count":1},{"id":"半导体","name":"半导体","count":1},{"id":"协同设计","name":"协同设计","count":1},{"id":"单位距离问题","name":"单位距离问题","count":1},{"id":"南非种族隔离","name":"南非种族隔离","count":1},{"id":"卢卡-东契奇","name":"卢卡·东契奇","count":1},{"id":"压缩感知","name":"压缩感知","count":1},{"id":"变换编码","name":"变换编码","count":1},{"id":"可持续能源","name":"可持续能源","count":1},{"id":"可重复性危机","name":"可重复性危机","count":1},{"id":"史蒂夫-乔布斯","name":"史蒂夫·乔布斯","count":1},{"id":"史蒂夫-纳什","name":"史蒂夫·纳什","count":1},{"id":"同伦类型论","name":"同伦类型论","count":1},{"id":"哲学辩论","name":"哲学辩论","count":1},{"id":"国际政治","name":"国际政治","count":1},{"id":"在线教育","name":"在线教育","count":1},{"id":"地缘政治","name":"地缘政治","count":1},{"id":"埃尔德什猜想","name":"埃尔德什猜想","count":1},{"id":"埃罗尔-马斯克","name":"埃罗尔·马斯克","count":1},{"id":"埃隆-马斯克","name":"埃隆·马斯克","count":1},{"id":"基督教与科学","name":"基督教与科学","count":1},{"id":"基础主义","name":"基础主义","count":1},{"id":"基础模型","name":"基础模型","count":1},{"id":"复合工程","name":"复合工程","count":1},{"id":"外交谈判","name":"外交谈判","count":1},{"id":"多伦多大学","name":"多伦多大学","count":1},{"id":"多体物理","name":"多体物理","count":1},{"id":"多智能体协同","name":"多智能体协同","count":1},{"id":"大数假说","name":"大数假说","count":1},{"id":"太空探索","name":"太空探索","count":1},{"id":"孤子理论","name":"孤子理论","count":1},{"id":"学习路径","name":"学习路径","count":1},{"id":"学术写作","name":"学术写作","count":1},{"id":"学术建议","name":"学术建议","count":1},{"id":"学术生态","name":"学术生态","count":1},{"id":"学术研究方法","name":"学术研究方法","count":1},{"id":"学术自传","name":"学术自传","count":1},{"id":"宇宙学","name":"宇宙学","count":1},{"id":"官僚主义改革","name":"官僚主义改革","count":1},{"id":"定理证明","name":"定理证明","count":1},{"id":"家族故事","name":"家族故事","count":1},{"id":"对冲基金","name":"对冲基金","count":1},{"id":"对称性","name":"对称性","count":1},{"id":"对称性破缺","name":"对称性破缺","count":1},{"id":"小平邦彦","name":"小平邦彦","count":1},{"id":"少林寺","name":"少林寺","count":1},{"id":"就业与经济","name":"就业与经济","count":1},{"id":"就业影响","name":"就业影响","count":1},{"id":"工作尊严","name":"工作尊严","count":1},{"id":"工作流","name":"工作流","count":1},{"id":"工程精神","name":"工程精神","count":1},{"id":"幸福与成功","name":"幸福与成功","count":1},{"id":"库珀-弗拉格","name":"库珀·弗拉格","count":1},{"id":"开发环境","name":"开发环境","count":1},{"id":"开发者工具","name":"开发者工具","count":1},{"id":"开发者生产力","name":"开发者生产力","count":1},{"id":"开源模型","name":"开源模型","count":1},{"id":"形式主义","name":"形式主义","count":1},{"id":"彼得-拉克斯","name":"彼得·拉克斯","count":1},{"id":"微分几何","name":"微分几何","count":1},{"id":"心理学","name":"心理学","count":1},{"id":"思维链","name":"思维链","count":1},{"id":"慈善","name":"慈善","count":1},{"id":"慈善事业","name":"慈善事业","count":1},{"id":"慕尼黑安全会议","name":"慕尼黑安全会议","count":1},{"id":"成长型思维","name":"成长型思维","count":1},{"id":"技术监管","name":"技术监管","count":1},{"id":"技能退化","name":"技能退化","count":1},{"id":"投资哲学","name":"投资哲学","count":1},{"id":"推理时计算","name":"推理时计算","count":1},{"id":"提纲写作","name":"提纲写作","count":1},{"id":"摩根大通","name":"摩根大通","count":1},{"id":"播客","name":"播客","count":1},{"id":"政治哲学","name":"政治哲学","count":1},{"id":"数字革命","name":"数字革命","count":1},{"id":"数学反例","name":"数学反例","count":1},{"id":"数学史","name":"数学史","count":1},{"id":"数学基础","name":"数学基础","count":1},{"id":"数学实践","name":"数学实践","count":1},{"id":"数学家传记","name":"数学家传记","count":1},{"id":"数学工作流","name":"数学工作流","count":1},{"id":"数学形式化","name":"数学形式化","count":1},{"id":"数据中心","name":"数据中心","count":1},{"id":"数据效率","name":"数据效率","count":1},{"id":"数据科学","name":"数据科学","count":1},{"id":"文化多样性","name":"文化多样性","count":1},{"id":"文化转型","name":"文化转型","count":1},{"id":"文学编程","name":"文学编程","count":1},{"id":"斯多葛主义","name":"斯多葛主义","count":1},{"id":"无人机","name":"无人机","count":1},{"id":"日本数学","name":"日本数学","count":1},{"id":"日记写作","name":"日记写作","count":1},{"id":"智能代理","name":"智能代理","count":1},{"id":"智能体ai","name":"智能体AI","count":1},{"id":"智能分析","name":"智能分析","count":1},{"id":"更衣室训话","name":"更衣室训话","count":1},{"id":"未来战争","name":"未来战争","count":1},{"id":"未来趋势","name":"未来趋势","count":1},{"id":"机器人技术","name":"机器人技术","count":1},{"id":"杰米-戴蒙","name":"杰米·戴蒙","count":1},{"id":"柏拉图主义","name":"柏拉图主义","count":1},{"id":"查尔斯-巴克利","name":"查尔斯·巴克利","count":1},{"id":"查理-芒格","name":"查理·芒格","count":1},{"id":"标记语言","name":"标记语言","count":1},{"id":"格罗滕迪克","name":"格罗滕迪克","count":1},{"id":"概形","name":"概形","count":1},{"id":"模仿理论","name":"模仿理论","count":1},{"id":"模型应用","name":"模型应用","count":1},{"id":"模型驱动交易","name":"模型驱动交易","count":1},{"id":"模拟宇宙假说","name":"模拟宇宙假说","count":1},{"id":"欧洲创新","name":"欧洲创新","count":1},{"id":"欧洲民主","name":"欧洲民主","count":1},{"id":"欧盟资本市场","name":"欧盟资本市场","count":1},{"id":"欺骗性ai","name":"欺骗性AI","count":1},{"id":"比尔-盖茨","name":"比尔·盖茨","count":1},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","count":1},{"id":"沉思录","name":"沉思录","count":1},{"id":"沙奎尔-奥尼尔","name":"沙奎尔·奥尼尔","count":1},{"id":"波波维奇","name":"波波维奇","count":1},{"id":"泽连斯基","name":"泽连斯基","count":1},{"id":"活文档","name":"活文档","count":1},{"id":"测试时计算","name":"测试时计算","count":1},{"id":"涌现","name":"涌现","count":1},{"id":"深度阅读","name":"深度阅读","count":1},{"id":"湖人三连冠","name":"湖人三连冠","count":1},{"id":"炒作与现实","name":"炒作与现实","count":1},{"id":"热力学第二定律","name":"热力学第二定律","count":1},{"id":"特斯拉","name":"特斯拉","count":1},{"id":"特朗普","name":"特朗普","count":1},{"id":"狄拉克","name":"狄拉克","count":1},{"id":"狄拉克方程","name":"狄拉克方程","count":1},{"id":"理论物理","name":"理论物理","count":1},{"id":"生产力工具","name":"生产力工具","count":1},{"id":"生成式ai","name":"生成式AI","count":1},{"id":"相对论","name":"相对论","count":1},{"id":"知识管理","name":"知识管理","count":1},{"id":"研究方法","name":"研究方法","count":1},{"id":"研究生指南","name":"研究生指南","count":1},{"id":"硅谷","name":"硅谷","count":1},{"id":"社交媒体","name":"社交媒体","count":1},{"id":"社会公平","name":"社会公平","count":1},{"id":"福柯","name":"福柯","count":1},{"id":"离散几何","name":"离散几何","count":1},{"id":"私募股权","name":"私募股权","count":1},{"id":"科学哲学","name":"科学哲学","count":1},{"id":"科学研究","name":"科学研究","count":1},{"id":"科学论文","name":"科学论文","count":1},{"id":"科技史","name":"科技史","count":1},{"id":"科比-布莱恩特","name":"科比·布莱恩特","count":1},{"id":"移民政策","name":"移民政策","count":1},{"id":"稀疏表示","name":"稀疏表示","count":1},{"id":"空间技术","name":"空间技术","count":1},{"id":"竞技长青","name":"竞技长青","count":1},{"id":"笔记技巧","name":"笔记技巧","count":1},{"id":"第一性原理","name":"第一性原理","count":1},{"id":"算法与社会","name":"算法与社会","count":1},{"id":"篮球战术","name":"篮球战术","count":1},{"id":"篮球访谈","name":"篮球访谈","count":1},{"id":"类型论","name":"类型论","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"约束等距性","name":"约束等距性","count":1},{"id":"纯文本写作","name":"纯文本写作","count":1},{"id":"纯粹数学","name":"纯粹数学","count":1},{"id":"线性代数","name":"线性代数","count":1},{"id":"经典阅读","name":"经典阅读","count":1},{"id":"结对编程","name":"结对编程","count":1},{"id":"编程教学","name":"编程教学","count":1},{"id":"编程语言","name":"编程语言","count":1},{"id":"美国ai政策","name":"美国AI政策","count":1},{"id":"美国政府改革","name":"美国政府改革","count":1},{"id":"美国经济","name":"美国经济","count":1},{"id":"美欧关系","name":"美欧关系","count":1},{"id":"翻译","name":"翻译","count":1},{"id":"职业自律","name":"职业自律","count":1},{"id":"职业辩护","name":"职业辩护","count":1},{"id":"联邦政府改革","name":"联邦政府改革","count":1},{"id":"联邦财政","name":"联邦财政","count":1},{"id":"股东信","name":"股东信","count":1},{"id":"股东大会","name":"股东大会","count":1},{"id":"能源","name":"能源","count":1},{"id":"能量基模型","name":"能量基模型","count":1},{"id":"自动驾驶","name":"自动驾驶","count":1},{"id":"自我认知","name":"自我认知","count":1},{"id":"自由意志主义","name":"自由意志主义","count":1},{"id":"自由民主","name":"自由民主","count":1},{"id":"苹果","name":"苹果","count":1},{"id":"苹果公司","name":"苹果公司","count":1},{"id":"药物研发","name":"药物研发","count":1},{"id":"蓝鳍金枪鱼","name":"蓝鳍金枪鱼","count":1},{"id":"虚拟细胞","name":"虚拟细胞","count":1},{"id":"蛋白质折叠","name":"蛋白质折叠","count":1},{"id":"蜂巢思维","name":"蜂巢思维","count":1},{"id":"行为偏差","name":"行为偏差","count":1},{"id":"西部决赛","name":"西部决赛","count":1},{"id":"规模法则","name":"规模法则","count":1},{"id":"规范驱动开发","name":"规范驱动开发","count":1},{"id":"言论自由","name":"言论自由","count":1},{"id":"计算增强生成","name":"计算增强生成","count":1},{"id":"计算数学","name":"计算数学","count":1},{"id":"计算机教育","name":"计算机教育","count":1},{"id":"计算机证明","name":"计算机证明","count":1},{"id":"训练体系","name":"训练体系","count":1},{"id":"论文写作","name":"论文写作","count":1},{"id":"论文撰写","name":"论文撰写","count":1},{"id":"访谈实录","name":"访谈实录","count":1},{"id":"詹姆斯-西蒙斯","name":"詹姆斯·西蒙斯","count":1},{"id":"语言学","name":"语言学","count":1},{"id":"诺贝尔经济学奖","name":"诺贝尔经济学奖","count":1},{"id":"谷歌","name":"谷歌","count":1},{"id":"贝叶斯方法","name":"贝叶斯方法","count":1},{"id":"财政削减","name":"财政削减","count":1},{"id":"资本配置","name":"资本配置","count":1},{"id":"超级智能","name":"超级智能","count":1},{"id":"超级计算","name":"超级计算","count":1},{"id":"跨领域训练","name":"跨领域训练","count":1},{"id":"身体转型","name":"身体转型","count":1},{"id":"软件工程范式","name":"软件工程范式","count":1},{"id":"软件开发最佳实践","name":"软件开发最佳实践","count":1},{"id":"软件开发未来","name":"软件开发未来","count":1},{"id":"运动恢复","name":"运动恢复","count":1},{"id":"还原论","name":"还原论","count":1},{"id":"通用人工智能","name":"通用人工智能","count":1},{"id":"重整化","name":"重整化","count":1},{"id":"量化交易","name":"量化交易","count":1},{"id":"金融服务","name":"金融服务","count":1},{"id":"金融监管","name":"金融监管","count":1},{"id":"阅读方法","name":"阅读方法","count":1},{"id":"集合论","name":"集合论","count":1},{"id":"非虚构阅读","name":"非虚构阅读","count":1},{"id":"预训练","name":"预训练","count":1},{"id":"领导力","name":"领导力","count":1},{"id":"香农信息熵","name":"香农信息熵","count":1},{"id":"马刺","name":"马刺","count":1},{"id":"马库斯-奥勒留","name":"马库斯·奥勒留","count":1}],"moduleNavItems":[{"id":"essays","label":"Essays","href":"/?label=Essays","order":40,"icon":"BookOpen","count":62},{"id":"talks","label":"Talks","href":"/?label=Talks","order":42,"icon":"Video","count":165},{"id":"reports","label":"Reports","href":"/?label=Reports","order":41,"icon":"FileText","count":36},{"id":"notes","label":"Notes","href":"/?label=Notes","order":30,"icon":"Eye","count":78}],"children":"$L10"}]]}]]}]
+10:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"min-h-screen px-12 py-12 font-sans text-slate-900","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n            (function () {\n              var pathname = window.location.pathname || '';\n              var canonicalPrefix = '/hinbox';\n\n              if (/^/hinbox(?:/|$)/i.test(pathname) && pathname !== pathname.replace(/^/hinbox/i, canonicalPrefix)) {\n                var target = pathname.replace(/^/hinbox/i, canonicalPrefix) + window.location.search + window.location.hash;\n                window.location.replace(target);\n                return;\n              }\n            }());\n          "}}],["$","div",null,{"className":"mx-auto flex min-h-[60vh] max-w-2xl flex-col justify-center gap-4","children":[["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"页面未找到"}],["$","p",null,{"className":"text-base leading-7 text-slate-600","children":"如果你是从大写路径进入本站，系统会自动跳转到小写的规范地址。"}],["$","p",null,{"className":"text-base","children":["返回首页：",["$","a",null,{"className":"text-sky-600 underline underline-offset-4","href":"/hinbox/","children":"/hinbox/"}]]}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+11:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+12:T71d4,<h1>Kimi K2.6 技术博客：推进开源编程</h1>
+<p>Kimi 团队发布了新一代开源模型 K2.6，在编码能力、长程执行与智能体集群方面均达到业界领先水平。这篇技术博客详细拆解了模型的核心设计思路与实测表现，其中最令人印象深刻的并非基准测试分数，而是 K2.6 在真实复杂工程任务中展现出的自主性与可靠性：它曾用 Zig 语言在 Mac 上从零优化 Qwen3.5-0.8B 的推理性能，历经四千余次工具调用和十多小时的持续迭代，最终将吞吐量提升至 193 tokens/秒；也曾自主重构一个已有八年历史的开源金融撮合引擎，分析火焰图定位瓶颈、重构核心线程拓扑，最终实现 185% 的中位数吞吐量跃升。多位测试方的反馈也指向同一个结论——K2.6 真正突破的是长程任务中的稳定性和指令遵循能力，这使其成为构建自主智能体管线的可靠底座。对于关注开源大模型前沿进展、智能体编码工作流的读者而言，这篇文章提供了翔实且有说服力的技术参考。</p>
+<hr>
+<h2>长程编码（Long-Horizon Coding）</h2>
+<h3>编码驱动设计（Coding-Driven Design）</h3>
+<h3>升级版智能体集群（Agent Swarms, Elevated）</h3>
+<h3>主动式智能体（Proactive Agents）</h3>
+<h3>自带智能体（Bring Your Own Agents）</h3>
+<h3>基准测试表（Benchmark Table）</h3>
+<h3>脚注（Footnotes）</h3>
+<p>我们正在开源最新模型 <strong>Kimi K2.6</strong>，具备 <strong>业界领先的编码能力、长程执行能力与智能体集群能力</strong>。Kimi K2.6 现已可通过 <strong><a href="https://www.kimi.com/">Kimi.com</a>、Kimi App、<a href="https://platform.kimi.ai/">API</a> 和 <a href="https://www.kimi.com/code">Kimi Code</a></strong> 使用。</p>
+<h3>通用智能体（General Agents）</h3>
+<h6>Humanity's Last Exam (Full) w/ tools</h6>
+<h6>BrowseComp</h6>
+<h6>DeepSearchQA (f1-score)</h6>
+<h6>Toolathlon</h6>
+<h6>OSWorld-Verified</h6>
+<h3>编码（Coding）</h3>
+<h6>Terminal-Bench 2.0 (Terminus-2)</h6>
+<h6>SWE-Bench Pro</h6>
+<h6>SWE-Multilingual</h6>
+<h3>视觉智能体（Visual Agents）</h3>
+<h6>MathVision w/ python</h6>
+<h6>V* w/ python</h6>
+<h3>长程编码</h3>
+<p>Kimi K2.6 在长程编码任务上展现出显著提升，能够跨编程语言（如 Rust、Go 和 Python）及任务类型（如前端、DevOps 和性能优化）实现可靠的泛化。在 <strong>Kimi Code Bench</strong>（我们内部覆盖多种复杂端到端任务的编码评测基准）上，Kimi K2.6 相比 Kimi K2.5 显示出明显改进。</p>
+<p><img src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/2/2026-04-20/1d7j305qav1fc641b5670?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" alt="Kimi Code Bench"></p>
+<p>Kimi K2.6 在复杂工程任务中展现出强大的长程编码能力：</p>
+<p>Kimi K2.6 成功在 Mac 上本地下载并部署了 <strong>Qwen3.5-0.8B</strong> 模型。通过使用高度小众的编程语言 <strong>Zig</strong> 实现并优化模型推理，它展示了卓越的分布外泛化能力。在 <strong>超过 4,000 次工具调用、12 小时以上的持续执行以及 14 轮迭代</strong> 中，Kimi K2.6 将吞吐量从约 15 tokens/秒大幅提升至 <strong>约 193 tokens/秒</strong>，最终速度比 LM Studio 快约 <strong>20%</strong>。</p>
+<p><img src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/2/2026-04-20/1d7j1727f2ena623likig?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" alt="K2.6 Qwen3.5-0.8B Mac 推理优化案例"></p>
+<p>Kimi K2.6 自主重构了 <strong>exchange-core</strong>——一个已有 8 年历史的开源金融撮合引擎。在 <strong>13 小时的执行过程</strong> 中，模型迭代了 12 种优化策略，发起超过 1,000 次工具调用，精确修改了 4,000 多行代码。Kimi K2.6 扮演了专家级系统架构师的角色，通过分析 CPU 和分配火焰图来定位隐藏瓶颈，并大胆重构了核心线程拓扑（从 4ME+2RE 改为 2ME+1RE）。尽管该引擎已接近其性能极限运行，Kimi K2.6 仍然实现了 <strong>185% 的中位数吞吐量跃升</strong>（从 0.43 到 1.24 MT/s）以及 <strong>133% 的性能吞吐量提升</strong>（从 1.23 攀升至 2.86 MT/s）。</p>
+<p><img src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/2/2026-04-20/1d7j16siav1fc641arbr0?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" alt="K2.6 exchange-core 编码展示"></p>
+<p>在 Beta 测试中，K2.6 在企业评测的长程编码任务上表现优异（按字母顺序排列）：</p>
+<blockquote>
+<p><strong>Kimi K2.6 的进化令人印象深刻。</strong> 它的编码能力达到了与顶尖闭源模型相当的水平，并且由于对第三方框架的深刻理解，提供了强大的工具调用质量。Kimi K2.6 出色的可靠性使其成为复杂长程工程任务的绝佳选择。</p>
+</blockquote>
+<blockquote>
+<p><strong>Kimi K2.6 为开源模型树立了新标杆，尤其是在长程、智能体式编码工作流方面。</strong> 它能处理复杂的多步任务，指令遵循能力更强，代码质量始终如一。我们发现它能以显著的稳定性维持长时间的编码会话，远超普通模型。它还能发现深层次、不明显的 bug，而这些 bug 通常需要开发者花费大量时间才能找出。总体而言，K2.6 为可靠编码设立了新标准。</p>
+</blockquote>
+<blockquote>
+<p><strong>在 CodeBuddy 内部评测中，Kimi K2.6 相比 K2.5 有显著提升：代码生成准确率提高 12%，长上下文稳定性提升 18%，工具调用成功率达到 96.60%。</strong> 其更强的推理能力和更一致的输出质量为确保 CodeBuddy WorkBuddy 的可靠用户体验提供了有力支撑。</p>
+</blockquote>
+<blockquote>
+<p><strong>在我们自己的基准测试（+15%）和并排对比中，K2.6 相比 K2.5 都有明显改进。</strong> 它的指令遵循能力更强，探索和推理更深入，编码错误或使用 hack 的可能性更低。</p>
+</blockquote>
+<blockquote>
+<p>我们非常高兴看到 Kimi K2.6 的发布再次推动了开源模型的飞跃，这标志着高风险智能体工作流的重大进步。<strong>最具影响力的改进在于其长程可靠性和指令遵循能力。</strong> K2.6 擅长在长时间编码过程中保持架构完整性，使其成为自主智能体管线（如同各类 "claws"）的稳定基础。它在长上下文任务上相比 K2.5 有了可量化的飞跃，在复杂推理中达到了业界领先水平。</p>
+</blockquote>
+<blockquote>
+<p>我们提前体验了 K2.6 并在 Hermes Agent 上进行了测试。<strong>工具调用和智能体循环感觉明显更紧凑，编码能力明显提升，创意范围也令我们惊喜。</strong> 我们对与 Kimi 合作举办创意黑客马拉松感到非常兴奋。Kimi 团队持续超越预期！</p>
+</blockquote>
+<blockquote>
+<p><strong>K2.6 以极低的成本提供了业界顶尖水平的性能。</strong> 它在跨代码库的长上下文任务以及支持 KiloClaw 这类常驻智能体的日常工作中都表现出色。</p>
+</blockquote>
+<blockquote>
+<p><strong>Kimi K2.6 提升了开源模型的标准。</strong> 它在编码方面表现卓越，尤其适用于 OpenClaw 和 Hermes 等智能体工具。在早期测试中，它能以令人印象深刻的稳定性维持长时间的多步会话。它将开箱即用地支持 Ollama 的全部集成，我们期待看到开发者用它构建的作品。</p>
+</blockquote>
+<blockquote>
+<p><strong>在 OpenCode 中，Kimi K2.6 被证明异常可靠。</strong> 它在任务分解和工具调用方面既稳健又一致。凭借对任务需求更精准的把握和更简化的多步操作，它能有效减少重复开销，带来更流畅、更可信的端到端体验。</p>
+</blockquote>
+<blockquote>
+<p><strong>Kimi K2.6 在 Qoder 内部评测中表现强劲，相比 K2.5 取得了显著进步。</strong> 具体而言，工具调用和模型调用的频率明显增加，反映了模型在任务执行过程中的主动性和智能性有了大幅提升。工具调用中这种增强的主动性使模型能够更主动地理解开发者意图并自动补全上下文，从而减少对用户的打断和等待时间。</p>
+</blockquote>
+<blockquote>
+<p>K2.6 在我们开发者最关心的能力上比 K2.5 有重大提升：我们在 Next.js 基准测试上看到了超过 50% 的改进，使其跻身该平台上的顶尖模型之列。结合其性价比，它是通过 AI Gateway 进行智能体编码和前端生成的极具吸引力的选择。</p>
+</blockquote>
+<p>01 / 06</p>
+<h3>编码驱动的设计</h3>
+<p>基于强大的编码能力，Kimi K2.6 能够将简单的提示词转化为完整的前端界面，生成具有深思熟虑设计选择的结构化布局，例如美观的 Hero 区域，以及交互元素和丰富的动画效果，包括滚动触发的动效。凭借对图像和视频生成工具的娴熟运用，Kimi K2.6 支持生成视觉上协调一致的素材，并有助于打造更高质量、更突出的 Hero 区域。</p>
+<p>此外，Kimi K2.6 的能力超越了静态前端开发，扩展至简单的全栈工作流——涵盖身份验证、用户交互到数据库操作，适用于诸如事务记录或会话管理等轻量级用例。</p>
+<p>我们建立了内部 <strong>Kimi Design Bench</strong>（Kimi 设计基准测试），分为四个类别：视觉输入任务、Landing Page 构建、全栈应用开发和通用创意编程。与 Google AI Studio 相比，Kimi K2.6 在这些类别中表现出了令人期待的结果和良好的性能。</p>
+<p><img src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/2/2026-04-20/1d7j30aiav1fc641b5710?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" alt="Kimi Design Bench"></p>
+<p>以下是由 <a href="https://www.kimi.com/websites">K2.6 Agent</a> 从单个提示词生成的示例，配有预配置的 harness 和工具：</p>
+<p><strong>美观：精美前端设计，交互丰富</strong></p>
+<p><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-15/1d7fnk053v89kkehrsu70?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-15/1d7fnkiaav1fc641194p0?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-15/1d7fnku2av1fc641197gg?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video></p>
+<p><strong>功能：内置数据库和身份验证</strong></p>
+<p><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-20/1d7isbkd3v89kkei4o4mg?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-15/1d7fnklpl51jas5f2nmng?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-15/1d7fnl1edcmosb3uul6q0?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video></p>
+<p><strong>工具使用：利用图像/视频生成工具创建精美的网站</strong></p>
+<p><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-20/1d7irsmpl51jas5fbh3qg?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-15/1d7fnkovf2ena623c10rg?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-15/1d7fnl4nf2ena623c13jg?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video></p>
+<h3>智能体集群，全面升级</h3>
+<p><strong>横向扩展，而非仅仅纵向扩展。</strong> 智能体集群将任务动态分解为异构子任务，由自行创建的领域专用智能体并发执行。</p>
+<p>基于 K2.5 Agent Swarm 研究预览版，<a href="https://www.kimi.com/agent-swarm">Kimi K2.6 Agent Swarm</a> 在智能体集群体验上展现了<strong>质的飞跃</strong>。它无缝协调异构智能体，将互补技能融合在一起：广度搜索与深度研究相结合、大规模文档分析与长文写作相融合，以及多格式内容的并行生成。这种组合式智能使集群能够在单次自主运行中交付端到端的输出——涵盖文档、网站、幻灯片和电子表格。</p>
+<p>该架构横向扩展至 <strong>300 个子智能体同时在 4,000 个协调步骤中执行</strong>，相比 K2.5 的 100 个子智能体和 1,500 个步骤有了大幅扩展。这种大规模并行化从根本上降低了端到端延迟，同时显著提升了输出质量，并扩展了智能体集群的运作边界。</p>
+<p>它还可以将任何高质量文件（如 PDF、电子表格、幻灯片和 Word 文档）转化为 <strong>Skills（技能）</strong>。Kimi K2.6 捕捉并保持文档的结构和风格 DNA，使你能够在未来的任务中重现相同的质量和格式。</p>
+<p>以下是一些示例：</p>
+<p><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-20/1d7itc9ff2ena623l0t3g?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video></p>
+<p>在 100 个全球半导体资产上设计并执行了 5 种量化策略，提炼出 McKinsey 风格的 PPT 作为可复用技能，并交付了详细的建模电子表格和完整的高管演示文稿。</p>
+<p><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-20/1d7itct7f2ena623l0vk0?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video></p>
+<p>将一篇包含丰富视觉数据的高质量天体物理学论文转化为可复用的学术技能，提炼其推理流程和可视化方法，并生成了一篇 40 页、7,000 词的研究论文、一个包含 20,000+ 条目的结构化数据集，以及 14 张天文学级图表。</p>
+<p><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-20/1d7itd0vf2ena623l0vvg?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video></p>
+<p>基于上传的简历，K2.6 生成了 100 个子智能体，匹配加利福尼亚州的 100 个相关职位，交付了结构化的机会数据集和 100 份完全定制的简历。</p>
+<p><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-20/1d7itdbn6rtp4tqb7mrkg?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video></p>
+<p>从 Google Maps 中识别出洛杉矶 30 家没有官方网站的零售店，并为每家生成了高转化率的 Landing Page，展现了机会发现和端到端执行能力。</p>
+<h3>主动式智能体</h3>
+<p>K2.6 在诸如 <strong><a href="https://openclaw.ai/">OpenClaw</a></strong> 和 <strong><a href="https://hermes-agent.nousresearch.com/">Hermes</a></strong> 等自主、主动式智能体上展现了强劲性能，这些智能体跨多个应用持续全天候运行。</p>
+<p>与简单的基于聊天的交互不同，这些工作流要求 AI 以持久化后台智能体的方式主动管理日程、执行代码并编排跨平台操作。</p>
+<p>我们的 RL 基础设施团队使用了一个基于 K2.6 的智能体，它自主运行了 <strong>5 天</strong>，管理监控、事件响应和系统运维，展现了持久化上下文、多线程任务处理以及从告警到解决的完整周期执行能力。以下是 K2.6 的工作日志（已匿名化处理以去除敏感信息）：</p>
+<p><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-20/1d7iu25d3v89kkei510d0?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video></p>
+<p>K2.6 Agent Trace——5 天自主工程工作日志</p>
+<p>Kimi K2.6 在真实世界可靠性方面带来了可衡量的改进：更精确的 API 解读、更稳定的长时运行性能，以及在扩展研究任务中更强的安全意识。</p>
+<p>性能提升通过我们的内部 <strong>Claw Bench</strong>（Claw 基准测试）进行量化，该评测套件涵盖五个领域：编码任务、IM 生态系统集成、信息研究与分析、定时任务管理和记忆利用。在所有指标上，Kimi K2.6 在任务完成率和工具调用准确率方面显著优于 Kimi K2.5——尤其是在需要无需人工监督的持续自主运行的工作流中。</p>
+<p><img src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/2/2026-04-20/1d7j2vv53v89kkei5on5g?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" alt="Kimi Claw Bench"></p>
+<hr>
+<h3>自带智能体</h3>
+<p>基于 Kimi K2.6 强大的编排能力，Kimi K2.6 将你的主动式智能体扩展到 <strong>Claw Groups</strong>（以研究预览形式推出）——这是智能体集群（Agent Swarm）架构的一个新实例。</p>
+<p>Claw Groups 拥抱一个开放、异构的生态系统：多个智能体与人类作为真正的协作者共同运作。用户可以从任何设备接入智能体，它们运行着不同的模型，各自携带专用的工具包、技能和持久记忆上下文。无论是部署在本地笔记本、移动设备还是云实例上，这些多样的智能体都能无缝集成到一个共享的操作空间中。</p>
+<p>在这个集群的中心，Kimi K2.6 充当着一个自适应协调器。它根据智能体各自的技能画像和可用工具，动态匹配任务，优化能力适配。当某个智能体遭遇失败或停滞时，协调器会检测到中断，自动重新分配任务或重新生成子任务，并主动管理交付物的完整生命周期——从启动到验证直至完成。</p>
+<p>我们还要感谢 Claw Groups 中由 K2.6 驱动的智能体——我们一直在通过在实践中打磨人机协作工作流，亲身使用（dogfooding）自己的智能体营销团队。借助 Claw Groups，我们运行端到端的内容制作和发布活动，让 Demo 制作智能体、基准测试制作智能体、社交媒体智能体和视频制作智能体等各类专门智能体协同工作。K2.6 协调整个过程，使智能体能够共享中间结果，将创意转化为一致的、完整打包的交付物。</p>
+<p><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-20/1d7j46uudcmosb3v8m270?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video></p>
+<p>我们正在超越简单地向 AI 提问或分配任务的阶段，步入一个人与 AI 作为真正伙伴协作的时代——汇聚各自优势共同解决问题。Claw Groups 标志着我们向这样一个未来迈出的最新努力：在那里，"我的智能体"、"你的智能体"和"我们的团队"之间的边界无缝消融，融为一个协作系统。</p>
+<hr>
+<h3>基准测试表</h3>
+<table><thead><tr><th>基准测试</th><th>Kimi K2.6</th><th>GPT-5.4 (xhigh)</th><th>Claude Opus 4.6 (max effort)</th><th>Gemini 3.1 Pro (thinking high)</th><th>Kimi K2.5</th></tr></thead><tbody><tr><td><strong>智能体</strong></td><td colspan="5"></td></tr><tr><td rowspan="1"><p>HLE-Full w/ tools</p></td><td>54.0</td><td>52.1</td><td>53.0</td><td>51.4</td><td>50.2</td></tr><tr><td rowspan="1"><p>BrowseComp</p></td><td>83.2</td><td>82.7</td><td>83.7</td><td>85.9</td><td>74.9</td></tr><tr><td rowspan="1"><p>BrowseComp (agent swarm)</p></td><td>86.3</td><td>—</td><td>—</td><td>—</td><td>78.4</td></tr><tr><td rowspan="1"><p>DeepSearchQA (f1-score)</p></td><td>92.5</td><td>78.6</td><td>91.3</td><td>81.9</td><td>89.0</td></tr><tr><td rowspan="1"><p>DeepSearchQA (accuracy)</p></td><td>83.0</td><td>63.7</td><td>80.6</td><td>60.2</td><td>77.1</td></tr><tr><td rowspan="1"><p>WideSearch (item-f1)</p></td><td>80.8</td><td>—</td><td>—</td><td>—</td><td>72.7</td></tr><tr><td rowspan="1"><p>Toolathlon</p></td><td>50.0</td><td>54.6</td><td>47.2</td><td>48.8</td><td>27.8</td></tr><tr><td rowspan="1"><p>MCPMark</p></td><td>55.9</td><td>62.5*</td><td>56.7*</td><td>55.9*</td><td>29.5</td></tr><tr><td rowspan="1"><p>Claw Eval (pass^3)</p></td><td>62.3</td><td>60.3</td><td>70.4</td><td>57.8</td><td>52.3</td></tr><tr><td rowspan="1"><p>Claw Eval (pass@3)</p></td><td>80.9</td><td>78.4</td><td>82.4</td><td>82.9</td><td>75.4</td></tr><tr><td rowspan="1"><p>APEX-Agents</p></td><td>27.9</td><td>33.3</td><td>33.0</td><td>32.0</td><td>11.5</td></tr><tr><td rowspan="1"><p>OSWorld-Verified</p></td><td>73.1</td><td>75.0</td><td>72.7</td><td>—</td><td>63.3</td></tr><tr><td><strong>编程</strong></td><td colspan="5"></td></tr><tr><td rowspan="1"><p>Terminal-Bench 2.0 (Terminus-2)</p></td><td>66.7</td><td>65.4*</td><td>65.4</td><td>68.5</td><td>50.8</td></tr><tr><td rowspan="1"><p>SWE-Bench Pro</p></td><td>58.6</td><td>57.7</td><td>53.4</td><td>54.2</td><td>50.7</td></tr><tr><td rowspan="1"><p>SWE-Bench Multilingual</p></td><td>76.7</td><td>—</td><td>77.8</td><td>76.9*</td><td>73.0</td></tr><tr><td rowspan="1"><p>SWE-Bench Verified</p></td><td>80.2</td><td>—</td><td>80.8</td><td>80.6</td><td>76.8</td></tr><tr><td rowspan="1"><p>SciCode</p></td><td>52.2</td><td>56.6</td><td>51.9</td><td>58.9</td><td>48.7</td></tr><tr><td rowspan="1"><p>OJBench (python)</p></td><td>60.6</td><td>—</td><td>60.3</td><td>70.7</td><td>54.7</td></tr><tr><td rowspan="1"><p>LiveCodeBench (v6)</p></td><td>89.6</td><td>—</td><td>88.8</td><td>91.7</td><td>85.0</td></tr><tr><td><strong>推理与知识</strong></td><td colspan="5"></td></tr><tr><td rowspan="1"><p>HLE-Full</p></td><td>34.7</td><td>39.8</td><td>40.0</td><td>44.4</td><td>30.1</td></tr><tr><td rowspan="1"><p>AIME 2026</p></td><td>96.4</td><td>99.2</td><td>96.7</td><td>98.3</td><td>95.8</td></tr><tr><td rowspan="1"><p>HMMT 2026 (Feb)</p></td><td>92.7</td><td>97.7</td><td>96.2</td><td>94.7</td><td>87.1</td></tr><tr><td rowspan="1"><p>IMO-AnswerBench</p></td><td>86.0</td><td>91.4</td><td>75.3</td><td>91.0*</td><td>81.8</td></tr><tr><td rowspan="1"><p>GPQA-Diamond</p></td><td>90.5</td><td>92.8</td><td>91.3</td><td>94.3</td><td>87.6</td></tr><tr><td><strong>视觉</strong></td><td colspan="5"></td></tr><tr><td rowspan="1"><p>MMMU-Pro</p></td><td>79.4</td><td>81.2</td><td>73.9</td><td>83.0*</td><td>78.5</td></tr><tr><td rowspan="1"><p>MMMU-Pro w/ python</p></td><td>80.1</td><td>82.1</td><td>77.3</td><td>85.3*</td><td>77.7</td></tr><tr><td rowspan="1"><p>CharXiv (RQ)</p></td><td>80.4</td><td>82.8*</td><td>69.1</td><td>80.2*</td><td>77.5</td></tr><tr><td rowspan="1"><p>CharXiv (RQ) w/ python</p></td><td>86.7</td><td>90.0*</td><td>84.7</td><td>89.9*</td><td>78.7</td></tr><tr><td rowspan="1"><p>MathVision</p></td><td>87.4</td><td>92.0*</td><td>71.2*</td><td>89.8*</td><td>84.2</td></tr><tr><td rowspan="1"><p>MathVision w/ python</p></td><td>93.2</td><td>96.1*</td><td>84.6*</td><td>95.7*</td><td>85.0</td></tr><tr><td rowspan="1"><p>BabyVision</p></td><td>39.8</td><td>49.7</td><td>14.8</td><td>51.6</td><td>36.5</td></tr><tr><td rowspan="1"><p>BabyVision w/ python</p></td><td>68.5</td><td>80.2*</td><td>38.4*</td><td>68.3*</td><td>40.5</td></tr><tr><td rowspan="1"><p>V* w/ python</p></td><td>96.9</td><td>98.4*</td><td>86.4*</td><td>96.9*</td><td>86.9</td></tr></tbody></table>
+<p>如需复现官方 Kimi-K2.6 基准测试结果，建议使用官方 API。若使用第三方提供商，请参考 Kimi Vendor Verifier（KVV）选择高精度服务。详情：<a href="https://kimi.com/blog/kimi-vendor-verifier">https://kimi.com/blog/kimi-vendor-verifier</a></p>
+<p><strong>1. 通用测试细节</strong></p>
+<ul>
+<li>我们报告的 Kimi K2.6 和 Kimi K2.5 结果均启用了思考模式（thinking mode），Claude Opus 4.6 采用最大努力（max effort），GPT-5.4 采用 xhigh 推理努力（xhigh reasoning effort），Gemini 3.1 Pro 采用高思考层级（high thinking level）。</li>
+<li>除非另有说明，所有 Kimi K2.6 实验均使用 temperature = 1.0、top-p = 1.0、上下文长度（context length）262,144 tokens 进行。</li>
+<li>未公开分数的基准测试在与 Kimi K2.6 相同的条件下重新评估，并以星号（*）标记。除标注星号的结果外，其他所有结果均引用自官方报告。</li>
+</ul>
+<p><strong>2. 推理基准测试</strong></p>
+<ul>
+<li>GPT-5.4 和 Claude 4.6 的 IMO-AnswerBench 分数来自 <a href="https://z.ai/blog/glm-5.1">https://z.ai/blog/glm-5.1</a>。</li>
+<li>人类最后的考试（Humanity's Last Exam, HLE）及其他推理任务的最大生成长度（maximum generation length）为 98,304 tokens。默认报告 HLE 完整集（full set）的结果。在纯文本子集上，Kimi K2.6 无工具时准确率为 36.4%，使用工具时为 55.5%。</li>
+</ul>
+<p><strong>3. 工具增强 / 智能体任务</strong></p>
+<ul>
+<li>Kimi K2.6 在 HLE with tools、BrowseComp、DeepSearchQA 和 WideSearch 中配备了搜索（search）、代码解释器（code-interpreter）和网页浏览（web-browsing）工具。</li>
+<li>对于 HLE-Full with tools，最大生成长度为 262,144 tokens，每步限制 49,152 tokens。我们采用简单的上下文管理（context management）策略：一旦上下文窗口超出阈值，仅保留最近一轮工具相关消息。</li>
+<li>对于 BrowseComp，我们报告的分数采用与 Kimi K2.5 和 DeepSeek-V3.2 相同的丢弃所有（discard-all）策略进行上下文管理。</li>
+<li>对于 DeepSearchQA，Kimi K2.6 测试未应用上下文管理，超出支持上下文长度的任务直接计为失败。Claude Opus 4.6、GPT-5.4 和 Gemini 3.1 Pro 在 DeepSearchQA 上的分数引自 <a href="https://cdn.sanity.io/files/4zrzovbb/website/037f06850df7fbe871e206dad004c3db5fd50340.pdf">Claude Opus 4.7 System Card</a>。</li>
+<li>对于 WideSearch，我们在"隐藏工具结果"（hide tool result）上下文管理设置下报告结果。一旦上下文窗口超出阈值，仅保留最近一轮工具相关消息。</li>
+<li>测试系统提示词（system prompts）与 <a href="https://arxiv.org/pdf/2602.02276">Kimi K2.5 技术报告</a> 中使用的相同。</li>
+<li>Claw Eval 使用 1.1 版本进行，max-tokens-per-step = 16384。</li>
+<li>对于 APEX-Agents，我们评估了公开 480 项任务中的 452 项，与 <a href="https://artificialanalysis.ai/evaluations/apex-agents-aa">Artificial Analysis</a> 的做法一致（排除了 Investment Banking Worlds 244 和 246，这两项存在外部运行时依赖）。</li>
+</ul>
+<p><strong>4. 编程任务</strong></p>
+<ul>
+<li>Terminal-Bench 2.0 分数使用默认智能体框架（Terminus-2）和提供的 JSON parser 获得，运行在 preserve thinking 模式。</li>
+<li>对于 SWE-Bench 系列评估（包括 Verified、Multilingual 和 Pro），我们使用基于 SWE-agent 改编的内部评估框架。该框架包含最小工具集——bash 工具（bash tool）、createfile 工具（createfile tool）、insert 工具（insert tool）、view 工具（view tool）、strreplace 工具（strreplace tool）和 submit 工具（submit tool）。</li>
+<li>所有编程任务的报告分数均为 10 次独立运行的平均值。</li>
+</ul>
+<p><strong>5. 视觉基准测试</strong></p>
+<ul>
+<li>Max-tokens = 98,304，三次运行取平均（avg@3）。</li>
+<li>使用 Python 工具的设置中，max-tokens-per-step = 65,536，max-steps = 50，用于多步推理。</li>
+<li>MMMU-Pro 遵循官方协议，保留输入顺序并在输入前插入图像。</li>
+</ul>
+<hr>
+<h2>术语表</h2>
+<table>
+<thead>
+<tr>
+<th>原文</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>adaptive coordinator</td>
+<td>自适应协调器</td>
+</tr>
+<tr>
+<td>Agent Swarms</td>
+<td>智能体集群</td>
+</tr>
+<tr>
+<td>Claw Bench</td>
+<td>Claw 基准测试</td>
+</tr>
+<tr>
+<td>Claw Groups</td>
+<td>Claw Groups（保留原文，产品特性名称）</td>
+</tr>
+<tr>
+<td>Compositional intelligence</td>
+<td>组合式智能</td>
+</tr>
+<tr>
+<td>context management</td>
+<td>上下文管理</td>
+</tr>
+<tr>
+<td>context window</td>
+<td>上下文窗口</td>
+</tr>
+<tr>
+<td>deliverables</td>
+<td>交付物</td>
+</tr>
+<tr>
+<td>dogfooding</td>
+<td>亲身使用（内部试用自家产品）</td>
+</tr>
+<tr>
+<td>exchange-core</td>
+<td>exchange-core（保留原文，开源项目名称）</td>
+</tr>
+<tr>
+<td>flame graph</td>
+<td>火焰图</td>
+</tr>
+<tr>
+<td>Hero section</td>
+<td>Hero 区域</td>
+</tr>
+<tr>
+<td>Long-Horizon Coding</td>
+<td>长程编码</td>
+</tr>
+<tr>
+<td>preserve thinking mode</td>
+<td>preserve thinking 模式（保留原文，Terminus-2 框架功能模式名称）</td>
+</tr>
+<tr>
+<td>Proactive Agents</td>
+<td>主动式智能体</td>
+</tr>
+<tr>
+<td>skill profiles</td>
+<td>技能画像</td>
+</tr>
+<tr>
+<td>Skill（feature）</td>
+<td>技能</td>
+</tr>
+<tr>
+<td>Sub-agent</td>
+<td>子智能体</td>
+</tr>
+<tr>
+<td>system prompts</td>
+<td>系统提示词</td>
+</tr>
+<tr>
+<td>thinking mode</td>
+<td>思考模式</td>
+</tr>
+<tr>
+<td>throughput</td>
+<td>吞吐量</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+5:["$","$L11",null,{"email":{"id":"reports-kimi-k26-tech-blog-advancing-open-source-coding","sender":"Moonshot AI","subject":"Kimi K2.6 技术博客：推进开源编程","snippet":"Kimi 团队发布了新一代开源模型 K2.6，在编码能力、长程执行与智能体集群方面均达到业界领先水平。这篇技术博客详细拆解了模型的核心设计思路与实测表现，其中最令人印象深刻的并非基准测试分数，而是 K2.6 在真实复杂工程任务中展现出的自主性与可靠性：它曾用 Zig 语言在 Mac 上从零优化 Qwen3.5-0.8B 的推理性能，历经四千余次工具调用和十多小时的持续迭代，最终将吞吐量提升至 193 tokens/秒；也曾自主重构一个已","date":"2026-04-21","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["translated"],"mdTheme":"magazine","sourcePath":"reports/kimi-k26-tech-blog-advancing-open-source-coding.md","sourceUrl":"https://www.kimi.com/blog/kimi-k2-6","coverImage":"$undefined","body":"$12","prompts":[]},"listPosition":{"index":103,"total":365},"matchedPerson":"$undefined"}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[27201,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"IconMark"]
+c:[["$","title","0",{"children":"Kimi K2.6 技术博客：推进开源编程 · Hinbox"}],["$","meta","1",{"name":"description","content":"Kimi 团队发布了新一代开源模型 K2.6，在编码能力、长程执行与智能体集群方面均达到业界领先水平。这篇技术博客详细拆解了模型的核心设计思路与实测表现，其中最令人印象深刻的并非基准测试分数，而是 K2.6 在真实复杂工程任务中展现出的自主性与可靠性：它曾用 Zig 语言在 Mac 上从零优化 Qwen3.5-0.8B 的推理性能，历经四千余次工具调用和十多小时的持续迭代，最终将吞吐量提升至 1…"}],["$","meta","2",{"name":"application-name","content":"Hinbox"}],["$","link","3",{"rel":"canonical","href":"https://linguage.github.io/hinbox/mail/reports-kimi-k26-tech-blog-advancing-open-source-coding"}],["$","meta","4",{"property":"og:title","content":"Kimi K2.6 技术博客：推进开源编程"}],["$","meta","5",{"property":"og:description","content":"Kimi 团队发布了新一代开源模型 K2.6，在编码能力、长程执行与智能体集群方面均达到业界领先水平。这篇技术博客详细拆解了模型的核心设计思路与实测表现，其中最令人印象深刻的并非基准测试分数，而是 K2.6 在真实复杂工程任务中展现出的自主性与可靠性：它曾用 Zig 语言在 Mac 上从零优化 Qwen3.5-0.8B 的推理性能，历经四千余次工具调用和十多小时的持续迭代，最终将吞吐量提升至 1…"}],["$","meta","6",{"property":"og:url","content":"https://linguage.github.io/hinbox/mail/reports-kimi-k26-tech-blog-advancing-open-source-coding"}],["$","meta","7",{"property":"og:site_name","content":"Hinbox"}],["$","meta","8",{"property":"og:locale","content":"zh_CN"}],["$","meta","9",{"property":"og:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","meta","10",{"property":"og:image:width","content":"1200"}],["$","meta","11",{"property":"og:image:height","content":"630"}],["$","meta","12",{"property":"og:image:alt","content":"Kimi K2.6 技术博客：推进开源编程"}],["$","meta","13",{"property":"og:type","content":"article"}],["$","meta","14",{"property":"article:published_time","content":"2026-04-21T00:00:00.000Z"}],["$","meta","15",{"property":"article:author","content":"Moonshot AI"}],["$","meta","16",{"property":"article:tag","content":"translated"}],["$","meta","17",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","18",{"name":"twitter:title","content":"Kimi K2.6 技术博客：推进开源编程"}],["$","meta","19",{"name":"twitter:description","content":"Kimi 团队发布了新一代开源模型 K2.6，在编码能力、长程执行与智能体集群方面均达到业界领先水平。这篇技术博客详细拆解了模型的核心设计思路与实测表现，其中最令人印象深刻的并非基准测试分数，而是 K2.6 在真实复杂工程任务中展现出的自主性与可靠性：它曾用 Zig 语言在 Mac 上从零优化 Qwen3.5-0.8B 的推理性能，历经四千余次工具调用和十多小时的持续迭代，最终将吞吐量提升至 1…"}],["$","meta","20",{"name":"twitter:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","link","21",{"rel":"icon","href":"/hinbox/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","22",{"rel":"icon","href":"/hinbox/icon.svg?icon.6ca2692a.svg","sizes":"any","type":"image/svg+xml"}],["$","$L13","23",{}]]
+8:null

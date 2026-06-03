@@ -1,0 +1,58 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T1282,<h1>Karpathy 推文：AI 能力感知的两极分化</h1>
+<p>人们对 AI 能力的理解正在出现日益严重的分化——这是 Andrej Karpathy 这篇观察的起点。他指出，许多人仍以免费版或早期模型的体验来锚定对 AI 的整体判断，看到语音模式在简单问题上出丑便一笑了之。但与此同时，另一群深度使用前沿 agentic 模型（如 OpenAI Codex、Claude Code）的技术用户，正在见证 AI 在编程、数学、漏洞挖掘等领域的惊人进步——其能力提升之陡峭足以让人产生"AI 精神病"般的震撼。</p>
+<p>Karpathy 的精辟之处在于点明了这种分化背后的双重逻辑：一方面，可验证奖励机制让编程等技术领域天然适合强化学习训练，进步速度远超写作等难以量化评判的领域；另一方面，B2B 场景的高价值决定了团队资源向这些方向倾斜。于是，免费用户看到的是出糗合集，技术用户看到的却是能力奇观——两者谈论的，几乎是两个不同的世界。这篇文章之所以值得一读，不仅因为它揭示了 AI 能力的真实图景，更因为它对"认知鸿沟"本身的剖析，让我们得以理解今天围绕 AI 的种种争议从何而来。</p>
+<hr>
+<p><strong>Andrej Karpathy</strong> @karpathy 2026-04-09</p>
+<p>从我的时间线来看，人们对 AI 能力的理解存在越来越大的鸿沟。</p>
+<h3>第一个问题：使用时效与层级的偏差</h3>
+<p>我认为第一个问题在于使用时效和层级。很多人大概去年用过 ChatGPT 的免费版，然后就以此过度决定了他们对 AI 的看法。这群人会对模型的各种古怪表现、幻觉等问题发笑。是的，我也看过 OpenAI 的 Advanced Voice Mode 在各种简单查询上出糗的爆款视频，比如"我该开车还是走去洗车店"。问题是，这些免费且老旧/已弃用的模型，并不能反映今年最新一代前沿 agentic 模型的能力，尤其是 OpenAI Codex 和 Claude Code。</p>
+<h3>第二个问题：能力高度的不均衡分布</h3>
+<p>但这就引出了第二个问题。即便人们每月花 200 美元使用最先进的模型，其诸多能力在高度技术性领域也相对"陡峭"。搜索、写作、建议等常见查询，并<em>不是</em>能力取得最显著、最惊人进步的领域。部分原因在于强化学习的技术细节及其对可验证奖励（verifiable rewards）的使用。但部分也在于，这些用例没有被公司充分优先考虑，因为它们不能带来那么多 $$$ 价值。金矿在别处，关注点自然随之转移。</p>
+<h3>"AI 精神病"群体</h3>
+<p>于是这就引出了第二群人，他们<em>同时</em>满足：1）付费并使用最前沿的 agentic 模型（OpenAI Codex / Claude Code），并且 2）在编程、数学和研究等技术领域专业地使用它们。这群人最容易患上"AI 精神病"（AI Psychosis），因为今年在这些领域取得的进步简直令人瞠目结舌。当你把一个计算机终端交给这些模型之一时，你现在可以看着它们瓦解那些通常需要数天/数周才能完成的编程问题。正是这第二群人，对这些能力、能力的增长斜率以及各种与网络相关的后果赋予了更大的严重性。</p>
+<h3>TLDR</h3>
+<p>总而言之，这两群人各说各话。现实确实是：OpenAI 的免费且我认为有些被冷落（？）的 Advanced Voice Mode 会在你的 Instagram Reels 里连最愚蠢的问题都答不上来，<em>与此同时</em>，OpenAI 最高层级、付费的 Codex 模型会花一个小时连贯地重构整个代码库，或者在计算机系统中发现并利用漏洞。后面这部分真的行得通，并且取得了巨大进步，原因有两个：1）这些领域提供了可验证的显式奖励函数（reward functions），意味着它们很容易通过强化学习训练来优化（例如单元测试通过与否，相比之下写作就难以明确评判）；但同样重要的是 2）它们在 B2B 场景中价值更高，因此团队最大比例的资源都集中在改进它们上。所以，现状就是这样。</p>
+<blockquote>
+<p>2026-04-09</p>
+<p>你对 AI 感到惊叹的程度，与你使用 AI 编程的程度完全正相关。</p>
+</blockquote>
+<hr>
+<h2>术语表</h2>
+<table>
+<thead>
+<tr>
+<th>原文</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>agentic models</td>
+<td>agentic 模型</td>
+</tr>
+<tr>
+<td>AI Psychosis</td>
+<td>AI 精神病</td>
+</tr>
+<tr>
+<td>B2B</td>
+<td>B2B（企业对企业）</td>
+</tr>
+<tr>
+<td>reward functions</td>
+<td>奖励函数</td>
+</tr>
+<tr>
+<td>verifiable rewards</td>
+<td>可验证奖励</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"essays-thread-by-karpathy","sender":"karpathy","subject":"Karpathy 推文：AI 能力感知的两极分化","snippet":"人们对 AI 能力的理解正在出现日益严重的分化——这是 Andrej Karpathy 这篇观察的起点。他指出，许多人仍以免费版或早期模型的体验来锚定对 AI 的整体判断，看到语音模式在简单问题上出丑便一笑了之。但与此同时，另一群深度使用前沿 agentic 模型（如 OpenAI Codex、Claude Code）的技术用户，正在见证 AI 在编程、数学、漏洞挖掘等领域的惊人进步——其能力提升之陡峭足以让人产生\"AI 精神病\"般的震","date":"2026-04-09","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["translated"],"mdTheme":"magazine","sourcePath":"essays/thread-by-karpathy.md","sourceUrl":"https://x.com/karpathy/status/2042334451611693415","body":"$3","prompts":[]},"listPosition":{"index":127,"total":365}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

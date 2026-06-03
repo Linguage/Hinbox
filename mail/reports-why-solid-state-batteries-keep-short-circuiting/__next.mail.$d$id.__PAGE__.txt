@@ -1,0 +1,153 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T2c6c,<h1>固态电池为何反复短路</h1>
+<p>枝晶——这种在固态电池内部生长的金属裂纹，一直被视作高能量密度储能方案迟迟未能商业化的头号障碍。数十年来，学界的主流解释将其归因于机械应力：锂金属像树根一样在固体电解质中挤压、扩张，最终导致材料断裂。MIT 团队的最新研究却彻底颠覆了这一认知。他们开发出可直接观测枝晶生长的可视化技术，首次在实验层面量化了枝晶形成过程中的应力分布，发现裂纹出现时的应力水平仅为纯机械理论预期的四分之一。真正的元凶是高电流引发的电化学反应——它从内部削弱电解质的晶体结构，使其变得异常脆弱，如同陶瓷杯在充电过程中变成了棒棒糖。这一发现解释了为何单纯追求更坚硬的电解质材料始终无法解决枝晶问题。研究同时指出，开发化学性质更稳定的电解质，才是让固态电池真正走出实验室、实现更长续航电动汽车和便携设备的关键方向。</p>
+<hr>
+<p>对电池性能有害的金属裂纹（metallic cracks）有了新认识，这可能推动长期以来对高能量密度固态电池（solid-state batteries）的追求。</p>
+<p><a href="#article-video-inline">观看视频</a></p>
+<p>使用固体作为电荷载流电解质（electrolyte）的电池，有潜力成为比锂离子电池（lithium-ion batteries）更安全、能量密度更高的替代方案。然而，这些固态电池一直受到一种名为枝晶（dendrites）的金属裂纹的困扰——这种裂纹会导致电池短路（short circuit）。</p>
+<p>这一问题迄今阻碍了此类电池成为储能领域的重要角色。但现在，MIT 的研究终于可以帮助工程师找到跨越这一障碍的方法。</p>
+<p>几十年来，许多研究者一直将枝晶主要视为机械应力（mechanical stress）的结果——就像树根在下方生长导致人行道出现裂缝一样。但 MIT 的工程师们发现了截然相反的现象：在一种常用的电池电解质材料中，枝晶生长越快，应力水平反而越低。研究人员利用一项新技术直接测量了生长中枝晶周围的应力，发现裂纹在应力水平仅为纯机械应力预期值 25% 的情况下就已形成。</p>
+<h3>枝晶形成的新机制</h3>
+<p>相关实验<a href="https://www.nature.com/articles/s41586-026-10279-z">今日发表在《自然》（<em>Nature</em>）期刊上</a>，反而揭示了另一个元凶：高电流引起的化学反应会削弱电解质，使其更容易发生枝晶生长。此前已有研究者提出此类反应会导致枝晶生长，但这项新研究首次提供了枝晶形成过程中化学应力与机械应力相互作用的实验数据。</p>
+<p>研究人员使用一种新的可视化技术来测量枝晶裂纹生长时电池材料中的应力。视频展示了两种不同的充电速率，亮度越高表示应力越大。在裂纹尖端可以看到一个蝴蝶结形（bowtie-shaped）图案。在快速充电条件下，材料断裂所需的应力更小。</p>
+<p>"直接测量技术让我们能够看到材料在电池充放电循环中的韧性变化，"论文第一作者、MIT 材料科学与工程系博士生 Cole Fincher 说。"我们发现，如果在实验台上单独测试陶瓷电解质（ceramic electrolyte），它的硬度大约和你的牙齿相当。但在充电过程中，它会变得脆弱得多——接近棒棒糖的脆性。"</p>
+<p>这一发现揭示了为何仅仅开发更强的电解质并不能解决存在了几十年的枝晶问题。同时，它也指出了开发化学性质更稳定的材料以最终实现高密度固态电池前景的重要性。</p>
+<p>"有一个庞大的研究者群体一直在不断尝试发现和设计更好的固态电解质，以实现固态电池的实用化，"论文资深作者、MIT 京瓷材料科学与工程教授 Yet-Ming Chiang 说。"这项研究为这些努力提供了指导。我们发现了一种枝晶生长的新机制，这使我们能够探索规避该机制的方法，让固态电池取得成功。"</p>
+<p>与 Fincher 和 Chiang 共同署名的还有 MIT 博士生 Colin Gilgenbach；Thermo Fisher Scientific 科学家 Christian Roach 和 Rachel Osmundsen；MIT.nano 研究员 Aubrey Penn；MIT 丰田材料加工教授 W. Craig Carter；MIT 京瓷材料科学与工程教授 James LeBeau；密歇根大学教授 Michael Thouless；以及布朗大学教授 Brian W. Sheldon。</p>
+<h3>枝晶穿透硬质电解质的悖论</h3>
+<p>自 1970 年代以来，枝晶一直是电池发展道路上的主要障碍。锂离子电池之所以变得无处不在而其他方案停滞不前，一个原因在于其常用的石墨负极（graphite anodes）不太容易形成枝晶。这令人遗憾，因为使用锂金属（lithium metal）作为负极、固体作为电解质的固态电池，理论上可以在相同体积和更轻重量下储存多得多的能量。因此，它们可以实现续航更持久的手机和笔记本电脑，或者续航里程达到当前电动汽车两倍的电动车。</p>
+<p>"没有比锂金属能量密度更高的锂形态了，"Chiang 说。"但枝晶问题限制了固态电池的进展。"</p>
+<p>锂金属像太妃糖一样柔软。Fincher 一直在 Chiang 和 Carter 的实验室研究枝晶问题，他说其中一个谜团是，如此柔软的材料如何能够穿透正在被探索用于固态电池的坚硬电解质材料。</p>
+<p>"用于这些应用场景的陶瓷非常坚硬，就像咖啡杯一样，所以人们曾希望固态电池能够阻止这种相对柔软的枝晶生长，"Fincher 解释说。</p>
+<p>基于机械应力导致枝晶的信念，科学家们一直致力于开发能够承受更大机械应力的更强电解质。一些研究者提出化学反应在枝晶形成中发挥作用，但这些反应如何与机械应力协同作用尚不清楚。</p>
+<h3>枝晶脆化的化学根源</h3>
+<p>为了这项《自然》研究，研究人员着手直接观察枝晶生长过程中一种常用固态电解质材料的机械和化学变化。固态电池通常像三明治一样分层排列，这使得观察中间电解质层内部变得困难。在第一个实验中，研究人员开发了一种特殊的固态电池单元，可以从侧面观察陶瓷层，从而让研究人员看到电解质中枝晶的生长过程。</p>
+<p>研究人员还使用了一种称为双折射显微镜（birefringence microscopy）的测量技术来精确测量枝晶周围的应力，这是 Fincher 博士论文的一部分。</p>
+<p>"它的原理与偏光太阳镜观察挡风玻璃时相同，"Fincher 解释这项技术时说。"当光线穿过时，玻璃中的残余应力使某些方向的光比另一些方向的光传播得更快，从而产生可见的彩虹图案。这些图案可以用来测量应力。"</p>
+<p>这项技术首次让研究人员能够同时观察和量化活跃生长的枝晶周围的应力，从而得出了意想不到的发现。</p>
+<p>"通常你会认为枝晶生长越快，产生的应力越大，"Chiang 说。"但相反，我们观察到了完全相反的情况。枝晶生长越快，其周围的应力越低，这意味着固态电解质在较低的应力下就发生断裂，因此它已经被脆化（embrittled）了。"</p>
+<p>事实上，枝晶生长的应力水平远低于预期。Fincher 将这种被削弱的电解质描述为发生了电化学腐蚀（electrochemical corrosion）。</p>
+<p>"想象一下，你某天测试一块玻璃，第二天它的强度只剩下四分之一，"Chiang 说。"这非常令人惊讶。"</p>
+<p>在 LeBeau 的带领下，研究人员随后将电解质冷却到极低温度，并应用了一种称为低温扫描透射电子显微镜（cryogenic scanning transmission electron microscopy）的强大成像技术，使他们能够在接近原子尺度上研究枝晶周围的区域。成像显示，离子电流通过材料引发了化学反应，使材料变得更加脆弱。</p>
+<p>"电流驱动锂离子流过固态电解质，"Chiang 解释说。"这导致锂离子在枝晶尖端产生高度集中的流动。我们认为这导致了材料化合物的化学还原，进而使其分解为新的相。你从电解质的晶体相开始，沉积后发生体积收缩——这与我们观察到的脆化现象是一致的。"</p>
+<h3>寻找更稳定的电解质材料</h3>
+<p>这项实验是在固态电池中使用的最稳定电解质之一上进行的，这让研究人员相信这些发现也适用于其他电解质材料。</p>
+<p>"这告诉我们，必须寻找更稳定的电解质材料，特别是当它们与化学性质上具有很强还原性的锂金属接触时，"Chiang 说。"这将有助于指导新材料的寻找。"</p>
+<p>例如，Chiang 说，既然他们更了解了导致脆化的化学变化，研究人员可以探索那些在裂纹生长时反而变得更坚韧的材料。</p>
+<p>研究人员表示，要弄清是什么电化学反应导致电解质变得如此脆弱，还需要更多工作。但他们表示，这种直接观察应力的方法也可以帮助改进用于燃料电池和电解槽等设备的材料。</p>
+<p>这项工作得到了固态离子导体机械-化学理解中心（能源部工程前沿研究中心）、国家科学基金会以及 Fincher 的国防部科学与工程研究生奖学金的资助，并在 MIT.nano 设施中完成。</p>
+<p><a href="https://www.nature.com/articles/s41586-026-10279-z">论文："Electrochemical corrosion accompanies dendrite growth in solid electrolytes"</a></p>
+<p><a href="https://libraries.mit.edu/scholarly/publishing/find-oa-articles/">查阅本文所涉研究的开放获取版本。</a></p>
+<hr>
+<h2>术语表</h2>
+<table>
+<thead>
+<tr>
+<th>原文</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aubrey Penn</td>
+<td>（保留原文）</td>
+</tr>
+<tr>
+<td>birefringence microscopy</td>
+<td>双折射显微镜</td>
+</tr>
+<tr>
+<td>Brian W. Sheldon</td>
+<td>（保留原文）</td>
+</tr>
+<tr>
+<td>ceramic electrolyte</td>
+<td>陶瓷电解质</td>
+</tr>
+<tr>
+<td>Christian Roach</td>
+<td>（保留原文）</td>
+</tr>
+<tr>
+<td>Cole Fincher</td>
+<td>（保留原文）</td>
+</tr>
+<tr>
+<td>Colin Gilgenbach</td>
+<td>（保留原文）</td>
+</tr>
+<tr>
+<td>cryogenic scanning transmission electron microscopy</td>
+<td>低温扫描透射电子显微镜</td>
+</tr>
+<tr>
+<td>dendrites</td>
+<td>枝晶</td>
+</tr>
+<tr>
+<td>electrochemical corrosion</td>
+<td>电化学腐蚀</td>
+</tr>
+<tr>
+<td>electrolyte</td>
+<td>电解质</td>
+</tr>
+<tr>
+<td>embrittlement</td>
+<td>脆化</td>
+</tr>
+<tr>
+<td>graphite anodes</td>
+<td>石墨负极</td>
+</tr>
+<tr>
+<td>James LeBeau</td>
+<td>（保留原文）</td>
+</tr>
+<tr>
+<td>lithium metal</td>
+<td>锂金属</td>
+</tr>
+<tr>
+<td>lithium-ion batteries</td>
+<td>锂离子电池</td>
+</tr>
+<tr>
+<td>mechanical stress</td>
+<td>机械应力</td>
+</tr>
+<tr>
+<td>Michael Thouless</td>
+<td>（保留原文）</td>
+</tr>
+<tr>
+<td>Rachel Osmundsen</td>
+<td>（保留原文）</td>
+</tr>
+<tr>
+<td>short circuit</td>
+<td>短路</td>
+</tr>
+<tr>
+<td>solid-state batteries</td>
+<td>固态电池</td>
+</tr>
+<tr>
+<td>W. Craig Carter</td>
+<td>（保留原文）</td>
+</tr>
+<tr>
+<td>Yet-Ming Chiang</td>
+<td>（保留原文）</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-why-solid-state-batteries-keep-short-circuiting","sender":"Zach Winn ｜ MIT News","subject":"固态电池为何反复短路","snippet":"枝晶——这种在固态电池内部生长的金属裂纹，一直被视作高能量密度储能方案迟迟未能商业化的头号障碍。数十年来，学界的主流解释将其归因于机械应力：锂金属像树根一样在固体电解质中挤压、扩张，最终导致材料断裂。MIT 团队的最新研究却彻底颠覆了这一认知。他们开发出可直接观测枝晶生长的可视化技术，首次在实验层面量化了枝晶形成过程中的应力分布，发现裂纹出现时的应力水平仅为纯机械理论预期的四分之一。真正的元凶是高电流引发的电化学反应——它从内部削弱电解","date":"2026-03-26","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["translated"],"mdTheme":"magazine","sourcePath":"reports/why-solid-state-batteries-keep-short-circuiting.md","sourceUrl":"https://news.mit.edu/2026/why-solid-state-batteries-keep-short-circuiting-0325","body":"$3","prompts":[]},"listPosition":{"index":158,"total":365}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

@@ -1,0 +1,254 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T52de,<h1>Artifacts：会说 Git 的版本化存储</h1>
+<p>随着 AI Agent 生成的代码量呈现指数级增长，传统的源代码管理平台正面临根本性的挑战——它们为人类设计，却要应对不知疲倦、能同时并行处理多个任务的 Agent 所带来的十倍容量冲击。Cloudflare 的这篇技术文章提出了一个大胆的答案：Artifacts，一个"会说 Git 语言"的版本化文件系统。它并非简单地在现有 Git 之上加一层封装，而是从底层为 Agent 时代重新设计——你可以通过编程方式即时创建仓库、在任意 serverless 函数中执行提交、从已知起点一键创建上万个分支。文章深入剖析了为什么 Git 的数据模型不仅适用于代码管理，更是追踪状态、时间旅行和持久化任意小片段数据的理想范式，并分享了 Cloudflare 内部如何将其用于 Agent 会话持久化的实践。无论你是关注 AI 基础设施演进，还是对版本控制系统的未来形态感兴趣，这篇文章都值得一读。</p>
+<hr>
+<p>这篇文章也提供 <a href="https://blog.cloudflare.com/de-de/artifacts-git-for-agents-beta">Deutsch</a> 和 <a href="https://blog.cloudflare.com/es-es/artifacts-git-for-agents-beta">Español</a> 版本。</p>
+<p><img src="https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3mZ163MhASDRQW86DQm86r/2e89a01820f1b0a87af22d18208f470c/BLOG-3269_1.png" alt=""></p>
+<p>Agent 已经改变了我们对源代码管理、文件系统和状态持久化的思考方式。开发者和 Agent 生成的代码比以往任何时候都多——未来 5 年内编写的代码将超过整个编程史上的总和——这驱动了满足这一需求所需系统的规模发生了数量级的变化。源代码管理平台尤其吃力：它们是为满足人类需求而构建的，而非为应对从不休息、能同时处理多个问题、永不疲倦的 Agent 所驱动的 10 倍容量变化。</p>
+<p>我们认为需要一种新的原语：一个分布式的、带版本控制的文件系统，它首先为 Agent 构建，同时也能服务于当今正在构建的各种应用类型。</p>
+<p>我们称之为 Artifacts：一个说 Git 语言的版本化文件系统。你可以以编程方式创建仓库，与你的 Agent、沙箱、Workers 或其他任何计算范式并存，并从任何常规 Git 客户端连接到它。</p>
+<p>想让每个 Agent 会话都有一个仓库？Artifacts 可以做到。每个沙箱实例？Artifacts 也可以。想从一个已知良好的起点创建 10,000 个 fork？你猜对了：还是 Artifacts。Artifacts 提供了 REST API 和原生 Workers API，用于在不适合 Git 客户端的环境（即在任何 serverless 函数中）创建仓库、生成凭证和执行提交。</p>
+<p>Artifacts 目前处于 private beta 阶段，我们计划在 5 月初开放为 public beta。</p>
+<pre><code class="language-typescript">// Create a repo
+const repo = await env.AGENT_REPOS.create(name)
+// Pass back the token &#x26; remote to your agent
+return { repo.remote, repo.token }
+</code></pre>
+<pre><code class="language-shell">// Clone it and use it like any regular git remote
+$ git clone https://x:${TOKEN}@123def456abc.artifacts.cloudflare.net/git/repo-13194.git
+</code></pre>
+<p>仅此而已。一个裸仓库，随时可用，即时创建，任何 Git 客户端都可以对其进行操作。</p>
+<p>如果你想要从一个已有的 Git 仓库引导（bootstrap）一个 Artifacts 仓库，以便你的 Agent 可以独立在其上工作并推送独立更改，你也可以通过 <code>.import()</code> 做到：</p>
+<pre><code class="language-typescript">interface Env {
+  ARTIFACTS: Artifacts
+}
+
+export default {
+  async fetch(request: Request, env: Env) {
+    // Import from GitHub
+    const { remote, token } = await env.ARTIFACTS.import({
+      source: {
+        url: "https://github.com/cloudflare/workers-sdk",
+        branch: "main",
+      },
+      target: {
+        name: "workers-sdk",
+      },
+    })
+
+    // Get a handle to the imported repo
+    const repo = await env.ARTIFACTS.get("workers-sdk")
+
+    // Fork to an isolated, read-only copy
+    const fork = await repo.fork("workers-sdk-review", {
+      readOnly: true,
+    })
+
+    return Response.json({ remote: fork.remote, token: fork.token })
+  },
+}
+</code></pre>
+<p><a href="https://developers.cloudflare.com/artifacts/">查看文档</a> 以开始使用，或者如果你想了解 Artifacts 是如何被使用的、它是如何构建的以及底层工作原理：请继续阅读。</p>
+<h3>为什么是 Git？什么是版本化文件系统？</h3>
+<p>Agent 懂 Git。它深嵌在大多数模型的训练数据中。正常路径和边缘情况 Agent 都非常熟悉，而代码优化模型（或 harness）尤其擅长使用 git。</p>
+<p>此外，Git 的数据模型不仅适用于源代码管理，也适用于任何需要追踪状态、时间旅行和持久化大量小数据的场景。代码、配置、会话提示词和 Agent 历史记录：所有这些都是你通常希望以小片段（"提交"）存储，并且能够回退或回滚（"历史"）的东西。</p>
+<p>我们本可以发明一种全新的、特制的协议……但那样就会遇到引导（bootstrap）问题。AI 模型不认识它，所以你不得不分发技能（skills）或 CLI，或者希望用户接入了你的文档 MCP……所有这些都增加了摩擦。但如果我们只需给 Agent 一个经过认证的安全 HTTPS Git 远程 URL，让它们像操作 Git 仓库一样操作它呢？事实证明这非常有效。而对于不说 Git 语言的客户端——比如 Cloudflare Worker、Lambda 函数或 Node.js 应用——我们提供了 REST API，并且即将提供语言特定的 SDK。这些客户端也可以使用 <a href="https://isomorphic-git.org/">isomorphic-git</a>，但在许多情况下，更简洁的 TypeScript API 可以减少所需的 API 面。</p>
+<h3>不仅限于源代码管理</h3>
+<p>Artifacts 的 Git API 可能会让你觉得它只适用于源代码管理，但事实证明，Git API 和数据模型是一种强大的状态持久化方式，它允许你对任何数据进行 fork、时间旅行和状态差异比较。</p>
+<p>在 Cloudflare 内部，我们正在将 Artifacts 用于我们的内部 Agent：在每个会话的 Artifacts 仓库中自动持久化文件系统的当前状态和会话历史记录。这使我们能够：</p>
+<ul>
+<li>持久化沙箱状态，而无需预配（并保留）块存储。</li>
+<li>与他人共享会话，允许他们回溯会话（提示词）状态和文件状态，无论是否对"实际"仓库（源代码管理）有过提交。</li>
+<li>最棒的是：从任意时刻 fork 一个会话，让我们的团队成员可以共享会话并从中接手。调试某问题时想要多一双眼睛？发送一个 URL，fork 它。想即兴创作一个 API？让同事 fork 它，然后从你停下的地方继续。</li>
+</ul>
+<p>我们也与一些团队交流过，他们希望在根本不需要 Git 协议的情况下使用 Artifacts，但其语义（回退、克隆、差异比较）确实需要。将每个客户配置作为产品的一部分存储，并希望具备回滚能力？Artifacts 可以很好地实现这一点。</p>
+<p>我们很高兴看到团队探索 Artifacts 的非 Git 用例，就像探索其 Git 相关用例一样。</p>
+<hr>
+<h3>底层实现</h3>
+<p>Artifacts 构建于 Durable Objects 之上。创建数百万（乃至数千万以上）个有状态、隔离的计算实例的能力，是 Durable Objects 当前工作方式的内在特性，而这正是我们在每个命名空间中支持数百万 Git 仓库所需要的。</p>
+<p>美国职业棒球大联盟（用于实时比赛 fan-out）、Confluence Whiteboards，以及我们自己的 <a href="https://developers.cloudflare.com/agents/">Agents SDK</a> 都在大规模地使用 Durable Objects，因此我们构建在这样一个已经投产一段时间的原语之上。</p>
+<p>然而，我们确实需要的是一个能在 Cloudflare Workers 上运行的 Git 服务器实现。它需要体积小、尽可能完整、可扩展（<a href="https://git-scm.com/docs/git-notes">notes</a>、<a href="https://git-lfs.com/">LFS</a>）且高效。于是我们用 <a href="https://ziglang.org/">Zig</a> 构建了一个，并将其编译为 Wasm。</p>
+<p>为什么选择 Zig？三个原因：</p>
+<ol>
+<li>整个 Git 协议引擎完全用纯 Zig 编写（无 libc），编译成约 100KB 的 WASM 二进制文件（还有优化空间！）。它从头实现了 SHA-1、zlib 压缩/解压缩、delta 编码/解码、pack 解析以及完整的 Git 智能 HTTP 协议——全部自主实现，除标准库外零外部依赖。</li>
+<li>Zig 让我们能够手动控制内存分配，这在 Durable Objects 这样的受限环境中非常重要。Zig 构建系统使我们能够轻松在 WASM 运行时（生产环境）和原生构建（针对 libgit2 进行正确性验证测试）之间共享代码。</li>
+<li>WASM 模块通过一个精简的回调接口与 JS 宿主通信：11 个宿主导入的存储操作函数（host_get_object、host_put_object 等）和一个用于流式输出的函数（host_emit_bytes）。WASM 端可以完全独立测试。</li>
+</ol>
+<p>在底层，Artifacts 还使用了 R2（用于快照）和 KV（用于跟踪认证令牌）：</p>
+<p><img src="https://cf-assets.www.cloudflare.com/zkvhlag99gkb/35SxJbQfntIscpotc0GBt8/48ae11213d7483c9b488321baacf78e7/BLOG-3269_2.png" alt="BLOG-3269 2"></p>
+<p>BLOG-3269 2</p>
+<p><sup><code><i>Artifacts 的工作原理（Workers、Durable Objects 与 WebAssembly）</i></code></sup></p>
+<p>Worker 作为前端，负责处理身份认证与授权、关键指标（错误、延迟），并动态查找每个 Artifacts 仓库（Durable Object）。</p>
+<p>具体来说：</p>
+<ul>
+<li>文件存储在下层 Durable Object 的 SQLite 数据库中。
+<ul>
+<li>Durable Object 存储的行大小上限为 2MB，因此大型 Git 对象会被分块存储在多个行中。
+<ul>
+<li>我们使用了同步 KV API（state.storage.kv），其在底层由 SQLite 支持。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>DO 约有 128MB 的内存限制：这意味着我们可以生成数千万个 DO（它们快速且轻量），但必须在此限制内工作。
+<ul>
+<li>我们在 fetch 和 push 路径中都大量使用流式处理，直接返回由原始 WASM 输出块构建的 <code>ReadableStream&#x3C;Uint8Array></code>。
+<ul>
+<li>我们避免自行计算 Git delta，而是将原始 delta 和基础哈希值与解析后的对象一起持久化。在 fetch 时，如果请求的客户端已经拥有基础对象，Zig 会发送 delta 而非完整对象，从而节省带宽<em>和</em>内存。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>支持 Git 协议的 v1 和 v2 版本。
+<ul>
+<li>我们支持的能力包括 ls-refs、浅克隆（deepen、deepen-since、deepen-relative）以及通过 have/want 协商的增量 fetch。
+<ul>
+<li>我们拥有广泛的测试套件，包括针对 Git 客户端的符合性测试以及针对 libgit2 服务器的验证测试，以确保协议支持的正确性。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>在此之上，我们原生支持 <a href="https://git-scm.com/docs/git-notes">git-notes</a>。Artifacts 被设计为 Agent 优先，notes 使 Agent 能够向 Git 对象添加注释（元数据）。这包括提示词（prompts）、Agent 归属以及其他元数据，可以从仓库中读取/写入，而无需改变对象本身。</p>
+<h3>大型仓库，大问题？认识 ArtifactFS。</h3>
+<p>大多数仓库并不大，Git 在<a href="https://github.blog/open-source/git/gits-database-internals-i-packed-object-store/">存储方面设计得极为高效</a>：大多数仓库克隆最多只需几秒钟，耗时主要在网络建立、身份认证和<a href="https://git-scm.com/book/ms/v2/Git-Internals-Git-Objects">校验和计算</a>上。在大多数 Agent 或沙箱场景中，这是可行的：只需在沙箱启动时克隆仓库即可开始工作。</p>
+<p>但对于数 GB 的仓库和/或拥有数百万个对象的仓库呢？如何快速克隆此类仓库，而不让 Agent 等待数分钟才能开始工作、同时消耗大量计算资源？</p>
+<p>一个流行的 Web 框架（2.4GB，且历史悠久！）克隆需要将近 2 分钟。浅克隆会快一些，但还不足以缩短到个位数秒，而且我们并不总是想省略历史记录（Agent 发现历史记录很有用）。</p>
+<p>我们能否将大型仓库的克隆时间缩短到约 10-15 秒，让 Agent 能够快速开始工作？嗯，可以：通过一些技巧。</p>
+<p>作为 Artifacts 发布的一部分，<a href="https://github.com/cloudflare/artifact-fs">我们正在开源 ArtifactFS</a>，这是一个文件系统驱动程序，旨在尽可能快速地挂载大型 Git 仓库，动态按需填充文件内容，而不是阻塞在初始克隆上。它非常适合 Agent、沙箱、容器以及其他启动时间至关重要的场景。如果你能为每个大型仓库节省约 90-100 秒的沙箱启动时间，并且每月运行 10,000 个这样的沙箱任务——那就节省了 2,778 个沙箱小时。</p>
+<p>你可以把 ArtifactFS 理解为"异步 Git 克隆"：</p>
+<ul>
+<li>ArtifactFS 执行 Git 仓库的 blobless 克隆：它获取文件树和引用（refs），但不获取文件内容。它可以在沙箱启动期间完成这一操作，从而使你的 Agent harness 能够立即开始工作。</li>
+<li>在后台，它通过一个轻量级守护进程并发地开始填充（下载）文件内容。</li>
+<li>它优先处理 Agent 通常首先需要操作的文件：包清单（<code>package.json</code>、<code>go.mod</code>）、配置文件以及代码，尽可能降低二进制 blob（图像、可执行文件和其他非文本文件）的优先级，以便 Agent 能够在文件本身被填充的同时扫描文件树。</li>
+<li>如果 Agent 尝试读取时文件尚未完全填充，读取操作将阻塞直到完成。</li>
+</ul>
+<p>该文件系统不会尝试将文件"同步"回远程仓库：对于成千上万个对象，这通常非常慢，而且由于我们使用的是 Git 协议，也无需如此。你的 Agent 只需要像使用任何仓库一样进行提交和推送即可。无需学习新的 API。</p>
+<p>重要的是，ArtifactFS 适用于任何 Git 远程仓库，而不仅仅是我们自己的 Artifacts。如果你从 GitHub、GitLab 或自托管的 Git 基础设施克隆大型仓库——你仍然可以使用 ArtifactFS。</p>
+<h3>未来规划</h3>
+<p>今天的发布只是 beta 版本，我们已经在开发一系列功能，将在未来几周内陆续推出：</p>
+<ul>
+<li>扩展我们暴露的<a href="https://developers.cloudflare.com/artifacts/observability/metrics/">可用指标</a>。今天我们已经发布了每个命名空间的操作计数、每个仓库的仓库和存储字节数等关键指标，以便管理数百万个 Artifacts 不会变得繁琐。</li>
+<li>支持仓库级别事件的<a href="https://developers.cloudflare.com/queues/event-subscriptions/">事件订阅（Event Subscriptions）</a>，以便我们能够在命名空间内的任何仓库发生推送、拉取、克隆和 fork 时发出事件。这也将允许你消费事件、编写 webhook，并利用这些事件通知最终用户、驱动产品内的生命周期事件和/或运行推送后任务（如 CI/CD）。</li>
+<li>用于与 Artifacts API 交互的原生 TypeScript、Go 和 Python 客户端 SDK</li>
+<li>仓库级别的搜索 API 和跨命名空间的搜索 API，例如"查找所有包含 <code>package.json</code> 文件的仓库"。</li>
+</ul>
+<p>我们还计划为 <a href="https://developers.cloudflare.com/workers/ci-cd/builds/">Workers Builds</a> 提供 API，允许你在任何 Agent 驱动的工作流上运行 CI/CD 任务。</p>
+<h3>费用如何？</h3>
+<p>Artifacts 仍处于早期阶段，但我们希望定价能够适应 Agent 规模：拥有数百万个仓库需要具有成本效益，未使用（或很少使用）的仓库不应成为负担，并且我们的定价应与 Agent 的大规模单租户特性相匹配。</p>
+<p>你也不应该去考虑某个仓库是否会被使用、是热数据还是冷数据、或者 Agent 是否会唤醒它。我们将根据你消耗的存储空间和针对每个仓库的操作（例如克隆、fork、推送和拉取）来收费。</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th><strong>$/单位</strong></th>
+<th><strong>包含额度</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>操作</strong></td>
+<td>每 1,000 次操作 $0.15</td>
+<td>每月前 10,000 次免费</td>
+</tr>
+<tr>
+<td><strong>存储</strong></td>
+<td>$0.50/GB-月</td>
+<td>前 1GB 免费</td>
+</tr>
+</tbody>
+</table>
+<p>大型、繁忙的仓库会比小型、不常使用的仓库费用更高，无论你有 1,000 个、100,000 个还是 1,000 万个仓库。</p>
+<p>在 beta 进行过程中，我们还将把 Artifacts 引入 Workers Free 计划（带有一些合理限制），如果此定价发生变化，以及在实际计费之前，我们将在整个 beta 期间提供更新。</p>
+<hr>
+<h3>如何开始？</h3>
+<p><img src="https://cf-assets.www.cloudflare.com/zkvhlag99gkb/3xLMMKCN1HNGWbkSyq0tDZ/2a8d49383957804f3ce204783e11ae80/BLOG-3269_3.png" alt="BLOG-3269 3"></p>
+<p>BLOG-3269 3</p>
+<p>Artifacts 正在以私有 beta 形式推出，我们预计公开 beta 将在（2026 年）5 月初准备就绪。接下来的几周我们将逐步允许客户加入，你可以<a href="https://forms.gle/DwBoPRa3CWQ8ajFp7">直接注册私有 beta 的意向</a>。</p>
+<p>与此同时，你可以通过以下方式了解更多关于 Artifacts 的信息：</p>
+<ul>
+<li>阅读文档中的<a href="https://developers.cloudflare.com/artifacts/get-started/workers/">入门指南</a></li>
+<li>访问 Cloudflare 仪表板（Build > Storage &#x26; Databases > Artifacts）</li>
+<li>阅读 <a href="https://developers.cloudflare.com/artifacts/api/rest-api/">REST API 示例</a></li>
+<li>了解更多关于 Artifacts <a href="https://developers.cloudflare.com/artifacts/concepts/how-artifacts-works/">底层工作原理</a>的信息</li>
+</ul>
+<p>关注<a href="https://developers.cloudflare.com/changelog/product/artifacts/">更新日志</a>以跟踪 beta 的进展。</p>
+<h3>在 Cloudflare TV 上观看</h3>
+<iframe src="https://customer-rhnwzxvb3mg4wz3v.cloudflarestream.com/a94bcc550a1079f7aa1d77ec4d2bfd04/iframe?preload=true&amp;poster=https%3A%2F%2Fcustomer-rhnwzxvb3mg4wz3v.cloudflarestream.com%2Fa94bcc550a1079f7aa1d77ec4d2bfd04%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D2s%26height%3D600" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe>
+<p>Cloudflare 的连接云保护<a href="https://www.cloudflare.com/network-services/">整个企业网络</a>，帮助客户高效构建<a href="https://workers.cloudflare.com/">互联网规模的应用</a>，加速任何<a href="https://www.cloudflare.com/performance/accelerate-internet-applications/">网站或互联网应用</a>，<a href="https://www.cloudflare.com/ddos/">抵御 DDoS 攻击</a>，<a href="https://www.cloudflare.com/application-security/">阻挡黑客入侵</a>，并能在你<a href="https://www.cloudflare.com/products/zero-trust/">迈向 Zero Trust 的旅程</a>中提供帮助。</p>
+<p>从任何设备访问 <a href="https://one.one.one.one/">1.1.1.1</a>，即可开始使用我们的免费应用，让你的互联网更快更安全。</p>
+<p>要了解更多关于我们帮助构建更好互联网的使命，<a href="https://www.cloudflare.com/learning/what-is-cloudflare/">请从这里开始</a>。如果你正在寻找新的职业方向，请查看<a href="https://www.cloudflare.com/careers">我们的空缺职位</a>。</p>
+<iframe title="cloudflare-tv-live-link" src="https://cloudflare.tv/embed/live.html"></iframe>
+<p><a href="https://blog.cloudflare.com/tag/agents-week/">Agents Week</a> <a href="https://blog.cloudflare.com/tag/agents/">Agents</a> <a href="https://blog.cloudflare.com/tag/github/">GitHub</a> <a href="https://blog.cloudflare.com/tag/workers/">Cloudflare Workers</a> <a href="https://blog.cloudflare.com/tag/storage/">Storage</a> <a href="https://blog.cloudflare.com/tag/developer-platform/">Developer Platform</a> <a href="https://blog.cloudflare.com/tag/developers/">Developers</a></p>
+<h2>术语表</h2>
+<table>
+<thead>
+<tr>
+<th>原文</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>agent</td>
+<td>Agent</td>
+</tr>
+<tr>
+<td>Artifacts</td>
+<td>Artifacts</td>
+</tr>
+<tr>
+<td>blobless clone</td>
+<td>blobless 克隆</td>
+</tr>
+<tr>
+<td>bootstrap</td>
+<td>引导</td>
+</tr>
+<tr>
+<td>Durable Objects</td>
+<td>Durable Objects</td>
+</tr>
+<tr>
+<td>Event Subscriptions</td>
+<td>事件订阅（Event Subscriptions）</td>
+</tr>
+<tr>
+<td>fork</td>
+<td>fork</td>
+</tr>
+<tr>
+<td>harness</td>
+<td>harness</td>
+</tr>
+<tr>
+<td>private beta</td>
+<td>私有 beta</td>
+</tr>
+<tr>
+<td>public beta</td>
+<td>公开 beta</td>
+</tr>
+<tr>
+<td>remote</td>
+<td>远程（URL）</td>
+</tr>
+<tr>
+<td>sandbox</td>
+<td>沙箱</td>
+</tr>
+<tr>
+<td>skills</td>
+<td>技能（skills）</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-artifacts-versioned-storage-that-speaks-git","sender":"Cloudflare","subject":"Artifacts：会说 Git 的版本化存储","snippet":"随着 AI Agent 生成的代码量呈现指数级增长，传统的源代码管理平台正面临根本性的挑战——它们为人类设计，却要应对不知疲倦、能同时并行处理多个任务的 Agent 所带来的十倍容量冲击。Cloudflare 的这篇技术文章提出了一个大胆的答案：Artifacts，一个\"会说 Git 语言\"的版本化文件系统。它并非简单地在现有 Git 之上加一层封装，而是从底层为 Agent 时代重新设计——你可以通过编程方式即时创建仓库、在任意 se","date":"2026-04-16","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["translated"],"mdTheme":"magazine","sourcePath":"reports/artifacts-versioned-storage-that-speaks-git.md","sourceUrl":"https://blog.cloudflare.com/artifacts-git-for-agents-beta/","body":"$3","prompts":[]},"listPosition":{"index":109,"total":365}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

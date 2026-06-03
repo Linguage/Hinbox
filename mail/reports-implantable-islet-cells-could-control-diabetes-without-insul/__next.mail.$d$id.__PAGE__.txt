@@ -1,0 +1,71 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T1b98,<h1>植入式胰岛细胞有望让糖尿病患者摆脱胰岛素注射</h1>
+<p>MIT 团队开发了一种植入式胰岛细胞装置，有望让 1 型糖尿病患者摆脱每日胰岛素注射。这项技术的核心突破在于：装置不仅通过封装保护供体或干细胞来源的胰岛细胞免受免疫排斥，还配备了由体外天线无线供电的氧气发生器，为细胞提供持续充足的氧供。在小鼠和大鼠实验中，该装置已在体内稳定运行至少 90 天，维持血糖在健康范围。相比传统胰岛移植须长期服用免疫抑制药物，这种免免疫抑制的方案大幅降低了患者的负担。研究人员还指出，该平台未来或可用于按需递送抗体、酶、凝血因子等多种蛋白质药物，从"反复输液"走向"体内工厂"式的长期治疗。目前团队正朝着装置体内运行两年以上的目标推进——一种真正变革性的慢性病管理方式，或许正在从实验室走向现实。</p>
+<hr>
+<p>研究显示，这些细胞可在体内存活至少三个月，并产生足量胰岛素以控制血糖水平。</p>
+<p>大多数糖尿病患者必须仔细监测血糖水平，并每天多次注射胰岛素，以帮助防止血糖过高。</p>
+<p>作为这些注射的可能替代方案，MIT 研究人员正在开发一种植入式装置，其中包含可产生胰岛素的细胞。该装置将细胞封装起来，保护其免受免疫排斥，同时还搭载了机载氧气发生器以维持细胞健康。</p>
+<p>研究人员希望，这种装置能够为 1 型糖尿病的长期控制提供一条新途径。在一项新研究中，他们证明这些被封装的胰岛细胞可在体内存活至少 90 天。在接受植入的小鼠中，这些细胞保持功能，并产生足量胰岛素来控制动物的血糖水平。</p>
+<p>"胰岛细胞疗法可能为患者带来变革性的治疗。然而，当前的方法仍需要使用免疫抑制，这对某些人来说可能造成严重负担，"MIT 化学工程系教授、MIT 科赫综合癌症研究所和医学工程科学研究所成员 Daniel Anderson 表示。"我们的目标是找到一种方法，让患者获得细胞疗法的益处而无需免疫抑制。"</p>
+<p>Anderson 是这项研究的资深作者，该研究<a href="http://doi.org/10.1016/j.device.2026.101084">今日发表在 <em>Device</em> 期刊上</a>。前 MIT 研究科学家 Siddharth Krishnan（现任斯坦福大学电气工程助理教授）和前 MIT 博士后 Matthew Bochenek 是本文的共同第一作者。MIT David H. 科赫研究所教授 Robert Langer 也是合著者之一。</p>
+<h3>按需供应胰岛素</h3>
+<p>胰岛细胞移植已成功用于治疗糖尿病患者。这些胰岛细胞通常来自人类尸体，或者更近期的做法是由干细胞生成。无论哪种情况，患者都必须服用免疫抑制药物，以防止免疫系统排斥移植的细胞。</p>
+<p>另一种防止免疫排斥的方法是将细胞封装在保护性装置中。然而，这带来了新的挑战，因为包裹细胞的涂层会阻碍它们获得足够的氧气。</p>
+<p>在 2023 年的一项研究中，Anderson 及其同事报告了一种胰岛封装<a href="https://news.mit.edu/2023/implantable-device-enable-injection-free-control-diabetes-0918">装置</a>，该装置同样搭载了机载氧气发生器。该发生器由一个质子交换膜构成，可将水蒸气（体内含量丰富）分解为氢气和氧气。氢气无害地扩散离开，而氧气则进入储存室，通过一层薄薄的透氧膜供给胰岛细胞。</p>
+<p>他们发现，封装在该装置内的细胞在植入小鼠后能产生胰岛素长达一个月。</p>
+<p>"一个月是一个不错的时间框架，足以证明基本概念。但从转化角度来看，重要的是要证明你可以将这个时间延长得更久，"Krishnan 表示。</p>
+<h3>更持久的装置</h3>
+<p>在新研究中，研究人员通过使装置更防水、更耐裂，延长了其使用寿命。他们还改进了装置的电子元件，以为氧气发生器提供更多电力。该植入物通过放置在皮肤上的外部天线无线供电，将能量传输给装置。通过优化电路，研究人员能够增加到达氧气产生系统的电量。</p>
+<p>额外的电力使装置能够产生更多氧气，帮助封装的细胞更有效地存活和运作。结果，这些细胞能够随着时间的推移产生更多的胰岛素。</p>
+<h3>蛋白质工厂</h3>
+<p>在大鼠和小鼠的研究中，研究人员证明新装置在植入皮下后至少可以运行 90 天。在此期间，供体胰岛细胞能够产生足够多的胰岛素，将动物的血糖水平维持在健康范围内。</p>
+<p>研究人员在使用诱导多能干细胞（iPSC）衍生的胰岛细胞时也看到了类似的结果。这类细胞未来可能提供无限供应，可用于任何有需要的患者。这些胰岛未能完全逆转糖尿病，但确实实现了对血糖水平的一定控制。</p>
+<p>"我们希望未来，如果我们能给细胞更长一点的时间让其完全成熟，它们将分泌更多胰岛素，更好地调节动物的糖尿病，"Bochenek 说。</p>
+<p>研究人员现在计划研究能否让装置在体内维持更长时间——最长两年或更久。</p>
+<p>"胰岛的长期存活是一个重要目标，"Anderson 说。"如果细胞处于合适的环境中，它们似乎能够存活很长时间。我们对已经达到的时长感到兴奋，并将努力尽可能延长它们的功能。"</p>
+<p>研究人员还在探索使用这种方法递送能够产生其他有用蛋白质（如抗体、酶或凝血因子）的细胞的可能性。</p>
+<p>"我们认为，这些技术可以通过在体内而非体外制造药物，提供一种治疗人类疾病的长期方法，"Anderson 说。"有许多蛋白质疗法需要患者反复接受长时间的输注。我们认为有可能制造一种装置，能够根据患者需求持续按需产生蛋白质治疗药物。"</p>
+<p>这项研究部分得到了 Breakthrough T1D、Leona M. and Harry B. Helmsley 慈善信托基金、美国国立卫生研究院（NIH）以及美国国家癌症研究所科赫研究所支持（核心）资助的支持。</p>
+<p><a href="http://doi.org/10.1016/j.device.2026.101084">论文："Wireless battery-free oxygenation devices enable extended immunosuppression-free islet transplantation in minimally invasive sites"</a></p>
+<p><a href="https://libraries.mit.edu/scholarly/publishing/find-oa-articles/">查阅本文所述研究的开放获取版本。</a></p>
+<hr>
+<h2>术语表</h2>
+<table>
+<thead>
+<tr>
+<th>原文</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>clotting factors</td>
+<td>凝血因子</td>
+</tr>
+<tr>
+<td>immune suppression</td>
+<td>免疫抑制</td>
+</tr>
+<tr>
+<td>induced pluripotent stem cells (iPSC)</td>
+<td>诱导多能干细胞</td>
+</tr>
+<tr>
+<td>islet cell</td>
+<td>胰岛细胞</td>
+</tr>
+<tr>
+<td>proton-exchange membrane</td>
+<td>质子交换膜</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-implantable-islet-cells-could-control-diabetes-without-insul","sender":"Anne Trafton ｜ MIT News","subject":"植入式胰岛细胞有望让糖尿病患者摆脱胰岛素注射","snippet":"MIT 团队开发了一种植入式胰岛细胞装置，有望让 1 型糖尿病患者摆脱每日胰岛素注射。这项技术的核心突破在于：装置不仅通过封装保护供体或干细胞来源的胰岛细胞免受免疫排斥，还配备了由体外天线无线供电的氧气发生器，为细胞提供持续充足的氧供。在小鼠和大鼠实验中，该装置已在体内稳定运行至少 90 天，维持血糖在健康范围。相比传统胰岛移植须长期服用免疫抑制药物，这种免免疫抑制的方案大幅降低了患者的负担。研究人员还指出，该平台未来或可用于按需递送抗","date":"2026-03-26","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["translated"],"mdTheme":"magazine","sourcePath":"reports/implantable-islet-cells-could-control-diabetes-without-insul.md","sourceUrl":"https://news.mit.edu/2026/implantable-islet-cells-could-control-diabetes-without-insulin-injections-0326","body":"$3","prompts":[]},"listPosition":{"index":157,"total":365}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

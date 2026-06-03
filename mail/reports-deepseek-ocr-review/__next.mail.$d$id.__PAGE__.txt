@@ -1,0 +1,31 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+4:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Te5b,<h1>Review of Deep Seek OCR</h1>
+<ul>
+<li>来源链接：<a href="https://lukeatkins.me/90_30_Club/posts/deepseekocr/">https://lukeatkins.me/90_30_Club/posts/deepseekocr/</a></li>
+</ul>
+<h2>DeepSeek-OCR：上下文光学压缩 —— 读书会心得</h2>
+<p>我和读书会的小伙伴们刚读完了 <strong>“DeepSeek-OCR: Contexts Optical Compression”</strong>，我想把笔记整理成一篇简单明了的文章。这里的所有内容都直接源于我在讨论后记下的要点。</p>
+<p>相关链接：
+<a href="https://huggingface.co/deepseek-ai/DeepSeek-OCR">Hugging Face 上的 DeepSeek-OCR</a>
+<a href="https://arxiv.org/pdf/2510.18234">arXiv 论文</a></p>
+<h2>我个人的思考</h2>
+<p>我第一时间注意到，这篇论文其实不仅仅关乎传统意义上的 OCR。它更多关注的是 <strong>模型输入内部的上下文压缩</strong>，这感觉才是真正的贡献所在。模型利用编码器（encoder）在传递图像 token 之前对其进行压缩，这个方向比单纯的 OCR 框架更吸引我。</p>
+<p>我也希望作者能提供一些 <strong>图像 token 实际样子的示例</strong>。这能让人更具体地理解到底压缩了什么，以及保留了多少结构信息。</p>
+<p>另一件让我兴奋的事是，看到这种类型的模型使用 <strong>更多非合成数据</strong> 进行训练。这种方法看起来很有前景，我很期待看到它在接触更广泛的真实世界案例后的表现。</p>
+<p>最后，这种模型设计感觉是通向 <strong>更大上下文窗口</strong> 的一条可行路径，也许能达到我们现有水平的 10 倍甚至 100 倍。</p>
+<h2>小组讨论的内容</h2>
+<p>我们讨论的一个点是，<strong>编辑距离（Edit Distance）</strong> 是否是此类任务的公平指标。哪怕只是少了一个逗号这样的小变动都可能完全改变含义，但两个输出之间的编辑距离却很小。这让我们质疑该指标是否能很好地反映出真正重要的错误。</p>
+<p>有人提到 DeepSeek-OCR 与 Azure OCR 进行了对比测试。大家普遍认为这并不是一个特别公平的比较。Azure 的产品经过打磨且已达到生产级标准（production-ready），而 DeepSeek 的工作还处于早期阶段，更侧重于架构本身。</p>
+<p>我们还讨论了这种架构在大规模训练时可能会如何影响硬件需求。因为压缩减少了传入解码器（decoder）的信息量，这可能意味着训练期间需要的 <strong>GPU 显存更少</strong>。</p>
+<p>还有关于这种系统抓取互联网数据的讨论。现在的想法大概是使用 <strong>Playwright</strong> 抓取完整的网页，然后在摄入任何内容之前对原始内容运行一些简单的文本分析。</p>
+<p>组里的最后一个注记是，我还需要去读一下 <strong>DeepSeek 的 MoE 解码器论文</strong>，因为架构的那一部分我还没完全搞懂。</p>
+<h2>这种架构的规模化前景</h2>
+<p>大家对于这种架构在全面扩展时的训练效果很感兴趣。因为编码器在将信息传递给模型的其余部分之前进行了大量压缩，整个流程可能会变得更加高效。这可能会改变人们对硬件需求的看法。压缩可以减轻 GPU 显存的负担，这对于能训练多大的基础模型有着重要影响。</p>
+<h2>我还不了解的地方</h2>
+<p>我仍然不理解架构中的 <strong>MoE 解码器</strong> 部分，我很期待阅读那篇论文。</p>
+<p>我也还不知道这种方法在处理大量非合成数据时的表现究竟如何，或者图像 token 在实践中到底长什么样。这些细节对于理解界限在哪里至关重要。</p>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-deepseek-ocr-review","sender":"Hinbox","subject":"Review of Deep Seek OCR","snippet":"","date":"2025-12-02","isRead":false,"isStarred":false,"hasAttachment":false,"labels":["Inbox"],"tags":[],"mdTheme":"magazine","sourcePath":"reports/deepseek-ocr-review.md","body":"$3","prompts":[]},"listPosition":{"index":217,"total":365}}],[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

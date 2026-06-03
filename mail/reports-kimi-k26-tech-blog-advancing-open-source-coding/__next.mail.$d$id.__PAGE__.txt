@@ -1,0 +1,254 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T71d4,<h1>Kimi K2.6 技术博客：推进开源编程</h1>
+<p>Kimi 团队发布了新一代开源模型 K2.6，在编码能力、长程执行与智能体集群方面均达到业界领先水平。这篇技术博客详细拆解了模型的核心设计思路与实测表现，其中最令人印象深刻的并非基准测试分数，而是 K2.6 在真实复杂工程任务中展现出的自主性与可靠性：它曾用 Zig 语言在 Mac 上从零优化 Qwen3.5-0.8B 的推理性能，历经四千余次工具调用和十多小时的持续迭代，最终将吞吐量提升至 193 tokens/秒；也曾自主重构一个已有八年历史的开源金融撮合引擎，分析火焰图定位瓶颈、重构核心线程拓扑，最终实现 185% 的中位数吞吐量跃升。多位测试方的反馈也指向同一个结论——K2.6 真正突破的是长程任务中的稳定性和指令遵循能力，这使其成为构建自主智能体管线的可靠底座。对于关注开源大模型前沿进展、智能体编码工作流的读者而言，这篇文章提供了翔实且有说服力的技术参考。</p>
+<hr>
+<h2>长程编码（Long-Horizon Coding）</h2>
+<h3>编码驱动设计（Coding-Driven Design）</h3>
+<h3>升级版智能体集群（Agent Swarms, Elevated）</h3>
+<h3>主动式智能体（Proactive Agents）</h3>
+<h3>自带智能体（Bring Your Own Agents）</h3>
+<h3>基准测试表（Benchmark Table）</h3>
+<h3>脚注（Footnotes）</h3>
+<p>我们正在开源最新模型 <strong>Kimi K2.6</strong>，具备 <strong>业界领先的编码能力、长程执行能力与智能体集群能力</strong>。Kimi K2.6 现已可通过 <strong><a href="https://www.kimi.com/">Kimi.com</a>、Kimi App、<a href="https://platform.kimi.ai/">API</a> 和 <a href="https://www.kimi.com/code">Kimi Code</a></strong> 使用。</p>
+<h3>通用智能体（General Agents）</h3>
+<h6>Humanity's Last Exam (Full) w/ tools</h6>
+<h6>BrowseComp</h6>
+<h6>DeepSearchQA (f1-score)</h6>
+<h6>Toolathlon</h6>
+<h6>OSWorld-Verified</h6>
+<h3>编码（Coding）</h3>
+<h6>Terminal-Bench 2.0 (Terminus-2)</h6>
+<h6>SWE-Bench Pro</h6>
+<h6>SWE-Multilingual</h6>
+<h3>视觉智能体（Visual Agents）</h3>
+<h6>MathVision w/ python</h6>
+<h6>V* w/ python</h6>
+<h3>长程编码</h3>
+<p>Kimi K2.6 在长程编码任务上展现出显著提升，能够跨编程语言（如 Rust、Go 和 Python）及任务类型（如前端、DevOps 和性能优化）实现可靠的泛化。在 <strong>Kimi Code Bench</strong>（我们内部覆盖多种复杂端到端任务的编码评测基准）上，Kimi K2.6 相比 Kimi K2.5 显示出明显改进。</p>
+<p><img src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/2/2026-04-20/1d7j305qav1fc641b5670?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" alt="Kimi Code Bench"></p>
+<p>Kimi K2.6 在复杂工程任务中展现出强大的长程编码能力：</p>
+<p>Kimi K2.6 成功在 Mac 上本地下载并部署了 <strong>Qwen3.5-0.8B</strong> 模型。通过使用高度小众的编程语言 <strong>Zig</strong> 实现并优化模型推理，它展示了卓越的分布外泛化能力。在 <strong>超过 4,000 次工具调用、12 小时以上的持续执行以及 14 轮迭代</strong> 中，Kimi K2.6 将吞吐量从约 15 tokens/秒大幅提升至 <strong>约 193 tokens/秒</strong>，最终速度比 LM Studio 快约 <strong>20%</strong>。</p>
+<p><img src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/2/2026-04-20/1d7j1727f2ena623likig?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" alt="K2.6 Qwen3.5-0.8B Mac 推理优化案例"></p>
+<p>Kimi K2.6 自主重构了 <strong>exchange-core</strong>——一个已有 8 年历史的开源金融撮合引擎。在 <strong>13 小时的执行过程</strong> 中，模型迭代了 12 种优化策略，发起超过 1,000 次工具调用，精确修改了 4,000 多行代码。Kimi K2.6 扮演了专家级系统架构师的角色，通过分析 CPU 和分配火焰图来定位隐藏瓶颈，并大胆重构了核心线程拓扑（从 4ME+2RE 改为 2ME+1RE）。尽管该引擎已接近其性能极限运行，Kimi K2.6 仍然实现了 <strong>185% 的中位数吞吐量跃升</strong>（从 0.43 到 1.24 MT/s）以及 <strong>133% 的性能吞吐量提升</strong>（从 1.23 攀升至 2.86 MT/s）。</p>
+<p><img src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/2/2026-04-20/1d7j16siav1fc641arbr0?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" alt="K2.6 exchange-core 编码展示"></p>
+<p>在 Beta 测试中，K2.6 在企业评测的长程编码任务上表现优异（按字母顺序排列）：</p>
+<blockquote>
+<p><strong>Kimi K2.6 的进化令人印象深刻。</strong> 它的编码能力达到了与顶尖闭源模型相当的水平，并且由于对第三方框架的深刻理解，提供了强大的工具调用质量。Kimi K2.6 出色的可靠性使其成为复杂长程工程任务的绝佳选择。</p>
+</blockquote>
+<blockquote>
+<p><strong>Kimi K2.6 为开源模型树立了新标杆，尤其是在长程、智能体式编码工作流方面。</strong> 它能处理复杂的多步任务，指令遵循能力更强，代码质量始终如一。我们发现它能以显著的稳定性维持长时间的编码会话，远超普通模型。它还能发现深层次、不明显的 bug，而这些 bug 通常需要开发者花费大量时间才能找出。总体而言，K2.6 为可靠编码设立了新标准。</p>
+</blockquote>
+<blockquote>
+<p><strong>在 CodeBuddy 内部评测中，Kimi K2.6 相比 K2.5 有显著提升：代码生成准确率提高 12%，长上下文稳定性提升 18%，工具调用成功率达到 96.60%。</strong> 其更强的推理能力和更一致的输出质量为确保 CodeBuddy WorkBuddy 的可靠用户体验提供了有力支撑。</p>
+</blockquote>
+<blockquote>
+<p><strong>在我们自己的基准测试（+15%）和并排对比中，K2.6 相比 K2.5 都有明显改进。</strong> 它的指令遵循能力更强，探索和推理更深入，编码错误或使用 hack 的可能性更低。</p>
+</blockquote>
+<blockquote>
+<p>我们非常高兴看到 Kimi K2.6 的发布再次推动了开源模型的飞跃，这标志着高风险智能体工作流的重大进步。<strong>最具影响力的改进在于其长程可靠性和指令遵循能力。</strong> K2.6 擅长在长时间编码过程中保持架构完整性，使其成为自主智能体管线（如同各类 "claws"）的稳定基础。它在长上下文任务上相比 K2.5 有了可量化的飞跃，在复杂推理中达到了业界领先水平。</p>
+</blockquote>
+<blockquote>
+<p>我们提前体验了 K2.6 并在 Hermes Agent 上进行了测试。<strong>工具调用和智能体循环感觉明显更紧凑，编码能力明显提升，创意范围也令我们惊喜。</strong> 我们对与 Kimi 合作举办创意黑客马拉松感到非常兴奋。Kimi 团队持续超越预期！</p>
+</blockquote>
+<blockquote>
+<p><strong>K2.6 以极低的成本提供了业界顶尖水平的性能。</strong> 它在跨代码库的长上下文任务以及支持 KiloClaw 这类常驻智能体的日常工作中都表现出色。</p>
+</blockquote>
+<blockquote>
+<p><strong>Kimi K2.6 提升了开源模型的标准。</strong> 它在编码方面表现卓越，尤其适用于 OpenClaw 和 Hermes 等智能体工具。在早期测试中，它能以令人印象深刻的稳定性维持长时间的多步会话。它将开箱即用地支持 Ollama 的全部集成，我们期待看到开发者用它构建的作品。</p>
+</blockquote>
+<blockquote>
+<p><strong>在 OpenCode 中，Kimi K2.6 被证明异常可靠。</strong> 它在任务分解和工具调用方面既稳健又一致。凭借对任务需求更精准的把握和更简化的多步操作，它能有效减少重复开销，带来更流畅、更可信的端到端体验。</p>
+</blockquote>
+<blockquote>
+<p><strong>Kimi K2.6 在 Qoder 内部评测中表现强劲，相比 K2.5 取得了显著进步。</strong> 具体而言，工具调用和模型调用的频率明显增加，反映了模型在任务执行过程中的主动性和智能性有了大幅提升。工具调用中这种增强的主动性使模型能够更主动地理解开发者意图并自动补全上下文，从而减少对用户的打断和等待时间。</p>
+</blockquote>
+<blockquote>
+<p>K2.6 在我们开发者最关心的能力上比 K2.5 有重大提升：我们在 Next.js 基准测试上看到了超过 50% 的改进，使其跻身该平台上的顶尖模型之列。结合其性价比，它是通过 AI Gateway 进行智能体编码和前端生成的极具吸引力的选择。</p>
+</blockquote>
+<p>01 / 06</p>
+<h3>编码驱动的设计</h3>
+<p>基于强大的编码能力，Kimi K2.6 能够将简单的提示词转化为完整的前端界面，生成具有深思熟虑设计选择的结构化布局，例如美观的 Hero 区域，以及交互元素和丰富的动画效果，包括滚动触发的动效。凭借对图像和视频生成工具的娴熟运用，Kimi K2.6 支持生成视觉上协调一致的素材，并有助于打造更高质量、更突出的 Hero 区域。</p>
+<p>此外，Kimi K2.6 的能力超越了静态前端开发，扩展至简单的全栈工作流——涵盖身份验证、用户交互到数据库操作，适用于诸如事务记录或会话管理等轻量级用例。</p>
+<p>我们建立了内部 <strong>Kimi Design Bench</strong>（Kimi 设计基准测试），分为四个类别：视觉输入任务、Landing Page 构建、全栈应用开发和通用创意编程。与 Google AI Studio 相比，Kimi K2.6 在这些类别中表现出了令人期待的结果和良好的性能。</p>
+<p><img src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/2/2026-04-20/1d7j30aiav1fc641b5710?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" alt="Kimi Design Bench"></p>
+<p>以下是由 <a href="https://www.kimi.com/websites">K2.6 Agent</a> 从单个提示词生成的示例，配有预配置的 harness 和工具：</p>
+<p><strong>美观：精美前端设计，交互丰富</strong></p>
+<p><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-15/1d7fnk053v89kkehrsu70?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-15/1d7fnkiaav1fc641194p0?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-15/1d7fnku2av1fc641197gg?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video></p>
+<p><strong>功能：内置数据库和身份验证</strong></p>
+<p><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-20/1d7isbkd3v89kkei4o4mg?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-15/1d7fnklpl51jas5f2nmng?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-15/1d7fnl1edcmosb3uul6q0?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video></p>
+<p><strong>工具使用：利用图像/视频生成工具创建精美的网站</strong></p>
+<p><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-20/1d7irsmpl51jas5fbh3qg?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-15/1d7fnkovf2ena623c10rg?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-15/1d7fnl4nf2ena623c13jg?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video></p>
+<h3>智能体集群，全面升级</h3>
+<p><strong>横向扩展，而非仅仅纵向扩展。</strong> 智能体集群将任务动态分解为异构子任务，由自行创建的领域专用智能体并发执行。</p>
+<p>基于 K2.5 Agent Swarm 研究预览版，<a href="https://www.kimi.com/agent-swarm">Kimi K2.6 Agent Swarm</a> 在智能体集群体验上展现了<strong>质的飞跃</strong>。它无缝协调异构智能体，将互补技能融合在一起：广度搜索与深度研究相结合、大规模文档分析与长文写作相融合，以及多格式内容的并行生成。这种组合式智能使集群能够在单次自主运行中交付端到端的输出——涵盖文档、网站、幻灯片和电子表格。</p>
+<p>该架构横向扩展至 <strong>300 个子智能体同时在 4,000 个协调步骤中执行</strong>，相比 K2.5 的 100 个子智能体和 1,500 个步骤有了大幅扩展。这种大规模并行化从根本上降低了端到端延迟，同时显著提升了输出质量，并扩展了智能体集群的运作边界。</p>
+<p>它还可以将任何高质量文件（如 PDF、电子表格、幻灯片和 Word 文档）转化为 <strong>Skills（技能）</strong>。Kimi K2.6 捕捉并保持文档的结构和风格 DNA，使你能够在未来的任务中重现相同的质量和格式。</p>
+<p>以下是一些示例：</p>
+<p><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-20/1d7itc9ff2ena623l0t3g?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video></p>
+<p>在 100 个全球半导体资产上设计并执行了 5 种量化策略，提炼出 McKinsey 风格的 PPT 作为可复用技能，并交付了详细的建模电子表格和完整的高管演示文稿。</p>
+<p><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-20/1d7itct7f2ena623l0vk0?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video></p>
+<p>将一篇包含丰富视觉数据的高质量天体物理学论文转化为可复用的学术技能，提炼其推理流程和可视化方法，并生成了一篇 40 页、7,000 词的研究论文、一个包含 20,000+ 条目的结构化数据集，以及 14 张天文学级图表。</p>
+<p><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-20/1d7itd0vf2ena623l0vvg?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video></p>
+<p>基于上传的简历，K2.6 生成了 100 个子智能体，匹配加利福尼亚州的 100 个相关职位，交付了结构化的机会数据集和 100 份完全定制的简历。</p>
+<p><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-20/1d7itdbn6rtp4tqb7mrkg?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video></p>
+<p>从 Google Maps 中识别出洛杉矶 30 家没有官方网站的零售店，并为每家生成了高转化率的 Landing Page，展现了机会发现和端到端执行能力。</p>
+<h3>主动式智能体</h3>
+<p>K2.6 在诸如 <strong><a href="https://openclaw.ai/">OpenClaw</a></strong> 和 <strong><a href="https://hermes-agent.nousresearch.com/">Hermes</a></strong> 等自主、主动式智能体上展现了强劲性能，这些智能体跨多个应用持续全天候运行。</p>
+<p>与简单的基于聊天的交互不同，这些工作流要求 AI 以持久化后台智能体的方式主动管理日程、执行代码并编排跨平台操作。</p>
+<p>我们的 RL 基础设施团队使用了一个基于 K2.6 的智能体，它自主运行了 <strong>5 天</strong>，管理监控、事件响应和系统运维，展现了持久化上下文、多线程任务处理以及从告警到解决的完整周期执行能力。以下是 K2.6 的工作日志（已匿名化处理以去除敏感信息）：</p>
+<p><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-20/1d7iu25d3v89kkei510d0?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video></p>
+<p>K2.6 Agent Trace——5 天自主工程工作日志</p>
+<p>Kimi K2.6 在真实世界可靠性方面带来了可衡量的改进：更精确的 API 解读、更稳定的长时运行性能，以及在扩展研究任务中更强的安全意识。</p>
+<p>性能提升通过我们的内部 <strong>Claw Bench</strong>（Claw 基准测试）进行量化，该评测套件涵盖五个领域：编码任务、IM 生态系统集成、信息研究与分析、定时任务管理和记忆利用。在所有指标上，Kimi K2.6 在任务完成率和工具调用准确率方面显著优于 Kimi K2.5——尤其是在需要无需人工监督的持续自主运行的工作流中。</p>
+<p><img src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/2/2026-04-20/1d7j2vv53v89kkei5on5g?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" alt="Kimi Claw Bench"></p>
+<hr>
+<h3>自带智能体</h3>
+<p>基于 Kimi K2.6 强大的编排能力，Kimi K2.6 将你的主动式智能体扩展到 <strong>Claw Groups</strong>（以研究预览形式推出）——这是智能体集群（Agent Swarm）架构的一个新实例。</p>
+<p>Claw Groups 拥抱一个开放、异构的生态系统：多个智能体与人类作为真正的协作者共同运作。用户可以从任何设备接入智能体，它们运行着不同的模型，各自携带专用的工具包、技能和持久记忆上下文。无论是部署在本地笔记本、移动设备还是云实例上，这些多样的智能体都能无缝集成到一个共享的操作空间中。</p>
+<p>在这个集群的中心，Kimi K2.6 充当着一个自适应协调器。它根据智能体各自的技能画像和可用工具，动态匹配任务，优化能力适配。当某个智能体遭遇失败或停滞时，协调器会检测到中断，自动重新分配任务或重新生成子任务，并主动管理交付物的完整生命周期——从启动到验证直至完成。</p>
+<p>我们还要感谢 Claw Groups 中由 K2.6 驱动的智能体——我们一直在通过在实践中打磨人机协作工作流，亲身使用（dogfooding）自己的智能体营销团队。借助 Claw Groups，我们运行端到端的内容制作和发布活动，让 Demo 制作智能体、基准测试制作智能体、社交媒体智能体和视频制作智能体等各类专门智能体协同工作。K2.6 协调整个过程，使智能体能够共享中间结果，将创意转化为一致的、完整打包的交付物。</p>
+<p><video src="https://kimi-file.moonshot.cn/prod-chat-kimi/kfs/4/1/2026-04-20/1d7j46uudcmosb3v8m270?x-tos-process=image%2Fauto-orient%2C1%2Fstrip%2Fignore-error%2C1" controls=""></video></p>
+<p>我们正在超越简单地向 AI 提问或分配任务的阶段，步入一个人与 AI 作为真正伙伴协作的时代——汇聚各自优势共同解决问题。Claw Groups 标志着我们向这样一个未来迈出的最新努力：在那里，"我的智能体"、"你的智能体"和"我们的团队"之间的边界无缝消融，融为一个协作系统。</p>
+<hr>
+<h3>基准测试表</h3>
+<table><thead><tr><th>基准测试</th><th>Kimi K2.6</th><th>GPT-5.4 (xhigh)</th><th>Claude Opus 4.6 (max effort)</th><th>Gemini 3.1 Pro (thinking high)</th><th>Kimi K2.5</th></tr></thead><tbody><tr><td><strong>智能体</strong></td><td colspan="5"></td></tr><tr><td rowspan="1"><p>HLE-Full w/ tools</p></td><td>54.0</td><td>52.1</td><td>53.0</td><td>51.4</td><td>50.2</td></tr><tr><td rowspan="1"><p>BrowseComp</p></td><td>83.2</td><td>82.7</td><td>83.7</td><td>85.9</td><td>74.9</td></tr><tr><td rowspan="1"><p>BrowseComp (agent swarm)</p></td><td>86.3</td><td>—</td><td>—</td><td>—</td><td>78.4</td></tr><tr><td rowspan="1"><p>DeepSearchQA (f1-score)</p></td><td>92.5</td><td>78.6</td><td>91.3</td><td>81.9</td><td>89.0</td></tr><tr><td rowspan="1"><p>DeepSearchQA (accuracy)</p></td><td>83.0</td><td>63.7</td><td>80.6</td><td>60.2</td><td>77.1</td></tr><tr><td rowspan="1"><p>WideSearch (item-f1)</p></td><td>80.8</td><td>—</td><td>—</td><td>—</td><td>72.7</td></tr><tr><td rowspan="1"><p>Toolathlon</p></td><td>50.0</td><td>54.6</td><td>47.2</td><td>48.8</td><td>27.8</td></tr><tr><td rowspan="1"><p>MCPMark</p></td><td>55.9</td><td>62.5*</td><td>56.7*</td><td>55.9*</td><td>29.5</td></tr><tr><td rowspan="1"><p>Claw Eval (pass^3)</p></td><td>62.3</td><td>60.3</td><td>70.4</td><td>57.8</td><td>52.3</td></tr><tr><td rowspan="1"><p>Claw Eval (pass@3)</p></td><td>80.9</td><td>78.4</td><td>82.4</td><td>82.9</td><td>75.4</td></tr><tr><td rowspan="1"><p>APEX-Agents</p></td><td>27.9</td><td>33.3</td><td>33.0</td><td>32.0</td><td>11.5</td></tr><tr><td rowspan="1"><p>OSWorld-Verified</p></td><td>73.1</td><td>75.0</td><td>72.7</td><td>—</td><td>63.3</td></tr><tr><td><strong>编程</strong></td><td colspan="5"></td></tr><tr><td rowspan="1"><p>Terminal-Bench 2.0 (Terminus-2)</p></td><td>66.7</td><td>65.4*</td><td>65.4</td><td>68.5</td><td>50.8</td></tr><tr><td rowspan="1"><p>SWE-Bench Pro</p></td><td>58.6</td><td>57.7</td><td>53.4</td><td>54.2</td><td>50.7</td></tr><tr><td rowspan="1"><p>SWE-Bench Multilingual</p></td><td>76.7</td><td>—</td><td>77.8</td><td>76.9*</td><td>73.0</td></tr><tr><td rowspan="1"><p>SWE-Bench Verified</p></td><td>80.2</td><td>—</td><td>80.8</td><td>80.6</td><td>76.8</td></tr><tr><td rowspan="1"><p>SciCode</p></td><td>52.2</td><td>56.6</td><td>51.9</td><td>58.9</td><td>48.7</td></tr><tr><td rowspan="1"><p>OJBench (python)</p></td><td>60.6</td><td>—</td><td>60.3</td><td>70.7</td><td>54.7</td></tr><tr><td rowspan="1"><p>LiveCodeBench (v6)</p></td><td>89.6</td><td>—</td><td>88.8</td><td>91.7</td><td>85.0</td></tr><tr><td><strong>推理与知识</strong></td><td colspan="5"></td></tr><tr><td rowspan="1"><p>HLE-Full</p></td><td>34.7</td><td>39.8</td><td>40.0</td><td>44.4</td><td>30.1</td></tr><tr><td rowspan="1"><p>AIME 2026</p></td><td>96.4</td><td>99.2</td><td>96.7</td><td>98.3</td><td>95.8</td></tr><tr><td rowspan="1"><p>HMMT 2026 (Feb)</p></td><td>92.7</td><td>97.7</td><td>96.2</td><td>94.7</td><td>87.1</td></tr><tr><td rowspan="1"><p>IMO-AnswerBench</p></td><td>86.0</td><td>91.4</td><td>75.3</td><td>91.0*</td><td>81.8</td></tr><tr><td rowspan="1"><p>GPQA-Diamond</p></td><td>90.5</td><td>92.8</td><td>91.3</td><td>94.3</td><td>87.6</td></tr><tr><td><strong>视觉</strong></td><td colspan="5"></td></tr><tr><td rowspan="1"><p>MMMU-Pro</p></td><td>79.4</td><td>81.2</td><td>73.9</td><td>83.0*</td><td>78.5</td></tr><tr><td rowspan="1"><p>MMMU-Pro w/ python</p></td><td>80.1</td><td>82.1</td><td>77.3</td><td>85.3*</td><td>77.7</td></tr><tr><td rowspan="1"><p>CharXiv (RQ)</p></td><td>80.4</td><td>82.8*</td><td>69.1</td><td>80.2*</td><td>77.5</td></tr><tr><td rowspan="1"><p>CharXiv (RQ) w/ python</p></td><td>86.7</td><td>90.0*</td><td>84.7</td><td>89.9*</td><td>78.7</td></tr><tr><td rowspan="1"><p>MathVision</p></td><td>87.4</td><td>92.0*</td><td>71.2*</td><td>89.8*</td><td>84.2</td></tr><tr><td rowspan="1"><p>MathVision w/ python</p></td><td>93.2</td><td>96.1*</td><td>84.6*</td><td>95.7*</td><td>85.0</td></tr><tr><td rowspan="1"><p>BabyVision</p></td><td>39.8</td><td>49.7</td><td>14.8</td><td>51.6</td><td>36.5</td></tr><tr><td rowspan="1"><p>BabyVision w/ python</p></td><td>68.5</td><td>80.2*</td><td>38.4*</td><td>68.3*</td><td>40.5</td></tr><tr><td rowspan="1"><p>V* w/ python</p></td><td>96.9</td><td>98.4*</td><td>86.4*</td><td>96.9*</td><td>86.9</td></tr></tbody></table>
+<p>如需复现官方 Kimi-K2.6 基准测试结果，建议使用官方 API。若使用第三方提供商，请参考 Kimi Vendor Verifier（KVV）选择高精度服务。详情：<a href="https://kimi.com/blog/kimi-vendor-verifier">https://kimi.com/blog/kimi-vendor-verifier</a></p>
+<p><strong>1. 通用测试细节</strong></p>
+<ul>
+<li>我们报告的 Kimi K2.6 和 Kimi K2.5 结果均启用了思考模式（thinking mode），Claude Opus 4.6 采用最大努力（max effort），GPT-5.4 采用 xhigh 推理努力（xhigh reasoning effort），Gemini 3.1 Pro 采用高思考层级（high thinking level）。</li>
+<li>除非另有说明，所有 Kimi K2.6 实验均使用 temperature = 1.0、top-p = 1.0、上下文长度（context length）262,144 tokens 进行。</li>
+<li>未公开分数的基准测试在与 Kimi K2.6 相同的条件下重新评估，并以星号（*）标记。除标注星号的结果外，其他所有结果均引用自官方报告。</li>
+</ul>
+<p><strong>2. 推理基准测试</strong></p>
+<ul>
+<li>GPT-5.4 和 Claude 4.6 的 IMO-AnswerBench 分数来自 <a href="https://z.ai/blog/glm-5.1">https://z.ai/blog/glm-5.1</a>。</li>
+<li>人类最后的考试（Humanity's Last Exam, HLE）及其他推理任务的最大生成长度（maximum generation length）为 98,304 tokens。默认报告 HLE 完整集（full set）的结果。在纯文本子集上，Kimi K2.6 无工具时准确率为 36.4%，使用工具时为 55.5%。</li>
+</ul>
+<p><strong>3. 工具增强 / 智能体任务</strong></p>
+<ul>
+<li>Kimi K2.6 在 HLE with tools、BrowseComp、DeepSearchQA 和 WideSearch 中配备了搜索（search）、代码解释器（code-interpreter）和网页浏览（web-browsing）工具。</li>
+<li>对于 HLE-Full with tools，最大生成长度为 262,144 tokens，每步限制 49,152 tokens。我们采用简单的上下文管理（context management）策略：一旦上下文窗口超出阈值，仅保留最近一轮工具相关消息。</li>
+<li>对于 BrowseComp，我们报告的分数采用与 Kimi K2.5 和 DeepSeek-V3.2 相同的丢弃所有（discard-all）策略进行上下文管理。</li>
+<li>对于 DeepSearchQA，Kimi K2.6 测试未应用上下文管理，超出支持上下文长度的任务直接计为失败。Claude Opus 4.6、GPT-5.4 和 Gemini 3.1 Pro 在 DeepSearchQA 上的分数引自 <a href="https://cdn.sanity.io/files/4zrzovbb/website/037f06850df7fbe871e206dad004c3db5fd50340.pdf">Claude Opus 4.7 System Card</a>。</li>
+<li>对于 WideSearch，我们在"隐藏工具结果"（hide tool result）上下文管理设置下报告结果。一旦上下文窗口超出阈值，仅保留最近一轮工具相关消息。</li>
+<li>测试系统提示词（system prompts）与 <a href="https://arxiv.org/pdf/2602.02276">Kimi K2.5 技术报告</a> 中使用的相同。</li>
+<li>Claw Eval 使用 1.1 版本进行，max-tokens-per-step = 16384。</li>
+<li>对于 APEX-Agents，我们评估了公开 480 项任务中的 452 项，与 <a href="https://artificialanalysis.ai/evaluations/apex-agents-aa">Artificial Analysis</a> 的做法一致（排除了 Investment Banking Worlds 244 和 246，这两项存在外部运行时依赖）。</li>
+</ul>
+<p><strong>4. 编程任务</strong></p>
+<ul>
+<li>Terminal-Bench 2.0 分数使用默认智能体框架（Terminus-2）和提供的 JSON parser 获得，运行在 preserve thinking 模式。</li>
+<li>对于 SWE-Bench 系列评估（包括 Verified、Multilingual 和 Pro），我们使用基于 SWE-agent 改编的内部评估框架。该框架包含最小工具集——bash 工具（bash tool）、createfile 工具（createfile tool）、insert 工具（insert tool）、view 工具（view tool）、strreplace 工具（strreplace tool）和 submit 工具（submit tool）。</li>
+<li>所有编程任务的报告分数均为 10 次独立运行的平均值。</li>
+</ul>
+<p><strong>5. 视觉基准测试</strong></p>
+<ul>
+<li>Max-tokens = 98,304，三次运行取平均（avg@3）。</li>
+<li>使用 Python 工具的设置中，max-tokens-per-step = 65,536，max-steps = 50，用于多步推理。</li>
+<li>MMMU-Pro 遵循官方协议，保留输入顺序并在输入前插入图像。</li>
+</ul>
+<hr>
+<h2>术语表</h2>
+<table>
+<thead>
+<tr>
+<th>原文</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>adaptive coordinator</td>
+<td>自适应协调器</td>
+</tr>
+<tr>
+<td>Agent Swarms</td>
+<td>智能体集群</td>
+</tr>
+<tr>
+<td>Claw Bench</td>
+<td>Claw 基准测试</td>
+</tr>
+<tr>
+<td>Claw Groups</td>
+<td>Claw Groups（保留原文，产品特性名称）</td>
+</tr>
+<tr>
+<td>Compositional intelligence</td>
+<td>组合式智能</td>
+</tr>
+<tr>
+<td>context management</td>
+<td>上下文管理</td>
+</tr>
+<tr>
+<td>context window</td>
+<td>上下文窗口</td>
+</tr>
+<tr>
+<td>deliverables</td>
+<td>交付物</td>
+</tr>
+<tr>
+<td>dogfooding</td>
+<td>亲身使用（内部试用自家产品）</td>
+</tr>
+<tr>
+<td>exchange-core</td>
+<td>exchange-core（保留原文，开源项目名称）</td>
+</tr>
+<tr>
+<td>flame graph</td>
+<td>火焰图</td>
+</tr>
+<tr>
+<td>Hero section</td>
+<td>Hero 区域</td>
+</tr>
+<tr>
+<td>Long-Horizon Coding</td>
+<td>长程编码</td>
+</tr>
+<tr>
+<td>preserve thinking mode</td>
+<td>preserve thinking 模式（保留原文，Terminus-2 框架功能模式名称）</td>
+</tr>
+<tr>
+<td>Proactive Agents</td>
+<td>主动式智能体</td>
+</tr>
+<tr>
+<td>skill profiles</td>
+<td>技能画像</td>
+</tr>
+<tr>
+<td>Skill（feature）</td>
+<td>技能</td>
+</tr>
+<tr>
+<td>Sub-agent</td>
+<td>子智能体</td>
+</tr>
+<tr>
+<td>system prompts</td>
+<td>系统提示词</td>
+</tr>
+<tr>
+<td>thinking mode</td>
+<td>思考模式</td>
+</tr>
+<tr>
+<td>throughput</td>
+<td>吞吐量</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-kimi-k26-tech-blog-advancing-open-source-coding","sender":"Moonshot AI","subject":"Kimi K2.6 技术博客：推进开源编程","snippet":"Kimi 团队发布了新一代开源模型 K2.6，在编码能力、长程执行与智能体集群方面均达到业界领先水平。这篇技术博客详细拆解了模型的核心设计思路与实测表现，其中最令人印象深刻的并非基准测试分数，而是 K2.6 在真实复杂工程任务中展现出的自主性与可靠性：它曾用 Zig 语言在 Mac 上从零优化 Qwen3.5-0.8B 的推理性能，历经四千余次工具调用和十多小时的持续迭代，最终将吞吐量提升至 193 tokens/秒；也曾自主重构一个已","date":"2026-04-21","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["translated"],"mdTheme":"magazine","sourcePath":"reports/kimi-k26-tech-blog-advancing-open-source-coding.md","sourceUrl":"https://www.kimi.com/blog/kimi-k2-6","body":"$3","prompts":[]},"listPosition":{"index":103,"total":365}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

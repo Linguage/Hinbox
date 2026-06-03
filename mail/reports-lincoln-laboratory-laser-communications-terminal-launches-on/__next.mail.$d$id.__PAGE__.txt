@@ -1,0 +1,86 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T2e2c,<h1>林肯实验室激光通信终端随阿尔忒弥斯 II 号登月</h1>
+<p>1969年，阿波罗11号在月面留下人类足迹；半个多世纪后，阿尔忒弥斯II号正带领宇航员重返月球，而这一次，伴随他们的还有一项将重塑深空通信的技术——激光通信。MIT林肯实验室开发的O2O光学通信系统，搭载于猎户座飞船上，旨在用激光束取代传统射频，实现从月球向地球传输高清视频与海量数据的实时链路。核心终端MAScOT仅有家猫大小，已在国际空间站成功验证了超1 Gbps的下行速率，远超设计预期。这不仅意味着宇航员能在绕月途中与地面进行视频会议、直播探索旅程，更意味着科学数据不再滞留飞船上数月之久。当人类的目光开始投向火星，激光通信或许正是支撑那趟旅程的关键基础设施。这篇文章详细讲述了O2O系统的技术细节、研发历程与任务意义，值得每一位关心太空探索未来的读者细读。</p>
+<hr>
+<p>从月球附近发送到地球的高清视频和数据，将首次展示激光通信在载人任务中的应用。</p>
+<p>1969年，阿波罗11号宇航员尼尔·阿姆斯特朗踏上月球表面——这一里程碑式的工程与科学成就，由他那句标志性话语铭刻于世："这是个人的一小步，却是人类的一大步。"如今，NASA正在再次创造历史。</p>
+<p>随着NASA <a href="https://www.nasa.gov/mission/artemis-ii/">阿尔忒弥斯II号任务</a>于昨日成功发射，<a href="https://www.nasa.gov/feature/our-artemis-crew/">四名宇航员</a>将成为50多年来首批前往月球的人类。2022年，无人飞行的<a href="https://www.nasa.gov/mission/artemis-i/">阿尔忒弥斯I号任务</a>证明了NASA新型<a href="https://www.nasa.gov/reference/orion-spacecraft/">猎户座飞船</a>能够比以往飞得更远并安全返回地球。在此成功基础上，为期10天的阿尔忒弥斯II号任务将为未来的阿尔忒弥斯任务铺平道路——这些任务的目标是让宇航员登陆月球，为建立持久的月球存在做准备，并最终实现人类前往火星的任务。</p>
+<p>在绕月飞行期间，猎户座飞船将搭载一套由MIT林肯实验室与NASA戈达德太空飞行中心合作开发的光学（激光）通信系统。该系统名为"猎户座阿尔忒弥斯II号<a href="https://www.nasa.gov/goddard/esc/o2o/">光学通信系统</a>（Orion Artemis II Optical Communications System, O2O）"，与传统射频（RF）系统相比，具备从太空向地球传输更高带宽数据的能力。在阿尔忒弥斯II号任务中，O2O将使用激光束向地球发送月球表面的高分辨率视频和图像。</p>
+<p>"基于太空的通信一直是一个巨大挑战，"首席系统工程师Farzana Khatri说道，她是林肯实验室<a href="https://www.ll.mit.edu/r-d/communication-systems/optical-and-quantum-communications">光学与量子通信组</a>的高级职员。"射频通信很好地完成了自己的使命。然而，射频频段现在已经非常拥挤，而且射频在太空中长距离传输时的扩展性不佳。激光通信（lasercom）是一种可以解决这个问题的方案，而本实验室是该领域的专家——这项技术实际上就是在这里开创的。"</p>
+<p>阿尔忒弥斯II号之所以具有历史意义，不仅因为它重启了人类对地球以外的探索，还因为它是首次演示激光通信技术的载人月球飞行——这项技术将彻底改变航天器的通信方式。林肯实验室开发这类技术已有二十多年，NASA一直在将其注入各项任务中，以满足日益增长的长距离、大数据量太空探索需求。</p>
+<p>"猎户座飞船在任务第一天就会收集大量数据，通常这些数据会滞留在飞船上直到它溅落，可能需要数月才能被卸下，"Khatri说。"有了以最高速率运行的光学链路，我们应该能够在几小时内将全部数据传回地球以供即时分析。此外，宇航员将能够通过光学链路进行实时通信，在旅途中与地球保持联系，从而激励公众和下一代深空探索者——就像57年前首次登月的阿波罗11号宇航员那样。"</p>
+<p>O2O的核心是实验室开发的"模块化、敏捷、可扩展光学终端（Modular, Agile, Scalable Optical Terminal, MAScOT）"。MAScOT的大小相当于一只家猫，配备一个安装在双轴旋转支撑架（万向节，gimbal）上的4英寸望远镜，并带有固定的后端光学组件。万向节精确地指向望远镜并跟踪激光束——通信信号通过该光束向目标数据接收方发射或从发送方接收。在万向节下方，一个独立的组件中容纳着后端光学组件，包含聚光透镜、跟踪传感器、快速转向镜及其他用于精确定位激光束的部件。</p>
+<p>MAScOT首次在太空亮相是作为实验室"集成激光通信中继演示低地球轨道用户调制解调器和放大器终端（ILLUMA-T）"的一部分，该终端于2023年11月<a href="https://www.ll.mit.edu/news/illuma-t-launches-international-space-station">发射至国际空间站</a>。在随后的六个月中，实验室团队进行了实验，以测试和表征系统的基本功能、性能以及对载人任务和用户应用的适用性。最初，团队检查了ILLUMA-T到LCRD的光学链路是否在预期的双向数据速率下运行：下行622 Mbps，上行51 Mbps。实际上，他们实现了更高的数据速率：下行1.2 Gbps，上行155 Mbps。MAScOT的激光通信终端架构——已获得<a href="https://www.ll.mit.edu/news/lincoln-laboratory-technologies-win-seven-rd-100-awards-2025">2025年R&#x26;D 100奖</a>——现正用于阿尔忒弥斯II号任务，并将支持未来的太空任务。</p>
+<p>"我们在ILLUMA-T上的成功为向月球传输高清视频和从月球接收高清视频奠定了基础，"联合首席研究员Jade Wang说，她是光学与量子通信组的助理组长。"你可以想象，阿尔忒弥斯宇航员将通过视频会议与医生联络、协调任务活动，并直播他们的月球之旅。"</p>
+<p>由林肯实验室组成的一支专门运营团队正在从德克萨斯州休斯顿和新墨西哥州白沙的地面站，以及远至澳大利亚的一处实验性地面站（这使得从南半球能更好地观测飞船）全程跟踪为期10天的阿尔忒弥斯II号任务。在发射前，运营团队每月都会前往休斯顿和白沙的地面站进行维护，并模拟阿尔忒弥斯任务各个阶段——从发射前、发射、前往月球、返回地球，直到任务结束时溅落的整个过程。</p>
+<p>"每月进行这些模拟很重要，这样我们每个人都能保持状态和参与感，尤其是在发射延迟的情况下，"Khatri说。她补充说，团队成员在这些行程中已有多次机会与四位宇航员见面交谈。</p>
+<p>从阿尔忒弥斯II号任务中汲取的经验教训，将为人类重返月球表面及更远目的地——最终抵达火星——铺平道路。通过<a href="https://www.nasa.gov/humans-in-space/artemis/">阿尔忒弥斯计划</a>，NASA将飞往更远的太空、探索更多月球区域，同时在深空中建立持久的存在，为子孙后代留下一份遗产。</p>
+<p>O2O由位于华盛顿的NASA总部<a href="https://www.nasa.gov/directorates/space-operations/space-communications-and-navigation-scan-program/">太空通信与导航（SCaN）计划</a>资助。O2O由来自NASA戈达德太空飞行中心和林肯实验室的工程师团队共同开发。这一合作关系已促成多次激光通信任务，包括2013年的<a href="https://www.nasa.gov/missions/tech-demonstration/laser-communications-relay/historic-demonstration-proves-laser-communication-possible/">月球激光通信演示（LLCD）</a>、2021年的<a href="https://www.nasa.gov/mission/laser-communications-relay/">LCRD</a>、2022年的<a href="https://www.ll.mit.edu/news/communications-system-achieves-fastest-laser-link-space-yet">TBIRD</a>和2023年的<a href="https://www.ll.mit.edu/news/illuma-t-launches-international-space-station">ILLUMA-T</a>。</p>
+<h3>MassLive</h3>
+<p><em>MassLive</em>记者John Micek报道了阿尔忒弥斯II号宇航员如何使用MIT林肯实验室开发的光学通信技术向地球发送月球表面的高分辨率视频和图像。</p>
+<p><a href="https://www.masslive.com/politics/2026/04/this-massachusetts-made-tech-powered-the-artemis-ii-mission-to-the-moon.html">查看MassLive全文</a> →</p>
+<h3>WBUR</h3>
+<p>利用MIT林肯实验室开发的技术，阿尔忒弥斯II号宇航员正在使用激光向地球发送高分辨率视频和图像，Hanna Ali为WBUR报道。林肯实验室光学与量子通信组负责人Bryan Robinson解释说，激光束可以将更多能量集中到目标接收器上。换句话说，"你可以用更高的数据速率进行通信，"Robinson说。</p>
+<p><a href="https://www.wbur.org/news/2026/04/06/nasa-artemis-ii-orion-space-moon-mit-laser-communication-system-newsletter">查看WBUR全文</a> →</p>
+<h3>WCVB</h3>
+<p>阿尔忒弥斯II号机组人员分享的月球和地球震撼图像，得益于MIT林肯实验室研究人员开发的新型光学通信技术，Emily Maher为WCVB-TV报道。"想到人类已经50多年没有从极点到极点见过地球的全貌，而能参与帮助实现这一目标，真是太酷了，"林肯实验室光学工程组副组长Corrie Smeaton说。</p>
+<p><a href="https://www.wcvb.com/article/mit-engineers-help-power-historic-artemis-ii-moon-mission/70945274">查看WCVB全文</a> →</p>
+<h3>WCVB</h3>
+<p>阿尔忒弥斯II号采用了由MIT林肯实验室研究人员开发的激光通信技术，Mary Salanda为WCVB报道。"O2O系统安装在飞船上，配备一个4英寸望远镜，依靠激光快速传输来自太空的图像，包括月球背面的图像。"</p>
+<p><a href="https://www.wcvb.com/article/mit-lasers-used-to-send-back-high-def-video-data-from-artemis-ii-mission/70916729">查看WCVB全文</a> →</p>
+<h3>The Boston Globe</h3>
+<hr>
+<h3>The Boston Globe</h3>
+<p>据《波士顿环球报》（<em>The Boston Globe</em>）记者 Nick Stoico 与 Hannah Goeke 报道，麻省理工学院林肯实验室（MIT's Lincoln Laboratory）团队开发的新型激光通信系统已搭载于 NASA 阿尔忒弥斯二号（Artemis II）月球任务中。林肯实验室课题组组长 Bryan Robinson 表示："这是许多人巨大努力的结晶。我们一直在等待今天，等待它顺利升空。"</p>
+<p><a href="https://www.bostonglobe.com/2026/04/01/metro/artemis-ii-mission/">查看《波士顿环球报》全文</a> →</p>
+<h3>Axios</h3>
+<p>据 Axios 记者 Steph Solis 报道，NASA 阿尔忒弥斯二号任务搭载了由麻省理工学院林肯实验室研究人员开发的光学（激光）通信系统。Solis 解释道，这艘飞船将携带"一套光学通信系统，可在约 10 天的飞行中在太空生成 4K 视频"。</p>
+<hr>
+<h2>术语表</h2>
+<table>
+<thead>
+<tr>
+<th>原文</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Artemis II</td>
+<td>阿尔忒弥斯二号</td>
+</tr>
+<tr>
+<td>gimbal</td>
+<td>万向节</td>
+</tr>
+<tr>
+<td>Integrated Laser Communications Relay Demonstration (LCRD) LEO User Modem and Amplifier Terminal (ILLUMA-T)</td>
+<td>集成激光通信中继演示低地球轨道用户调制解调器和放大器终端</td>
+</tr>
+<tr>
+<td>lasercom</td>
+<td>激光通信</td>
+</tr>
+<tr>
+<td>Lincoln Laboratory</td>
+<td>林肯实验室</td>
+</tr>
+<tr>
+<td>Modular, Agile, Scalable Optical Terminal (MAScOT)</td>
+<td>模块化、敏捷、可扩展光学终端</td>
+</tr>
+<tr>
+<td>Optical Communications System (O2O)</td>
+<td>光学通信系统</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-lincoln-laboratory-laser-communications-terminal-launches-on","sender":"Ariana Gaines ｜ Nathan Parde ｜ MIT Lincoln Laboratory","subject":"林肯实验室激光通信终端随阿尔忒弥斯 II 号登月","snippet":"1969年，阿波罗11号在月面留下人类足迹；半个多世纪后，阿尔忒弥斯II号正带领宇航员重返月球，而这一次，伴随他们的还有一项将重塑深空通信的技术——激光通信。MIT林肯实验室开发的O2O光学通信系统，搭载于猎户座飞船上，旨在用激光束取代传统射频，实现从月球向地球传输高清视频与海量数据的实时链路。核心终端MAScOT仅有家猫大小，已在国际空间站成功验证了超1 Gbps的下行速率，远超设计预期。这不仅意味着宇航员能在绕月途中与地面进行视频会","date":"2026-04-02","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["translated"],"mdTheme":"magazine","sourcePath":"reports/lincoln-laboratory-laser-communications-terminal-launches-on.md","sourceUrl":"https://news.mit.edu/2026/lincoln-laboratory-laser-communications-terminal-launches-artemis-ii-0402","body":"$3","prompts":[]},"listPosition":{"index":149,"total":365}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

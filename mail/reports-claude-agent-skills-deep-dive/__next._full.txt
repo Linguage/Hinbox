@@ -1,0 +1,1093 @@
+1:"$Sreact.fragment"
+3:I[39756,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+4:I[37457,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"ViewportBoundary"]
+b:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"MetadataBoundary"]
+d:I[68027,[],"default"]
+:HL["/hinbox/_next/static/chunks/24888a04b79e7824.css","style"]
+:HL["/hinbox/_next/static/media/fba5a26ea33df6a3-s.p.1bbdebe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"vMUiZWVsRx3pCqxArlZcR","c":["","mail","reports-claude-agent-skills-deep-dive"],"q":"","i":false,"f":[[["",{"children":["mail",{"children":[["id","reports-claude-agent-skills-deep-dive","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hinbox/_next/static/chunks/24888a04b79e7824.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[79520,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],""]
+f:I[59665,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],"default"]
+:HL["https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","style"]
+2:["$","html",null,{"lang":"zh-CN","className":"plus_jakarta_sans_9710934b-module__-vnxFq__variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function () {\n  try {\n    var theme = window.localStorage.getItem('hinbox:theme');\n    if (theme !== 'light' && theme !== 'dark' && theme !== 'sepia') {\n      theme = 'light';\n    }\n    window['__HINBOX_THEME__'] = theme;\n    document.documentElement.dataset.theme = theme;\n    document.documentElement.style.colorScheme = theme === 'dark' ? 'dark' : 'light';\n    function applyBodyTheme() {\n      if (document.body) {\n        document.body.dataset.theme = theme;\n      }\n    }\n    if (document.body) {\n      applyBodyTheme();\n    } else {\n      document.addEventListener('DOMContentLoaded', applyBodyTheme);\n    }\n  } catch (error) {\n    window['__HINBOX_THEME__'] = 'light';\n    document.documentElement.dataset.theme = 'light';\n    document.documentElement.style.colorScheme = 'light';\n  }\n})();"}}],"",["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","rel":"stylesheet"}],["$","$Le",null,{"id":"mathjax-config","strategy":"afterInteractive","children":"\n          window.MathJax = {\n            tex: {\n              inlineMath: [['$', '$'], ['\\\\(', '\\\\)']],\n              displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']],\n              processEscapes: true,\n              packages: { '[+]': ['noerrors', 'noundefined'] },\n            },\n            svg: {\n              fontCache: 'none',\n            },\n            startup: {\n              typeset: false,\n              ready: () => {\n                window.MathJax.startup.defaultReady();\n                window.dispatchEvent(new Event('MathJaxReady'));\n              },\n            },\n          };\n          "}],["$","$Le",null,{"id":"mathjax-cdn","strategy":"afterInteractive","src":"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"}]]}],["$","body",null,{"className":"font-[family-name:var(--font-jakarta)] antialiased","suppressHydrationWarning":true,"children":["",["$","$Lf",null,{"weeklyNavCounts":{"inboxWeeklyCount":10,"sentWeeklyCount":0,"starredTotalCount":21},"people":[{"id":"david-perell","name":"David Perell","email":""},{"id":"lenny-s-podcast","name":"Lenny's Podcast","email":""},{"id":"ryan-peterman","name":"Ryan Peterman","email":""},{"id":"anthropic","name":"Anthropic","email":""},{"id":"dwarkesh-patel","name":"Dwarkesh Patel","email":""},{"id":"stripe","name":"Stripe","email":""},{"id":"stephen-wolfram","name":"Stephen Wolfram","email":""},{"id":"latent-space","name":"Latent Space","email":""},{"id":"lex-fridman","name":"Lex Fridman","email":""},{"id":"steve-jobs","name":"Steve Jobs","email":""},{"id":"20vc-with-harry-stebbings","name":"20VC with Harry Stebbings","email":""},{"id":"jeremy-stern","name":"Jeremy Stern","email":""},{"id":"turing","name":"Turing","email":""},{"id":"demis-hassabis","name":"Demis Hassabis","email":""},{"id":"the-diary-of-a-ceo","name":"The Diary Of A CEO","email":""},{"id":"elon-musk","name":"Elon Musk","email":""},{"id":"sauteedveggies","name":"SauteedVeggies","email":""},{"id":"andy-matuschak","name":"Andy Matuschak","email":""},{"id":"mind-the-game","name":"Mind the Game","email":""},{"id":"ramona-shelburne","name":"Ramona Shelburne","email":""},{"id":"jared-weiss","name":"Jared Weiss","email":""},{"id":"deeplearningai","name":"DeepLearningAI","email":""},{"id":"cursor","name":"Cursor","email":""},{"id":"y-combinator","name":"Y Combinator","email":""},{"id":"openai","name":"OpenAI","email":""},{"id":"every","name":"Every","email":""},{"id":"sequoia-capital","name":"Sequoia Capital","email":""},{"id":"alex-kantrowitz","name":"Alex Kantrowitz","email":""},{"id":"peter-dizikes-mit-news","name":"Peter Dizikes ｜ MIT News","email":""},{"id":"world-finance-journal","name":"World Finance Journal","email":""},{"id":"andrej-karpathy","name":"Andrej karpathy","email":""},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","email":""},{"id":"jd-vance","name":"JD Vance","email":""},{"id":"街-大学","name":"やまぐち街なか大学","email":""},{"id":"jc","name":"JC","email":""}],"tags":[{"id":"translated","name":"translated","count":123},{"id":"interview","name":"interview","count":24},{"id":"ai","name":"ai","count":17},{"id":"人工智能","name":"人工智能","count":17},{"id":"clippings","name":"clippings","count":15},{"id":"essays","name":"Essays","count":9},{"id":"talks","name":"Talks","count":8},{"id":"深度学习","name":"深度学习","count":8},{"id":"ai-agents","name":"ai-agents","count":7},{"id":"cognition","name":"cognition","count":6},{"id":"nba","name":"NBA","count":6},{"id":"ai编程","name":"AI编程","count":5},{"id":"humanity","name":"humanity","count":5},{"id":"math","name":"math","count":5},{"id":"steve-jobs","name":"steve-jobs","count":5},{"id":"大语言模型","name":"大语言模型","count":5},{"id":"机器学习","name":"机器学习","count":5},{"id":"agi","name":"AGI","count":4},{"id":"anthropic","name":"Anthropic","count":4},{"id":"claude-code","name":"Claude Code","count":4},{"id":"doge","name":"DOGE","count":4},{"id":"nvidia","name":"nvidia","count":4},{"id":"windsurf","name":"Windsurf","count":4},{"id":"政府效率","name":"政府效率","count":4},{"id":"文艺复兴科技","name":"文艺复兴科技","count":4},{"id":"英伟达","name":"英伟达","count":4},{"id":"软件工程","name":"软件工程","count":4},{"id":"ai编程工具","name":"AI编程工具","count":3},{"id":"apple","name":"apple","count":3},{"id":"cursor","name":"Cursor","count":3},{"id":"deepseek","name":"deepseek","count":3},{"id":"linus-torvalds","name":"Linus Torvalds","count":3},{"id":"linux内核","name":"Linux内核","count":3},{"id":"llm","name":"llm","count":3},{"id":"mathematics","name":"mathematics","count":3},{"id":"reports","name":"Reports","count":3},{"id":"偏微分方程","name":"偏微分方程","count":3},{"id":"勒布朗-詹姆斯","name":"勒布朗·詹姆斯","count":3},{"id":"开源","name":"开源","count":3},{"id":"开源ai","name":"开源AI","count":3},{"id":"强化学习","name":"强化学习","count":3},{"id":"数学哲学","name":"数学哲学","count":3},{"id":"数学教育","name":"数学教育","count":3},{"id":"访谈","name":"访谈","count":3},{"id":"量化投资","name":"量化投资","count":3},{"id":"马斯克","name":"马斯克","count":3},{"id":"黄仁勋","name":"黄仁勋","count":3},{"id":"ai-agent","name":"AI Agent","count":2},{"id":"ai-coding","name":"ai-coding","count":2},{"id":"ai代理","name":"AI代理","count":2},{"id":"ai基础设施","name":"AI基础设施","count":2},{"id":"ai安全","name":"AI安全","count":2},{"id":"ai数学","name":"AI数学","count":2},{"id":"ai智能体","name":"AI智能体","count":2},{"id":"ai计算","name":"AI计算","count":2},{"id":"alphafold","name":"AlphaFold","count":2},{"id":"claude","name":"Claude","count":2},{"id":"devin","name":"Devin","count":2},{"id":"economics","name":"economics","count":2},{"id":"emacs","name":"Emacs","count":2},{"id":"essay","name":"essay","count":2},{"id":"git","name":"Git","count":2},{"id":"google","name":"Google","count":2},{"id":"ilya-sutskever","name":"Ilya Sutskever","count":2},{"id":"jeff-dean","name":"jeff-dean","count":2},{"id":"jepa","name":"JEPA","count":2},{"id":"org-mode","name":"Org mode","count":2},{"id":"programming","name":"programming","count":2},{"id":"software-engineering","name":"software-engineering","count":2},{"id":"vibe-coding","name":"Vibe Coding","count":2},{"id":"writing","name":"writing","count":2},{"id":"世界模型","name":"世界模型","count":2},{"id":"人性","name":"人性","count":2},{"id":"代数几何","name":"代数几何","count":2},{"id":"代码编辑器","name":"代码编辑器","count":2},{"id":"价值投资","name":"价值投资","count":2},{"id":"伯克希尔哈撒韦","name":"伯克希尔哈撒韦","count":2},{"id":"关税政策","name":"关税政策","count":2},{"id":"创业历程","name":"创业历程","count":2},{"id":"加速计算","name":"加速计算","count":2},{"id":"吉姆-西蒙斯","name":"吉姆·西蒙斯","count":2},{"id":"哲学","name":"哲学","count":2},{"id":"国际合作","name":"国际合作","count":2},{"id":"大型语言模型","name":"大型语言模型","count":2},{"id":"好奇心","name":"好奇心","count":2},{"id":"季后赛","name":"季后赛","count":2},{"id":"工程实践","name":"工程实践","count":2},{"id":"巴菲特","name":"巴菲特","count":2},{"id":"形式化证明","name":"形式化证明","count":2},{"id":"彼得-蒂尔","name":"彼得·蒂尔","count":2},{"id":"微软","name":"微软","count":2},{"id":"提示工程","name":"提示工程","count":2},{"id":"数学","name":"数学","count":2},{"id":"数学研究","name":"数学研究","count":2},{"id":"文班亚马","name":"文班亚马","count":2},{"id":"智能代理开发","name":"智能代理开发","count":2},{"id":"毕业演讲","name":"毕业演讲","count":2},{"id":"版本控制","name":"版本控制","count":2},{"id":"科学发现","name":"科学发现","count":2},{"id":"科技停滞","name":"科技停滞","count":2},{"id":"软件工程变革","name":"软件工程变革","count":2},{"id":"软件开发","name":"软件开发","count":2},{"id":"量子力学","name":"量子力学","count":2},{"id":"阿贝尔奖","name":"阿贝尔奖","count":2},{"id":"风险投资","name":"风险投资","count":2},{"id":"agent设计","name":"Agent设计","count":1},{"id":"ai-for-science","name":"AI for Science","count":1},{"id":"ai-编程","name":"AI 编程","count":1},{"id":"ai伦理","name":"AI伦理","count":1},{"id":"ai最佳实践","name":"AI最佳实践","count":1},{"id":"ai大模型","name":"AI大模型","count":1},{"id":"ai并购","name":"AI并购","count":1},{"id":"ai应用","name":"AI应用","count":1},{"id":"ai开发者大会","name":"AI开发者大会","count":1},{"id":"ai推理","name":"AI推理","count":1},{"id":"ai收购","name":"AI收购","count":1},{"id":"ai数学发现","name":"AI数学发现","count":1},{"id":"ai生物医药","name":"AI生物医药","count":1},{"id":"ai竞争","name":"AI竞争","count":1},{"id":"ai编程代理","name":"AI编程代理","count":1},{"id":"ai芯片","name":"AI芯片","count":1},{"id":"ai规模化","name":"AI规模化","count":1},{"id":"ai辅助学习","name":"AI辅助学习","count":1},{"id":"ai辅助开发","name":"AI辅助开发","count":1},{"id":"anysphere","name":"Anysphere","count":1},{"id":"biography","name":"biography","count":1},{"id":"blackwell架构","name":"Blackwell架构","count":1},{"id":"cag","name":"CAG","count":1},{"id":"career","name":"career","count":1},{"id":"ceo交接","name":"CEO交接","count":1},{"id":"chatgpt","name":"ChatGPT","count":1},{"id":"chris-bishop","name":"Chris Bishop","count":1},{"id":"claude-4","name":"Claude 4","count":1},{"id":"claude-sonnet-4-5","name":"Claude Sonnet 4.5","count":1},{"id":"coding-agent","name":"Coding Agent","count":1},{"id":"context-engineering","name":"Context Engineering","count":1},{"id":"cs50","name":"CS50","count":1},{"id":"cuda生态","name":"CUDA生态","count":1},{"id":"deep-search","name":"Deep Search","count":1},{"id":"deepmind","name":"DeepMind","count":1},{"id":"distributed-systems","name":"distributed-systems","count":1},{"id":"elon-musk","name":"Elon Musk","count":1},{"id":"engineering","name":"engineering","count":1},{"id":"fields奖","name":"Fields奖","count":1},{"id":"geoffrey-hinton","name":"Geoffrey Hinton","count":1},{"id":"gpt-4","name":"GPT-4","count":1},{"id":"gpt-4-5","name":"GPT-4.5","count":1},{"id":"gpu与深度学习","name":"GPU与深度学习","count":1},{"id":"gpu架构","name":"GPU架构","count":1},{"id":"gpu算力","name":"GPU算力","count":1},{"id":"grok-3","name":"Grok 3","count":1},{"id":"haskell","name":"haskell","count":1},{"id":"incident","name":"incident","count":1},{"id":"jim-simons","name":"Jim Simons","count":1},{"id":"julia","name":"Julia","count":1},{"id":"june-huh","name":"june-huh","count":1},{"id":"kaggle","name":"Kaggle","count":1},{"id":"kiro-spec模式","name":"Kiro SPEC模式","count":1},{"id":"labor","name":"labor","count":1},{"id":"lean","name":"Lean","count":1},{"id":"lisp","name":"Lisp","count":1},{"id":"llm工具","name":"LLM工具","count":1},{"id":"mcp","name":"MCP","count":1},{"id":"mit","name":"MIT","count":1},{"id":"mvp","name":"MVP","count":1},{"id":"naval-ravikant","name":"Naval Ravikant","count":1},{"id":"ncaa疯狂三月","name":"NCAA疯狂三月","count":1},{"id":"noema","name":"noema","count":1},{"id":"notes","name":"notes","count":1},{"id":"notion","name":"Notion","count":1},{"id":"nvidia-gtc-2025","name":"NVIDIA GTC 2025","count":1},{"id":"openai","name":"OpenAI","count":1},{"id":"optimus机器人","name":"Optimus机器人","count":1},{"id":"peter-lax","name":"Peter Lax","count":1},{"id":"pixar","name":"pixar","count":1},{"id":"prompt-engineering","name":"Prompt Engineering","count":1},{"id":"psychology","name":"psychology","count":1},{"id":"publishing","name":"publishing","count":1},{"id":"python","name":"Python","count":1},{"id":"reliability","name":"reliability","count":1},{"id":"report","name":"report","count":1},{"id":"research","name":"Research","count":1},{"id":"research-career","name":"research-career","count":1},{"id":"robotics","name":"robotics","count":1},{"id":"sanjay-ghemawat","name":"Sanjay Ghemawat","count":1},{"id":"satya-nadella","name":"Satya Nadella","count":1},{"id":"scaling-laws","name":"Scaling Laws","count":1},{"id":"security","name":"security","count":1},{"id":"skills","name":"skills","count":1},{"id":"slimv","name":"Slimv","count":1},{"id":"technical-report","name":"technical-report","count":1},{"id":"terence-tao","name":"terence-tao","count":1},{"id":"vim","name":"Vim","count":1},{"id":"vlime","name":"Vlime","count":1},{"id":"wolfram","name":"Wolfram","count":1},{"id":"xai","name":"xAI","count":1},{"id":"yann-lecun","name":"Yann LeCun","count":1},{"id":"yc","name":"YC","count":1},{"id":"上下文工程","name":"上下文工程","count":1},{"id":"个人反思","name":"个人反思","count":1},{"id":"个人电脑","name":"个人电脑","count":1},{"id":"中美关系","name":"中美关系","count":1},{"id":"乌克兰战争","name":"乌克兰战争","count":1},{"id":"乔姆斯基","name":"乔姆斯基","count":1},{"id":"交通基础设施","name":"交通基础设施","count":1},{"id":"产品市场契合","name":"产品市场契合","count":1},{"id":"人工智能未来","name":"人工智能未来","count":1},{"id":"人形机器人","name":"人形机器人","count":1},{"id":"人机协作","name":"人机协作","count":1},{"id":"人机博弈","name":"人机博弈","count":1},{"id":"人生哲学","name":"人生哲学","count":1},{"id":"人类未来","name":"人类未来","count":1},{"id":"人类福祉","name":"人类福祉","count":1},{"id":"代理开发","name":"代理开发","count":1},{"id":"代理式编程","name":"代理式编程","count":1},{"id":"代码生成","name":"代码生成","count":1},{"id":"任务管理","name":"任务管理","count":1},{"id":"仿真学习","name":"仿真学习","count":1},{"id":"企业采用","name":"企业采用","count":1},{"id":"众包协作","name":"众包协作","count":1},{"id":"优绩主义","name":"优绩主义","count":1},{"id":"伦理监管","name":"伦理监管","count":1},{"id":"伯克希尔-哈撒韦","name":"伯克希尔·哈撒韦","count":1},{"id":"俄乌战争","name":"俄乌战争","count":1},{"id":"保罗-狄拉克","name":"保罗·狄拉克","count":1},{"id":"保险业务","name":"保险业务","count":1},{"id":"信号处理","name":"信号处理","count":1},{"id":"信息动力学","name":"信息动力学","count":1},{"id":"信息物理学","name":"信息物理学","count":1},{"id":"全球贸易","name":"全球贸易","count":1},{"id":"公共美德","name":"公共美德","count":1},{"id":"具身智能","name":"具身智能","count":1},{"id":"写作","name":"写作","count":1},{"id":"写作工具","name":"写作工具","count":1},{"id":"冷战数学","name":"冷战数学","count":1},{"id":"创业转型","name":"创业转型","count":1},{"id":"创业领导力","name":"创业领导力","count":1},{"id":"创造力与年龄","name":"创造力与年龄","count":1},{"id":"制度经济学","name":"制度经济学","count":1},{"id":"加性数论","name":"加性数论","count":1},{"id":"包容性制度","name":"包容性制度","count":1},{"id":"医疗应用","name":"医疗应用","count":1},{"id":"半导体","name":"半导体","count":1},{"id":"协同设计","name":"协同设计","count":1},{"id":"单位距离问题","name":"单位距离问题","count":1},{"id":"南非种族隔离","name":"南非种族隔离","count":1},{"id":"卢卡-东契奇","name":"卢卡·东契奇","count":1},{"id":"压缩感知","name":"压缩感知","count":1},{"id":"变换编码","name":"变换编码","count":1},{"id":"可持续能源","name":"可持续能源","count":1},{"id":"可重复性危机","name":"可重复性危机","count":1},{"id":"史蒂夫-乔布斯","name":"史蒂夫·乔布斯","count":1},{"id":"史蒂夫-纳什","name":"史蒂夫·纳什","count":1},{"id":"同伦类型论","name":"同伦类型论","count":1},{"id":"哲学辩论","name":"哲学辩论","count":1},{"id":"国际政治","name":"国际政治","count":1},{"id":"在线教育","name":"在线教育","count":1},{"id":"地缘政治","name":"地缘政治","count":1},{"id":"埃尔德什猜想","name":"埃尔德什猜想","count":1},{"id":"埃罗尔-马斯克","name":"埃罗尔·马斯克","count":1},{"id":"埃隆-马斯克","name":"埃隆·马斯克","count":1},{"id":"基督教与科学","name":"基督教与科学","count":1},{"id":"基础主义","name":"基础主义","count":1},{"id":"基础模型","name":"基础模型","count":1},{"id":"复合工程","name":"复合工程","count":1},{"id":"外交谈判","name":"外交谈判","count":1},{"id":"多伦多大学","name":"多伦多大学","count":1},{"id":"多体物理","name":"多体物理","count":1},{"id":"多智能体协同","name":"多智能体协同","count":1},{"id":"大数假说","name":"大数假说","count":1},{"id":"太空探索","name":"太空探索","count":1},{"id":"孤子理论","name":"孤子理论","count":1},{"id":"学习路径","name":"学习路径","count":1},{"id":"学术写作","name":"学术写作","count":1},{"id":"学术建议","name":"学术建议","count":1},{"id":"学术生态","name":"学术生态","count":1},{"id":"学术研究方法","name":"学术研究方法","count":1},{"id":"学术自传","name":"学术自传","count":1},{"id":"宇宙学","name":"宇宙学","count":1},{"id":"官僚主义改革","name":"官僚主义改革","count":1},{"id":"定理证明","name":"定理证明","count":1},{"id":"家族故事","name":"家族故事","count":1},{"id":"对冲基金","name":"对冲基金","count":1},{"id":"对称性","name":"对称性","count":1},{"id":"对称性破缺","name":"对称性破缺","count":1},{"id":"小平邦彦","name":"小平邦彦","count":1},{"id":"少林寺","name":"少林寺","count":1},{"id":"就业与经济","name":"就业与经济","count":1},{"id":"就业影响","name":"就业影响","count":1},{"id":"工作尊严","name":"工作尊严","count":1},{"id":"工作流","name":"工作流","count":1},{"id":"工程精神","name":"工程精神","count":1},{"id":"幸福与成功","name":"幸福与成功","count":1},{"id":"库珀-弗拉格","name":"库珀·弗拉格","count":1},{"id":"开发环境","name":"开发环境","count":1},{"id":"开发者工具","name":"开发者工具","count":1},{"id":"开发者生产力","name":"开发者生产力","count":1},{"id":"开源模型","name":"开源模型","count":1},{"id":"形式主义","name":"形式主义","count":1},{"id":"彼得-拉克斯","name":"彼得·拉克斯","count":1},{"id":"微分几何","name":"微分几何","count":1},{"id":"心理学","name":"心理学","count":1},{"id":"思维链","name":"思维链","count":1},{"id":"慈善","name":"慈善","count":1},{"id":"慈善事业","name":"慈善事业","count":1},{"id":"慕尼黑安全会议","name":"慕尼黑安全会议","count":1},{"id":"成长型思维","name":"成长型思维","count":1},{"id":"技术监管","name":"技术监管","count":1},{"id":"技能退化","name":"技能退化","count":1},{"id":"投资哲学","name":"投资哲学","count":1},{"id":"推理时计算","name":"推理时计算","count":1},{"id":"提纲写作","name":"提纲写作","count":1},{"id":"摩根大通","name":"摩根大通","count":1},{"id":"播客","name":"播客","count":1},{"id":"政治哲学","name":"政治哲学","count":1},{"id":"数字革命","name":"数字革命","count":1},{"id":"数学反例","name":"数学反例","count":1},{"id":"数学史","name":"数学史","count":1},{"id":"数学基础","name":"数学基础","count":1},{"id":"数学实践","name":"数学实践","count":1},{"id":"数学家传记","name":"数学家传记","count":1},{"id":"数学工作流","name":"数学工作流","count":1},{"id":"数学形式化","name":"数学形式化","count":1},{"id":"数据中心","name":"数据中心","count":1},{"id":"数据效率","name":"数据效率","count":1},{"id":"数据科学","name":"数据科学","count":1},{"id":"文化多样性","name":"文化多样性","count":1},{"id":"文化转型","name":"文化转型","count":1},{"id":"文学编程","name":"文学编程","count":1},{"id":"斯多葛主义","name":"斯多葛主义","count":1},{"id":"无人机","name":"无人机","count":1},{"id":"日本数学","name":"日本数学","count":1},{"id":"日记写作","name":"日记写作","count":1},{"id":"智能代理","name":"智能代理","count":1},{"id":"智能体ai","name":"智能体AI","count":1},{"id":"智能分析","name":"智能分析","count":1},{"id":"更衣室训话","name":"更衣室训话","count":1},{"id":"未来战争","name":"未来战争","count":1},{"id":"未来趋势","name":"未来趋势","count":1},{"id":"机器人技术","name":"机器人技术","count":1},{"id":"杰米-戴蒙","name":"杰米·戴蒙","count":1},{"id":"柏拉图主义","name":"柏拉图主义","count":1},{"id":"查尔斯-巴克利","name":"查尔斯·巴克利","count":1},{"id":"查理-芒格","name":"查理·芒格","count":1},{"id":"标记语言","name":"标记语言","count":1},{"id":"格罗滕迪克","name":"格罗滕迪克","count":1},{"id":"概形","name":"概形","count":1},{"id":"模仿理论","name":"模仿理论","count":1},{"id":"模型应用","name":"模型应用","count":1},{"id":"模型驱动交易","name":"模型驱动交易","count":1},{"id":"模拟宇宙假说","name":"模拟宇宙假说","count":1},{"id":"欧洲创新","name":"欧洲创新","count":1},{"id":"欧洲民主","name":"欧洲民主","count":1},{"id":"欧盟资本市场","name":"欧盟资本市场","count":1},{"id":"欺骗性ai","name":"欺骗性AI","count":1},{"id":"比尔-盖茨","name":"比尔·盖茨","count":1},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","count":1},{"id":"沉思录","name":"沉思录","count":1},{"id":"沙奎尔-奥尼尔","name":"沙奎尔·奥尼尔","count":1},{"id":"波波维奇","name":"波波维奇","count":1},{"id":"泽连斯基","name":"泽连斯基","count":1},{"id":"活文档","name":"活文档","count":1},{"id":"测试时计算","name":"测试时计算","count":1},{"id":"涌现","name":"涌现","count":1},{"id":"深度阅读","name":"深度阅读","count":1},{"id":"湖人三连冠","name":"湖人三连冠","count":1},{"id":"炒作与现实","name":"炒作与现实","count":1},{"id":"热力学第二定律","name":"热力学第二定律","count":1},{"id":"特斯拉","name":"特斯拉","count":1},{"id":"特朗普","name":"特朗普","count":1},{"id":"狄拉克","name":"狄拉克","count":1},{"id":"狄拉克方程","name":"狄拉克方程","count":1},{"id":"理论物理","name":"理论物理","count":1},{"id":"生产力工具","name":"生产力工具","count":1},{"id":"生成式ai","name":"生成式AI","count":1},{"id":"相对论","name":"相对论","count":1},{"id":"知识管理","name":"知识管理","count":1},{"id":"研究方法","name":"研究方法","count":1},{"id":"研究生指南","name":"研究生指南","count":1},{"id":"硅谷","name":"硅谷","count":1},{"id":"社交媒体","name":"社交媒体","count":1},{"id":"社会公平","name":"社会公平","count":1},{"id":"福柯","name":"福柯","count":1},{"id":"离散几何","name":"离散几何","count":1},{"id":"私募股权","name":"私募股权","count":1},{"id":"科学哲学","name":"科学哲学","count":1},{"id":"科学研究","name":"科学研究","count":1},{"id":"科学论文","name":"科学论文","count":1},{"id":"科技史","name":"科技史","count":1},{"id":"科比-布莱恩特","name":"科比·布莱恩特","count":1},{"id":"移民政策","name":"移民政策","count":1},{"id":"稀疏表示","name":"稀疏表示","count":1},{"id":"空间技术","name":"空间技术","count":1},{"id":"竞技长青","name":"竞技长青","count":1},{"id":"笔记技巧","name":"笔记技巧","count":1},{"id":"第一性原理","name":"第一性原理","count":1},{"id":"算法与社会","name":"算法与社会","count":1},{"id":"篮球战术","name":"篮球战术","count":1},{"id":"篮球访谈","name":"篮球访谈","count":1},{"id":"类型论","name":"类型论","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"约束等距性","name":"约束等距性","count":1},{"id":"纯文本写作","name":"纯文本写作","count":1},{"id":"纯粹数学","name":"纯粹数学","count":1},{"id":"线性代数","name":"线性代数","count":1},{"id":"经典阅读","name":"经典阅读","count":1},{"id":"结对编程","name":"结对编程","count":1},{"id":"编程教学","name":"编程教学","count":1},{"id":"编程语言","name":"编程语言","count":1},{"id":"美国ai政策","name":"美国AI政策","count":1},{"id":"美国政府改革","name":"美国政府改革","count":1},{"id":"美国经济","name":"美国经济","count":1},{"id":"美欧关系","name":"美欧关系","count":1},{"id":"翻译","name":"翻译","count":1},{"id":"职业自律","name":"职业自律","count":1},{"id":"职业辩护","name":"职业辩护","count":1},{"id":"联邦政府改革","name":"联邦政府改革","count":1},{"id":"联邦财政","name":"联邦财政","count":1},{"id":"股东信","name":"股东信","count":1},{"id":"股东大会","name":"股东大会","count":1},{"id":"能源","name":"能源","count":1},{"id":"能量基模型","name":"能量基模型","count":1},{"id":"自动驾驶","name":"自动驾驶","count":1},{"id":"自我认知","name":"自我认知","count":1},{"id":"自由意志主义","name":"自由意志主义","count":1},{"id":"自由民主","name":"自由民主","count":1},{"id":"苹果","name":"苹果","count":1},{"id":"苹果公司","name":"苹果公司","count":1},{"id":"药物研发","name":"药物研发","count":1},{"id":"蓝鳍金枪鱼","name":"蓝鳍金枪鱼","count":1},{"id":"虚拟细胞","name":"虚拟细胞","count":1},{"id":"蛋白质折叠","name":"蛋白质折叠","count":1},{"id":"蜂巢思维","name":"蜂巢思维","count":1},{"id":"行为偏差","name":"行为偏差","count":1},{"id":"西部决赛","name":"西部决赛","count":1},{"id":"规模法则","name":"规模法则","count":1},{"id":"规范驱动开发","name":"规范驱动开发","count":1},{"id":"言论自由","name":"言论自由","count":1},{"id":"计算增强生成","name":"计算增强生成","count":1},{"id":"计算数学","name":"计算数学","count":1},{"id":"计算机教育","name":"计算机教育","count":1},{"id":"计算机证明","name":"计算机证明","count":1},{"id":"训练体系","name":"训练体系","count":1},{"id":"论文写作","name":"论文写作","count":1},{"id":"论文撰写","name":"论文撰写","count":1},{"id":"访谈实录","name":"访谈实录","count":1},{"id":"詹姆斯-西蒙斯","name":"詹姆斯·西蒙斯","count":1},{"id":"语言学","name":"语言学","count":1},{"id":"诺贝尔经济学奖","name":"诺贝尔经济学奖","count":1},{"id":"谷歌","name":"谷歌","count":1},{"id":"贝叶斯方法","name":"贝叶斯方法","count":1},{"id":"财政削减","name":"财政削减","count":1},{"id":"资本配置","name":"资本配置","count":1},{"id":"超级智能","name":"超级智能","count":1},{"id":"超级计算","name":"超级计算","count":1},{"id":"跨领域训练","name":"跨领域训练","count":1},{"id":"身体转型","name":"身体转型","count":1},{"id":"软件工程范式","name":"软件工程范式","count":1},{"id":"软件开发最佳实践","name":"软件开发最佳实践","count":1},{"id":"软件开发未来","name":"软件开发未来","count":1},{"id":"运动恢复","name":"运动恢复","count":1},{"id":"还原论","name":"还原论","count":1},{"id":"通用人工智能","name":"通用人工智能","count":1},{"id":"重整化","name":"重整化","count":1},{"id":"量化交易","name":"量化交易","count":1},{"id":"金融服务","name":"金融服务","count":1},{"id":"金融监管","name":"金融监管","count":1},{"id":"阅读方法","name":"阅读方法","count":1},{"id":"集合论","name":"集合论","count":1},{"id":"非虚构阅读","name":"非虚构阅读","count":1},{"id":"预训练","name":"预训练","count":1},{"id":"领导力","name":"领导力","count":1},{"id":"香农信息熵","name":"香农信息熵","count":1},{"id":"马刺","name":"马刺","count":1},{"id":"马库斯-奥勒留","name":"马库斯·奥勒留","count":1}],"moduleNavItems":[{"id":"essays","label":"Essays","href":"/?label=Essays","order":40,"icon":"BookOpen","count":62},{"id":"talks","label":"Talks","href":"/?label=Talks","order":42,"icon":"Video","count":165},{"id":"reports","label":"Reports","href":"/?label=Reports","order":41,"icon":"FileText","count":36},{"id":"notes","label":"Notes","href":"/?label=Notes","order":30,"icon":"Eye","count":78}],"children":"$L10"}]]}]]}]
+10:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"min-h-screen px-12 py-12 font-sans text-slate-900","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n            (function () {\n              var pathname = window.location.pathname || '';\n              var canonicalPrefix = '/hinbox';\n\n              if (/^/hinbox(?:/|$)/i.test(pathname) && pathname !== pathname.replace(/^/hinbox/i, canonicalPrefix)) {\n                var target = pathname.replace(/^/hinbox/i, canonicalPrefix) + window.location.search + window.location.hash;\n                window.location.replace(target);\n                return;\n              }\n            }());\n          "}}],["$","div",null,{"className":"mx-auto flex min-h-[60vh] max-w-2xl flex-col justify-center gap-4","children":[["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"页面未找到"}],["$","p",null,{"className":"text-base leading-7 text-slate-600","children":"如果你是从大写路径进入本站，系统会自动跳转到小写的规范地址。"}],["$","p",null,{"className":"text-base","children":["返回首页：",["$","a",null,{"className":"text-sky-600 underline underline-offset-4","href":"/hinbox/","children":"/hinbox/"}]]}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+11:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+12:Tf9b3,<h1>Claude Agent Skills：基于第一性原理的深度剖析</h1>
+<ul>
+<li><strong>原文标题</strong>: <a href="https://leehanchung.github.io/blogs/2025/10/26/claude-skills-deep-dive/">Claude Agent Skills: A First Principles Deep Dive</a></li>
+<li><strong>作者</strong>: Han Lee</li>
+</ul>
+<p><img src="https://francescogruner.it/wp-content/uploads/2025/10/Claude-Skills-Introducing-Agent-Skills-cover.png" alt=""></p>
+<p>Claude 的 Agent <code>Skills</code>（技能）系统代表了一种复杂的、基于提示词（prompt-based）的元工具架构，它通过专门的指令注入来扩展大语言模型（LLM）的能力。与传统的函数调用或代码执行不同，<code>skills</code> 通过**提示词扩展（prompt expansion）<strong>和</strong>上下文修改（context modification）**来运作，从而在不编写可执行代码的情况下改变 Claude 处理后续请求的方式。</p>
+<p>本文将从第一性原理出发，解构 Claude 的 Agent <code>Skills</code> 系统，记录这一架构的运作机制：即一个名为 “<code>Skill</code>” 的工具如何作为一个元工具（meta-tool），将特定领域的提示词注入到对话上下文中。我们将以 <code>skill-creator</code> 和 <code>internal-comms</code> 技能为例，完整梳理从文件解析、API 请求结构到 Claude 决策过程的整个生命周期。</p>
+<h2>Claude Agent Skills 概览</h2>
+<p>Claude 使用 <code>Skills</code> 来提升执行特定任务的能力。<code>Skills</code> 被定义为包含指令、脚本和资源的文件夹，Claude 可以在需要时加载它们。Claude 使用一套<strong>声明式的、基于提示词的系统</strong>来进行技能的发现和调用。AI 模型（Claude）根据系统提示词中呈现的文本描述来决定是否调用 <code>skills</code>。<strong>在代码层面，并没有算法式的 <code>skill</code> 选择器或基于 AI 的意图检测</strong>。决策过程完全发生在 Claude 基于提供的技能描述进行的推理过程中。</p>
+<p><code>Skills</code> 不是可执行代码。它们<strong>不</strong>运行 Python 或 JavaScript，后台也没有 HTTP 服务器或函数调用。它们也不是硬编码在 Claude 的系统提示词中。<code>Skills</code> 存在于 API 请求结构的一个独立部分中。</p>
+<p>那么它们到底是什么？<code>Skills</code> 是专门的提示词模板，用于将领域特定的指令注入到对话上下文中。当一个技能被调用时，它不仅修改对话上下文（通过注入指令提示词），还修改执行上下文（通过改变工具权限，甚至可能切换模型）。技能不是直接执行动作，而是展开成详细的提示词，让 Claude 做好解决特定类型问题的准备。每个技能都作为 Claude 可见工具模式（tool schema）的一个动态补充出现。</p>
+<p>当用户发送请求时，Claude 接收三样东西：用户消息、可用工具（Read, Write, Bash 等）以及 <code>Skill</code> 工具。<code>Skill</code> 工具的描述包含了一个格式化的列表，列出了所有可用技能的 <code>name</code>（名称）、<code>description</code>（描述）和其他字段。Claude 阅读这个列表，并使用其自然语言理解能力将你的意图与技能描述进行匹配。如果你说“帮我创建一个处理日志的技能”，Claude 看到 <code>internal-comms</code> 技能的描述（例如“当用户想要使用公司喜欢的格式编写内部通信时”），识别出匹配，并以 <code>command: "internal-comms"</code> 调用 <code>Skill</code> 工具。</p>
+<blockquote>
+<p><strong>术语说明</strong>：</p>
+<ul>
+<li><strong><code>Skill</code> tool</strong>（大写 S）= 管理所有技能的元工具。它与 Read, Write, Bash 等并列出现在 Claude 的 <code>tools</code> 数组中。</li>
+<li><strong>skills</strong>（小写 s）= 个体技能，如 <code>pdf</code>, <code>skill-creator</code>, <code>internal-comms</code>。这些是 <code>Skill</code> 工具加载的专用指令模板。</li>
+</ul>
+</blockquote>
+<p>下图更直观地展示了 Claude 如何使用 <code>skills</code>：</p>
+<p><img src="https://leehanchung.github.io/assets/img/2025-10-26/01-claude-skill-1.png" alt="Claude Skill 流程图"></p>
+<p>技能选择机制在代码层面没有算法路由或意图分类。Claude Code 不使用嵌入（embeddings）、分类器或模式匹配来决定调用哪个技能。相反，系统将所有可用技能格式化为嵌入在 <code>Skill</code> 工具提示词中的文本描述，让 Claude 的语言模型来做决定。这是纯粹的 LLM 推理。没有正则表达式，没有关键词匹配，没有基于机器学习的意图检测。决策发生在 Claude 通过 Transformer 的前向传播（forward pass）中，而不是在应用程序代码中。</p>
+<p>当 Claude 调用一个技能时，系统遵循一个简单的工作流：加载一个 markdown 文件（<code>SKILL.md</code>），将其扩展为详细指令，将这些指令作为新的用户消息注入到对话上下文中，修改执行上下文（允许的工具、模型选择），然后在在这个增强的环境中继续对话。这与传统工具根本不同，传统工具是执行并返回结果。技能是<em>让 Claude 做好准备</em>去解决问题，而不是直接解决问题。</p>
+<p>下表有助于更好地区分 Tools（工具）和 Skills（技能）及其能力的差异：</p>
+<table>
+<thead>
+<tr>
+<th>方面</th>
+<th>传统工具 (Tools)</th>
+<th>技能 (Skills)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>执行模型</strong></td>
+<td>同步，直接</td>
+<td>提示词扩展</td>
+</tr>
+<tr>
+<td><strong>目的</strong></td>
+<td>执行具体操作</td>
+<td>引导复杂工作流</td>
+</tr>
+<tr>
+<td><strong>返回值</strong></td>
+<td>即时结果</td>
+<td>对话上下文 + 执行上下文的变更</td>
+</tr>
+<tr>
+<td><strong>示例</strong></td>
+<td><code>Read</code>, <code>Write</code>, <code>Bash</code></td>
+<td><code>internal-comms</code>, <code>skill-creator</code></td>
+</tr>
+<tr>
+<td><strong>并发性</strong></td>
+<td>通常是安全的</td>
+<td>非并发安全</td>
+</tr>
+<tr>
+<td><strong>类型</strong></td>
+<td>多种多样</td>
+<td>始终为 <code>"prompt"</code></td>
+</tr>
+</tbody>
+</table>
+<h2>构建 Agent Skills</h2>
+<p>现在，让我们通过研究 Anthropic 技能仓库中的 <a href="https://github.com/anthropics/skills/tree/main/skill-creator"><code>skill-creator</code> Skill</a> 来深入了解如何构建技能。提醒一下，Agent <code>skills</code> 是有组织的文件夹，包含指令、脚本和资源，Agent 可以动态发现和加载它们以更好地执行特定任务。<code>Skills</code> 通过将你的专业知识打包成 Claude 可组合的资源来扩展其能力，将通用 Agent 转化为符合你需求的专用 Agent。</p>
+<blockquote>
+<p><strong>核心洞察</strong>：技能 = 提示词模板 + 对话上下文注入 + 执行上下文修改 + 可选的数据文件和 Python 脚本</p>
+</blockquote>
+<p>每个 <code>Skill</code> 都在一个名为 <code>SKILL.md</code>（不区分大小写）的 markdown 文件中定义，并带有可选的打包文件，存储在 <code>/scripts</code>、<code>/references</code> 和 <code>/assets</code> 目录下。这些打包文件可以是 Python 脚本、Shell 脚本、字体定义、模板等。以 <code>skill-creator</code> 为例，它包含 <code>SKILL.md</code>、用于许可证的 <code>LICENSE.txt</code> 以及 <code>/scripts</code> 文件夹下的一些 Python 脚本。<code>skill-creator</code> 没有任何 <code>/references</code> 或 <code>/assets</code>。</p>
+<p><img src="https://leehanchung.github.io/assets/img/2025-10-26/03-claude-skill-package.png" alt="skill-creator 包结构"></p>
+<p>技能可以从多个来源发现和加载。Claude Code 会扫描用户设置（<code>~/.config/claude/skills/</code>）、项目设置（<code>.claude/skills/</code>）、插件提供的技能以及内置技能来构建可用技能列表。对于 Claude Desktop，我们可以通过如下方式上传自定义技能。</p>
+<p><img src="https://leehanchung.github.io/assets/img/2025-10-26/02-claude-desktop-skill.png" alt="Claude Desktop 技能界面"></p>
+<blockquote>
+<p><strong>注意：</strong> 构建 Skills 最重要的概念是 <strong>渐进式披露（Progressive Disclosure）</strong> —— 仅展示足够的信息以帮助 Agent 决定下一步做什么，然后在需要时披露更多细节。在 <code>agent skills</code> 的案例中：</p>
+<ol>
+<li>披露 Frontmatter（前置元数据）：最小化信息（名称、描述、许可证）</li>
+<li>如果选中某个 <code>skill</code>，加载 SKILL.md：全面但有针对性的内容</li>
+<li>然后在执行 <code>skill</code> 时加载辅助资产、参考资料和脚本</li>
+</ol>
+</blockquote>
+<h2>编写 SKILL.md</h2>
+<p><code>SKILL.md</code> 是技能提示词的核心。它是一个遵循两部分结构的 markdown 文件——Frontmatter（前置元数据）和内容。Frontmatter 配置技能<strong>如何</strong>运行（权限、模型、元数据），而 markdown 内容告诉 Claude <strong>做</strong>什么。<a href="https://docs.github.com/en/contributing/writing-for-github-docs/using-yaml-frontmatter">Frontmatter</a> 是用 YAML 编写的文件头。</p>
+<pre><code class="language-markdown">┌─────────────────────────────────────┐
+│ 1. YAML Frontmatter (元数据)        │ ← 配置
+│    ---                              │
+│    name: skill-name                 │
+│    description: Brief overview      │
+│    allowed-tools: "Bash, Read"      │
+│    version: 1.0.0                   │
+│    ---                              │
+├─────────────────────────────────────┤
+│ 2. Markdown Content (指令)          │ ← Claude 的提示词
+│                                     │
+│    Purpose explanation              │
+│    Detailed instructions            │
+│    Examples and guidelines          │
+│    Step-by-step procedures          │
+└─────────────────────────────────────┘
+</code></pre>
+<p>Frontmatter 包含控制 Claude 如何发现和使用技能的元数据。例如，这是 <code>skill-creator</code> 的 frontmatter：</p>
+<p>让我们逐一浏览 frontmatter 的字段。</p>
+<p><img src="https://leehanchung.github.io/assets/img/2025-10-26/04-claude-skill-frontmatter.png" alt="Claude Skills Frontmatter"></p>
+<h4>name (必填)</h4>
+<p>不言自明。<code>skill</code> 的名称。<code>skill</code> 的 <code>name</code> 被用作 <code>Skill Tool</code> 中的 <code>command</code>。</p>
+<blockquote>
+<p><code>skill</code> 的 <code>name</code> 被用作 <code>Skill Tool</code> 中的 <code>command</code>。</p>
+</blockquote>
+<h4>description (必填)</h4>
+<p><code>description</code> 字段提供了技能功能的简要摘要。这是 Claude 用来确定何时调用技能的主要信号。在上面的例子中，描述明确指出“当用户想要创建一个新技能时应使用此技能（This skill should be used when users want to create a new skill）” —— 这种清晰的、面向行动的语言有助于 Claude 将用户意图与技能能力相匹配。</p>
+<p>系统会自动将来源信息附加到描述中（例如 <code>"(plugin:skills)"</code>），这有助于在加载多个技能时区分不同来源的技能。</p>
+<h4>when_to_use (未文档化——可能已弃用或为未来功能)</h4>
+<blockquote>
+<p><strong>⚠️ 重要说明</strong>：<code>when_to_use</code> 字段在代码库中广泛出现，但<strong>没有任何官方 Anthropic 文档记载</strong>。此字段可能是：</p>
+<ul>
+<li>正在逐步淘汰的已弃用功能</li>
+<li>尚未正式支持的内部/实验性功能</li>
+<li>尚未发布的计划功能</li>
+</ul>
+<p><strong>建议</strong>：依赖详细的 <code>description</code> 字段。在官方文档提及之前，避免在生产环境的技能中使用 <code>when_to_use</code>。</p>
+</blockquote>
+<p>尽管未记录，但以下是 <code>when_to_use</code> 目前在代码库中的工作方式：</p>
+<pre><code class="language-javascript">function formatSkill(skill) {
+  let description = skill.whenToUse
+    ? `${skill.description} - ${skill.whenToUse}`
+    : skill.description;
+
+  return `"${skill.name}": ${description}`;
+}
+</code></pre>
+<p>当存在时，<code>when_to_use</code> 会通过连字符分隔符附加到描述后。例如：</p>
+<pre><code>"skill-creator": Create well-structured, reusable skills... - When user wants to build a custom skill package with scripts, references, or assets
+</code></pre>
+<p>这个组合字符串就是 Claude 在 Skill 工具提示词中看到的内容。然而，由于此行为未记录，它可能会在未来版本中更改或删除。更安全的方法是将使用指南直接包含在 <code>description</code> 字段中，如上面的 <code>skill-creator</code> 示例所示。</p>
+<h4>allowed-tools (可选)</h4>
+<p><code>allowed-tools</code> 字段定义了技能可以在无需用户批准的情况下使用哪些工具，类似于 Claude 的 allowed-tools。</p>
+<p>这是一个逗号分隔的字符串，会被解析为允许的工具名称数组。你可以使用通配符来限定权限范围，例如，<code>Bash(git:*)</code> 仅允许 git 子命令，而 <code>Bash(npm:*)</code> 允许所有 npm 操作。skill-creator 技能使用 <code>"Read,Write,Bash,Glob,Grep,Edit"</code> 赋予其广泛的文件和搜索能力。一个常见的错误是列出所有可用工具，这会带来安全风险并破坏安全模型。</p>
+<blockquote>
+<p>仅包含你的技能实际需要的工具——如果你只是读写文件，<code>"Read,Write"</code> 就足够了。</p>
+</blockquote>
+<pre><code class="language-yaml"># ✅ skill-creator 允许多个工具
+allowed-tools: "Read,Write,Bash,Glob,Grep,Edit"
+
+# ✅ 仅限特定的 git 命令
+allowed-tools: "Bash(git status:*),Bash(git diff:*),Bash(git log:*),Read,Grep"
+
+# ✅ 仅限文件操作
+allowed-tools: "Read,Write,Edit,Glob,Grep"
+
+# ❌ 不必要的暴露面
+allowed-tools: "Bash,Read,Write,Edit,Glob,Grep,WebSearch,Task,Agent"
+
+# ❌ 包含所有 npm 命令的不必要暴露面
+allowed-tools: "Bash(npm:*),Read,Write"
+</code></pre>
+<h4>model (可选)</h4>
+<p><code>model</code> 字段定义了技能可以使用哪个模型。它默认继承用户会话中的当前模型。对于像代码审查这样的复杂任务，技能可以请求更强大的模型，如 Claude Opus 或其他开源中文模型（如果你懂的话）。</p>
+<pre><code class="language-yaml">model: "claude-opus-4-20250514"  # 使用特定模型
+model: "inherit"                 # 使用会话的当前模型（默认）
+</code></pre>
+<h4>version, disable-model-invocation, 和 mode (可选)</h4>
+<p>技能支持三个可选的 frontmatter 字段用于版本控制和调用控制。<code>version</code> 字段（例如 version: "1.0.0"）是一个元数据字段，用于跟踪技能版本，从 frontmatter 解析，但主要用于文档和技能管理目的。</p>
+<p><code>disable-model-invocation</code> 字段（布尔值）防止 Claude 通过 <code>Skill</code> 工具自动调用该技能。当设置为 true 时，该技能会从向 Claude 展示的列表中排除，只能由用户通过 <code>/skill-name</code> 手动调用，这使其非常适合危险操作、配置命令或需要明确用户控制的交互式工作流。</p>
+<p><code>mode</code> 字段（布尔值）将技能归类为“模式命令（mode command）”，用于修改 Claude 的行为或上下文。当设置为 true 时，该技能会出现在技能列表顶部的特殊“模式命令”部分（与常规实用技能分开），这使得像 debug-mode（调试模式）、expert-mode（专家模式）或 review-mode（审查模式）这样建立特定操作上下文或工作流的技能更加突出。</p>
+<h3>SKILL.md 提示词内容</h3>
+<p>Frontmatter 之后是 markdown 内容——即技能被调用时 Claude 接收到的实际提示词。这是你定义 <code>skill</code> 行为、指令和工作流的地方。编写有效技能提示词的关键是保持专注并使用渐进式披露：在 SKILL.md 中提供核心指令，并引用外部文件以获取详细内容。</p>
+<p>这是一个推荐的内容结构：</p>
+<pre><code class="language-markdown">---
+# Frontmatter 在这里
+---
+
+# [简短目的陈述 - 1-2句话]
+
+## Overview (概览)
+[此技能做什么，何时使用，提供什么]
+
+## Prerequisites (先决条件)
+[所需的工具、文件或上下文]
+
+## Instructions (指令)
+
+### Step 1: [第一个动作]
+[命令式指令]
+[如有需要提供示例]
+
+### Step 2: [下一个动作]
+[命令式指令]
+
+### Step 3: [最终动作]
+[命令式指令]
+
+## Output Format (输出格式)
+[如何构建结果]
+
+## Error Handling (错误处理)
+[失败时该做什么]
+
+## Examples (示例)
+[具体使用示例]
+
+## Resources (资源)
+[引用 scripts/, references/, assets/ 如果已打包]
+</code></pre>
+<p>以 <code>skill-creator</code> 技能为例，它包含以下指令，指定了创建技能所需工作流的每个步骤。</p>
+<pre><code class="language-markdown">## Skill Creation Process
+
+### Step 1: Understanding the Skill with Concrete Examples
+### Step 2: Planning the Reusable Skill Contents
+### Step 3: Initializing the Skill
+### Step 4: Edit the Skill
+### Step 5: Packaging a Skill
+</code></pre>
+<p>当 Claude 调用此技能时，它会收到整个提示词作为新的指令，并且基本目录路径会被预置。<code>{baseDir}</code> 变量解析为技能的安装目录，允许 Claude 使用 Read 工具加载参考文件：<code>Read({baseDir}/scripts/init_skill.py)</code>。这种模式保持了主提示词简洁，同时使详细文档按需可用。</p>
+<p><strong>提示词内容的最佳实践：</strong></p>
+<ul>
+<li>保持在 5,000 字（约 800 行）以内，以免淹没上下文。</li>
+<li>使用祈使语气（“Analyze code for…”）而不是第二人称（“You should analyze…”）。</li>
+<li>引用外部文件获取详细内容，而不是嵌入所有内容。</li>
+<li>使用 <code>{baseDir}</code> 作为路径，切勿硬编码像 <code>/home/user/project/</code> 这样的绝对路径。</li>
+</ul>
+<pre><code class="language-markdown">❌ Read /home/user/project/config.json
+✅ Read {baseDir}/config.json
+</code></pre>
+<p>当技能被调用时，Claude 仅获得 <code>allowed-tools</code> 中指定工具的访问权限，并且如果在 frontmatter 中指定，模型可能会被覆盖。技能的基本目录路径会自动提供，使打包的资源可访问。</p>
+<h3>随技能打包资源</h3>
+<p>当你将支持资源与 SKILL.md 一起打包时，<code>Skills</code> 变得非常强大。标准结构使用三个目录，每个目录服务于特定目的：</p>
+<pre><code>my-skill/
+├── SKILL.md              # 核心提示词和指令
+├── scripts/              # 可执行的 Python/Bash 脚本
+├── references/           # 加载到上下文中的文档
+└── assets/               # 模板和二进制文件
+</code></pre>
+<p><strong>为什么要打包资源？</strong> 保持 SKILL.md 简洁（低于 5,000 字）可以防止淹没 Claude 的上下文窗口。打包资源允许你提供详细的文档、自动化脚本和模板，而不会使主提示词臃肿。Claude 仅在需要时使用渐进式披露加载它们。</p>
+<h4>scripts/ 目录</h4>
+<p><code>scripts/</code> 目录包含 Claude 通过 Bash 工具运行的可执行代码——自动化脚本、数据处理器、验证器或执行确定性操作的代码生成器。</p>
+<p>例如，<code>skill-creator</code> 的 SKILL.md 这样引用脚本：</p>
+<pre><code class="language-markdown">When creating a new skill from scratch, always run the `init_skill.py` script. The script conveniently generates a new template skill directory that automatically includes everything a skill requires, making the skill creation process much more efficient and reliable.
+
+Usage:
+
+```scripts/init_skill.py &#x3C;skill-name> --path &#x3C;output-directory>```
+
+The script:
+  - Creates the skill directory at the specified path
+  - Generates a SKILL.md template with proper frontmatter and TODO placeholders
+  - Creates example resource directories: scripts/, references/, and assets/
+  - Adds example files in each directory that can be customized or deleted
+</code></pre>
+<p>当 Claude 看到这条指令时，它执行 <code>python {baseDir}/scripts/init_skill.py</code>。<code>{baseDir}</code> 变量自动解析为技能的安装路径，使技能在不同环境间可移植。</p>
+<p><strong>scripts/ 用于</strong>：复杂的多步操作、数据转换、API 交互，或任何需要用代码比用自然语言表达更精确逻辑的任务。</p>
+<h4>references/ 目录</h4>
+<p><code>references/</code> 目录存储 Claude 在被引用时读取到其上下文中的文档。这是文本内容——markdown 文件、JSON 模式、配置模板，或 Claude 完成任务所需的任何文档。</p>
+<p>例如，<code>mcp-creator</code> 的 SKILL.md 这样引用参考资料：</p>
+<pre><code class="language-markdown">#### 1.4 Study Framework Documentation
+
+**Load and read the following reference files:**
+
+- **MCP Best Practices**: [📋 View Best Practices](./reference/mcp_best_practices.md) - Core guidelines for all MCP servers
+
+**For Python implementations, also load:**
+- **Python SDK Documentation**: Use WebFetch to load `https://raw.githubusercontent.com/modelcontextprotocol/python-sdk/main/README.md`
+- [🐍 Python Implementation Guide](./reference/python_mcp_server.md) - Python-specific best practices and examples
+
+**For Node/TypeScript implementations, also load:**
+- **TypeScript SDK Documentation**: Use WebFetch to load `https://raw.githubusercontent.com/modelcontextprotocol/typescript-sdk/main/README.md`
+- [⚡ TypeScript Implementation Guide](./reference/node_mcp_server.md) - Node/TypeScript-specific best practices and examples
+</code></pre>
+<p>当 Claude 遇到这些指令时，它使用 Read 工具：<code>Read({baseDir}/references/mcp_best_practices.md)</code>。内容被加载到 Claude 的上下文中，提供详细信息而不弄乱 SKILL.md。</p>
+<p><strong>references/ 用于</strong>：详细文档、大型模式库、检查清单、API 架构，或任何对 SKILL.md 来说太冗长但对任务必要的文本内容。</p>
+<h4>assets/ 目录</h4>
+<p><code>assets/</code> 目录包含 Claude 通过路径引用但不加载到上下文中的模板和二进制文件。可以将其视为技能的静态资源——HTML 模板、CSS 文件、图像、配置样板或字体。</p>
+<p>在 SKILL.md 中：</p>
+<pre><code class="language-markdown">Use the template at {baseDir}/assets/report-template.html as the report structure.
+Reference the architecture diagram at {baseDir}/assets/diagram.png.
+</code></pre>
+<p>Claude 看到文件路径但不读取内容。相反，它可能会将模板复制到新位置，填充占位符，或在生成的输出中引用该路径。</p>
+<p><strong>assets/ 用于</strong>：HTML/CSS 模板、图像、二进制文件、配置模板，或任何 Claude 通过路径操作而不是读取到上下文中的文件。</p>
+<p><code>references/</code> 和 <code>assets/</code> 之间的关键区别在于：</p>
+<ul>
+<li><strong>references/</strong>：通过 Read 工具加载到 Claude 上下文中的文本内容</li>
+<li><strong>assets/</strong>：仅通过路径引用的文件，不加载到上下文中</li>
+</ul>
+<p>这种区别对于上下文管理至关重要。<code>references/</code> 中的 10KB markdown 文件在加载时消耗上下文 token。<code>assets/</code> 中的 10KB HTML 模板则不会。Claude 只是知道路径存在。</p>
+<blockquote>
+<p><strong>最佳实践：</strong> 始终使用 <code>{baseDir}</code> 作为路径，切勿硬编码绝对路径。这使得技能在用户环境、项目目录和不同安装之间具有可移植性。</p>
+</blockquote>
+<h3>常见技能模式</h3>
+<p>与所有工程一样，理解常见模式有助于设计有效的技能。以下是工具集成和工作流设计中最有用的模式。</p>
+<h4>模式 1：脚本自动化</h4>
+<p><strong>用例：</strong> 需要多个命令或确定性逻辑的复杂操作。</p>
+<p>此模式将计算任务卸载到 <code>scripts/</code> 目录中的 Python 或 Bash 脚本。技能提示词告诉 Claude 执行脚本并处理其输出。</p>
+<p><img src="https://leehanchung.github.io/assets/img/2025-10-26/09-script-automation.png" alt="Claude Skill 脚本自动化"></p>
+<p><strong>SKILL.md 示例：</strong></p>
+<pre><code class="language-markdown">Run scripts/analyzer.py on the target directory:
+
+`python {baseDir}/scripts/analyzer.py --path "$USER_PATH" --output report.json`
+
+Parse the generated `report.json` and present findings.
+</code></pre>
+<p><strong>所需工具：</strong></p>
+<pre><code class="language-yaml">allowed-tools: "Bash(python {baseDir}/scripts/*:*), Read, Write"
+</code></pre>
+<h4>模式 2：读取 - 处理 - 写入</h4>
+<p><strong>用例：</strong> 文件转换和数据处理。</p>
+<p>最简单的模式——读取输入，按照指令转换，写入输出。适用于格式转换、数据清理或报告生成。</p>
+<p><img src="https://leehanchung.github.io/assets/img/2025-10-26/10-read-process-write.png" alt="Claude Skill 读取-处理-写入"></p>
+<p><strong>SKILL.md 示例：</strong></p>
+<pre><code class="language-markdown">## Processing Workflow
+1. Read input file using Read tool
+2. Parse content according to format
+3. Transform data following specifications
+4. Write output using Write tool
+5. Report completion with summary
+</code></pre>
+<p><strong>所需工具：</strong></p>
+<pre><code class="language-yaml">allowed-tools: "Read, Write"
+</code></pre>
+<h4>模式 3：搜索 - 分析 - 报告</h4>
+<p><strong>用例：</strong> 代码库分析和模式检测。</p>
+<p>使用 Grep 搜索代码库中的模式，读取匹配的文件以获取上下文，分析发现，并生成结构化报告。或者，搜索企业数据存储以获取数据，分析检索到的数据以获取信息，并生成结构化报告。</p>
+<p><img src="https://leehanchung.github.io/assets/img/2025-10-26/06-search-analyze-report.png" alt="Claude Skill 搜索-分析-报告"></p>
+<p><strong>SKILL.md 示例：</strong></p>
+<pre><code class="language-markdown">## Analysis Process
+1. Use Grep to find relevant code patterns
+2. Read each matched file
+3. Analyze for vulnerabilities
+4. Generate structured report
+</code></pre>
+<p><strong>所需工具：</strong></p>
+<pre><code class="language-yaml">allowed-tools: "Grep, Read"
+</code></pre>
+<h4>模式 4：命令链执行</h4>
+<p><strong>用例：</strong> 具有依赖关系的多步操作。</p>
+<p>执行一系列命令，其中每个步骤都取决于前一步的成功。常见于类似 CI/CD 的工作流。</p>
+<p><img src="https://leehanchung.github.io/assets/img/2025-10-26/05-command-chain-execution.png" alt="Claude Skill 命令链执行"></p>
+<p><strong>SKILL.md 示例：</strong></p>
+<pre><code class="language-markdown">Execute analysis pipeline:
+npm install &#x26;&#x26; npm run lint &#x26;&#x26; npm test
+
+Report results from each stage.
+</code></pre>
+<p><strong>所需工具：</strong></p>
+<pre><code class="language-yaml">allowed-tools: "Bash(npm install:*), Bash(npm run:*), Read"
+</code></pre>
+<h3>高级模式</h3>
+<h4>向导式多步工作流</h4>
+<p><strong>用例：</strong> 每個步骤都需要用户输入的复杂流程。</p>
+<p>将复杂任务分解为离散步骤，并在每个阶段之间明确要求用户确认。适用于安装向导、配置工具或引导式流程。</p>
+<p><strong>SKILL.md 示例：</strong></p>
+<pre><code class="language-markdown">## Workflow
+
+### Step 1: Initial Setup
+1. Ask user for project type
+2. Validate prerequisites exist
+3. Create base configuration
+Wait for user confirmation before proceeding.
+
+### Step 2: Configuration
+1. Present configuration options
+2. Ask user to choose settings
+3. Generate config file
+Wait for user confirmation before proceeding.
+
+### Step 3: Initialization
+1. Run initialization scripts
+2. Verify setup successful
+3. Report results
+</code></pre>
+<h4>基于模板的生成</h4>
+<p><strong>用例：</strong> 从存储在 <code>assets/</code> 中的模板创建结构化输出。</p>
+<p>加载模板，用用户提供或生成的数据填充占位符，并写入结果。常见于报告生成、样板代码创建或文档编写。</p>
+<p><strong>SKILL.md 示例：</strong></p>
+<pre><code class="language-markdown">## Generation Process
+1. Read template from {baseDir}/assets/template.html
+2. Parse user requirements
+3. Fill template placeholders:
+   - {{name}} → user-provided name
+   - {{summary}} → generated summary
+   - {{date}} → current date
+4. Write filled template to output file
+5. Report completion
+</code></pre>
+<h4>迭代优化</h4>
+<p><strong>用例：</strong> 需要多次通过且深度递增的过程。</p>
+<p>首先执行广泛的分析，然后对识别出的问题进行逐步深入的研究。适用于代码审查、安全审计或质量分析。</p>
+<p><strong>SKILL.md 示例：</strong></p>
+<pre><code class="language-markdown">## Iterative Analysis
+
+### Pass 1: Broad Scan
+1. Search entire codebase for patterns
+2. Identify high-level issues
+3. Categorize findings
+
+### Pass 2: Deep Analysis
+For each high-level issue:
+1. Read full file context
+2. Analyze root cause
+3. Determine severity
+
+### Pass 3: Recommendation
+For each finding:
+1. Research best practices
+2. Generate specific fix
+3. Estimate effort
+
+Present final report with all findings and recommendations.
+</code></pre>
+<h4>上下文聚合</h4>
+<p><strong>用例：</strong> 结合来自多个来源的信息以建立全面的理解。</p>
+<p>从不同的文件和工具收集数据，综合成连贯的画面。适用于项目总结、依赖分析或影响评估。</p>
+<p><strong>SKILL.md 示例：</strong></p>
+<pre><code class="language-markdown">## Context Gathering
+1. Read project README.md for overview
+2. Analyze package.json for dependencies
+3. Grep codebase for specific patterns
+4. Check git history for recent changes
+5. Synthesize findings into coherent summary
+</code></pre>
+<h2>Agent Skills 内部架构</h2>
+<p>涵盖了概览和构建过程后，我们现在可以检查技能在底层是如何实际工作的。技能系统通过一个元工具架构运作，其中名为 <code>Skill</code> 的工具充当所有个体技能的容器和调度器。这种设计在实现和目的上从根本上将技能与传统工具区分开来。</p>
+<blockquote>
+<p><code>Skill</code> 工具是管理所有技能的元工具。</p>
+</blockquote>
+<h2>Skills 对象设计</h2>
+<p>像 <code>Read</code>、<code>Bash</code> 或 <code>Write</code> 这样的传统工具执行离散动作并返回即时结果。技能的运作方式不同。它们不是直接执行动作，而是将专门的指令注入到对话历史中，并动态修改 Claude 的执行环境。这是通过两条用户消息发生的——一条包含用户可见的元数据，另一条包含隐藏在 UI 之外但发送给 Claude 的完整技能提示词——并通过改变 Agent 的上下文来更改权限、切换模型，并调整技能使用期间的思维 token 参数。</p>
+<p><img src="https://leehanchung.github.io/assets/img/2025-10-26/08-claude-skill-execution-flow.png" alt="Claude Skill 执行流"></p>
+<table>
+<thead>
+<tr>
+<th>特性</th>
+<th>普通工具</th>
+<th>Skill 工具</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>本质</strong></td>
+<td>直接动作执行者</td>
+<td>提示词注入 + 上下文修改器</td>
+</tr>
+<tr>
+<td><strong>消息角色</strong></td>
+<td>assistant → tool_use<br>user → tool_result</td>
+<td>assistant → tool_use Skill<br>user → tool_result<br>user → skill prompt ← 已注入！</td>
+</tr>
+<tr>
+<td><strong>复杂性</strong></td>
+<td>简单（3-4 条消息）</td>
+<td>复杂（5-10+ 条消息）</td>
+</tr>
+<tr>
+<td><strong>上下文</strong></td>
+<td>静态</td>
+<td>动态（每轮修改）</td>
+</tr>
+<tr>
+<td><strong>持久性</strong></td>
+<td>仅工具交互</td>
+<td>工具交互 + 技能提示词</td>
+</tr>
+<tr>
+<td><strong>Token 开销</strong></td>
+<td>极小（约 100 tokens）</td>
+<td>显著（每轮约 1,500+ tokens）</td>
+</tr>
+<tr>
+<td><strong>用例</strong></td>
+<td>简单、直接的任务</td>
+<td>复杂、引导式工作流</td>
+</tr>
+</tbody>
+</table>
+<p>其复杂性是巨大的。普通工具产生简单的消息交换——助手工具调用后跟用户结果。技能注入多条消息，在动态修改的上下文中运行，并携带显著的 token 开销以提供指导 Claude 行为的专门指令。</p>
+<p>理解 <code>Skill</code> 元工具的工作原理揭示了该系统的机制。让我们检查它的结构：</p>
+<pre><code class="language-javascript">Pd = {
+  name: "Skill",  // 工具名称常量: $N = "Skill"
+
+  inputSchema: {
+    command: string  // 例如: "pdf", "skill-creator"
+  },
+
+  outputSchema: {
+    success: boolean,
+    commandName: string
+  },
+
+  // 🔑 关键字段：这生成技能列表
+  prompt: async () => fN2(),
+
+  // 验证和执行
+  validateInput: async (input, context) => { /* 5 error codes */ },
+  checkPermissions: async (input, context) => { /* allow/deny/ask */ },
+  call: async *(input, context) => { /* yields messages + context modifier */ }
+}
+</code></pre>
+<p><code>prompt</code> 字段将 Skill 工具与 <code>Read</code> 或 <code>Bash</code> 等其他工具区分开来，后者的描述是静态的。Skill 工具不使用固定字符串，而是使用动态提示词生成器，在运行时通过聚合所有可用技能的名称和描述来构建其描述。这实现了 <strong>渐进式披露</strong> —— 系统仅将最小的元数据（来自 frontmatter 的技能名称和描述）加载到 Claude 的初始上下文中，提供刚好足够的信息让模型决定哪个技能符合用户的意图。完整的技能提示词仅在 Claude 做出该选择后加载，防止上下文膨胀，同时保持可发现性。</p>
+<pre><code class="language-javascript">async function fN2() {
+  let A = await atA(),
+    {
+      modeCommands: B,
+      limitedRegularCommands: Q
+    } = vN2(A),
+    G = [...B, ...Q].map((W) => W.userFacingName()).join(", ");
+  l(`Skills and commands included in Skill tool: ${G}`);
+  let Z = A.length - B.length,
+    Y = nS6(B),
+    J = aS6(Q, Z);
+  return `Execute a skill within the main conversation
+
+&#x3C;skills_instructions>
+When users ask you to perform tasks, check if any of the available skills below can help complete the task more effectively. Skills provide specialized capabilities and domain knowledge.
+
+How to use skills:
+- Invoke skills using this tool with the skill name only (no arguments)
+- When you invoke a skill, you will see &#x3C;command-message>The "{name}" skill is loading&#x3C;/command-message>
+- The skill's prompt will expand and provide detailed instructions on how to complete the task
+- Examples:
+  - \`command: "pdf"\` - invoke the pdf skill
+  - \`command: "xlsx"\` - invoke the xlsx skill
+  - \`command: "ms-office-suite:pdf"\` - invoke using fully qualified name
+
+Important:
+- Only use skills listed in &#x3C;available_skills> below
+- Do not invoke a skill that is already running
+- Do not use this tool for built-in CLI commands (like /help, /clear, etc.)
+&#x3C;/skills_instructions>
+
+&#x3C;available_skills>
+${Y}${J}
+&#x3C;/available_skills>
+`;
+}
+</code></pre>
+<p>不同于某些助手（如 ChatGPT）将工具放在系统提示词中，Claude <strong>agent skills 不存在于系统提示词中</strong>。它们作为 <code>Skill</code> 工具描述的一部分存在于 <code>tools</code> 数组中。个体技能的名称表示为 <code>Skill</code> 元工具输入模式的 <code>command</code> 字段的一部分。为了更直观地展示它的样子，这里是实际的 API 请求结构：</p>
+<pre><code class="language-json">{
+  "model": "claude-sonnet-4-5-20250929",
+  "system": "You are Claude Code, Anthropic's official CLI...",  // ← 系统提示词
+  "messages": [
+    {"role": "user", "content": "Help me create a new skill"},
+    // ... 对话历史
+  ],
+  "tools": [  // ← 发送给 Claude 的 Tools 数组
+    {
+      "name": "Skill",  // ← 元工具
+      "description": "Execute a skill...\n\n&#x3C;skills_instructions>...\n\n&#x3C;available_skills>\n...",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "description": "The skill name (no arguments)"  // ← 个体技能的名称
+          }
+        }
+      }
+    },
+    {
+      "name": "Bash",
+      "description": "Execute bash commands...",
+      // ...
+    },
+    {
+      "name": "Read",
+      // ...
+    }
+    // ... 其他工具
+  ]
+}
+</code></pre>
+<p><code>&#x3C;available_skills></code> 部分存在于 Skill 工具的描述中，并为每个 API 请求重新生成。系统通过聚合当前从用户和项目配置加载的技能、插件提供的技能以及任何内置技能来动态构建此列表，默认受 15,000 个字符的 token 预算限制。这个预算约束迫使技能作者编写简洁的描述，并确保工具描述不会淹没模型的上下文窗口。</p>
+<h2>技能对话和执行上下文注入设计</h2>
+<p>大多数 LLM API 支持理论上可以携带系统提示词的 <code>role: "system"</code> 消息。实际上，OpenAI 的 ChatGPT 将其默认工具携带在系统提示词中，包括用于记忆的 <code>bio</code>、用于任务调度的 <code>automations</code>、用于控制画布的 <code>canmore</code>、用于图像生成的 <code>img_gen</code>、<code>file_search</code>、<code>python</code> 和用于互联网搜索的 <code>web</code>。最后，工具提示词占据了其系统提示词中约 90% 的 token 计数。如果我们有大量的工具和/或技能要加载到上下文中，这可能有用但效率不高。</p>
+<p>然而，系统消息具有不同的语义，使其不适合技能。系统消息设置全局上下文，该上下文在整个对话中持续存在，以高于用户指令的权威影响所有后续轮次。</p>
+<p>技能需要临时的、限定范围的行为。<code>skill-creator</code> 技能应该只影响技能创建相关的任务，而不是将 Claude 永久转变为剩余会话中的 PDF 专家。使用带有 <code>isMeta: true</code> 的 <code>role: "user"</code> 使技能提示词作为用户输入出现给 Claude，使其保持临时性并局限于当前交互。技能完成后，对话返回到正常的对话上下文和执行上下文，没有残留的行为修改。</p>
+<p>像 <code>Read</code>、<code>Write</code> 或 <code>Bash</code> 这样的普通工具具有简单的通信模式。当 Claude 调用 <code>Read</code> 时，它发送文件路径，接收文件内容，然后继续工作。用户在他们的记录中看到“Claude 使用了 Read 工具”，这就足够透明了。工具做了一件事，返回了一个结果，这就是交互的结束。技能的运作方式根本不同。技能不是执行离散动作并返回结果，而是注入全面的指令集，修改 Claude 推理和处理任务的方式。这创造了一个普通工具从未面临的设计挑战：用户需要关于哪些技能正在运行以及它们在做什么的透明度，而 Claude 需要详细的、可能冗长的指令来正确执行技能。如果用户在聊天记录中看到完整的技能提示词，UI 将被数千字的内部 AI 指令弄得杂乱无章。如果技能激活完全隐藏，用户就会失去对系统代表他们做什么的可见性。解决方案需要将这两个通信渠道分离成具有不同可见性规则的独立消息。</p>
+<p>技能系统在每条消息上使用 <code>isMeta</code> 标志来控制它是否出现在用户界面中。当 <code>isMeta: false</code>（或标志省略并默认为 false）时，消息在用户看到的对话记录中渲染。当 <code>isMeta: true</code> 时，消息作为 Claude 对话上下文的一部分发送到 Anthropic API，但从未出现在 UI 中。这个简单的布尔标志实现了复杂的双通道通信：一条流面向人类用户，另一条面向 AI 模型。元提示词用于元工具！</p>
+<p>当技能执行时，系统向对话历史注入两条独立的用户消息。第一条携带 <code>isMeta: false</code> 的技能元数据，使其作为状态指示器对用户可见。第二条携带 <code>isMeta: true</code> 的完整技能提示词，将其从 UI 中隐藏，但对 Claude 可用。这种分离解决了透明度与清晰度的权衡，通过展示正在发生的事情而不让实现细节淹没用户。</p>
+<p>元数据消息使用前端可以解析并适当显示的简洁 XML 结构：</p>
+<pre><code class="language-javascript">let metadata = [
+  `&#x3C;command-message>${statusMessage}&#x3C;/command-message>`,
+  `&#x3C;command-name>${skillName}&#x3C;/command-name>`,
+  args ? `&#x3C;command-args>${args}&#x3C;/command-args>` : null
+].filter(Boolean).join('\n');
+
+// 消息 1: 无 isMeta 标志 → 默认为 false → 可见
+messages.push({
+  content: metadata,
+  autocheckpoint: checkpointFlag
+});
+</code></pre>
+<p>例如，当 PDF 技能激活时，用户在他们的记录中看到一个干净的加载指示器：</p>
+<pre><code class="language-xml">&#x3C;command-message>The "pdf" skill is loading&#x3C;/command-message>
+&#x3C;command-name>pdf&#x3C;/command-name>
+&#x3C;command-args>report.pdf&#x3C;/command-args>
+</code></pre>
+<p>此消息故意保持极简——通常 50 到 200 个字符。XML 标签使前端能够使用特殊格式渲染它，验证是否存在正确的 <code>&#x3C;command-message></code> 标签，并维护会话期间执行了哪些技能的审计跟踪。因为省略时 <code>isMeta</code> 标志默认为 false，此元数据会自动出现在 UI 中。</p>
+<p>技能提示词消息采取相反的方法。它加载 <code>SKILL.md</code> 的完整内容，可能增加额外的上下文，并显式设置 <code>isMeta: true</code> 以对用户隐藏它：</p>
+<pre><code class="language-javascript">let skillPrompt = await skill.getPromptForCommand(args, context);
+
+// 如果需要，增加前置/后置内容
+let fullPrompt = prependContent.length > 0 || appendContent.length > 0
+  ? [...prependContent, ...appendContent, ...skillPrompt]
+  : skillPrompt;
+
+// 消息 2: 显式 isMeta: true → 隐藏
+messages.push({
+  content: fullPrompt,
+  isMeta: true  // 从 UI 隐藏，发送给 API
+});
+</code></pre>
+<p>典型的技能提示词有 500 到 5,000 字，并提供全面的指导以转变 Claude 的行为。PDF 技能提示词可能包含：</p>
+<pre><code class="language-markdown">You are a PDF processing specialist.
+
+Your task is to extract text from PDF documents using the pdftotext tool.
+
+## Process
+
+1. Validate the PDF file exists
+2. Run pdftotext command to extract text
+3. Read the output file
+4. Present the extracted text to the user
+
+## Tools Available
+
+You have access to:
+- Bash(pdftotext:*) - For running pdftotext command
+- Read - For reading extracted text
+- Write - For saving results if needed
+
+## Output Format
+
+Present the extracted text clearly formatted.
+
+Base directory: /path/to/skill
+User arguments: report.pdf
+</code></pre>
+<p>此提示词建立了任务上下文，概述了工作流，指定了可用工具，定义了输出格式，并提供了特定于环境的路径。带有标题、列表和代码块的 markdown 结构有助于 Claude 解析和遵循指令。通过 <code>isMeta: true</code>，整个提示词被发送到 API，但从不弄乱用户的记录。</p>
+<p>除了核心元数据和技能提示词，技能还可以注入额外的条件消息用于附件和权限：</p>
+<pre><code class="language-javascript">let allMessages = [
+  createMessage({ content: metadata, autocheckpoint: flag }),  // 1. 元数据
+  createMessage({ content: skillPrompt, isMeta: true }),       // 2. 技能提示词
+  ...attachmentMessages,                                       // 3. 附件（条件性）
+  ...(allowedTools.length || skill.model ? [
+    createPermissionsMessage({                                 // 4. 权限（条件性）
+      type: "command_permissions",
+      allowedTools: allowedTools,
+      model: skill.useSmallFastModel ? getFastModel() : skill.model
+    })
+  ] : [])
+];
+</code></pre>
+<p>附件消息可以携带诊断信息、文件引用或补充技能提示词的额外上下文。权限消息仅在技能在 frontmatter 中指定 <code>allowed-tools</code> 或请求模型覆盖时出现，提供修改运行时执行环境的元数据。这种模块化组合允许每条消息具有特定目的，并基于技能配置被包含或排除，扩展基本双消息模式以处理更复杂的场景，同时通过 <code>isMeta</code> 标志保持相同的可见性控制。</p>
+<h3>为什么是两条消息而不是一条？</h3>
+<p>单消息设计将迫使做出不可能的选择。设置 <code>isMeta: false</code> 会使整个消息可见，将数千字的 AI 指令倾倒到用户的聊天记录中。用户会看到类似这样的内容：</p>
+<pre><code>┌─────────────────────────────────────────────┐
+│ The "pdf" skill is loading                  │
+│                                             │
+│ You are a PDF processing specialist.        │
+│                                             │
+│ Your task is to extract text from PDF       │
+│ documents using the pdftotext tool.         │
+│                                             │
+│ ## Process                                  │
+│                                             │
+│ 1. Validate the PDF file exists             │
+│ 2. Run pdftotext command to extract text    │
+│ 3. Read the output file                     │
+│ ... [500 more lines] ...                    │
+└─────────────────────────────────────────────┘
+</code></pre>
+<p>UI 变得不可用，充满了供 Claude 而非人类使用的内部实现细节。或者，设置 <code>isMeta: true</code> 会隐藏一切，不提供关于哪个技能被激活或它收到了什么参数的透明度。用户将对系统代表他们做什么一无所知。</p>
+<p>双消息分离通过给每条消息赋予不同的 <code>isMeta</code> 值解决了这个问题。消息 1 带有 <code>isMeta: false</code> 提供面向用户的透明度。消息 2 带有 <code>isMeta: true</code> 为 Claude 提供详细指令。这种细粒度的控制实现了透明度而没有信息过载。</p>
+<p>这些消息还服务于根本不同的受众和目的：</p>
+<table>
+<thead>
+<tr>
+<th>方面</th>
+<th>元数据消息</th>
+<th>技能提示词消息</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>受众</strong></td>
+<td>人类用户</td>
+<td>Claude (AI)</td>
+</tr>
+<tr>
+<td><strong>目的</strong></td>
+<td>状态/透明度</td>
+<td>指令/指导</td>
+</tr>
+<tr>
+<td><strong>长度</strong></td>
+<td>~50-200 字符</td>
+<td>~500-5,000 字</td>
+</tr>
+<tr>
+<td><strong>格式</strong></td>
+<td>结构化 XML</td>
+<td>自然语言 markdown</td>
+</tr>
+<tr>
+<td><strong>可见性</strong></td>
+<td>应当可见</td>
+<td>应当隐藏</td>
+</tr>
+<tr>
+<td><strong>内容</strong></td>
+<td>“正在发生什么？”</td>
+<td>“如何做？”</td>
+</tr>
+</tbody>
+</table>
+<p>代码库甚至通过不同的路径处理这些消息。元数据消息被解析以获取 <code>&#x3C;command-message></code> 标签，经过验证，并格式化用于 UI 显示。技能提示词消息直接发送到 API 而无需解析或验证——它是仅供 Claude 推理过程使用的原始指令内容。合并它们将违反单一职责原则，强迫一条消息通过两个不同的处理管道服务于两个截然不同的受众。</p>
+<h2>案例研究：执行生命周期</h2>
+<p>涵盖了 Agent Skills 内部架构后，让我们通过检查一个假设的 <code>pdf</code> 技能作为案例研究，来看看当用户说“Extract text from report.pdf（从 report.pdf 中提取文本）”时发生的完整执行流。</p>
+<p><img src="https://leehanchung.github.io/assets/img/2025-10-26/07-claude-skill-sequence-diagram.png" alt="Claude Skill 执行流"></p>
+<p>当 Claude Code 启动时，它扫描技能：</p>
+<pre><code class="language-javascript">async function getAllCommands() {
+  // 并行从所有来源加载
+  let [userCommands, skillsAndPlugins, pluginCommands, builtins] =
+    await Promise.all([
+      loadUserCommands(),      // ~/.claude/commands/
+      loadSkills(),            // .claude/skills/ + plugins
+      loadPluginCommands(),    // 插件定义的命令
+      getBuiltinCommands()     // 硬编码命令
+    ]);
+
+  return [...userCommands, ...skillsAndPlugins, ...pluginCommands, ...builtins]
+    .filter(cmd => cmd.isEnabled());
+}
+
+// 特定的技能加载
+async function loadPluginSkills(plugin) {
+  // 检查插件是否有技能
+  if (!plugin.skillsPath) return [];
+
+  // 支持两种模式:
+  // 1. skillsPath 中的根 SKILL.md
+  // 2. 带有 SKILL.md 的子目录
+
+  const skillFiles = findSkillMdFiles(plugin.skillsPath);
+  const skills = [];
+
+  for (const file of skillFiles) {
+    const content = readFile(file);
+    const { frontmatter, markdown } = parseFrontmatter(content);
+
+    skills.push({
+      type: "prompt",
+      name: `${plugin.name}:${getSkillName(file)}`,
+      description: `${frontmatter.description} (plugin:${plugin.name})`,
+      whenToUse: frontmatter.when_to_use,  // ← 注意: 下划线!
+      allowedTools: parseTools(frontmatter['allowed-tools']),
+      model: frontmatter.model === "inherit" ? undefined : frontmatter.model,
+      isSkill: true,
+      promptContent: markdown,
+      // ... 其他字段
+    });
+  }
+
+  return skills;
+}
+</code></pre>
+<p>对于 pdf 技能，这产生：</p>
+<pre><code class="language-javascript">{
+  type: "prompt",
+  name: "pdf",
+  description: "Extract text from PDF documents (plugin:document-tools)",
+  whenToUse: "When user wants to extract or process text from PDF files",
+  allowedTools: ["Bash(pdftotext:*)", "Read", "Write"],
+  model: undefined,  // 使用会话模型
+  isSkill: true,
+  disableModelInvocation: false,
+  promptContent: "You are a PDF processing specialist...",
+  // ... 其他字段
+}
+</code></pre>
+<h3>第 2 阶段：第 1 轮 - 用户请求与技能选择</h3>
+<p>用户发送请求：“Extract text from report.pdf”。Claude 接收此消息以及其工具数组中的 <code>Skill</code> 工具。在 Claude 决定调用 pdf 技能之前，系统必须在 Skill 工具的描述中呈现可用技能。</p>
+<h4>技能过滤与呈现</h4>
+<p>并非所有加载的技能都出现在 Skill 工具中。技能必须在 frontmatter 中具有 <code>description</code> 或 <code>when_to_use</code>，否则会被过滤掉。过滤标准：</p>
+<pre><code class="language-javascript">async function getSkillsForSkillTool() {
+  const allCommands = await getAllCommands();
+
+  return allCommands.filter(cmd =>
+    cmd.type === "prompt" &#x26;&#x26;
+    cmd.isSkill === true &#x26;&#x26;
+    !cmd.disableModelInvocation &#x26;&#x26;
+    (cmd.source !== "builtin" || cmd.isModeCommand === true) &#x26;&#x26;
+    (cmd.hasUserSpecifiedDescription || cmd.whenToUse)  // ← 必须有一个!
+  );
+}
+</code></pre>
+<h4>技能格式化</h4>
+<p>每个技能都为 <code>&#x3C;available_skills></code> 部分格式化。例如，我们假设的 <code>pdf</code> 技能可以格式化为
+<code>"pdf": Extract text from PDF documents - When user wants to extract or process text from PDF files</code></p>
+<pre><code class="language-javascript">function formatSkill(skill) {
+  let name = skill.name;
+  let description = skill.whenToUse
+    ? `${skill.description} - ${skill.whenToUse}`
+    : skill.description;
+
+  return `"${name}": ${description}`;
+}
+</code></pre>
+<h4>Claude 的决策过程</h4>
+<p>现在，当用户提示：“Extract text from report.pdf”。Claude 接收带有 <code>Skill</code> 工具的 API 请求，阅读 <code>&#x3C;available_skills></code>，并进行推理（假设地，因为我们看不到推理痕迹）：</p>
+<pre><code>内部推理:
+- 用户想要 "从 report.pdf 提取文本"
+- 这是一个 PDF 处理任务
+- 查看可用技能...
+- "pdf": Extract text from PDF documents - When user wants to extract or process text from PDF files
+- 这匹配！用户想要从 PDF 提取文本
+- 决定: 使用 command="pdf" 调用 Skill 工具
+</code></pre>
+<p>注意这里没有算法匹配。没有词法匹配。没有语义匹配。没有搜索。这是纯粹的 LLM 基于技能描述对其决策进行的推理。一旦完成，Claude 返回一个工具使用：</p>
+<pre><code class="language-json">{
+  "type": "tool_use",
+  "id": "toolu_123abc",
+  "name": "Skill",
+  "input": {
+    "command": "pdf"
+  }
+}
+</code></pre>
+<h3>第 3 阶段：Skill 工具执行</h3>
+<p>Skill 工具现在执行。这对应于序列图中的黄色“SKILL TOOL EXECUTION”框，它执行验证、权限检查、文件加载和上下文修改，然后产生结果。</p>
+<h4>步骤 1：验证</h4>
+<pre><code class="language-javascript">async validateInput({ command }, context) {
+  let skillName = command.trim().replace(/^\//, "");
+
+  // 错误 1: 为空
+  if (!skillName) return { result: false, errorCode: 1 };
+
+  // 错误 2: 未知技能
+  const allSkills = await getAllCommands();
+  if (!skillExists(skillName, allSkills)) {
+    return { result: false, errorCode: 2 };
+  }
+
+  // 错误 3: 无法加载
+  const skill = getSkill(skillName, allSkills);
+  if (!skill) return { result: false, errorCode: 3 };
+
+  // 错误 4: 模型调用被禁用
+  if (skill.disableModelInvocation) {
+    return { result: false, errorCode: 4 };
+  }
+
+  // 错误 5: 不是基于提示词的
+  if (skill.type !== "prompt") {
+    return { result: false, errorCode: 5 };
+  }
+
+  return { result: true };
+}
+</code></pre>
+<p>pdf 技能通过所有验证检查 ✓</p>
+<pre><code class="language-javascript">async checkPermissions({ command }, context) {
+  const skillName = command.trim().replace(/^\//, "");
+  const permContext = (await context.getAppState()).toolPermissionContext;
+
+  // 检查拒绝规则
+  for (const [pattern, rule] of getDenyRules(permContext)) {
+    if (matches(skillName, pattern)) {
+      return { behavior: "deny", message: "Blocked by permission rules" };
+    }
+  }
+
+  // 检查允许规则
+  for (const [pattern, rule] of getAllowRules(permContext)) {
+    if (matches(skillName, pattern)) {
+      return { behavior: "allow" };
+    }
+  }
+
+  // 默认: 询问用户
+  return { behavior: "ask", message: `Execute skill: ${skillName}` };
+}
+</code></pre>
+<p>假设没有规则，用户被提示：“Execute skill: pdf?”
+用户批准 ✓</p>
+<h4>步骤 3：加载技能文件并生成执行上下文修改</h4>
+<p>随着验证和权限批准，Skill 工具加载技能文件并准备执行上下文修改：</p>
+<pre><code class="language-javascript">async *call({ command }, context) {
+  const skillName = command.trim().replace(/^\//, "");
+  const allSkills = await getAllCommands();
+  const skill = getSkill(skillName, allSkills);
+
+  // 加载技能提示词
+  const promptContent = await skill.getPromptForCommand("", context);
+
+  // 生成元数据标签
+  const metadata = [
+    `&#x3C;command-message>The "${skill.userFacingName()}" skill is loading&#x3C;/command-message>`,
+    `&#x3C;command-name>${skill.userFacingName()}&#x3C;/command-name>`
+  ].join('\n');
+
+  // 创建消息
+  const messages = [
+    { type: "user", content: metadata },  // 对用户可见
+    { type: "user", content: promptContent, isMeta: true },  // 对用户隐藏，对 Claude 可见
+    // ... 附件，权限
+  ];
+
+  // 提取配置
+  const allowedTools = skill.allowedTools || [];
+  const modelOverride = skill.model;
+
+  // 产生结果与执行上下文修改器
+  yield {
+    type: "result",
+    data: { success: true, commandName: skillName },
+    newMessages: messages,
+
+    // 🔑 执行上下文修改函数
+    contextModifier(context) {
+      let modified = context;
+
+      // 注入允许的工具
+      if (allowedTools.length > 0) {
+        modified = {
+          ...modified,
+          async getAppState() {
+            const state = await context.getAppState();
+            return {
+              ...state,
+              toolPermissionContext: {
+                ...state.toolPermissionContext,
+                alwaysAllowRules: {
+                  ...state.toolPermissionContext.alwaysAllowRules,
+                  command: [
+                    ...state.toolPermissionContext.alwaysAllowRules.command || [],
+                    ...allowedTools  // ← 预批准这些工具
+                  ]
+                }
+              }
+            };
+          }
+        };
+      }
+
+      // 覆盖模型
+      if (modelOverride) {
+        modified = {
+          ...modified,
+          options: {
+            ...modified.options,
+            mainLoopModel: modelOverride
+          }
+        };
+      }
+
+      return modified;
+    }
+  };
+}
+</code></pre>
+<p>Skill 工具产生其结果，包含 <code>newMessages</code>（元数据 + 技能提示词 + 权限，用于对话上下文注入）和 <code>contextModifier</code>（工具权限 + 模型覆盖，用于执行上下文修改）。这完成了序列图中的黄色“SKILL TOOL EXECUTION”框。</p>
+<h3>第 4 阶段：发送到 API（第 1 轮完成）</h3>
+<p>系统构建完整的消息数组以发送到 Anthropic API。这包括来自对话的所有消息加上新注入的技能消息：</p>
+<pre><code class="language-javascript">// 发送到 API 的第 1 轮完整消息数组
+{
+  model: "claude-sonnet-4-5-20250929",
+  messages: [
+    {
+      role: "user",
+      content: "Extract text from report.pdf"
+    },
+    {
+      role: "assistant",
+      content: [
+        {
+          type: "tool_use",
+          id: "toolu_123abc",
+          name: "Skill",
+          input: { command: "pdf" }
+        }
+      ]
+    },
+    {
+      role: "user",
+      content: "&#x3C;command-message>The \"pdf\" skill is loading&#x3C;/command-message>\n&#x3C;command-name>pdf&#x3C;/command-name>"
+      // isMeta: false (默认) - 在 UI 中可见
+    },
+    {
+      role: "user",
+      content: "You are a PDF processing specialist...\n\n## Process\n1. Validate PDF exists\n2. Run pdftotext...",
+      isMeta: true  // 从 UI 隐藏，发送到 API
+    },
+    {
+      role: "user",
+      content: {
+        type: "command_permissions",
+        allowedTools: ["Bash(pdftotext:*)", "Read", "Write"],
+        model: undefined
+      }
+    }
+  ]
+}
+</code></pre>
+<p><img src="https://leehanchung.github.io/assets/img/2025-10-26/11-turn-1-completion.png" alt="Turn 1 Completion"></p>
+<p>上面显示了我们到目前为止所做的工作。应用了执行上下文修改器，为后续工具调用预批准了 <code>Bash(pdftotext:*)</code>、<code>Read</code> 和 <code>Write</code>。请求被发送到 Anthropic API。这结束了技能执行。如果这是一个普通工具，我们就完成了。然而，技能是不同的。Agent skill 仅仅注入了对话上下文和执行上下文。这意味着我们仍然需要调用 Claude agent，带着所有这些注入的上下文来完成用户的请求！</p>
+<h3>第 5 阶段：Bash 工具执行（带有技能上下文的工具使用！）</h3>
+<p>Claude 收到带有注入对话上下文的 API 响应。技能提示词已经转变了 Claude 的行为，为其提供：</p>
+<ul>
+<li>专门的 PDF 处理指令（对话上下文）</li>
+<li><code>Bash(pdftotext:*)</code>、<code>Read</code> 和 <code>Write</code> 工具的预批准访问权限（执行上下文）</li>
+<li>明确的遵循工作流（对话上下文）</li>
+</ul>
+<p>Claude 处理上下文并遵循 pdf 技能的工作流：</p>
+<pre><code>I'll extract text from report.pdf. Let me process the file.
+
+[Following pdf skill's instructions]
+1. Validate that report.pdf exists
+2. Run pdftotext command to extract text
+3. Read the output file
+4. Present the extracted text to you
+</code></pre>
+<p>Claude 使用 Bash 工具（预批准，无需用户提示）：</p>
+<pre><code class="language-json">{
+  "type": "tool_use",
+  "id": "toolu_456def",
+  "name": "Bash",
+  "input": {
+    "command": "pdftotext report.pdf output.txt",
+    "description": "Extract text from PDF using pdftotext"
+  }
+}
+</code></pre>
+<p>Bash 工具成功执行，返回结果。Claude 随后使用 Read 工具读取输出文件并将提取的文本呈现给用户。技能通过将指令注入到对话上下文并修改工具权限的执行上下文，成功引导 Claude 完成了专门的 PDF 提取工作流。</p>
+<hr>
+<h2>结论：心智模型回顾</h2>
+<p>Claude Code 中的技能是<strong>基于提示词的对话和执行上下文修改器</strong>，通过元工具架构工作：</p>
+<p><strong>关键要点：</strong></p>
+<ol>
+<li>技能是 <code>SKILL.md</code> 文件中的<strong>提示词模板</strong>，不是可执行代码。</li>
+<li><strong>Skill 工具</strong>（大写 S）是 <code>tools</code> 数组中的元工具，管理个体技能，不在系统提示词中。</li>
+<li>技能通过注入指令提示词（通过 <code>isMeta: true</code> 消息）<strong>修改对话上下文</strong>。</li>
+<li>技能通过更改工具权限和模型选择<strong>修改执行上下文</strong>。</li>
+<li>选择通过<strong>LLM 推理</strong>发生，而不是算法匹配。</li>
+<li>工具权限通过执行上下文修改<strong>限定在技能执行范围内</strong>。</li>
+<li>技能每次调用注入两条用户消息——一条用于用户可见的元数据，一条用于发送给 API 的隐藏指令。</li>
+</ol>
+<p><strong>优雅的设计：</strong> 通过将专业知识视为<em>修改对话上下文的提示词</em>和<em>修改执行上下文的权限</em>，而不是<em>执行的代码</em>，Claude Code 实现了传统函数调用难以达到的灵活性、安全性和可组合性。</p>
+<hr>
+<h2>参考资料</h2>
+<ul>
+<li><a href="https://www.anthropic.com/news/skills">Introducing Agent Skills</a></li>
+<li><a href="https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills">Equipping Agents for the Real World with Agent Skills</a></li>
+<li><a href="https://docs.claude.com/en/docs/claude-code/overview">Claude Code Documentation</a></li>
+<li><a href="https://docs.anthropic.com/en/api/messages">Anthropic API Reference</a></li>
+<li><a href="https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview#skill-structure">Official Documented Frontmatter Fields</a></li>
+<li><a href="https://github.com/anthropics/skills/tree/main/internal-comms">Internal Comms Skill</a></li>
+<li><a href="https://github.com/anthropics/skills/tree/main/skill-creator">Skill Creator Skill</a></li>
+<li><a href="https://github.com/elder-plinius/CL4R1T4S/blob/main/OPENAI/ChatGPT5-08-07-2025.mkd">ChatGPT 5 System Prompt (leaked, not official)</a></li>
+</ul>
+<pre><code class="language-bibtex">@article{
+    leehanchung_bullshit_jobs,
+    author = {Lee, Hanchung},
+    title = {Claude Agent Skills: A First Principles Deep Dive},
+    year = {2025},
+    month = {10},
+    day = {26},
+    howpublished = {\url{https://leehanchung.github.io}},
+    url = {https://leehanchung.github.io/blogs/2025/10/26/claude-skills-deep-dive/}
+}
+</code></pre>
+5:["$","$L11",null,{"email":{"id":"reports-claude-agent-skills-deep-dive","sender":"Hinbox","subject":"Claude Agent Skills：基于第一性原理的深度剖析","snippet":"","date":"2025-12-02","isRead":false,"isStarred":false,"hasAttachment":false,"labels":["Inbox"],"tags":[],"mdTheme":"magazine","sourcePath":"reports/claude-agent-skills-deep-dive.md","sourceUrl":"$undefined","coverImage":"$undefined","body":"$12","prompts":[]},"listPosition":{"index":216,"total":365},"matchedPerson":"$undefined"}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[27201,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"IconMark"]
+c:[["$","title","0",{"children":"Claude Agent Skills：基于第一性原理的深度剖析 · Hinbox"}],["$","meta","1",{"name":"description","content":"Claude Agent Skills：基于第一性原理的深度剖析"}],["$","meta","2",{"name":"application-name","content":"Hinbox"}],["$","link","3",{"rel":"canonical","href":"https://linguage.github.io/hinbox/mail/reports-claude-agent-skills-deep-dive"}],["$","meta","4",{"property":"og:title","content":"Claude Agent Skills：基于第一性原理的深度剖析"}],["$","meta","5",{"property":"og:description","content":"Claude Agent Skills：基于第一性原理的深度剖析"}],["$","meta","6",{"property":"og:url","content":"https://linguage.github.io/hinbox/mail/reports-claude-agent-skills-deep-dive"}],["$","meta","7",{"property":"og:site_name","content":"Hinbox"}],["$","meta","8",{"property":"og:locale","content":"zh_CN"}],["$","meta","9",{"property":"og:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","meta","10",{"property":"og:image:width","content":"1200"}],["$","meta","11",{"property":"og:image:height","content":"630"}],["$","meta","12",{"property":"og:image:alt","content":"Claude Agent Skills：基于第一性原理的深度剖析"}],["$","meta","13",{"property":"og:type","content":"article"}],["$","meta","14",{"property":"article:published_time","content":"2025-12-02T00:00:00.000Z"}],["$","meta","15",{"property":"article:author","content":"Hinbox"}],["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","17",{"name":"twitter:title","content":"Claude Agent Skills：基于第一性原理的深度剖析"}],["$","meta","18",{"name":"twitter:description","content":"Claude Agent Skills：基于第一性原理的深度剖析"}],["$","meta","19",{"name":"twitter:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","link","20",{"rel":"icon","href":"/hinbox/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","21",{"rel":"icon","href":"/hinbox/icon.svg?icon.6ca2692a.svg","sizes":"any","type":"image/svg+xml"}],["$","$L13","22",{}]]
+8:null

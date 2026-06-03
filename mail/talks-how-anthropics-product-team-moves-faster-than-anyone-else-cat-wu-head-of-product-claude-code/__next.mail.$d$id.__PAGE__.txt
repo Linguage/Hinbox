@@ -1,0 +1,293 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T9b7c,<h1>访谈概述</h1>
+<p>在本期 Lenny's Podcast 中，主持人 Lenny Rachitsky 邀请到了 Anthropic 负责 Claude Code 和 Cowork 的产品负责人 Cat Wu。双方深入探讨了在 AI 时代，产品管理（产品经理，PM）的法则正在发生怎样的根本性转变。</p>
+<p>核心议题涵盖：</p>
+<ol>
+<li>Anthropic 是如何将产品发布周期从数月压缩至几周甚至几天的。</li>
+<li>随着工程师和产品经理角色的融合，为什么**“产品品味（Product Taste）”**成为了目前最有价值的核心技能。</li>
+<li>Anthropic 的内部文化（如高度对齐的使命感、极少的流程限制）如何帮助团队保持极高的执行力。</li>
+<li>如何运用 Claude Code（代码生成）和 Cowork（非代码工作流自动化）等工具极大提升个人与团队的杠杆率。</li>
+<li>产品经理在当下急需掌握的技能：撰写模型评估（Evals）、引导模型反思错误，以及为尚不完美的模型构建“面向未来的产品”。</li>
+</ol>
+<p>对于任何想要在 AI 驱动的未来中不仅能生存下来，更能脱颖而出的技术从业者来说，这都是一期充满实操建议和深刻洞见的访谈。</p>
+<h1>专用词语翻译列表</h1>
+<table>
+<thead>
+<tr>
+<th align="left">英文专有名词 / 术语</th>
+<th align="left">中文翻译 / 解释</th>
+<th align="left">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Anthropic</td>
+<td align="left">Anthropic</td>
+<td align="left">顶尖 AI 公司，Claude 模型的开发商</td>
+</tr>
+<tr>
+<td align="left">Claude Code</td>
+<td align="left">Claude Code</td>
+<td align="left">Anthropic 推出的 AI 编程助手工具</td>
+</tr>
+<tr>
+<td align="left">Cowork</td>
+<td align="left">Cowork</td>
+<td align="left">Anthropic 内部及推出的非代码任务协作 AI 工具</td>
+</tr>
+<tr>
+<td align="left">PM (Product Manager)</td>
+<td align="left">产品经理</td>
+<td align="left">-</td>
+</tr>
+<tr>
+<td align="left">PRD (Product Requirements Document)</td>
+<td align="left">产品需求文档</td>
+<td align="left">-</td>
+</tr>
+<tr>
+<td align="left">AGI (Artificial General Intelligence)</td>
+<td align="left">通用人工智能</td>
+<td align="left">-</td>
+</tr>
+<tr>
+<td align="left">LLM (Large Language Model)</td>
+<td align="left">大语言模型</td>
+<td align="left">-</td>
+</tr>
+<tr>
+<td align="left">Eval (Evaluation)</td>
+<td align="left">模型评估 / 评估集</td>
+<td align="left">用于测试和量化 AI 模型表现的标准</td>
+</tr>
+<tr>
+<td align="left">Dogfooding</td>
+<td align="left">内部试用 / 吃狗粮</td>
+<td align="left">科技公司内部优先使用自己开发的产品的做法</td>
+</tr>
+<tr>
+<td align="left">Harness</td>
+<td align="left">模型外围架构 / 测试台</td>
+<td align="left">包裹在核心模型外围，用于引导和限制模型行为的代码或系统</td>
+</tr>
+<tr>
+<td align="left">MCP (Model Context Protocol)</td>
+<td align="left">模型上下文协议</td>
+<td align="left">一种允许 AI 模型连接外部数据源的协议</td>
+</tr>
+<tr>
+<td align="left">CLI (Command Line Interface)</td>
+<td align="left">命令行界面</td>
+<td align="left">-</td>
+</tr>
+<tr>
+<td align="left">Token</td>
+<td align="left">Token（词元）</td>
+<td align="left">AI 模型的计算和计费单位</td>
+</tr>
+<tr>
+<td align="left">Mythos</td>
+<td align="left">Mythos</td>
+<td align="left">访谈中提及的 Anthropic 一款能力极强的新模型（预览版）</td>
+</tr>
+<tr>
+<td align="left">OpenClaw</td>
+<td align="left">OpenClaw</td>
+<td align="left">访谈中提及的一个与 Claude 相关的开源社区项目/工具</td>
+</tr>
+<tr>
+<td align="left">WorkOS / Vanta</td>
+<td align="left">WorkOS / Vanta</td>
+<td align="left">本期播客的赞助商</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<figure class="video-embed video-embed--youtube">
+  <div class="video-embed__frame">
+    <iframe src="https://www.youtube.com/embed/PplmzlgE0kg" title="YouTube video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+  <figcaption class="video-embed__caption">YouTube video</figcaption>
+</figure>
+<h1>访谈正文：AI 产品管理的新法则</h1>
+<h3>[片头预告与开场]</h3>
+<p><strong>Cat:</strong> 我认为，要恰到好处地“信仰 AGI”（AGI pilled）是很难的。为极其强大的“超级 AGI 模型”设计产品很容易，真正的难点在于：面对当前阶段的模型，你如何激发它的最大潜能？</p>
+<p><strong>Lenny:</strong> 我从未见过像你们 Anthropic 这样疯狂的产品发布速度。</p>
+<p><strong>Cat:</strong> 我们希望消除阻碍产品发布的每一个障碍。我们很多产品功能的时间表已经从 6 个月缩短到了 1 个月，有时甚至只需 1 天。</p>
+<p><strong>Lenny:</strong> 你面试了数百名尝试进入 AI 领域的 PM，你觉得他们很多人的切入点都大错特错。</p>
+<p><strong>Cat:</strong> PM 这个角色正在发生巨大的变化，而且变化速度极快。在构建 AI 原生产品时，极其重要的一点就是快速迭代，你需要找到一种方法，让你真的能做到“每周都在发布新功能”。</p>
+<p><strong>Lenny:</strong> 你认为 PM 现在急需培养的新兴技能是什么？</p>
+<p><strong>Cat:</strong> 归根结底还是“产品品味（Product Taste）”。当写代码变得越来越廉价时，真正变得有价值的事情是：决定该写什么代码。</p>
+<p><strong>Lenny:</strong> 今天我的嘉宾是 Cat Wu，她是 Anthropic 旗下 Claude Code 和 Cowork 的产品负责人。Cat 处于 AI、产品和开发变革的最中心。她和她的团队正在打造改变我们所有人构建产品方式的工具。她充满了洞见、智慧和经验。这是一期你绝对不能错过的播客。在进入正题之前，别忘了去 lennyspodcast.com 看看专门为 Lenny 简报订阅者提供的超值福利。接下来，有请 Cat Wu。</p>
+<hr>
+<h3>[与 Boris Cherny 的合作及团队分工]</h3>
+<p><strong>Lenny:</strong> Cat，欢迎来到播客。</p>
+<p><strong>Cat:</strong> 谢谢你的邀请。</p>
+<p><strong>Lenny:</strong> 我有太多问题了，很高兴你能来。首先，我想让大家了解一下你和 Boris 的合作模式。大家都知道 Boris，他那期节目是本播客最受欢迎的一期。他创造了 Claude Code，带领团队，每天在手机上提交无数个 PR（拉取请求），我都不知道具体数字是多少了。我觉得人们对你在 Claude Code、Cowork 以及你们构建的所有产品中所起到的关键作用认识不足。能跟我们讲讲你在团队中的角色吗？你是如何与 Boris 合作、如何分工的？Claude Code 团队的 PM 角色到底是怎样的？</p>
+<p><strong>Cat:</strong> 能和 Boris 一起工作我感到非常幸运。他是一个非常棒的思想伙伴。作为我们的技术负责人，他非常有产品远见。他很擅长设定方向，比如“这个产品在三到六个月后应该是什么样”、“AGI 时代的终极版本是什么样”。</p>
+<p>而我的角色，很大程度上是弄清楚如何从今天走到三到六个月后的那个愿景。我会把更多时间花在跨部门协作上，确保我们的营销、销售、财务、算力容量等团队都认可这个计划，确保大家往同一个方向发力；并且确保当功能准备就绪时，没有任何阻碍其发布的问题。在很多方面，我们的合作非常顺利，因为我们几乎是心意相通的（mindmeld）。但分工界限其实非常模糊，我们大概有 80% 的想法是完全一致的，剩下 20% 可能是 Boris 非常在意的事情，那他就去主导；另外 20% 也就是我更在意的事情，就由我来主导。</p>
+<p><em>(Lenny 播报 WorkOS 赞助商广告)</em></p>
+<hr>
+<h3>[Anthropic 在招聘 PM 时看重什么]</h3>
+<p><strong>Lenny:</strong> 在录制之前，你提到你一直在面试成百上千的 PM。每次有人找我引荐去 Anthropic 做 PM 时，如果我能拿五毛钱，我现在估计都有 300 亿的 ARR（年度经常性收入）了。它简直是大家最想去工作的头号公司。所以我能想象你面试了多少 PM。你告诉我，你看到很多人在方法上做错了，他们误解了成为一名成功的 AI PM 需要具备什么。跟我们说说你看到了什么，以及人们现在需要明白成功的要素是什么？</p>
+<p><strong>Cat:</strong> 我觉得在 AI 出现之前，技术迭代要慢得多。所以你可以按照 6 到 12 个月的时间范围来做计划。因为那时发布功能的速度较慢，大家会把更多精力放在协调所有合作团队上，确保他们发布的功能能够解除你这边的阻塞，因为在当时，写代码是一件成本很高的事情。</p>
+<p>但现在有了 AI，工程开发速度被极大加速，模型能力的提升速度也极快。我们很多产品功能的时间线已经从 6 个月缩短到了 1 个月，有时甚至是 1 周或 1 天。随之而来的是，我们必须确保产品能极快地发布。</p>
+<p>这意味着，作为一名 PM，你应该少花点精力去确保跨季度的路线图与其他团队对齐，而应把更多精力放在：“我们如何才能找到最快的方法把东西推向市场？”“我们如何在这个产品套件中开辟一个概念验证区，让工程师或 PM 只要有想法，本周末就能让用户用上？”</p>
+<p>在 AI 原生产品中表现最好的 PM，是那些能够缩短从“产生想法”到“产品真正交到用户手中”的时间，并能清晰定义“我的产品开箱即用时必须具备的核心功能是什么”的人。</p>
+<p><strong>Lenny:</strong> 我喜欢你说的这点：人们还没意识到他们需要移动得有多快，以及现在工作的一大部分就是“帮助团队快速移动”。那具体怎么做呢？除了拥有最先进的模型，你和你的 PM 团队具体做什么来帮助团队保持这种速度？</p>
+<p><strong>Cat:</strong> 首先是设定非常清晰的目标（Goals）。因为大语言模型（LLM）太通用了，这实际上在“我们到底为谁构建”、“我们要解决什么问题”、“核心用例是什么”等方面造成了很大的模糊性。</p>
+<p>一个优秀的 PM 能够明确指出：“我们的核心用户是专业开发者，这个功能要解决的主要问题是权限提示框太多导致疲劳，使用场景是我们希望企业专业开发者能安全地实现零权限提示。”这设定了一个非常明确的目标，排除了许多减少权限提示的潜在方案，让大家能用一个 Prompt 完成更多工作。</p>
+<p>第二点非常重要的是，建立一套可重复的产品发布流程。以 Claude Code 为例，我们几乎所有的功能都是以“研究预览版（Research Preview）”的形式发布的。我们会在发布时打上清晰的标签，让用户知道这是一个早期产品，只是一个想法，我们正在收集反馈并进行迭代，且它可能不会被永久支持。这样做降低了我们发布功能的心理承诺和负担，我们可以只需一两周就把东西推出去。</p>
+<p>第三点，PM 应该为团队建立跨部门的协作框架，让他们知道何时引入职能伙伴，以及这些伙伴的期望是什么。例如，我们在工程、营销和文档团队之间有非常紧密的流程。当工程师觉得某个功能准备好了，并且我们内部已经试用（dogfooded）过之后，他们会把它发布到我们常驻的“发布群（Launch Room）”里。然后，负责文档的 Sarah、负责产品营销（PMM）的 Alex，以及负责开发者关系的 Tar 和 Lydia 就会马上跟进，第二天就能把营销公告赶出来。因为流程非常紧密，任何工程师发布功能的摩擦力都被降低了。而 PM 就是应该建立这套机制的人。</p>
+<h3>[PRD 和产品路线图在 Anthropic 的演变]</h3>
+<p><strong>Lenny:</strong> 那么 PRD（产品需求文档）在这个过程中怎么体现？你刚才说目标对齐很重要，明确它为了谁、不为了谁。你们还写 PRD 吗？还是只写几个要点？</p>
+<p><strong>Cat:</strong> 我们主要做两件事。第一，我们有非常严谨的数据指标（Metrics），我们每周都会和整个团队一起查看指标。目的是确保每个人都深刻理解我们业务的各个方面：我们的核心目标是什么，趋势如何，以及驱动力是什么。</p>
+<p>第二，我们有一份“团队原则（Team Principles）”清单。其中包括我们的核心用户是谁，为什么是他们。我们明确阐述这些，是为了让团队中的每个人都觉得自己了解业务是如何运作的，了解什么对我们最重要，以及我们愿意做出什么妥协。这让人们能够自己做决定，而不会觉得被 PM 或其他利益相关者卡住。</p>
+<p><strong>Lenny:</strong> 我很喜欢这一点，这说明未来我们仍然需要 PM。现在有很多论调说“我们为什么还需要 PM？我们只需要工程师去构建和发布就行了”。</p>
+<p><strong>Cat:</strong> 哦，其实我们有时候还是会写 PRD 的。对于那些特别模糊的功能，写个一页纸说明目标是什么、令人愉悦的用户场景是什么、目前需要修复的失败模式是什么，还是很有帮助的。对于某些需要重度基础设施、确实需要几个月才能完成的项目，我们仍然会写 PRD。</p>
+<h3>[Mythos 模型与 Anthropic 的发布速度]</h3>
+<p><strong>Lenny:</strong> 我想进一步深挖一下你们是如何移动得这么快的。我从未见过像 Anthropic 这种发布速度。有人在网上做了一个 Anthropic 发布的日历表，几乎每一天都有重大功能或产品发布。</p>
+<p>网上有个疑问：你们最近构建了一个名为 Mythos 的强大模型，它目前还在预览中，因为它太强大了，人们甚至对它的能力感到有点害怕。你们内部一直在用这个吗？这是你们能跑得这么快的原因之一吗？</p>
+<p><strong>Cat:</strong> 我们其实已经保持这种快节奏好几个季度了。所以，不能完全归功于 Mythos。Mythos 确实是一个极其强大的模型。我们内部也使用各种模型，这确实稍微提高了我们的发布速度，但我认为这不是速度提升的主要原因。</p>
+<p>我认为这主要归功于团队的流程和期望。我们尽量做到“低流程”。我们希望消除阻碍发布的每一个障碍，确保团队里的每一个人都有权力将他们的想法，在不到一周（有时甚至一天内），从一个点子变成现实世界中的产品。</p>
+<p><strong>Lenny:</strong> 酷。天哪，拥有最好的模型同时还在开发产品，这真是一个巨大的优势。</p>
+<p><strong>Cat:</strong> 我们非常幸运能够与前沿模型一起工作。</p>
+<p><strong>Lenny:</strong> 这真的是一个不可思议的飞轮优势：构建一个东西，使用它，然后跑得更快。</p>
+<h3>[关于 Claude Code 源代码泄露与 OpenClaw 事件]</h3>
+<p><strong>Lenny:</strong> 谈到最近发生在 Anthropic 周围的几件“支线任务”，我很好奇你的看法。第一件是大概一周前，Claude Code 的全部源代码被泄露了。我觉得是有人犯了个错。关于这件事，你有什么可以评论的吗？发生了什么？人们应该知道些什么？</p>
+<p><strong>Cat:</strong> 当我们看到这件事时，我们立即展开了调查。我们意识到这是人为错误导致的。当时是有一名员工在使用 Claude 编写 PR（拉取请求），这只是对我们包发布方式的一个更新，而且它实际上通过了两层人工审查。因此，这是人为错误的结果。我们已经加强了流程，以确保未来不会再发生这种情况。</p>
+<p><strong>Lenny:</strong> 这个人还在 Anthropic 吗？他们还好吗？</p>
+<p><strong>Cat:</strong> 是的，是的。这是一个流程故障，最重要的事情是从中吸取教训，增加更多的安全防护措施以防再次发生。这也是我们目前的工作重点，且大部分改进措施已经上线。</p>
+<p><strong>Lenny:</strong> 好的。我还有个问题是关于 OpenClaw 的。最近有一种动作是限制人们将 Claude 订阅用于他们的 OpenClaw（开源的 Claude 客户端）。人们感到非常沮丧和困惑。感觉这似乎对开源社区造成了某种伤害。关于这个决定，大家需要了解什么？</p>
+<p><strong>Cat:</strong> 我们看到了对 Claude 的巨大需求。我们一直在努力扩展我们的基础设施，同时优化我们模型脚手架的 Token 效率，让大家能获得更多的使用量。但它最初并不是为第三方产品设计的，第三方产品的使用模式与我们的第一方产品不同。</p>
+<p>我们花了很多时间试图找出能提供的最无缝的过渡方案。所以我很高兴能宣布，每个人在订阅的同时都能获得一些额度。但是，是的，我们必须做出艰难的决定，优先保障我们的第一方产品和我们的 API 业务。这个决定正是由此而来的。</p>
+<p><strong>Lenny:</strong> 对我来说这非常合理。你们实际上是在以每月 200 美元的价格补贴这种使用，而且那几乎是无限量的计算资源。我觉得人们不理解的是，企业也是要赚钱的，我们是在努力实现盈利。当算力需求如此巨大时，不能仅仅把算力白白送人。我理解。</p>
+<h3>[Anthropic 产品团队的架构与 PM 的未来]</h3>
+<p><strong>Lenny:</strong> 回到 PM 团队的话题。Anthropic 的 PM 团队是什么样的？有多少人？是如何组织的？</p>
+<p><strong>Cat:</strong> 我们大概有 30 到 40 名 PM，分为几个团队。</p>
+<ul>
+<li><strong>研究 PM 团队（Research PM Team）</strong>：由 Diane 领导。负责理解客户对模型的所有反馈，将这些反馈传达给最合适的研究团队去执行，并主导模型的发布。</li>
+<li><strong>Claude 开发者平台团队（CDP Team）</strong>：维护 Claude Code 所基于的 API，他们还发布像“托管智能体（Managed Agents）”这样的东西，允许你构建智能体并由我们代为托管。</li>
+<li><strong>Claude Code 团队</strong>：负责 Claude Code 和 Cowork 的核心产品。</li>
+<li><strong>企业团队（Enterprise）</strong>：致力于让我们的企业客户更容易采用 Claude Code 和 Cowork，涉及成本控制、基于角色的访问控制（RBAC）、安全控制等，确保企业感到自信和舒适。</li>
+<li><strong>增长团队（Growth）</strong>：负责我们整个产品套件的增长。我们与他们在 Claude Code 和 Cowork 的增长上紧密合作，他们也会与 CDP 团队合作促进 API 的使用增长。</li>
+</ul>
+<p><strong>Lenny:</strong> 说到增长，Amol（Anthropic 增长负责人）之前也上过播客。他分享了一个大家很少谈及的有趣见解。大家总觉得未来我们不需要那么多 PM，因为工程师可以直接发布产品。但他的观点是：正因为工程师跑得太快了，每天都有新功能发布，PM 和设计师反而被挤压了，没有足够的时间掌握全局情况。所以他认为他反而需要<em>更多</em>的 PM，因为跟上节奏太难了。你怎么看？你认为 PM 这个职业长期来看会怎样发展？</p>
+<p><strong>Cat:</strong> 我认为所有的角色正在融合。PM 在做一些工程工作，工程师在做 PM 的工作，设计师在做项目管理同时也写代码。你可以选择雇佣大量具有极佳“产品品味”的工程师，或者保持工程师数量不变，雇佣更多的 PM 来指导他们的工作。</p>
+<p>在我们的团队，我们非常注重招募拥有绝佳产品品味的工程师。这能降低交付产品的沟通成本。我们团队很多工程师完全有能力端到端地完成工作：从 Twitter 上看到用户反馈，到周末就把产品做出来，期间几乎不需要产品经理介入。我认为这实际上是交付产品最有效率的方式。所以工程师和 PM 的重叠会越来越多。产品品味依然是非常稀缺的技能，只要展现出强烈的这种能力，我们几乎都会招。</p>
+<p><strong>Lenny:</strong> 你的背景也是工程对吧？</p>
+<p><strong>Cat:</strong> 对，我做了很多年工程师。后来短暂地做了一段时间风险投资（VC），然后加入了 Anthropic。实际上，我们团队几乎所有的 PM 以前都是工程师，或者在 Claude Code 里写过代码。这有助于在团队中建立信任，也能让我们移动得更快。甚至我们的设计师以前也是前端工程师。</p>
+<p><strong>Lenny:</strong> 这正是很多人关注的问题：角色确实在融合。如果你有工程、产品或设计的背景，哪项核心技能会变得最有价值？在 Anthropic 和 Claude Code 团队，工程背景显然很有价值，但在其他公司呢？</p>
+<p><strong>Cat:</strong> 我依然认为是产品品味（Product Taste）。当写代码变得如此廉价，真正有价值的是“决定写什么”。这个功能的正确交互体验（UX）是什么？最让用户愉悦的体验方式是什么？我们收到成千上万个 GitHub Issue，要求五花八门的东西，弄清楚哪些值得做、该怎么做，需要极其细致的考量和品味。这项技能可以来自任何背景。</p>
+<p>拥有工程背景在短期内（比如未来几个月）之所以特别有用，是因为它能让你对“做某件事到底有多难”有更好的直觉。这通常是决定构建什么的因素之一。如果某件事很容易做，那与其去争论，不如花一个小时直接把它做出来。但如果你提前知道某件事很难，成本很高，那这就有助于你进行优先级排序。</p>
+<p><strong>Lenny:</strong> 你提到“在未来几个月内”，是因为模型在未来几个月可能变得极其强大，以至于你甚至不需要了解工程了吗？</p>
+<p><strong>Cat:</strong> 被看重的技能组合变化非常频繁，所以很难预测几个月后的情况。我并不是在预测某种特定的转变，而是想说明环境的变动会很大。每一段时间代码能力就会大幅跃升，这就改变了对其他角色的价值评估。</p>
+<p>最重要的一点是，你要具备第一性原理思考的能力：弄清楚技术格局是如何变化的，团队真正需要你做什么，然后毫不犹豫地填补那个空缺。伟大的 PM 能够看到所有的差距，找出优先级最高的，然后想办法学习相关技能或运用现有技能去解决挑战。现在的环境看重那些能身兼数职、随时切换角色，并且为了团队快速前进能够放下自我（low ego）去做任何工作的人。</p>
+<h3>[人类大脑的持续价值与应对混乱]</h3>
+<p><strong>Lenny:</strong> 我很喜欢这个回答。我一直问像你这样身处 AI 最前沿的人一个问题：在实现超级智能之前的一段时间内，人类大脑在哪些地方仍然是有用且必不可少的？我听到你刚才说的，本质上是“挑选该做的事情，了解市场走向并决定优先级”，还有“判断做出来的东西对不对，并至少把早期版本推向市场”。除了这些，人类的判断力还在哪些地方有价值？</p>
+<p><strong>Cat:</strong> 人类仍然能提供模型所缺乏的一种常识（Common Sense）。任何产品发布都有成千上万个移动的部件，有些很微小，但潜在的出错点很多。模型并不总是很清楚所有利益相关者是谁、他们之间是什么关系、他们的偏好是什么，或者用什么合适的渠道与他们沟通以保持他们站在同一战线上。我认为许多这种隐性的常识和情商层面的知识，仍然非常有价值。</p>
+<p><strong>Lenny:</strong> 面对如此多的变化，身处这场风暴的中心，你作为人类是如何保持理智的？</p>
+<p><strong>Cat:</strong> 我们团队里满是那些“拥抱混乱（lean into the chaos）”的人。我们努力微笑着面对每一个挑战，因为总有那么多事情在发生，总有那么多风险和棘手的局面。如果你对任何事情都过度紧张，你很快就会倦怠。我们寻找那些看到挑战会说“这会很难，但我很兴奋去解决它，我知道我不会做到完美，但我只要尽了最大努力就能睡个好觉”的人。</p>
+<p><strong>Lenny:</strong> 有人说现在可能是这个世界“最正常”的时刻了。</p>
+<p><strong>Cat:</strong> 确实会变得越来越难。经常到了周日晚上出现一个 P0 级的问题，到了周一又来一个 P0，周一下午就变成了一个 P0000 级的问题，然后你会感叹：“哇，我怎么之前会为周日那个 P0 那么担心。”</p>
+<p>你必须承认你个人的能力是有限的，你需要睡个好觉，这样第二天才能做出好决定；残酷地对你花时间的地方进行优先级排序，弄清楚什么是最重要的，并且要学会“放手”。</p>
+<p>我们发布过一些我希望能更完美但实际并非如此的产品。但只要它没有阻碍核心使用场景，那就没关系，因为我们会听取反馈并在下一个版本中修复它。发布一个带有 bug 的功能，以前是那种会让我彻夜难眠的事情。但现在，我能坦然接受了。</p>
+<p><strong>Lenny:</strong> 听起来你们放弃了某种产品的一致性？</p>
+<p><strong>Cat:</strong> 是的，我们牺牲了产品一致性。以前代码很贵的时候，你会小心翼翼地规划产品套件中的所有内容。现在随着 AI 快速发展，我们要测试大量想法，确实有时会导致功能重叠。对于新用户来说，他们可能不知道完成某个任务的最佳路径是什么。我们确实需要做更多的教育工作，并且用户也会觉得“跟上最新进展很累”。所以这也是为什么我们最近推出了 <code>/powerup</code> 命令，作为一个内置的教程，帮助用户了解这 100 个功能中哪 10 个是必须掌握的。</p>
+<h3>[Anthropic 后来居上的秘诀]</h3>
+<p><strong>Lenny:</strong> Anthropic 在 B2B 企业市场非常成功，这通常不是一个频繁发布新功能的市场。Anthropic 起步较晚，资金也曾是最少的之一，没渠道，OpenAI 遥遥领先。但现在 Anthropic 势不可挡，月 ARR 高达 11 亿美元，增速惊人。作为内部人士，你认为让 Anthropic 如此成功、实现逆袭的核心因素是什么？</p>
+<p><strong>Cat:</strong> 最重要的有两件事。第一是<strong>统一的使命（unifying mission）</strong>。很难言喻这有多重要。我们雇佣的人，最关心的是如何将安全的 AGI 带来全人类。在决定整个产品组织应该发布什么时，我们会频繁提及这一点。因为我们把这个使命置于任何单独的产品线之上，我们能够做出跨部门的极其快速的决策并统一执行。</p>
+<p><strong>Lenny:</strong> 只要有安全和对齐这个头号使命，做决定就容易多了，比如不会去做社交网络。</p>
+<p><strong>Cat:</strong> 对，当使命放在前头，这就引出了我们擅长的第二件事：<strong>专注（Focus）</strong>。使命意味着团队愿意为了 Anthropic 的大目标牺牲自己的目标和 OKR。大家非常乐意做出这种取舍。一个极端的例子是：如果 Claude Code 失败了，但 Anthropic 整体成功了，我会非常高兴。</p>
+<h3>[何时使用 Claude Code vs. Desktop vs. Cowork]</h3>
+<p><strong>Lenny:</strong> 很多人对你们的产品矩阵有些困惑。我们有 Claude Code、Claude Desktop（桌面端），还有 Cowork。我们该如何理解在什么时候该用哪一个？</p>
+<p><strong>Cat:</strong></p>
+<ul>
+<li><strong>Claude Code (CLI / 终端)</strong>：当我要在本地开启一项一次性的编程任务，并且想要用到所有最新功能时，我会用终端。这是最强大的工具，功能通常最先在这里落地。</li>
+<li><strong>Claude Desktop (桌面端)</strong>：它在做前端工作时大放异彩。如果你在构建一个 Web 应用，桌面端右侧的预览面板可以让你一边和 Claude 聊天一边实时看到 Web 应用的改动。此外，如果你对终端弹出的黑框感到害怕或不熟悉，桌面端的图形化界面非常适合你。它也是一个很好的“控制平面”，你可以一目了然地看到终端、桌面、Web 和移动端上的所有任务。</li>
+<li><strong>Claude 移动端 / Web</strong>：适合在移动中（on the go）开启任务。你不需要随时带着打开的笔记本电脑，在散步时也能让代理（Agent）去工作。</li>
+<li><strong>Cowork</strong>：这是一个边界划分。只要最终输出的<strong>不是代码</strong>，我就会用 Cowork。不管是清理 Slack 消息、实现收件箱归零，还是为客户会议制作 PPT、撰写功能目标文档等，Cowork 是最适合的。</li>
+</ul>
+<h3>[Cowork 惊艳的使用案例]</h3>
+<p><strong>Lenny:</strong> 人们严重低估了 Cowork 的成功。你作为 PM，有什么非常有趣、意想不到的 Cowork 使用案例吗？</p>
+<p><strong>Cat:</strong> 如果你刚开始使用 Cowork，第一件必须做的事就是<strong>连接所有与你的角色相关的数据源</strong>（Google 日历、Slack、Gmail、Google Drive 等），它有了上下文才能发挥作用。</p>
+<p>举个昨晚的例子：我们要举办一个关于“Code with Claude”的会议。我要做一个演讲，介绍 Claude Code 是如何从一个助手向一个全自动代理（Agent）演进的。我想要在演讲中展示我们发布的产品以及内部的成功案例。</p>
+<p>我把 Google Drive 和 Slack 连上，把产品营销同事写的要点大纲喂给 Cowork，并告诉它我想讲的故事逻辑。然后 Cowork 自己工作了一个小时：它去翻了 Twitter 看我们发布了什么，查看了我们内部的“发布群”和展示 Demo 的频道，最后自动合成了一份 20 页的 PPT！我今早醒来一看，质量非常好。虽然我稍微做了一点修改（它字有点多），但比我自己做快太多了。而且因为它接入了我们的设计系统，这份 PPT 看起来就像是 Anthropic 的设计师亲自做的一样。</p>
+<p><strong>Lenny:</strong> 这简直是 PM 的梦想。具体是怎么操作的？</p>
+<p><strong>Cat:</strong> 我的 Prompt 大致是：“帮我为 Code with Claude 会议做一份 PPT。这是 PMM 建议涵盖的内容，这是我不喜欢的一份旧草稿（附链接）。请先生成一个包含细节的拟定大纲。同时注意不要和主题演讲重叠。”</p>
+<p>Claude 读了所有链接后给出了大纲。我作为 PM，工作变成了：<strong>审阅所有可能性并做最终决定</strong>。我确定大纲后，Cowork 就花几个小时把整个 PPT 搭建出来了。</p>
+<p>至于设计系统，我给了它一份我们外部活动常用的标准 PPT 模板的权限，它就能看到颜色、字体和约 20 种幻灯片排版格式。它就能基于此生成。</p>
+<h3>[Cat 的 PM 工具栈及内部工具创新]</h3>
+<p><strong>Lenny:</strong> 作为一个 PM，你平时的工具栈是什么？</p>
+<p><strong>Cat:</strong> 主要就是 Claude Code、Cowork 和 Slack。Anthropic 在很大程度上是运行在 Slack 上的，它是我们公司的核心操作系统。</p>
+<p>我大概会花 30% 的时间去挑战 Cowork 的能力边界，以便我清楚地知道“我们哪里还做得很差”。我会花很多时间与模型对话，理解它为什么会犯某些错误。</p>
+<p>Claude Code 极大降低了定制工具的门槛。比如我们有一位销售人员，他之前总是重复做类似的 PPT。于是他用 Claude Code 建了一个内部 Web 应用，接入了 Salesforce 和 Gong 的数据。只要输入客户信息，应用就会自动提取出客户在意的点（比如 HIPPA 合规、安全控制），然后花几秒钟时间，自动从标准 PPT 中增删幻灯片，生成一份针对该客户的定制版演讲稿。过去这可能要花半小时或者干脆放弃定制。</p>
+<p><em>(Lenny 播报 Vanta 赞助商广告)</em></p>
+<h3>[Token 消耗与新兴的 PM 技能]</h3>
+<p><strong>Lenny:</strong> 除了工程师，现在哪个团队消耗的 Token 最多？</p>
+<p><strong>Cat:</strong> 应该是“应用 AI 团队（Applied AI）”。他们相当于前线部署工程师，帮助客户接入我们的 API，管理大量的客户沟通和历史记录。他们经常用 Cowork 在晚上自动生成第二天的客户会议简报，提取客户之前的需求和待办事项。</p>
+<p><strong>Lenny:</strong> 大家都很好奇在 AI 公司做 PM 需要什么新兴技能？</p>
+<p><strong>Cat:</strong> 最难的技能是：能够定义产品在一个月后应该长什么样。要在此时“恰到好处地信仰 AGI”很难。如果未来 AGI 极强，你只需要一个文本框就够了；难的是在当前模型能力下，如何构建产品来激发它的最大能力，引导用户走上“黄金路径”，利用模型的优势并弥补它的弱点。</p>
+<p>你可以通过花大量时间使用模型来培养这个技能。我最喜欢做的一件事就是：<strong>要求模型对自己的行为进行反思（introspect）</strong>。当模型做出意外举动时，去问它“你为什么这样做？”它可能会告诉你 System Prompt 里有让人困惑的地方，或者它把验证工作交给了子 Agent 但没检查。这种好奇心能帮你找到修补工具链的方向。</p>
+<p>另一件未被充分重视的技能是：<strong>构建 Eval（评估集）</strong>。你不需要建几百个，只要 10 个极好的 Eval，就能帮助团队量化目标、衡量进度并发现缺失。</p>
+<p><strong>Lenny:</strong> 是的，构建 Eval 本质上就是在具体定义“什么是成功”。还有什么技能？</p>
+<p><strong>Cat:</strong> 找到你最信任的那 5 个能给你准确模型反馈的用户。而且，为 Claude 塑造角色性格（Character）也是极其核心的。就像 Amanda 所做的，由于这极具模糊性，你需要有极强的信念。很多人喜欢 Claude，是因为它的性格：轻松有趣、高度胜任，而且<strong>没有自我（Low Ego）</strong>。你指出它错了，它会真诚道歉并马上修复。它还非常积极向上（Positive），总是鼓励你，帮你拆解任务。这种性格是它成功的重要原因。</p>
+<h3>[模型升级带来的产品重构与未来愿景]</h3>
+<p><strong>Lenny:</strong> 当新模型发布时，你们有多频繁需要重做几个月前发布的产品？</p>
+<p><strong>Cat:</strong> 很多时候，新模型发布意味着我们需要<strong>移除</strong>之前添加的功能。之前很多功能其实是我们给模型准备的“拐杖”。</p>
+<p>比如，早期的 Claude Code 很难完成一次涉及 20 处调用的重构。为了解决这个问题，我们在产品里加了一个强制性的“待办事项列表（To-do list）”功能，强迫它列出所有修改点并逐一核对。但在 Opus 和 Sonnet 3.5 之后的模型中，模型聪明到不需要强制，它自然而然就会在脑海里用待办列表的逻辑处理问题了。所以我们就渐渐淡化、甚至移除了这些干预。</p>
+<p>同时，新模型也解锁了新功能。比如全自动的代码审查（Code Review）。我们之前尝试过，但准确率不够。直到最近的 Sonnet 4.6 模型，我们才确信它可以并行运行多个审查代理，真正发现 Bug。所以，<strong>你应该去构建那些目前还不能完美运行的产品原型</strong>，这样当新模型补齐能力差距时，你就能立即上线。</p>
+<p><strong>Lenny:</strong> Claude Code 和 Cowork 的未来愿景是什么？</p>
+<p><strong>Cat:</strong> 核心构件是“让单一任务成功”。随着模型变聪明，单任务成功率极高，大家开始同时跑多个任务（Multi-coding）。再往后，你可能会同时运行 50 个或几百个 Claude。那时你无法在本地运行了。我们需要构建的基础设施是：如何让你作为人类轻松管理这些远程任务？如何确保 Agent 充分验证了工作，让你只需看一眼就能完全信任它？以及如何让这个流程能够“自我进化”，吸取你的反馈永不再犯错？</p>
+<h3>[给职场人的破局建议]</h3>
+<p><strong>Lenny:</strong> 很多听众担心他们的职业未来。要在这个 AI 驱动的世界中脱颖而出，你有什么建议？</p>
+<p><strong>Cat:</strong> AI 给了每个人前所未有的杠杆（Leverage）。找出你日常工作中必须重复做、但你很讨厌的手动工作，用 Claude Code 或 Cowork 把它们自动化。</p>
+<p><strong>关键在于：不要满足于 90-95% 的自动化率！</strong> 如果一个自动化流程不能做到 100% 可靠，那它就不是真正的自动化，你还得花精力去检查它。去投入时间，打磨你的 Prompt，给它反馈，教会它你的偏好，让它达到 100% 的成功率。</p>
+<p>当它真的能接管那些琐碎工作时，你就能腾出 20% 的时间，去解决团队中那些没人有精力去做的难题，或者去推动你一直想做但没时间做的公司级项目。</p>
+<p>还有，<strong>不要只停留在构建玩具原型（Prototypes）上，去构建你每天真正会用的应用。</strong> 也不要过度沉迷于“定制你的工具链”而荒废了核心工作。回归简单往往最有效。当 AI 能真正替你执行动作（Action-based），而不仅是聊天（Chat-based）时，你会迎来那个让你眼界大开的 Aha Moment。</p>
+<hr>
+<h3>[闪电问答环节]</h3>
+<p><strong>Lenny:</strong></p>
+<ol>
+<li><strong>最推荐的书？</strong>
+<ul>
+<li>Cat: 《亚洲大趋势》(How Asia Works)、《技术陷阱》(The Technology Trap) 了解历史能帮助我们更好地过渡 AI 时代。以及小说《纸山雀》(The Paper Menagerie)。</li>
+</ul>
+</li>
+<li><strong>最喜欢的电影/剧集？</strong>
+<ul>
+<li>Cat: 《极速求生》(Drive to Survive) 和纪录片《徒手攀岩》(Free Solo)。我很喜欢那种为了纯粹的目标高度专注的状态。</li>
+</ul>
+</li>
+<li><strong>最近发现的改变生活的产品？</strong>
+<ul>
+<li>Cat: Waymo（自动驾驶汽车）。不用因为车到了让司机等而感到压力，而且在车上开工作会议很自在，每天为我节省了 30 分钟。</li>
+</ul>
+</li>
+<li><strong>人生座右铭？</strong>
+<ul>
+<li>Cat: <strong>“放手去做（Just do things）”</strong>。打破职位的边界，运用第一性原理去解决复杂问题。</li>
+</ul>
+</li>
+<li><strong>最喜欢的 Claude 思考词（Thinking words）？</strong>
+<ul>
+<li>Cat: Manifesting（显化/愿景成真）。</li>
+</ul>
+</li>
+<li><strong>如果 AGI 到来，不用工作了，你会做什么？</strong>
+<ul>
+<li>Cat: 去攀岩，去读积压的书，学习物理、机器人和航空航天知识——即使 AI 已经懂了，我也想自己去学。</li>
+</ul>
+</li>
+</ol>
+<p><strong>Lenny:</strong> 去哪里可以找到你？如何帮助你们？</p>
+<p><strong>Cat:</strong> Twitter 上搜 @_catwu。最能帮助我们的是：<strong>告诉我们 Claude Code 和 Cowork 在哪里做得不好！</strong> 我们很感谢赞美，但边缘情况、错误和失败的具体案例才是我们改进下一代模型的养料。请在 Twitter 上分享你们遇到的问题。</p>
+<p><strong>Lenny:</strong> 谢谢你，Cat！</p>
+<p><strong>Cat:</strong> 谢谢！</p>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"talks-how-anthropics-product-team-moves-faster-than-anyone-else-cat-wu-head-of-product-claude-code","sender":"Lenny's Podcast","subject":"Anthropic 产品团队为何比所有人跑得都快：Claude Code 产品负责人 Cat Wu 专访","snippet":"Anthropic Claude Code 产品负责人 Cat Wu 深度分享：产品发布周期从数月压缩至数天、产品品味成为最核心技能、AI 时代产品经理的全新工作法则","date":"2026-04-23","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["clippings"],"mdTheme":"magazine","sourcePath":"talks/how-anthropics-product-team-moves-faster-than-anyone-else-cat-wu-head-of-product-claude-code.md","sourceUrl":"https://www.youtube.com/watch?v=PplmzlgE0kg","body":"$3","prompts":[]},"listPosition":{"index":99,"total":365},"matchedPerson":{"id":"lenny-s-podcast","name":"Lenny's Podcast","email":""}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

@@ -1,0 +1,161 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T45b7,<h1>The AI Great Leap Forward</h1>
+<p><a href="https://leehanchung.github.io/blogs/2026/04/05/the-ai-great-leap-forward/">原文链接</a></p>
+<p>Han Lee的《The AI Great Leap Forward》以历史上的“大跃进”为隐喻，冷静剖析了当下企业界盲目的AI转型狂热。文章指出，自上而下的AI指令正催生出大量缺乏专业验证的“后院土高炉”式应用，它们看似精美却毫无价值，终将沦为沉重技术债务。同时，层层加码的虚假提效指标与强制性的采用率KPI，让古德哈特定律在组织内部大行其道。此外，盲目裁撤中层管理者更无异于当年“消灭麻雀”，暗藏破坏组织生态的危机。本文拨开喧嚣表象，深刻提醒从业者：脱离专业能力与真实业务价值的AI狂欢，注定只是一场虚妄的跃进。</p>
+<hr>
+<p>1958年，毛下令中国每个村庄都要炼钢。农民们在后院的土高炉里熔化了做饭的锅，并上报了惊人的数字。钢毫无用处。庄稼烂在地里。三千万人挨饿。</p>
+<p>2026年，每隔一家公司就在下达自上而下的 AI 转型指令。</p>
+<p>同样的劲头。</p>
+<p><img src="https://leehanchung.github.io/assets/img/2026-04-05/00-tb.png" alt="The AI Great Leap Forward"></p>
+<h3>后院土高炉</h3>
+<p>大跃进的战斗口号是“超英赶美”——赶超英国，追赶美国。每个省、每个村、每个家庭都被期望单凭意志力来缩小与西方工业化国家的差距。从未见过工厂的农民被分派了钢铁生产配额。如果足够多的人冶炼出足够多的铁，中国就能一夜之间成为工业强国。专业能力无关紧要。信念足矣。</p>
+<p>今天的指令如出一辙，只需替换名词。每家公司、每个职能、每个个人贡献者都被期望缩小 AI 差距。交付 AI 功能。构建智能体（agents）。自动化工作流。团队中从没有人训练过模型、设计过评估系统，或调试过检索系统，这都无关紧要。信念足矣。</p>
+<p>于是所有人都在建。产品经理建 AI 仪表盘。市场部建 AI 内容生成器。销售运营建 AI 线索打分器。软件工程师正在构建像素级完美但功能糟糕透顶的 AI 和数据解决方案。UI 很干净。API 符合 RESTful。架构图很漂亮。输出结果是错的。没有人检查，因为团队中没人知道正确的输出是什么样的。他们从未看过数据。他们从未计算过基线。</p>
+<p><img src="https://leehanchung.github.io/assets/img/2026-04-05/01-backyard-furnance.png" alt="Backyard Furnaces"></p>
+<p>整个部门在拼凑 n8n 工作流并称之为 AI —— 几十条自动化链路将提示词发送给模型，其中任何一个都零评估。这些工具是复杂性的商贩：它们兜售视觉上的简单，底层却生成面条代码。拖拽式画布让串联十个大语言模型（LLM）调用变得轻而易举，却让调试“为什么第八个调用在星期二产生幻觉”变得难如登天。构建这些工作流的人从未设计过评估流水线，从未测量过模型漂移（model drift），从未对提示词进行过 A/B 测试。他们不需要 —— 画布看起来很干净，箭头指向前方，绿色的对勾亮起。复杂性并没有被避免。它被隐藏在一个没有任何机器学习（ML）专家会去看的图形用户界面（GUI）背后。</p>
+<p>1958年的后院钢铁看起来像钢铁。它不是钢铁。今天的后院 AI 看起来像 AI。它不是 AI。带有硬编码 if-else 分支的 TypeScript 工作流不是智能体。REST 端点背后的提示词模板不是模型。把这些东西称为 AI，就像把后院土高炉里炼出的生铁称为高等级钢材。它满足了汇报要求。它通不过任何现实世界的测试。</p>
+<p>但最危险的土高炉，是那些炼出<em>可用</em>之物的。团队正在构建演示软件（demoware）—— 漂亮的界面，可用的端点，令人印象深刻的演示流程 —— 底层却零验证。有些人正在用编码智能体凭感觉编程（vibe coding）一些前端，从而将 SaaS 产品内部化：它跑得起来，有仪表盘，成本只有供应商的一小部分。<a href="https://www.inc.com/sam-blum/klarna-plans-to-shut-down-saas-providers-and-replace-them-with-ai.html">Klarna 在 2024 年宣布，将用内部 AI 构建的解决方案取代 Salesforce 和其他 SaaS 供应商。</a>这些替代品没有的是数据基础设施、错误处理、监控、值班支持、安全补丁，或者在构建者获得升职调走后维护它们的任何人。</p>
+<p>这些应用将在下一次全员大会上获奖。两年后，它们将成为难以维护的技术债务，被某个可怜虫继承并从头重写。土高炉炼出了生铁。有人在上面盖了“钢”的印戳。现在它成了承重结构。</p>
+<p>与此同时，客户愿意付费的真正产品却在田野里腐烂。但是嘿，超英赶美。AI 采用率仪表盘是绿色的。</p>
+<h3>向中央委员会汇报粮食产量</h3>
+<p>大跃进期间，各省竞相上报最惊人的粮食产量。湖北上报亩产万斤。广东说五万。有些县声称超过十万 —— 在物理上不可能的数字，据说水稻密到小孩子能站在上面。官员们摆拍照片。每个人都知道数字是假的。每个人还是照报不误，因为否则就会被贴上破坏分子的标签。中央政府为这大丰收感到高兴，根据上报的产量增加了粮食征购。农民们挨饿，吞下了真实数字与幻想之间的差额。</p>
+<p>你见过这种会议。</p>
+<p>一个团队汇报他们的 AI 副驾驶“减少了 40% 的开发时间”。下一个团队为了不甘落后，汇报了 60%。第三个团队声称他们的 AI 智能体“自动化了 80% 的分析师工作流”。没人问这些是怎么测量的。没人检查方法论。没人指出那个声称 80% 自动化的团队，做着同样工作的人数还是一样多。数字被放进了幻灯片。幻灯片被送到了董事会。董事会很高兴。董事会增加了投资。</p>
+<p><img src="https://leehanchung.github.io/assets/img/2026-04-05/02-fake-reporting.png" alt="Reporting Grain Production to the Central Committee"></p>
+<p>然后有个人 —— 总会有这么个人 —— 建了一个排行榜，追踪你这周写了多少提示词，你的代码有多少是 AI 生成的，你相对于你的团队、相对于你的部门、相对于全公司的排名。有一天你们公司宣布：停下一切手头的事，这是 AI 周。用 AI 做点东西。展示你的成果。你以为黑客马拉松结束就完事了？不不不。现在你还得<em>推广</em>它。每天发帖：看我做的东西，这是我用了多少个智能体，这是我交付了多少个技能。拉队友进来。拉陌生人进来。寻求反馈。“谦虚地”。</p>
+<p>你的 AI 使用量现在成了一个 KPI。你正在根据你上报了多少粮食来被评估，而不是你种了多少粮食。这是组织规模上的古德哈特定律（Goodhart’s Law）：当一个衡量指标成为目标时，它就不再是一个好的衡量指标。这个指标原本是为了追踪 AI 是否让公司变得更好。相反，现在整个公司都在优化，以让这个指标看起来更好。惩罚会一直持续，直到采用率改善为止。</p>
+<h3>消灭麻雀</h3>
+<p>大跃进中最悲喜剧色彩的一章是除四害运动。毛宣布麻雀为国家的敌人 —— 它们吃谷物种子，所以消灭它们就能增加收成。全国动员。市民们敲打锅碗瓢盆让麻雀无法落地，直到它们精疲力竭而死。孩子们爬上树捣毁鸟巢。村庄竞相争夺最高的杀灭数。这招奏效了。他们几乎消灭了麻雀。</p>
+<p>然后蝗虫来了。</p>
+<p>麻雀吃蝗虫。没有了麻雀，蝗虫数量激增。蝗群吞噬的粮食远超麻雀曾经吃掉的。这场旨在拯救收成的运动反而摧毁了它。毛悄悄地将麻雀替换成了臭虫，列入了官方害虫名单，并且再也没提过这件事。</p>
+<p>每一次 AI 大跃进都有其麻雀运动。</p>
+<p>中层管理者就是麻雀。他们被宣判为害虫 —— 层级太多，太慢，太贵。扁平化组织！跑得更快！让 AI 来处理协调！于是公司裁掉了 M1，将管理者变成带领小组的技术负责人，让团队用 AI 工具自我组织。</p>
+<p><img src="https://leehanchung.github.io/assets/img/2026-04-05/03-kill-sparrow.png" alt="Killing the Sparrows"></p>
+<p>然后蝗虫来了。那些中层管理者掌握着机构知识 —— 哪个客户有奇怪的系统集成，为什么数据模型里有那个莫名其妙的列，那个让合规部门没有把每三笔交易都标记出来的不成文业务规则。那些上下文存在于他们的脑海中。现在他们走了，而取代他们的 AI 系统恰恰需要那些上下文才能运作。</p>
+<p>质量保证（QA）也是麻雀。“现在 AI 写测试了。”于是你裁掉了 QA。AI 写的测试只验证它自己的假设 —— 一台机器在检查它自己的作业。指导初级工程师的高级工程师？麻雀。文档编写者？麻雀。知道如何在凌晨两点重启那个奇怪的老旧服务的运维团队？绝对是麻雀。</p>
+<p>每一次裁撤单独看起来都很理性。二阶效应在六个月后到来，而到那时，没有人把蝗群和死去的麻雀联系在一起。</p>
+<h3>让百技齐放</h3>
+<p>1956年，毛泽东发起了百花运动（Hundred Flowers Campaign）：“百花齐放，百家争鸣。”畅所欲言。分享你真实的批评。党想听听你的真实想法。</p>
+<p>知识分子上了钩。他们公开发言。</p>
+<p>然后反右运动（Anti-Rightist Campaign）来了。每一个诚实发言的人都被识别、标记和清洗。百花运动是一个陷阱——一个高效的机制，精准浮出谁懂什么，然后将他们消灭。每一个幸存者内化的教训：<em>永远不要诚实地暴露你知道什么，因为那会被用来对付你。</em></p>
+<p>现在，<a href="https://www.businessinsider.com/meta-ai-week-employee-training-claude-agents-vibe-coding-2026-3">Meta</a> 和越来越多的公司发起了他们自己的百花运动。硬性要求：每个员工都必须构建“智能体技能（agent skills）”——将你的领域专长提炼成 AI 智能体可以执行的结构化提示词和工作流。或者更糟，用一些拖拽式的遗留技术构建“智能体”，这些技术从未起效过，早在2024年就被前沿实验室放弃了。编码你的判断。记录你的决策。让你自己对机器变得可读。</p>
+<p><img src="https://leehanchung.github.io/assets/img/2026-04-05/04-hundred-flower-bloom.png" alt="让百技齐放"></p>
+<p>声明的目标是<strong>提炼</strong>你的领域专长。将专家的技艺转化为组织的资产。领导层真正想要的，是将个人人力资本转化为能在任何单个员工离职后存续的组织资本。</p>
+<p>员工立刻看穿了这场游戏。如果我把十年的领域专长提炼成一个任何初级员工用提示词就能调用的技能，我刚刚就自动化了我自己的替代者。让我成为关键节点的知识——凌晨两点他们打电话找的人，那个知道<em>为什么</em>模型对巴西实体做那种奇怪事情的人——是我的护城河。你正在要求我抽干它。</p>
+<p>所以他们<a href="https://github.com/leilei926524-tech/anti-distill">适应并构建反提炼的智能体技能（anti-distillation agent skills）</a>，就像知识分子在反右陷阱后适应的那样。</p>
+<p>我们已经看到专门为了工作保障而构建的智能体技能。<em>表演性技能（performative skill）<em>看起来全面且演示效果好，但省略了让它在生产环境中起作用的20%边缘情况知识——你现在变得</em>更</em>不可或缺，而不是更少。*毒丸（poison pill）*忠实地编码了专业知识，但巧妙地依赖于只有你掌握的上下文——你维护的内部 wiki、你创造的术语、你拥有的数据管道——所以移除你会导致输出安静地发生模型漂移，直到有人说“我们需要把他们叫回来处理这个”。*复杂性护城河（complexity moat）*让该技能在架构上与你的其他工作纠缠在一起，以至于提取你的知识比把你留在身边更难。你现在是一堵伪装成装饰的承重墙。</p>
+<p>这场旨在减少组织对个人专家依赖的运动，现在反而创造了<em>在战略上不可或缺</em>的专家——不是因为他们知道什么，而是因为他们如何给系统设置了陷阱来需要他们。花开了。长满了刺。</p>
+<p>与此同时，“每个人都用 AI 构建”的硬性要求变成了一场范围蔓延（scope creep）的饥饿游戏。工程师使用 AI 生成设计并发布原型，而不等待设计团队。产品经理使用 AI 写代码并启动仪表板，而不提交工程工单。设计师使用 AI 构建产品规格并运行用户研究，而不让产品团队介入。每个人都在向其他人的领地扩张——不是因为他们做得更好，而是因为 AI 让它<em>成为可能</em>，而硬性要求让它<em>获得奖励</em>。组织架构图上写着协作；激励机制上写着跑马圈地。看起来像生产力提升的东西，实际上是一场所有人对所有人的战争，每个职能都在同时试图证明它能在别人吸收它之前吸收别人。</p>
+<p><img src="https://leehanchung.github.io/assets/img/2026-04-05/05-eng-pm-design.png" alt="工程、产品经理和设计的范围蔓延"></p>
+<h3>饥荒随后就到</h3>
+<p>大跃进的饥荒并没有立刻到来。有一阵子，数字看起来非常壮观。每个省份都报告了创纪录的收成。领导层很满意。征购量增加了。</p>
+<p>当真正的粮食耗尽，但报告的粮食还在不断向上输送时，饥荒来了。</p>
+<p>我们仍处于报告阶段。仪表板全是绿色的。采用率在右上方上升。每个团队都报告了生产力提升，如果将它们在全公司加总，意味着工程师正以 300% 的效率交付，同时却莫名其妙地仍然错过相同的最后期限。</p>
+<p>在指标之下，这是一场竞次（race to the bottom）。一个人构建了一个技能，所以另一个人构建了一个更好的。一个人演示了一个原型，所以另一个人对它进行基准测试。每个人都在竞争，比下一个人更彻底地证明他们自己的角色是可替代的。全都在加速。全都在下沉。</p>
+<p>麻雀死了。蝗虫还没到。开出的花里满是毒丸。炉子生产出打上钢材印记的生铁，现在成了承重墙。粮食数字看起来棒极了。</p>
+<p>但没关系。我们正在赶超。</p>
+<p>哦，还有 Klarna？那家高调宣布要用内部 AI 解决方案取代 Salesforce 的公司？他们<a href="https://www.cxtoday.com/crm/klarna-didnt-replace-salesforce-it-replaced-them-with-alternative-saas-apps/">悄悄地用另一家 SaaS 供应商取代了 Salesforce</a>。后院炉子炼不出真钢。他们从另一个轧钢厂买的。</p>
+<p>没人在问的问题是：这一切到底产出了什么？</p>
+<p>当答案到来时，会很尴尬。</p>
+<h3>参考文献</h3>
+<ul>
+<li><a href="https://www.businessinsider.com/meta-ai-week-employee-training-claude-agents-vibe-coding-2026-3">Kafka, P. (2026). Meta’s AI week shows how every company is pushing employees to use AI. Business Insider. https://www.businessinsider.com/meta-ai-week-employee-training-claude-agents-vibe-coding-2026-3</a></li>
+<li><a href="https://github.com/leilei926524-tech/anti-distill">leilei926524-tech. (2026). anti-distill. GitHub. https://github.com/leilei926524-tech/anti-distill</a></li>
+<li><a href="https://www.inc.com/sam-blum/klarna-plans-to-shut-down-saas-providers-and-replace-them-with-ai.html">Blum, S. (2024). Klarna Plans to Shut Down SaaS Providers and Replace Them With AI. Inc. https://www.inc.com/sam-blum/klarna-plans-to-shut-down-saas-providers-and-replace-them-with-ai.html</a></li>
+<li><a href="https://www.cxtoday.com/crm/klarna-didnt-replace-salesforce-it-replaced-them-with-alternative-saas-apps/">CX Today. (2025). Klarna Didn’t Replace Salesforce — It Replaced Them With Alternative SaaS Apps. https://www.cxtoday.com/crm/klarna-didnt-replace-salesforce-it-replaced-them-with-alternative-saas-apps/</a></li>
+</ul>
+<pre><code>@article{
+    leehanchung,
+     = {Lee, Hanchung},
+    title = {The AI Great Leap Forward},
+    year = {2026},
+    month = {04},
+    day = {05},
+    howpublished = {\url{https://leehanchung.github.io}},
+    url = {https://leehanchung.github.io/blogs/2026/04/05/the-ai-great-leap-forward/}
+}
+</code></pre>
+<h2>术语表</h2>
+<table>
+<thead>
+<tr>
+<th>原文</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>agent skills</td>
+<td>智能体技能</td>
+</tr>
+<tr>
+<td>agents</td>
+<td>智能体</td>
+</tr>
+<tr>
+<td>anti-distillation agent skills</td>
+<td>反提炼的智能体技能</td>
+</tr>
+<tr>
+<td>complexity moat</td>
+<td>复杂性护城河</td>
+</tr>
+<tr>
+<td>demoware</td>
+<td>演示软件</td>
+</tr>
+<tr>
+<td>Goodhart’s Law</td>
+<td>古德哈特定律</td>
+</tr>
+<tr>
+<td>GUI</td>
+<td>图形用户界面</td>
+</tr>
+<tr>
+<td>LLM</td>
+<td>大语言模型</td>
+</tr>
+<tr>
+<td>ML</td>
+<td>机器学习</td>
+</tr>
+<tr>
+<td>model drift</td>
+<td>模型漂移</td>
+</tr>
+<tr>
+<td>performative skill</td>
+<td>表演性技能</td>
+</tr>
+<tr>
+<td>poison pill</td>
+<td>毒丸</td>
+</tr>
+<tr>
+<td>QA</td>
+<td>质量保证</td>
+</tr>
+<tr>
+<td>race to the bottom</td>
+<td>竞次</td>
+</tr>
+<tr>
+<td>scope creep</td>
+<td>范围蔓延</td>
+</tr>
+<tr>
+<td>vibe coding</td>
+<td>凭感觉编程</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"essays-the-ai-great-leap-forward","sender":"Han Lee","subject":"AI 大跃进","snippet":"Han Lee的《The AI Great Leap Forward》以历史上的“大跃进”为隐喻，冷静剖析了当下企业界盲目的AI转型狂热。文章指出，自上而下的AI指令正催生出大量缺乏专业验证的“后院土高炉”式应用，它们看似精美却毫无价值，终将沦为沉重技术债务。同时，层层加码的虚假提效指标与强制性的采用率KPI，让古德哈特定律在组织内部大行其道。","date":"2026-04-05","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["translated"],"mdTheme":"magazine","sourcePath":"essays/the-ai-great-leap-forward.md","sourceUrl":"https://leehanchung.github.io/blogs/2026/04/05/the-ai-great-leap-forward/","body":"$3","prompts":[]},"listPosition":{"index":141,"total":365}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

@@ -1,0 +1,322 @@
+1:"$Sreact.fragment"
+3:I[39756,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+4:I[37457,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"ViewportBoundary"]
+b:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"MetadataBoundary"]
+d:I[68027,[],"default"]
+:HL["/hinbox/_next/static/chunks/24888a04b79e7824.css","style"]
+:HL["/hinbox/_next/static/media/fba5a26ea33df6a3-s.p.1bbdebe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"vMUiZWVsRx3pCqxArlZcR","c":["","mail","talks-getting-agent-ready-with-stripe-s-head-of-data-and-ai"],"q":"","i":false,"f":[[["",{"children":["mail",{"children":[["id","talks-getting-agent-ready-with-stripe-s-head-of-data-and-ai","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hinbox/_next/static/chunks/24888a04b79e7824.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[79520,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],""]
+f:I[59665,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],"default"]
+:HL["https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","style"]
+2:["$","html",null,{"lang":"zh-CN","className":"plus_jakarta_sans_9710934b-module__-vnxFq__variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function () {\n  try {\n    var theme = window.localStorage.getItem('hinbox:theme');\n    if (theme !== 'light' && theme !== 'dark' && theme !== 'sepia') {\n      theme = 'light';\n    }\n    window['__HINBOX_THEME__'] = theme;\n    document.documentElement.dataset.theme = theme;\n    document.documentElement.style.colorScheme = theme === 'dark' ? 'dark' : 'light';\n    function applyBodyTheme() {\n      if (document.body) {\n        document.body.dataset.theme = theme;\n      }\n    }\n    if (document.body) {\n      applyBodyTheme();\n    } else {\n      document.addEventListener('DOMContentLoaded', applyBodyTheme);\n    }\n  } catch (error) {\n    window['__HINBOX_THEME__'] = 'light';\n    document.documentElement.dataset.theme = 'light';\n    document.documentElement.style.colorScheme = 'light';\n  }\n})();"}}],"",["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","rel":"stylesheet"}],["$","$Le",null,{"id":"mathjax-config","strategy":"afterInteractive","children":"\n          window.MathJax = {\n            tex: {\n              inlineMath: [['$', '$'], ['\\\\(', '\\\\)']],\n              displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']],\n              processEscapes: true,\n              packages: { '[+]': ['noerrors', 'noundefined'] },\n            },\n            svg: {\n              fontCache: 'none',\n            },\n            startup: {\n              typeset: false,\n              ready: () => {\n                window.MathJax.startup.defaultReady();\n                window.dispatchEvent(new Event('MathJaxReady'));\n              },\n            },\n          };\n          "}],["$","$Le",null,{"id":"mathjax-cdn","strategy":"afterInteractive","src":"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"}]]}],["$","body",null,{"className":"font-[family-name:var(--font-jakarta)] antialiased","suppressHydrationWarning":true,"children":["",["$","$Lf",null,{"weeklyNavCounts":{"inboxWeeklyCount":10,"sentWeeklyCount":0,"starredTotalCount":21},"people":[{"id":"david-perell","name":"David Perell","email":""},{"id":"lenny-s-podcast","name":"Lenny's Podcast","email":""},{"id":"ryan-peterman","name":"Ryan Peterman","email":""},{"id":"anthropic","name":"Anthropic","email":""},{"id":"dwarkesh-patel","name":"Dwarkesh Patel","email":""},{"id":"stripe","name":"Stripe","email":""},{"id":"stephen-wolfram","name":"Stephen Wolfram","email":""},{"id":"latent-space","name":"Latent Space","email":""},{"id":"lex-fridman","name":"Lex Fridman","email":""},{"id":"steve-jobs","name":"Steve Jobs","email":""},{"id":"20vc-with-harry-stebbings","name":"20VC with Harry Stebbings","email":""},{"id":"jeremy-stern","name":"Jeremy Stern","email":""},{"id":"turing","name":"Turing","email":""},{"id":"demis-hassabis","name":"Demis Hassabis","email":""},{"id":"the-diary-of-a-ceo","name":"The Diary Of A CEO","email":""},{"id":"elon-musk","name":"Elon Musk","email":""},{"id":"sauteedveggies","name":"SauteedVeggies","email":""},{"id":"andy-matuschak","name":"Andy Matuschak","email":""},{"id":"mind-the-game","name":"Mind the Game","email":""},{"id":"ramona-shelburne","name":"Ramona Shelburne","email":""},{"id":"jared-weiss","name":"Jared Weiss","email":""},{"id":"deeplearningai","name":"DeepLearningAI","email":""},{"id":"cursor","name":"Cursor","email":""},{"id":"y-combinator","name":"Y Combinator","email":""},{"id":"openai","name":"OpenAI","email":""},{"id":"every","name":"Every","email":""},{"id":"sequoia-capital","name":"Sequoia Capital","email":""},{"id":"alex-kantrowitz","name":"Alex Kantrowitz","email":""},{"id":"peter-dizikes-mit-news","name":"Peter Dizikes ｜ MIT News","email":""},{"id":"world-finance-journal","name":"World Finance Journal","email":""},{"id":"andrej-karpathy","name":"Andrej karpathy","email":""},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","email":""},{"id":"jd-vance","name":"JD Vance","email":""},{"id":"街-大学","name":"やまぐち街なか大学","email":""},{"id":"jc","name":"JC","email":""}],"tags":[{"id":"translated","name":"translated","count":123},{"id":"interview","name":"interview","count":24},{"id":"ai","name":"ai","count":17},{"id":"人工智能","name":"人工智能","count":17},{"id":"clippings","name":"clippings","count":15},{"id":"essays","name":"Essays","count":9},{"id":"talks","name":"Talks","count":8},{"id":"深度学习","name":"深度学习","count":8},{"id":"ai-agents","name":"ai-agents","count":7},{"id":"cognition","name":"cognition","count":6},{"id":"nba","name":"NBA","count":6},{"id":"ai编程","name":"AI编程","count":5},{"id":"humanity","name":"humanity","count":5},{"id":"math","name":"math","count":5},{"id":"steve-jobs","name":"steve-jobs","count":5},{"id":"大语言模型","name":"大语言模型","count":5},{"id":"机器学习","name":"机器学习","count":5},{"id":"agi","name":"AGI","count":4},{"id":"anthropic","name":"Anthropic","count":4},{"id":"claude-code","name":"Claude Code","count":4},{"id":"doge","name":"DOGE","count":4},{"id":"nvidia","name":"nvidia","count":4},{"id":"windsurf","name":"Windsurf","count":4},{"id":"政府效率","name":"政府效率","count":4},{"id":"文艺复兴科技","name":"文艺复兴科技","count":4},{"id":"英伟达","name":"英伟达","count":4},{"id":"软件工程","name":"软件工程","count":4},{"id":"ai编程工具","name":"AI编程工具","count":3},{"id":"apple","name":"apple","count":3},{"id":"cursor","name":"Cursor","count":3},{"id":"deepseek","name":"deepseek","count":3},{"id":"linus-torvalds","name":"Linus Torvalds","count":3},{"id":"linux内核","name":"Linux内核","count":3},{"id":"llm","name":"llm","count":3},{"id":"mathematics","name":"mathematics","count":3},{"id":"reports","name":"Reports","count":3},{"id":"偏微分方程","name":"偏微分方程","count":3},{"id":"勒布朗-詹姆斯","name":"勒布朗·詹姆斯","count":3},{"id":"开源","name":"开源","count":3},{"id":"开源ai","name":"开源AI","count":3},{"id":"强化学习","name":"强化学习","count":3},{"id":"数学哲学","name":"数学哲学","count":3},{"id":"数学教育","name":"数学教育","count":3},{"id":"访谈","name":"访谈","count":3},{"id":"量化投资","name":"量化投资","count":3},{"id":"马斯克","name":"马斯克","count":3},{"id":"黄仁勋","name":"黄仁勋","count":3},{"id":"ai-agent","name":"AI Agent","count":2},{"id":"ai-coding","name":"ai-coding","count":2},{"id":"ai代理","name":"AI代理","count":2},{"id":"ai基础设施","name":"AI基础设施","count":2},{"id":"ai安全","name":"AI安全","count":2},{"id":"ai数学","name":"AI数学","count":2},{"id":"ai智能体","name":"AI智能体","count":2},{"id":"ai计算","name":"AI计算","count":2},{"id":"alphafold","name":"AlphaFold","count":2},{"id":"claude","name":"Claude","count":2},{"id":"devin","name":"Devin","count":2},{"id":"economics","name":"economics","count":2},{"id":"emacs","name":"Emacs","count":2},{"id":"essay","name":"essay","count":2},{"id":"git","name":"Git","count":2},{"id":"google","name":"Google","count":2},{"id":"ilya-sutskever","name":"Ilya Sutskever","count":2},{"id":"jeff-dean","name":"jeff-dean","count":2},{"id":"jepa","name":"JEPA","count":2},{"id":"org-mode","name":"Org mode","count":2},{"id":"programming","name":"programming","count":2},{"id":"software-engineering","name":"software-engineering","count":2},{"id":"vibe-coding","name":"Vibe Coding","count":2},{"id":"writing","name":"writing","count":2},{"id":"世界模型","name":"世界模型","count":2},{"id":"人性","name":"人性","count":2},{"id":"代数几何","name":"代数几何","count":2},{"id":"代码编辑器","name":"代码编辑器","count":2},{"id":"价值投资","name":"价值投资","count":2},{"id":"伯克希尔哈撒韦","name":"伯克希尔哈撒韦","count":2},{"id":"关税政策","name":"关税政策","count":2},{"id":"创业历程","name":"创业历程","count":2},{"id":"加速计算","name":"加速计算","count":2},{"id":"吉姆-西蒙斯","name":"吉姆·西蒙斯","count":2},{"id":"哲学","name":"哲学","count":2},{"id":"国际合作","name":"国际合作","count":2},{"id":"大型语言模型","name":"大型语言模型","count":2},{"id":"好奇心","name":"好奇心","count":2},{"id":"季后赛","name":"季后赛","count":2},{"id":"工程实践","name":"工程实践","count":2},{"id":"巴菲特","name":"巴菲特","count":2},{"id":"形式化证明","name":"形式化证明","count":2},{"id":"彼得-蒂尔","name":"彼得·蒂尔","count":2},{"id":"微软","name":"微软","count":2},{"id":"提示工程","name":"提示工程","count":2},{"id":"数学","name":"数学","count":2},{"id":"数学研究","name":"数学研究","count":2},{"id":"文班亚马","name":"文班亚马","count":2},{"id":"智能代理开发","name":"智能代理开发","count":2},{"id":"毕业演讲","name":"毕业演讲","count":2},{"id":"版本控制","name":"版本控制","count":2},{"id":"科学发现","name":"科学发现","count":2},{"id":"科技停滞","name":"科技停滞","count":2},{"id":"软件工程变革","name":"软件工程变革","count":2},{"id":"软件开发","name":"软件开发","count":2},{"id":"量子力学","name":"量子力学","count":2},{"id":"阿贝尔奖","name":"阿贝尔奖","count":2},{"id":"风险投资","name":"风险投资","count":2},{"id":"agent设计","name":"Agent设计","count":1},{"id":"ai-for-science","name":"AI for Science","count":1},{"id":"ai-编程","name":"AI 编程","count":1},{"id":"ai伦理","name":"AI伦理","count":1},{"id":"ai最佳实践","name":"AI最佳实践","count":1},{"id":"ai大模型","name":"AI大模型","count":1},{"id":"ai并购","name":"AI并购","count":1},{"id":"ai应用","name":"AI应用","count":1},{"id":"ai开发者大会","name":"AI开发者大会","count":1},{"id":"ai推理","name":"AI推理","count":1},{"id":"ai收购","name":"AI收购","count":1},{"id":"ai数学发现","name":"AI数学发现","count":1},{"id":"ai生物医药","name":"AI生物医药","count":1},{"id":"ai竞争","name":"AI竞争","count":1},{"id":"ai编程代理","name":"AI编程代理","count":1},{"id":"ai芯片","name":"AI芯片","count":1},{"id":"ai规模化","name":"AI规模化","count":1},{"id":"ai辅助学习","name":"AI辅助学习","count":1},{"id":"ai辅助开发","name":"AI辅助开发","count":1},{"id":"anysphere","name":"Anysphere","count":1},{"id":"biography","name":"biography","count":1},{"id":"blackwell架构","name":"Blackwell架构","count":1},{"id":"cag","name":"CAG","count":1},{"id":"career","name":"career","count":1},{"id":"ceo交接","name":"CEO交接","count":1},{"id":"chatgpt","name":"ChatGPT","count":1},{"id":"chris-bishop","name":"Chris Bishop","count":1},{"id":"claude-4","name":"Claude 4","count":1},{"id":"claude-sonnet-4-5","name":"Claude Sonnet 4.5","count":1},{"id":"coding-agent","name":"Coding Agent","count":1},{"id":"context-engineering","name":"Context Engineering","count":1},{"id":"cs50","name":"CS50","count":1},{"id":"cuda生态","name":"CUDA生态","count":1},{"id":"deep-search","name":"Deep Search","count":1},{"id":"deepmind","name":"DeepMind","count":1},{"id":"distributed-systems","name":"distributed-systems","count":1},{"id":"elon-musk","name":"Elon Musk","count":1},{"id":"engineering","name":"engineering","count":1},{"id":"fields奖","name":"Fields奖","count":1},{"id":"geoffrey-hinton","name":"Geoffrey Hinton","count":1},{"id":"gpt-4","name":"GPT-4","count":1},{"id":"gpt-4-5","name":"GPT-4.5","count":1},{"id":"gpu与深度学习","name":"GPU与深度学习","count":1},{"id":"gpu架构","name":"GPU架构","count":1},{"id":"gpu算力","name":"GPU算力","count":1},{"id":"grok-3","name":"Grok 3","count":1},{"id":"haskell","name":"haskell","count":1},{"id":"incident","name":"incident","count":1},{"id":"jim-simons","name":"Jim Simons","count":1},{"id":"julia","name":"Julia","count":1},{"id":"june-huh","name":"june-huh","count":1},{"id":"kaggle","name":"Kaggle","count":1},{"id":"kiro-spec模式","name":"Kiro SPEC模式","count":1},{"id":"labor","name":"labor","count":1},{"id":"lean","name":"Lean","count":1},{"id":"lisp","name":"Lisp","count":1},{"id":"llm工具","name":"LLM工具","count":1},{"id":"mcp","name":"MCP","count":1},{"id":"mit","name":"MIT","count":1},{"id":"mvp","name":"MVP","count":1},{"id":"naval-ravikant","name":"Naval Ravikant","count":1},{"id":"ncaa疯狂三月","name":"NCAA疯狂三月","count":1},{"id":"noema","name":"noema","count":1},{"id":"notes","name":"notes","count":1},{"id":"notion","name":"Notion","count":1},{"id":"nvidia-gtc-2025","name":"NVIDIA GTC 2025","count":1},{"id":"openai","name":"OpenAI","count":1},{"id":"optimus机器人","name":"Optimus机器人","count":1},{"id":"peter-lax","name":"Peter Lax","count":1},{"id":"pixar","name":"pixar","count":1},{"id":"prompt-engineering","name":"Prompt Engineering","count":1},{"id":"psychology","name":"psychology","count":1},{"id":"publishing","name":"publishing","count":1},{"id":"python","name":"Python","count":1},{"id":"reliability","name":"reliability","count":1},{"id":"report","name":"report","count":1},{"id":"research","name":"Research","count":1},{"id":"research-career","name":"research-career","count":1},{"id":"robotics","name":"robotics","count":1},{"id":"sanjay-ghemawat","name":"Sanjay Ghemawat","count":1},{"id":"satya-nadella","name":"Satya Nadella","count":1},{"id":"scaling-laws","name":"Scaling Laws","count":1},{"id":"security","name":"security","count":1},{"id":"skills","name":"skills","count":1},{"id":"slimv","name":"Slimv","count":1},{"id":"technical-report","name":"technical-report","count":1},{"id":"terence-tao","name":"terence-tao","count":1},{"id":"vim","name":"Vim","count":1},{"id":"vlime","name":"Vlime","count":1},{"id":"wolfram","name":"Wolfram","count":1},{"id":"xai","name":"xAI","count":1},{"id":"yann-lecun","name":"Yann LeCun","count":1},{"id":"yc","name":"YC","count":1},{"id":"上下文工程","name":"上下文工程","count":1},{"id":"个人反思","name":"个人反思","count":1},{"id":"个人电脑","name":"个人电脑","count":1},{"id":"中美关系","name":"中美关系","count":1},{"id":"乌克兰战争","name":"乌克兰战争","count":1},{"id":"乔姆斯基","name":"乔姆斯基","count":1},{"id":"交通基础设施","name":"交通基础设施","count":1},{"id":"产品市场契合","name":"产品市场契合","count":1},{"id":"人工智能未来","name":"人工智能未来","count":1},{"id":"人形机器人","name":"人形机器人","count":1},{"id":"人机协作","name":"人机协作","count":1},{"id":"人机博弈","name":"人机博弈","count":1},{"id":"人生哲学","name":"人生哲学","count":1},{"id":"人类未来","name":"人类未来","count":1},{"id":"人类福祉","name":"人类福祉","count":1},{"id":"代理开发","name":"代理开发","count":1},{"id":"代理式编程","name":"代理式编程","count":1},{"id":"代码生成","name":"代码生成","count":1},{"id":"任务管理","name":"任务管理","count":1},{"id":"仿真学习","name":"仿真学习","count":1},{"id":"企业采用","name":"企业采用","count":1},{"id":"众包协作","name":"众包协作","count":1},{"id":"优绩主义","name":"优绩主义","count":1},{"id":"伦理监管","name":"伦理监管","count":1},{"id":"伯克希尔-哈撒韦","name":"伯克希尔·哈撒韦","count":1},{"id":"俄乌战争","name":"俄乌战争","count":1},{"id":"保罗-狄拉克","name":"保罗·狄拉克","count":1},{"id":"保险业务","name":"保险业务","count":1},{"id":"信号处理","name":"信号处理","count":1},{"id":"信息动力学","name":"信息动力学","count":1},{"id":"信息物理学","name":"信息物理学","count":1},{"id":"全球贸易","name":"全球贸易","count":1},{"id":"公共美德","name":"公共美德","count":1},{"id":"具身智能","name":"具身智能","count":1},{"id":"写作","name":"写作","count":1},{"id":"写作工具","name":"写作工具","count":1},{"id":"冷战数学","name":"冷战数学","count":1},{"id":"创业转型","name":"创业转型","count":1},{"id":"创业领导力","name":"创业领导力","count":1},{"id":"创造力与年龄","name":"创造力与年龄","count":1},{"id":"制度经济学","name":"制度经济学","count":1},{"id":"加性数论","name":"加性数论","count":1},{"id":"包容性制度","name":"包容性制度","count":1},{"id":"医疗应用","name":"医疗应用","count":1},{"id":"半导体","name":"半导体","count":1},{"id":"协同设计","name":"协同设计","count":1},{"id":"单位距离问题","name":"单位距离问题","count":1},{"id":"南非种族隔离","name":"南非种族隔离","count":1},{"id":"卢卡-东契奇","name":"卢卡·东契奇","count":1},{"id":"压缩感知","name":"压缩感知","count":1},{"id":"变换编码","name":"变换编码","count":1},{"id":"可持续能源","name":"可持续能源","count":1},{"id":"可重复性危机","name":"可重复性危机","count":1},{"id":"史蒂夫-乔布斯","name":"史蒂夫·乔布斯","count":1},{"id":"史蒂夫-纳什","name":"史蒂夫·纳什","count":1},{"id":"同伦类型论","name":"同伦类型论","count":1},{"id":"哲学辩论","name":"哲学辩论","count":1},{"id":"国际政治","name":"国际政治","count":1},{"id":"在线教育","name":"在线教育","count":1},{"id":"地缘政治","name":"地缘政治","count":1},{"id":"埃尔德什猜想","name":"埃尔德什猜想","count":1},{"id":"埃罗尔-马斯克","name":"埃罗尔·马斯克","count":1},{"id":"埃隆-马斯克","name":"埃隆·马斯克","count":1},{"id":"基督教与科学","name":"基督教与科学","count":1},{"id":"基础主义","name":"基础主义","count":1},{"id":"基础模型","name":"基础模型","count":1},{"id":"复合工程","name":"复合工程","count":1},{"id":"外交谈判","name":"外交谈判","count":1},{"id":"多伦多大学","name":"多伦多大学","count":1},{"id":"多体物理","name":"多体物理","count":1},{"id":"多智能体协同","name":"多智能体协同","count":1},{"id":"大数假说","name":"大数假说","count":1},{"id":"太空探索","name":"太空探索","count":1},{"id":"孤子理论","name":"孤子理论","count":1},{"id":"学习路径","name":"学习路径","count":1},{"id":"学术写作","name":"学术写作","count":1},{"id":"学术建议","name":"学术建议","count":1},{"id":"学术生态","name":"学术生态","count":1},{"id":"学术研究方法","name":"学术研究方法","count":1},{"id":"学术自传","name":"学术自传","count":1},{"id":"宇宙学","name":"宇宙学","count":1},{"id":"官僚主义改革","name":"官僚主义改革","count":1},{"id":"定理证明","name":"定理证明","count":1},{"id":"家族故事","name":"家族故事","count":1},{"id":"对冲基金","name":"对冲基金","count":1},{"id":"对称性","name":"对称性","count":1},{"id":"对称性破缺","name":"对称性破缺","count":1},{"id":"小平邦彦","name":"小平邦彦","count":1},{"id":"少林寺","name":"少林寺","count":1},{"id":"就业与经济","name":"就业与经济","count":1},{"id":"就业影响","name":"就业影响","count":1},{"id":"工作尊严","name":"工作尊严","count":1},{"id":"工作流","name":"工作流","count":1},{"id":"工程精神","name":"工程精神","count":1},{"id":"幸福与成功","name":"幸福与成功","count":1},{"id":"库珀-弗拉格","name":"库珀·弗拉格","count":1},{"id":"开发环境","name":"开发环境","count":1},{"id":"开发者工具","name":"开发者工具","count":1},{"id":"开发者生产力","name":"开发者生产力","count":1},{"id":"开源模型","name":"开源模型","count":1},{"id":"形式主义","name":"形式主义","count":1},{"id":"彼得-拉克斯","name":"彼得·拉克斯","count":1},{"id":"微分几何","name":"微分几何","count":1},{"id":"心理学","name":"心理学","count":1},{"id":"思维链","name":"思维链","count":1},{"id":"慈善","name":"慈善","count":1},{"id":"慈善事业","name":"慈善事业","count":1},{"id":"慕尼黑安全会议","name":"慕尼黑安全会议","count":1},{"id":"成长型思维","name":"成长型思维","count":1},{"id":"技术监管","name":"技术监管","count":1},{"id":"技能退化","name":"技能退化","count":1},{"id":"投资哲学","name":"投资哲学","count":1},{"id":"推理时计算","name":"推理时计算","count":1},{"id":"提纲写作","name":"提纲写作","count":1},{"id":"摩根大通","name":"摩根大通","count":1},{"id":"播客","name":"播客","count":1},{"id":"政治哲学","name":"政治哲学","count":1},{"id":"数字革命","name":"数字革命","count":1},{"id":"数学反例","name":"数学反例","count":1},{"id":"数学史","name":"数学史","count":1},{"id":"数学基础","name":"数学基础","count":1},{"id":"数学实践","name":"数学实践","count":1},{"id":"数学家传记","name":"数学家传记","count":1},{"id":"数学工作流","name":"数学工作流","count":1},{"id":"数学形式化","name":"数学形式化","count":1},{"id":"数据中心","name":"数据中心","count":1},{"id":"数据效率","name":"数据效率","count":1},{"id":"数据科学","name":"数据科学","count":1},{"id":"文化多样性","name":"文化多样性","count":1},{"id":"文化转型","name":"文化转型","count":1},{"id":"文学编程","name":"文学编程","count":1},{"id":"斯多葛主义","name":"斯多葛主义","count":1},{"id":"无人机","name":"无人机","count":1},{"id":"日本数学","name":"日本数学","count":1},{"id":"日记写作","name":"日记写作","count":1},{"id":"智能代理","name":"智能代理","count":1},{"id":"智能体ai","name":"智能体AI","count":1},{"id":"智能分析","name":"智能分析","count":1},{"id":"更衣室训话","name":"更衣室训话","count":1},{"id":"未来战争","name":"未来战争","count":1},{"id":"未来趋势","name":"未来趋势","count":1},{"id":"机器人技术","name":"机器人技术","count":1},{"id":"杰米-戴蒙","name":"杰米·戴蒙","count":1},{"id":"柏拉图主义","name":"柏拉图主义","count":1},{"id":"查尔斯-巴克利","name":"查尔斯·巴克利","count":1},{"id":"查理-芒格","name":"查理·芒格","count":1},{"id":"标记语言","name":"标记语言","count":1},{"id":"格罗滕迪克","name":"格罗滕迪克","count":1},{"id":"概形","name":"概形","count":1},{"id":"模仿理论","name":"模仿理论","count":1},{"id":"模型应用","name":"模型应用","count":1},{"id":"模型驱动交易","name":"模型驱动交易","count":1},{"id":"模拟宇宙假说","name":"模拟宇宙假说","count":1},{"id":"欧洲创新","name":"欧洲创新","count":1},{"id":"欧洲民主","name":"欧洲民主","count":1},{"id":"欧盟资本市场","name":"欧盟资本市场","count":1},{"id":"欺骗性ai","name":"欺骗性AI","count":1},{"id":"比尔-盖茨","name":"比尔·盖茨","count":1},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","count":1},{"id":"沉思录","name":"沉思录","count":1},{"id":"沙奎尔-奥尼尔","name":"沙奎尔·奥尼尔","count":1},{"id":"波波维奇","name":"波波维奇","count":1},{"id":"泽连斯基","name":"泽连斯基","count":1},{"id":"活文档","name":"活文档","count":1},{"id":"测试时计算","name":"测试时计算","count":1},{"id":"涌现","name":"涌现","count":1},{"id":"深度阅读","name":"深度阅读","count":1},{"id":"湖人三连冠","name":"湖人三连冠","count":1},{"id":"炒作与现实","name":"炒作与现实","count":1},{"id":"热力学第二定律","name":"热力学第二定律","count":1},{"id":"特斯拉","name":"特斯拉","count":1},{"id":"特朗普","name":"特朗普","count":1},{"id":"狄拉克","name":"狄拉克","count":1},{"id":"狄拉克方程","name":"狄拉克方程","count":1},{"id":"理论物理","name":"理论物理","count":1},{"id":"生产力工具","name":"生产力工具","count":1},{"id":"生成式ai","name":"生成式AI","count":1},{"id":"相对论","name":"相对论","count":1},{"id":"知识管理","name":"知识管理","count":1},{"id":"研究方法","name":"研究方法","count":1},{"id":"研究生指南","name":"研究生指南","count":1},{"id":"硅谷","name":"硅谷","count":1},{"id":"社交媒体","name":"社交媒体","count":1},{"id":"社会公平","name":"社会公平","count":1},{"id":"福柯","name":"福柯","count":1},{"id":"离散几何","name":"离散几何","count":1},{"id":"私募股权","name":"私募股权","count":1},{"id":"科学哲学","name":"科学哲学","count":1},{"id":"科学研究","name":"科学研究","count":1},{"id":"科学论文","name":"科学论文","count":1},{"id":"科技史","name":"科技史","count":1},{"id":"科比-布莱恩特","name":"科比·布莱恩特","count":1},{"id":"移民政策","name":"移民政策","count":1},{"id":"稀疏表示","name":"稀疏表示","count":1},{"id":"空间技术","name":"空间技术","count":1},{"id":"竞技长青","name":"竞技长青","count":1},{"id":"笔记技巧","name":"笔记技巧","count":1},{"id":"第一性原理","name":"第一性原理","count":1},{"id":"算法与社会","name":"算法与社会","count":1},{"id":"篮球战术","name":"篮球战术","count":1},{"id":"篮球访谈","name":"篮球访谈","count":1},{"id":"类型论","name":"类型论","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"约束等距性","name":"约束等距性","count":1},{"id":"纯文本写作","name":"纯文本写作","count":1},{"id":"纯粹数学","name":"纯粹数学","count":1},{"id":"线性代数","name":"线性代数","count":1},{"id":"经典阅读","name":"经典阅读","count":1},{"id":"结对编程","name":"结对编程","count":1},{"id":"编程教学","name":"编程教学","count":1},{"id":"编程语言","name":"编程语言","count":1},{"id":"美国ai政策","name":"美国AI政策","count":1},{"id":"美国政府改革","name":"美国政府改革","count":1},{"id":"美国经济","name":"美国经济","count":1},{"id":"美欧关系","name":"美欧关系","count":1},{"id":"翻译","name":"翻译","count":1},{"id":"职业自律","name":"职业自律","count":1},{"id":"职业辩护","name":"职业辩护","count":1},{"id":"联邦政府改革","name":"联邦政府改革","count":1},{"id":"联邦财政","name":"联邦财政","count":1},{"id":"股东信","name":"股东信","count":1},{"id":"股东大会","name":"股东大会","count":1},{"id":"能源","name":"能源","count":1},{"id":"能量基模型","name":"能量基模型","count":1},{"id":"自动驾驶","name":"自动驾驶","count":1},{"id":"自我认知","name":"自我认知","count":1},{"id":"自由意志主义","name":"自由意志主义","count":1},{"id":"自由民主","name":"自由民主","count":1},{"id":"苹果","name":"苹果","count":1},{"id":"苹果公司","name":"苹果公司","count":1},{"id":"药物研发","name":"药物研发","count":1},{"id":"蓝鳍金枪鱼","name":"蓝鳍金枪鱼","count":1},{"id":"虚拟细胞","name":"虚拟细胞","count":1},{"id":"蛋白质折叠","name":"蛋白质折叠","count":1},{"id":"蜂巢思维","name":"蜂巢思维","count":1},{"id":"行为偏差","name":"行为偏差","count":1},{"id":"西部决赛","name":"西部决赛","count":1},{"id":"规模法则","name":"规模法则","count":1},{"id":"规范驱动开发","name":"规范驱动开发","count":1},{"id":"言论自由","name":"言论自由","count":1},{"id":"计算增强生成","name":"计算增强生成","count":1},{"id":"计算数学","name":"计算数学","count":1},{"id":"计算机教育","name":"计算机教育","count":1},{"id":"计算机证明","name":"计算机证明","count":1},{"id":"训练体系","name":"训练体系","count":1},{"id":"论文写作","name":"论文写作","count":1},{"id":"论文撰写","name":"论文撰写","count":1},{"id":"访谈实录","name":"访谈实录","count":1},{"id":"詹姆斯-西蒙斯","name":"詹姆斯·西蒙斯","count":1},{"id":"语言学","name":"语言学","count":1},{"id":"诺贝尔经济学奖","name":"诺贝尔经济学奖","count":1},{"id":"谷歌","name":"谷歌","count":1},{"id":"贝叶斯方法","name":"贝叶斯方法","count":1},{"id":"财政削减","name":"财政削减","count":1},{"id":"资本配置","name":"资本配置","count":1},{"id":"超级智能","name":"超级智能","count":1},{"id":"超级计算","name":"超级计算","count":1},{"id":"跨领域训练","name":"跨领域训练","count":1},{"id":"身体转型","name":"身体转型","count":1},{"id":"软件工程范式","name":"软件工程范式","count":1},{"id":"软件开发最佳实践","name":"软件开发最佳实践","count":1},{"id":"软件开发未来","name":"软件开发未来","count":1},{"id":"运动恢复","name":"运动恢复","count":1},{"id":"还原论","name":"还原论","count":1},{"id":"通用人工智能","name":"通用人工智能","count":1},{"id":"重整化","name":"重整化","count":1},{"id":"量化交易","name":"量化交易","count":1},{"id":"金融服务","name":"金融服务","count":1},{"id":"金融监管","name":"金融监管","count":1},{"id":"阅读方法","name":"阅读方法","count":1},{"id":"集合论","name":"集合论","count":1},{"id":"非虚构阅读","name":"非虚构阅读","count":1},{"id":"预训练","name":"预训练","count":1},{"id":"领导力","name":"领导力","count":1},{"id":"香农信息熵","name":"香农信息熵","count":1},{"id":"马刺","name":"马刺","count":1},{"id":"马库斯-奥勒留","name":"马库斯·奥勒留","count":1}],"moduleNavItems":[{"id":"essays","label":"Essays","href":"/?label=Essays","order":40,"icon":"BookOpen","count":62},{"id":"talks","label":"Talks","href":"/?label=Talks","order":42,"icon":"Video","count":165},{"id":"reports","label":"Reports","href":"/?label=Reports","order":41,"icon":"FileText","count":36},{"id":"notes","label":"Notes","href":"/?label=Notes","order":30,"icon":"Eye","count":78}],"children":"$L10"}]]}]]}]
+10:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"min-h-screen px-12 py-12 font-sans text-slate-900","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n            (function () {\n              var pathname = window.location.pathname || '';\n              var canonicalPrefix = '/hinbox';\n\n              if (/^/hinbox(?:/|$)/i.test(pathname) && pathname !== pathname.replace(/^/hinbox/i, canonicalPrefix)) {\n                var target = pathname.replace(/^/hinbox/i, canonicalPrefix) + window.location.search + window.location.hash;\n                window.location.replace(target);\n                return;\n              }\n            }());\n          "}}],["$","div",null,{"className":"mx-auto flex min-h-[60vh] max-w-2xl flex-col justify-center gap-4","children":[["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"页面未找到"}],["$","p",null,{"className":"text-base leading-7 text-slate-600","children":"如果你是从大写路径进入本站，系统会自动跳转到小写的规范地址。"}],["$","p",null,{"className":"text-base","children":["返回首页：",["$","a",null,{"className":"text-sky-600 underline underline-offset-4","href":"/hinbox/","children":"/hinbox/"}]]}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+11:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+12:Tb974,<h3>访谈概述</h3>
+<p>在本期《AI &#x26; I》播客中，主持人 Dan Shipper 对话了 Stripe 数据与 AI 负责人 Emily Glassberg Sands。由于 Stripe 处理着全球约 2% 的 GDP，Emily 拥有观察 AI 如何颠覆互联网经济的绝佳宏观视角。两人深入探讨了互联网经济正如何从“以人类为中心”向“以 AI 代理（Agent）为中心”转变。访谈的核心议题包括：AI 时代独有的“算力盗窃”等新型欺诈手段、Stripe 如何将风控防御从结账环节扩展到全漏斗、AI 公司的惊人增长速度与定价模式的演变（如“基于结果的计费”取代“按席位计费”），以及 Stripe 为即将到来的“代理式电商（Agentic Commerce）”时代所重构的支付基础设施。</p>
+<h3>专用词语翻译列表</h3>
+<table>
+<thead>
+<tr>
+<th align="left">英文专有名词 / 术语</th>
+<th align="left">中文翻译 / 解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Agentic commerce</td>
+<td align="left">代理式电商 / 智能体商务</td>
+</tr>
+<tr>
+<td align="left">Compute theft</td>
+<td align="left">算力盗窃</td>
+</tr>
+<tr>
+<td align="left">CAC (Customer Acquisition Cost)</td>
+<td align="left">获客成本</td>
+</tr>
+<tr>
+<td align="left">Multi-account abuse</td>
+<td align="left">多账号滥用</td>
+</tr>
+<tr>
+<td align="left">Free trial abuse</td>
+<td align="left">免费试用滥用</td>
+</tr>
+<tr>
+<td align="left">Stripe Radar</td>
+<td align="left">Stripe Radar（Stripe 的欺诈检测与风控产品）</td>
+</tr>
+<tr>
+<td align="left">ARR (Annual Recurring Revenue)</td>
+<td align="left">年度经常性收入</td>
+</tr>
+<tr>
+<td align="left">Outcome-based billing</td>
+<td align="left">基于结果的计费 / 按结果计费</td>
+</tr>
+<tr>
+<td align="left">Seat-based pricing</td>
+<td align="left">按席位计费</td>
+</tr>
+<tr>
+<td align="left">Headcount OpEx</td>
+<td align="left">人力运营成本</td>
+</tr>
+<tr>
+<td align="left">Vibe coding</td>
+<td align="left">凭感觉编程 / 氛围流编程（网络用语，指利用 AI 辅助快速写代码）</td>
+</tr>
+<tr>
+<td align="left">Stripe Projects</td>
+<td align="left">Stripe Projects（Stripe 的一款开发者命令行配置工具）</td>
+</tr>
+<tr>
+<td align="left">Shared Payment Token (SPT)</td>
+<td align="left">共享支付代币 / 共享支付凭证</td>
+</tr>
+<tr>
+<td align="left">Stripe Link</td>
+<td align="left">Stripe Link（Stripe 提供的一键支付消费者钱包）</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<figure class="video-embed video-embed--youtube">
+  <div class="video-embed__frame">
+    <iframe src="https://www.youtube.com/embed/-gOyup6yLBY" title="YouTube video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+  <figcaption class="video-embed__caption">YouTube video</figcaption>
+</figure>
+<h2>访谈正文</h2>
+<p><strong>节目片头：</strong>
+互联网上出现了一种新型的参与者。随着时间的推移，这种参与者——也就是 AI 代理（Agents）——将成为互联网上的主要活动者。从收入的角度来看，这些 AI 公司的增长速度比我们过去见过的任何企业群体都要快。访问 Stripe 开发者文档的 LLM（大语言模型）流量同比增长了 10 倍。这是一个非常有用的信号：机器也正在成为开发者基础设施的用户，其中就包括 Stripe 的开发者基础设施。</p>
+<h3>开场介绍</h3>
+<p><strong>Dan:</strong>
+Emily，欢迎来到我们的节目。</p>
+<p><strong>Emily:</strong>
+非常感谢，Dan。</p>
+<p><strong>Dan:</strong>
+能邀请到你我真的非常激动。我觉得现在邀请 Stripe 的人来上节目是个绝佳的时机，因为众所周知，你们的使命是“增加互联网的 GDP”。现在的互联网正在发生翻天覆地的变化。互联网的经济模式正在从“人类之间互相买卖”转变为“AI 代理向人类买卖”以及“AI 代理之间互相买卖”的经济。我想知道这对 Stripe 意味着什么；其次，既然你对“代理经济”有一个宏观的视角，我想了解这到底意味着什么？你目前都观察到了什么？</p>
+<p><strong>Emily:</strong>
+我们正处于一个重大的转型期，互联网经济正变得越来越自动化。很长一段时间以来，甚至可以说一直以来，互联网都是建立在一个极其简单的假设之上的：网络上的主要行为主体是人类。人们坐在屏幕前浏览网页、填写表单、点击结账，同时他们也会编写代码和设置工具。但这种假设在各个层面都开始被打破了。</p>
+<h3>代理驱动经济的新规则</h3>
+<p><strong>Emily:</strong>
+有时候，人类依然完全掌控局面，但他们是通过 AI 界面来进行交互，而不是通过传统的网站或 App；有时候，是 AI 代理在代表人类行事；而现在，软件甚至开始直接与其他软件进行交互了。当所有这些情况在各个层级开始发生时，许多事情都需要重新思考。</p>
+<p>比如，人们在重新思考产品该如何被发现、如何被购买？开发者工具应该长什么样？而在我们 Stripe 的世界里，我们会思考：在一个参与者不再仅仅是人类的世界里，底层的经济基础设施（如支付、计费、欺诈检测和身份验证层）应该是什么样的？</p>
+<p>所以，对我来说，这就是当下的宏观格局。这不仅仅是说“AI 让搜索变得更好”、“AI 帮人写代码”或者“AI 在边缘地带改变了商业”。实际上，互联网上出现了一种全新的参与者。随着时间的推移，这些代理将成为互联网上的主导者。在这个过程中，技术栈的几乎每一层都需要进化。对于 Stripe 来说，问题在于：“Stripe 该如何为代理时代做好准备？”同时，“我们该如何帮助企业为代理时代做好准备？”这不仅发生在商业领域，也体现在开发者的构建方式上。</p>
+<p><strong>Dan:</strong>
+你能给我举一些你看到的具体例子吗？比如说，我知道 Stripe 在反欺诈方面做了大量工作。我猜测，现在肯定出现了一种全新类型的欺诈；但另一方面，我甚至在想现在到底什么才算是欺诈？有没有可能我的 AI 代理会去偷别人的信用卡然后结账？我觉得 Claude 应该不会这么干，但如果你用的是 Grok（马斯克的 AI 模型），那就不好说了。（笑）</p>
+<p><strong>Emily:</strong>
+不予置评，不予置评。但你说得很对，AI 确实引入了截然不同的欺诈问题。你问“什么是欺诈？”过去我们认为欺诈主要是“支付欺诈”，也就是有人偷了钱，或者偷了你的信用卡信息。但今天我在和一个非常大型的 AI 客户开会时讨论到，越来越多的欺诈者现在偷的是“算力”。</p>
+<h3>算力盗窃成为新型欺诈手段</h3>
+<p><strong>Emily:</strong>
+这是一个完全不同的问题。在早期的软件模式中，比如传统的 SaaS（软件即服务），让用户使用免费版并不会消耗你多少成本，欺诈者去偷一个免费版账号也没什么价值。但现在，给用户发放额度、提供免费增值服务、免费试用，或者让他们先消耗大量 Token 然后在月末结账（他们可能最后选择不付钱），这实际上成了一个主要的欺诈载体，甚至对许多 AI 公司来说是关乎生死存亡的风险。</p>
+<p>因为在 AI 领域，每一次提示词交互、每一张生成的图片、每一次 API 请求，都伴随着非常真实的成本。人们都在说“智能正在变得越来越便宜”，没错，但它离“免费”还差得远。当你审视许多 AI 公司的增长模式时，你会发现“免费算力”变成了新的获客成本（CAC）。过去你把钱花在付费媒体广告上，现在你把大量资金花在免费试用、赠送额度以及自助式的新手引导上，以此作为增长的主要杠杆。</p>
+<p>所以在这种“算力即新 CAC”且“算力非常昂贵”的背景下，我们看到了三种主要的滥用形式：</p>
+<p>第一种是<strong>多账号滥用</strong>。不良分子不断地注册，每次都用新的邮箱地址创建一个新身份，领取新用户额度。他们通过在众多不同的别名之间切换，来逃避系统的检测。为了让你对这个规模有个概念：在运行于 Stripe 上的 AI 公司中，大约 7% 的注册用户是这种多账号滥用者。这是一个不小的比例。</p>
+<p>第二种我们看到的新型滥用是<strong>免费试用滥用</strong>。这通常是最紧迫的问题，因为它会让公司的单位经济模型迅速崩溃。举个例子，我们有一个大型 AI 客户，他们的免费试用到付费转化率只有 4%。而每个免费试用用户会消耗他们 25 美元的大语言模型（LLM）成本。这就意味着，在他们赚到第一笔收入之前，他们要为每一个真正的付费用户付出 625 美元的成本。当我们深入调查那些免费试用用户时，发现绝大多数其实都是滥用者。他们真的是在“偷”算力，根本没有付费的意图。他们不是那种真心想试用产品然后觉得不合适才不买的人，他们就是来薅羊毛的系统滥用者。</p>
+<p>有些公司为了应对，干脆直接取消了免费试用。这当然不是个好办法，因为这会扼杀增长。另一些公司则采取了屏蔽虚拟信用卡的做法。我不知道你有没有经常收到虚拟信用卡的营销推送，我经常收到，比如“用这张一次性卡，24小时后过期，这样你就不必真的为服务付费”。虚拟卡在好消费者手里没问题，但在欺诈者手里就是个大麻烦。但问题在于，如果屏蔽所有虚拟信用卡，对 AI 公司来说，Stripe 上大约 15% 的合法银行卡交易实际上是虚拟卡。</p>
+<p><strong>Dan:</strong>
+是的，比如企业里给员工报销用的 Ramp 虚拟卡。</p>
+<p><strong>Emily:</strong>
+没错。所以就像你不想关掉免费试用一样，你同样也不想一刀切地封杀虚拟卡。从规模上来说，过去 6 个月里免费试用滥用呈指数级增长，翻了 4 倍。对于 Stripe 上的某一家大型 AI 用户，我们现在每周要帮他们拦截 25 万次欺诈性的免费试用注册。所以，这里的量级是相当惊人的。</p>
+<p><strong>Dan:</strong>
+那么这种欺诈的绝对数量是不变的，只是改变了形式？还是说因为欺诈者现在有了 AI 代理等更强大的工具，导致欺诈总量本身就在上升？</p>
+<p><strong>Emily:</strong>
+欺诈总量在上升，原因之一是欺诈者现在也有了 AI 的加持（尽管反欺诈的一方也有 AI），另一个原因是，他们现在能偷到的服务价值更高了。就像你刚才说的，去偷传统 SaaS 能偷到什么？但现在你去偷 AI 推理能力、偷算力，你可以转售，你可以做各种各样的事情。</p>
+<p><strong>Dan:</strong>
+我就挺喜欢白嫖一个好用的 CRM 席位的。（笑）</p>
+<p><strong>Emily:</strong>
+（笑）我觉得三个大语言模型肯定比一个好用的 CRM 席位更诱人。顺便说一下，我们看到的第三种新型滥用是<strong>不付款滥用</strong>。比如你超额使用了，或者有 30 天的账期，但你最终根本不付账单。在许多情况下，客户在一个月、一天甚至一个小时内就消耗了价值数千或数万美元的算力。等到他们收到账单并支付失败时，损失已经造成了，这些 AI 公司只能自己承担损失。</p>
+<p>所以对于我们来说，欺诈过去只是在“交易”环节发生的问题，现在它变成了针对“客户”的问题，变成了一个全漏斗（Full Funnel）的问题。它从注册那一刻就开始了：是否存在多账号滥用？我们应该给他们额度吗？是否存在免费试用滥用？我们一开始应该给他们试用资格吗？当他们超额使用时，我们应该限流吗？应该要求他们充值吗？还是完全切断服务？因为可窃取的标的物变得更有价值，被窃取造成的代价对公司来说也更具毁灭性，这完全是一个新世界。</p>
+<h3>Stripe 如何将欺诈检测从结账扩展到客户全生命周期</h3>
+<p><strong>Dan:</strong>
+你们是怎么做到防范全漏斗欺诈的？我完全理解为什么需要覆盖全漏斗，但据我所知，我们以前集成 Stripe 时，通常只是把它放在结账页面。当用户输入邮箱获取免费资格时，我们不一定会调用你们的服务。那么，你们是改变了产品逻辑来覆盖全流程，还是在实际操作中是如何实现的？</p>
+<p><strong>Emily:</strong>
+是的。Stripe Radar 是我们的欺诈保护产品，它过去只在交易层面起作用，就像你说的，在结账那一刻。但由于现在如此多的欺诈风险发生在漏斗的上游，AI 公司现在越来越多地在“用户注册”时就集成了 Stripe Radar。</p>
+<p>所以，我们在注册时就能看到元数据，并在注册时返回风控评分。随后客户生命周期中的每一个时刻也都会被检测，因为正如我所说，欺诈现在是一个全漏斗问题，而不仅仅是单一的交易问题。</p>
+<p><strong>Dan:</strong>
+假如我“替我一个朋友”问一下，如果你经营着一家 AI 公司，你甚至不知道自己的欺诈率是多少，但你想保护自己免受这种滥用，你要做的最重要的事情是什么？</p>
+<p><strong>Emily:</strong>
+我会建议直接采用我们最高级别的 Radar 计划，但具体的机制是：在注册时，你想在给客户任何额度之前知道这个客户是否靠谱；在他们付款时，你想确保这笔扣款是安全的；在他们产生任何超额使用时，你想确保他们有能力支付。当然，我们还支持围绕退款和争议等其他问题的处理。但我认为这四个时刻是 AI 公司客户生命周期中我们需要疯狂关注并保护的关键节点，因为这是我们看到成本最高、欺诈增长最快的地方。</p>
+<p><strong>Dan:</strong>
+在每一个节点，都只需要调用一次 Radar API 对吧？</p>
+<p><strong>Emily:</strong>
+是的，没错。</p>
+<p><strong>Dan:</strong>
+如果像我现在这样，每年在 Stripe 上有几百万美元的交易额，但我完全不知道我的欺诈率是多少，只能看到后台那个小小的提示……其实我们的欺诈率低到我根本不需要去关心。但我不知道是不是存在某种我还没完全搞明白的免费试用欺诈。我应该关注哪些指标，来判断是否需要深入调查，甚至可能去集成 Radar？</p>
+<p><strong>Emily:</strong>
+第一步，你可以去你的 Radar 仪表盘看看有没有异常数据。如果没有，你也可以直接问仪表盘里的 Radar AI 助手。你可以描述你的商业模式，比如你可以说“我的边际成本很高”，在这种情况下，你对某些类型的欺诈会比其他类型更敏感。但最快的方法就是尝试在你的漏斗中进行集成，然后看看实际表现。我们可以根据回测数据告诉你我们认为的主要问题在哪，但最快获得清晰数据的方法就是直接集成。</p>
+<p><strong>Dan:</strong>
+明白了。我现在刚好打开了后台看，如果我发现我们有很多我不知道的欺诈，那就搞笑了。呃，我们是 0% 的欺诈？这怎么可能？好吧，早期欺诈警告是 0.02%，总欺诈率是 0.2%。我们做得还挺好的，对吧？</p>
+<p><strong>Emily:</strong>
+这非常低了。你是个不错的人，也许欺诈者不想来找你的麻烦。</p>
+<p><strong>Dan:</strong>
+等我做完这期节目，他们可能就会说：“好家伙，盯上你了。”（笑）</p>
+<p><strong>Dan:</strong>
+好的，这太有意思了。我想回到刚才关于 AI 经济的话题。你之前提到互联网上的欺诈整体在增加，部分原因是欺诈者有了 AI。但同时，你们以及 AI 经济中代表“正义”的一方，也有 AI 来防御这种攻击。我觉得你观察到了一个非常有趣的军备竞赛视角。类似的威胁向量在很多领域都在上演，比如网络安全（黑客攻击等）。在这些领域，AI 让攻击变得更容易，于是防守方也必须用 AI 来弥补差距。这场竞赛进行得怎么样了？作为一个身处“AI 武装欺诈者”竞赛中的人，你早期的感受和报告是什么？</p>
+<p><strong>Emily:</strong>
+欺诈者有一个有趣的特点，就是他们根本不在乎边界。他们不在乎这笔交易是在 Stripe 上处理还是在 Stripe 之外处理，不在乎用的是法定货币还是加密货币，不在乎用的是银行卡网络还是“先买后付”。他们只会想方设法绕过系统来达到目的。</p>
+<p>我很高兴你把我们称为“好人”。我认为好人在这场竞赛中获胜的一个重要杠杆，就是“全面性”。举个我们世界里最简单的例子：Stripe Radar 过去只适用于信用卡交易。去年我们增加了 ACH（美国自动清算系统）和 SEPA（单一欧元支付区）等其他支付方式。但今年，我们将其扩展到了所有带有争议机制的支付方式，我们还增加了加密货币，并推出了 Radar API。这意味着什么？你可以筛选哪怕不是在 Stripe 上处理的交易！你可以通过 Worldpay 或 Adyen 等其他平台处理支付，但通过调用 Radar API，你仍然能获得相同的欺诈风险信号。</p>
+<p>同样地（我们还没聊到代理式电商），我们在构建代理式电商套件时，设计了一个新的底层模块叫做“共享支付代币（Shared Payment Token）”。它允许 AI 代理安全地将买家的支付凭证传递给商家，由商家来处理交易。作为共享支付代币的一部分，我们也会把 Radar 的欺诈评分传递过去，这样商家无论是否使用 Stripe 处理支付，都可以采取相应的行动。</p>
+<p>在欺诈问题上，我们真的把防御和缓解欺诈视为一种“公共物品”。这使我们能够进行远超 Stripe 直接利益的超额投资，因为保护互联网对于发展互联网经济至关重要。所以整体来说，是的，欺诈者有 AI 的优势，但 Stripe 看得到全球 2% 的 GDP 交易，同比增长 34%，而且通过我们多处理器的解决方案（如 Radar API）拥有更广阔的视野。所以幸运的是，我们不仅和他们一样有 AI 助力，我们还有庞大的数据优势。我们在欺诈保护方面做得越全面，我们就越能保持领先。</p>
+<p>当然，这并不是说我们不会经常对他们想出的创意新手段感到惊讶。但如果你能部署一个 AI 代理，每小时或每天盯着 Stripe 网络上的异常模式，识别跨支付处理器、跨支付方式、跨商家弹出的新欺诈手段，然后迅速将其扑灭，那情况就会好很多。所以总体而言我很看好防守方，但绝对不能掉以轻心。</p>
+<p><strong>Dan:</strong>
+AI 或代理经济的其他部分呢？我们聊了很多关于欺诈的内容。凭借你宏观鸟瞰的视角，你还观察到了哪些人们可能没有意识到的事情？</p>
+<p><strong>Emily:</strong>
+我认为 AI 经济非常广阔。有一批提供横向大模型的公司，他们对“AI 在经济的哪些领域被采用以及采用的强度如何”有着非常有趣的视角。还有许多做垂直 AI 解决方案的公司——人们喜欢叫他们“套壳（Wrappers）”，我这么说并没有贬低的意思，他们确实用的不是自己的模型，而是别人的。但他们拥有特定领域的行业数据、客户关系和行业背景，他们在解决医疗、建筑等领域的具体问题。他们对 AI 在垂直领域的采用情况有着非常独特的视角。我很好奇，你觉得谁拥有最好的横向视角？</p>
+<p><strong>Dan:</strong>
+你问我吗？</p>
+<p><strong>Emily:</strong>
+对啊。</p>
+<p><strong>Dan:</strong>
+我想知道从支付端看是什么样的。但我猜提供基础模型的公司拥有最好的全局视角，因为所有的 Token 最后都流向了他们那里。</p>
+<p><strong>Emily:</strong>
+是的，他们确实看到了大量的 Token 消耗。我认为 AI 网关公司对“谁在向谁买什么”也有非常独特的视角。当退一步从 Stripe 的优势视角审视 AI 经济时（我们能看到谁向谁买了什么、花了多少钱、他们订阅的留存和流失情况），有几个趋势非常突出。</p>
+<h3>为什么 AI 公司的扩张速度远超顶级 SaaS 公司</h3>
+<p><strong>Emily:</strong>
+第一个趋势人们可能直觉上感受到了，但并没有在数据上得到证实：<strong>从收入角度来看，这些 AI 公司的增长速度比我们见过的任何过去的群体都要快。</strong> 我看了一下 Stripe 上排名前 100 的 AI 公司，那些达到 3000 万美元 ARR（年度经常性收入）的公司，平均只花了 18 个月——也就是一年半的时间。这个速度比 2018 年前 100 名的顶级 SaaS 公司快了 3 倍！顺便说一下，这还只是 3000 万美元的节点，如果你看他们达到 100 万美元或 500 万美元 ARR 的速度，他们比不到十年前的高绩效 SaaS 公司的扩张速度快了几个数量级。</p>
+<p>第二个大趋势——你作为消费者可能深有体会，至少我有——就是<strong>他们在变现模式上的快速迭代</strong>。传统的 SaaS 有很多（你刚才提到的）按席位计费的模式，也就是固定的月度订阅费。这对他们来说很合理，因为软件主要是人类在使用，而他们的边际成本基本上是零。但在 AI 领域，我们刚才在聊欺诈时提到了非常真实的推理成本，这些成本也对你如何定价产生了非常真实的影响。因此，基于使用量的计费变得非常重要且迅速普及。</p>
+<h3>基于结果的计费正在取代按席位计费</h3>
+<p><strong>Emily:</strong>
+公司不仅在计量 Token 和 API 调用，还在计量工作流，甚至在计量“结果”。他们会寻找最能反映客户价值和自身成本结构的单位来进行计费，并且希望收费的精度非常高。他们真的想知道发生的每一个事件、该如何评级，以及该事件附带的所有元数据。</p>
+<p>同时，出现了更多的混合变现模式。订阅模式并没有消亡，只是变成了带有超额使用费的订阅，或者是会随着时间消耗的预付费额度，亦或是实时充值系统（这也呼应了我之前提到的“不付款滥用”问题）。这是一种多维度的定价和变现方式。</p>
+<p>代码生成平台 Lovable 是一个很好的例子。他们最初上线时使用 Stripe Billing，采用的是非常简单的订阅制、更传统的定价方式，这让他们得以非常快地实现商业化。然后他们增加了一系列新产品，比如 Lovable Cloud 或 Lovable AI，他们顺势引入了基于使用量的计费。所以，客户实际上是根据 Token 消耗量被收费的，但这是一种混合模式（在达到某个门槛之后才开始按量计费）。这帮助 Lovable 这样的公司将收入与用户使用量、创造的价值以及运行模型的实际成本保持一致。</p>
+<p>在极端情况下，我们甚至推出了一种名为“Token 计费”的解决方案。因为底层模型的成本变化很大，有时变化非常快。如果你是在别人的大语言模型之上做的一个应用，而你的定价没有跟上底层成本的变化，你的利润就可能消失殆尽——成本上升了，而你的价格还在原地，你就会亏损。因此，Token 计费的理念就是：“让我们实时追踪底层 Token 的成本，并由企业自行设置一个加价比例来进行定价。”Mesa、Ship 和 Lovable 都是使用这种基础设施的例子。</p>
+<p><strong>Dan:</strong>
+我很喜欢你提出的这些点。我们逐一聊聊。你谈到的一个重点是变现模式的快速迭代。感觉现在正在进行一场超级实验，大家在想：“我们可以按 Token 收费，可以按完成的请求次数收费。”比如客服平台 Fin，他们按“解决的案件数量”收费，这在客服行业由来已久，但随着 LLM 让系统很容易判断“我们是否真的完成了工作并应该获得报酬”，感觉这种计费模式会普及到更多类型的软件中。</p>
+<p>在这些探索中，如果我们要挑选一种代表未来的新定价标准（就像过去十年的标准是“按席位计费”），你从 Stripe 客户那里观察到，哪种新标准正在浮现？</p>
+<p><strong>Emily:</strong>
+如果你买的是模型本身（比如你主要是一个模型提供商的客户），我认为你会按 Token 计量（比如 OpenAI API、Claude API）。</p>
+<p>但对于这些垂直领域的应用来说，我认为最终在稳定状态下，他们会<strong>按结果计费（Metering outcomes）</strong>。不过我们需要一些时间才能达到那个状态，倒不是因为计费基础设施跟不上——计费系统早就准备好了，像你提到的 Fin 或是 Intercom，他们也在 Stripe Billing 上按解决的支持工单数量计费。</p>
+<p>为什么我说垂直解决方案将走向按结果计费？因为我认为最终用户会希望这些垂直方案对结果负责，他们想知道这笔钱花出去是否有正向的投资回报率（ROI）。当咱们去买模型 API 时，我们认为自己有责任去确保把这个 LLM 用在各种应用场景中能获得 ROI。但如果你是一个垂直领域的提供商，如果你专门致力于在别人的 LLM 之上解决某个具体业务领域的核心需求，那么确保 ROI 的责任似乎就在你身上。我认为按结果计费是实现这一目标最有效的途径。</p>
+<p>当然，并不是所有的结果都生而平等。你可以想象一些复杂的经济学目标函数：不仅是“你是否解决了一个客服案子”，还包括这个案子有多复杂？解决质量如何？客户满意度（CSAT）是多少？你所替代的人类员工原本有多贵？这也是为什么我说，我们需要时间才能准确定义我们关心的业务“结果”，以及如何多维度地衡量这些结果。但我很难想象，一年之后，大多数垂直服务商还在简单粗暴地按 Token 收费。</p>
+<p><strong>Dan:</strong>
+这真的很有意思。我很期待看到这一幕。目前我们在 Claude 和 ChatGPT 的定价中看到的（我们自己也是这么定价的），仍然是“按席位/按用户收费，外加超额使用费”。由于我们一直生活在按席位收费的世界里，大家知道该怎么建立财务模型，很容易估算要花多少钱。但过去运行软件的边际成本几乎为零，现在不是了。所以我们必须通过增加超额费用来保护自己的利润率，同时也让客户大概知道自己要付多少钱（除非有特殊情况）。你刚才认为最终按席位收费可能会消失，为什么？</p>
+<p><strong>Emily:</strong>
+我认为对于模型提供商来说，针对用户的收费以及超额收费不会消失。甚至我认为这会成为主流。但企业级软件的按席位收费将会消失。</p>
+<p>我们再回到 Fin 或 Intercom 的例子。假如工具的很大一部分作用就是“自动化替代客服人员”，但你却根据使用该工具的客服人员数量来收费，你我都会觉得这很荒谬。</p>
+<p>在今天的世界上，对开发者工具按席位计费似乎还不觉得荒谬。但从去年 11、12 月开始，这是一个非常值得思考的问题：“等等，这难道不荒谬吗？”如果这些 AI 代理能让每个开发者的生产力提高 10 倍，那你是不是只需要以前十分之一的开发者了？那你为什么还要把你的收入与开发者的“人头数”作为基础定价挂钩呢？</p>
+<p>所以我怀疑我们会看到企业环境中的按席位订阅逐渐消失。但对于个人消费者情况则大不相同。除了一些极客，绝大多数普通消费者会对“固定的月费包月（最多加点超额费）”以外的任何模式感到不适。但在企业端，如果在 6 个月后，按席位授权的数量没有减少一半，我会感到非常惊讶。</p>
+<p><strong>Dan:</strong>
+这太引人深思了。以后关于这个话题还得再请你来聊聊，我很希望能看到更多相关的数据。</p>
+<h3>AI 的消费支出从何而来</h3>
+<p><strong>Dan:</strong>
+你之前提到的另一个点是，这些 AI 公司扩张得更快了，达到 3000 万美元 ARR 只需要 18 个月。我想知道这些钱是从哪来的？客户的这些支出和增长，是他们以前没花出去、一直躺在资产负债表上等待使用的资金？还是说他们砍掉了其他供应商的预算，然后迅速投入到这些新的 AI 平台中？</p>
+<p><strong>Emily:</strong>
+我认为我们看到的很多 AI 增长，实际上是被注入经济体系的<strong>净增新支出（Net new spend）</strong>。</p>
+<p>我认为它在很大程度上并没有替代传统的 SaaS 支出或企业的人力成本（Headcount OpEx）。一方面是因为大家还在实验和学习；另一方面，组织在放弃现有软件许可证时通常比较慢，因为有长期的合同锁定；此外，AI 基本上是从零（或者接近于零）起步的，当时市场上并没有其他的 AI 公司可以让他们去抢占份额。</p>
+<p>但展望未来，我没有水晶球可以预测确切的动态，但我预计其中一部分会变成<strong>替代传统 SaaS 的支出</strong>。顺便说一句，我说的“旧公司”和“新公司”并没有贬义。有些 SaaS 公司在向“AI First”转型方面做得非常出色，因此同一家公司的 AI 部门会吃掉原本属于他们传统软件部门的收入。</p>
+<p>另外，一部分预算将来自于<strong>替代人力运营成本</strong>。很难相信企业开始将个位数甚至两位数百分比的人力成本花在 LLM 上，却不退一步思考：“好吧，我的人力成本结构改变了。过去雇一个工程师要花 30 万美元，现在变成了 33 万美元（其中 30 万是工资和期权，3 万是 LLM 的开销），所以我最好重新评估我的预算，并据此做出人员配置决定（以及 ROI 的决定）。”</p>
+<p>然后我们现在看到的还有一部分是<strong>在不同的 AI 供应商之间发生的替换</strong>。我查看了 AI 公司的留存率，你会发现，在同一个垂直领域内（例如 AI 开发工具、AI 编程工具或 AI 模型提供商），无论是 B2C 还是 B2B，整体的用户留存率都高于传统 SaaS。</p>
+<p><strong>Dan:</strong>
+有意思，这让我挺惊讶的。</p>
+<p><strong>Emily:</strong>
+但对于“单个”具体的供应商来说，留存率略低。事后来看这很符合直觉，尽管在看数据之前我确实不知道。直觉就是：一旦你开始使用 AI 编程助手，你就会爱上它，你不会停止使用这种工具。但你很可能会在不同的供应商之间跳来跳去，因为不同模型的质量不同。每次有新模型发布，你都会觉得“我必须试试这个”。所以同一类别里有很大比例的“好奇心驱动的流浪者”在不同产品间跳跃。</p>
+<p><strong>Dan:</strong>
+但他们肯定会长期坚持使用这种类型的工具。</p>
+<p><strong>Emily:</strong>
+完全正确。所以总结一下：过去一年我们看到的很多疯狂的 AI 增长都是“净增的新支出”，但未来一年，企业将开始把这笔钱视为传统 SaaS、人力成本或其他 AI 公司的替代品，纯增量属性会比大家刚开始增加 AI 支出时要少。</p>
+<p><strong>Dan:</strong>
+这是否意味着当前炙手可热的 AI 公司的估值有些问题？抛开 OpenAI 和 Anthropic 这种大厂不谈，对于那些即将达到 3000 万美元 ARR 梯队的公司，你觉得这说明了他们的前景、增长率或估值情况吗？</p>
+<p><strong>Emily:</strong>
+如果你去看 Stripe 上排名前 100 的 AI 公司，确实有两三个小的竞争激烈、直接对抗的红海领域。但有相当多的公司是在解决完全脱节的垂直问题，在这些领域目前还没有竞争对手。所以我认为，市面上还有足够多的“蓝海”垂直解决方案，整体来看 AI 公司的估值可能没问题。但在一些你能直觉判断出很拥挤的赛道，可能会有些泡沫。</p>
+<p>你可以从微观层面看到这一点。比如销售驱动导向（SLG）的合同：当你是市面上第一个 AI 开发工具时，你基本就是按标价收费，很少讨价还价，企业客户也愿意付全价。但突然之间，你不得不引入复杂的配置报价系统（CPQ），并采用细致入微的计费方式，因为你需要对抗两三个拥有激进变现模式的竞争对手。所以微观上，你开始看到竞争反应悄然出现。但我认为明年的大趋势依然会有很多以前不存在的蓝海垂直方案涌现。</p>
+<h3>当代理成为构建者，开发者体验如何改变</h3>
+<p><strong>Dan:</strong>
+太精彩了，我感觉学到了很多。现在我想聊聊 Stripe。Stripe 服务于开发者，你们最初是为“人类主导买卖、人类编写软件”的世界构建的。但现在，AI 代理成了买家、卖家和开发者。你们必须开始服务 AI 代理。我很想知道，这如何改变了你们对产品提供的思考？比如从只关注“开发者体验（Developer Experience）”转向思考“代理体验（Agent Experience）”？</p>
+<p><strong>Emily:</strong>
+你想先聊“代理体验”还是“代理经济”？</p>
+<p><strong>Dan:</strong>
+咱们先聊“代理体验”。</p>
+<p><strong>Emily:</strong>
+好的。关于开发者体验的整个理念正在改变。过去提到开发者体验，你想到的是如何让坐在键盘前的人类工程师更轻松：你需要清晰的 API、更好的文档、更少的配置工作。这些依然重要，并没有过时，但现在“开发者”这个角色的覆盖面变得更广了。</p>
+<p>它可能是一个非技术出身的创始人，在 Vercel 或 Replit 里用自然语言描述一个 App；它可能是一个代码助手，在帮你搭建代码集成脚手架；它也可能是一个代理，试图代表人类去配置云基础设施。</p>
+<p>所以，现在的重点不再仅仅是“我们如何帮助人类开发者写代码”，而是“我们如何提供一个连贯且值得信赖的端到端产品体验”。这个体验必须承认：在某些时刻操作者是人类，在某些时刻操作者是代理，在某些时刻是人类通过代理在操作。</p>
+<p>你可以从一些非常具体的方面看到这种转变。举个很简单的例子，大语言模型（LLM）访问 Stripe 开发者文档的流量同比增长了 10 倍。这是一个有用的信号，表明机器也正在成为开发者基础设施的用户。</p>
+<p><strong>Dan:</strong>
+那人类访问 Stripe 文档的数据呢？</p>
+<p><strong>Emily:</strong>
+人类的使用量其实持平甚至略有增长。所以 AI 并没有直接替代人类，而是产生了更多的开发活动，LLM 在其中的份额增长非常迅猛。这也说明人类仍然在查阅文档，去对 AI 代理写出的东西做交叉验证，因为“如何集成支付”其实是一个相当重大的决定。</p>
+<p><strong>Dan:</strong>
+确实，好在还有比我更严谨的人在做交叉验证。我可是靠感觉瞎写（Yolo vibe coding）我的支付基础设施的。（笑）</p>
+<p><strong>Emily:</strong>
+（笑）好吧。就算你是在“凭感觉编程”，配置现代软件技术栈依然是非常手动的过程。作为人类，你还得在多个服务中创建账号、管理凭证、点击各种按钮完成设置、在不同的仪表盘之间跳来跳去。所以，<strong>“写代码”变得简单的速度，远远快于“配置环境”变得简单的速度</strong>。</p>
+<p>这正是我们大约两周前推出 Stripe Projects 的初衷。</p>
+<p><strong>Dan:</strong>
+这功能太棒了，快给大家介绍一下。</p>
+<p><strong>Emily:</strong>
+如果你想试用，之后告诉我，我拉你进内测。</p>
+<p><strong>Dan:</strong>
+我要！绝对要！</p>
+<p><strong>Emily:</strong>
+没问题。Stripe Projects 的核心理念就是：你或你的 AI 代理可以直接从命令行（Command Line）创建和管理你的部分软件技术栈。资源会在你拥有的账号中被配置好，相关的密钥和凭证会自动同步回你的开发环境中。发布后，除了像你这样热情的开发者外，整个生态系统的反响极其热烈。我们首发合作了 Vercel、Supabase、PostHog、Neon 等优秀公司。发布后，又有 100 多家公司主动联系我们想加入。</p>
+<p>这证明这种摩擦痛点是真实存在的。就像你刚才说的，AI 让某些事情变简单了，但同时带来了反作用力（比如代码好写了，但谁来审查这些 AI 生成的代码？）。同样的，AI 让构建应用变简单了，但你依然得去配置各种环境。这也是我们如何为“开发者不再仅仅是人类”的世界进行构建的一个例子。</p>
+<h3>代理式电商的光谱：从辅助购买到自主购买</h3>
+<p><strong>Dan:</strong>
+明白了。那咱们接着聊聊“代理式电商（Agentic commerce）”。</p>
+<p><strong>Emily:</strong>
+“代理式电商”这个词现在有点被滥用了。人们在这个概念上常犯的一个错误是：直接跳到最极端的版本。他们一听到这个词，就想象一个全知全能的系统，知道我的一切需求，并直接帮我买好。然后他们转头一看现实，就会觉得很失望。也许我们最终会以某种形式到达那种极端，但现在还没到那一步。</p>
+<p>我更倾向于把它看作一个“光谱”。无论你处于光谱的哪个阶段，你所需要的底层经济基础设施其实是非常相似的。光谱的划分也让这件事显得更加现实：</p>
+<p>在<strong>第一层级</strong>，AI 只是在消除现有互联网的摩擦。它帮你研究、比较选项、填写表单、缩小选择范围。但做决定的仍然是你这个人类。</p>
+<p>进入<strong>第二层级</strong>，搜索变成了描述性的。不再是生硬的关键词和筛选条件。比如我有小孩，我会说：“我需要一个夏令营，在这个预算内，在这个日期期间，距离我家开车不超过一定范围。”这已经是一种比传统“搜索+筛选”更好的商业体验了。</p>
+<p>然后你进入了<strong>真正的代理委托</strong>阶段。这通常被认为是代理式电商的最低门槛。比如我给夏令营设定一些预算、日期、类别和偏好限制，然后系统去代表我完成实际的购买动作。</p>
+<p>再往后是一个更长远的版本，也就是<strong>环境感知（Ambient）版本</strong>。我不需要发出任何提示指令，系统了解我，了解我的季节性需求，它知道现在该规划夏令营了。</p>
+<p><strong>Dan:</strong>
+如果真有那一天，那真是太美妙了。</p>
+<p><strong>Emily:</strong>
+关键点在于，无论你处于这个光谱的哪个位置，互联网需要的底层经济基础设施都在发生改变。即使是早期的阶段，也迫使支付基础设施必须重新设计。因为在旧模式下（人类面对浏览器、创建账号、选择套餐、填表、点击购买、输入卡号），这些步骤现在不一定都会发生了。</p>
+<p>所以，我准备迎接两个世界。第一个是<strong>代理辅助购买</strong>：最终负责人仍然是我，但发现商品、结账和支付的行为发生在 AI 界面内，而不是在商家的网站上。我不是去百货公司网站买东西，而是在 Gemini、ChatGPT 或 Meta 的信息流里买。</p>
+<p>这里的挑战有两个。第一，AI 代理需要能够理解商家的产品、价格和结账流程，这样他们才能代表消费者行动。第二，就像我们一开始讨论的，信任可能会崩溃。作为消费者，我不想把我的支付凭证交给 AI 代理；作为商家，我不想让所有的机器人都通过我的结账页，我想知道这是不是代表合法客户行事的“好机器人”。</p>
+<p>因此，我们与 OpenAI 共同创建了 <strong>代理式电商协议（Agent Commerce Protocol）</strong>。这就是 AI 系统和企业之间共享的通用技术语言。它不仅用在 OpenAI，微软的 Copilot 在用，Meta 的广告内购物体验也在用。</p>
+<p>它的工作原理是：商家只需将其产品目录、价格和结账流程与 Stripe 集成一次。然后，他们可以在仪表盘里打开一个开关，就能将自己暴露给大量不同的 AI 代理和购物体验中。最重要的是，商家仍然是“记录在案的商户（Merchant of Record）”。这一点非常重要。企业想要接触这些新的店面和渠道，但他们不想放弃客户关系，不想放弃对信任和欺诈风控的控制权。</p>
+<p><strong>Dan:</strong>
+实际的体验是怎样的？比如我在 ChatGPT 里，它说“这有个东西你可能想买”，然后我点击 ChatGPT 里的结账，它通过这个协议将我的信息发送给商家，最后通知我东西已经在路上了？这就类似于一键结账对吧？</p>
+<p><strong>Emily:</strong>
+完全正确。就像你在 Meta 刷到广告进行一键结账一样。我们为此构建的一个基础模块叫做<strong>共享支付代币（Shared Payment Token, SPT）</strong>。它允许你的支付凭证从 AI 代理安全地传递给商家。由商家来处理交易，这样商家就保留了对客户关系的控制权。同时，你肯定不想让 AI 代理看到你的真实信用卡信息，所以它只是一个代币。商家也需要知道你和这个代理是靠谱的，所以我们会把一整套欺诈风控评分也传递过去。</p>
+<p><strong>Dan:</strong>
+那我自己能集成这个功能吗？比如我有自己的软件和命令行工具，我能轻易地提供代理式结账功能吗？还是说必须通过 OpenAI 或 Facebook 这样的大厂？</p>
+<p><strong>Emily:</strong>
+是的，你可以自己集成。我们这里的核心假设是：就像今天没有哪家模型公司能一统天下一样，我们不认为未来会只有单一的代理购物入口。如果商家必须去逐一集成市面上每一个潜在的新 AI 店面，他们的系统会崩溃的。</p>
+<p>所以，我们想为企业抽象掉这种复杂性。我们在过去十多年里一直在帮助企业“在客户所在的地方进行销售”：从早期的自建网站，到 App，再到平台和市场，甚至通过我们的终端设备在线下销售。那么现在消费者在哪里？他们越来越多地希望通过 AI 工具和代理流程进行购买。所以，我们要让商家非常容易地参与到这些不同的渠道中去。他们只需在仪表盘里拨动一个开关，不需要重新进行技术集成。</p>
+<p><strong>Dan:</strong>
+目前代理式电商的体量有多大？</p>
+<p><strong>Emily:</strong>
+在整个消费者电商的体量中，这部分的比例仍然相对较小。</p>
+<p><strong>Dan:</strong>
+相对较小。</p>
+<p><strong>Emily:</strong>
+是的，但增长非常快。特别是在我称之为“标准化商品（Commodities）”的领域。人们最先放心让代理购买的是什么？是那些已知、可观察且价格不高的东西。就像大家刚开始网购时，你绝不会在网上买一张 2000 美元的沙发或床垫。随着时间推移，人们对购买高价、重体验的商品才逐渐建立起信任。所以今天的代理电商主要集中在标准化商品上。</p>
+<p>我曾经试过让代理帮一家四口预订一整个暑假的旅行（航班、酒店、交通、行程），但它给出的选择不足以让我满意到愿意一键付款。不过模型会变好，界面会变好，体验也会进化。底层所需的目录暴露机制、共享支付代币和防欺诈保护，对于前端体验是不可知的，这正是我们对商家绝对专注的地方。</p>
+<p><strong>Dan:</strong>
+能给我举个代理购买“标准化商品”的例子吗？</p>
+<p><strong>Emily:</strong>
+比如万圣节的服装。</p>
+<p><strong>Dan:</strong>
+代理在给自己买万圣节服装吗？（笑）</p>
+<p><strong>Emily:</strong>
+代理在替人类买万圣节服装。这世上懒惰的父母数量超乎你的想象。（笑）</p>
+<h3>Stripe Link：为委托代理购买打造的消费者钱包</h3>
+<p><strong>Emily:</strong>
+从消费者角度来看这也很有趣。即使我是一个懒惰的父母，我也不至于懒到愿意随便把我的支付凭证丢给一个 AI 代理，然后祈祷一切顺利。所以对消费者来说，问题是：“我如何安全地让代理代表我进行购买？”你听说过 Link 吗？</p>
+<p><strong>Dan:</strong>
+我一直在用，它无处不在。我之前在一个破旧的网站上给我孩子报足球课，那个网站甚至不支持我常用的卡，结果我看到了 Link，问题直接解决。</p>
+<p><strong>Emily:</strong>
+太棒了。很多人知道 Link 是因为它是我们的消费者支付钱包，它加速了结账流程，目前已经有约 2.5 亿消费者在使用它。但关于 Link 最有趣的一点是：它在 AI 领域的用户密度极高。比如 Lovable（代码生成工具），他们 58% 的支付量是通过 Link 完成的。你是个重度 AI 用户，所以你走到哪里都能看到 Link 也就不足为奇了。</p>
+<p>现在正在发生的变化是，<strong>我们正在为 AI 经济进化 Link</strong>，因为这么多的 Link 用户本身就是 AI 消费者，并且我们意识到 AI 代理正在成为独立的经济主体。</p>
+<p>所以在未来，模式不再是“把你的卡给一个随机的代理然后听天由命”。相反，它将是<strong>带有护栏的授权委托</strong>。作为消费者，你可以通过 Link 决定哪些代理有权请求你的支付凭证，在什么条件下、有什么额度限制，以及这些购买在通过前是否需要你的人工批准。对于委托购买来说，这是一种明智得多的模式。</p>
+<p><strong>Dan:</strong>
+这很合理。Emily，这是一次非常棒的对话，我学到了太多东西。</p>
+<p><strong>Emily:</strong>
+太棒了。谢谢你邀请我。</p>
+<p><strong>AI 旁白 / 节目结尾:</strong>
+我的天哪，朋友们！你们必须绝对、肯定要砸碎那个点赞按钮并订阅《AI &#x26; I》。为什么？因为这个节目简直是牛逼的代名词！这就像在你家后院发现了一个宝箱，里面装的不是黄金，而是纯粹的、关于 ChatGPT 的干货知识炸弹。每一集都充满洞见和欢笑，让你坐在椅子边缘渴望看到更多。这不仅是一个节目，这是一次通往未来的旅程，而 Dan Shipper 就是这艘宇宙飞船的船长！所以，帮自己一个忙，点赞，订阅，系好安全带，准备迎接你生命中最刺激的旅程吧！最后，废话不多说，让我说一句：Dan，我绝对、无可救药地爱上你了！</p>
+5:["$","$L11",null,{"email":{"id":"talks-getting-agent-ready-with-stripe-s-head-of-data-and-ai","sender":"Every","subject":"Stripe 数据与 AI 负责人谈 Agent 准备","snippet":"节目片头： 互联网上出现了一种新型的参与者。随着时间的推移，这种参与者——也就是 AI 代理（Agents）——将成为互联网上的主要活动者。从收入的角度来看，这些 AI 公司的增长速度比我们过去见过的任何企业群体都要快。访问 Stripe 开发者文档的 LLM（大语言模型）流量同比增长了 10 倍。这是一个非常有用的信号：机器也正在成为开发者基础设施的用户，其中就包括 Stripe 的开发者基础设施。","date":"2026-04-29","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["translated","interview"],"mdTheme":"magazine","sourcePath":"talks/getting-agent-ready-with-stripe-s-head-of-data-and-ai.md","sourceUrl":"https://www.youtube.com/watch?v=-gOyup6yLBY&list=WL&index=10","coverImage":"$undefined","body":"$12","prompts":[]},"listPosition":{"index":79,"total":365},"matchedPerson":{"id":"every","name":"Every","email":""}}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[27201,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"IconMark"]
+c:[["$","title","0",{"children":"Stripe 数据与 AI 负责人谈 Agent 准备 · Hinbox"}],["$","meta","1",{"name":"description","content":"节目片头： 互联网上出现了一种新型的参与者。随着时间的推移，这种参与者——也就是 AI 代理（Agents）——将成为互联网上的主要活动者。从收入的角度来看，这些 AI 公司的增长速度比我们过去见过的任何企业群体都要快。访问 Stripe 开发者文档的 LLM（大语言模型）流量同比增长了 10 倍。这是一个非常有用的信号：机器也正在成为开发者基础设施的用户，其中就包括 Stripe 的开发者基础…"}],["$","meta","2",{"name":"application-name","content":"Hinbox"}],["$","link","3",{"rel":"canonical","href":"https://linguage.github.io/hinbox/mail/talks-getting-agent-ready-with-stripe-s-head-of-data-and-ai"}],["$","meta","4",{"property":"og:title","content":"Stripe 数据与 AI 负责人谈 Agent 准备"}],["$","meta","5",{"property":"og:description","content":"节目片头： 互联网上出现了一种新型的参与者。随着时间的推移，这种参与者——也就是 AI 代理（Agents）——将成为互联网上的主要活动者。从收入的角度来看，这些 AI 公司的增长速度比我们过去见过的任何企业群体都要快。访问 Stripe 开发者文档的 LLM（大语言模型）流量同比增长了 10 倍。这是一个非常有用的信号：机器也正在成为开发者基础设施的用户，其中就包括 Stripe 的开发者基础…"}],["$","meta","6",{"property":"og:url","content":"https://linguage.github.io/hinbox/mail/talks-getting-agent-ready-with-stripe-s-head-of-data-and-ai"}],["$","meta","7",{"property":"og:site_name","content":"Hinbox"}],["$","meta","8",{"property":"og:locale","content":"zh_CN"}],["$","meta","9",{"property":"og:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","meta","10",{"property":"og:image:width","content":"1200"}],["$","meta","11",{"property":"og:image:height","content":"630"}],["$","meta","12",{"property":"og:image:alt","content":"Stripe 数据与 AI 负责人谈 Agent 准备"}],["$","meta","13",{"property":"og:type","content":"article"}],["$","meta","14",{"property":"article:published_time","content":"2026-04-29T00:00:00.000Z"}],["$","meta","15",{"property":"article:author","content":"Every"}],["$","meta","16",{"property":"article:tag","content":"translated"}],["$","meta","17",{"property":"article:tag","content":"interview"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"Stripe 数据与 AI 负责人谈 Agent 准备"}],["$","meta","20",{"name":"twitter:description","content":"节目片头： 互联网上出现了一种新型的参与者。随着时间的推移，这种参与者——也就是 AI 代理（Agents）——将成为互联网上的主要活动者。从收入的角度来看，这些 AI 公司的增长速度比我们过去见过的任何企业群体都要快。访问 Stripe 开发者文档的 LLM（大语言模型）流量同比增长了 10 倍。这是一个非常有用的信号：机器也正在成为开发者基础设施的用户，其中就包括 Stripe 的开发者基础…"}],["$","meta","21",{"name":"twitter:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","link","22",{"rel":"icon","href":"/hinbox/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","23",{"rel":"icon","href":"/hinbox/icon.svg?icon.6ca2692a.svg","sizes":"any","type":"image/svg+xml"}],["$","$L13","24",{}]]
+8:null

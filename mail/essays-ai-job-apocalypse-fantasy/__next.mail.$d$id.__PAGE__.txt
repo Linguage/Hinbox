@@ -1,0 +1,164 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T8a66,<p><strong><a href="https://www.a16z.news/t/america">美国</a> | <a href="https://www.a16z.news/t/technology">科技</a> | <a href="https://www.a16z.news/t/opinion">观点</a> | <a href="https://www.a16z.news/t/culture">文化</a> | <a href="https://www.a16z.news/t/charts">图表</a></strong></p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!SU5S!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c68d5c7-8a95-49ea-9c12-8cf7f5f0f1a1_2920x10.png" alt=""></p>
+<p>人工智能危言耸听者关于“永久性底层阶级”的恐慌论调并不是一个有说服力的故事。它甚至都不是一个<em>新</em>故事。它只不过是换了新包装的<a href="https://www.stlouisfed.org/publications/page-one-economics/2020/11/02/examining-the-lump-of-labor-fallacy-using-a-simple-economic-model">“劳动总量固定”谬误（lump-of-labor fallacy）</a>。</p>
+<p>“劳动总量固定”谬误声称<em>需要完成的工作总量是固定的</em>。它假设现有工人与任何可能从事相同工作的人或事物（无论是其他工人、机器，还是如今的 AI）之间存在零和竞争。如果需要完成的有用工作总量是固定的，那么 AI 做的越多，人类必须做的就越少。</p>
+<p>这个前提的问题在于，它<strong>违背了我们对人类、市场和经济学的所有认知</strong>。人类的欲望和需求绝非固定不变。近一个世纪前，凯恩斯曾著名地预测自动化将导致每周只需工作 15 小时，但显然凯恩斯错了。他关于自动化创造“劳动力过剩”的判断是对的，但我们并没有袖手旁观、坐享其成，而是找到了新的、不同的生产活动来填补我们的时间。</p>
+<p>当然，AI 绝对会消除一些任务并压缩一些岗位（有证据表明这可能已经在发生了）。劳动力市场的形态将会改变，就像每次解锁变革性技术时一样。<strong>但是，声称 AI 将在全经济范围内造成</strong><em>永久性</em><strong>失业的说法，不仅是无益的营销噱头、糟糕的经济学，更是对历史的歪曲。</strong> 相反，生产力的提升应该会<em>增加</em>对劳动力的需求，因为劳动力变得更有价值了。</p>
+<p>以下是我们的论点。<sup><a href="#user-content-fn-1" id="user-content-fnref-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup></p>
+<h2>“人类，将军了？” 得了吧。</h2>
+<p>我们同意悲观主义者的观点——坦率地说，任何睁大眼睛的人都会同意——认知的价格正在崩溃。直到最近还被认为是人类大脑专属领域的事务，AI 现在做得越来越好。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!mobU!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fedde182f-f2ad-4e46-8f91-126b709212b1_2000x2020.png" alt=""></p>
+<p>悲观主义者的论调是：“如果 AI 能够替我们思考，那么人类的‘护城河’就会蒸发，我们的终极价值将归零。” <em>人类，将军了。</em> 显然，在他们看来，我们已经完成了所有需要或想要的思考，既然 AI 将承担越来越大比例的认知负荷，人类就会滑向被淘汰的边缘。</p>
+<p>但事实是：先例（和直觉）表明，当强大生产要素的成本下降时，经济绝不会礼貌地停滞不前。成本下降、质量上升、速度提高、新产品变得可行，同时需求会向外扩张。<sup><a href="#user-content-fn-2" id="user-content-fnref-2" data-footnote-ref aria-describedby="footnote-label">2</a></sup> 杰文斯悖论（Jevons Paradox）才是王道。当化石燃料首次使能源变得廉价和充足时，我们不仅让捕鲸者和伐木工失去了工作；我们还发明了塑料！</p>
+<p>与悲观主义者的观点相反，我们完全有理由期待 AI 也会产生类似的效果。既然 AI 将承担越来越大比例的认知负荷，人类就可以腾出手来，去攻克比以往任何时候都更有野心的新前沿。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!_0mK!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbcfd5896-e181-4956-ab6c-4a07491fcc86_2000x1784.png" alt=""></p>
+<p>如果以史为鉴，我们可以预期技术变革将把蛋糕做大。</p>
+<p>每一个“主导经济部门”都让位给了更庞大的继任者……而这反过来又使得经济体变得更加庞大。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!s5Xo!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F409c26f8-d234-41ae-a807-d04cc1213741_2000x1927.png" alt=""></p>
+<p>今天的科技业比以往的金融、铁路或工业都要庞大，但作为整个经济或市场的一部分，它仍然占比很小。<strong>生产力的提升绝非负和博弈，而是如同打了兴奋剂般的正和力量。</strong> 我们将大量工作委托给机器的最终结果是：经济和劳动力市场变得更加庞大、多样化和复杂。</p>
+<p>悲观主义者希望你无视创新史，将认知成本崩溃的瞬间定格，并把这当成整部电影的结局。他们只看到了任务替代，然后就停滞不前了。</p>
+<p>“<em>我们的认知产出将增加 10 倍，但我们不会进行更多的思考，而是摸摸吃饱的肚子提早去吃午饭，其他人也会这样做</em>”——这种想法不仅体现了想象力的巨大缺失，也是对基本事实观察的失败。悲观主义者称之为“现实主义”，但这从来都不是事实！</p>
+<h2>卢德分子（Luddite）的失败预言</h2>
+<p>让我们看看当生产力的大跃进席卷经济时，实际究竟发生了什么。</p>
+<h3>农业</h3>
+<p>在20世纪初农业机械化广泛普及之前，美国约有三分之一的就业人口从事农业。到2017年，这一比例约为 2%。</p>
+<p>如果自动化导致永久失业，拖拉机早就彻底摧毁劳动力市场了。但相反，农业产出增加了近两倍，支撑了人口的大幅增长——那些工人远未永久失业，而是涌入了以前无法想象的行业：工厂、商店、办公室、医院、实验室，并最终进入了服务业和软件业。</p>
+<p>所以，当然，你可以说技术颠覆了普通农场工人的职业前景，但在这样做的过程中，它释放了全球劳动力（和资源）盈余，并开启了一个全新的经济体。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!ujXp!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcbdfbc8a-9147-4e26-b93d-a1ae2f0a774d_2000x2157.png" alt=""></p>
+<h3>电气化</h3>
+<p>电力也讲述了类似的故事。</p>
+<p>电气化并没有仅仅是将一种动力源换成另一种。它用独立的电机取代了传动轴和皮带，迫使工厂围绕全新的工作流进行重组，并创造了全新的消费品和工业品类别。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!oFID!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06ddfcd3-13aa-47c4-8857-4b07e5a42876_2000x1645.png" alt=""></p>
+<p>正如卡洛塔·佩雷斯（Carlota Perez）在《技术革命与金融资本》中所记录的那样，这正是我们期望在技术革命的各个不同阶段看到的：庞大的前期投资和财务兴趣，耐用品成本的大幅下降，以及随后耐用品制造商长达一代人的繁荣期。</p>
+<p>电力发挥其生产力魔力需要时间。在20世纪初，美国只有 5% 的工厂使用电力驱动机器，只有不到 10% 的家庭通电。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!65ND!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6fcca7c5-a9e7-48ac-9c92-9e7291a95266_2000x1780.png" alt=""></p>
+<p>到1930年，电力提供了近 80% 的制造业动力，而且劳动生产率的增长在此后<em>几十年里</em>都翻了一番。</p>
+<p>更高的生产力非但没有摧毁劳动力需求，反而意味着更多的制造业、更多的销售人员、更多的贷款和更多的商业活动——更不用说洗衣机和汽车等节省劳力的设备的二阶效应了，这两者都吸引了更多人从事以前不可能实现的高价值工作。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!nwhI!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F010d620b-6d8b-462b-81f4-c2126d3b4ea9_2000x1447.png" alt=""></p>
+<p>随着汽车价格的下降，汽车产量和就业人数都出现了爆炸式增长。</p>
+<p><strong>这才是真正的通用技术所起的作用：它重组了经济，并拓展了有用工作的前沿。</strong></p>
+<p>我们一次又一次地看到这种情况。VisiCalc 和 Excel 电子表格软件让簿记员绝迹了吗？绝对没有。计算效率的大幅提升反而导致了簿记员（如今的各类财务）数量的激增，并创造了一个完整的 FP&#x26;A（财务规划与分析）行业。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!FVTF!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4375881a-86c9-4451-9b3c-c03d65d54f7d_2000x2102.png" alt=""></p>
+<p>我们失去了约 100 万名“簿记员”，但获得了约 150 万名“财务分析师”。</p>
+<h3>那些新的服务业岗位</h3>
+<p>当然，并非所有任务替代都会直接导致经济相邻领域的就业增长。有时，生产力盈余会体现为在一个完全不相关的行业中创造净新增岗位。</p>
+<p><em>但是，如果 AI 意味着一部分人会变得异常富有，而把其他人甩在后面呢？</em></p>
+<p>那么，至少，这些异常富有的人需要在某些地方花钱，从而从零开始创造全新的服务业，就像他们以前做的那样：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!7L6N!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2c8fdcd-72b2-412b-b0c0-b7a05ca57801_2000x1929.png" alt=""></p>
+<p>大规模的生产力提升和随之而来的财富创造，导致了全新的工作领域的出现（尽管这些工作在技术上早在 90 年代之前就是可行的，但如果没有收入的增加和可用劳动力的出现，它们可能永远不会成为现实）。无论人们对迎合富人的服务业有何感想，其最终结果是让每个人的境况都变得更好，因为更多的需求导致中位数工资大幅攀升（进而造就了更多的“富人”）。</p>
+<p>Stripe 的内部经济学家 Ernie Tedeschi <a href="https://www.stripeeconomics.com/p/the-decline-of-travel-agents">提供了一个迷人的“集大成”案例，展示了一个被技术颠覆、转型并重塑的职位：</a>旅行代理商。</p>
+<p>技术减少了对旅行代理商的需求吗？是的，绝对减少了：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!Q7hw!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F01772f00-47c1-41f0-885e-912d46eb102b_2000x1613.png" alt=""></p>
+<p>如今旅行社的工资总额大约是世纪之交时的一半，这几乎肯定是技术造成的。</p>
+<p>那么，这是否意味着技术是工作杀手？再次强调，不是。因为旅行代理商并没有永久失业。他们在经济体的其他部分找到了工作，从整体来看，如今的就业人口比例与2000年时（经老龄化调整后）大致相同。</p>
+<p>与此同时，对于那些留在已经由技术赋能的行业中的旅行代理商来说，提高的生产力意味着比以前<em>更高</em>的工资：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!x1TS!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4d5a73f-b64a-42a5-ae4c-2b6c1ffc8129_2000x1613.png" alt=""></p>
+<p>“在 2000 年的鼎盛时期，旅行社的平均周薪是整体平均周薪的 87%。到 2025 年，这一比例达到了 99%，<em>这意味着在这段时间里，旅行社的工资增速超过了私营部门的其他行业</em>。”</p>
+<p>因此，即便如此，虽然技术确实摧毁了大量的旅行代理岗位，但在总的来看，适龄劳动人口的就业率与以前一样高，而且剩下的旅行代理商过得比以往任何时候都好。</p>
+<h2>增强 > 替代（以及那些尚未出现的岗位）</h2>
+<p>最后一点非常重要，它反映了悲观主义者仅仅触及了故事的一小部分的另一种方式。</p>
+<p><strong>对于某些工作来说，AI 构成了生存威胁。这是事实。但对于其他工作来说，AI 是一个力量倍增器——这将使这些工作变得更有价值。</strong> 对于每一个面临 AI 替代风险的岗位，都有其他岗位于中受益：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!ildk!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7edd4eb1-eaea-4285-be99-91bf65560fba_2000x1490.png" alt=""></p>
+<p>高盛估计的“AI 替代”效应，被“AI 增强”的效应完全平衡甚至抵消了。</p>
+<p>顺便提一句，管理团队似乎也更加关注“增强”而不是“替代”：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!DIIU!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa19dd605-7633-43b3-a865-d18e5a8c190b_2000x2095.png" alt=""></p>
+<p>目前来看，在财报电话会议上，将 AI 视为“增强”的提及次数约为将其视为“替代”的 8 倍。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!Q4Ci!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F699be75c-6c7d-497b-8b05-5f77b1bf1df9_2190x150.png" alt=""></p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!SU5S!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c68d5c7-8a95-49ea-9c12-8cf7f5f0f1a1_2920x10.png" alt=""></p>
+<p>虽然高盛甚至没有将软件工程师列入他们的“增强”列表，但这很可能是 AI 增强角色的完美例子。</p>
+<p>AI 是编程的力量倍增器。不仅 git 提交量（push）在飙升（新应用和新成立的企业也在飙升），对软件工程师（SWE）的需求似乎也呈现出向上的拐点：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!b1hV!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb07802e5-1a56-4d6f-8f79-f54375788d4f_2000x1776.png" alt=""></p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!cBjF!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5e1acda4-3a24-425e-96b6-c72686705ffb_2000x1973.png" alt=""></p>
+<p>自 2025 年初以来，软件开发岗位（无论是数量还是占整体就业市场的百分比）一直在增加。</p>
+<p>这是因为 AI 吗？老实说，现在下结论可能还为时过早，但 AI 绝对增强了软件工程的工作，更不用说 AI 已经是每家公司每一位高管的首要议程。</p>
+<p>随着每个人都在试图弄清楚如何将 AI 融入他们的业务，为了实现这一目标，必然会进行大规模的招聘工作，这将使某些员工变得<em>更有</em>价值，而不是相反：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!ygxM!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84a328a7-1477-4794-9dfd-17f1b39ce2d7_2000x2045.png" alt=""></p>
+<p>AI 暴露度似乎正在推动高于趋势水平的工资增长（对于系统设计尤其如此）。</p>
+<p>这些收益目前可能有些局限，但一切都还处于非常、非常早期的阶段。随着专业知识的拓展，机会也会随之增加。无论如何，这些都不是悲观主义者希望你看到的数据。</p>
+<p>与此同时，根据 Lenny Rachitsky（<em>Lenny’s Newsletter</em>，最棒的科技圈内人社区之一）的数据，开放的产品经理（PM）职位持续攀升（已经摆脱了利率驱动下的崩溃），现在比 2022 年以来的任何时候都要多：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!T6RF!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F83e59bf4-dcf8-4276-88e4-1d1b2dad881a_2000x1841.png" alt=""></p>
+<p><strong>软件工程师和产品经理招聘的同步增长，就是驳斥“劳动总量固定”谬误的一个简明例子。</strong> 如果 AI 按 1:1 的比例替代人类思考，那么你可能会合理地预计：“产品经理需要更少的工程师”，或者反过来说“工程师需要更少的产品经理”，但这并不是我们看到的现象。我们看到对两者的需求都在反弹，因为最重要的是：人们正在完成更多的工作。</p>
+<p>这就是为什么说悲观主义者的失败主要是想象力的失败。他们只关注被自动化取代的任务，而忽略了将创造出我们甚至尚未构想出的新工作的前沿需求：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!ZUav!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e8b9310-4215-4454-ba03-14433fe9db93_2000x1904.png" alt=""></p>
+<p>自 1940 年以来创造的大多数新工作在 1940 年根本不存在。同样在 2000 年，人们很容易想象所有旅行代理商都会失业，但要想象围绕“云迁移”建立一整个中间市场技术服务行业可能要困难得多，因为那时候，云计算的概念还要等十多年才会普及。</p>
+<h2>目前的“记分牌”显示了什么？</h2>
+<p>到目前为止，我们主要关注理论和先例，因为理论和先例都支持乐观派：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!ZrZw!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3457245-49a5-4c91-a5d2-ecac08a4a460_528x122.png" alt=""></p>
+<p>这是事实。随着生产力的每一次解锁，我们都会看到需求的增加，和/或盈余向经济体其他部分的重新分配。这意味着会有更多的工作，包括一大批变得更有价值的工作，以及更多我们至今闻所未闻的工作。如果这次真的会有所不同，悲观主义者必须拿出比疯狂挥舞手臂更具说服力的证据。</p>
+<p>“工作替代”并不是文明的毁灭者（实际上恰恰相反），这是合乎逻辑的。人类的本性是不甘平庸的。我们完成了一项工作，就会去寻找下一项。</p>
+<p>但是，抛开理论和先例不谈，关于 AI 和就业，实际数据到底显示了什么？需要注意的是，现在还处于早期阶段（无论好坏），<strong>总体数据并不支持悲观主义者的主张。如果非要说有什么不同的话，数据显示“无论好坏，均无净变化”，但也有新兴数据指向另一个方向：AI 更多的是岗位创造者，而不是岗位剥夺者。</strong></p>
+<p>首先，让我们从一些学术研究开始——这不是详尽的文献综述，只是近期论文的抽样：</p>
+<ul>
+<li><a href="https://www.nber.org/system/files/working_papers/w34984/w34984.pdf">人工智能、生产力与劳动力：来自企业高管的证据（NBER 工作论文 34984）：</a> “综合来看，这些结果表明，虽然 <em><strong>AI 的采用尚未导致总就业人数发生有意义的变化</strong></em>，但它已经开始重塑企业内部任务和职业的分配。特别是，常规的文书和行政活动似乎更容易被替代，而分析、技术和管理任务则更多地被描述为与 AI 互补。”</li>
+<li><a href="https://www.atlantafed.org/-/media/Project/Atlanta/FRBA/Documents/research/publication/working-paper/2026/03/24/03-firm-data-on-ai.pdf">关于 AI 的企业数据（亚特兰大联邦储备银行工作论文 2026-3）：</a> “在四项调查中，<em><strong>平均有超过 90% 的企业估计在过去三年中没有受到影响</strong></em>。” <sup><a href="#user-content-fn-3" id="user-content-fnref-3" data-footnote-ref aria-describedby="footnote-label">3</a></sup>
+<img src="https://substackcdn.com/image/fetch/$s_!Tdqs!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F78942112-5ce3-499a-819a-540b27c52557_1999x899.png" alt=""></li>
+<li><a href="https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-25.pdf">AI 扩散的微观结构：来自企业、业务功能和工人任务的证据（人口普查局经济研究中心，工作论文 CES 26-25）：</a> “<em><strong>由 AI 驱动的就业变化情况仍然很低</strong></em>，只有约 5% 使用 AI 的公司报告了对员工人数的任何影响——并且<em><strong>在增加（2.3%按企业加权，3.7%按就业加权）和减少（2.0%按企业加权，2.4%按就业加权）之间的分布几乎相等</strong></em>。”
+<img src="https://substackcdn.com/image/fetch/$s_!2zmM!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F780a85a4-ffc5-4798-a6d2-33c8c8a032d5_1999x631.png" alt=""></li>
+<li><a href="https://budgetlab.yale.edu/research/tracking-impact-ai-labor-market">追踪 AI 对劳动力市场的影响（耶鲁预算实验室，2026 年 4 月 16 日）</a>： “虽然人们对 AI 对当今劳动力市场影响的焦虑普遍存在，但我们的数据表明，这在很大程度上仍是推测性的。<em><strong>从我们的数据中反映出的 AI 对劳动力市场的影响，在很大程度上体现为稳定性</strong></em>，而不是在整个经济层面造成了重大破坏。”</li>
+</ul>
+<p>你懂的。近期研究中反复出现的主调是“净影响无变化，但在工作和任务之间存在重新分配的证据”。在某些案例中，实施 AI 对招聘的净效应甚至是<em>积极的</em>。</p>
+<p>“无变化”的说法有一个值得注意的例外。研究人员在<a href="https://digitaleconomy.stanford.edu/app/uploads/2025/12/CanariesintheCoalMine_Nov25.pdf">斯坦福大学</a>、<a href="https://www.dallasfed.org/research/economics/2026/0106">达拉斯联邦储备银行</a>和<a href="http://leetucker.net/docs/Youre_not_hired_Tucker_20260417.pdf">人口普查局</a>（在不同程度上）都发现，具有高“AI暴露度”的入门级职位变得越来越难找。然而，在任何人得出“AI 正在抹杀入门级工作”的结论之前，有必要指出，这些研究人员也不同程度地发现，在 AI 具有增强作用（以及 AI 根本没有影响）的领域，入门级职位反而增加了。</p>
+<p>但是，即使我们暂时假设 AI 正在“扼杀”某些入门级岗位（与更广泛的周期性招聘趋势以及“<a href="https://www.a16z.news/i/191479972/1-its-a-tough-job-market-for-young-people-knowledge-worker-or-otherwise">原地变老 / aging in place</a>”效应区分开），在更大的格局下，数据非常清楚地表明<em>AI对就业的总体影响基本为零。</em><sup><a href="#user-content-fn-4" id="user-content-fnref-4" data-footnote-ref aria-describedby="footnote-label">4</a></sup></p>
+<p>这可能是关于 AI 对就业影响的“记分牌”中最简洁的观点：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!j4nJ!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9ed44d61-af56-4b7c-a762-15cfc38e272f_2000x2341.png" alt=""></p>
+<p>“AI 与失业率或就业增长之间仍然没有显著的统计学关联。”</p>
+<p>可能存在向 AI 增强角色的吸引，以及来自 AI 替代角色的排挤：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!Q5If!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e31a40f-98d0-4e30-b722-f09514e7c57c_2000x1688.png" alt=""></p>
+<p>“AI增强”行业的招聘增长似乎更强劲（失业率更低），而“AI替代”风险较高的行业则相反。</p>
+<p>换句话说，总体情况呈中性，但并非毫无波澜：既有一些岗位的毁灭，也有<a href="https://www.wsj.com/tech/ai/wanted-head-of-human-ai-solutions-the-new-jobs-being-created-by-ai-870c6ed5">一些岗位的创造</a>，一些工作被边缘化，而另一些工作现在享有了溢价。<sup><a href="#user-content-fn-5" id="user-content-fnref-5" data-footnote-ref aria-describedby="footnote-label">5</a></sup> 按照这个速度，开发人员的招聘启事数量将在不到两年内超过疫情前的水平。AI 甚至可能已经<a href="https://www.a16z.news/i/178191607/sf-office-is-so-back">单枪匹马拯救了旧金山的办公楼市场</a>。</p>
+<p>这就是我们最初的论点：AI 绝对会抹杀和/或压缩一些职位（和企业），但如果认为这就是故事的结局，那就大错特错了。劳动力市场的重组（并最终实现增长）——而不是大规模失业——正是我们对变革性技术应有的预期。这种情况以前发生过，几乎可以肯定它会再次发生（而且看起来已经开始了）。</p>
+<h2>知识工作才刚刚开始</h2>
+<p>听起来像陈词滥调，但这是事实：这不是知识工作的终点——如果非要说的话，这只是一个开始。</p>
+<p><strong>自动化剥离了重复性的层次，将人类工作推向了价值链的更高层。原因很简单：人类渴望扩张！</strong> 当某个层面的稀缺性被消除时，人们就会向上移动到下一个层面。当食物变得更便宜时，我们会在住房、医疗、教育、旅行、娱乐、便利、宠物、安全、美容和长寿上投入更多。</p>
+<p>同样的事情也发生在劳动力市场上。新工作不断涌现，因为人类的雄心壮志永不停歇，征服了旧的边界就会发现需要征服的新边界。</p>
+<p>新企业的成立<em>已经</em>出现了爆炸式增长，而且与 AI 的采用有相当不错的相关性：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!76n3!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F24939f2e-6aac-4beb-b013-83d34c0d9641_2000x2088.png" alt=""></p>
+<p>新应用以惊人的同比增长（60%）登陆应用商店：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!jZcT!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa129cf25-4c33-4728-ad97-2518f4af14b7_2000x3287.png" alt=""></p>
+<p><strong>我们没有任何理由将现代经济视为某种陈列着昨日岗位的博物馆。</strong> 相反，它是一台创造性的分配机器，一直在促成新工作、新任务、新目标和新发明的诞生。</p>
+<p>机器人技术的大部分内容曾经被认为是科幻小说，因为在动态环境中的计算需求太高了。但 AI 正在将一个全新的机器人行业带入我们的视野：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!ogIi!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbd731c35-1bec-4a7f-a756-82ff7c03b149_2000x1843.png" alt=""></p>
+<p>机器人数据集呈爆发式增长，在短短两年内从排名第十跃升至第一。</p>
+<p>在这个领域存在着海量的机器人相关工作，以前根本没人需要它们，直到 AI 解锁了这种需求。</p>
+<p>重申一遍，这并不意味着所有角色都能完好无损地存活。美国劳工统计局（BLS）预计客户服务代表和医疗记录员的数量将会下降，也许这种下降已经在进行中：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!ffgJ!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff3512c76-35ed-4b10-bdf9-a4a72e8eefbb_2000x1613.png" alt=""></p>
+<p>一些工作将会消失，另一些将会萎缩。会有调整和痛苦的过渡期，生产力收益可能需要一段时间才能以断断续续的方式渗透到整个经济体中。我们应该对这些变化保持同理心，并倾注精力使这一过程尽可能顺利，其中就包括积极开展职业再培训（这也是 a16z 引以为豪并支持的一项倡议）。</p>
+<p>生产力的初衷是为了消除苦役，而这一次它同样会做到这一点。但是，只有当你假设人类的欲望和想法在智能变得廉价的那个确切时刻突然冻结时，“AI 导致失业末日”的论点才能成立。这是荒谬的。我个人拒绝接受《机器人总动员》（Wall-E）里的梗图，我想我不是唯一的一个：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!Hov5!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdb0a7c66-110d-4093-bc1a-ae9afb5f8892_602x301.png" alt=""></p>
+<p>宏观故事的结局绝不是一个没有工作的未来，不是我们变得肥胖且自满，只能瘫坐在电动椅上看 Netflix。</p>
+<p>未来属于更廉价的智能、更大的市场、新公司、新行业，以及更高阶的人类工作。从来就不存在固定不变的工作总量，更不存在固定不变的认知总量。AI 不是工作的终结。它是丰富智能的开始。</p>
+<p>LFG！（冲锋吧！）</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!x83d!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbdfa26cc-8980-41ca-a3bb-7ece793bed5b_3098x158.png" alt=""></p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!SU5S!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c68d5c7-8a95-49ea-9c12-8cf7f5f0f1a1_2920x10.png" alt=""></p>
+<p><em>本简报仅供参考之用，不应被用作或依赖于法律、商业、投资或税务建议。此外，本内容并非投资建议，也不得供任何投资者或潜在投资者用于 a16z 管理的任何基金。本简报可能链接到其他网站或包含从第三方来源获取的其他信息——a16z 未独立验证，也不对这些信息的当前或持久准确性做出任何陈述。如果本内容包含第三方广告，a16z 尚未审查此类广告，且不为其包含的任何广告内容或相关公司背书。所提及、参考或描述的任何投资或投资组合公司并不能代表 a16z 管理的所有投资载体；请访问 <a href="https://a16z.com/investment-list/">https://a16z.com/investment-list/</a> 获取完整投资组合名单。其他重要信息可参阅 <a href="http://a16z.com/disclosures">a16z.com/disclosures</a>。由于您之前选择订阅，故收到本简报；如果您想拒收未来的通讯，可以随时退订。</em></p>
+<section data-footnotes class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes</h2>
+<ol>
+<li id="user-content-fn-1">
+<p><a href="https://pmarca.substack.com/p/why-ai-wont-cause-unemployment">马克·安德森（Marc Andreessen）之前写过相关文章</a>，但考虑到当前的讨论语境，我们认为现在是时候进行一次更新了。 <a href="#user-content-fnref-1" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-2">
+<p>当然也有例外。对于某些事物来说，需求的外部极限是受限的，更高的生产力会降低成本，但不会导致更多的产出。例如，一个人能拥有的智能手机数量是有限的。我们从没有汽车，迅速发展到 1 辆车、2 辆车……但一个家庭拥有 3 辆车可能就显得多余了。在这种情况下，悲观主义者的假设必须是，我们已经达到了“认知需求”的外部极限。但看看我们在机器人技术、太空探索、生物技术甚至基础政策研究等方面尚未征服的广阔前沿，这种假设简直荒谬到了侮辱人智商的地步。 <a href="#user-content-fnref-2" data-footnote-backref="" aria-label="Back to reference 2" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-3">
+<p>虽然公允地说，对就业影响的<em>预期</em>仍基本为零，但整体呈偏向下行的趋势。 <a href="#user-content-fnref-3" data-footnote-backref="" aria-label="Back to reference 3" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-4">
+<p>最近的数据显示，入门级职位的受损情况似乎正在恢复。年轻软件工程师的失业率已经回归到趋势水平（这意味着被裁员的人在其他地方找到了工作）。虽然非大学学历群体的求职变得更难了，但大学学历群体的求职却变得更容易了（如果 AI 真在自动化抹杀入门级知识工作，情况理应完全相反）。 <a href="#user-content-fnref-4" data-footnote-backref="" aria-label="Back to reference 4" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-5">
+<p>实际上，总体就业情况并非完全中性——关于“AI 暴露度”和“AI 采用率”的影响基本呈中性——但到目前为止，AI 可能是一个净岗位创造者。高盛（或其他引用的研究）都没有将 AI 资本支出（Capex）创造的大量“蓝领（安全帽）”工作计算在内：</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!FOO-!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff8ebef67-32b0-43d4-aaa6-cdc2f7b170bf_2000x2085.png" alt=""></p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!fuJY!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F177f41fc-d61f-43ec-8e93-7d1e42a4ec51_4000x1987.png" alt=""></p>
+<p>数据中心的建设（以及万物的电气化）创造了对熟练技术工种的大规模需求，预计这种需求至少会持续到本世纪末。</p>
+<p>抛开 AI 对劳动力市场的长期影响不谈，AI 资本支出的巨大规模使得 AI 目前成为了一个不折不扣的岗位创造者。有很好的理由认为，AI 资本支出就是当下的经济大周期，除了医疗保健行业之外，它是市场上唯一的岗位创造引擎。 <a href="#user-content-fnref-5" data-footnote-backref="" aria-label="Back to reference 5" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"essays-ai-job-apocalypse-fantasy","sender":"David George","subject":"AI 工作末日论是幻想","snippet":"文章反驳 AI 将造成永久性大规模失业的悲观叙事，指出这种论调忽视了技术降本、需求扩张和经济结构演化的历史规律。","date":"2026-05-06","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["translated","ai","labor","economics"],"mdTheme":"magazine","sourcePath":"essays/ai-job-apocalypse-fantasy.md","sourceUrl":"https://www.a16z.news/p/the-ai-job-apocalypse-is-a-complete?triedRedirect=true","body":"$3","prompts":[]},"listPosition":{"index":60,"total":365}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

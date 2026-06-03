@@ -1,0 +1,300 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:Tb04b,<h1>访谈概述</h1>
+<p>本次访谈由知名播客博主 Ryan Peterman 对话图灵奖得主、数据库领域的泰斗级人物 Mike Stonebraker。在访谈中，Mike 回顾了他早年开发 Ingres 和 Postgres 数据库的传奇经历，分享了 Postgres 是如何通过“可扩展类型系统”脱颖而出的。他直言不讳地批评了行业巨头，包括早年甲骨文（Oracle）创始人 Larry Ellison 的商业手段，以及强烈质疑 Google 曾经推崇的 MapReduce 和“最终一致性”架构，并指出 Amazon 支持过多数据库系统是缺乏效率的表现。</p>
+<p>此外，Mike 详细介绍了他的最新创业项目 DBOS（将操作系统状态迁移到数据库中以实现高可靠性），并分享了他在数据库未来发展方向上的独到见解。他指出，目前的大语言模型（LLM）在解决真实企业级数据仓库的 Text-to-SQL（文本转SQL）问题时表现极差（准确率为0%），并强调了在未来“代理式AI（Agentic AI）”时代，数据库事务处理能力的重要性。最后，他对年轻人提出了职业建议，直言计算机科学可能不再是一个高增长行业。</p>
+<h1>专用词语翻译列表</h1>
+<table>
+<thead>
+<tr>
+<th align="left">英文原词</th>
+<th align="left">中文翻译</th>
+<th align="left">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Turing Award</td>
+<td align="left">图灵奖</td>
+<td align="left">计算机界的最高荣誉</td>
+</tr>
+<tr>
+<td align="left">Postgres / Ingres</td>
+<td align="left">Postgres / Ingres</td>
+<td align="left">Mike主导开发的著名数据库系统</td>
+</tr>
+<tr>
+<td align="left">Query optimizer</td>
+<td align="left">查询优化器</td>
+<td align="left">数据库系统的核心组件</td>
+</tr>
+<tr>
+<td align="left">Relational database</td>
+<td align="left">关系型数据库</td>
+<td align="left">基于关系模型的数据库</td>
+</tr>
+<tr>
+<td align="left">Schema</td>
+<td align="left">模式 / Schema</td>
+<td align="left">数据库的结构定义</td>
+</tr>
+<tr>
+<td align="left">Codasyl / IMS</td>
+<td align="left">Codasyl / IMS</td>
+<td align="left">早期的网状数据库和层级数据库标准/产品</td>
+</tr>
+<tr>
+<td align="left">Referential integrity</td>
+<td align="left">引用完整性</td>
+<td align="left">保证数据库外键关联正确性的机制</td>
+</tr>
+<tr>
+<td align="left">GIS (Geographic Information System)</td>
+<td align="left">地理信息系统</td>
+<td align="left">用于处理空间数据的系统</td>
+</tr>
+<tr>
+<td align="left">Extensible type system</td>
+<td align="left">可扩展类型系统</td>
+<td align="left">Postgres的核心创新之一</td>
+</tr>
+<tr>
+<td align="left">Column store / Row store</td>
+<td align="left">列式存储 / 行式存储</td>
+<td align="left">不同的数据物理存储方式</td>
+</tr>
+<tr>
+<td align="left">SIMD (Single Instruction Multiple Data)</td>
+<td align="left">单指令流多数据流</td>
+<td align="left">现代GPU和CPU的一种并行计算架构</td>
+</tr>
+<tr>
+<td align="left">B-tree</td>
+<td align="left">B树</td>
+<td align="left">数据库中最常用的索引结构</td>
+</tr>
+<tr>
+<td align="left">MapReduce</td>
+<td align="left">MapReduce</td>
+<td align="left">Google提出的大数据分布式计算框架</td>
+</tr>
+<tr>
+<td align="left">Eventual consistency</td>
+<td align="left">最终一致性</td>
+<td align="left">分布式系统的一种弱一致性模型</td>
+</tr>
+<tr>
+<td align="left">Text-to-SQL</td>
+<td align="left">Text-to-SQL / 文本转SQL</td>
+<td align="left">利用AI将自然语言转化为SQL查询</td>
+</tr>
+<tr>
+<td align="left">RAG (Retrieval-Augmented Generation)</td>
+<td align="left">检索增强生成</td>
+<td align="left">结合外部知识库提升LLM准确性的技术</td>
+</tr>
+<tr>
+<td align="left">Agentic AI</td>
+<td align="left">代理式AI</td>
+<td align="left">具备自主执行流程能力的AI智能体</td>
+</tr>
+<tr>
+<td align="left">The Pile</td>
+<td align="left">训练数据集 (The Pile)</td>
+<td align="left">指代训练大语言模型的庞大开源文本数据集</td>
+</tr>
+<tr>
+<td align="left">Materialized views</td>
+<td align="left">物化视图</td>
+<td align="left">预先计算并保存结果的数据库视图</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<figure class="video-embed video-embed--youtube">
+  <div class="video-embed__frame">
+    <iframe src="https://www.youtube.com/embed/YPObBOwIrHk" title="Turing Award Winner: Postgres, Disagreeing with Google, Future Problems | Mike Stonebraker" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+  <figcaption class="video-embed__caption">Turing Award Winner: Postgres, Disagreeing with Google, Future Problems | Mike Stonebraker</figcaption>
+</figure>
+<h1>访谈译文</h1>
+<h2>片头预告</h2>
+<p><strong>Mike Stonebraker：</strong> 计算机科学在未来可能很可能不再是一个高增长行业了。</p>
+<p><strong>Ryan Peterman：</strong> 这位是 Mike Stonebraker。他是图灵奖得主，因对数据库系统做出基础性贡献而闻名，例如创建了 Postgres 等。在那其中最困难的部分是什么？</p>
+<p><strong>Mike Stonebraker：</strong> 查询优化器。它在算法上就是非常困难。</p>
+<p><strong>Ryan Peterman：</strong> 您如何识别那些“不够聪明”的人？</p>
+<p><strong>Mike Stonebraker：</strong> 这一看就知道了。</p>
+<p><strong>Ryan Peterman：</strong> 结合他的经验，他在我们的基准测试上分享了有趣的技术观点：大语言模型的得分为 0%。那么，您为什么如此不认同 MapReduce 呢？</p>
+<p><strong>Mike Stonebraker：</strong> Google 做的蠢事可不止这一件。</p>
+<p><strong>Ryan Peterman：</strong> 我很好奇您对数据库中未解决的问题有什么看法，以及您认为未来会是什么样子。以下是完整剧集。</p>
+<h2>踏入数据库领域的契机</h2>
+<p><strong>Ryan Peterman：</strong> 我首先想了解的是 Postgres 是如何起步的。但在此之前，我想先从源头说起：您是如何开始构建数据库系统的？</p>
+<p><strong>Mike Stonebraker：</strong> 我毕业时很幸运地被伯克利大学聘用了。当时很明显，我必须做点什么，因为无论是当时还是现在，如果仅仅继续我博士期间的研究，是不会有什么出路的。如果你能被一位熟悉门道的导师收归门下，你会领先很多。</p>
+<p>所以，当时 Gene Wong（他现在依然健在且精神矍铄）收我为徒，他说：“我们一起做点什么吧。”那是 1971 年，也就是 Ted Codd 在《ACM通讯》（CACM）上发表那篇开创性论文（注：关系数据库模型的奠基之作）的第二年。Gene Wong 说：“那我们来看看数据库相关的东西吧。”</p>
+<p>当时市面上的竞争对手是一个叫做 Codasyl 的提案，你可能太年轻了没听说过。那是一个底层的、像意大利面条一样错综复杂的网状结构提案，你必须通过跟踪指针来执行查询。另一个替代方案是 IBM 的提案，一个叫做 IMS 的系统，它至今仍在使用，采用的是层级数据结构，也就是树状结构——你把数据组织成树。即使在当时，IBM 也意识到树状结构不够通用，无法解决很多人的问题，所以他们强行加入了一种糟糕的破解方法，让它变成一种受限的网状结构。</p>
+<p>很明显，那是个糟糕的补丁。而 Codasyl 提案有一堆糟糕的特性。除了层次太低且极其难以调试之外，它还有一个特点：如果你在今天所谓的“Schema（模式）”中改变了任何东西，你基本上必须扔掉所有东西重新再来，因为它绝对是根植于物理层的。</p>
+<p>相比之下，Ted Codd 的理论完全说得通。所以 Gene 说：“那我们就造一个这玩意儿吧。这显然是下一个值得尝试的方向。”</p>
+<p>于是，我们在 1972 年开始构建 Ingres，当时我还是伯克利的助理教授。如你所知，如果你是助理教授，你有大约五年的时间来证明自己是个“大人物”，否则他们要么解雇你，要么给你终身教职。所以，Ingres 是我获得终身教职的门票，这在 1976 年实现了。这就是一切的起点。</p>
+<p>然后，这也是机缘巧合。在当时，很多人会构建一些像是“学生作业”一样的原型代码，这意味着你可以让它跑起来，但如果你把它交给别人，别人根本运行不了。所以我们投入了前 90% 的精力弄出了一个能跑的东西，然后出于某种原因，我们又投入了后 90% 的精力，把它优化到了真正能稳定工作的程度。</p>
+<p>所以加州大学版本的 Ingres 是真正能用的。在接下来的几年里，大约有 100 所大学开始运行它，因为 Unix 当时成了大热门，而这就是一个可以在 Unix 上运行的免费数据库系统。它在学术界非常受欢迎。</p>
+<p>因此，我们开始接待大量来伯克利拜访的人，他们会说：“天哪，这东西看起来太棒了，你们最大的 Ingres 应用程序是什么？”我们不得不承认：“没多大。”</p>
+<p>当亚利桑那州立大学考虑在他们的学生档案数据（总共 4 万名学生）上运行 Ingres 时，这一点被暴露无遗。他们可以克服必须从贝尔实验室获取一个不受支持的操作系统的困难，也可以克服必须运行伯克利这帮家伙开发的不受支持的数据库系统的困难。但是当他们发现 Unix 上没有 COBOL 语言可用时，整个项目就泡汤了，因为他们是一个完全使用 COBOL 的团队。</p>
+<p>不受支持的操作系统、不受支持的数据库系统，再加上没有 COBOL，注定了我们会变得无关紧要。很明显，摆脱这个困境的唯一方法就是创立一家公司。所以在 1980 年，我们获得了当时所谓的风险投资，成立了 Ingres 公司，将 Ingres 移植到 DEC 的 VMS 上——那是一个真正的操作系统。我们拥有了一家能够为 Ingres 提供技术支持的真正公司，这就是我们商业之旅的起点。</p>
+<h2>与 Oracle 竞争</h2>
+<p><strong>Ryan Peterman：</strong> 我看到 Ingres 当时在与 Larry Ellison（拉里·埃里森）的 Oracle 竞争。我也看到，虽然 Ingres 提供的产品肯定比他们的更好，但他们还是在以某种方式竞争。他们是怎么竞争的？</p>
+<p><strong>Mike Stonebraker：</strong> Larry Ellison 是个出色的推销员。当时，他会把现在时和将来时混为一谈，所以他基本上是在对客户撒谎。他会把不能正常工作的产品卖出去，然后让他的首批客户帮他调试。所以我认为他采用了我看来非常阴险的商业手段。向客户撒谎我认为是不可理喻的。</p>
+<p>举个例子，数据库里有一个叫做“引用完整性（Referential Integrity）”的东西。如果你解雇了一名员工，而他是某个部门的最后一个人，你是想删除这个部门，还是让它变成一个“幽灵部门”？就是这类问题。当时，Ingres 公司实现了引用完整性。而 Oracle 公司则是写了两页使用手册，说明了大家都认可的引用完整性的定义，然后在页面最底部写着：“尚未实现”。</p>
+<p><strong>Ryan Peterman：</strong> 有意思。我采访过一个曾在 Sun Microsystems 工作的人，他对 Larry Ellison 也有类似的看法，觉得他有点阴险。这似乎是一个共识。我还看到您在其他地方提到过，当 Oracle 收购 MySQL 时，每个人都感到害怕，于是纷纷转向 Postgres。这是 Postgres 取代 MySQL 成为首选开源关系型数据库系统的起源。</p>
+<h2>Postgres 的特别之处</h2>
+<p><strong>Ryan Peterman：</strong> 您创建了 Ingres，里面有很多技术创新，使它比现有的系统更好，但最终它还是被淘汰了，然后您开发了 Postgres。Ingres 没有做而 Postgres 做到了的事情是什么？</p>
+<p><strong>Mike Stonebraker：</strong> 最开始指导我们的最大动机是，学术版 Ingres 的最初构想，是为了支持邻近教授 Pine Veriah 想要的一个地理信息系统（GIS）。为了支持 GIS 系统，你需要点、线、多边形、线组等数据类型。</p>
+<p>显然，Ingres 做不到这一点。因为我们放入 Ingres 的数据类型是标准的整数、浮点数、文本字符串，你无法在此基础上高效地支持 GIS 数据类型。因此，作为一个 GIS 系统，学术版 Ingres 是彻底失败的。这件事一直留在我们的脑海里。</p>
+<p>另外一件事（虽然在时间线上有些跳跃，但有助于说明问题），大约在 1985 年左右，商业版 Ingres 遇到了一个情况。当时 ANSI 刚刚为关系型数据库提出了日期和时间的标准，所以商业版 Ingres 使用标准的公历实现了日期和时间功能。当时我既参与商业版 Ingres 的工作，同时也是加州大学的教授。</p>
+<p>我接到了一个 Ingres 客户的电话，他说：“你们把日期和时间搞错了。”我说：“啊？我们实现了公历，你可以做减法。除了二月和闰年，每个月都有 30 或 31 天。所以日期的减法完全符合你的预期。”</p>
+<p>但他回答说，在他所处的行业里这不是他想要的。他处理的是债券等金融工具。出于某种原因，在他的金融债券上，不管那个月有多少天，每个月能获得的利息是一样的。</p>
+<p>所以，他有购买债券的日期和出售债券的日期。他想要做减法，乘以票面利率，然后计算出支付的利息。但是在他的减法定义里，3月15日减去2月15日等于30天，因为这就是他那种日历的定义。</p>
+<p>由于 Ingres 是硬编码的公历，他不得不把两个日期提取到用户代码中，在用户代码里做减法，然后再把答案放回去，这导致他的效率降低了两三倍。他说：“为什么我不能用我想要的逻辑重载（Overload）你们的减法定义呢？”</p>
+<p>问题就在于，这是一个需要“债券时间”的场景，就像需要点、线、多边形一样。因此，Postgres 的架构设计是为了拥有一套<strong>可扩展的类型系统（Extendable type system）</strong>。这样你就可以拥有任何你想要的数据类型，并且它们运行起来非常高效，这就是 Postgres 的核心精髓——灵活性。</p>
+<p>如你所知，在商业数据处理中，大多数人对标准数据类型很满意，但关系型数据库开始扩展到各种其他领域。所谓的“抽象数据类型（Abstract data types）”或“存储过程（Stored procedures）”（有很多叫法）具有巨大的适用性。这正是 Postgres 最大的亮点。</p>
+<p>我们还在 Postgres 中支持了当时 AI 领域人员想要的“继承（Inheritance）”特性。我们也支持了“时间旅行（Time travel）”特性，但这部分的实现简直糟透了，过了一段时间就被移除了。总而言之，Postgres 里面有大量非常精妙的设计。</p>
+<p><strong>Ryan Peterman：</strong> 您提到过您想雇佣杰出的软件工程师，而且您也说过，找到这些人对您来说毫无困难。在招聘时，您是如何识别出那些杰出人才的？</p>
+<p><strong>Mike Stonebraker：</strong> 这通常很明显。我对事情的难度有很好的直觉。如果他们在学校里完成的工作量是我认为合理预期工作量的三倍，那么他们就是不可思议的。</p>
+<p><strong>Ryan Peterman：</strong> 另一方面，您有一句有趣的名言，我把它记下来了。您说：“我受不了那些不怎么聪明的人。和他们交流很费劲。”您是如何识别那些不聪明的人的？</p>
+<p><strong>Mike Stonebraker：</strong> 这个非常容易。你和他们交谈，很快就能看出他们是否聪明。“你的硕士论文写的是什么？你具体做了什么？这具体是怎么运作的？你是如何处理错误情况的？你有多少个进程？你为什么不使用线程？”你只需要问他们这些深入的技术问题就知道了。</p>
+<h2>万能药的谬误 (One size fits none)</h2>
+<p><strong>Ryan Peterman：</strong> 您做过一次演讲，背后也有一篇论文，提出了这样一个观点：“一刀切（One-size-fits-all）”的数据库系统并非最优解，“一刀切其实什么都不适配（One size actually fits none）”，你真正需要的是针对特定需求的数据库解决方案。那么您认为当今市面上有哪些号称“一刀切”的数据库产品？</p>
+<p><strong>Mike Stonebraker：</strong> 2004 年我写那篇论文时，我们有一个学术项目，后来变成了 StreamBase。流处理引擎看起来和关系型数据库完全不同。当时我们还有了一个用于数据仓库的列式存储的想法（后来被 Vertica 普及），它看起来和行式存储也完全不同。</p>
+<p>所以，这里有三个截然不同的架构实现，彼此之间毫无相似之处，而在每种特定场景下，它们都比竞争对手快一个数量级。因此很明显，在这三个例子中，当你运行一个不是为你特定场景设计的数据库系统时，你会损失一个数量级的性能。我认为今天依然如此。</p>
+<p>比如 ClickHouse 是一个列式存储。Pinecone 在基于文本的向量处理上比用户自定义类型更快。所以我认为情况依然如此，而且在多个底层实现之上构建一个通用的解析器并没有什么困难。</p>
+<p>Postgres 至今为止没有选择这样做。他们没有实现列式存储，所以我认为在大型数据仓库方面他们没有竞争力。他们也没有多节点支持，而对于拥有大型数据仓库的人来说，这是基本门槛。所以我觉得过去的道理在今天同样适用。</p>
+<p>不过，这也是事实：如果你想快速起步，你遇到一个数据库问题，答案就是“选择 Postgres”。它有庞大的编程社区，有各种各样数据类型的实现，它是免费的，你很容易找到懂 Postgres 的人才并快速开展工作。因此，作为满足最低共同需求的选项，它是一个绝佳的选择。在你需要达到每秒一百万次事务处理之前，它都能运行得很好；在你试图支持一个 PB 级的数据仓库之前，也是如此。</p>
+<p>所以在低端市场，Postgres 绝对是正确的“一刀切”选择。但在高端市场，这就行不通了。</p>
+<p>至于 GPU 能否为优化数据库提供新机会？也许吧。但我认为最大的挑战在于，GPU 采用的是 SIMD 架构（单指令流多数据流），而这正是索引（Indexing）的死穴。只要索引是正确答案，使用 GPU 可能就不是个好主意。</p>
+<p>而且，你必须对它们进行架构设计，使得来自存储的带宽不会成为瓶颈。如果 GPU 只是作为 CPU 的附加组件，很多时候连接 GPU 和 CPU 的总线就会成为瓶颈。</p>
+<p><strong>Ryan Peterman：</strong> 能解释一下为什么在有 SIMD 的情况下，索引效果会打折扣吗？</p>
+<p><strong>Mike Stonebraker：</strong> 假设我要查找 Ryan 的薪水，我有一个 B 树（B-tree）。你走到 B 树的根节点，找到划分 Ryan 所在范围的分隔符，然后顺着指针走。这肯定是一次内存访问。然后你再重复这个过程，大概要重复三到四次。</p>
+<p>这种操作是很难并行化的。所以答案是：索引很难并行化。</p>
+<p><strong>Ryan Peterman：</strong> 您提到了 B 树。当您最初实现第一个版本的 Ingres 时，所有那些都是您手工编写的吗？因为我想当时应该还没有现成的 B 树代码库之类的东西。</p>
+<p><strong>Mike Stonebraker：</strong> 是的，最初版本的 Ingres 都是我们从零开始写的。</p>
+<p><strong>Ryan Peterman：</strong> 那个实现中最难的部分是什么？</p>
+<p><strong>Mike Stonebraker：</strong> 查询优化器。</p>
+<p><strong>Ryan Peterman：</strong> 为什么它这么难？</p>
+<p><strong>Mike Stonebraker：</strong> 它就是很难，算法层面上非常复杂。即使是现在，如果你去问任何一位资深的数据库程序员什么部分最难，他们依然会回答是优化器。</p>
+<h2>为什么不认同 Google</h2>
+<p><strong>Ryan Peterman：</strong> MapReduce 在 2000 年代初问世，它席卷了数据世界。人们对它印象深刻，认为 Google 真的很懂行，这是继切片面包之后最好的发明。但当我翻阅文献和您当时的看法时，似乎您当时对此非常不认同。您为什么如此反对 MapReduce？</p>
+<p><strong>Mike Stonebraker：</strong> 我觉得当时有很多缺乏见识的人认为：“Google 真的很聪明，他们肯定知道自己在做什么，所以他们说什么我们就跟着做什么。”于是他们开始使用 Hadoop 或拥抱 Hadoop。但 Hadoop 的效率简直低得可笑。</p>
+<p>当时，像 Dave DeWitt 和其他参与我们 2011 年那篇论文的人，我们非常了解分布式数据库，并且知道如果使用分布式数据库系统，你可以把 Hadoop 打得满地找牙。这基本就是那篇 2011 年的论文所阐述的内容，而且这确实是事实。</p>
+<p>但这还不是 Google 做的唯一一件蠢事。</p>
+<p>Google 还有一种观点，认为“最终一致性（Eventual consistency）”是处理并发控制的正确方式。在同一时期，这也是被 Google 当作最高准则宣扬的。</p>
+<p>但事实并非如此。所有搞数据库的人都说：“你们脑子进水了”，因为它只解决了一类非常特殊的问题，而在实践中这种情况极少发生。</p>
+<p><strong>Ryan Peterman：</strong> 他们为什么要追求最终一致性？</p>
+<p><strong>Mike Stonebraker：</strong> 好吧，理念是这样的：你有一个东海岸的数据库和一个西海岸的数据库，它们是互为副本的。你希望它们保持一致。如果你说我要执行一个事务，我要把西海岸仓库里的小商品数量减一，那么在提交这个事务之前，我要去更新东海岸的仓库，发送一条消息过去再回来。为了确保一切顺利，还需要另一个回合的消息传递来确保两边都正确地提交了。</p>
+<p>所以，执行一个分布式提交是非常昂贵的，现在依然如此。于是他们的想法是：“我们在西海岸做更新，把商品减一，然后异步发送一条消息（不在事务内），这样最终东海岸的仓库也会把库存减一。”</p>
+<p>如果允许库存降到零以下，那么会发生的情况是：如果东海岸的人和西海岸的人同时卖出了最后一件商品，最终仓库的状态会变成 -1。就会有人拿不到他们买的商品。</p>
+<p>所以，如果你像亚马逊那样可以说“通常在 24 小时内发货”，那你也许可以允许超卖；但大多数企业不能这么干。因此，最终一致性根本行不通。我们刚才花了很久讨论引用完整性，在一个销售系统里，引用完整性的约束条件就是“库存必须大于 -1”，而在最终一致性下这个约束就会失效。</p>
+<p>Google 的 Jeff Dean 最终意识到了这一点。所以当他们开发 Spanner 时，Spanner 采用了传统的事务系统。Google 彻底放弃了最终一致性，也彻底放弃了 MapReduce。</p>
+<p><strong>Ryan Peterman：</strong> 所以这基本上是用正确性换取性能的妥协。也就是性能与数据完整性之间的权衡。如果你不在乎你的数据，那你才愿意承担发生糟糕情况的风险。</p>
+<p>在 Google 做那些您认为大错特错的事情时，您和他们的团队沟通过吗？</p>
+<p><strong>Mike Stonebraker：</strong> 我们在写那篇 2011 年的论文之前和他们谈过，问：“为什么我们不合作做点什么呢？”但他们不感兴趣。所以他们拒绝了。</p>
+<p><strong>Ryan Peterman：</strong> 您是否在其他大型科技公司（比如 Amazon 或 Facebook）看到过他们的数据库系统或解决方案有让您强烈反对的例子？</p>
+<p><strong>Mike Stonebraker：</strong> 大概三年前我去 Amazon 做过一次演讲。我告诉了他们所有我认为他们做错的地方。我认为 Amazon 的问题在于他们支持 15 种不同的数据库系统，这大概多出了 12 种。</p>
+<p>他们有他们自己的企业文化。我跟他们说：“你们支持的数据库系统太多了”，但直到现在，他们似乎并没有选择淘汰任何一个。</p>
+<p><strong>Ryan Peterman：</strong> 您为什么说这 15 种应该精简到 3 种？</p>
+<p><strong>Mike Stonebraker：</strong> 比如他们在支持一个基于图（Graph-based）的数据库系统。而业界早有共识，图数据库几乎从不是高性能的选项。</p>
+<p>如果你想要一个图，如果你喜欢那种处理节点和边缘的用户界面，没问题。你可以在关系型数据库系统之上加一层抽象，提供这种用户模型就行了。相比之下，他们现有的其他某些数据库系统在性能上绝对比图数据库做得好。</p>
+<p>所以结论是：如果一个数据库系统在一个足够大的市场中缺乏性能优势、不值得维护的话，你就应该让它退役。</p>
+<h2>为什么选择学术界而非科技巨头</h2>
+<p><strong>Ryan Peterman：</strong> 您从学术界对工业界产生了深远的影响。我的一个想法是，为什么不直接在工业界工作？相较于直接在 AWS 这样的公司谋个差事、做个非常受人尊敬的杰出工程师（Distinguished Engineer），您为什么更偏好留在学术界并以您独有的方式施加影响？</p>
+<p><strong>Mike Stonebraker：</strong> 因为去大公司意味着你会有一个老板。这意味着你必须遵守公司规章制度，它限制你发表论文的能力，限制你去参加各种会议发言，限制你去探究各个竞争对手在做什么（因为他们不会把底牌透漏给竞争对手）。</p>
+<p>但最主要的原因是，我真的非常喜欢参与创业公司。在商业版的 Postgres 被 Informix 收购后，我兼职为这家有 2000 人的公司工作，但我感觉自己无法做出改变，因为公司非常官僚主义，总裁想要什么就能得到什么。</p>
+<p>我觉得我不是那种搞政治斗争的料，我做不好这些事。并且，我很难和那些我认为很蠢的人共事。</p>
+<p>所以，我猜我可能和大公司八字不合。</p>
+<h2>用数据库取代操作系统状态 (DBOS 项目)</h2>
+<p><strong>Ryan Peterman：</strong> 我想聊聊 DBOS。我觉得这是一个非常有趣的技术模型。您能解释一下什么是 DBOS 吗？</p>
+<p><strong>Mike Stonebraker：</strong> 我们大概是在 2019 或 2020 年开始了这项学术研究。事情的起因是 Matei Zaharia（他是斯坦福大学的教职人员，也是 Databricks 的创始人之一，Spark 的最初创建者）提出的一件事。</p>
+<p>他说，当时 Databricks 基本上是在云端运行用户的 Spark 任务。在任何给定时间，他们可能要调度一百万个 Spark 任务。所以他们必须写一个调度器，以一百万的规模来决定接下来运行谁。</p>
+<p>他说我们尝试了操作系统领域专家写的所有调度器，但它们都无法扩展到这个规模。于是，我们把所有的调度数据放进了一个 Postgres 数据库，基本上是用一个 Postgres 应用程序在做调度工作。</p>
+<p>这让我们豁然开朗：总体而言，你在操作系统中做的大多数事情，本质上就是在规模化地管理数据，而你应该使用数据库技术来做这件事。</p>
+<p>所以，为什么我们不干脆用一个数据库系统来替换至少 Linux 的上半部分呢？这就是这个学术项目的核心思想。我们在伯克利和斯坦福研究了几年，非常成功。它显然是可行的。</p>
+<p>在这个过程中，斯坦福的团队为 JavaScript 编写了一个扩展程序。你需要一个能与你的底层实现对话的编程环境。如果你正在做一种编程语言，并且运行在一个本质上是数据库的操作系统上，那么最显而易见的做法就是——把所有的状态（State）都放进数据库里。他们正是这么做的。</p>
+<p>因此，我们拥有了一种创新的编程语言模型，一种创新的操作系统模型。然后自然的想法就是：“我们能不能创办一家公司？”我们去找了风险投资人（VC），但他们无一例外地对我们说：“如果你认为你能取代 Linux，那你是在做梦。”</p>
+<p>然而，他们觉得这个编程语言方面的东西非常棒。我们对 JavaScript 做了一些扩展，允许任何程序拥有数据库系统的所有优秀特性：数据是持久的（Durable），你可以拥有事务（Transactions），如果出错了你可以故障转移（Failover），所有这些好东西都能实现。</p>
+<p>所以我们在 2023 年获得了融资并成立了公司，叫做 DBOS Inc。我们决定沿用项目的原始名称。但我们本质上是在做编程语言业务。</p>
+<p>目前，DBOS 提供 TypeScript、Java、Go 和 Python 版本，接入是无缝的。它运行起来就像是普通的程序。</p>
+<p>在云计算的世界里，你非常有动力将你的应用程序结构化为一个“工作流（Workflow）”。所以我们决定，我们要支持一个极其纯粹的工作流系统。DBOS 在这四种语言中支持的工作流是，其中的每一个步骤、每一个微应用（不管你怎么称呼它），都具备事务性。工作流是持久化的。所以一旦你完成了一个步骤，它就不会被遗忘。</p>
+<p>很显然，如果有市场需求，我们可以让工作流具有“原子性（Atomic）”，这意味着整个工作流要么全部完成，要么就像从未发生过一样。它具有非常优秀的特性，而且比竞争对手快得多，也更容易使用。目前公司正在这个领域进行销售和创新。</p>
+<p>它的理念是，当你想让应用程序的状态持久化时，你把它放进数据库里，然后你想办法让它变得非常快。正如我们早些时候讨论的，他们的商业模式非常接地气：吸引一线程序员的兴趣。</p>
+<p>我们的策略一直是：“一线程序员们，告诉我们你们需要什么而我们现在没有的，我们快速做出来，然后说服大家去尝试。”在与那些想要选择最好技术的其他创业公司合作时，我们取得了非常大的成功。现在我们也开始在大型公司中获得成功。</p>
+<p>这是一个有趣的市场。目前大概有三分之二的客户在做代理式 AI（Agentic AI），这意味着他们有一个大语言模型，外围被一堆其他提供额外信号的系统包围着。</p>
+<p>到目前为止，大多数代理式 AI 都是“只读”的。意思就是，你想要预测 Ryan 是不是一个好客户。系统运行一些东西，然后生成一个预测结果交给某人。本质上是只读的，这意味着你并没有真正在更新 Ryan 的信用评分。</p>
+<p>我认为很快，整个世界都会转向使用 Agent（智能体）来执行“读写”应用程序，这将使它们变得非常像数据库系统。而 DBOS 处理这类事情极其出色。</p>
+<p>举个例子，如果你想写一个或两个 Agent，把 100 美元从我的账户转到你的账户。你要扣减我的账户，增加你的账户。这两个 Agent 必须就提交事务达成一致，否则你就必须回滚一切。也就是说，这个工作流需要是我前面提到的“原子性”——要么全发生，要么就当没发生过。</p>
+<p>我认为，随着人们希望系统具备读写能力，这个市场的需求将会不断升级。这对这个市场是好事，对 DBOS 也是好事。</p>
+<p><strong>Ryan Peterman：</strong> 目前市场上向应用程序开发者提供的产品，与你们最初用数据库替换操作系统内核的学术研究项目似乎有些不同。我觉得这真的太酷了，我从未想过用数据库替换操作系统的所有状态。这中间肯定有一些权衡和妥协吧？</p>
+<p><strong>Mike Stonebraker：</strong> 实际上，在数据库管理系统（DBMS）之上编写的文件系统，比 Linux 自带的文件系统还要快。调度引擎也能与其他调度引擎匹敌。你可以让一切都支持故障转移。这样你什么都不用做就能获得高可用性。</p>
+<p>答案是：实际上没有什么缺点。</p>
+<p><strong>Ryan Peterman：</strong> 那为什么 Linux 社区不把这些吸收进去并自我升级呢？</p>
+<p><strong>Mike Stonebraker：</strong> 你当然希望他们会这么做。换句话说，你应该把所有写设备驱动程序这种苦活累活留在最底层，因为这类代码很多，而且没人愿意做。然后把其他的所有东西都替换成数据库实现。</p>
+<p><strong>Ryan Peterman：</strong> 您向 Linux 圈的人提过这个想法吗？他们的典型反应是什么？</p>
+<p><strong>Mike Stonebraker：</strong> 早在做学术项目的时候，当我向操作系统领域的专家提到这件事时，他们感到非常、非常受威胁。因为这意味着数据库的人试图侵占他们的地盘。我想编程语言领域的人也是一样的反应。你想想，为编程环境实现运行时的最佳方式居然是用数据库。</p>
+<p><strong>Ryan Peterman：</strong> 这很有意思。如果这是客观真理，也许它最终会占据主导地位。</p>
+<p><strong>Mike Stonebraker：</strong> 嗯，Java 花了 10 年时间才被广泛接受。我只是觉得时间成本是非常庞大的。</p>
+<h2>数据库领域的未来挑战</h2>
+<p><strong>Ryan Peterman：</strong> 我们聊了很多数据库的过去。我很好奇您对数据库中未解决的问题有什么看法，以及您认为未来会是什么样子。</p>
+<p><strong>Mike Stonebraker：</strong> 好的。我想谈两件不同的事情。</p>
+<p>第一件事，像其他人一样，大约三年前我们开始关注大语言模型（LLM）擅长做什么。我们一直试图让现在所谓的“文本转 SQL（Text-to-SQL）”在真实的数据库上工作，特别是在真实的生产数据仓库上。</p>
+<p>我们在四个不同的生产数据仓库上尝试了这项技术，获取了实际运行的工作负载（即实际用户使用的真实查询），并让他们逆向生成与这些查询对应的自然语言文本。所以我们在四个基准测试集上拥有了文本和对应的 SQL。</p>
+<p><strong>Ryan Peterman：</strong> 当您说“文本转 SQL”时，您是指人类提示模型，比如我用英语输入：“告诉我 MIT 所有获得图灵奖的四岁以上的教授”这种文本吗？</p>
+<p><strong>Mike Stonebraker：</strong> 对，据说 LLM 很擅长这个。</p>
+<p>市面上针对文本转 SQL 的基准测试有 Spider 和 Bird。最好的 LLM 系统在这些测试上表现不错，准确率大概在 80% 或更高。虽然不是超人级别的，但也算不错，你会考虑使用它们。当前排行榜的第一名准确率大概是 85%，感觉快成熟了。</p>
+<p><strong>Ryan Peterman：</strong> 您是说也许它还没准备好投入生产，但它看起来确实相当不错。</p>
+<p><strong>Mike Stonebraker：</strong> 嗯，在我们的基准测试上，大语言模型得分为 0%。如果用 RAG（检索增强生成）和所有技巧去增强它们，准确率能升到 10%。如果你在提示词中直接给出 <code>FROM</code> 子句（换句话说，告诉它所有实际需要访问的表以及所有需要 Join 的条件），那么准确率会达到 35% 左右。</p>
+<p>所以结论是：这套技术根本还没准备好投入生产，而且在短时间内也不可能准备好，甚至永远也不行。</p>
+<p>为什么差距这么大呢？</p>
+<p>第一，大语言模型是在庞大的公共训练集（The Pile）上训练的。但企业数据仓库的数据不在 The Pile 里。俗话说得好：如果你之前没见过这数据几次，你根本不可能把它重现出来。这是其一。</p>
+<p>第二，Spider 和 Bird 中的查询复杂度大约是 10 到 20 行 SQL。而真实世界数据仓库中的查询往往是 100 行长的 SQL。复杂度大得多。</p>
+<p>第三，Spider 和 Bird 中的数据库模式（Schema）非常干净。表名有明确的含义，列名也有明确的含义，并且没有数据冗余。但在真实的数据仓库中，人们经常使用物化视图（Materialized views），这意味着存在数据冗余；而且列名通常是类似 <code>_Zuppers_blah</code> 这种无意义的乱码。这就困难多了。</p>
+<p>第四，它们还有行业特有的习惯用语数据。比如“J term”在 MIT 是一个很常见的概念，指的是一月份的一个为期一个月的短学期。这不一定仅限于 MIT，但也不够普及。它不在训练集中。</p>
+<p>行业特有的数据、原本就不简单的查询、再加上一团糟的数据库 Schema，导致这套技术根本行不通。我所知道的每一个数据仓库都是如此。所以我认为这项技术目前根本不起作用，而且短期内也起不了作用。</p>
+<p>所以你要怎么办？首先，我们发布了我们的基准测试。它叫 Beaver，是基于这四个真实数据仓库进行匿名化和抽象化处理后的版本。所以，如果你觉得你做“文本转 SQL”真的很厉害，那就试试真实的基准测试，别用假数据玩了。</p>
+<p>其次，借用我刚才说的话，如果你没有提供所有的 Join 条件和 <code>FROM</code> 子句，你就完蛋了。不仅如此，如果你不把复杂的查询拆解成更简单的部分，你也完蛋了。这告诉我，你需要为你的检索系统提供更简单的模块，包括提供 <code>FROM</code> 子句和 Join 条件。</p>
+<p>然后，一旦你想跨两个不同的结构化数据库进行查询（比如你的数据仓库和你的 CRM 系统），在我看来，使用 LLM 进行结构化数据的联合查询是个糟糕的主意。你最好保留它们作为数据表，然后在 SQL 中进行 Join。</p>
+<p>所以我们的观点是：把一切都变成表。我们正在与德国慕尼黑市交通局合作，他们有 6 个全职员工专门回答市民的投诉和查询。问题比如：“为什么我家路口的红绿灯在我过马路前就变了？”或者“为什么电车停靠的时间不够我上车？”“为什么电车一小时才来一趟？”等等。</p>
+<p>回答这些问题需要查阅：电车时刻表（这是 SQL 数据），红绿灯时序（也是 SQL 数据），十字路口地图（这是 CAD 数据），德国联邦对于这方面的法规（这是文本），以及慕尼黑市的具体规定（这也是文本）。</p>
+<p>所以你必须把 SQL、SQL、CAD、文本和文本组合在一起进行 Join 查询。</p>
+<p>我们的解决方案是：把所有的这些全部转化成 SQL 表格，然后利用类似于查询优化器的东西来进行 Join。这就是我们目前正在研究的内容。我想其他人可能会有别的思路，但我认为这是一个极其肥沃的领域，因为人们真的非常需要这种能力。这是第一点。</p>
+<p>第二点，我们早些时候谈到了代理式 AI。一旦这东西变成具有读写能力的系统，它就变成了一个分布式数据库问题，你就会需要原子性、一致性等所有的特性。这是一个非常有趣的领域。</p>
+<p>这就是我目前正在专注的工作。</p>
+<p><strong>Ryan Peterman：</strong> 在那个 LLM 得分为 0% 的基准测试中，人类能得多少分？比如，如果你找一个精通 SQL 的人，普通人类能得多少分？</p>
+<p><strong>Mike Stonebraker：</strong> 一旦你为人类消除了自然语言文本中的歧义，并且提供数据库结构定义（Schema），一个懂 SQL 的程序员能达到非常高的准确率。</p>
+<p><strong>Ryan Peterman：</strong> 也就是至少 90% 之类的。</p>
+<p><strong>Mike Stonebraker：</strong> 对。</p>
+<p><strong>Ryan Peterman：</strong> 哇，这真是让我吃惊，LLM 在这种基准测试上的得分竟然这么低。也许这期节目播出去之后，在 Anthropic 工作的人会联系您说：“我们想试试。”</p>
+<p><strong>Mike Stonebraker：</strong> 我很乐意看看结果，因为如果他们能做成，那将是一个极佳的成功案例。</p>
+<h2>书籍与资源推荐</h2>
+<p><strong>Ryan Peterman：</strong> 对于想要深入了解数据库、正在寻找学习材料的人，您有什么推荐的书籍或文献吗？</p>
+<p><strong>Mike Stonebraker：</strong> Joey Hellerstein 和我出版了一本被大家称为“红皮书”的书，书名是《Readings in Database Systems》（数据库系统阅读文献）。现在已经是第八版了。我认为如果你想了解从过去到现在的数据库演进，这是一套很棒的必读文献汇编。</p>
+<h2>给年轻人的建议</h2>
+<p><strong>Ryan Peterman：</strong> 如果您能回到自己刚刚毕业的时候，带着您现在所知道的一切，您会对自己提出什么建议？</p>
+<p><strong>Mike Stonebraker：</strong> 当我最初在伯克利接受这份工作时，我们没怎么多想就说：“我们来写个数据库系统吧。”当时我们对数据库一无所知，对底层实现也一窍不通。我们不像 Bill Joy（Sun 的联合创始人）那样是编程大牛。所以一开始就做这么疯狂的事情真的挺疯狂的。</p>
+<p>但在努力的过程中，你让东西跑起来了，你也在沿途不断学习。所以我认为答案是：打破常规思考。大胆去想那些疯狂的主意，并努力去实现它们。</p>
+<p>在我看来，“如果你今天重新开始，你会选什么专业”这是一个更深刻的问题。因为我认为计算机科学在未来可能不再是一个高增长行业。我不太确定我是否会建议 18 岁的年轻人主修计算机科学。</p>
+<p>我觉得医疗保健和建筑行业是相对安全的赌注，而其他的选项看起来风险都要高得多。</p>
+<p>如果你即将获得博士学位并在决定要做什么，那么生活相对简单。接受你能找到的最有声望的工作，找到一位愿意帮助你的导师，然后选择一个不要随波逐流的领域——就像我们正在做的项目一样。选择一个非主流的方向，并努力让它大放异彩。</p>
+<p>我和我妻子都曾对孩子们说：“追随你的激情所在。钱的问题总能解决的。”但我心里对这句话是一分钟都不信的。但这似乎是你必须对你的孩子、甚至是孙子孙女们说的话。</p>
+<p><strong>Ryan Peterman：</strong> 如果您自己都不信，那为什么还要对他们这么说呢？</p>
+<p><strong>Mike Stonebraker：</strong> 我妻子就是一个很好的例子。她有计算机科学的本科和硕士学位，但她当初真正想做的是一名 K-12（中小学）教师。但她的父母对她说：“你不能这么做，那个职业赚不到足够的钱。”</p>
+<p>所以我觉得，从那以后她一直后悔那个决定。她对从事计算机科学没有热情，那仅仅只是一份谋生的手艺。</p>
+<p>因此，我认为：找到你充满激情的事情。你可能赚不到大钱，但也不会饿死，而且你大概率会比做一件你毫无热情的事情要快乐得多。</p>
+<p>因为我认识很多人，他们只把工作看作是一份工作，认为只有每天下午 5 点到第二天早上 8 点之间的那段时间才叫“生活”。我完全不这么认为。我真的非常喜欢我做的事情。不管我赚不赚大钱，我都不在乎。</p>
+<h2>结语</h2>
+<p><strong>Ryan Peterman：</strong> 太棒了。非常感谢您抽出时间，真的很感激。</p>
+<p><strong>Mike Stonebraker：</strong> 谢谢你邀请我来播客。</p>
+<p><strong>Ryan Peterman：</strong> 这是我非常热爱并乐在其中的一个播客项目。我还在秘密进行的另一个充满激情的项目是制造一款我希望存在的人体工学键盘，现在终于有了原型。我很想给大家展示一下我们的成果。它是超薄的、符合人体工学设计的，我在市场上找不到类似的产品，这就是我们制造它的原因。我会在描述中放上键盘的链接，大家可以去了解更多信息。绝对需要大家的支持！</p>
+<p>另外，如果您对节目有任何反馈，我非常乐意倾听。YouTube 上的评论促成了像 Ilya Grigorik 和 David Fowler 这样的嘉宾来到节目。在有人留言之前我都不知道他们。同时，评论区的反馈也让我学会了减少片头预告中的悬念。所以，你们的评论绝对能带来改变。请继续告诉我你们想在节目中看到更多什么内容，我们下期见。</p>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"talks-turing-award-winner-postgres-disagreeing-with-google-future-problems-mike-stonebraker","sender":"Ryan Peterman","subject":"图灵奖得主 Stonebraker 谈 Postgres、质疑 Google 与数据库未来","snippet":"图灵奖得主 Mike Stonebraker 回顾 Postgres 诞生历程，直言批评 Google MapReduce 与最终一致性，介绍 DBOS 项目，并指出大语言模型在企业级 Text-to-SQL 上表现极差。","date":"2026-04-20","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["Talks"],"mdTheme":"magazine","sourcePath":"talks/turing-award-winner-postgres-disagreeing-with-google-future-problems-mike-stonebraker.md","sourceUrl":"https://www.youtube.com/watch?v=YPObBOwIrHk","body":"$3","prompts":[]},"listPosition":{"index":104,"total":365},"matchedPerson":{"id":"ryan-peterman","name":"Ryan Peterman","email":""}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

@@ -1,0 +1,137 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T2f3c,<h1>构建云智能体的经验教训</h1>
+<p>作者：Cognition 团队</p>
+<p>在本文中：</p>
+<ul>
+<li>构建云端智能体的正确方法</li>
+<li>部署云端智能体的正确方法</li>
+</ul>
+<p>企业正在将云端智能体（Cloud Agents）视为软件工程的未来，并对此达成共识——许多企业得出结论，他们应该构建自己的云端智能体。像 Stripe 这样的文章详细介绍了他们如何构建<a href="https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents">内部自研的云端智能体</a>，这让这条道路看起来是切实可行的。</p>
+<p>构建云端智能体基础设施需要两方面的投入：一是在云端安全、自主运行智能体的技术基础设施；二是让智能体在整个工程组织中发挥生产力的变更管理。为了 Devin，我们在两方面都花了两年多的时间。以下是我们的经验之谈。</p>
+<h2>构建云端智能体的正确方法</h2>
+<p>构建云端智能体最顺理成章的起点很直接：采用一个 CLI（命令行）智能体，将其容器化，并赋予它访问代码库和工具链的权限。这成功地将执行过程转移到了云端——但你很快就会遇到需要解决的安全性、持久性和编排问题。</p>
+<h3>共享内核构成安全威胁</h3>
+<p>容器化的智能体共享同一个内核，这意味着一个被攻破的会话可以访问所有其他容器的文件系统、凭证和网络连接。智能体会生成自己的代码、运行任意命令，并以不可预测的方式探测环境——这使得内核级别的逃逸成为真正的安全威胁。</p>
+<p><a href="https://cdn.sanity.io/images/2mc9cv2v/production/b453f6fb2146063f42137230abe555e9727e006e-1691x1000.png"><img src="https://cdn.sanity.io/images/2mc9cv2v/production/b453f6fb2146063f42137230abe555e9727e006e-1691x1000.png" alt=""></a></p>
+<p>运行不可信代码的行业共识是采用虚拟机（VM）级别的隔离——每个工作负载都拥有自己独立的内核，不存在共享的攻击面。这也是更广泛的基础设施社区一直以来的发展方向。</p>
+<p>为智能体工作负载建立基于虚拟机的隔离是一项艰巨的任务。我们自己对微型虚拟机（microVMs）的实现花费了一年多的虚拟机管理程序（hypervisor）工程时间，以确保每个智能体会话都运行在自己专用的内核上，并拥有完全隔离的存储、网络和计算资源。一个额外的好处是，运行在专用虚拟机中的智能体可以使用完整的浏览器、桌面应用程序和任意工具栈，就像开发者在自己的工作站上一样。</p>
+<h3>容器化智能体无法完成真正的工程工作</h3>
+<p>容器化智能体的另一个问题是，它们无法在定义了大多数实际工程工作的“异步间隙”中存活下来。一个智能体提交 PR、等待 CI、响应代码审查、重新运行测试并推送后续的提交。在每个步骤之间都存在间隙——几分钟、几小时甚至几天——智能体必须在这期间保存其完整的工作状态。对于像依赖项升级这样边界清晰的工作，执行完即退出的单次运行智能体就足够了。但跨越软件开发生命周期（SDLC）异步间隙的工作仍然遥不可及。</p>
+<p><a href="https://cdn.sanity.io/images/2mc9cv2v/production/124905d593c97bfa5c9a95ca38623ec164fa7910-1687x1025.png"><img src="https://cdn.sanity.io/images/2mc9cv2v/production/124905d593c97bfa5c9a95ca38623ec164fa7910-1687x1025.png" alt=""></a></p>
+<p>根本问题在于，容器没有提供一种可靠的方法来对单个容器的完整状态进行快照、关闭计算资源并在稍后恢复。容器化智能体只能通过燃烧算力保持活跃来熬过异步中断——如果容器被重新调度、超时或崩溃，会话就会丢失。</p>
+<p>我们通过在虚拟机管理程序（hypervisor）级别对完整的机器状态（内存、进程树和文件系统）进行快照解决了这个问题。当智能体空闲时计算资源会关闭，而当 CI 结果或审查评论到达时，会话会精确地从它停止的地方恢复。要让这一机制在数千个并发会话（每个会话都有不同的代码库、依赖项和运行时环境）中可靠地运行，其所花费的时间比我们迄今为止构建的任何其他基础设施都要长。</p>
+<h3>从单个会话扩展到数百个会话需要独立的基础设施</h3>
+<p>在整个工程组织中运行数百个云端智能体需要编排、治理和集成——这其中每一项本身都是一个需要数个季度周期的基础设施项目。我们曾与一家领先的云数据平台公司交流，他们尝试过这样做，但最终由于项目范围压垮了他们的基础设施团队而放弃。他们遇到的挑战包括：</p>
+<ul>
+<li><strong>编排（Orchestration）：</strong> 每个智能体会话都是独一无二的——与特定的任务和工程师的权限绑定。并发运行数百个会话需要为每个会话配置正确的环境、正确路由会话、预测需求以保持预热的虚拟机池处于就绪状态，并在代码库每天发生变化时保持每个已配置的环境都是最新的。</li>
+<li><strong>治理（Governance）：</strong> 每个会话必须在其接触的每个系统中继承分派任务工程师的权限，并且每个操作都要记录在防篡改的审计追踪记录中。在企业规模下构建和维护身份链、访问权限范围划分和审计日志记录，本身就是一个需要持续维护的独立工程项目。</li>
+<li><strong>集成（Integrations）：</strong> 智能体的用途取决于它所能触及的系统——CI、监控、包注册表、文档、版本控制。每一个系统都有自己的认证模型、权限范围和维护负担。Stripe 有一个包含 400 多个工具的内部 MCP 服务器，以保持其智能体的连接。这就是这一层所需要的投入规模。</li>
+</ul>
+<p>我们在与尝试建立此系统的团队交谈中看到的一种模式是，真正令人难以承受的是这几方面的综合广度——不是任何单一的组件，而是这三个部分都必须被无限期地构建、集成和维护。我们目前配备了一个专门的团队来管理该技术栈的每一层。我们针对编排层的解决方案花费了超过三个季度的专项工程时间来构建，并且能够管理数千个并发虚拟机——处理资源配置、需求预测、崩溃恢复和资源销毁。</p>
+<h2>部署云端智能体的正确方法</h2>
+<p>我们所讨论的一切都可以被视为第一阶段：构建大规模部署云端智能体的基础设施。第二阶段是转变你的工程组织实际与智能体协同工作的方式，而这个过程在智能体部署完成之前是无法开始的。</p>
+<h3>需要为智能体重塑工程流程</h3>
+<p>企业内部的每一个工程流程都是为一个由人类完成工作的世界而设计的：项目如何确定范围、团队如何配置人员、代码如何被审查和发布。当智能体执行了很大一部分工作时，这些流程就需要围绕一种不同的运营模式进行重构。在这种模式下，由智能体负责执行，而人类负责指导、审查和决策。</p>
+<p>实现这一目标既是一项技术挑战，也是一项运营挑战。它需要既了解工程系统，又了解其周边业务流程的人员，其中许多流程根深蒂固，甚至通常都没有书面记录。它引发的问题触及了工程组织运作的方方面面，并且没有一个问题有简单的答案：</p>
+<ul>
+<li><strong>工程师熟练度（Engineer fluency）：</strong> 工程师需要学习哪些工作该委派，哪些工作自己保留，以及如何足够精确地定义任务，使得智能体在执行时不需要不断地人工纠正。管理并发的智能体会话与编写代码是一项截然不同的技能，需要在实际项目上进行数月的实践才能培养出来。</li>
+<li><strong>计划与资源分配：</strong> 当智能体的产能加入等式时，关于团队规模、冲刺容量和项目人员配备的每一个假设都会发生改变。这些不是一次性的决定。随着智能体变得越来越强大，工程师越来越熟练，必须重新审视这些问题。</li>
+<li><strong>审查与质量标准：</strong> 需要审查的代码量急剧增加，但专为人类编写的代码而设计的审查流程无法直接照搬。团队需要确立：对于体量大得多的智能体生成代码，严格的审查应该是什么样的。</li>
+</ul>
+<p>这些改变很少能提前设计好。团队通过在数月时间内在实际项目中与智能体协同运作来培养熟练度。尽早开始意味着你的组织在学习曲线上走得更远——而且这种差距会随着时间的推移而扩大。</p>
+<blockquote>
+<p>拉丁美洲最大的私有银行 Itaú 引入智能体十一个月，近 17,000 名工程师参与其中——完成迁移的速度提高了 5 到 6 倍，自动修复了 70% 的静态分析安全漏洞，并将测试覆盖率提高了 2 倍。</p>
+</blockquote>
+<p>对我们来说，构建云端智能体基础设施是一项严肃的工程承诺，无论你决定内部自建还是使用现有的平台，我们希望这篇文章能为你提供一幅关于相关投入的清晰图景。</p>
+<p>如果你正在考虑如何着手——请<a href="https://cognition.ai/contact">在这里联系我们</a>。</p>
+<p>关注我们：</p>
+<ul>
+<li><a href="https://cognition.ai/">Linkedin</a></li>
+<li><a href="https://cognition.ai/">Twitter [ x ]</a></li>
+</ul>
+<p>构建云端智能体的正确方法</p>
+<p>在本文中：</p>
+<ul>
+<li>构建云端智能体的正确方法</li>
+<li>部署云端智能体的正确方法</li>
+</ul>
+<hr>
+<h3>重要术语及翻译对照表</h3>
+<table>
+<thead>
+<tr>
+<th align="left">英文原词</th>
+<th align="left">中文翻译</th>
+<th align="left">语境说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Cloud Agents</td>
+<td align="left">云端智能体</td>
+<td align="left">运行在云端并能自主执行软件工程任务的 AI 系统。</td>
+</tr>
+<tr>
+<td align="left">Change Management</td>
+<td align="left">变更管理</td>
+<td align="left">企业内部为了适应新工具或流程所做的组织和管理调整。</td>
+</tr>
+<tr>
+<td align="left">Containerize</td>
+<td align="left">容器化</td>
+<td align="left">将软件代码及其所需的所有组件打包在一起的技术。</td>
+</tr>
+<tr>
+<td align="left">Kernel</td>
+<td align="left">内核</td>
+<td align="left">操作系统的核心部分，控制系统所有硬件和软件资源。</td>
+</tr>
+<tr>
+<td align="left">Virtual Machine (VM)</td>
+<td align="left">虚拟机</td>
+<td align="left">模拟物理计算机系统的软件环境。</td>
+</tr>
+<tr>
+<td align="left">Hypervisor</td>
+<td align="left">虚拟机管理程序</td>
+<td align="left">用于创建和运行虚拟机的软件/硬件层。</td>
+</tr>
+<tr>
+<td align="left">Async Gaps</td>
+<td align="left">异步间隙</td>
+<td align="left">在开发流程中，等待其他系统（如 CI 或代码审查）响应的时间段。</td>
+</tr>
+<tr>
+<td align="left">SDLC (Software Development Life Cycle)</td>
+<td align="left">软件开发生命周期</td>
+<td align="left">软件的规划、创建、测试和部署的整个过程。</td>
+</tr>
+<tr>
+<td align="left">Snapshot</td>
+<td align="left">快照</td>
+<td align="left">记录系统、虚拟机或容器在特定时间点完整状态的技术。</td>
+</tr>
+<tr>
+<td align="left">Orchestration</td>
+<td align="left">编排</td>
+<td align="left">对计算机系统和软件的自动化配置、协调和管理。</td>
+</tr>
+<tr>
+<td align="left">Governance</td>
+<td align="left">治理</td>
+<td align="left">确保系统安全、合规以及权限合理分配的管理机制。</td>
+</tr>
+<tr>
+<td align="left">Sprint</td>
+<td align="left">冲刺</td>
+<td align="left">敏捷开发中的固定时间周期（通常为1-4周），在此期间需完成特定工作。</td>
+</tr>
+</tbody>
+</table>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-what-we-learned-building-cloud-agents","sender":"The Cognition Team","subject":"构建云智能体的经验教训","snippet":"Building cloud agents is difficult. We share some learnings from building Devin.","date":"2026-04-23","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["clippings"],"mdTheme":"magazine","sourcePath":"reports/what-we-learned-building-cloud-agents.md","sourceUrl":"https://cognition.ai/blog/what-we-learned-building-cloud-agents-right-approach-to-building-cloud-agents","body":"$3","prompts":[]},"listPosition":{"index":98,"total":365}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

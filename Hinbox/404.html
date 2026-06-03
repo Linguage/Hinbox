@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Redirecting...</title>
+    <meta http-equiv="refresh" content="0; url=/hinbox/" />
+    <script>
+      (function () {
+        var pathname = window.location.pathname || '/Hinbox/';
+        var targetPath = pathname.replace(/^/Hinbox(?=/|$)/i, '/hinbox');
+        if (!targetPath.startsWith('/hinbox')) {
+          targetPath = '/hinbox/';
+        }
+        var target = targetPath + window.location.search + window.location.hash;
+        window.location.replace(target);
+      }());
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to <a href="/hinbox/">/hinbox/</a> ...</p>
+  </body>
+</html>

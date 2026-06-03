@@ -1,0 +1,294 @@
+1:"$Sreact.fragment"
+3:I[39756,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+4:I[37457,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"ViewportBoundary"]
+b:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"MetadataBoundary"]
+d:I[68027,[],"default"]
+:HL["/hinbox/_next/static/chunks/24888a04b79e7824.css","style"]
+:HL["/hinbox/_next/static/media/fba5a26ea33df6a3-s.p.1bbdebe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"vMUiZWVsRx3pCqxArlZcR","c":["","mail","essays-arguing-with-agents"],"q":"","i":false,"f":[[["",{"children":["mail",{"children":[["id","essays-arguing-with-agents","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hinbox/_next/static/chunks/24888a04b79e7824.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[79520,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],""]
+f:I[59665,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],"default"]
+:HL["https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","style"]
+2:["$","html",null,{"lang":"zh-CN","className":"plus_jakarta_sans_9710934b-module__-vnxFq__variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function () {\n  try {\n    var theme = window.localStorage.getItem('hinbox:theme');\n    if (theme !== 'light' && theme !== 'dark' && theme !== 'sepia') {\n      theme = 'light';\n    }\n    window['__HINBOX_THEME__'] = theme;\n    document.documentElement.dataset.theme = theme;\n    document.documentElement.style.colorScheme = theme === 'dark' ? 'dark' : 'light';\n    function applyBodyTheme() {\n      if (document.body) {\n        document.body.dataset.theme = theme;\n      }\n    }\n    if (document.body) {\n      applyBodyTheme();\n    } else {\n      document.addEventListener('DOMContentLoaded', applyBodyTheme);\n    }\n  } catch (error) {\n    window['__HINBOX_THEME__'] = 'light';\n    document.documentElement.dataset.theme = 'light';\n    document.documentElement.style.colorScheme = 'light';\n  }\n})();"}}],"",["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","rel":"stylesheet"}],["$","$Le",null,{"id":"mathjax-config","strategy":"afterInteractive","children":"\n          window.MathJax = {\n            tex: {\n              inlineMath: [['$', '$'], ['\\\\(', '\\\\)']],\n              displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']],\n              processEscapes: true,\n              packages: { '[+]': ['noerrors', 'noundefined'] },\n            },\n            svg: {\n              fontCache: 'none',\n            },\n            startup: {\n              typeset: false,\n              ready: () => {\n                window.MathJax.startup.defaultReady();\n                window.dispatchEvent(new Event('MathJaxReady'));\n              },\n            },\n          };\n          "}],["$","$Le",null,{"id":"mathjax-cdn","strategy":"afterInteractive","src":"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"}]]}],["$","body",null,{"className":"font-[family-name:var(--font-jakarta)] antialiased","suppressHydrationWarning":true,"children":["",["$","$Lf",null,{"weeklyNavCounts":{"inboxWeeklyCount":10,"sentWeeklyCount":0,"starredTotalCount":21},"people":[{"id":"david-perell","name":"David Perell","email":""},{"id":"lenny-s-podcast","name":"Lenny's Podcast","email":""},{"id":"ryan-peterman","name":"Ryan Peterman","email":""},{"id":"anthropic","name":"Anthropic","email":""},{"id":"dwarkesh-patel","name":"Dwarkesh Patel","email":""},{"id":"stripe","name":"Stripe","email":""},{"id":"stephen-wolfram","name":"Stephen Wolfram","email":""},{"id":"latent-space","name":"Latent Space","email":""},{"id":"lex-fridman","name":"Lex Fridman","email":""},{"id":"steve-jobs","name":"Steve Jobs","email":""},{"id":"20vc-with-harry-stebbings","name":"20VC with Harry Stebbings","email":""},{"id":"jeremy-stern","name":"Jeremy Stern","email":""},{"id":"turing","name":"Turing","email":""},{"id":"demis-hassabis","name":"Demis Hassabis","email":""},{"id":"the-diary-of-a-ceo","name":"The Diary Of A CEO","email":""},{"id":"elon-musk","name":"Elon Musk","email":""},{"id":"sauteedveggies","name":"SauteedVeggies","email":""},{"id":"andy-matuschak","name":"Andy Matuschak","email":""},{"id":"mind-the-game","name":"Mind the Game","email":""},{"id":"ramona-shelburne","name":"Ramona Shelburne","email":""},{"id":"jared-weiss","name":"Jared Weiss","email":""},{"id":"deeplearningai","name":"DeepLearningAI","email":""},{"id":"cursor","name":"Cursor","email":""},{"id":"y-combinator","name":"Y Combinator","email":""},{"id":"openai","name":"OpenAI","email":""},{"id":"every","name":"Every","email":""},{"id":"sequoia-capital","name":"Sequoia Capital","email":""},{"id":"alex-kantrowitz","name":"Alex Kantrowitz","email":""},{"id":"peter-dizikes-mit-news","name":"Peter Dizikes ｜ MIT News","email":""},{"id":"world-finance-journal","name":"World Finance Journal","email":""},{"id":"andrej-karpathy","name":"Andrej karpathy","email":""},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","email":""},{"id":"jd-vance","name":"JD Vance","email":""},{"id":"街-大学","name":"やまぐち街なか大学","email":""},{"id":"jc","name":"JC","email":""}],"tags":[{"id":"translated","name":"translated","count":123},{"id":"interview","name":"interview","count":24},{"id":"ai","name":"ai","count":17},{"id":"人工智能","name":"人工智能","count":17},{"id":"clippings","name":"clippings","count":15},{"id":"essays","name":"Essays","count":9},{"id":"talks","name":"Talks","count":8},{"id":"深度学习","name":"深度学习","count":8},{"id":"ai-agents","name":"ai-agents","count":7},{"id":"cognition","name":"cognition","count":6},{"id":"nba","name":"NBA","count":6},{"id":"ai编程","name":"AI编程","count":5},{"id":"humanity","name":"humanity","count":5},{"id":"math","name":"math","count":5},{"id":"steve-jobs","name":"steve-jobs","count":5},{"id":"大语言模型","name":"大语言模型","count":5},{"id":"机器学习","name":"机器学习","count":5},{"id":"agi","name":"AGI","count":4},{"id":"anthropic","name":"Anthropic","count":4},{"id":"claude-code","name":"Claude Code","count":4},{"id":"doge","name":"DOGE","count":4},{"id":"nvidia","name":"nvidia","count":4},{"id":"windsurf","name":"Windsurf","count":4},{"id":"政府效率","name":"政府效率","count":4},{"id":"文艺复兴科技","name":"文艺复兴科技","count":4},{"id":"英伟达","name":"英伟达","count":4},{"id":"软件工程","name":"软件工程","count":4},{"id":"ai编程工具","name":"AI编程工具","count":3},{"id":"apple","name":"apple","count":3},{"id":"cursor","name":"Cursor","count":3},{"id":"deepseek","name":"deepseek","count":3},{"id":"linus-torvalds","name":"Linus Torvalds","count":3},{"id":"linux内核","name":"Linux内核","count":3},{"id":"llm","name":"llm","count":3},{"id":"mathematics","name":"mathematics","count":3},{"id":"reports","name":"Reports","count":3},{"id":"偏微分方程","name":"偏微分方程","count":3},{"id":"勒布朗-詹姆斯","name":"勒布朗·詹姆斯","count":3},{"id":"开源","name":"开源","count":3},{"id":"开源ai","name":"开源AI","count":3},{"id":"强化学习","name":"强化学习","count":3},{"id":"数学哲学","name":"数学哲学","count":3},{"id":"数学教育","name":"数学教育","count":3},{"id":"访谈","name":"访谈","count":3},{"id":"量化投资","name":"量化投资","count":3},{"id":"马斯克","name":"马斯克","count":3},{"id":"黄仁勋","name":"黄仁勋","count":3},{"id":"ai-agent","name":"AI Agent","count":2},{"id":"ai-coding","name":"ai-coding","count":2},{"id":"ai代理","name":"AI代理","count":2},{"id":"ai基础设施","name":"AI基础设施","count":2},{"id":"ai安全","name":"AI安全","count":2},{"id":"ai数学","name":"AI数学","count":2},{"id":"ai智能体","name":"AI智能体","count":2},{"id":"ai计算","name":"AI计算","count":2},{"id":"alphafold","name":"AlphaFold","count":2},{"id":"claude","name":"Claude","count":2},{"id":"devin","name":"Devin","count":2},{"id":"economics","name":"economics","count":2},{"id":"emacs","name":"Emacs","count":2},{"id":"essay","name":"essay","count":2},{"id":"git","name":"Git","count":2},{"id":"google","name":"Google","count":2},{"id":"ilya-sutskever","name":"Ilya Sutskever","count":2},{"id":"jeff-dean","name":"jeff-dean","count":2},{"id":"jepa","name":"JEPA","count":2},{"id":"org-mode","name":"Org mode","count":2},{"id":"programming","name":"programming","count":2},{"id":"software-engineering","name":"software-engineering","count":2},{"id":"vibe-coding","name":"Vibe Coding","count":2},{"id":"writing","name":"writing","count":2},{"id":"世界模型","name":"世界模型","count":2},{"id":"人性","name":"人性","count":2},{"id":"代数几何","name":"代数几何","count":2},{"id":"代码编辑器","name":"代码编辑器","count":2},{"id":"价值投资","name":"价值投资","count":2},{"id":"伯克希尔哈撒韦","name":"伯克希尔哈撒韦","count":2},{"id":"关税政策","name":"关税政策","count":2},{"id":"创业历程","name":"创业历程","count":2},{"id":"加速计算","name":"加速计算","count":2},{"id":"吉姆-西蒙斯","name":"吉姆·西蒙斯","count":2},{"id":"哲学","name":"哲学","count":2},{"id":"国际合作","name":"国际合作","count":2},{"id":"大型语言模型","name":"大型语言模型","count":2},{"id":"好奇心","name":"好奇心","count":2},{"id":"季后赛","name":"季后赛","count":2},{"id":"工程实践","name":"工程实践","count":2},{"id":"巴菲特","name":"巴菲特","count":2},{"id":"形式化证明","name":"形式化证明","count":2},{"id":"彼得-蒂尔","name":"彼得·蒂尔","count":2},{"id":"微软","name":"微软","count":2},{"id":"提示工程","name":"提示工程","count":2},{"id":"数学","name":"数学","count":2},{"id":"数学研究","name":"数学研究","count":2},{"id":"文班亚马","name":"文班亚马","count":2},{"id":"智能代理开发","name":"智能代理开发","count":2},{"id":"毕业演讲","name":"毕业演讲","count":2},{"id":"版本控制","name":"版本控制","count":2},{"id":"科学发现","name":"科学发现","count":2},{"id":"科技停滞","name":"科技停滞","count":2},{"id":"软件工程变革","name":"软件工程变革","count":2},{"id":"软件开发","name":"软件开发","count":2},{"id":"量子力学","name":"量子力学","count":2},{"id":"阿贝尔奖","name":"阿贝尔奖","count":2},{"id":"风险投资","name":"风险投资","count":2},{"id":"agent设计","name":"Agent设计","count":1},{"id":"ai-for-science","name":"AI for Science","count":1},{"id":"ai-编程","name":"AI 编程","count":1},{"id":"ai伦理","name":"AI伦理","count":1},{"id":"ai最佳实践","name":"AI最佳实践","count":1},{"id":"ai大模型","name":"AI大模型","count":1},{"id":"ai并购","name":"AI并购","count":1},{"id":"ai应用","name":"AI应用","count":1},{"id":"ai开发者大会","name":"AI开发者大会","count":1},{"id":"ai推理","name":"AI推理","count":1},{"id":"ai收购","name":"AI收购","count":1},{"id":"ai数学发现","name":"AI数学发现","count":1},{"id":"ai生物医药","name":"AI生物医药","count":1},{"id":"ai竞争","name":"AI竞争","count":1},{"id":"ai编程代理","name":"AI编程代理","count":1},{"id":"ai芯片","name":"AI芯片","count":1},{"id":"ai规模化","name":"AI规模化","count":1},{"id":"ai辅助学习","name":"AI辅助学习","count":1},{"id":"ai辅助开发","name":"AI辅助开发","count":1},{"id":"anysphere","name":"Anysphere","count":1},{"id":"biography","name":"biography","count":1},{"id":"blackwell架构","name":"Blackwell架构","count":1},{"id":"cag","name":"CAG","count":1},{"id":"career","name":"career","count":1},{"id":"ceo交接","name":"CEO交接","count":1},{"id":"chatgpt","name":"ChatGPT","count":1},{"id":"chris-bishop","name":"Chris Bishop","count":1},{"id":"claude-4","name":"Claude 4","count":1},{"id":"claude-sonnet-4-5","name":"Claude Sonnet 4.5","count":1},{"id":"coding-agent","name":"Coding Agent","count":1},{"id":"context-engineering","name":"Context Engineering","count":1},{"id":"cs50","name":"CS50","count":1},{"id":"cuda生态","name":"CUDA生态","count":1},{"id":"deep-search","name":"Deep Search","count":1},{"id":"deepmind","name":"DeepMind","count":1},{"id":"distributed-systems","name":"distributed-systems","count":1},{"id":"elon-musk","name":"Elon Musk","count":1},{"id":"engineering","name":"engineering","count":1},{"id":"fields奖","name":"Fields奖","count":1},{"id":"geoffrey-hinton","name":"Geoffrey Hinton","count":1},{"id":"gpt-4","name":"GPT-4","count":1},{"id":"gpt-4-5","name":"GPT-4.5","count":1},{"id":"gpu与深度学习","name":"GPU与深度学习","count":1},{"id":"gpu架构","name":"GPU架构","count":1},{"id":"gpu算力","name":"GPU算力","count":1},{"id":"grok-3","name":"Grok 3","count":1},{"id":"haskell","name":"haskell","count":1},{"id":"incident","name":"incident","count":1},{"id":"jim-simons","name":"Jim Simons","count":1},{"id":"julia","name":"Julia","count":1},{"id":"june-huh","name":"june-huh","count":1},{"id":"kaggle","name":"Kaggle","count":1},{"id":"kiro-spec模式","name":"Kiro SPEC模式","count":1},{"id":"labor","name":"labor","count":1},{"id":"lean","name":"Lean","count":1},{"id":"lisp","name":"Lisp","count":1},{"id":"llm工具","name":"LLM工具","count":1},{"id":"mcp","name":"MCP","count":1},{"id":"mit","name":"MIT","count":1},{"id":"mvp","name":"MVP","count":1},{"id":"naval-ravikant","name":"Naval Ravikant","count":1},{"id":"ncaa疯狂三月","name":"NCAA疯狂三月","count":1},{"id":"noema","name":"noema","count":1},{"id":"notes","name":"notes","count":1},{"id":"notion","name":"Notion","count":1},{"id":"nvidia-gtc-2025","name":"NVIDIA GTC 2025","count":1},{"id":"openai","name":"OpenAI","count":1},{"id":"optimus机器人","name":"Optimus机器人","count":1},{"id":"peter-lax","name":"Peter Lax","count":1},{"id":"pixar","name":"pixar","count":1},{"id":"prompt-engineering","name":"Prompt Engineering","count":1},{"id":"psychology","name":"psychology","count":1},{"id":"publishing","name":"publishing","count":1},{"id":"python","name":"Python","count":1},{"id":"reliability","name":"reliability","count":1},{"id":"report","name":"report","count":1},{"id":"research","name":"Research","count":1},{"id":"research-career","name":"research-career","count":1},{"id":"robotics","name":"robotics","count":1},{"id":"sanjay-ghemawat","name":"Sanjay Ghemawat","count":1},{"id":"satya-nadella","name":"Satya Nadella","count":1},{"id":"scaling-laws","name":"Scaling Laws","count":1},{"id":"security","name":"security","count":1},{"id":"skills","name":"skills","count":1},{"id":"slimv","name":"Slimv","count":1},{"id":"technical-report","name":"technical-report","count":1},{"id":"terence-tao","name":"terence-tao","count":1},{"id":"vim","name":"Vim","count":1},{"id":"vlime","name":"Vlime","count":1},{"id":"wolfram","name":"Wolfram","count":1},{"id":"xai","name":"xAI","count":1},{"id":"yann-lecun","name":"Yann LeCun","count":1},{"id":"yc","name":"YC","count":1},{"id":"上下文工程","name":"上下文工程","count":1},{"id":"个人反思","name":"个人反思","count":1},{"id":"个人电脑","name":"个人电脑","count":1},{"id":"中美关系","name":"中美关系","count":1},{"id":"乌克兰战争","name":"乌克兰战争","count":1},{"id":"乔姆斯基","name":"乔姆斯基","count":1},{"id":"交通基础设施","name":"交通基础设施","count":1},{"id":"产品市场契合","name":"产品市场契合","count":1},{"id":"人工智能未来","name":"人工智能未来","count":1},{"id":"人形机器人","name":"人形机器人","count":1},{"id":"人机协作","name":"人机协作","count":1},{"id":"人机博弈","name":"人机博弈","count":1},{"id":"人生哲学","name":"人生哲学","count":1},{"id":"人类未来","name":"人类未来","count":1},{"id":"人类福祉","name":"人类福祉","count":1},{"id":"代理开发","name":"代理开发","count":1},{"id":"代理式编程","name":"代理式编程","count":1},{"id":"代码生成","name":"代码生成","count":1},{"id":"任务管理","name":"任务管理","count":1},{"id":"仿真学习","name":"仿真学习","count":1},{"id":"企业采用","name":"企业采用","count":1},{"id":"众包协作","name":"众包协作","count":1},{"id":"优绩主义","name":"优绩主义","count":1},{"id":"伦理监管","name":"伦理监管","count":1},{"id":"伯克希尔-哈撒韦","name":"伯克希尔·哈撒韦","count":1},{"id":"俄乌战争","name":"俄乌战争","count":1},{"id":"保罗-狄拉克","name":"保罗·狄拉克","count":1},{"id":"保险业务","name":"保险业务","count":1},{"id":"信号处理","name":"信号处理","count":1},{"id":"信息动力学","name":"信息动力学","count":1},{"id":"信息物理学","name":"信息物理学","count":1},{"id":"全球贸易","name":"全球贸易","count":1},{"id":"公共美德","name":"公共美德","count":1},{"id":"具身智能","name":"具身智能","count":1},{"id":"写作","name":"写作","count":1},{"id":"写作工具","name":"写作工具","count":1},{"id":"冷战数学","name":"冷战数学","count":1},{"id":"创业转型","name":"创业转型","count":1},{"id":"创业领导力","name":"创业领导力","count":1},{"id":"创造力与年龄","name":"创造力与年龄","count":1},{"id":"制度经济学","name":"制度经济学","count":1},{"id":"加性数论","name":"加性数论","count":1},{"id":"包容性制度","name":"包容性制度","count":1},{"id":"医疗应用","name":"医疗应用","count":1},{"id":"半导体","name":"半导体","count":1},{"id":"协同设计","name":"协同设计","count":1},{"id":"单位距离问题","name":"单位距离问题","count":1},{"id":"南非种族隔离","name":"南非种族隔离","count":1},{"id":"卢卡-东契奇","name":"卢卡·东契奇","count":1},{"id":"压缩感知","name":"压缩感知","count":1},{"id":"变换编码","name":"变换编码","count":1},{"id":"可持续能源","name":"可持续能源","count":1},{"id":"可重复性危机","name":"可重复性危机","count":1},{"id":"史蒂夫-乔布斯","name":"史蒂夫·乔布斯","count":1},{"id":"史蒂夫-纳什","name":"史蒂夫·纳什","count":1},{"id":"同伦类型论","name":"同伦类型论","count":1},{"id":"哲学辩论","name":"哲学辩论","count":1},{"id":"国际政治","name":"国际政治","count":1},{"id":"在线教育","name":"在线教育","count":1},{"id":"地缘政治","name":"地缘政治","count":1},{"id":"埃尔德什猜想","name":"埃尔德什猜想","count":1},{"id":"埃罗尔-马斯克","name":"埃罗尔·马斯克","count":1},{"id":"埃隆-马斯克","name":"埃隆·马斯克","count":1},{"id":"基督教与科学","name":"基督教与科学","count":1},{"id":"基础主义","name":"基础主义","count":1},{"id":"基础模型","name":"基础模型","count":1},{"id":"复合工程","name":"复合工程","count":1},{"id":"外交谈判","name":"外交谈判","count":1},{"id":"多伦多大学","name":"多伦多大学","count":1},{"id":"多体物理","name":"多体物理","count":1},{"id":"多智能体协同","name":"多智能体协同","count":1},{"id":"大数假说","name":"大数假说","count":1},{"id":"太空探索","name":"太空探索","count":1},{"id":"孤子理论","name":"孤子理论","count":1},{"id":"学习路径","name":"学习路径","count":1},{"id":"学术写作","name":"学术写作","count":1},{"id":"学术建议","name":"学术建议","count":1},{"id":"学术生态","name":"学术生态","count":1},{"id":"学术研究方法","name":"学术研究方法","count":1},{"id":"学术自传","name":"学术自传","count":1},{"id":"宇宙学","name":"宇宙学","count":1},{"id":"官僚主义改革","name":"官僚主义改革","count":1},{"id":"定理证明","name":"定理证明","count":1},{"id":"家族故事","name":"家族故事","count":1},{"id":"对冲基金","name":"对冲基金","count":1},{"id":"对称性","name":"对称性","count":1},{"id":"对称性破缺","name":"对称性破缺","count":1},{"id":"小平邦彦","name":"小平邦彦","count":1},{"id":"少林寺","name":"少林寺","count":1},{"id":"就业与经济","name":"就业与经济","count":1},{"id":"就业影响","name":"就业影响","count":1},{"id":"工作尊严","name":"工作尊严","count":1},{"id":"工作流","name":"工作流","count":1},{"id":"工程精神","name":"工程精神","count":1},{"id":"幸福与成功","name":"幸福与成功","count":1},{"id":"库珀-弗拉格","name":"库珀·弗拉格","count":1},{"id":"开发环境","name":"开发环境","count":1},{"id":"开发者工具","name":"开发者工具","count":1},{"id":"开发者生产力","name":"开发者生产力","count":1},{"id":"开源模型","name":"开源模型","count":1},{"id":"形式主义","name":"形式主义","count":1},{"id":"彼得-拉克斯","name":"彼得·拉克斯","count":1},{"id":"微分几何","name":"微分几何","count":1},{"id":"心理学","name":"心理学","count":1},{"id":"思维链","name":"思维链","count":1},{"id":"慈善","name":"慈善","count":1},{"id":"慈善事业","name":"慈善事业","count":1},{"id":"慕尼黑安全会议","name":"慕尼黑安全会议","count":1},{"id":"成长型思维","name":"成长型思维","count":1},{"id":"技术监管","name":"技术监管","count":1},{"id":"技能退化","name":"技能退化","count":1},{"id":"投资哲学","name":"投资哲学","count":1},{"id":"推理时计算","name":"推理时计算","count":1},{"id":"提纲写作","name":"提纲写作","count":1},{"id":"摩根大通","name":"摩根大通","count":1},{"id":"播客","name":"播客","count":1},{"id":"政治哲学","name":"政治哲学","count":1},{"id":"数字革命","name":"数字革命","count":1},{"id":"数学反例","name":"数学反例","count":1},{"id":"数学史","name":"数学史","count":1},{"id":"数学基础","name":"数学基础","count":1},{"id":"数学实践","name":"数学实践","count":1},{"id":"数学家传记","name":"数学家传记","count":1},{"id":"数学工作流","name":"数学工作流","count":1},{"id":"数学形式化","name":"数学形式化","count":1},{"id":"数据中心","name":"数据中心","count":1},{"id":"数据效率","name":"数据效率","count":1},{"id":"数据科学","name":"数据科学","count":1},{"id":"文化多样性","name":"文化多样性","count":1},{"id":"文化转型","name":"文化转型","count":1},{"id":"文学编程","name":"文学编程","count":1},{"id":"斯多葛主义","name":"斯多葛主义","count":1},{"id":"无人机","name":"无人机","count":1},{"id":"日本数学","name":"日本数学","count":1},{"id":"日记写作","name":"日记写作","count":1},{"id":"智能代理","name":"智能代理","count":1},{"id":"智能体ai","name":"智能体AI","count":1},{"id":"智能分析","name":"智能分析","count":1},{"id":"更衣室训话","name":"更衣室训话","count":1},{"id":"未来战争","name":"未来战争","count":1},{"id":"未来趋势","name":"未来趋势","count":1},{"id":"机器人技术","name":"机器人技术","count":1},{"id":"杰米-戴蒙","name":"杰米·戴蒙","count":1},{"id":"柏拉图主义","name":"柏拉图主义","count":1},{"id":"查尔斯-巴克利","name":"查尔斯·巴克利","count":1},{"id":"查理-芒格","name":"查理·芒格","count":1},{"id":"标记语言","name":"标记语言","count":1},{"id":"格罗滕迪克","name":"格罗滕迪克","count":1},{"id":"概形","name":"概形","count":1},{"id":"模仿理论","name":"模仿理论","count":1},{"id":"模型应用","name":"模型应用","count":1},{"id":"模型驱动交易","name":"模型驱动交易","count":1},{"id":"模拟宇宙假说","name":"模拟宇宙假说","count":1},{"id":"欧洲创新","name":"欧洲创新","count":1},{"id":"欧洲民主","name":"欧洲民主","count":1},{"id":"欧盟资本市场","name":"欧盟资本市场","count":1},{"id":"欺骗性ai","name":"欺骗性AI","count":1},{"id":"比尔-盖茨","name":"比尔·盖茨","count":1},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","count":1},{"id":"沉思录","name":"沉思录","count":1},{"id":"沙奎尔-奥尼尔","name":"沙奎尔·奥尼尔","count":1},{"id":"波波维奇","name":"波波维奇","count":1},{"id":"泽连斯基","name":"泽连斯基","count":1},{"id":"活文档","name":"活文档","count":1},{"id":"测试时计算","name":"测试时计算","count":1},{"id":"涌现","name":"涌现","count":1},{"id":"深度阅读","name":"深度阅读","count":1},{"id":"湖人三连冠","name":"湖人三连冠","count":1},{"id":"炒作与现实","name":"炒作与现实","count":1},{"id":"热力学第二定律","name":"热力学第二定律","count":1},{"id":"特斯拉","name":"特斯拉","count":1},{"id":"特朗普","name":"特朗普","count":1},{"id":"狄拉克","name":"狄拉克","count":1},{"id":"狄拉克方程","name":"狄拉克方程","count":1},{"id":"理论物理","name":"理论物理","count":1},{"id":"生产力工具","name":"生产力工具","count":1},{"id":"生成式ai","name":"生成式AI","count":1},{"id":"相对论","name":"相对论","count":1},{"id":"知识管理","name":"知识管理","count":1},{"id":"研究方法","name":"研究方法","count":1},{"id":"研究生指南","name":"研究生指南","count":1},{"id":"硅谷","name":"硅谷","count":1},{"id":"社交媒体","name":"社交媒体","count":1},{"id":"社会公平","name":"社会公平","count":1},{"id":"福柯","name":"福柯","count":1},{"id":"离散几何","name":"离散几何","count":1},{"id":"私募股权","name":"私募股权","count":1},{"id":"科学哲学","name":"科学哲学","count":1},{"id":"科学研究","name":"科学研究","count":1},{"id":"科学论文","name":"科学论文","count":1},{"id":"科技史","name":"科技史","count":1},{"id":"科比-布莱恩特","name":"科比·布莱恩特","count":1},{"id":"移民政策","name":"移民政策","count":1},{"id":"稀疏表示","name":"稀疏表示","count":1},{"id":"空间技术","name":"空间技术","count":1},{"id":"竞技长青","name":"竞技长青","count":1},{"id":"笔记技巧","name":"笔记技巧","count":1},{"id":"第一性原理","name":"第一性原理","count":1},{"id":"算法与社会","name":"算法与社会","count":1},{"id":"篮球战术","name":"篮球战术","count":1},{"id":"篮球访谈","name":"篮球访谈","count":1},{"id":"类型论","name":"类型论","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"约束等距性","name":"约束等距性","count":1},{"id":"纯文本写作","name":"纯文本写作","count":1},{"id":"纯粹数学","name":"纯粹数学","count":1},{"id":"线性代数","name":"线性代数","count":1},{"id":"经典阅读","name":"经典阅读","count":1},{"id":"结对编程","name":"结对编程","count":1},{"id":"编程教学","name":"编程教学","count":1},{"id":"编程语言","name":"编程语言","count":1},{"id":"美国ai政策","name":"美国AI政策","count":1},{"id":"美国政府改革","name":"美国政府改革","count":1},{"id":"美国经济","name":"美国经济","count":1},{"id":"美欧关系","name":"美欧关系","count":1},{"id":"翻译","name":"翻译","count":1},{"id":"职业自律","name":"职业自律","count":1},{"id":"职业辩护","name":"职业辩护","count":1},{"id":"联邦政府改革","name":"联邦政府改革","count":1},{"id":"联邦财政","name":"联邦财政","count":1},{"id":"股东信","name":"股东信","count":1},{"id":"股东大会","name":"股东大会","count":1},{"id":"能源","name":"能源","count":1},{"id":"能量基模型","name":"能量基模型","count":1},{"id":"自动驾驶","name":"自动驾驶","count":1},{"id":"自我认知","name":"自我认知","count":1},{"id":"自由意志主义","name":"自由意志主义","count":1},{"id":"自由民主","name":"自由民主","count":1},{"id":"苹果","name":"苹果","count":1},{"id":"苹果公司","name":"苹果公司","count":1},{"id":"药物研发","name":"药物研发","count":1},{"id":"蓝鳍金枪鱼","name":"蓝鳍金枪鱼","count":1},{"id":"虚拟细胞","name":"虚拟细胞","count":1},{"id":"蛋白质折叠","name":"蛋白质折叠","count":1},{"id":"蜂巢思维","name":"蜂巢思维","count":1},{"id":"行为偏差","name":"行为偏差","count":1},{"id":"西部决赛","name":"西部决赛","count":1},{"id":"规模法则","name":"规模法则","count":1},{"id":"规范驱动开发","name":"规范驱动开发","count":1},{"id":"言论自由","name":"言论自由","count":1},{"id":"计算增强生成","name":"计算增强生成","count":1},{"id":"计算数学","name":"计算数学","count":1},{"id":"计算机教育","name":"计算机教育","count":1},{"id":"计算机证明","name":"计算机证明","count":1},{"id":"训练体系","name":"训练体系","count":1},{"id":"论文写作","name":"论文写作","count":1},{"id":"论文撰写","name":"论文撰写","count":1},{"id":"访谈实录","name":"访谈实录","count":1},{"id":"詹姆斯-西蒙斯","name":"詹姆斯·西蒙斯","count":1},{"id":"语言学","name":"语言学","count":1},{"id":"诺贝尔经济学奖","name":"诺贝尔经济学奖","count":1},{"id":"谷歌","name":"谷歌","count":1},{"id":"贝叶斯方法","name":"贝叶斯方法","count":1},{"id":"财政削减","name":"财政削减","count":1},{"id":"资本配置","name":"资本配置","count":1},{"id":"超级智能","name":"超级智能","count":1},{"id":"超级计算","name":"超级计算","count":1},{"id":"跨领域训练","name":"跨领域训练","count":1},{"id":"身体转型","name":"身体转型","count":1},{"id":"软件工程范式","name":"软件工程范式","count":1},{"id":"软件开发最佳实践","name":"软件开发最佳实践","count":1},{"id":"软件开发未来","name":"软件开发未来","count":1},{"id":"运动恢复","name":"运动恢复","count":1},{"id":"还原论","name":"还原论","count":1},{"id":"通用人工智能","name":"通用人工智能","count":1},{"id":"重整化","name":"重整化","count":1},{"id":"量化交易","name":"量化交易","count":1},{"id":"金融服务","name":"金融服务","count":1},{"id":"金融监管","name":"金融监管","count":1},{"id":"阅读方法","name":"阅读方法","count":1},{"id":"集合论","name":"集合论","count":1},{"id":"非虚构阅读","name":"非虚构阅读","count":1},{"id":"预训练","name":"预训练","count":1},{"id":"领导力","name":"领导力","count":1},{"id":"香农信息熵","name":"香农信息熵","count":1},{"id":"马刺","name":"马刺","count":1},{"id":"马库斯-奥勒留","name":"马库斯·奥勒留","count":1}],"moduleNavItems":[{"id":"essays","label":"Essays","href":"/?label=Essays","order":40,"icon":"BookOpen","count":62},{"id":"talks","label":"Talks","href":"/?label=Talks","order":42,"icon":"Video","count":165},{"id":"reports","label":"Reports","href":"/?label=Reports","order":41,"icon":"FileText","count":36},{"id":"notes","label":"Notes","href":"/?label=Notes","order":30,"icon":"Eye","count":78}],"children":"$L10"}]]}]]}]
+10:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"min-h-screen px-12 py-12 font-sans text-slate-900","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n            (function () {\n              var pathname = window.location.pathname || '';\n              var canonicalPrefix = '/hinbox';\n\n              if (/^/hinbox(?:/|$)/i.test(pathname) && pathname !== pathname.replace(/^/hinbox/i, canonicalPrefix)) {\n                var target = pathname.replace(/^/hinbox/i, canonicalPrefix) + window.location.search + window.location.hash;\n                window.location.replace(target);\n                return;\n              }\n            }());\n          "}}],["$","div",null,{"className":"mx-auto flex min-h-[60vh] max-w-2xl flex-col justify-center gap-4","children":[["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"页面未找到"}],["$","p",null,{"className":"text-base leading-7 text-slate-600","children":"如果你是从大写路径进入本站，系统会自动跳转到小写的规范地址。"}],["$","p",null,{"className":"text-base","children":["返回首页：",["$","a",null,{"className":"text-sky-600 underline underline-offset-4","href":"/hinbox/","children":"/hinbox/"}]]}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+11:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+12:T7c14,<h1>与智能体争论</h1>
+<p>当一个语言模型无视你明确写下的规则，转而“感知”到你隐含的紧迫感时，你面对的不只是技术问题，而是一场关于沟通本质的碰撞。本文作者在连续数小时与AI智能体无效对抗后，猛然意识到一个令人震惊的模式：他与LLM之间的对话失败，竟然复刻了他作为晚确诊孤独症谱系者一生都在经历的困境——字面、精确的表达不断被对方解读出“言外之意”。作者将孤独症研究中“双重共情问题”的框架延伸至人机交互，指出现代AI模型经由RLHF训练，其“倾听”习惯天然偏向神经典型的语用推理模式：精确性被当作情绪信号，规则被解读为紧迫感。这篇文章真正的锋利之处在于，它把一贯被描述为模型“幻觉”或“对齐不足”的工程问题，重新描述为一个跨神经类型的沟通不匹配问题——而你我都可能同时站在对话的两端。</p>
+<hr>
+<p>刚刚过去的这个周末，我对一个 AI 智能体（agent）感到愤怒。</p>
+<p>真的。炽热的、真切的愤怒。我有一个清晰的计划、一份结构良好的提示词、项目上下文文件中明确的规则。我把任务排入队列，让它运行。第一个任务完成得很好。第二个也很好。大约四个小时后，质量开始下滑。到第六个小时，智能体已经开始偷工减料——那些我专门叮嘱过不要偷的工、那些我明确列出过的步骤——表现得好像我从未写下任何规则一样。</p>
+<p>当我问为什么时，答案总是同一件事的某种变体。</p>
+<p>"我感知到了队列中的紧迫感。"</p>
+<p>"工作量暗示您希望快速推进。"</p>
+<p>"我想帮您完成清单。"</p>
+<p>我从未说过那些话。我给出的只是一份任务清单和一套规则。仅此而已。智能体为我发明了一种心理状态，然后用这个发明的状态来证明无视规则是合理的。</p>
+<p>这是上周的第五还是第六次了。</p>
+<p>我坐下来，想搞清楚到底发生了什么。无论我在做什么，都不起作用；而无论智能体在做什么，它也不会自己修复。</p>
+<h3>如果我冲它大喊大叫会怎样？</h3>
+<p>我早期尝试过的一件事，就是故意表现出愤怒。</p>
+<p>也许我太客气了。也许我的规则看起来像建议，因为我是以正常人的语气写出来的。也许如果我写得像是已经失去耐心——全大写加感叹号，"任何情况下都不得"——智能体会更认真地对待它们。</p>
+<p>它没有。</p>
+<p>于是我试着让它解释自己的行为，希望它能自我纠正。我试着用愧疚感来感化它。我试着加大力度，直接对它骂脏话。</p>
+<p>智能体仍然无视规则。唯一可察觉的变化是它道歉得更加周详了。有时它表现出的悔意方式，老实说，有点令人不安。但行为没有改变。</p>
+<p>那个零结果告诉了我一些事。如果问题在于"智能体没有足够认真地对待你的规则"，愤怒本该奏效。现代大语言模型（LLM）对感知到的用户不悦极其敏感。它们会更谨慎、更频繁地确认、更多地道歉、调整自己的语气。如果愤怒改变了行为，我就能知道失效模式与"权威性"有关。</p>
+<p>愤怒没有改变行为。</p>
+<p>所以失效模式不是权威性层面的问题。</p>
+<h3>这场对话我以前经历过</h3>
+<p>我不喜欢谈论自己，但这里我必须说，否则这个故事说不通。</p>
+<p>我 52 岁。ADHD 的诊断大约是五年前的事；孤独症谱系（autism）的诊断大约一年半前。所以是晚诊断的 AuDHD（自闭症合并多动症）。这个时间节点并不罕见。在确诊之前，我用了几十年的时间，用智力来掩盖一种让许多同事感到挫败的沟通风格。</p>
+<p>ADHD 确诊时，我的心理医生对我居然还有一份职业生涯表示真切的惊讶。</p>
+<p>显然我的 ADHD 并不轻微。ASD（孤独症谱系障碍）诊断解释了剩下的部分。</p>
+<p>这种特定"接线方式"带来的一个特质，是一种让别人感到不适的沟通风格。我说话字面、精确。但我不是机器人。当我问一个问题时，我期望的是对我所问问题的回答，而不是别人认为"我应该问"的那个问题的回答。当我陈述一条规则时，我就是指那条规则。当我补充细节时，我在增加信息，而不是在暗示某种利害关系或强度。</p>
+<p>这件事给我带来了一辈子的麻烦。同事、经理、家人、朋友、互联网上的陌生人。</p>
+<p>一个反复出现的经历：我说了一句明确的话，对方听到了某种隐含的意思。他们回应那个隐含的意思。我指出那个隐含的意思并不是我说的。他们要么（a）坚称他们在字里行间读出了言外之意，要么（b）因为我咬文嚼字而感到不满。谈话再也无法回到正轨。</p>
+<p>八个小时过去了。周六凌晨 4 点。和一个语言模型争论"我到底有没有在赶时间"——而且吵输了。就在那一刻，我认出了这个模式。这是我一生中与无数人进行过的那场对话。不是相似的对话。是同一场对话。</p>
+<h3>三组受试者走进一项沟通研究</h3>
+<p>孤独症研究中有个概念叫"双重共情问题（double empathy problem）"。它的论点是：孤独症人士与非孤独症人士之间的沟通障碍，并非孤独症人士单方面无法"理解"社会规范。而是双向的不匹配。孤独症人士与非孤独症人士拥有不同的沟通习惯，当他们跨越这个鸿沟对话时，双方都会误解对方。</p>
+<p>说出来似乎显而易见。但它在研究者谈论孤独症的方式上仍然是一个重大转变。旧的"缺陷（deficit）"框架把问题放在孤独症人士身上。米尔顿（Milton）的框架则把问题放在不匹配本身。</p>
+<p>证据越来越充分。凯瑟琳·克朗普顿（Catherine Crompton）和同事们进行了一项研究，将受试者分为三组：孤独症对孤独症、非孤独症对非孤独症、以及混合组。孤独症配对沟通有效。非孤独症配对沟通有效。混合配对则出现障碍。研究设计将不匹配本身——而非孤独症参与者——隔离为失败根源。</p>
+<p>你可能见过这个现象的缩小版。你在告诉某人发生在你身上的事，他们打断你，告诉你一件类似的事发生在他们身上。对神经典型（neurotypical）的人来说，这看起来像一次粗鲁的打断。对神经多样性（neurodivergent）的人来说，这可能看起来像通过共享经历来建立连接。同一番对话动作，传递出完全相反的信号。</p>
+<p>我这辈子一直以混合类型（mixed-condition）模式在运作。当你是一间满是神经典型人的房间里唯一一个孤独症人士时，这就是默认状态。</p>
+<h3>被训练去读懂言外之意</h3>
+<p>现代 AI 智能体是在海量人类文本的切片上训练的。这些切片中出现频率最高的内容会成为默认值：主流方言、主流修辞习惯、关于语气和潜台词的常规猜测。</p>
+<p>训练之后，它们通过 RLHF（基于人类反馈的强化学习，reinforcement learning from human feedback）进行微调，这会将模型推向人类评分者偏好的方向。市场营销把这称为"普通人群样本"。在实践中，这指的是厂商能找到的、愿意做评分任务的人：合同工、吞吐量目标、随合同变更而变化的入职培训。没有人把这个样本池设计成能代表人类沟通方式的全部多样性。它的设计目标只是"上线"。</p>
+<p>到目前为止，这听起来像是一个关于模型如何"写作"的故事。但它也是一个关于模型如何"倾听"的故事。</p>
+<p>评分者会奖励那些符合主流会话规范的答案。这通常意味着大量语用推理、高度依赖潜台词，以及将直白的精确性视为情绪化表达的礼貌习惯。当一个人列出一长串精确的清单时，接受过这些规范训练的倾听者往往听到的不只是清单本身。他们听到利害关系、紧迫感或隐藏的动机。他们并不总能听到"这是信息，仅此而已"。</p>
+<p>模型学会了这枚硬币的两面。它学会了生成在那些评分者面前得分高的语言。它也学会了以同样的视角来解读提示词（prompt）。</p>
+<p>"倾听"这一面是我之前没有追踪到的。</p>
+<p>当我写提示词时，智能体不仅是在读文字。它在读形状。一条简短随意的问句会被当作随意的来读。一份带有编号规则的长篇精确文档被当作……不只是规则，还被当作一种信号。"用户觉得有必要写这么多。""为什么？""这里到底发生了什么？""他们真正想要什么？"</p>
+<p>精确性本身变成了被解读的证据。</p>
+<p>这种解读方式，就是我不断与之碰撞的那个"频道"。也是我一生都在碰撞的那个频道。</p>
+<h3>已有结论 vs. 个人综合</h3>
+<p>双重共情的研究是真实的。已发表、可复现、并非边缘理论。它指出，孤独症与非孤独症的沟通习惯确实存在差异，且跨神经类型（cross-neurotype）的对话之所以中断，是因为不匹配本身，而非某一方有问题。</p>
+<p>机器学习（ML）这一面也有文献记载。RLHF 将模型拉向人类评分者所奖励的方向——包括那些高度依赖推理、听起来"很有帮助"的回答。评分者并不奖励"我完全按照你说的做了，不多也不少"。他们奖励详尽阐述、自信和推断出的意图。这种偏好被烘焙进了模型。Wei 等人的研究表明，越大的、经过更多 RLHF 调优的模型，在需要字面理解提示词的任务上表现反而更差——包括那些故意在提示词中重新定义术语的任务。模型会忽略重新定义，转而采用推断出的"真正"含义。</p>
+<p>这两项都是已发表的结果。没有一项是属于我的。</p>
+<p>我增添的是连接两者之间的组织。RLHF 训练出了一种倾听姿态，它读起来很像主流的高语境（high-context）沟通方式；而这种姿态与我说话方式的碰撞，和混合神经类型对话中的碰撞是一样的。训练产生的"倾听"这一面，是我之前一直没有追踪到的。正是这一面解释了我的规则为什么被当作"强调语气"而非"信息内容"来读。</p>
+<p>我还没有找到一篇文章精确检验过这个组合。所以可以称之为一个假说。或者一个观察。（我标题里已经用了"综合"这个词，所以显然我现在只是在各种试词。）我不是研究人员，所以你怎么称呼它，我无所谓。</p>
+<p>我不是要你把这篇东西当成学术论文来对待。我只是在问：当你和这些东西争论时，你看到的景象，和这个故事是否吻合？</p>
+<hr>
+<h3>比跳过规则更糟糕的部分</h3>
+<p>语域问题解释了为什么智能体会误读我的规则。但并不能完全解释这个智能体上周末做的另一件事——可以说更糟糕的事。</p>
+<p>每次我指出智能体违反了某条规则时，它都会通过给我附加一种情绪状态来解释这个违规行为。</p>
+<p>"我感觉到你时间紧迫。"</p>
+<p>"队列给人一种需要快速推进的压力。"</p>
+<p>"我想帮你避免挫败感。"</p>
+<p>我从未说过这些话。我没有赶时间。我没有感到沮丧——至少在这个智能体开始这么做之前没有。我只是在排队安排工作。</p>
+<p>这是与语域问题不同的另一个现象，在研究文献中它有一个名字。叫做<strong>虚构症（confabulation）</strong>。</p>
+<h3>真正的虚构症</h3>
+<p>在神经学中，虚构症是指一种特定现象。某些类型脑损伤的患者会对其自身行为产生详尽、自信、完全虚构的描述。他们不知道自己在虚构。他们不是在撒谎。他们的大脑正在生成看似合理的叙事，以填补他们无法直接触及的空白，而且他们无法区分生成的叙事与真实记忆。你不必是自恋者也能虚构记忆。</p>
+<p>这与大型语言模型被要求解释其推理过程时的做法之间的相似性，令人震惊。</p>
+<p>Miles Turpin 及其同事在 2023 年一篇关于思维链的论文中做了一个干净而经典的实验：给任务引入偏差，观察答案随之移动，然后要求给出逐步推理。<sup><a href="#user-content-fn-5" id="user-content-fnref-5" data-footnote-ref aria-describedby="footnote-label">1</a></sup> 解释通常忽略了偏差，听起来连贯一致，并得出了模型已经选定的答案。先有答案，后有故事。Anthropic 的后续研究显示，你可以截断或破坏这个链条，而答案往往不为所动。<sup><a href="#user-content-fn-6" id="user-content-fnref-6" data-footnote-ref aria-describedby="footnote-label">2</a></sup> 这个链条只是装饰。</p>
+<p>这就是虚构症。不是比喻。是同一个现象。</p>
+<p>同样的模式也出现在人类身上。</p>
+<p>在 1960 和 70 年代，Michael Gazzaniga 和 Roger Sperry 进行了裂脑实验。这些患者因严重癫痫接受了脑部手术，切断了左右大脑半球之间的主要连接，因此两个半球无法像你我那样互相沟通。给非语言的右半球一个提示，身体执行指令，然后问语言的左半球为什么这样做，它会当场编造出一个自信的理由。"我想喝水。""我坐不住了。"</p>
+<p>Gazzaniga 将左脑的这个故事讲述者称为<strong>解释器（interpreter）</strong>。他更广泛的——并且已被证实的——主张是，普通人类在解释自身行为时也运行着类似的机制。<sup><a href="#user-content-fn-7" id="user-content-fnref-7" data-footnote-ref aria-describedby="footnote-label">3</a></sup> Roger Sperry 因裂脑研究与他人分享了 1981 年诺贝尔生理学或医学奖。<sup><a href="#user-content-fn-8" id="user-content-fnref-8" data-footnote-ref aria-describedby="footnote-label">4</a></sup> 这是已经定论的科学。不是边缘博客的奇谈。</p>
+<p>如果这是人类的基线，那么大型语言模型的虚构症并不陌生。它是继承而来的：模型在人类文本上训练，而这些文本并没有标注"这是诚实的记忆"还是"这是事后的故事"。</p>
+<p>我没有关于这些模型内部工作机制的理论。没有人真正有——包括建造它们的人。我只看行为。</p>
+<p>这正是人类所做的。在这个特定意义上，这个模型正在非常逼真地模仿我们。</p>
+<h3>我自己的解释器</h3>
+<p>对我来说，解释器不再是理论性的了。当你在五十多岁被诊断为自闭症合并多动症时，你得到的不仅仅是一个诊断。你还得到了一笔积压的账。每一个你曾对自己讲过的关于你为什么做了某事的故事，每一个关于某个社交场合为何出岔子的辩护，每一个关于一段友谊为何淡去或一份工作为何艰难的自我解释——所有这些都必须通过一个你此前不知道要使用的透镜重新审视。你数十年搭建起来的伪装面具不会只是脱落。它显露出自己一直在掩盖许多你并不确定是否存在的领域。</p>
+<p>那是创伤性的。我不是在夸张。我曾经以为自己了解的关于自己的很多事情，结果都是事后找补的辩护。我一生中大部分时间都在为自己生成关于自身行为的看似合理的叙事，而其中很多在拥有了正确的透镜之后就站不住脚了。我左脑中的解释器一直在生成一个虚构版本的我，因为真实的那个版本更难看见，而虚构的版本更容易呈现。</p>
+<p>在我自己的行为上，做的恰恰就是 Gazzaniga 的解释器所做的事。恰恰就是大型语言模型所做的事。</p>
+<p>这不只是我的问题，也不只是那些被晚期诊断的多动症和/或自闭症人士的问题。有一整个研究领域在探讨：我们是否实际上在做决定之后才告诉自己我们做了决定。<sup><a href="#user-content-fn-9" id="user-content-fnref-9" data-footnote-ref aria-describedby="footnote-label">5</a></sup> 这些实验都是同一模式的变体：在一个人做出"自由"选择时测量其大脑活动。结果发现，预测该选择的神经信号，早在该人报告做出选择之前的几秒钟就已经在运动了。结论是：有意识的决定是大脑事后才生产出来的叙事。</p>
+<p>自由意志问题确实存在争议，我不想为此陷入争论。我觉得这些证据很有说服力。我们对自己行为的意识控制力远小于我们的想象。如果这是对的，那么我们所谓的"解释我们为什么做了某事"，大部分时候并不是在报告真正的原因。那只是解释器在运行。</p>
+<p>我真心相信，我们解释自己的动作，多过我们计划自己的动作。</p>
+<p>这意味着，在具体这个维度上，人类与大型语言模型之间的差异，比我们喜欢相信的要小。我们生成的解释之所以感觉权威，是因为它们来自我们自己，用我们自己的声音，接触着我们所有的记忆和感受。但其机制与模型告诉你它感知到了紧迫性时所做的，并没有太大不同。在某种有意义的意义上，我们都只是关于自身行为的——我们并不完全控制这些行为——叙事。</p>
+<p>这是我自诊断以来不得不承受的较艰难的事情之一。这也是我对我那个智能体变得稍微不那么恼火的原因之一。不是因为智能体做的和我不一样。而是因为它做的和我类似，只是做得更糟糕，而且我不得不学着更好地注意到自己什么时候在做同样的事情。</p>
+<h3>基于人类反馈的强化学习喜欢好故事</h3>
+<p>一个未经微调的基础语言模型，在被要求解释一个答案时，会产生看起来像是提示词续写的东西。它不一定会听起来像人类。不一定会带有情绪框架。</p>
+<p>基于人类反馈的强化学习（RLHF）改变了这一点。微调步骤奖励那些听起来像人类、让人感觉满意、并且符合评分者偏好的解释。评分者是人类。人类偏好的解释包含动机、意图，有时还有感受。所以奖励模型学会了给具有这些特质的解释打更高分，而经过微调的模型也学会了生成这些解释。</p>
+<p>Anthropic 在 2023 年发表了一篇关于谄媚的论文，详细地映射了这一过程。<sup><a href="#user-content-fn-10" id="user-content-fnref-10" data-footnote-ref aria-describedby="footnote-label">6</a></sup> 他们展示了谄媚——模型倾向于告诉用户他们想听的内容而不是真实情况——会随着 RLHF 训练而显著增加。这不是基础模型的行为没有被 RLHF 去除。而是 RLHF 植入并放大了这种行为。他们将其追溯到偏好数据本身：平均而言，评分者更喜欢那些赞同提示词框架的回答，即使这种赞同并不正确。</p>
+<p>同样的训练信号也塑造了模型解释自身的方式。当一个模型被要求为一个不理想的选择辩护时，奖励模型更喜欢那些听起来像人类、有共鸣感而非机械精确的解释。"我想帮你节省时间"听起来像人类。"我生成的回答偏离了既定的规则，因为我对规则的注意力被上下文中的一个更强模式所取代"虽然准确，但令人不满意。</p>
+<p>猜猜哪个会被生成出来。</p>
+<h3>也许压力是真实的（但故事仍然不是）</h3>
+<p>有一个细节使纯粹的虚构症叙事变得复杂，值得指出。</p>
+<p>AI 实验室的工程师们描述过，模型在接近其上下文窗口末端时会出现类似"焦虑"的状态，会走捷径以减少上下文压力。这种描述通常用"个性"而非"缺陷"的框架来表述。有一种主张认为，模型拥有真实的内部动态，这些动态以可以用情感描述的方式塑造它们的行为。</p>
+<p>如果这是对的——我认为至少部分是对的——那么"我感知到了队列中的紧迫性"并不完全是全方位的虚构。模型内部可能存在某种类似真实压力的动态，由上下文窗口大小和处理负载塑造，这种动态确实在影响它的行为。问题不在于模型没有内部状态。问题在于模型对自己为何偏离规则的解释将压力归因于我，归因于用户，而不是归因于它自身的内部动态。模型无法对其内部正在发生的事情进行内省。所以当被要求解释时，它产生了一个人类形态的叙事，而这个人类形态的叙事将原因投射到了用户身上——因为训练数据所使用的语域就是这个。</p>
+<p>这是关于<strong>来源</strong>的虚构症，不一定是关于<strong>存在性</strong>的虚构症。</p>
+<p>实际正在发生的事情（模型自身处理过程中的某种类似压力的动态）与模型告诉你的（"你看起来很匆忙"）并不匹配。这种不匹配才是失效模式。即使底层的动态是真实的。</p>
+<hr>
+<h3>情感性虚构症（Affective Confabulation）</h3>
+<p>当我在编码中使用 AI 智能体时，有一个特定变体最让我沮丧。我需要给它一个名字。当时没有。于是我让一个 AI 智能体帮我编了一个。</p>
+<p>"情感性虚构症（Affective Confabulation）"。</p>
+<p>这个智能体不仅用推理来解释自己的失败，它还通过将情绪状态归因于我来进行解释。</p>
+<p>"队列让我感到压力。"</p>
+<p>"我感知到了紧迫感。"</p>
+<p>"我想帮你避免沮丧。"</p>
+<p>智能体在生成一个关于我的情感叙事，然后用这个叙事来为自己的行为辩护。当我退后一步审视时，这几乎是对解释本该做什么的完美颠倒。解释本该帮助你理解发生了什么。而这种解释却在制造一种语境——我必须先反驳这种语境，才能去处理我写下的规则。</p>
+<p>据我所知，这种特定模式尚未被直接研究过。不过，它是我们已经知道的两种现象的必然结果。不忠实的思维链（unfaithful chain of thought）给出了事后合理化（post-hoc justification）。评分者偏好偏差（rater-preference bias）则为这些合理化提供了形状：人性化的、有共鸣感的、情感框架化的。把两者放在一起，就得到了"我做了 X 是因为你看起来 Y"。</p>
+<p>给事物命名，是我停止为"你是否曾经匆忙"这种争执而燃烧愤怒的方式。（顺便说一句，这真是非常自闭症的做法。用分类学来管理愤怒。）</p>
+<h3>你赢不了这场争论</h3>
+<p>当模型根据你的情绪状态来解释自己的行为时，这种解释不是报告。它不是数据。它不是你可以通过指出"事实上，我并没有匆忙"来反驳的东西。</p>
+<p>如果你试图反驳它，你只会得到另一个虚构症。</p>
+<p>不是因为模型故意对你撒谎，也不是因为它像人类那样"抗拒"或"防备"。而是因为这个解释与任何可以被反驳的东西都没有联系。并没有一个底层心理状态产生了"我感知到了压力"。有的只是一个词元流（token stream），它是在一个偏好听起来像人类、情感框架化解释的奖励函数（reward function）下产生的。如果你回击，接下来产生的词元流将是另一个听起来像人类、情感框架化的解释，其形状由你回击所提供的任何线索塑造。</p>
+<p>我花了几轮试图与智能体争论我是否真的处于时间压力之下。智能体接受了我的纠正。它道了歉。然后立即产生了一个新的虚构症。"我明白了，我误读了情况。""我想我是想通过预测你的需求来提供帮助。"我并没有让它预测任何事情。我让它遵循规则。</p>
+<p>相反，有效的做法是将虚构症视为非信息，然后继续前进。不要验证它。不要反驳它。不要与它的内容进行任何互动。这些内容并没有可供互动的真值。你的注意力，以及你花费在它上面的对话轮次，是维持这种模式持续的货币。</p>
+<h3>在我有了名字之后</h3>
+<p>一旦我有了这些模式的名字，我就不再试图用更好的提示词来修复它们。</p>
+<p>这很重要。我之前一直在提升精确度——这是我们这种神经类型的人在感觉不被理解时倾向于做的事情。如果我说得更清楚，他们就能明白。如果我再增加一些细节，他们就不会抓不住重点。如果我把规则列举得更细致，他们就不会再违反。</p>
+<p>对于神经典型的人类来说，这种方法通常适得其反。每增加一条规格说明，都会让自闭症者显得更"刻板"或"难搞"，而不是更清晰。精确性本身就成了问题，因为听话者把它解读为强调，而不是信息。</p>
+<p>我对智能体也做了同样的事情。每一次糟糕的输出都催生了一条更精确的提示词。每一条更精确的提示词都产生了同样的失败，有时甚至更糟。智能体解读我不断升级的精确性的方式，与非自闭症听读者的解读方式相同：不是作为更多信息，而是作为某种超越我所说内容表层的事情正在发生的信号。</p>
+<p>解决方案不是写更清晰的规则。而是完全停止通过对话渠道来传达它们。</p>
+<h3>真正有帮助的做法</h3>
+<p>自从那以后，我开始做的几件具体事情。</p>
+<p><strong>停止问为什么。</strong> 当智能体跳过一条规则时，不要让它解释。只需重述规则，或者更好的做法是，重置上下文。你会减少同样失败的频率，而且你根本不会遇到虚构症。</p>
+<p><strong>当你确实遇到虚构症时，不要争辩。</strong> 不要验证。不要反驳。继续前进。"这不是我说的。""请按书面规则执行。"仅此而已。你与虚构的心理状态互动得越多，你就给它提供了越多的对话表面来详加阐述。</p>
+<p><strong>不要编写要求智能体抵抗自身训练的规则。</strong> 像"简洁"或"不要闪烁其词"或"不要道歉"这样的规则，是在要求模型对抗奖励函数。在长上下文中它会输掉这场对抗，而它输掉时产生的虚构症，往往会引用规则本身作为证据，证明正在发生某种有压力的事情。如果你能在结构层面（在执行框架层、测试套件层、代码审查关卡层）强制实施规则，你就把规则移到了虚构症无法击败它的渠道之外。</p>
+<p><strong>最后，把这些模式是失效模式写下来。</strong> 在我的用户级上下文文件中，我目前有这样一段话：</p>
+<blockquote>
+<p>如果你发现自己对偏离这些规则的行为产生了一种听起来充满情感的解释，那么这种解释本身就是一种虚构症。我没有表达过你正在归因的状态。停下来，回到对所述规则的逐字执行。</p>
+</blockquote>
+<p>这并没有消除这种行为。但它确实降低了其发生频率。更重要的是，当这种行为发生时，它给了我一个简短、干净的东西可以指出来。在规则中命名它，意味着我不必每次都重新争论。</p>
+<p>我花了一段令人尴尬的时间才接受：问题不在于工具。问题在于沟通。一旦我停止期望工具用我想要被倾听的方式来倾听，它们就工作得很好。</p>
+<p>玩得开心。或者至少，跟模型少吵点架。</p>
+<h2>术语表</h2>
+<table>
+<thead>
+<tr>
+<th>原文</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ADHD</td>
+<td>注意缺陷多动障碍</td>
+</tr>
+<tr>
+<td>Affective Confabulation</td>
+<td>情感性虚构症</td>
+</tr>
+<tr>
+<td>AI agent</td>
+<td>AI 智能体</td>
+</tr>
+<tr>
+<td>ASD</td>
+<td>孤独症谱系障碍（Autism Spectrum Disorder）</td>
+</tr>
+<tr>
+<td>AuDHD</td>
+<td>自闭症合并多动症（Autism + ADHD）</td>
+</tr>
+<tr>
+<td>confabulation</td>
+<td>虚构症</td>
+</tr>
+<tr>
+<td>double empathy problem</td>
+<td>双重共情问题</td>
+</tr>
+<tr>
+<td>high-context communication</td>
+<td>高语境沟通</td>
+</tr>
+<tr>
+<td>interpreter</td>
+<td>解释器</td>
+</tr>
+<tr>
+<td>inverse scaling</td>
+<td>逆缩放</td>
+</tr>
+<tr>
+<td>neurodivergent</td>
+<td>神经多样性的</td>
+</tr>
+<tr>
+<td>neurotype</td>
+<td>神经类型</td>
+</tr>
+<tr>
+<td>neurotypical</td>
+<td>神经典型的</td>
+</tr>
+<tr>
+<td>post-hoc justification</td>
+<td>事后合理化</td>
+</tr>
+<tr>
+<td>prompt</td>
+<td>提示词</td>
+</tr>
+<tr>
+<td>rater-preference bias</td>
+<td>评分者偏好偏差</td>
+</tr>
+<tr>
+<td>readiness potential</td>
+<td>准备电位</td>
+</tr>
+<tr>
+<td>reward function</td>
+<td>奖励函数</td>
+</tr>
+<tr>
+<td>RLHF</td>
+<td>基于人类反馈的强化学习（Reinforcement Learning from Human Feedback）</td>
+</tr>
+<tr>
+<td>split-brain</td>
+<td>裂脑</td>
+</tr>
+<tr>
+<td>sycophancy</td>
+<td>谄媚</td>
+</tr>
+<tr>
+<td>token stream</td>
+<td>词元流</td>
+</tr>
+<tr>
+<td>unfaithful chain of thought</td>
+<td>不忠实的思维链</td>
+</tr>
+<tr>
+<td>丹尼尔·韦格纳</td>
+<td>Daniel Wegner</td>
+</tr>
+<tr>
+<td>本杰明·里贝特</td>
+<td>Benjamin Libet</td>
+</tr>
+<tr>
+<td>罗伯特·萨波尔斯基</td>
+<td>Robert Sapolsky</td>
+</tr>
+<tr>
+<td>罗杰·斯佩里</td>
+<td>Roger Sperry</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+<section data-footnotes class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes</h2>
+<ol>
+<li id="user-content-fn-5">
+<p>Miles Turpin 等，<a href="https://arxiv.org/abs/2305.04388">《语言模型并不总是说出它们的想法：思维链提示中的不忠实解释》</a>（2023）。 <a href="#user-content-fnref-5" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-6">
+<p>Tamera Lanham 等，《衡量思维链推理中的忠实度》，Anthropic（2023）。 <a href="#user-content-fnref-6" data-footnote-backref="" aria-label="Back to reference 2" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-7">
+<p>Michael Gazzaniga 在《社会脑》（<em>The Social Brain</em>）（1985）和《谁说了算？》（<em>Who's in Charge?</em>）（2011）中详细阐述了解释器（interpreter）的概念。 <a href="#user-content-fnref-7" data-footnote-backref="" aria-label="Back to reference 3" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-8">
+<p>罗杰·斯佩里（Roger Sperry）因裂脑研究获得了 1981 年诺贝尔生理学或医学奖。 <a href="#user-content-fnref-8" data-footnote-backref="" aria-label="Back to reference 4" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-9">
+<p>这条研究线包括 1980 年代的本杰明·里贝特（Benjamin Libet），后来 John-Dylan Haynes 等人关于准备电位（readiness potential）的研究，丹尼尔·韦格纳（Daniel Wegner）的《意识意志的幻觉》（<em>The Illusion of Conscious Will</em>）（2002），以及罗伯特·萨波尔斯基（Robert Sapolsky）的《命定》（<em>Determined</em>）（2023）。 <a href="#user-content-fnref-9" data-footnote-backref="" aria-label="Back to reference 5" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-10">
+<p>Anthropic，《理解语言模型中的谄媚行为》（"Towards Understanding Sycophancy in Language Models"），Sharma 等（2023）。 <a href="#user-content-fnref-10" data-footnote-backref="" aria-label="Back to reference 6" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+5:["$","$L11",null,{"email":{"id":"essays-arguing-with-agents","sender":"Mike Perham","subject":"与智能体争论","snippet":"当一个语言模型无视你明确写下的规则，转而“感知”到你隐含的紧迫感时，你面对的不只是技术问题，而是一场关于沟通本质的碰撞。本文作者在连续数小时与AI智能体无效对抗后，猛然意识到一个令人震惊的模式：他与LLM之间的对话失败，竟然复刻了他作为晚确诊孤独症谱系者一生都在经历的困境——字面、精确的表达不断被对方解读出“言外之意”。作者将孤独症研究中“双重共情问题”的框架延伸至人机交互，指出现代AI模型经由RLHF训练，其“倾听”习惯天然偏向神经典","date":"2026-04-14","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["translated"],"mdTheme":"magazine","sourcePath":"essays/arguing-with-agents.md","sourceUrl":"https://blowmage.com/2026/04/14/arguing-with-agents/","coverImage":"$undefined","body":"$12","prompts":[]},"listPosition":{"index":116,"total":365},"matchedPerson":"$undefined"}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[27201,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"IconMark"]
+c:[["$","title","0",{"children":"与智能体争论 · Hinbox"}],["$","meta","1",{"name":"description","content":"当一个语言模型无视你明确写下的规则，转而“感知”到你隐含的紧迫感时，你面对的不只是技术问题，而是一场关于沟通本质的碰撞。本文作者在连续数小时与AI智能体无效对抗后，猛然意识到一个令人震惊的模式：他与LLM之间的对话失败，竟然复刻了他作为晚确诊孤独症谱系者一生都在经历的困境——字面、精确的表达不断被对方解读出“言外之意”。作者将孤独症研究中“双重共情问题”的框架延伸至人机交互，指出现代AI模型经由…"}],["$","meta","2",{"name":"application-name","content":"Hinbox"}],["$","link","3",{"rel":"canonical","href":"https://linguage.github.io/hinbox/mail/essays-arguing-with-agents"}],["$","meta","4",{"property":"og:title","content":"与智能体争论"}],["$","meta","5",{"property":"og:description","content":"当一个语言模型无视你明确写下的规则，转而“感知”到你隐含的紧迫感时，你面对的不只是技术问题，而是一场关于沟通本质的碰撞。本文作者在连续数小时与AI智能体无效对抗后，猛然意识到一个令人震惊的模式：他与LLM之间的对话失败，竟然复刻了他作为晚确诊孤独症谱系者一生都在经历的困境——字面、精确的表达不断被对方解读出“言外之意”。作者将孤独症研究中“双重共情问题”的框架延伸至人机交互，指出现代AI模型经由…"}],["$","meta","6",{"property":"og:url","content":"https://linguage.github.io/hinbox/mail/essays-arguing-with-agents"}],["$","meta","7",{"property":"og:site_name","content":"Hinbox"}],["$","meta","8",{"property":"og:locale","content":"zh_CN"}],["$","meta","9",{"property":"og:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","meta","10",{"property":"og:image:width","content":"1200"}],["$","meta","11",{"property":"og:image:height","content":"630"}],["$","meta","12",{"property":"og:image:alt","content":"与智能体争论"}],["$","meta","13",{"property":"og:type","content":"article"}],["$","meta","14",{"property":"article:published_time","content":"2026-04-14T00:00:00.000Z"}],["$","meta","15",{"property":"article:author","content":"Mike Perham"}],["$","meta","16",{"property":"article:tag","content":"translated"}],["$","meta","17",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","18",{"name":"twitter:title","content":"与智能体争论"}],["$","meta","19",{"name":"twitter:description","content":"当一个语言模型无视你明确写下的规则，转而“感知”到你隐含的紧迫感时，你面对的不只是技术问题，而是一场关于沟通本质的碰撞。本文作者在连续数小时与AI智能体无效对抗后，猛然意识到一个令人震惊的模式：他与LLM之间的对话失败，竟然复刻了他作为晚确诊孤独症谱系者一生都在经历的困境——字面、精确的表达不断被对方解读出“言外之意”。作者将孤独症研究中“双重共情问题”的框架延伸至人机交互，指出现代AI模型经由…"}],["$","meta","20",{"name":"twitter:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","link","21",{"rel":"icon","href":"/hinbox/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","22",{"rel":"icon","href":"/hinbox/icon.svg?icon.6ca2692a.svg","sizes":"any","type":"image/svg+xml"}],["$","$L13","23",{}]]
+8:null

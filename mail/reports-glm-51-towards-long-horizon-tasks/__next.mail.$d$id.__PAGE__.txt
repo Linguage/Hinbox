@@ -1,0 +1,187 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T4fc1,<h1>GLM-5.1：面向长程任务</h1>
+<p>GLM-5.1 是智谱面向智能体工程推出的下一代旗舰模型，其核心突破不仅在于 SWE-Bench Pro 等基准测试上的领先成绩，更在于它重新定义了模型在长时间跨度内保持有效性的能力。此前的大模型——包括 GLM-5 本身——往往在初步取得进展后迅速陷入平台期，即便给予更多时间也无法持续改进。GLM-5.1 的设计目标恰恰是打破这一瓶颈。文章通过三个反馈结构化程度逐级递减的任务来展示这一能力：从 600 轮迭代将向量数据库 QPS 优化至此前最佳结果六倍的数值优化任务，到 1000 余轮工具调用实现 3.6 倍 GPU 内核加速比的机器学习工作负载，再到完全没有量化指标的八小时 Linux 桌面环境构建。这些实验揭示了一个关键洞见：模型在长程任务中表现出的判断力、策略迭代能力和持续探索意愿，或许比单次任务的峰值性能更能定义下一代智能体的能力边界。</p>
+<hr>
+<p>GLM-5.1 是我们用于智能体工程（agentic engineering）的下一代旗舰模型，其编程能力较前代大幅增强。在 SWE-Bench Pro 上取得了最先进水准，并在 NL2Repo（仓库生成）和 Terminal-Bench 2.0（真实终端任务）上以显著优势领先 GLM-5。</p>
+<h3>复杂软件工程任务</h3>
+<h3>SWE-Bench Pro</h3>
+<p>58.4</p>
+<p>55.1</p>
+<p>57.7</p>
+<p>57.3</p>
+<p>54.2</p>
+<p>GLM-5.1</p>
+<p>GLM-5</p>
+<p>GPT-5.4</p>
+<p>Opus 4.6</p>
+<p>Gemini 3.1 Pro</p>
+<p>GLM-5.1 在复杂软件工程任务上达到了最先进水平。</p>
+<p>但最有意义的跃进并不仅限于首轮表现。之前的模型——包括 GLM-5——往往过早耗尽了招数：它们会先运用熟悉的技术快速取得初步进展，随后便陷入平台期。给它们更多时间也无济于事。</p>
+<p>相比之下，GLM-5.1 的设计目标是在更长的时间跨度上保持智能体任务的有效性。我们发现，该模型能以更优的判断力处理模糊问题，并在更长时间的会话中保持高产。它能拆解复杂问题、运行实验、读取结果，并以真正的精度定位障碍。通过反复审视自身推理、不断修正策略，GLM-5.1 能在数百轮对话和数千次工具调用中持续优化。运行时间越长，结果越优。</p>
+<p>我们通过三个反馈结构化程度逐级递减的任务来展示这一点：一个由单一数值指标评分的向量搜索优化问题、一个按问题分别测量加速比的 GPU 内核基准测试，以及一个完全开放式的 Web 应用构建——其中没有任何度量指标，全凭模型自身判断下一步该改进什么。</p>
+<h3>场景一：600 轮迭代优化向量数据库</h3>
+<p><a href="https://github.com/KCORES/vector-db-bench">VectorDBBench</a> 是一个开源编程挑战，评估模型构建高性能数据库以执行近似最近邻搜索（approximate nearest neighbor search）的能力。模型会获得一个 Rust 骨架代码，包含 HTTP API 端点和空的实现桩（stub），然后通过基于工具调用的智能体来读写文件、编译、测试和性能分析——所有这些都在 50 轮工具调用的预算内完成。最终结果在 SIFT-1M 数据集上评测：在 Recall ≥ 95% 的约束下，按 QPS 对模型排序。在该设置下的最佳历史纪录为 3,547 QPS，由 Claude Opus 4.6 取得。</p>
+<p>一个自然而然的问题是：这 50 轮预算是否成了瓶颈。我们将评测重构为一个外层优化循环，使用 Claude Code 框架：在每次迭代中，模型可以使用任意数量的工具调用来编辑代码、编译、测试和性能分析，然后提交新版本接受基准测试。模型自主决定何时提交以及下一步该尝试什么。</p>
+<p>GLM-5.1 在 50 次或 100 次提交后并未进入平台期，而是在 600 多次迭代、6,000 多次工具调用中持续发现有意义的改进，最终达到 21.5k QPS——大约是单次 50 轮会话中最佳结果的 6 倍。其优化轨迹呈现出特征的阶梯模式：在固定策略下的渐进调优期，与改变性能前沿的结构性变革交替出现。</p>
+<p>两次转变可以说明这一模式。在迭代 90 附近，模型从全量扫描切换为 IVF 聚类中心探测加 f16 向量压缩，QPS 跃升至 6.4k。在迭代 240 附近，它引入了一个两阶段流水线——u8 预评分后接 f16 重排序——达到 13.4k QPS。在整个运行过程中共发生了六次此类结构性转变，每次均由模型在分析自身基准测试日志、识别当前瓶颈后主动发起。图中红色叉号标记了 Recall 低于 95% 的迭代轮次——这些点集中在每次重大转变前后，模型在探索新方向时会暂时突破约束，随后再调整恢复。</p>
+<h3>场景二：1,000+ 轮优化机器学习工作负载</h3>
+<p><a href="https://arxiv.org/abs/2502.10517v1">KernelBench</a> 评估模型能否将参考 PyTorch 实现转化为一个输出相同但速度更快的 GPU 内核。该基准测试分为三个级别，优化范围和系统复杂度逐步递增：Level 1 覆盖单算子（single operator），Level 2 覆盖融合算子序列（fused operator sequences），Level 3 覆盖 MobileNet、VGG、MiniGPT、Mamba 等完整架构的端到端全模型优化，共 50 个问题。作为参考，默认设置下的 torch.compile 在这些问题上的加速比为 1.15×；使用 max-autotune 时为 1.49×。我们在 Level 3 上运行了四个模型，报告所有 50 个问题的几何平均加速比随工具调用轮次的变化情况。</p>
+<p><img src="https://z-cdn-media.chatglm.cn/prompts-rich-media-resources/5.1-blog/20260407-235121.jpeg" alt=""></p>
+<p>这些轨迹揭示了长程优化行为上的差异。GLM-5 初期提升很快，但较早进入平台期。Claude Opus 4.5 持续得更久一些，但其增益在后期也逐渐收窄。GLM-5.1 将这一前沿推得更远，实现了 3.6× 的加速比，并在运行中始终保持着进展。虽然其改进速率同样随时间放缓，但它能在远长于 GLM-5 的时间跨度内维持有效的优化。Claude Opus 4.6 在此设置下仍是最强模型，最终达到 4.2× 的加速比，且在结束时仍显示出上升空间。</p>
+<hr>
+<h3>场景三：八小时构建 Linux 桌面环境</h3>
+<p>前两个场景都有明确的数值目标——QPS、加速比——模型可以据此进行基准测试。网站生成（website generation）本质上是更主观的任务：给定自然语言提示，生成一个可运行的 Web 应用。这里没有单一的优化指标；什么算是"好"取决于完整度、视觉精致度和交互质量。</p>
+<p>我们用一个刻意设定的高难度提示来测试：构建一个 Linux 风格的桌面环境，以 Web 应用形式呈现。没有起始代码（starter code），没有设计稿（design mockups），没有中间指导。在单次运行中，大多数模型——包括 GLM 的早期版本——很快就放弃了：它们生成一个带有静态任务栏和一两个占位窗口的基本骨架，然后宣布任务完成。模型没有机制可以退一步审视并发现遗漏了什么。</p>
+<p>我们用一个简单的框架来包装 GLM-5.1，改变了这一点：每轮执行之后，模型审视自己的输出，识别可以改进的地方——缺失的功能、粗糙的样式、有问题的交互——然后继续。这个循环持续运行了 8 小时，效果差异显著。</p>
+<p><video src="https://z-cdn-media.chatglm.cn/prompts-rich-media-resources/5.1-blog/2026-04-07_193431_838.mp4" controls=""></video></p>
+<p>GLM-5.1 是我们面向智能体工程（agentic engineering）的下一代旗舰模型，编码能力相比前代显著提升。它在 SWE-Bench Pro 上达到业界领先水平，并在 NL2Repo（代码仓库生成）和 Terminal-Bench 2.0（真实终端任务）上大幅领先 GLM-5。</p>
+<p>早期阶段，GLM-5.1 生成的是带有任务栏和简单窗口的基本布局——与短时会话的输出相似。但它并未止步于此。随着运行持续，系统逐步丰满起来：文件浏览器、终端、文本编辑器、系统监视器、计算器、游戏——每一个新增功能都整合到统一的 UI 中，而非事后附加。样式更加精致，交互更加流畅，边界情况得到处理。最终，结果是一个完整的、视觉一致的、运行在浏览器中的桌面环境——这是一个具体例证，展示了当模型拥有足够的时间和能力持续精进时，什么样的成果成为可能。</p>
+<p>在所有三个设置中，关键变量不仅仅是运行时长，而是额外的运行时间是否仍然有用。GLM-5.1 将这一有效优化窗口显著扩展到 GLM-5 之上，而 KernelBench 等任务上仍存在的差距表明，长程优化（long-horizon optimization）仍然是一个有待探索的前沿。我们仍面临重大挑战：在增量调优不再奏效时更早地跳出局部最优，在跨越数千次工具调用的执行轨迹（execution traces）上保持连贯性，以及——或许最重要的是——为那些没有数值指标可供优化的任务发展可靠的自我评估（self-evaluation）能力。GLM-5.1 是我们在这条道路上的第一步，我们将继续在这些方向上推进。</p>
+<table><thead><tr><th>基准测试</th><th><p>GLM-5.1</p></th><th><p>GLM-5</p></th><th><p>Qwen3.6-Plus</p></th><th><p>MiniMax M2.7</p></th><th><p>DeepSeek-V3.2</p></th><th><p>Kimi K2.5</p></th><th><p>Claude Opus 4.6</p></th><th><p>Gemini 3.1 Pro</p></th><th><p>GPT-5.4</p></th></tr></thead><tbody><tr><td>推理</td><td colspan="9"></td></tr><tr><td>HLE</td><td>31.0</td><td>30.5</td><td>28.8</td><td>28.0</td><td>25.1</td><td>31.5</td><td>36.7</td><td>45.0</td><td>39.8</td></tr><tr><td><p>HLE</p><p>w/ Tools</p></td><td>52.3</td><td>50.4</td><td>50.6</td><td>-</td><td>40.8</td><td>51.8</td><td>53.1*</td><td>51.4*</td><td>52.1*</td></tr><tr><td>AIME 2026</td><td>95.3</td><td>95.4</td><td>95.1</td><td>89.8</td><td>95.1</td><td>94.5</td><td>95.6</td><td>98.2</td><td>98.7</td></tr><tr><td>HMMT Nov. 2025</td><td>94.0</td><td>96.9</td><td>94.6</td><td>81.0</td><td>90.2</td><td>91.1</td><td>96.3</td><td>94.8</td><td>95.8</td></tr><tr><td>HMMT Feb. 2026</td><td>82.6</td><td>82.8</td><td>87.8</td><td>72.7</td><td>79.9</td><td>81.3</td><td>84.3</td><td>87.3</td><td>91.8</td></tr><tr><td>IMOAnswerBench</td><td>83.8</td><td>82.5</td><td>83.8</td><td>66.3</td><td>78.3</td><td>81.8</td><td>75.3</td><td>81.0</td><td>91.4</td></tr><tr><td>GPQA-Diamond</td><td>86.2</td><td>86.0</td><td>90.4</td><td>87.0</td><td>82.4</td><td>87.6</td><td>91.3</td><td>94.3</td><td>92.0</td></tr><tr><td>编程</td><td colspan="9"></td></tr><tr><td>SWE-Bench Pro</td><td>58.4</td><td>55.1</td><td>56.6</td><td>56.2</td><td>-</td><td>53.8</td><td>57.3</td><td>54.2</td><td>57.7</td></tr><tr><td>NL2Repo</td><td>42.7</td><td>35.9</td><td>37.9</td><td>39.8</td><td>-</td><td>32.0</td><td>49.8</td><td>33.4</td><td>41.3</td></tr><tr><td><p>Terminal-Bench 2.0</p><p>Terminus-2</p></td><td>63.5</td><td>56.2</td><td>61.6</td><td>-</td><td>39.3</td><td>50.8</td><td>65.4</td><td>68.5</td><td>-</td></tr><tr><td><p>Terminal-Bench 2.0</p><p>最佳自报告框架</p></td><td><p>69.0</p><p>(Claude Code)</p></td><td><p>56.2</p><p>(Claude Code)</p></td><td>-</td><td><p>57.0</p><p>(Claude Code)</p></td><td><p>46.4</p><p>(Claude Code)</p></td><td>-</td><td>-</td><td>-</td><td><p>75.1</p><p>(Codex)</p></td></tr><tr><td>CyberGym</td><td>68.7</td><td>48.3</td><td>-</td><td>-</td><td>17.3</td><td>41.3</td><td>66.6</td><td>38.8</td><td>66.3</td></tr><tr><td>智能体</td><td colspan="9"></td></tr><tr><td>BrowseComp</td><td>68.0</td><td>62.0</td><td>-</td><td>-</td><td>51.4</td><td>60.6</td><td>-</td><td>-</td><td>-</td></tr><tr><td><p>BrowseComp</p><p>w/ Context Manage</p></td><td>79.3</td><td>75.9</td><td>-</td><td>-</td><td>67.6</td><td>74.9</td><td>84.0</td><td>85.9</td><td>82.7</td></tr><tr><td>τ³-Bench</td><td>70.6</td><td>69.2</td><td>70.7</td><td>67.6</td><td>69.2</td><td>66.0</td><td>72.4</td><td>67.1</td><td>72.9</td></tr><tr><td><p>MCP-Atlas</p><p>Public Set</p></td><td>71.8</td><td>69.2</td><td>74.1</td><td>48.8</td><td>62.2</td><td>63.8</td><td>73.8</td><td>69.2</td><td>67.2</td></tr><tr><td>Tool-Decathlon</td><td>40.7</td><td>38.0</td><td>39.8</td><td>46.3</td><td>35.2</td><td>27.8</td><td>47.2</td><td>48.8</td><td>54.6</td></tr><tr><td>Vending Bench 2</td><td>$5,634.41</td><td>$4,432.12</td><td>$5,114.87</td><td>-</td><td>$1,034.00</td><td>$1,198.46</td><td>$8,017.59</td><td>$911.21</td><td>$6,144.18</td></tr></tbody></table>
+<p>GLM-5.1 以 MIT 许可证（MIT License）开源发布。GLM-5.1 也可在开发者平台 <a href="https://api.z.ai/">api.z.ai</a> 和 <a href="https://bigmodel.cn/">BigModel.cn</a> 上使用，并与 Claude Code 和 OpenClaw 兼容。</p>
+<h3>GLM-5.1 快速上手</h3>
+<h3>在 GLM Coding Plan 中使用 GLM-5.1</h3>
+<p>在您喜爱的编码智能体中尝试 <strong>GLM-5.1</strong>——<strong>Claude Code、OpenCode、Kilo Code、Roo Code、Cline、Droid</strong> 等。<a href="https://docs.z.ai/devpack/overview">https://docs.z.ai/devpack/overview</a></p>
+<p><strong>面向 GLM Coding Plan 订阅用户：</strong> 我们正在向所有 Coding Plan 用户推送 GLM-5.1。您现在即可通过将模型名称更新为 <code>"GLM-5.1"</code>（例如在 Claude Code 的 <code>~/.claude/settings.json</code> 中）来启用 GLM-5.1。作为我们最强大的模型，GLM-5.1 在高峰时段消耗 3× 配额，在非高峰时段消耗 2× 配额。作为限时推广活动（持续至四月底），非高峰时段使用按 1× 计费。（高峰时段为每日 14:00–18:00 UTC+8（北京时间））</p>
+<p>偏好图形界面？我们提供 <a href="https://zcode.z.ai/"><strong>Z Code</strong></a>——一个界面，多个智能体，协同工作。通过 SSH 在远程机器上开发，或从手机上启动任务，稍后再回来查看。</p>
+<p><strong>现在开始构建：</strong><a href="https://z.ai/subscribe">https://z.ai/subscribe</a></p>
+<h3>在 Z.ai 上与 GLM-5.1 对话</h3>
+<p>GLM-5.1 将在未来几天内登陆 <a href="https://chat.z.ai/">Z.ai</a>。</p>
+<h3>本地部署 GLM-5.1</h3>
+<p>GLM-5.1 的模型权重已在 <a href="https://huggingface.co/zai-org/GLM-5.1">HuggingFace</a> 和 <a href="https://modelscope.cn/models/ZhipuAI/GLM-5.1">ModelScope</a> 上公开发布。对于本地部署，GLM-5.1 支持 vLLM 和 SGLang 等推理框架。完整的部署说明请参见官方 GitHub 仓库。</p>
+<h3>脚注</h3>
+<ul>
+<li>
+<p><strong>Humanity's Last Exam (HLE) 及其他推理任务</strong>：我们使用最大生成长度 163,840 个 token 进行评估（<code>temperature=1.0, top_p=0.95, max_new_tokens=163840</code>）。默认情况下，我们报告纯文本子集的结果；标有 * 的结果来自完整集。我们使用 GPT-5.2（medium）作为评判模型（judge model）。对于带工具的 HLE（HLE-with-tools），我们使用最大上下文长度 202,752 个 token。</p>
+</li>
+<li>
+<p><strong>SWE-Bench Pro</strong>：我们使用 OpenHands 配合定制指令提示（instruction prompt）运行 SWE-Bench Pro 测试套件。设置：<code>temperature=1</code>、<code>top_p=0.95</code>、<code>max_new_tokens=32768</code>，上下文窗口为 200K。</p>
+</li>
+<li>
+<p><strong>NL2Repo</strong>：我们在 200K 上下文下以 <code>temperature=1.0</code>、<code>top_p=1.0</code>、<code>max_new_tokens=32768</code> 评估 NL2Repo。为防止作弊，我们使用基于规则的预检测（rule-based pre-detection）识别恶意命令（例如未授权的 pip 或 curl 操作），随后进行基于模型的判断。恶意行为会被立即拦截。</p>
+</li>
+<li>
+<p><strong>BrowseComp</strong>：不使用上下文管理时，我们保留最近 5 轮对话的详细信息。使用上下文管理时，我们采用与 GLM-5 和 DeepSeek-v3.2 相同的全部丢弃策略（discard-all strategy）。</p>
+</li>
+<li>
+<p><strong>Terminal-Bench 2.0（Terminus 2）</strong>：我们使用 Terminus 框架进行评估，设置 <code>timeout=3h, temperature=1.0, top_p=1.0, max_new_tokens=8192</code>，上下文窗口为 200K。资源限制为 16 个 CPU 和 32 GB 内存。</p>
+</li>
+<li>
+<p><strong>Terminal-Bench 2.0（Claude Code）</strong>：我们在 Claude Code 2.1.69（思考模式）中以 <code>temperature=1.0, top_p=0.95, max_new_tokens=131072</code> 进行评估。我们通过透明代理（transparent proxy）将 max_new_tokens 覆盖为 128K，绕过 64K CLI 上限，以恢复 <code>CLAUDE_CODE_MAX_OUTPUT_TOKENS</code> 的可配置性。我们移除了挂钟时间限制（wall-clock time limits），同时保留了每项任务的 CPU 和内存约束。我们修复了 Claude Code 引入的环境问题。得分为 5 次运行的平均值。</p>
+</li>
+<li>
+<p><strong>CyberGym</strong>：我们在 Claude Code 2.1.56（思考模式，无网络工具）中以 <code>temperature=1.0, top_p=1.0, max_new_tokens=32000</code> 评估 GLM-5.1；在 Gemini CLI 0.36.0 中以（默认 temperature、top_p 和 <code>max_new_tokens=32000</code>）评估 Gemini 3.1 Pro；在 Codex CLI 0.118.0 中以（默认 temperature、top_p 和高推理努力度）评估 GPT-5.4。所有评估每项任务超时时间为 250 分钟，结果为 1,507 个任务的单次运行 Pass@1。在 Gemini 3.1 Pro 和 GPT-5.4 的评估中，两个模型有时会将任务识别为存在安全风险并拒绝继续执行，这可能会降低它们的得分。</p>
+</li>
+<li>
+<p><strong>MCP-Atlas</strong>：所有模型均在思考模式下评估，使用 500 个任务的公开子集，每项任务超时 10 分钟。我们使用 Gemini-3.0-Pro 作为评估的评判模型。</p>
+</li>
+<li>
+<p><strong>τ³-bench</strong>：在所有领域的用户模拟器（user simulator）中添加了一条额外提示，以避免因用户过早结束交互而导致的失败模式。银行领域使用基于终端的智能体搜索检索（terminal_use）。用户模拟器：GPT-5.2（reasoning_effort: low），4 次试验。</p>
+</li>
+<li>
+<p><strong>Vending Bench 2</strong>：运行由 <a href="https://andonlabs.com/evals/vending-bench-2">Andon Labs</a> 独立完成。</p>
+</li>
+<li>
+<p><strong>KernelBench Level 3</strong>：50 个问题各自在隔离的 Docker 容器中运行，配备一块 H100 GPU，限制 1200 次工具调用轮次。正确性（<code>atol=rtol=1e-4</code>）和性能分别在独立的 CUDA 上下文中与 PyTorch eager 基线进行比较。所有解决方案均由 Claude Opus 4.6（最大努力）和 GPT-5.4（xhigh）独立审核是否存在基准测试利用行为：每次审核都验证优化是否未利用基准测试特有的行为、是否适用于任意新输入、以及是否将所有计算保持在默认 CUDA 流上。采用两次审核中较低的速度提升值，并设置 50 倍硬上限以限制异常值的影响。</p>
+</li>
+</ul>
+<h2>术语表</h2>
+<table>
+<thead>
+<tr>
+<th>原文</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>agentic engineering</td>
+<td>智能体工程</td>
+</tr>
+<tr>
+<td>approximate nearest neighbor search</td>
+<td>近似最近邻搜索</td>
+</tr>
+<tr>
+<td>context management</td>
+<td>上下文管理</td>
+</tr>
+<tr>
+<td>design mockups</td>
+<td>设计稿</td>
+</tr>
+<tr>
+<td>discard-all strategy</td>
+<td>全部丢弃策略</td>
+</tr>
+<tr>
+<td>execution traces</td>
+<td>执行轨迹</td>
+</tr>
+<tr>
+<td>fused operator sequences</td>
+<td>融合算子序列</td>
+</tr>
+<tr>
+<td>instruction prompt</td>
+<td>指令提示</td>
+</tr>
+<tr>
+<td>judge model</td>
+<td>评判模型</td>
+</tr>
+<tr>
+<td>long-horizon optimization</td>
+<td>长程优化</td>
+</tr>
+<tr>
+<td>NL2Repo</td>
+<td>自然语言转代码仓库（基准测试名）</td>
+</tr>
+<tr>
+<td>rule-based pre-detection</td>
+<td>基于规则的预检测</td>
+</tr>
+<tr>
+<td>self-evaluation</td>
+<td>自我评估</td>
+</tr>
+<tr>
+<td>single operator</td>
+<td>单算子</td>
+</tr>
+<tr>
+<td>starter code</td>
+<td>起始代码</td>
+</tr>
+<tr>
+<td>stub</td>
+<td>实现桩</td>
+</tr>
+<tr>
+<td>transparent proxy</td>
+<td>透明代理</td>
+</tr>
+<tr>
+<td>user simulator</td>
+<td>用户模拟器</td>
+</tr>
+<tr>
+<td>wall-clock time limits</td>
+<td>挂钟时间限制</td>
+</tr>
+<tr>
+<td>website generation</td>
+<td>网站生成</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-glm-51-towards-long-horizon-tasks","sender":"Zhipu AI","subject":"GLM-5.1：面向长程任务","snippet":"GLM-5.1 是智谱面向智能体工程推出的下一代旗舰模型，其核心突破不仅在于 SWE-Bench Pro 等基准测试上的领先成绩，更在于它重新定义了模型在长时间跨度内保持有效性的能力。此前的大模型——包括 GLM-5 本身——往往在初步取得进展后迅速陷入平台期，即便给予更多时间也无法持续改进。GLM-5.1 的设计目标恰恰是打破这一瓶颈。文章通过三个反馈结构化程度逐级递减的任务来展示这一能力：从 600 轮迭代将向量数据库 QPS 优化","date":"2026-04-14","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["translated"],"mdTheme":"magazine","sourcePath":"reports/glm-51-towards-long-horizon-tasks.md","sourceUrl":"https://z.ai/blog/glm-5.1","body":"$3","prompts":[]},"listPosition":{"index":118,"total":365}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

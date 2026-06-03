@@ -1,0 +1,341 @@
+1:"$Sreact.fragment"
+3:I[39756,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+4:I[37457,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"ViewportBoundary"]
+b:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"MetadataBoundary"]
+d:I[68027,[],"default"]
+:HL["/hinbox/_next/static/chunks/24888a04b79e7824.css","style"]
+:HL["/hinbox/_next/static/media/fba5a26ea33df6a3-s.p.1bbdebe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"vMUiZWVsRx3pCqxArlZcR","c":["","mail","talks-lebron-james-and-steve-nash-debate-the-mvp-mind-the-game"],"q":"","i":false,"f":[[["",{"children":["mail",{"children":[["id","talks-lebron-james-and-steve-nash-debate-the-mvp-mind-the-game","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hinbox/_next/static/chunks/24888a04b79e7824.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[79520,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],""]
+f:I[59665,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],"default"]
+:HL["https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","style"]
+2:["$","html",null,{"lang":"zh-CN","className":"plus_jakarta_sans_9710934b-module__-vnxFq__variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function () {\n  try {\n    var theme = window.localStorage.getItem('hinbox:theme');\n    if (theme !== 'light' && theme !== 'dark' && theme !== 'sepia') {\n      theme = 'light';\n    }\n    window['__HINBOX_THEME__'] = theme;\n    document.documentElement.dataset.theme = theme;\n    document.documentElement.style.colorScheme = theme === 'dark' ? 'dark' : 'light';\n    function applyBodyTheme() {\n      if (document.body) {\n        document.body.dataset.theme = theme;\n      }\n    }\n    if (document.body) {\n      applyBodyTheme();\n    } else {\n      document.addEventListener('DOMContentLoaded', applyBodyTheme);\n    }\n  } catch (error) {\n    window['__HINBOX_THEME__'] = 'light';\n    document.documentElement.dataset.theme = 'light';\n    document.documentElement.style.colorScheme = 'light';\n  }\n})();"}}],"",["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","rel":"stylesheet"}],["$","$Le",null,{"id":"mathjax-config","strategy":"afterInteractive","children":"\n          window.MathJax = {\n            tex: {\n              inlineMath: [['$', '$'], ['\\\\(', '\\\\)']],\n              displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']],\n              processEscapes: true,\n              packages: { '[+]': ['noerrors', 'noundefined'] },\n            },\n            svg: {\n              fontCache: 'none',\n            },\n            startup: {\n              typeset: false,\n              ready: () => {\n                window.MathJax.startup.defaultReady();\n                window.dispatchEvent(new Event('MathJaxReady'));\n              },\n            },\n          };\n          "}],["$","$Le",null,{"id":"mathjax-cdn","strategy":"afterInteractive","src":"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"}]]}],["$","body",null,{"className":"font-[family-name:var(--font-jakarta)] antialiased","suppressHydrationWarning":true,"children":["",["$","$Lf",null,{"weeklyNavCounts":{"inboxWeeklyCount":10,"sentWeeklyCount":0,"starredTotalCount":21},"people":[{"id":"david-perell","name":"David Perell","email":""},{"id":"lenny-s-podcast","name":"Lenny's Podcast","email":""},{"id":"ryan-peterman","name":"Ryan Peterman","email":""},{"id":"anthropic","name":"Anthropic","email":""},{"id":"dwarkesh-patel","name":"Dwarkesh Patel","email":""},{"id":"stripe","name":"Stripe","email":""},{"id":"stephen-wolfram","name":"Stephen Wolfram","email":""},{"id":"latent-space","name":"Latent Space","email":""},{"id":"lex-fridman","name":"Lex Fridman","email":""},{"id":"steve-jobs","name":"Steve Jobs","email":""},{"id":"20vc-with-harry-stebbings","name":"20VC with Harry Stebbings","email":""},{"id":"jeremy-stern","name":"Jeremy Stern","email":""},{"id":"turing","name":"Turing","email":""},{"id":"demis-hassabis","name":"Demis Hassabis","email":""},{"id":"the-diary-of-a-ceo","name":"The Diary Of A CEO","email":""},{"id":"elon-musk","name":"Elon Musk","email":""},{"id":"sauteedveggies","name":"SauteedVeggies","email":""},{"id":"andy-matuschak","name":"Andy Matuschak","email":""},{"id":"mind-the-game","name":"Mind the Game","email":""},{"id":"ramona-shelburne","name":"Ramona Shelburne","email":""},{"id":"jared-weiss","name":"Jared Weiss","email":""},{"id":"deeplearningai","name":"DeepLearningAI","email":""},{"id":"cursor","name":"Cursor","email":""},{"id":"y-combinator","name":"Y Combinator","email":""},{"id":"openai","name":"OpenAI","email":""},{"id":"every","name":"Every","email":""},{"id":"sequoia-capital","name":"Sequoia Capital","email":""},{"id":"alex-kantrowitz","name":"Alex Kantrowitz","email":""},{"id":"peter-dizikes-mit-news","name":"Peter Dizikes ｜ MIT News","email":""},{"id":"world-finance-journal","name":"World Finance Journal","email":""},{"id":"andrej-karpathy","name":"Andrej karpathy","email":""},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","email":""},{"id":"jd-vance","name":"JD Vance","email":""},{"id":"街-大学","name":"やまぐち街なか大学","email":""},{"id":"jc","name":"JC","email":""}],"tags":[{"id":"translated","name":"translated","count":123},{"id":"interview","name":"interview","count":24},{"id":"ai","name":"ai","count":17},{"id":"人工智能","name":"人工智能","count":17},{"id":"clippings","name":"clippings","count":15},{"id":"essays","name":"Essays","count":9},{"id":"talks","name":"Talks","count":8},{"id":"深度学习","name":"深度学习","count":8},{"id":"ai-agents","name":"ai-agents","count":7},{"id":"cognition","name":"cognition","count":6},{"id":"nba","name":"NBA","count":6},{"id":"ai编程","name":"AI编程","count":5},{"id":"humanity","name":"humanity","count":5},{"id":"math","name":"math","count":5},{"id":"steve-jobs","name":"steve-jobs","count":5},{"id":"大语言模型","name":"大语言模型","count":5},{"id":"机器学习","name":"机器学习","count":5},{"id":"agi","name":"AGI","count":4},{"id":"anthropic","name":"Anthropic","count":4},{"id":"claude-code","name":"Claude Code","count":4},{"id":"doge","name":"DOGE","count":4},{"id":"nvidia","name":"nvidia","count":4},{"id":"windsurf","name":"Windsurf","count":4},{"id":"政府效率","name":"政府效率","count":4},{"id":"文艺复兴科技","name":"文艺复兴科技","count":4},{"id":"英伟达","name":"英伟达","count":4},{"id":"软件工程","name":"软件工程","count":4},{"id":"ai编程工具","name":"AI编程工具","count":3},{"id":"apple","name":"apple","count":3},{"id":"cursor","name":"Cursor","count":3},{"id":"deepseek","name":"deepseek","count":3},{"id":"linus-torvalds","name":"Linus Torvalds","count":3},{"id":"linux内核","name":"Linux内核","count":3},{"id":"llm","name":"llm","count":3},{"id":"mathematics","name":"mathematics","count":3},{"id":"reports","name":"Reports","count":3},{"id":"偏微分方程","name":"偏微分方程","count":3},{"id":"勒布朗-詹姆斯","name":"勒布朗·詹姆斯","count":3},{"id":"开源","name":"开源","count":3},{"id":"开源ai","name":"开源AI","count":3},{"id":"强化学习","name":"强化学习","count":3},{"id":"数学哲学","name":"数学哲学","count":3},{"id":"数学教育","name":"数学教育","count":3},{"id":"访谈","name":"访谈","count":3},{"id":"量化投资","name":"量化投资","count":3},{"id":"马斯克","name":"马斯克","count":3},{"id":"黄仁勋","name":"黄仁勋","count":3},{"id":"ai-agent","name":"AI Agent","count":2},{"id":"ai-coding","name":"ai-coding","count":2},{"id":"ai代理","name":"AI代理","count":2},{"id":"ai基础设施","name":"AI基础设施","count":2},{"id":"ai安全","name":"AI安全","count":2},{"id":"ai数学","name":"AI数学","count":2},{"id":"ai智能体","name":"AI智能体","count":2},{"id":"ai计算","name":"AI计算","count":2},{"id":"alphafold","name":"AlphaFold","count":2},{"id":"claude","name":"Claude","count":2},{"id":"devin","name":"Devin","count":2},{"id":"economics","name":"economics","count":2},{"id":"emacs","name":"Emacs","count":2},{"id":"essay","name":"essay","count":2},{"id":"git","name":"Git","count":2},{"id":"google","name":"Google","count":2},{"id":"ilya-sutskever","name":"Ilya Sutskever","count":2},{"id":"jeff-dean","name":"jeff-dean","count":2},{"id":"jepa","name":"JEPA","count":2},{"id":"org-mode","name":"Org mode","count":2},{"id":"programming","name":"programming","count":2},{"id":"software-engineering","name":"software-engineering","count":2},{"id":"vibe-coding","name":"Vibe Coding","count":2},{"id":"writing","name":"writing","count":2},{"id":"世界模型","name":"世界模型","count":2},{"id":"人性","name":"人性","count":2},{"id":"代数几何","name":"代数几何","count":2},{"id":"代码编辑器","name":"代码编辑器","count":2},{"id":"价值投资","name":"价值投资","count":2},{"id":"伯克希尔哈撒韦","name":"伯克希尔哈撒韦","count":2},{"id":"关税政策","name":"关税政策","count":2},{"id":"创业历程","name":"创业历程","count":2},{"id":"加速计算","name":"加速计算","count":2},{"id":"吉姆-西蒙斯","name":"吉姆·西蒙斯","count":2},{"id":"哲学","name":"哲学","count":2},{"id":"国际合作","name":"国际合作","count":2},{"id":"大型语言模型","name":"大型语言模型","count":2},{"id":"好奇心","name":"好奇心","count":2},{"id":"季后赛","name":"季后赛","count":2},{"id":"工程实践","name":"工程实践","count":2},{"id":"巴菲特","name":"巴菲特","count":2},{"id":"形式化证明","name":"形式化证明","count":2},{"id":"彼得-蒂尔","name":"彼得·蒂尔","count":2},{"id":"微软","name":"微软","count":2},{"id":"提示工程","name":"提示工程","count":2},{"id":"数学","name":"数学","count":2},{"id":"数学研究","name":"数学研究","count":2},{"id":"文班亚马","name":"文班亚马","count":2},{"id":"智能代理开发","name":"智能代理开发","count":2},{"id":"毕业演讲","name":"毕业演讲","count":2},{"id":"版本控制","name":"版本控制","count":2},{"id":"科学发现","name":"科学发现","count":2},{"id":"科技停滞","name":"科技停滞","count":2},{"id":"软件工程变革","name":"软件工程变革","count":2},{"id":"软件开发","name":"软件开发","count":2},{"id":"量子力学","name":"量子力学","count":2},{"id":"阿贝尔奖","name":"阿贝尔奖","count":2},{"id":"风险投资","name":"风险投资","count":2},{"id":"agent设计","name":"Agent设计","count":1},{"id":"ai-for-science","name":"AI for Science","count":1},{"id":"ai-编程","name":"AI 编程","count":1},{"id":"ai伦理","name":"AI伦理","count":1},{"id":"ai最佳实践","name":"AI最佳实践","count":1},{"id":"ai大模型","name":"AI大模型","count":1},{"id":"ai并购","name":"AI并购","count":1},{"id":"ai应用","name":"AI应用","count":1},{"id":"ai开发者大会","name":"AI开发者大会","count":1},{"id":"ai推理","name":"AI推理","count":1},{"id":"ai收购","name":"AI收购","count":1},{"id":"ai数学发现","name":"AI数学发现","count":1},{"id":"ai生物医药","name":"AI生物医药","count":1},{"id":"ai竞争","name":"AI竞争","count":1},{"id":"ai编程代理","name":"AI编程代理","count":1},{"id":"ai芯片","name":"AI芯片","count":1},{"id":"ai规模化","name":"AI规模化","count":1},{"id":"ai辅助学习","name":"AI辅助学习","count":1},{"id":"ai辅助开发","name":"AI辅助开发","count":1},{"id":"anysphere","name":"Anysphere","count":1},{"id":"biography","name":"biography","count":1},{"id":"blackwell架构","name":"Blackwell架构","count":1},{"id":"cag","name":"CAG","count":1},{"id":"career","name":"career","count":1},{"id":"ceo交接","name":"CEO交接","count":1},{"id":"chatgpt","name":"ChatGPT","count":1},{"id":"chris-bishop","name":"Chris Bishop","count":1},{"id":"claude-4","name":"Claude 4","count":1},{"id":"claude-sonnet-4-5","name":"Claude Sonnet 4.5","count":1},{"id":"coding-agent","name":"Coding Agent","count":1},{"id":"context-engineering","name":"Context Engineering","count":1},{"id":"cs50","name":"CS50","count":1},{"id":"cuda生态","name":"CUDA生态","count":1},{"id":"deep-search","name":"Deep Search","count":1},{"id":"deepmind","name":"DeepMind","count":1},{"id":"distributed-systems","name":"distributed-systems","count":1},{"id":"elon-musk","name":"Elon Musk","count":1},{"id":"engineering","name":"engineering","count":1},{"id":"fields奖","name":"Fields奖","count":1},{"id":"geoffrey-hinton","name":"Geoffrey Hinton","count":1},{"id":"gpt-4","name":"GPT-4","count":1},{"id":"gpt-4-5","name":"GPT-4.5","count":1},{"id":"gpu与深度学习","name":"GPU与深度学习","count":1},{"id":"gpu架构","name":"GPU架构","count":1},{"id":"gpu算力","name":"GPU算力","count":1},{"id":"grok-3","name":"Grok 3","count":1},{"id":"haskell","name":"haskell","count":1},{"id":"incident","name":"incident","count":1},{"id":"jim-simons","name":"Jim Simons","count":1},{"id":"julia","name":"Julia","count":1},{"id":"june-huh","name":"june-huh","count":1},{"id":"kaggle","name":"Kaggle","count":1},{"id":"kiro-spec模式","name":"Kiro SPEC模式","count":1},{"id":"labor","name":"labor","count":1},{"id":"lean","name":"Lean","count":1},{"id":"lisp","name":"Lisp","count":1},{"id":"llm工具","name":"LLM工具","count":1},{"id":"mcp","name":"MCP","count":1},{"id":"mit","name":"MIT","count":1},{"id":"mvp","name":"MVP","count":1},{"id":"naval-ravikant","name":"Naval Ravikant","count":1},{"id":"ncaa疯狂三月","name":"NCAA疯狂三月","count":1},{"id":"noema","name":"noema","count":1},{"id":"notes","name":"notes","count":1},{"id":"notion","name":"Notion","count":1},{"id":"nvidia-gtc-2025","name":"NVIDIA GTC 2025","count":1},{"id":"openai","name":"OpenAI","count":1},{"id":"optimus机器人","name":"Optimus机器人","count":1},{"id":"peter-lax","name":"Peter Lax","count":1},{"id":"pixar","name":"pixar","count":1},{"id":"prompt-engineering","name":"Prompt Engineering","count":1},{"id":"psychology","name":"psychology","count":1},{"id":"publishing","name":"publishing","count":1},{"id":"python","name":"Python","count":1},{"id":"reliability","name":"reliability","count":1},{"id":"report","name":"report","count":1},{"id":"research","name":"Research","count":1},{"id":"research-career","name":"research-career","count":1},{"id":"robotics","name":"robotics","count":1},{"id":"sanjay-ghemawat","name":"Sanjay Ghemawat","count":1},{"id":"satya-nadella","name":"Satya Nadella","count":1},{"id":"scaling-laws","name":"Scaling Laws","count":1},{"id":"security","name":"security","count":1},{"id":"skills","name":"skills","count":1},{"id":"slimv","name":"Slimv","count":1},{"id":"technical-report","name":"technical-report","count":1},{"id":"terence-tao","name":"terence-tao","count":1},{"id":"vim","name":"Vim","count":1},{"id":"vlime","name":"Vlime","count":1},{"id":"wolfram","name":"Wolfram","count":1},{"id":"xai","name":"xAI","count":1},{"id":"yann-lecun","name":"Yann LeCun","count":1},{"id":"yc","name":"YC","count":1},{"id":"上下文工程","name":"上下文工程","count":1},{"id":"个人反思","name":"个人反思","count":1},{"id":"个人电脑","name":"个人电脑","count":1},{"id":"中美关系","name":"中美关系","count":1},{"id":"乌克兰战争","name":"乌克兰战争","count":1},{"id":"乔姆斯基","name":"乔姆斯基","count":1},{"id":"交通基础设施","name":"交通基础设施","count":1},{"id":"产品市场契合","name":"产品市场契合","count":1},{"id":"人工智能未来","name":"人工智能未来","count":1},{"id":"人形机器人","name":"人形机器人","count":1},{"id":"人机协作","name":"人机协作","count":1},{"id":"人机博弈","name":"人机博弈","count":1},{"id":"人生哲学","name":"人生哲学","count":1},{"id":"人类未来","name":"人类未来","count":1},{"id":"人类福祉","name":"人类福祉","count":1},{"id":"代理开发","name":"代理开发","count":1},{"id":"代理式编程","name":"代理式编程","count":1},{"id":"代码生成","name":"代码生成","count":1},{"id":"任务管理","name":"任务管理","count":1},{"id":"仿真学习","name":"仿真学习","count":1},{"id":"企业采用","name":"企业采用","count":1},{"id":"众包协作","name":"众包协作","count":1},{"id":"优绩主义","name":"优绩主义","count":1},{"id":"伦理监管","name":"伦理监管","count":1},{"id":"伯克希尔-哈撒韦","name":"伯克希尔·哈撒韦","count":1},{"id":"俄乌战争","name":"俄乌战争","count":1},{"id":"保罗-狄拉克","name":"保罗·狄拉克","count":1},{"id":"保险业务","name":"保险业务","count":1},{"id":"信号处理","name":"信号处理","count":1},{"id":"信息动力学","name":"信息动力学","count":1},{"id":"信息物理学","name":"信息物理学","count":1},{"id":"全球贸易","name":"全球贸易","count":1},{"id":"公共美德","name":"公共美德","count":1},{"id":"具身智能","name":"具身智能","count":1},{"id":"写作","name":"写作","count":1},{"id":"写作工具","name":"写作工具","count":1},{"id":"冷战数学","name":"冷战数学","count":1},{"id":"创业转型","name":"创业转型","count":1},{"id":"创业领导力","name":"创业领导力","count":1},{"id":"创造力与年龄","name":"创造力与年龄","count":1},{"id":"制度经济学","name":"制度经济学","count":1},{"id":"加性数论","name":"加性数论","count":1},{"id":"包容性制度","name":"包容性制度","count":1},{"id":"医疗应用","name":"医疗应用","count":1},{"id":"半导体","name":"半导体","count":1},{"id":"协同设计","name":"协同设计","count":1},{"id":"单位距离问题","name":"单位距离问题","count":1},{"id":"南非种族隔离","name":"南非种族隔离","count":1},{"id":"卢卡-东契奇","name":"卢卡·东契奇","count":1},{"id":"压缩感知","name":"压缩感知","count":1},{"id":"变换编码","name":"变换编码","count":1},{"id":"可持续能源","name":"可持续能源","count":1},{"id":"可重复性危机","name":"可重复性危机","count":1},{"id":"史蒂夫-乔布斯","name":"史蒂夫·乔布斯","count":1},{"id":"史蒂夫-纳什","name":"史蒂夫·纳什","count":1},{"id":"同伦类型论","name":"同伦类型论","count":1},{"id":"哲学辩论","name":"哲学辩论","count":1},{"id":"国际政治","name":"国际政治","count":1},{"id":"在线教育","name":"在线教育","count":1},{"id":"地缘政治","name":"地缘政治","count":1},{"id":"埃尔德什猜想","name":"埃尔德什猜想","count":1},{"id":"埃罗尔-马斯克","name":"埃罗尔·马斯克","count":1},{"id":"埃隆-马斯克","name":"埃隆·马斯克","count":1},{"id":"基督教与科学","name":"基督教与科学","count":1},{"id":"基础主义","name":"基础主义","count":1},{"id":"基础模型","name":"基础模型","count":1},{"id":"复合工程","name":"复合工程","count":1},{"id":"外交谈判","name":"外交谈判","count":1},{"id":"多伦多大学","name":"多伦多大学","count":1},{"id":"多体物理","name":"多体物理","count":1},{"id":"多智能体协同","name":"多智能体协同","count":1},{"id":"大数假说","name":"大数假说","count":1},{"id":"太空探索","name":"太空探索","count":1},{"id":"孤子理论","name":"孤子理论","count":1},{"id":"学习路径","name":"学习路径","count":1},{"id":"学术写作","name":"学术写作","count":1},{"id":"学术建议","name":"学术建议","count":1},{"id":"学术生态","name":"学术生态","count":1},{"id":"学术研究方法","name":"学术研究方法","count":1},{"id":"学术自传","name":"学术自传","count":1},{"id":"宇宙学","name":"宇宙学","count":1},{"id":"官僚主义改革","name":"官僚主义改革","count":1},{"id":"定理证明","name":"定理证明","count":1},{"id":"家族故事","name":"家族故事","count":1},{"id":"对冲基金","name":"对冲基金","count":1},{"id":"对称性","name":"对称性","count":1},{"id":"对称性破缺","name":"对称性破缺","count":1},{"id":"小平邦彦","name":"小平邦彦","count":1},{"id":"少林寺","name":"少林寺","count":1},{"id":"就业与经济","name":"就业与经济","count":1},{"id":"就业影响","name":"就业影响","count":1},{"id":"工作尊严","name":"工作尊严","count":1},{"id":"工作流","name":"工作流","count":1},{"id":"工程精神","name":"工程精神","count":1},{"id":"幸福与成功","name":"幸福与成功","count":1},{"id":"库珀-弗拉格","name":"库珀·弗拉格","count":1},{"id":"开发环境","name":"开发环境","count":1},{"id":"开发者工具","name":"开发者工具","count":1},{"id":"开发者生产力","name":"开发者生产力","count":1},{"id":"开源模型","name":"开源模型","count":1},{"id":"形式主义","name":"形式主义","count":1},{"id":"彼得-拉克斯","name":"彼得·拉克斯","count":1},{"id":"微分几何","name":"微分几何","count":1},{"id":"心理学","name":"心理学","count":1},{"id":"思维链","name":"思维链","count":1},{"id":"慈善","name":"慈善","count":1},{"id":"慈善事业","name":"慈善事业","count":1},{"id":"慕尼黑安全会议","name":"慕尼黑安全会议","count":1},{"id":"成长型思维","name":"成长型思维","count":1},{"id":"技术监管","name":"技术监管","count":1},{"id":"技能退化","name":"技能退化","count":1},{"id":"投资哲学","name":"投资哲学","count":1},{"id":"推理时计算","name":"推理时计算","count":1},{"id":"提纲写作","name":"提纲写作","count":1},{"id":"摩根大通","name":"摩根大通","count":1},{"id":"播客","name":"播客","count":1},{"id":"政治哲学","name":"政治哲学","count":1},{"id":"数字革命","name":"数字革命","count":1},{"id":"数学反例","name":"数学反例","count":1},{"id":"数学史","name":"数学史","count":1},{"id":"数学基础","name":"数学基础","count":1},{"id":"数学实践","name":"数学实践","count":1},{"id":"数学家传记","name":"数学家传记","count":1},{"id":"数学工作流","name":"数学工作流","count":1},{"id":"数学形式化","name":"数学形式化","count":1},{"id":"数据中心","name":"数据中心","count":1},{"id":"数据效率","name":"数据效率","count":1},{"id":"数据科学","name":"数据科学","count":1},{"id":"文化多样性","name":"文化多样性","count":1},{"id":"文化转型","name":"文化转型","count":1},{"id":"文学编程","name":"文学编程","count":1},{"id":"斯多葛主义","name":"斯多葛主义","count":1},{"id":"无人机","name":"无人机","count":1},{"id":"日本数学","name":"日本数学","count":1},{"id":"日记写作","name":"日记写作","count":1},{"id":"智能代理","name":"智能代理","count":1},{"id":"智能体ai","name":"智能体AI","count":1},{"id":"智能分析","name":"智能分析","count":1},{"id":"更衣室训话","name":"更衣室训话","count":1},{"id":"未来战争","name":"未来战争","count":1},{"id":"未来趋势","name":"未来趋势","count":1},{"id":"机器人技术","name":"机器人技术","count":1},{"id":"杰米-戴蒙","name":"杰米·戴蒙","count":1},{"id":"柏拉图主义","name":"柏拉图主义","count":1},{"id":"查尔斯-巴克利","name":"查尔斯·巴克利","count":1},{"id":"查理-芒格","name":"查理·芒格","count":1},{"id":"标记语言","name":"标记语言","count":1},{"id":"格罗滕迪克","name":"格罗滕迪克","count":1},{"id":"概形","name":"概形","count":1},{"id":"模仿理论","name":"模仿理论","count":1},{"id":"模型应用","name":"模型应用","count":1},{"id":"模型驱动交易","name":"模型驱动交易","count":1},{"id":"模拟宇宙假说","name":"模拟宇宙假说","count":1},{"id":"欧洲创新","name":"欧洲创新","count":1},{"id":"欧洲民主","name":"欧洲民主","count":1},{"id":"欧盟资本市场","name":"欧盟资本市场","count":1},{"id":"欺骗性ai","name":"欺骗性AI","count":1},{"id":"比尔-盖茨","name":"比尔·盖茨","count":1},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","count":1},{"id":"沉思录","name":"沉思录","count":1},{"id":"沙奎尔-奥尼尔","name":"沙奎尔·奥尼尔","count":1},{"id":"波波维奇","name":"波波维奇","count":1},{"id":"泽连斯基","name":"泽连斯基","count":1},{"id":"活文档","name":"活文档","count":1},{"id":"测试时计算","name":"测试时计算","count":1},{"id":"涌现","name":"涌现","count":1},{"id":"深度阅读","name":"深度阅读","count":1},{"id":"湖人三连冠","name":"湖人三连冠","count":1},{"id":"炒作与现实","name":"炒作与现实","count":1},{"id":"热力学第二定律","name":"热力学第二定律","count":1},{"id":"特斯拉","name":"特斯拉","count":1},{"id":"特朗普","name":"特朗普","count":1},{"id":"狄拉克","name":"狄拉克","count":1},{"id":"狄拉克方程","name":"狄拉克方程","count":1},{"id":"理论物理","name":"理论物理","count":1},{"id":"生产力工具","name":"生产力工具","count":1},{"id":"生成式ai","name":"生成式AI","count":1},{"id":"相对论","name":"相对论","count":1},{"id":"知识管理","name":"知识管理","count":1},{"id":"研究方法","name":"研究方法","count":1},{"id":"研究生指南","name":"研究生指南","count":1},{"id":"硅谷","name":"硅谷","count":1},{"id":"社交媒体","name":"社交媒体","count":1},{"id":"社会公平","name":"社会公平","count":1},{"id":"福柯","name":"福柯","count":1},{"id":"离散几何","name":"离散几何","count":1},{"id":"私募股权","name":"私募股权","count":1},{"id":"科学哲学","name":"科学哲学","count":1},{"id":"科学研究","name":"科学研究","count":1},{"id":"科学论文","name":"科学论文","count":1},{"id":"科技史","name":"科技史","count":1},{"id":"科比-布莱恩特","name":"科比·布莱恩特","count":1},{"id":"移民政策","name":"移民政策","count":1},{"id":"稀疏表示","name":"稀疏表示","count":1},{"id":"空间技术","name":"空间技术","count":1},{"id":"竞技长青","name":"竞技长青","count":1},{"id":"笔记技巧","name":"笔记技巧","count":1},{"id":"第一性原理","name":"第一性原理","count":1},{"id":"算法与社会","name":"算法与社会","count":1},{"id":"篮球战术","name":"篮球战术","count":1},{"id":"篮球访谈","name":"篮球访谈","count":1},{"id":"类型论","name":"类型论","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"约束等距性","name":"约束等距性","count":1},{"id":"纯文本写作","name":"纯文本写作","count":1},{"id":"纯粹数学","name":"纯粹数学","count":1},{"id":"线性代数","name":"线性代数","count":1},{"id":"经典阅读","name":"经典阅读","count":1},{"id":"结对编程","name":"结对编程","count":1},{"id":"编程教学","name":"编程教学","count":1},{"id":"编程语言","name":"编程语言","count":1},{"id":"美国ai政策","name":"美国AI政策","count":1},{"id":"美国政府改革","name":"美国政府改革","count":1},{"id":"美国经济","name":"美国经济","count":1},{"id":"美欧关系","name":"美欧关系","count":1},{"id":"翻译","name":"翻译","count":1},{"id":"职业自律","name":"职业自律","count":1},{"id":"职业辩护","name":"职业辩护","count":1},{"id":"联邦政府改革","name":"联邦政府改革","count":1},{"id":"联邦财政","name":"联邦财政","count":1},{"id":"股东信","name":"股东信","count":1},{"id":"股东大会","name":"股东大会","count":1},{"id":"能源","name":"能源","count":1},{"id":"能量基模型","name":"能量基模型","count":1},{"id":"自动驾驶","name":"自动驾驶","count":1},{"id":"自我认知","name":"自我认知","count":1},{"id":"自由意志主义","name":"自由意志主义","count":1},{"id":"自由民主","name":"自由民主","count":1},{"id":"苹果","name":"苹果","count":1},{"id":"苹果公司","name":"苹果公司","count":1},{"id":"药物研发","name":"药物研发","count":1},{"id":"蓝鳍金枪鱼","name":"蓝鳍金枪鱼","count":1},{"id":"虚拟细胞","name":"虚拟细胞","count":1},{"id":"蛋白质折叠","name":"蛋白质折叠","count":1},{"id":"蜂巢思维","name":"蜂巢思维","count":1},{"id":"行为偏差","name":"行为偏差","count":1},{"id":"西部决赛","name":"西部决赛","count":1},{"id":"规模法则","name":"规模法则","count":1},{"id":"规范驱动开发","name":"规范驱动开发","count":1},{"id":"言论自由","name":"言论自由","count":1},{"id":"计算增强生成","name":"计算增强生成","count":1},{"id":"计算数学","name":"计算数学","count":1},{"id":"计算机教育","name":"计算机教育","count":1},{"id":"计算机证明","name":"计算机证明","count":1},{"id":"训练体系","name":"训练体系","count":1},{"id":"论文写作","name":"论文写作","count":1},{"id":"论文撰写","name":"论文撰写","count":1},{"id":"访谈实录","name":"访谈实录","count":1},{"id":"詹姆斯-西蒙斯","name":"詹姆斯·西蒙斯","count":1},{"id":"语言学","name":"语言学","count":1},{"id":"诺贝尔经济学奖","name":"诺贝尔经济学奖","count":1},{"id":"谷歌","name":"谷歌","count":1},{"id":"贝叶斯方法","name":"贝叶斯方法","count":1},{"id":"财政削减","name":"财政削减","count":1},{"id":"资本配置","name":"资本配置","count":1},{"id":"超级智能","name":"超级智能","count":1},{"id":"超级计算","name":"超级计算","count":1},{"id":"跨领域训练","name":"跨领域训练","count":1},{"id":"身体转型","name":"身体转型","count":1},{"id":"软件工程范式","name":"软件工程范式","count":1},{"id":"软件开发最佳实践","name":"软件开发最佳实践","count":1},{"id":"软件开发未来","name":"软件开发未来","count":1},{"id":"运动恢复","name":"运动恢复","count":1},{"id":"还原论","name":"还原论","count":1},{"id":"通用人工智能","name":"通用人工智能","count":1},{"id":"重整化","name":"重整化","count":1},{"id":"量化交易","name":"量化交易","count":1},{"id":"金融服务","name":"金融服务","count":1},{"id":"金融监管","name":"金融监管","count":1},{"id":"阅读方法","name":"阅读方法","count":1},{"id":"集合论","name":"集合论","count":1},{"id":"非虚构阅读","name":"非虚构阅读","count":1},{"id":"预训练","name":"预训练","count":1},{"id":"领导力","name":"领导力","count":1},{"id":"香农信息熵","name":"香农信息熵","count":1},{"id":"马刺","name":"马刺","count":1},{"id":"马库斯-奥勒留","name":"马库斯·奥勒留","count":1}],"moduleNavItems":[{"id":"essays","label":"Essays","href":"/?label=Essays","order":40,"icon":"BookOpen","count":62},{"id":"talks","label":"Talks","href":"/?label=Talks","order":42,"icon":"Video","count":165},{"id":"reports","label":"Reports","href":"/?label=Reports","order":41,"icon":"FileText","count":36},{"id":"notes","label":"Notes","href":"/?label=Notes","order":30,"icon":"Eye","count":78}],"children":"$L10"}]]}]]}]
+10:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"min-h-screen px-12 py-12 font-sans text-slate-900","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n            (function () {\n              var pathname = window.location.pathname || '';\n              var canonicalPrefix = '/hinbox';\n\n              if (/^/hinbox(?:/|$)/i.test(pathname) && pathname !== pathname.replace(/^/hinbox/i, canonicalPrefix)) {\n                var target = pathname.replace(/^/hinbox/i, canonicalPrefix) + window.location.search + window.location.hash;\n                window.location.replace(target);\n                return;\n              }\n            }());\n          "}}],["$","div",null,{"className":"mx-auto flex min-h-[60vh] max-w-2xl flex-col justify-center gap-4","children":[["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"页面未找到"}],["$","p",null,{"className":"text-base leading-7 text-slate-600","children":"如果你是从大写路径进入本站，系统会自动跳转到小写的规范地址。"}],["$","p",null,{"className":"text-base","children":["返回首页：",["$","a",null,{"className":"text-sky-600 underline underline-offset-4","href":"/hinbox/","children":"/hinbox/"}]]}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+11:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+12:Tf5b3,<p><a href="https://www.youtube.com/watch?v=aDeWeWoL2nY">原文链接</a></p>
+<h3>访谈概述</h3>
+<p>本期《Mind the Game》播客（设定于2026年4月12日）由史蒂夫·纳什与勒布朗·詹姆斯共同主持。两人深入探讨了洛杉矶湖人队在三月份取得的13胜1负的傲人战绩，勒布朗详细解析了球队在防守端对联防体系的运用与沟通。随后，勒布朗分享了成为NBA历史胜场数最多球员（1229胜）的深刻感悟，并回顾了从青少年时期至今的赢球文化。</p>
+<p>节目的核心部分聚焦于MVP之争以及卢卡·东契奇加盟湖人后的蜕变。勒布朗讲述了自己如何放下身段、调整角色，让东契奇和奥斯汀·里夫斯能够“自由发挥”，从而激发出最强形态的东契奇。此外，两人全面剖析了本赛季的四大MVP候选人——谢伊·吉尔杰斯-亚历山大（SGA）、尼古拉·约基奇、卢卡·东契奇以及维克托·文班亚马（斑马）。纳什从技术细节（如加减速、脊柱灵活性）解释了为何SGA是他心中的MVP领跑者，而勒布朗则对比了历史上的史诗级四人MVP竞争，并对文班亚马不可估量的未来做出了极高的评价。</p>
+<hr>
+<h3>专用词语翻译列表</h3>
+<table>
+<thead>
+<tr>
+<th align="left">英文专用词汇</th>
+<th align="left">中文翻译/释义</th>
+<th align="left">备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Mind the Game</td>
+<td align="left">《Mind the Game》</td>
+<td align="left">播客节目名称</td>
+</tr>
+<tr>
+<td align="left">Zone / Zone defense</td>
+<td align="left">联防</td>
+<td align="left">篮球防守战术</td>
+</tr>
+<tr>
+<td align="left">Man-to-man</td>
+<td align="left">人盯人防守</td>
+<td align="left">篮球防守战术</td>
+</tr>
+<tr>
+<td align="left">XL D cell (Accel/Decel)</td>
+<td align="left">加减速能力</td>
+<td align="left">语音识别误差，实为Acceleration/Deceleration</td>
+</tr>
+<tr>
+<td align="left">Nail</td>
+<td align="left">罚球线中点</td>
+<td align="left">篮球场区域术语</td>
+</tr>
+<tr>
+<td align="left">Swiss Army knife</td>
+<td align="left">瑞士军刀 / 全能球员</td>
+<td align="left">比喻球员技术全面，能适应多种角色</td>
+</tr>
+<tr>
+<td align="left">Short rolling</td>
+<td align="left">短下顺</td>
+<td align="left">挡拆后在中距离接应的战术动作</td>
+</tr>
+<tr>
+<td align="left">Heliocentric</td>
+<td align="left">持球大核（日心说体系）</td>
+<td align="left">指将所有进攻发起集中于一名球员的战术体系</td>
+</tr>
+<tr>
+<td align="left">Heat check</td>
+<td align="left">投篮手感测试</td>
+<td align="left">球员手感火热时尝试高难度投篮</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<figure class="video-embed video-embed--youtube">
+  <div class="video-embed__frame">
+    <iframe src="https://www.youtube.com/embed/aDeWeWoL2nY" title="LeBron James and Steve Nash Debate The MVP | MIND THE GAME" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+  <figcaption class="video-embed__caption">LeBron James and Steve Nash Debate The MVP | MIND THE GAME</figcaption>
+</figure>
+<h3>播客正文翻译</h3>
+<h4>第 1 章：Intro (开场预告)</h4>
+<p><strong>史蒂夫·纳什：</strong> 在这期《Mind the Game》中我们即将聊到。MVP的归属总是充满变数，你永远不知道会发生什么。这其中有很多叙事、故事线之类的内容，但我们有四位实至名归的候选人。我很想听听你对卢卡的看法。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 我只是觉得他现在在球队里的舒适度，让他能够打出随心所欲的自由篮球。</p>
+<p><strong>史蒂夫·纳什：</strong> 在让他适应环境的过程中，你扮演了什么角色？</p>
+<p><strong>勒布朗·詹姆斯：</strong> 我觉得其实很简单，就是别当个白痴。</p>
+<p><strong>史蒂夫·纳什：</strong> 我会说我心中的MVP热门是谢伊（SGA）。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 这就是我喜欢谢伊的原因之一，他在外线打得那么多，在中距离打得那么多，还能保持如此超级高效的表现。就像你说的，这绝对是乔丹级别的。</p>
+<p><strong>史蒂夫·纳什：</strong> 我们来聊聊约基奇吧。我是说，他依然能交出离谱的数据，对比赛产生离谱的影响力。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 能打出比如30+20+10，或者24+15的数据。我们还在质疑什么呢？简直不可思议。然后我们再来聊聊……你知道的，那位可能会是未来一两个世纪，呃，未来一亿年甚至无限期垄断MVP的球员……外星人维克托·文班亚马。</p>
+<p><strong>史蒂夫·纳什：</strong> 我们开始吧。进入正题。在过去的14场比赛里你们取得了13胜1负的战绩。</p>
+<h4>第 2 章：LeBron talks about Lakers 13-1 run (勒布朗谈论湖人13胜1负的战绩)</h4>
+<p><strong>史蒂夫·纳什：</strong> 伙计，你们现在的表现真的令人印象深刻。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的，我们现在的球打得很好，伙计。每个人都算是真正接受了在攻防两端赢得比赛所需要做的事情。你知道，显然在赛季初，甚至是比赛季初更长的一段时间里，我们在防守端做得并不好。我们当时在试图弄清楚如何能够……你知道，利用我们的人员配置来转化为优势。这是最重要的事情之一：你如何能在进攻端或防守端将人员的优势发挥到极致。</p>
+<p>而且……你知道，我认为这一切的转折，好像是我们在一期节目里聊过我们开始打联防的时候。嗯。你知道，当你打联防时，有一件事是你必须去做的，那就是沟通（说话）。你不能不说话。你必须得喊“嘿，有人空切进来了”，或者“有人闪现要球”，或者“延误一下然后退防”，你必须得沟通。因为站在弧顶的那两个人，他们完全不知道背后发生了什么，你知道的。有时候在盯人防守时，我也不知道为什么，沟通可能会变少，但是……我认为我们打联防在某种程度上激发了我们在防守端的……我们的防守效率。现在不管是盯人还是联防，我们……我们现在打出了很棒的比赛，一切就是从那时候开始的。</p>
+<p>当然，还有卢卡现在手感热得发烫，伙计。我想他在过去15场比赛里都拿了30分，差不多是这样。过去10场比赛场均能拿40分，投篮效率极高，三分球神准。AR（奥斯汀·里夫斯）依然在做他擅长的事，而我们其他人都在全力配合。这对我们来说真的是一个非常棒的月份，三月份我们打得太棒了。这对我们来说是一个不可思议的三月。</p>
+<p><strong>史蒂夫·纳什：</strong> 这肯定会让你们在进入季后赛时信心大增。</p>
+<h4>第 3 章：LeBron speaks on the Lakers’ defensive push (勒布朗谈湖人在防守端的发力)</h4>
+<p><strong>史蒂夫·纳什：</strong> 不过说到防守，这挺有意思的。所以你觉得从打联防中获得的沟通、默契和思想统一，反过来帮助了你们的盯人防守吗？</p>
+<p><strong>勒布朗·詹姆斯：</strong> 我觉得是的。因为……我的意思是，人之常情就是，当你知道自己能够防住对手时，它绝对会给你带来更多的动力。我认为，当我们在赛季初盯人防守挣扎时，我们改打联防，我们一开始打联防是为了能防成几个回合。联防的另一个特点是，你别无选择，必须得退防，因为你必须跑到指定的位置。你知道，你不是退回去找你盯防的人，你必须退防。如果……</p>
+<h4>第 4 章：Why zone warrants more attention and team defensive styles (为什么联防值得更多关注及球队防守风格)</h4>
+<p><strong>勒布朗·詹姆斯：</strong> 无论你是防上线两个侧翼，还是防下线四个位置，亦或者中锋镇守篮下，都有指定的区域，所以你必须退防。我认为这真的激发了我们的防守强度，就像我说的，不仅是沟通，而且……你知道，我们赛季初在控制对手快攻得分方面做得很差，经常被对方打转换得分，所以联防绝对在一定程度上中和了这个问题。</p>
+<p><strong>史蒂夫·纳什：</strong> 你们会在对手投篮不中后也守联防吗？</p>
+<p><strong>勒布朗·詹姆斯：</strong> 不，不太会。不太会。但即使如此，你还是得赶紧退防。尤其是在当今的比赛中。</p>
+<p><strong>史蒂夫·纳什：</strong> 是的，尤其是在当今的比赛中。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 我们通常在死球和对方进球后打联防，因为那样更容易落位。你知道，当你投篮不中时，你要做的第一件事就是保护篮筐。你想要退防去填补空线，你知道，如果对方有快攻威胁的话。</p>
+<p><strong>史蒂夫·纳什：</strong> 是的。在退防中试图落位联防风险很大。有些球队会一直守联防。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的，有些球队会一直守。而且……你知道，显然，我的意思是，我们打过迈阿密热火。热火在某种程度上会一直守联防……你知道，有时候在对手投篮不中后他们也会这么做。所以，确实有些球队会这么干。</p>
+<p><strong>史蒂夫·纳什：</strong> 对。我觉得你们在展示联防然后立刻转为盯人方面做得非常出色，伙计，这让其他球队很不适应。这就像是……你觉得这可能就是这一切的起源，然后它就这么发展起来，现在你们在各方面都变得更好了？</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的，我……我的意思是，我不知道。我觉得把它放进你的战术工具箱里总是好的。能够……你知道，做出不同的改变，就像我们经常聊棒球投手那样改变投球的节奏。你不想整场比赛都只投快速球，除非你只在第九局出场，你知道的。我有点明白那个道理，但是……你知道，在漫长的82场常规赛中，而且在四节比赛的过程中，根据你对手的不同以及他们打球的节奏，这（变换防守）可能会稍微打乱他们的阵脚。所以……我认为这绝对给了我们一个机会，就像“哇哦，我们可以投个伸卡球，或者我们能投个曲线球。好吧，哦，我们也能投快速球。”我们知道我们口袋里有这些招数。所以这绝对很有帮助。</p>
+<h4>第 5 章：How zone defense has yet to be exploited (联防为何还未被完全开发)</h4>
+<p><strong>史蒂夫·纳什：</strong> 挺有趣的对吧？我的意思是，我可以想象那些极其顶尖的防守球队会觉得：“天哪，他们这招玩得真溜。”但有趣的是，联盟其他球队并没有更多地使用联防，或者至少不是每支球队都有联防战术。你懂NBA是怎样的，对吧？就像……一旦赛季开始，你试图贯彻你的防守原则。防守端有点落后了，你必须坚持下去。所以你就停止了改变。你不再去想“让我们尝试点别的东西吧。让我们把第二套、变速投球的招数拿出来吧”，因为你会觉得：“不行，我们得先把盯人防守搞明白。”所以这很有意思。我们打这么多场比赛，但训练时间却相对那么少，所以它并没有我想象的那么普及。我认为联防应该……我觉得每支球队都应该有联防的一席之地，对吧？</p>
+<p><strong>勒布朗·詹姆斯：</strong> 我同意，我同意。而且……就像你说的，我们联盟是一个模仿成风的联盟，你知道，如果你看到有一支球队朝着那个方向发展，你看到一支像我们这样在防守端原本没那么好的球队，然后开始倾向于使用联防，并开始变得更好，你会以为某些球队也会去采用它。但是，我们联盟也是一个自尊心非常强的联盟，你知道的。有些球员、有些教练就会觉得：“听着，我们就打盯人。这就是我们的打法。”你知道，“我们逢挡必换。”有些教练不全换。有些教练依然会提上夹击挡拆。有些教练会出去……或者有些球员就是强延误然后回位，你知道的。显然我们联盟大部分球队现在都在无限换防，但是……你知道，你会遇到一些固步自封的球员和球队。</p>
+<p><strong>史蒂夫·纳什：</strong> 这很有趣，因为我认为……我们谈论了所有关于演进、数据分析、打球风格、节奏和空间的话题。我认为联防是唯一一个还没有被像我预期的那样被充分开发的战术。我觉得它可能是下一个趋势，比如斯波教练（Spoelstra）就有很多充满创造力的联防。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的，他有一些很有创意的联防战术。</p>
+<p><strong>史蒂夫·纳什：</strong> 但是像谁会真正抛出一个新东西并加以发展，让大家惊叹：“哦，这是一个完全不同的防守体系”？我觉得那可能会……我认为在接下来的几年里它会发生的。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 我心里有一个具体的球队。我只是不想现在说出来，因为这可能会在季后赛中反噬我们。</p>
+<p><strong>史蒂夫·纳什：</strong> 斑马（Wemby）。你很聪明。你聪明过头了，伙计。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 我也是，伙计。</p>
+<p><strong>史蒂夫·纳什：</strong> 是的。你把斑马放在二二联防的顶端。就站在罚球线中点。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的。他就站在一二二或三二联防的罚球线中点。</p>
+<p><strong>史蒂夫·纳什：</strong> 你把那些运动能力出色的……你把达龙（福克斯）和卡斯尔放在底线，因为他们有速度和运动能力。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 让我闭嘴吧。但是我们也会……同时如果你看那个阵容，并不是说福克斯是一个糟糕的防守者，但他是体型最小的家伙。你可以把他放在底角。</p>
+<p><strong>史蒂夫·纳什：</strong> 是的。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 你知道，那样他就可以利用速度把人困在一个盒子里，你可以让斑马展现出惊人的防守功能性，就因为他……</p>
+<p><strong>史蒂夫·纳什：</strong> 是的，他是个……我的意思是，他就是个外星人。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 所以，是的，他可以……马刺在接下来的10年里将拥有这种能力，显然前提是健康就是财富，去尝试很多联盟里其他球队和球团无法尝试的东西。</p>
+<p><strong>史蒂夫·纳什：</strong> 叫什么来着？呃……“法国连线”？他和科内特（Cornet）。那个叫什么？</p>
+<p><strong>勒布朗·詹姆斯：</strong> 他们有……他们有个叫“法式香草（French Vanilla）”什么的组合。是叫这个吧。我想是的。</p>
+<p><strong>史蒂夫·纳什：</strong> 但问题就在这儿，对吧？比如，你可能不想让那个阵容每场比赛打20分钟，但你可以挑选特定时段让他们俩守联防。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的，那肯定。</p>
+<p><strong>史蒂夫·纳什：</strong> 对吧？我的意思是，而且斑马还能投三分拉开空间。科内特……</p>
+<p><strong>勒布朗·詹姆斯：</strong> 我的意思是，他能抢防守篮板还能推快攻。所以，他完全没有理由不……我的意思是，几场比赛前，或者可能几周前，我看到他突破然后给科内特抛了个空接。</p>
+<p><strong>史蒂夫·纳什：</strong> 是的，低手上篮那种。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 所以，对。所以他们绝对可以同时在场上。</p>
+<p><strong>史蒂夫·纳什：</strong> 太疯狂了。是的，那会很有趣。好吧，如果勒布朗·詹姆斯没有创造什么NBA纪录，那这就不是一期《Mind the Game》播客了。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 我以为你要说不碰杯庆祝一下呢。</p>
+<p><strong>史蒂夫·纳什：</strong> 噢，干杯。天哪，这就来。聪明。抓得好。我们先干杯。然后让我们为……NBA历史最多胜场数干杯。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 噢，谢谢你，伙计。谢谢。</p>
+<h4>第 6 章：LeBron on winning most games in NBA history (勒布朗谈赢得NBA历史最多胜场)</h4>
+<p><strong>史蒂夫·纳什：</strong> 呃，1229场胜利。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的，我……我甚至不知道该怎么看待这个数据。那意味着什么？</p>
+<p><strong>史蒂夫·纳什：</strong> 是啊，那意味着什么呢？</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是啊，我都不明白这是什么概念。我想……大概两周前，或者一周前，我被问到一个问题。一个记者问我：“布朗，去迈阿密，是不是那段经历把你变成了一个赢家？”我稍微想了一会儿，然后回答了他。我说：“实际上，我一直都是个赢家。”嗯，去迈阿密……</p>
+<p><strong>史蒂夫·纳什：</strong> 让你进化了。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 让我进化了，并向我展示了如何在这个联盟的最高舞台上赢球。你知道，它帮助我达到了那个高度。但我一直都是个赢家。嗯……</p>
+<p><strong>史蒂夫·纳什：</strong> 因为那么说（去迈阿密才变成赢家）是对你高中教练、高中球队的侮辱。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的，确实如此。在我篮球生涯的每一站，都带来了冠军。这从少年棒球联盟……到初中……再到高中，然后到了职业赛场。我一直在赢。而且，是的，我不会说这很轻松……有时候可能确实挺轻松的，但是，是的。所以……听到说……“NBA历史上胜场最多的球员”，这就像是……这是向我所有的教练、我所有的队友致敬。这段旅程，你知道，就像我少年联盟的教练手把手教我如何以正确的方式打球。你知道，而且我从来没有让……关于我应该怎么打球或我应该做什么的“外界叙事”或任何类似的东西，改变我所受到的教导。所以我把很大的功劳归功于弗兰克·沃克（Frank Walker Sr.）、德鲁·乔伊斯教练（Dru Joyce）、基思·丹布罗特（Keith Dambrot），这三个人。是他们开启了我青少年时期的篮球之旅。我把很大的功劳归功于他们，因为他们……他们教会了我以正确的方式打球。如果我们作为一个团队这样做，就会有好的结果。而且我们在很小的时候就见证了胜利，谁不喜欢赢呢？</p>
+<p><strong>史蒂夫·纳什：</strong> 是的。看，我个人觉得这是一个非常酷的里程碑，因为这不是我们经常讨论的数据。比如，没有人会说，“勒布朗马上就要接近那个……”你懂我的意思吗？我们会谈论勒布朗在得分上即将超越贾巴尔，对吧？我们会谈论其他的个人纪录。我们会谈论总冠军，但我们不怎么谈论“最多胜场数”。但对我来说，就像……这是一个低调但非常棒的成就，因为这就是这项运动的意义所在。这就是比赛的真谛。关乎团队合作，关乎竞争，关乎赢下比赛的韧性。所以，是的。总冠军是锦上添花，但赢球文化，广义上的赢球才是根本。所以，比如成为有史以来赢球最多的篮球运动员，这是一个我们可能不会每天拿出来吹捧的纪录，但它是你应该为之感到骄傲的。而且我认为，就像你说的，它之所以酷，是因为这段旅程。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的。</p>
+<p><strong>史蒂夫·纳什：</strong> 所有的教练，所有的队友，41岁还在打球。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的。</p>
+<p><strong>史蒂夫·纳什：</strong> 依然保持在极高的水平。这一个……它可能不会登上它本应配得上的新闻头条。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的。</p>
+<p><strong>史蒂夫·纳什：</strong> 但这是你应该……</p>
+<p><strong>勒布朗·詹姆斯：</strong> 我很感激。</p>
+<p><strong>史蒂夫·纳什：</strong> 是的。这是你应该……你应该好好珍藏的。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的，这些（里程碑）来得太快了，我甚至很难去……</p>
+<p><strong>史蒂夫·纳什：</strong> 对，你已经到了那个境界了。是的。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的。就像我甚至不……我发誓，就像很多人可能以为我在撒谎之类的，但就像，比赛当天，你知道，我收到一份新闻简报。上面会写着：勒布朗还差一场比赛就打破某项纪录了，或者差一个篮板，或者差一个助攻，或者差一分。我就想……</p>
+<p><strong>史蒂夫·纳什：</strong> 哎，直到你打破这个纪录我才知道这件事。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 我也一样。我也一样。我也不知道。我知道出场数纪录那个，因为那个被稍微讨论过，你知道，某种程度上打破了帕里什（Chief）的纪录。嗯，但它并没有成为头条新闻或者什么的。但我直到最后几场比赛才知道这个（胜场数）纪录。</p>
+<p><strong>史蒂夫·纳什：</strong> 我猜他们不太谈论这个是因为有太多的变量了。队友、伤病，就像我们……但是我们会谈论出场数，会谈论总冠军，会谈论得分王。他们就是不太谈论最多胜场数。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 而那才是最重要的事情。</p>
+<p><strong>史蒂夫·纳什：</strong> 所以如果你不赢球……</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的。我的意思是，那才是我们上场的原因。是的，那就是我们上场竞争和赢球的原因。</p>
+<p><strong>史蒂夫·纳什：</strong> 是的，我没有……我会很享受这个纪录的。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 谢谢你，伙计。</p>
+<p><strong>史蒂夫·纳什：</strong> 我会把这个荣誉带回家。在这个夏天好好享受一下。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 我会尽力……我会尽力的。我会的。是的。是的。谢谢你，伙计。我得试着在享受成就方面做得更好。我必须在这方面做得更好。</p>
+<p><strong>史蒂夫·纳什：</strong> 但就像你说的，在你职业生涯的这个阶段，每天都有新事物出现。你开始把一些事情视为理所当然。我相信这……这是一个很酷的纪录。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 我也这么认为。是的。是的。</p>
+<hr>
+<p><strong>制作人杰森 (Jason)：</strong> 现在把时间交给我们的制作人杰森，听听我们另一位合作伙伴想说些什么。感谢DraftKings对本节目的赞助。你知道，季后赛的感觉就是不一样。那种强度、那种赌注、每一个决定都被放大的方式。这是篮球最令人热血沸腾的时刻。而DraftKings能让你从跳球到终场哨响都保持全神贯注。新注册的体育博彩用户只需下注5美元，如果你的投注获胜，使用优惠码MIND注册，即可获得300美元的奖励投注额。最低要求-500的赔率。你知道，当我们在这里分析防守策略，或者某位球星如何接管第四节时，我在下注时想的也是同样的细节。得分、助攻、篮板，我们在节目中谈论的同样的内容，你可以进行实时投注。DraftKings让你能在季后赛进行时进行滚球投注。球队扭转了局势，赶紧跟进。一个角色球员突然手感爆发，你已经提前下注了。我在这里给你们一个小小的2026年专业提示，在今天的NBA，考虑到三分球的投射量，20分的领先优势其实算不了什么，尤其是当季后赛中那些精英球队交手时。20分的领先可能转瞬即逝。所以，如果你看好一支球队，而他们似乎落后了，但赔率看起来不错……我只是提醒一下。所以，别犹豫了，抓住你的机会。现在就下载DraftKings Sportsbook应用程序，使用代码MIND，如果你的投注获胜，就能将5美元变成300美元的奖励投注额。DraftKings，王冠属于你。</p>
+<p><strong>史蒂夫·纳什 (广告口播)：</strong> 在发现对篮球的热爱之前，我曾经梦想成为一名足球运动员。有些人可能不知道，但足球的基因深植于我的家族。我父亲曾在南非踢过职业足球，而我学会说的第一个词字面意思就是“进球（Goal）”。我收藏了我的偶像罗纳尔迪尼奥、齐达内和萨穆埃尔·埃托奥穿过的落场版球鞋，这是我最珍贵的财产之一。可以说，我对今年夏天的FIFA世界杯充满期待。球迷们将从世界各地赶来亲自体验这种兴奋感，他们需要住宿的地方。为什么不在Airbnb上向客人们敞开你的大门，顺便赚点外快呢？由于比赛在美国各地举行，你的家可能正是接待像我这样充满热情的足球支持者并创造美好回忆的完美场所。你的家可能比你想象的更有价值。访问 airbnb.com/host 了解你能赚多少钱。</p>
+<hr>
+<p><strong>史蒂夫·纳什：</strong> MVP的评选总是让人难以预料。会有很多关于叙事、故事线之类的因素。但我们有四位实至名归的候选人。哪怕只是……我的意思是，我选出这四个人，甚至都没提到杰伦·布朗或者凯德·坎宁安，对吧？所以，当你谈论谢伊、约基奇、卢卡，那是极具分量的四个候选人。太疯狂了，对吧？那是个非常可怕的四人组。所以，我很想听听你对卢卡的看法。就像你说的，他现在手感火热。到底是什么感觉？</p>
+<h4>第 7 章：LeBron and Steve discuss Luka’s impact and MVP conversation (勒布朗和史蒂夫探讨卢卡的影响力及MVP话题)</h4>
+<p><strong>史蒂夫·纳什：</strong> 跟我说说和他一起打球的感受，你注意到了什么，以及他正在产生怎样的影响力。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 嗯，我的意思是……我能说什么呢？我的意思是，就像我说的，我可以坐在这里聊上好几个小时，讲我所看到的。这只是……我只是觉得他现在在球团里的舒适度，让他能够打出随心所欲的自由篮球。</p>
+<p><strong>史蒂夫·纳什：</strong> 能给我再详细解释一下吗？比如他在这个城市取得了什么突破？</p>
+<p><strong>勒布朗·詹姆斯：</strong> 好吧。就是觉得，我现在待在这里很舒服了。</p>
+<p><strong>史蒂夫·纳什：</strong> 是的。我待在这里很舒服……我作为一名湖人球员很舒服。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 我在自己家里很舒服。我和队友们相处得也很舒服，你知道吗？我做我自己很舒服。比如敞开心扉，而且……他看起来是如此自由，你知道。当你不仅感到自由，还感到被接纳时，这对比赛本身会产生奇效。你知道，你想想，在一个组织里待了7、8年，然后你就像……我本打算整个职业生涯都待在这里。我想把我的整个职业生涯都奉献给那里。然后突然间，你知道，就那么一个晚上，一切都结束了。</p>
+<p>所以这需要一个调整的过程。而我现在看到的是一种……伙计，就像自由的解脱。就像，我又回到了那个“卢卡魔法”的状态，像个真正的“东契奇大当家（the Don）”一样在场上顺应比赛的节奏打球。而且……这种表现是每个晚上的，每个晚上你抬头看记分牌，就是35分、8个篮板和7次助攻；40分、10个篮板和8次助攻；45分、11个篮板和7次助攻。而且这又不是那种……他出手了40次或者什么的，或者45次出手换来的。这完全是……这都在比赛的节奏里。都在节奏里。能够上场亲眼见证并看到这一切……你知道，在我的职业生涯中，我显然和一些伟大的球员一起打过球，而我的意思是，他绝对能和他们并列。所以这真是太疯狂了。</p>
+<p><strong>史蒂夫·纳什：</strong> 但如果我认为他……“身体状态好”是准确的词吗？他现在的移动……他的脚步非常顺畅。他的加减速能力（XL D cell）看起来非常敏锐。他能够急停拉回球创造空间。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 我就是觉得他现在的身体状态极佳。我认为他处于顶级的身体状态。</p>
+<p><strong>史蒂夫·纳什：</strong> 是的，感觉确实如此。就像他那种节奏上的顿挫感。凭借他的体型，他总是能游刃有余。但当他真正展现出……有一点点加减速的爆发力时，他非常敏锐，他的移动就像……那时候你就会觉得……而且很多人可能……</p>
+<p><strong>勒布朗·詹姆斯：</strong> 很多人可能不明白你在说什么，但他的加减速能力（XL D cell）正是造就他伟大的原因。他能在瞬间急停的能力。</p>
+<p><strong>史蒂夫·纳什：</strong> 是的。没错。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 然后从那里再爆发加速。你知道，这让他变得如此该死的伟大。再配上他的篮球智商、他的天赋、他的体型，他的体型。</p>
+<p><strong>史蒂夫·纳什：</strong> 我觉得即使他不在最佳身体状态，或者甚至可能带伤，他依然可以利用他的身体。他仍然……他依然能使用技巧。他是个大号的……一个体型庞大的控球后卫。巨大的大男孩。但是当你在这些基础上加上……那种小幅度的方向改变、节奏改变。我的意思是，他能在狭小的空间里无中生有地创造出出手机会。这就是我所看到的。那种敏锐度，投篮时腿部的发力，投篮的稳定性。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 他现在的投篮稳定性绝对是顶级的。</p>
+<p><strong>史蒂夫·纳什：</strong> 你有没有让他做扑防和横移滑步之类的训练？因为……他在防守端也迎来了复苏。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的，听着。嘿，伙计，他什么都在做，伙计。他什么都在做。我的意思是，听着，这四个人都有资格争夺MVP。我的意思是，显然，对卢卡我会有点偏心，因为那是我的队友，我每天晚上都看到他的表现。嗯，但是你看谢伊，看谢伊再一次展现出多么高效的表现。</p>
+<p><strong>史蒂夫·纳什：</strong> 是的。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 他们打得多么出色。他以如此疯狂的效率在得分。</p>
+<p><strong>史蒂夫·纳什：</strong> 让我……在我们继续聊谢伊之前，让我问问你在这个过程中扮演的角色。我给你讲个故事。这不是同一个故事，但很相似。嗯，当德克和我刚打出来的时候，迈克尔·芬利是……我们是达拉斯的三巨头。他是两届全明星。我们当时还不是全明星。后来德克和我进了全明星，但迈克没进。但是，除非迈克授权我们去展现最好的自己，否则德克和我进不了全明星，他也不会。</p>
+<p>所以对于这支湖人队，这是你的球队。你在这里赢得了总冠军。你拥有过你这样的职业生涯。现在突然之间，你在和一个26、27岁的超级巨星一起打球。这一切是如何发生的，必须要有一些协调的过程。你是怎么做的……你的角色是什么？</p>
+<h4>第 8 章：LeBron’s role in elevating Luka as a player (勒布朗在提升卢卡表现中扮演的角色)</h4>
+<p><strong>史蒂夫·纳什：</strong> 你在……让他在球队感到舒适的过程中，你的角色是什么？我不想过度美化你的地位。我也不想贬低他的成功，但这……这也是整件事的一部分，不是吗？你们都必须找到一种相处的方式。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 我觉得这就很简单，就是别当个白痴。</p>
+<p><strong>史蒂夫·纳什：</strong> 我……你能再说一遍吗？</p>
+<p><strong>勒布朗·詹姆斯：</strong> 别……别当个白痴。我不是个白痴。</p>
+<p><strong>史蒂夫·纳什：</strong> 是的。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 我不是个白痴。比如我明白……首先我……我非常清楚我的比赛风格，以及我能为一支篮球队做些什么。我从来没有被固定在某个位置上。所以我知道我有能力被放在任何位置上，只要能适应球队赢球的需要。</p>
+<p><strong>史蒂夫·纳什：</strong> 即使这会带走一些你过去一直在做的事情。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的。你知道，理解了这一点，然后在之前我受了点小伤的时候，看着球队打球，看着球队取得了一些成功。我坐在后面观察，我想：“AR和卢卡看起来他们打得非常自由。”他们看起来就像是……当勒布朗不打的时候，他们不必……觉得他们必须迎合我，或者让我觉得有参与感，或者必须把球传给我，而这会打乱他们的节奏。</p>
+<p>所以，当我在康复、当我准备回到阵容中时，我去找了他们俩。我跟他们俩说：“听着，在场上别担心我。当我不打的时候，你们处于什么心态，就保持那种心态。保持侵略性。球在你们手里。我会弄清楚自己该怎么打。我会弄清楚的。别……别把事情搞砸了。别让我感到困惑。我会弄清楚的。”</p>
+<p>然后我给JJ（雷迪克）发了短信，我也给我们的一个助理教练发了短信。我告诉他我也想跟他们谈谈。然后我告诉他，我会弄清楚自己该怎么打。我是一个……我是一个赢家，我知道为了让我们赢球，为了让那些家伙能做最好的自己，我能为这个俱乐部做些什么。嗯，这实际上就是……我只是不……我想我就是不是个白痴。</p>
+<p><strong>史蒂夫·纳什：</strong> 今日头条。我不是个白痴。勒布朗·詹姆斯。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 我不是个白痴。我不是个白痴。我的意思是……</p>
+<p><strong>史蒂夫·纳什：</strong> 但那……那是说起来容易。做起来并不总是那么容易的。你必须把……</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的，你必须把你的自我放在一边。把你的自我放在一边。把你的骄傲放在一边。</p>
+<p><strong>史蒂夫·纳什：</strong> 但你同时必须具备这种能力。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 我有适应能力，能够在场上做其他事情，并且依然能产生影响力。</p>
+<p><strong>史蒂夫·纳什：</strong> 那倒是真的。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 所以，这很有帮助。</p>
+<p><strong>史蒂夫·纳什：</strong> 你仍然有很多三双，或者在有些比赛里，你会觉得，出手了14次，拿下24分、10个篮板、9次助攻。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 这……这有助于……我不想自我吹嘘或者什么的，但当作为一个篮球运动员时，能成为一把瑞士军刀真的很有帮助。比如，我……我从来没有……让自己处于这样一个状态：觉得“你必须成为一个得分手”。</p>
+<p><strong>史蒂夫·纳什：</strong> 是的。是的。</p>
+<p><strong>勒布朗·詹姆斯：</strong> “你就必须只做那个。你就必须只是那样。”对我来说就像是，把我放在场上，我就能……我就能让事情运转起来。就像，我在想什么？我只是个篮球运动员。比如，无论你需要我控球，你知道的。好的，好的，湖人们。你们……你们需要一个控球后卫。好的，那我今年就来打控球后卫。</p>
+<p><strong>史蒂夫·纳什：</strong> 是的。领跑……领跑联盟助攻榜。嗯。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 好的。你们想让我打中锋？好的。酷。我……我来打中锋。你们需要我打三号位？需要什么？你们需要什么？你知道，好的。我去迈阿密。好的。球没那么多在我手里了。我需要成为……我需要更多地在45度角空切。打无球。韦德（D-Wade）持球。我认为很多人对我的篮球风格有一个误解，那就是他们没有意识到我可以适应任何角色、情况或位置。</p>
+<p><strong>史蒂夫·纳什：</strong> 或者位置。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 我恰好在某些方面非常擅长。</p>
+<p><strong>史蒂夫·纳什：</strong> 同意。是的。是的。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 就像非常非常擅长。</p>
+<p><strong>史蒂夫·纳什：</strong> 盖章认证。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 就像非常擅长那个……就像非常擅长那个。</p>
+<p><strong>史蒂夫·纳什：</strong> 是的。那就是……所以它有时候会被忽视。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 不是，但那是……你知道，实际上我觉得就在去年这个时候，大概13个月前，我们在播客上谈论过你在卢卡刚来时的适应过程，你早期做了很多这类事情。但后来你……你受了点伤。你赛季开始得晚。球员进进出出。你试图找回你的节奏。现在又回到了看你做所有无球的事情，这正是卢卡刚来时你自然而然做的事情。嗯，空间感，你确切地知道如何正确地拉开空间。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的。</p>
+<p><strong>史蒂夫·纳什：</strong> 你的空切。你是个伟大的空切手。那个……那个掩护，那个短下顺，那种组织策应，那个进攻篮板，那种快攻中的表现。我最喜欢的是针对扑防的应对（Closeout game）。就像，“哦，你要去协防双人配合，把球传给我。你必须得扑出来防我。”</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的。</p>
+<p><strong>史蒂夫·纳什：</strong> 嗯，对我来说那就像是……你的进攻体系中的一个层次，我认为这很令人兴奋。他们能创造出的扑防机会越多，这很有趣。用不同的方式打球很有趣。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的。而且我也……在我的职业生涯中，很少有时间我有机会打“优势局”（Advantage game）。</p>
+<p><strong>史蒂夫·纳什：</strong> 对。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 我……我一直是……</p>
+<p><strong>史蒂夫·纳什：</strong> 是的，你通常是创造优势的那个人。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 我通常是创造4打3或3打2优势的那个人。现在有了超级创造者，最极致的创造者之一的卢卡，现在我可以打4打3的局了，那是我……我处于最佳状态的时候之一。我可以和AR打配合，从AR的防守人那里吸引更具运动能力的侧翼球员，通过利用我的掩护和绕后战术之类的东西。所以，是的，这……这这是一个很酷的角色。这是一个很酷的角色。我在做。我目前做得还不错。</p>
+<p><strong>史蒂夫·纳什：</strong> 目前做得还不错。是的。到了第9000个赛季。管他呢。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 现在的第29个赛季了。是的。</p>
+<p><strong>史蒂夫·纳什：</strong> 我的意思是，这……是的。如果你能得到这种工作，那可是个好差事。但是……我认为你故事中一个很酷的部分是，你不再是那个“持球大核（heliocentric）”了。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的。</p>
+<p><strong>史蒂夫·纳什：</strong> 并不是说你不能胜任。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的。</p>
+<p><strong>史蒂夫·纳什：</strong> 但你顺理成章地转型了。而且当……当你决定这么做的时候，你……你把所有其他的事情都做了。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 必须得想办法让各种拼图契合，把拼图拼好，伙计。</p>
+<p><strong>史蒂夫·纳什：</strong> 我的意思是，有多少个夜晚，你甚至没有像以前那样球权在手，却离三双只有一步之遥？这真是个……我喜欢这个。我喜欢看这个。这很奇妙。这有点奇妙。我喜欢看这种表现，因为那不是……这是一种证明，对吧？那是“我要换一种打法，但依然能……”像……经常能拿三双或者接近三双。这很酷。所以，向你致敬。向你致敬，也向卢卡致敬，因为我的意思是，他现在的火热状态简直疯狂。嗯，当他的移动如此出色时，当他处于绝佳体型时，就像……他就是一个历史级别的特殊球员。所以，很高兴能……很高兴能看到这些。</p>
+<hr>
+<p><strong>史蒂夫·纳什 (广告口播)：</strong> 季后赛赛季已经到来，而在季后赛篮球中，视角是关键。作为一名前球员和教练，我会亲自在场边关注每一次突破、每一次投篮和每一次盖帽。我可以凭经验说，没有什么比在当下亲历这些瞬间更美妙的感觉了。这正是美国运通白金卡（American Express Platinum card）的卓越之处，它为您提供全球独特体验的独家访问权。对于季后赛，当每一秒都令人热血沸腾时，您的专属视角才是让它令人难忘的原因。同样的原则也适用于各种娱乐活动，甚至超越了球馆的范畴。你生活中的障碍越少，你就越能沉浸在当下的享受中。我认为这就是一种胜利。凭借一系列高端的旅行、餐饮和娱乐权益，所有这些都由美国运通屡获殊荣的服务提供支持，没有什么能比得上白金卡。受条款约束。了解更多信息，请访问 americanexpress.com/with platinum。</p>
+<hr>
+<h4>第 9 章：Steve shares his MVP favorite (史蒂夫分享他心中的MVP热门)</h4>
+<p><strong>史蒂夫·纳什：</strong> 我会说我心中的MVP热门是谢伊。嗯，仅仅看他整个赛季的总体表现，他的高效率。嗯，他是个优秀的防守者。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的。</p>
+<p><strong>史蒂夫·纳什：</strong> 嗯，我认为他是个出色的领袖。他的……他的效率堪比乔丹。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的。</p>
+<p><strong>史蒂夫·纳什：</strong> 嗯……作为一名二号位，50%以上的受干扰……受干扰中投命中率。就像……这……这……我的意思是……那种精准度和效率是疯狂的。他身体的控制力，比如他的急停、启动、方向改变，他的……这听起来可能有点怪，但我注意到比如他的脊柱灵活性非常惊人。一是能让他像蛇一样滑入防守间隙，二是在各种情况下完成终结。嗯，他太该死的出色了。非常，非常出色。呃，这很有趣，对吧？因为比如他们……他们做了一些事情。他们……他们有一位出色的教练，但他们所做的很大一部分就是拉开空间，然后我单打解决问题。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 压力太大了。</p>
+<p><strong>史蒂夫·纳什：</strong> 是的。在那种情况下，要一个人保持如此高的效率。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的。</p>
+<p><strong>史蒂夫·纳什：</strong> 在这种情况下。而且他总是一以贯之。顺便说一句，这也是伟大的教练工作，教练会觉得：“我为什么要干涉这种打法？为什么我非得……你知道，拿出所谓的‘最佳战术集锦’？真正的‘最佳战术集锦’就是，让我们先从拉开球场空间开始。你们（对手）展示给我们看你们打算怎么防这一招。是的，我们会做调整的。”</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的。这就像你拥有杰克逊五兄弟乐队（Jackson 5），却不让迈克尔（迈克尔·杰克逊）当主唱。我向你保证，这行不通。这说不通。为什么不把他放在前面？</p>
+<p><strong>史蒂夫·纳什：</strong> 是的，那说不通。那就是……那是糟糕的星探（A&#x26;R）干的事。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的，那是糟糕的星探。就像每一个……我……我看过……就像你知道的，我不是每天晚上都在看NBA比赛，或者每天晚上都能赶上一场NBA比赛。但我的意思是，显然我会看很多比赛的录像。但每次你看那个……那个……那个效率，你看数据统计表，你看到谢伊拿了38分。全场比赛17投13中，你知道的。那天晚上我想他拿了40多分，我想是比如……是的，19投15中。他们在波士顿输了，我想他大概是14投12中。</p>
+<p><strong>史蒂夫·纳什：</strong> 是的，就像……是的，</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的。</p>
+<p><strong>史蒂夫·纳什：</strong> 那……那是我最喜欢这类球员的地方。比如，你知道，我……我的意思是那是……但那是因为我就是这样的人。比如我……我喜欢高效的球员。就像，你知道，能上场，能在场上把事情做好，保持高效。你知道，不要……你知道，投太多糟糕的球。我的意思是，如果你手感火热，你想投一两个“手感测试球（heat check）”，我懂，你知道的。或者有手感不佳的夜晚，你必须继续投篮。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的，当然。是的。是的，我们都有……我们都有没有投出……你知道，没有发挥出我们能力的夜晚。我的意思是，这在比赛中很正常。但是，是的，我认为这就是我喜欢谢伊的原因之一。就像……他能在外线打得那么多，</p>
+<p><strong>史蒂夫·纳什：</strong> 是的。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 在中距离打得那么多，还能保持如此超级高效的表现。就像你说的，这……这绝对是乔丹级别的。</p>
+<p><strong>史蒂夫·纳什：</strong> 是乔丹级别，虽然数据在稍微不同的方面。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的。</p>
+<p><strong>史蒂夫·纳什：</strong> 腾空高度低一些，但更多的是身体对抗和那种节奏的顿挫感。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 有点节奏上的顿挫，对吧？</p>
+<p><strong>史蒂夫·纳什：</strong> 呃，还有他的左手，他是一个非常棒的左手终结者。呃，习惯走左边突破，运用慢速的胯下运球。看看如果你防得太死他会怎么做。顺便说一句，背后换手接胯下运球那一招。你知道，但他能在一角硬币的范围内急停。一旦他感觉到你的重心，他就直接过了。嗯。他通常会选择走左边。如果你防住左路，他会转身。他会后撤步。他能造犯规。他有宽厚的肩膀。如果你试图……</p>
+<p><strong>勒布朗·詹姆斯：</strong> 大肩膀这一招简直绝了。嗯，创造空间的能力令人惊叹。拉开空间后的臂展长度。但他是右撇子。所以如果你试着说，今晚我要封死他的左路，他虽然不怎么走右路突入我这，但他会用大肩膀对抗，向右突破，然后向右后撤步。无论哪种方式，我们都见过他向右后撤步投进绝杀球。所以不管哪种方式，他有一整套……他有全套的武器库。</p>
+<p><strong>史蒂夫·纳什：</strong> 是的。所以我认为看重效率、整个赛季的总体表现，这就是我……我的意思是，这四个家伙都像是梦幻般的存在，但这……这就是我首选谢伊的原因。让我们……我们来聊聊……我把那个冉冉升起的新星留到最后聊。但让我们谈谈约基奇。我的意思是，他依然能交出离谱的数据，对比赛产生离谱的影响力。</p>
+<h4>第 10 章：Why you can’t count out Jokić and the Nuggets (为什么你不能看衰约基奇和掘金)</h4>
+<p><strong>史蒂夫·纳什：</strong> 他打出过比如30+20+10的数据。25……24+15。我们还在质疑什么呢？就像……这……他打出的数据简直不可思议。技术水平，球商，体型。所以他……</p>
+<p><strong>勒布朗·詹姆斯：</strong> 噢，我的意思是，他是大师（Savant）。</p>
+<p><strong>史蒂夫·纳什：</strong> 嗯，但是他们遇到了一点挣扎。是的。这也是为什么我认为人们真的很担心他们。我没有那么担心，因为我觉得亚伦·戈登回来了。是的。你知道，他们团队的其他成员正在重新磨合。他们队里也有伤病问题。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 伤病，你知道的，伤病……甚至连约基奇显然也受过一次伤。他缺阵的时候我们聊过那个。</p>
+<p><strong>史蒂夫·纳什：</strong> 所以，还有他们的防守。他们是一支像……我讨厌有些球队说，“哦，到了季后赛再开启开关。我们现在不开启。”这就是这样一支我能看好他们的球队。亚伦·戈登、尼古拉·约基奇，就像他们……他们现在在进攻端打出了惊人的数据，但我认为他们是一支能够把防守提升到联盟前13、12或13名的球队。我不太记得了，但是去年，他们是不是……他们是不是……我不会说挣扎。他们在进入季后赛之前是不是有点挣扎，然后才开启了状态？亚伦去年是不是也受伤了？然后复出，打进季后赛，打了一会儿，砰。显然在抢七大战中受了重伤，但在此之前，是的，我认为他们有一段火热的表现。我的意思是，实际上，你知道我们忘了什么吗？</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的。</p>
+<p><strong>史蒂夫·纳什：</strong> 他们肯定经历过挣扎，因为主教练被解雇了。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 哦，是的。是的。是的。是的。是的。是的。迈克·马龙（Mike Malone），他曾带领他们赢得过总冠军，理应得到他的尊重。嗯，所以他们在赛季末做出了人员变动，所以情况并不是一帆风顺的。</p>
+<p><strong>史蒂夫·纳什：</strong> 是的。是的。的确不是。我的意思是，亚伦·戈登投进了那个球。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的，我的意思是他在雷霆主场投进了一个绝杀。那是第一场比赛，对吧？他在对阵快船的比赛中有一个补扣绝杀。</p>
+<p><strong>史蒂夫·纳什：</strong> 对阵快船来赢下比赛。为了赢球。那一轮系列赛打到了抢七。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 那一轮也是抢七。你不能……你不能把他们排除在外。</p>
+<p><strong>史蒂夫·纳什：</strong> 不能把他们排除在外。而且是的，我觉得这很有意思，因为……呃，这在某种程度上和去年非常相似，但他们在季后赛中找到了重新提升强度的方法。所以我讨厌作为一个……作为一个定论，我不允许或者不喜欢那样（看轻他们）。如果有一支球队能做到这一点（常规赛挣扎但季后赛发力），那就是他们。所以我对他们之前的表现并没有那么担心。这是我个人的看法。所以尼古拉·约基奇，我的意思是，特别是在他受伤之前，他的数据，依然是不可思议的。但他打出的这个赛季，他有着和任何人一样充分的MVP理由。</p>
+<h4>第 11 章：Why Wemby is a late push for MVP (为什么斑马能在最后阶段冲击MVP)</h4>
+<p><strong>史蒂夫·纳什：</strong> 嗯……然后我们来聊聊……呃，你知道的，那位可能会是未来一两个世纪的MVP……呃，对于未来……是的。未来一亿年，无限期的。嗯，外星人维克托·文班亚马。嗯，他在最后阶段发力冲击MVP，我认为这是他应得的。我很想……我……我……我依然认为如果我有一票的话我会投给谢伊。和我说说你对斑马作为MVP候选人的看法。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 嗯，他绝对是MVP候选人。毫无疑问。毫无疑问。而且……显然他们球队今年所取得的成绩。嗯，他们打出了一个特殊的赛季。你知道，在超过50场比赛后排名西部第二。嗯，他的场均数据是多少？25分11个篮板，外加3次盖帽，3次助攻。还是年度最佳防守球员。年度最佳防守球员。你……人们从字面上……轻易地……字面上当你看到他在场上时，你甚至都不想突破到篮下。比如，嗯……我认为他绝对有理由去竞争。你知道，他绝对有理由。但我……我同意。嗯，我不想成为那个说“他的时代终将到来”的人，因为那……那……那对我来说也有点老套。如果你是MVP，你就是MVP。你不应该……你不应该需要论资排辈经历什么磨砺之类的。我只是觉得……我只是觉得谢伊和……和……和……和约基奇以及卢卡，你知道，他们的表现稍微……</p>
+<p><strong>史蒂夫·纳什：</strong> 是的。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的。我认为人们在赛季初就知道，只要斑马保持健康，马刺队就会打出出色的篮球，你知道。我只是……我在去年看到了，你知道，在赛季末的时候。我说过如果斯蒂芬·卡斯尔（Stephon Castle），你知道，像去年结束时那样进入今年的状态，他会非常惊人。他一直令人惊叹。达龙·福克斯（De'Aaron Fox）在去年末受了点伤，但一旦他们完成了那笔交易，我就想，他们会成为一支极其该死优秀的球队。他一直是个出色的老将，你知道。是的。所以，嗯，是的，我的意思是，如果他（斑马）拿了MVP，我不会觉得，“哦我的天，我们在干什么？”比如，你知道。但如果他没拿，你知道，我……我也会理解。</p>
+<p>所以，我的意思是，这四个家伙都有各自的优势。就像我说的，我对卢卡超级偏心。我的意思是，显然他是我的队友，但看看他所做的。我的意思是，以及我们作为一支球队正在做的事情。我的意思是，我缺席了很长一段时间。AR也缺席了很长一段时间，而他依然在做他一直在做的事情。</p>
+<p>但同样，你知道，你看看谢伊，他的二当家也缺席了很长一段时间。你知道，杰伦·威廉姆斯（JDub）缺席了很多比赛，而他们依然是西部第一，甚至我想是全联盟战绩第一。呃……而且约老师也一直在做他该做的事。</p>
+<p>所以，这是一场四人的角逐，伙计。这将是一场不可思议的角逐。我想这……我看看那是……我不知道是不是在60年代，当时是埃尔金·贝勒、威尔特·张伯伦、杰里·韦斯特……</p>
+<p><strong>史蒂夫·纳什：</strong> 该死。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 还有一个是谁来着……就像是一个四个人的……不，我想那是……我想那是……比尔·拉塞尔。我想是那次。我们可以查一下。我想那是一场四人角逐的MVP争夺，所有那些家伙都像是……那可能是我们见过的最疯狂的四人角逐。就像所有那些家伙都打出了不可思议的篮球表现。是的。威尔特场均大概45分，或者是47分外加13个篮板。你有，你知道的，比尔·拉塞尔几乎场均三双。你有呃……杰里·韦斯特场均大概42分。你有埃尔金·贝勒。我的意思是，我想就是那四个人。如果是如果不是，或者如果不是埃尔金·贝勒，那就是奥斯卡（大O），你懂我的意思吗？你懂我……我的意思吗？</p>
+<p><strong>史蒂夫·纳什：</strong> 所以，如果是奥斯卡。他大概率是场均三双了。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的。是的。所以，呃，这有点像当年那个时刻的重现，你有四个候选人，如果其中一个人拿了奖，而其他人没拿到，这不会……这不会引起轩然大波。</p>
+<p><strong>史蒂夫·纳什：</strong> 是的。是的。这……这对联盟来说是非凡的一年。对联盟来说，这是一个有趣的一年。我的意思是，我们聊过，你知道的，这很疯狂。我们讨论过所有负面的东西，比如摆烂，这个那个的，但现实是比赛本身一直都很精彩。季后赛将会非常不可思议。季后赛将会非常不可思议。</p>
+<h4>第 12 章：Steve shares why the best is yet to come for Wemby (史蒂夫分享为何斑马最好的时代还在后头)</h4>
+<p><strong>史蒂夫·纳什：</strong> 让我问你一个关于斑马的问题。所以，如果我非得挑出斑马的刺，这我很讨厌去做，因为我很喜欢他。而且我认为你是对的。说他“属于他的时代终将到来”有点老套。这不公平。我会说，也许我们……作为篮球社会，还没有准备好在现阶段把奖项颁给他。随着我们在评判、在各个方面的演进，这也许会被证明是错的。但如果我必须挑出一个点，现在他每天晚上在防守端都能收下比赛。但我会说，他还没有达到……呃……像你在巅峰期那样的水平。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的。</p>
+<p><strong>史蒂夫·纳什：</strong> 如果你不在现在这支球队，也许你依然能做到卢卡、SGA、约基奇所做的事情。最后五分钟。球给你。带我们回家赢下比赛。这……这是未来会发生的。在某些夜晚，他能在进攻端带队赢球，而且每个夜晚他都能在防守端统治比赛。但我确实认为他的发展还有一点空间，这并不意味着他的总体影响力可能比另一个后卫正在做的要强，但在我心里有一部分觉得……当球员把球控制在自己手里，并且每天晚上都必须带领球队赢下比赛时，这种价值依然是非常高的。而这对我来说，是他正在走向的境界。但那就是MVP评选里你所看重的……</p>
+<p><strong>勒布朗·詹姆斯：</strong> 我认为那是MVP评选中非常重要的一部分，你知道，因为如果我们只是基于……不仅仅是基于，但如果你说，他是年度最佳防守球员，当他在场上时防守端有多强，当他在场上时……那我们就……我们就应该为当年的德怀特·霍华德也申诉一下了。当他在巅峰期的时候。当德怀特·霍华德场均25分、14个篮板、3次或4次盖帽时。而且当他在场上时，球队的防守效率是多少？当他不在场上时又是多少。你知道，我们本来可以以此为理由的。所以，嗯，显然德怀特不投三分，你知道的，不像新时代的比如斑马，或者是其他情况，但是……</p>
+<p><strong>史蒂夫·纳什：</strong> 没那么全能，对吧？没那么全能。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 就整体而言……整体而言。综合考虑到德怀特在奥兰多时进攻和防守两端的影响力，你本可以为他拉票的。</p>
+<p><strong>史蒂夫·纳什：</strong> 而且德怀特……我认为关于斑马在进攻端的一个争论点是，进攻并不全在于得分，这没错。但德怀特顺下时能吸引防守，并在防守者的头上终结。所以，我的意思是，那是一个很好的评估。不过。我的意思是，我不确定这对斑马完全公平，但我确实觉得，如果我必须鸡蛋里挑骨头——因为我认为这个小伙子不可思议。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 我同意。</p>
+<p><strong>史蒂夫·纳什：</strong> 他的影响力。如果他今年获奖，我完全没有意见。但我认为那会是唯一一点，他的进化还在继续，他在某些夜晚能做到。他带领球队取得胜利。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 是的。我很高兴当他真正降临统治联盟时，我已经不在联盟里了。</p>
+<p><strong>史蒂夫·纳什：</strong> 我很高兴我……我只能看着，做这些播客，然后想想我明天的高尔夫开球时间是几点。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 对。这话一点不假。一点不假。</p>
+<hr>
+<p><strong>史蒂夫·纳什：</strong> 所以，我昨晚看比赛的时候。你有没有见过有人……给你传个空接，然后你心里想：“靠。”比如给你传了个空接，你心里觉得：“天哪，我特么还得跳起来去够这个球。”</p>
+<p><strong>勒布朗·詹姆斯：</strong> 绝对有过。比如，看着球飞过来。我就觉得，伙计。</p>
+<p><strong>史蒂夫·纳什：</strong> 我可以毫不含糊地说，我从来没有过这种感觉。一次都没有。</p>
+<p><strong>勒布朗·詹姆斯：</strong> 你知道，很有趣，因为AR（奥斯汀·里夫斯）在暂停的时候跑来找我，他说：“嘿，伙计，你知道，有一种错觉，就是每次我给你传空接的时候，在我的脑海里，我都觉得你才25岁。然后大家都会提醒我，你已经41岁了。”</p>
+<p><strong>史蒂夫·纳什：</strong> 你到底在干什么？</p>
+<p><strong>勒布朗·詹姆斯：</strong> 你到底在干什么？你会害死他的。你会害死他的。他说，“伙计，我就是把球往天上一扔，剩下的就交给你去解决了。”</p>
+<p><strong>史蒂夫·纳什：</strong> 太搞笑了。是的。是的，那是一个……他……那是个疯狂的战术。是的，他就把球高高抛起来。他高高抛起。他们就……</p>
+<p><strong>勒布朗·詹姆斯：</strong> 那球传得好。</p>
+<p><strong>史蒂夫·纳什：</strong> 是的。直接跳起来。</p>
+<p><strong>制作人杰森 (Jason) / 结束语：</strong> 感谢观看《Mind the Game》。新的一集每隔一个周二发布。请记得点赞、订阅或在您观看的任何平台上关注我们。</p>
+5:["$","$L11",null,{"email":{"id":"talks-lebron-james-and-steve-nash-debate-the-mvp-mind-the-game","sender":"Mind the Game","subject":"勒布朗·詹姆斯与史蒂夫·纳什辩论MVP","snippet":"勒布朗与纳什深入讨论湖人三月13胜1负的表现、卢卡·东契奇的蜕变，以及SGA、约基奇、东契奇和文班亚马四位MVP候选人的技术特点与竞争格局。","date":"2026-04-07","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["Talks"],"mdTheme":"magazine","sourcePath":"talks/lebron-james-and-steve-nash-debate-the-mvp-mind-the-game.md","sourceUrl":"https://www.youtube.com/watch?v=aDeWeWoL2nY","coverImage":"$undefined","body":"$12","prompts":[]},"listPosition":{"index":136,"total":365},"matchedPerson":{"id":"mind-the-game","name":"Mind the Game","email":""}}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[27201,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"IconMark"]
+c:[["$","title","0",{"children":"勒布朗·詹姆斯与史蒂夫·纳什辩论MVP · Hinbox"}],["$","meta","1",{"name":"description","content":"勒布朗与纳什深入讨论湖人三月13胜1负的表现、卢卡·东契奇的蜕变，以及SGA、约基奇、东契奇和文班亚马四位MVP候选人的技术特点与竞争格局。"}],["$","meta","2",{"name":"application-name","content":"Hinbox"}],["$","link","3",{"rel":"canonical","href":"https://linguage.github.io/hinbox/mail/talks-lebron-james-and-steve-nash-debate-the-mvp-mind-the-game"}],["$","meta","4",{"property":"og:title","content":"勒布朗·詹姆斯与史蒂夫·纳什辩论MVP"}],["$","meta","5",{"property":"og:description","content":"勒布朗与纳什深入讨论湖人三月13胜1负的表现、卢卡·东契奇的蜕变，以及SGA、约基奇、东契奇和文班亚马四位MVP候选人的技术特点与竞争格局。"}],["$","meta","6",{"property":"og:url","content":"https://linguage.github.io/hinbox/mail/talks-lebron-james-and-steve-nash-debate-the-mvp-mind-the-game"}],["$","meta","7",{"property":"og:site_name","content":"Hinbox"}],["$","meta","8",{"property":"og:locale","content":"zh_CN"}],["$","meta","9",{"property":"og:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","meta","10",{"property":"og:image:width","content":"1200"}],["$","meta","11",{"property":"og:image:height","content":"630"}],["$","meta","12",{"property":"og:image:alt","content":"勒布朗·詹姆斯与史蒂夫·纳什辩论MVP"}],["$","meta","13",{"property":"og:type","content":"article"}],["$","meta","14",{"property":"article:published_time","content":"2026-04-07T00:00:00.000Z"}],["$","meta","15",{"property":"article:author","content":"Mind the Game"}],["$","meta","16",{"property":"article:tag","content":"Talks"}],["$","meta","17",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","18",{"name":"twitter:title","content":"勒布朗·詹姆斯与史蒂夫·纳什辩论MVP"}],["$","meta","19",{"name":"twitter:description","content":"勒布朗与纳什深入讨论湖人三月13胜1负的表现、卢卡·东契奇的蜕变，以及SGA、约基奇、东契奇和文班亚马四位MVP候选人的技术特点与竞争格局。"}],["$","meta","20",{"name":"twitter:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","link","21",{"rel":"icon","href":"/hinbox/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","22",{"rel":"icon","href":"/hinbox/icon.svg?icon.6ca2692a.svg","sizes":"any","type":"image/svg+xml"}],["$","$L13","23",{}]]
+8:null

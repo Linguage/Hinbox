@@ -1,0 +1,170 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T5546,<h1>保护与超速：NYPD 警官累计 547 张超速罚单仍在岗</h1>
+<p>纽约市警局一名警官在三年内累计收到 547 张超速罚单，却依然在岗执勤——这个数字本身就构成了一个令人不安的悖论。本文作者 J.K. Trotter 通过对交通摄像头罚单数据的追踪，还原了詹姆斯·乔瓦南蒂在斯塔滕岛上的危险驾驶模式：集中在学校周边的超速行为、重达近五千磅的皮卡车型、以及 NYPD 以"与工作无关"为由拒绝追责的态度。文章的核心张力在于：一个本应执行交通法规的执法者，却在系统性地违反它，而制度对此近乎默许。这不仅是个人行为的失范，更指向更深层的问题——当警察系统内部问责机制失灵时，所谓的"执法公正"便出现了裂缝。与此同时，奥尔巴尼正在推动"超级超速者法案"，试图为最严重的惯犯安装限速器。乔瓦南蒂的案例，恰好成为检验这部法案必要性的试金石。</p>
+<hr>
+<h2>他是头号公敌吗？</h2>
+<p>詹姆斯·乔瓦南蒂（James Giovansanti）在斯塔滕岛居住和工作。自2022年以来，交通摄像头已在该自治 borough 内捕捉到他的皮卡车在学区超速或闯红灯超过 547 次。仅 2025 年一年，他就收到了 187 张摄像头罚单——平均每两天一张。</p>
+<p>这一记录使乔瓦南蒂成为纽约市第二鲁莽的司机。由于他驾驶着一辆重达 4,800 磅的 RAM 1500 卡车，以超过 41 mph 的速度穿越该岛，他对自己和邻居构成了独特的危险。<a href="https://nyc.streetsblog.org/wp-content/uploads/sites/9/2026/04/Ticket-Record.pdf">罚单数据</a>显示，从 Pleasant Plains 到 Tompkinsville 的广阔弧线范围内存在危险驾驶模式。</p>
+<p>而这就是他成为真正公敌的原因：乔瓦南蒂是纽约市警察局（NYPD）的一名警官——而该机构本应负责保护纽约市民免受伤害。</p>
+<p><img src="https://nyc.streetsblog.org/wp-content/uploads/sites/9/2026/04/GIOVANSANTI-in-uniform-Greg-Mango-1a.jpg" alt=""></p>
+<p>NYPD 警官詹姆斯·乔瓦南蒂与他的第 120 分局同事在 Richmond Terrace 派出所前合影。摄影：Gregory P. Mango</p>
+<p>一位警务专家表示，乔瓦南蒂的记录表明他"漠视公共安全"——即便并非每次卡车被测速摄像头拍到都是他本人在驾驶，他也显然在允许其他人鲁莽驾驶他的车辆。</p>
+<p>这位专家、前警察转任刑事司法教授迈克尔·阿尔卡扎（Michael Alcazar）表示，乔瓦南蒂应面临"严厉的纪律处分"。但这种情况并未发生——一位 NYPD 发言人驳回了对其进行处罚的建议，理由是乔瓦南蒂的罚单"与他的工作或他在警局的职责无关"。</p>
+<p>活动人士表示，乔瓦南蒂是推动通过"超级超速者法案"（Stop Super Speeders Act）紧迫性的典型代表。该法案是奥尔巴尼一项<a href="https://empire.streetsblog.org/state-of-the-state-exclusive-hochul-will-push-stop-super-speeders-bill-through-her-budget">待审议</a>的法案，将强制最严重的惯犯超速者在其车辆上安装限速器。如果这样的法律已经存在，乔瓦南蒂的卡车本应在 2022 年 8 月 7 日（他购车仅几个月后）就无法超速了。</p>
+<p>"我们对一名司机将斯塔滕岛置于危险之中感到震惊，"与 Transportation Alternatives 组织一起在该岛倡导更安全街道的罗斯·乌西乔夫斯基（Rose Uscianowski）说。"我们指望奥尔巴尼通过该法案，最终让超级超速者慢下来。我们等不起了。"</p>
+<h3>鲁莽行为</h3>
+<p>记录显示，33 岁的詹姆斯·乔瓦南蒂将大部分超速行为集中在 borough 人口稠密的北岸。位于 Richmond Avenue 与 Monsey Place 的一处交通摄像头——与招收 700 多名小学生的 P.S. 22 小学在同一街区——向该卡车开出了 25 张超速罚单。</p>
+<p>另一处位于 Richmond Terrace 与 John Street 的摄像头向该卡车开出了 50 张罚单。第三处位于 Richmond Terrace 与 Nicholas Avenue 的摄像头则开出了 55 张罚单。最后这两处摄像头位于 Port Richmond High School 正北，该校招收 1,500 多名青少年。</p>
+<p>在观察了乔瓦南蒂的驾驶模式及城市摄像头罚单数据库中的罚单时间后，Streetsblog 毫不费力地在街上找到了这辆车。有一天，我们在第 120 分局附近发现了它，看到司机下车后进入 Richmond Terrace 派出所，然后身着制服出现——制服上印有 GIOVANSANTI 字样。记录显示他自 2019 年以来一直在警队任职。</p>
+<iframe src="https://datawrapper.dwcdn.net/GQ8Db/1/" title="嵌入式内容" frameborder="0" allowfullscreen=""></iframe>
+<p>乔瓦南蒂在 Richmond Terrace 上的超速尤为危险。Richmond Terrace 是一条环绕北岸的七英里主干道。大多数城市街道限速 25 mph（或更低），但 Richmond Terrace 仍维持 30 mph 的限速。前任市长埃里克·亚当斯（Eric Adams）在<a href="https://www.nyc.gov/html/dot/html/pr2025/nyc-dot-regional-slow-zones.shtml">实施</a>包含该路段部分的"区域慢行区"时，将 Richmond Terrace 排除在更低的限速之外。派出所前的一块标牌提醒居民，警察可以违反交通规则。</p>
+<p><img src="https://nyc.streetsblog.org/wp-content/uploads/sites/9/2026/04/cops-only-crop.jpg" alt=""></p>
+<p>NYPD 对邻居们说：看好你们自己。</p>
+<p>根据州法律，车辆必须至少超出法定限速 11 mph 以上，摄像头才会开出罚单。这意味着，乔瓦南蒂的卡车每次在 Richmond Terrace 上收到超速罚单时，车速至少达到 41 mph。一名行人若被以 41 mph 速度行驶的汽车撞击，将受重伤——且<a href="https://www.streetsareforeveryone.org/blog/speedingkillschildren">生还几率仅有 20%</a>。</p>
+<p>乔瓦南蒂选择的车辆极大地加剧了这些风险。一辆未经改装的 2022 款 RAM 1500 重量<a href="https://www.drivespitzercdjr.com/chrysler-dodge-jeep-and-ram-research/2022-ram-1500-weight/">至少 4,775 磅</a>，高度至少 77 英寸，并拥有巨大、方正、平脸式引擎盖。这种设计<a href="https://www.nsc.org/safety-first/hidden-dangers-light-trucks-safety-must-come-first?srsltid=AfmBOop93We7NLbuc1FAnVpCnFX4lxkifysTxn6uDODRPLbjVtWpOC9m">限制</a>了驾驶员看到行人和骑行者视野的能力，并且使其更有可能将碰撞受害者拖拽至<em>车底</em>而非将其抛到引擎盖上。</p>
+<p>我们无法确定乔瓦南蒂是否曾因超速伤害过他人。但间接证据并不令人安心：他卡车的右侧有明显的损坏痕迹，而他拒绝回答关于其碰撞历史的直接问题。</p>
+<p>此外，纽约市交通局（Department of Transportation）在 12 月下旬<a href="https://www.nyc.gov/html/dot/downloads/pdf/nyc-driver-behavior-study.pdf">报告</a>称，每年收到至少两张交通违章罚单（包括由警察开出的超速和闯红灯）的城市司机，比从未收到交通违章罚单的司机，导致死亡或重伤事故的可能性高出 40 倍。</p>
+<p>别忘了：乔瓦南蒂在 2022 年收到了 116 张交通违章罚单，2023 年 127 张，2024 年 124 张，2025 年 180 张。DOT 的图表（仅适用于从警察那里收到罚单的司机）表明，詹姆斯·乔瓦南蒂极有可能造成人员伤亡。</p>
+<p><img src="https://nyc.streetsblog.org/wp-content/uploads/sites/9/2026/04/DOT-risk-chart.png" alt=""></p>
+<p>詹姆斯·乔瓦南蒂的记录简直超出了这张图表的范围。图表来源：DOT</p>
+<h3>愈演愈烈</h3>
+<p>Streetsblog 在 3 月初就注意到了乔瓦南蒂的记录，当时 Transportation Alternatives <a href="https://nyc.streetsblog.org/2026/03/10/speeding-new-york-city-ghost-plates-defaced-plates-cameras-automated-enforcement-gounardes">分析了</a>截至 2025 年底的学区摄像头罚单。该倡导组织<a href="https://transalt.org/press-releases/like-shooting-a-gun-into-a-crowd-just-10-drivers-threaten-25-million-new-yorkers-according-to-new-data-from-transportation-alternatives-and-families-for-safe-streets">公布了</a>全市最恶劣的 10 名超级超速者的车牌号——但没有公布姓名。乔瓦南蒂当前的车牌排名第六。</p>
+<p>我们采取了下一个合乎逻辑的步骤，试图查明究竟是谁在驾驶这些车辆。通过公开记录和传统的实地调查，我们开始识别出其中一些人。大多数最恶劣的车牌属于那些没有任何公众形象或重要职位的驾驶者。其余的车牌则属于外州的租赁公司。这其中包括全市最恶劣的超速者，他的车已累积了 63,744.23 美元的罚款，大部分集中在布鲁克林南部的一个狭小区域内。</p>
+<p>我们很快确认，乔瓦南蒂警官自 2022 年初就拥有这辆 2022 款 RAM 1500。它当前的车牌是 LFC3742，但在 2022 年 1 月至 2023 年 10 月期间，它曾挂着<strong>另一个</strong>车牌：KVJ5603。</p>
+<p>在那<strong>20 个</strong>月里，乔瓦南蒂的卡车<a href="https://howsmydrivingny.nyc/8xmw336q">累积了</a> 223 张超速罚单，花费超过 15,000 美元。如下方地图所示，乔瓦南蒂在使用第一个车牌时表现出的模式与第二个车牌如出一辙：在整个斯塔滕岛超速，尤其是在北岸。</p>
+<iframe src="https://datawrapper.dwcdn.net/eLkUQ/1/" title="嵌入内容" frameborder="0" allowfullscreen=""></iframe>
+<p>以下是结合两个车牌罚单数据的地图：</p>
+<iframe src="https://datawrapper.dwcdn.net/DJ5w5/6/" title="嵌入内容" frameborder="0" allowfullscreen=""></iframe>
+<p>这使得乔瓦南蒂自 2022 年 1 月以来的超速罚单总数达到了惊人的 547 张，总金额为 36,650.02 美元——这意味着他将位列全市<strong>第二恶劣</strong>的驾驶者。</p>
+<p>而且别忘了：那 547 张罚单仅仅与他<strong>当前</strong>的皮卡有关。目前尚不清楚他在 2022 年之前是否曾驾驶或拥有过其他车辆，如果有的话，当时他又收到了多少张超速罚单。</p>
+<p>乔瓦南蒂记录中的更多细节同样令人震惊。他因闯红灯收到了 20 张罚单——这种行为往往比单纯超速危险得多。其中四张闯红灯罚单的时间戳，与另一张超速罚单的时间相差不到五分钟。</p>
+<p>例如，2025 年 8 月 27 日下午 5:48，Arlene Street 与 Sommer Avenue 的一处交通摄像头拍下了乔瓦南蒂的卡车超速。一分钟后，另一个摄像头在 Richmond Avenue 与 Lander Avenue 交叉口拍到了他的卡车闯红灯。这清楚地表明，乔瓦南蒂加速闯过了红灯——这是驾驶者可能犯下的<a href="https://www.iihs.org/research-areas/red-light-running">最致命的行为之一</a>。</p>
+<p>此外，他<a href="https://nyc.streetsblog.org/wp-content/uploads/sites/9/2026/04/timestamps.png">偏好深夜超速</a>，在晚上 11 点到午夜之间——正是能见度最差、致命碰撞风险最高的时候。自 2009 年以来，美国夜间被驾驶者撞死的行人数量<a href="https://www.nytimes.com/interactive/2023/12/11/upshot/nighttime-deaths.html">激增</a>。四年前，支持汽车的州议员曾<a href="https://nyc.streetsblog.org/2022/06/01/state-senate-overwhelmingly-supports-24-7-speed-cameras-for-the-city">试图</a>（但<a href="https://www.governor.ny.gov/news/governor-hochul-signs-legislation-expanding-use-new-york-city-school-zone-speed-cameras">未能成功</a>）阻止该市全天候运行交通摄像头。</p>
+<p>某些日子也格外突出。2025 年 1 月 27 日，乔瓦南蒂的卡车收到了四张超速罚单和一张闯红灯罚单：分别在上午 9:01 和 9:04，然后是晚上 10:51、10:52 和 11:01——也许是在他上下班的路上。五周后，3 月 4 日，他又在从早到晚大约 10 小时的间隔内收到了另外五张超速罚单。</p>
+<h3>无可辩驳</h3>
+<p>乔瓦南蒂对他所经之路上的每一名驾驶者、行人和骑行者都构成致命威胁。这完全违背了纽约市警察局（NYPD）存在的根本目的。根据<a href="https://www.nyc.gov/site/nypd/about/about-nypd/mission.page">其使命宣言</a>，该机构存在的唯一理由是<strong>保护</strong>纽约市民，而不是一再地恐吓和危害他们。</p>
+<p>事实上，他的记录是如此令人不安和难以置信，以至于我们同时向他和纽约市警察局（NYPD）求证，是否存在某种可以解释开脱的理由。也许他是用这辆车来回应警情？或者他有一位亲戚或朋友患有疾病，需要他经常立即赶到现场？我们是否遗漏了某个关键的背景信息？</p>
+<p>没有任何解释。乔瓦南蒂没有回复多封电子邮件、多个电话以及一封留在他斯塔滕岛家中的信件。他不愿回答的问题包括："在驾驶那辆 RAM 1500 期间，你是否曾与汽车、行人或骑行者发生过碰撞？"（我们无法独立查证这一点，因为该市的交通事故数据库<a href="https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Vehicles/bm4k-52h4/explore/query/SELECT%0A%20%20%60unique_id%60%2C%0A%20%20%60collision_id%60%2C%0A%20%20%60crash_date%60%2C%0A%20%20%60crash_time%60%2C%0A%20%20%60vehicle_id%60%2C%0A%20%20%60state_registration%60%2C%0A%20%20%60vehicle_type%60%2C%0A%20%20%60vehicle_make%60%2C%0A%20%20%60vehicle_model%60%2C%0A%20%20%60vehicle_year%60%2C%0A%20%20%60travel_direction%60%2C%0A%20%20%60vehicle_occupants%60%2C%0A%20%20%60driver_sex%60%2C%0A%20%20%60driver_license_status%60%2C%0A%20%20%60driver_license_jurisdiction%60%2C%0A%20%20%60pre_crash%60%2C%0A%20%20%60point_of_impact%60%2C%0A%20%20%60vehicle_damage%60%2C%0A%20%20%60vehicle_damage_1%60%2C%0A%20%20%60vehicle_damage_2%60%2C%0A%20%20%60vehicle_damage_3%60%2C%0A%20%20%60public_property_damage%60%2C%0A%20%20%60public_property_damage_type%60%2C%0A%20%20%60contributing_factor_1%60%2C%0A%20%20%60contributing_factor_2%60/page/filter">莫名其妙地</a>省略了车牌号。）</p>
+<p>当 Streetsblog 试图敲他家门时，一位未表明身份的女性从门内探出头喊道："离开我家，不然我叫警察了！马上。滚出去。我要报警了。"当被问及原因时，那位女性继续说道："不准踏上我的地产。你会被逮捕的。"然后她砰地关上了门。</p>
+<p>停在乔瓦南蒂车道上的<strong>另一辆</strong>车，自 2022 年 3 月以来已收到 69 张超速和闯红灯罚单。</p>
+<p>纽约市警察局（NYPD）也只是稍微配合了一点。该机构的一位发言人除了提到他的罚单与工作无关之外，没有提供进一步的评论。这位发言人也没有回答其他问题，包括关于一名下班后在学校区域超速记录如此危险的警察应受何种纪律处分的问题。</p>
+<h3>能做什么？</h3>
+<p>纽约市警察局（NYPD）对乔瓦南蒂灾难性危险行为的漠视，是一场市政紧急事件。这是对公众信任的严重背弃，也证实了街道安全活动人士最深的担忧——他们长期以来一直怀疑警察拒绝执行基本的停车和交通法规，恰恰是因为他们自己脱下制服后也<a href="https://nyc.streetsblog.org/category/special-reports/s-cop-laws">频繁违反这些法律</a>。</p>
+<p>但在这起案件中，实际上能做什么呢？与纽约州所有驾驶员一样，只要乔瓦南蒂支付 50 美元的罚单（他的情况通常是 75 美元，因为他延迟付款，产生额外费用），他就不会受到任何后果的追究。州法律将摄像头开出的罚单归类为单纯违规，不会在驾驶记录上增加任何扣分——尽管超速 11 英里/小时本应在驾照上扣 4 分，但前提是违规者是被警察而非摄像头逮到的。仅凭三张这样的罚单就足以吊销驾照，但乔瓦南蒂却可以继续开车。</p>
+<p><img src="https://nyc.streetsblog.org/wp-content/uploads/sites/9/2026/04/Screenshot-2026-04-23-at-8.55.29-AM.png" alt=""></p>
+<p>图表：Streetsblog</p>
+<p>不过，作为一名警察，乔瓦南蒂理论上可能因为危险的业余行为而受到 NYPD 的纪律处分。1989 年至 2019 年担任 NYPD 警官、现在曼哈顿的 John Jay 刑事司法学院任教的 Michael Alcazar 告诉 Streetsblog，在他那个年代，警局期望主管警官关注下属的下班后行为，并在必要时予以处罚。</p>
+<p>"下班后行为的模式，包括交通违规，绝对是主管们关注的事项，"他说。"在警务工作中，一旦你下了班，期望并不会完全消失，尤其是当这种行为开始暴露出判断力差或滥用职权的问题时。"</p>
+<p>"从 NYPD 内部角度来看，支付罚单并不能真正解决关于判断力、克制力或职业素养的核心问题，"他继续说道。"主管们接受过识别模式的训练，而不仅仅是单个事件——当你看到违规行为以那种规模累积时，它通常会引起担忧，无论每张罚单在技术上是否'已处理'。"</p>
+<p><img src="https://nyc.streetsblog.org/wp-content/uploads/sites/9/2026/04/GIOVANSANTI-gets-out-of-truck-Greg-Mango-1.jpg" alt=""></p>
+<p>NYPD 警员 James Giovansanti 走下他的卡车，走向斯塔滕岛 120 分局。摄影：Gregory P. Mango</p>
+<p>Alcazar 敦促 NYPD 进行干预。</p>
+<p>"警员经常被告知，他们应成为理想社会行为的榜样，"他解释道。"当存在一种持续的下班后行为模式，看起来鲁莽或漠视公共安全时，这会给该警员和警局都带来严重的信誉问题。像这样的案件应该引发严肃的内部纪律处分——不是因为某一次违规，而是因为整体模式揭示了该警员的责任心和判断力存在什么问题。"（对乔瓦南蒂记录的审查显示，他在六年多的任职期间未受到任何纪律处分或特别安排。）</p>
+<p>乔瓦南蒂所在的圣乔治分局由督察 Eric Waldhelm 负责，他继续容忍着公然违反限速法律的警察。正如 Streetsblog <a href="https://nyc.streetsblog.org/2026/03/31/march-parking-madness-2026-like-a-rock-edition">上月报道</a>，停在该分局外的 40 辆警员私家车中，有 33 辆曾多次被开罚单——其中一名警员收到 57 张摄像头罚单，另一名 40 张，还有一名 25 张，一名 24 张——全都在 Waldhelm 的管辖之下，而他从未干预。（Waldhelm 和 NYPD 均未回应相关问题。）</p>
+<p>乔瓦南蒂的恐怖统治可能会在<a href="https://empire.streetsblog.org/state-of-the-state-exclusive-hochul-will-push-stop-super-speeders-bill-through-her-budget">《超级超速者法案》</a>作为预算案或单独法案通过后终结。但正如 Hell Gate <a href="https://hellgatenyc.com/stop-super-speeders-bill-roadblock-assembly/">周二报道</a>，由于议长 Carl Heastie（布朗克斯选区民主党人）的反对，该法案通过的可能性越来越不明朗。</p>
+<p>州长霍楚在今年早些时候赞扬该立法时，说的仿佛正是乔瓦南蒂："我们知道，道路上不成比例的危险事故是由一小撮不良行为者造成的，他们鲁莽超速，危及所有人的安全，"她说。"现在，我们要向这些超级超速者出手了……一劳永逸地终结他们在我们道路上的'速度与激情'式驾驶。"</p>
+<p><em>我们的内容管理系统无法上传足够大的图片来展示 James Giovansanti 的卡车收到了多少张罚单。因此请<a href="https://howsmydrivingny.nyc/jjtod348">点击此处</a>查看他自 2022 年 1 月以来的完整记录。并留意这辆卡车：</em></p>
+<p><img src="https://nyc.streetsblog.org/wp-content/uploads/sites/9/2026/04/GIOVANSANTI-truck-with-120-in-background-Greg-Mango.jpg" alt=""></p>
+<p>这就是 NYPD 警员 James Giovansanti 拥有的卡车。车上已有超过 540 张摄像头开出的罚单。摄影：Gregory P. Mango</p>
+<p><strong>Streetsblog 已迁移至新的评论系统。</strong> 新评论者可以直接在任何文章的评论区注册。老评论者：您之前的评论和显示名称已保留，但您需要点击登录表单上的"忘记密码？"，输入您的邮箱，然后按照验证链接设置新密码来找回您的账户——这是因为密码在迁移过程中无法转移。如有疑问，请联系 <a href="mailto:tips@streetsblog.org">tips@streetsblog.org</a>。</p>
+<hr>
+<h2>术语表</h2>
+<table>
+<thead>
+<tr>
+<th>原文</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Arlene Street</td>
+<td>Arlene Street</td>
+</tr>
+<tr>
+<td>Assembly Speaker Carl Heastie</td>
+<td>议长 Carl Heastie</td>
+</tr>
+<tr>
+<td>borough</td>
+<td>（纽约）自治 borough（保留原文处理）</td>
+</tr>
+<tr>
+<td>D-Bronx</td>
+<td>布朗克斯选区民主党人</td>
+</tr>
+<tr>
+<td>Department of Transportation</td>
+<td>纽约市交通局（DOT）</td>
+</tr>
+<tr>
+<td>Gov. Hochul</td>
+<td>州长霍楚</td>
+</tr>
+<tr>
+<td>Inspector Eric Waldhelm</td>
+<td>督察 Eric Waldhelm</td>
+</tr>
+<tr>
+<td>John Jay College of Criminal Justice</td>
+<td>John Jay 刑事司法学院</td>
+</tr>
+<tr>
+<td>KVJ5603</td>
+<td>KVJ5603</td>
+</tr>
+<tr>
+<td>Lander Avenue</td>
+<td>Lander Avenue</td>
+</tr>
+<tr>
+<td>LFC3742</td>
+<td>LFC3742</td>
+</tr>
+<tr>
+<td>NYPD</td>
+<td>纽约市警察局（NYPD）</td>
+</tr>
+<tr>
+<td>RAM 1500</td>
+<td>RAM 1500</td>
+</tr>
+<tr>
+<td>Richmond Avenue</td>
+<td>Richmond Avenue</td>
+</tr>
+<tr>
+<td>Sommer Avenue</td>
+<td>Sommer Avenue</td>
+</tr>
+<tr>
+<td>St. George</td>
+<td>圣乔治</td>
+</tr>
+<tr>
+<td>Staten Island</td>
+<td>斯塔滕岛</td>
+</tr>
+<tr>
+<td>Stop Super Speeders Act</td>
+<td>超级超速者法案</td>
+</tr>
+<tr>
+<td>Streetsblog</td>
+<td>Streetsblog</td>
+</tr>
+<tr>
+<td>Transportation Alternatives</td>
+<td>Transportation Alternatives</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"essays-to-protect-and-swerve-nypd-cop-has-547-speeding-tickets-yet","sender":"J.K. Trotter","subject":"保护与超速：NYPD 警官累计 547 张超速罚单仍在岗","snippet":"纽约市警局一名警官在三年内累计收到 547 张超速罚单，却依然在岗执勤——这个数字本身就构成了一个令人不安的悖论。本文作者 J.K. Trotter 通过对交通摄像头罚单数据的追踪，还原了詹姆斯·乔瓦南蒂在斯塔滕岛上的危险驾驶模式：集中在学校周边的超速行为、重达近五千磅的皮卡车型、以及 NYPD 以\"与工作无关\"为由拒绝追责的态度。文章的核心张力在于：一个本应执行交通法规的执法者，却在系统性地违反它，而制度对此近乎默许。这不仅是个人行为","date":"2026-04-23","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["translated"],"mdTheme":"magazine","sourcePath":"essays/to-protect-and-swerve-nypd-cop-has-547-speeding-tickets-yet.md","sourceUrl":"https://nyc.streetsblog.org/2026/04/23/to-protect-and-swerve-nypd-cop-has-527-speeding-tickets-yet-remains-on-the-force","body":"$3","prompts":[]},"listPosition":{"index":97,"total":365}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

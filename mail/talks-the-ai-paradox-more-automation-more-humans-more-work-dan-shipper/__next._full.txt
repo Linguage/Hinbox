@@ -1,0 +1,397 @@
+1:"$Sreact.fragment"
+3:I[39756,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+4:I[37457,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"ViewportBoundary"]
+b:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"MetadataBoundary"]
+d:I[68027,[],"default"]
+:HL["/hinbox/_next/static/chunks/24888a04b79e7824.css","style"]
+:HL["/hinbox/_next/static/media/fba5a26ea33df6a3-s.p.1bbdebe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"vMUiZWVsRx3pCqxArlZcR","c":["","mail","talks-the-ai-paradox-more-automation-more-humans-more-work-dan-shipper"],"q":"","i":false,"f":[[["",{"children":["mail",{"children":[["id","talks-the-ai-paradox-more-automation-more-humans-more-work-dan-shipper","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hinbox/_next/static/chunks/24888a04b79e7824.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[79520,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],""]
+f:I[59665,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],"default"]
+:HL["https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","style"]
+2:["$","html",null,{"lang":"zh-CN","className":"plus_jakarta_sans_9710934b-module__-vnxFq__variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function () {\n  try {\n    var theme = window.localStorage.getItem('hinbox:theme');\n    if (theme !== 'light' && theme !== 'dark' && theme !== 'sepia') {\n      theme = 'light';\n    }\n    window['__HINBOX_THEME__'] = theme;\n    document.documentElement.dataset.theme = theme;\n    document.documentElement.style.colorScheme = theme === 'dark' ? 'dark' : 'light';\n    function applyBodyTheme() {\n      if (document.body) {\n        document.body.dataset.theme = theme;\n      }\n    }\n    if (document.body) {\n      applyBodyTheme();\n    } else {\n      document.addEventListener('DOMContentLoaded', applyBodyTheme);\n    }\n  } catch (error) {\n    window['__HINBOX_THEME__'] = 'light';\n    document.documentElement.dataset.theme = 'light';\n    document.documentElement.style.colorScheme = 'light';\n  }\n})();"}}],"",["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","rel":"stylesheet"}],["$","$Le",null,{"id":"mathjax-config","strategy":"afterInteractive","children":"\n          window.MathJax = {\n            tex: {\n              inlineMath: [['$', '$'], ['\\\\(', '\\\\)']],\n              displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']],\n              processEscapes: true,\n              packages: { '[+]': ['noerrors', 'noundefined'] },\n            },\n            svg: {\n              fontCache: 'none',\n            },\n            startup: {\n              typeset: false,\n              ready: () => {\n                window.MathJax.startup.defaultReady();\n                window.dispatchEvent(new Event('MathJaxReady'));\n              },\n            },\n          };\n          "}],["$","$Le",null,{"id":"mathjax-cdn","strategy":"afterInteractive","src":"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"}]]}],["$","body",null,{"className":"font-[family-name:var(--font-jakarta)] antialiased","suppressHydrationWarning":true,"children":["",["$","$Lf",null,{"weeklyNavCounts":{"inboxWeeklyCount":10,"sentWeeklyCount":0,"starredTotalCount":21},"people":[{"id":"david-perell","name":"David Perell","email":""},{"id":"lenny-s-podcast","name":"Lenny's Podcast","email":""},{"id":"ryan-peterman","name":"Ryan Peterman","email":""},{"id":"anthropic","name":"Anthropic","email":""},{"id":"dwarkesh-patel","name":"Dwarkesh Patel","email":""},{"id":"stripe","name":"Stripe","email":""},{"id":"stephen-wolfram","name":"Stephen Wolfram","email":""},{"id":"latent-space","name":"Latent Space","email":""},{"id":"lex-fridman","name":"Lex Fridman","email":""},{"id":"steve-jobs","name":"Steve Jobs","email":""},{"id":"20vc-with-harry-stebbings","name":"20VC with Harry Stebbings","email":""},{"id":"jeremy-stern","name":"Jeremy Stern","email":""},{"id":"turing","name":"Turing","email":""},{"id":"demis-hassabis","name":"Demis Hassabis","email":""},{"id":"the-diary-of-a-ceo","name":"The Diary Of A CEO","email":""},{"id":"elon-musk","name":"Elon Musk","email":""},{"id":"sauteedveggies","name":"SauteedVeggies","email":""},{"id":"andy-matuschak","name":"Andy Matuschak","email":""},{"id":"mind-the-game","name":"Mind the Game","email":""},{"id":"ramona-shelburne","name":"Ramona Shelburne","email":""},{"id":"jared-weiss","name":"Jared Weiss","email":""},{"id":"deeplearningai","name":"DeepLearningAI","email":""},{"id":"cursor","name":"Cursor","email":""},{"id":"y-combinator","name":"Y Combinator","email":""},{"id":"openai","name":"OpenAI","email":""},{"id":"every","name":"Every","email":""},{"id":"sequoia-capital","name":"Sequoia Capital","email":""},{"id":"alex-kantrowitz","name":"Alex Kantrowitz","email":""},{"id":"peter-dizikes-mit-news","name":"Peter Dizikes ｜ MIT News","email":""},{"id":"world-finance-journal","name":"World Finance Journal","email":""},{"id":"andrej-karpathy","name":"Andrej karpathy","email":""},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","email":""},{"id":"jd-vance","name":"JD Vance","email":""},{"id":"街-大学","name":"やまぐち街なか大学","email":""},{"id":"jc","name":"JC","email":""}],"tags":[{"id":"translated","name":"translated","count":123},{"id":"interview","name":"interview","count":24},{"id":"ai","name":"ai","count":17},{"id":"人工智能","name":"人工智能","count":17},{"id":"clippings","name":"clippings","count":15},{"id":"essays","name":"Essays","count":9},{"id":"talks","name":"Talks","count":8},{"id":"深度学习","name":"深度学习","count":8},{"id":"ai-agents","name":"ai-agents","count":7},{"id":"cognition","name":"cognition","count":6},{"id":"nba","name":"NBA","count":6},{"id":"ai编程","name":"AI编程","count":5},{"id":"humanity","name":"humanity","count":5},{"id":"math","name":"math","count":5},{"id":"steve-jobs","name":"steve-jobs","count":5},{"id":"大语言模型","name":"大语言模型","count":5},{"id":"机器学习","name":"机器学习","count":5},{"id":"agi","name":"AGI","count":4},{"id":"anthropic","name":"Anthropic","count":4},{"id":"claude-code","name":"Claude Code","count":4},{"id":"doge","name":"DOGE","count":4},{"id":"nvidia","name":"nvidia","count":4},{"id":"windsurf","name":"Windsurf","count":4},{"id":"政府效率","name":"政府效率","count":4},{"id":"文艺复兴科技","name":"文艺复兴科技","count":4},{"id":"英伟达","name":"英伟达","count":4},{"id":"软件工程","name":"软件工程","count":4},{"id":"ai编程工具","name":"AI编程工具","count":3},{"id":"apple","name":"apple","count":3},{"id":"cursor","name":"Cursor","count":3},{"id":"deepseek","name":"deepseek","count":3},{"id":"linus-torvalds","name":"Linus Torvalds","count":3},{"id":"linux内核","name":"Linux内核","count":3},{"id":"llm","name":"llm","count":3},{"id":"mathematics","name":"mathematics","count":3},{"id":"reports","name":"Reports","count":3},{"id":"偏微分方程","name":"偏微分方程","count":3},{"id":"勒布朗-詹姆斯","name":"勒布朗·詹姆斯","count":3},{"id":"开源","name":"开源","count":3},{"id":"开源ai","name":"开源AI","count":3},{"id":"强化学习","name":"强化学习","count":3},{"id":"数学哲学","name":"数学哲学","count":3},{"id":"数学教育","name":"数学教育","count":3},{"id":"访谈","name":"访谈","count":3},{"id":"量化投资","name":"量化投资","count":3},{"id":"马斯克","name":"马斯克","count":3},{"id":"黄仁勋","name":"黄仁勋","count":3},{"id":"ai-agent","name":"AI Agent","count":2},{"id":"ai-coding","name":"ai-coding","count":2},{"id":"ai代理","name":"AI代理","count":2},{"id":"ai基础设施","name":"AI基础设施","count":2},{"id":"ai安全","name":"AI安全","count":2},{"id":"ai数学","name":"AI数学","count":2},{"id":"ai智能体","name":"AI智能体","count":2},{"id":"ai计算","name":"AI计算","count":2},{"id":"alphafold","name":"AlphaFold","count":2},{"id":"claude","name":"Claude","count":2},{"id":"devin","name":"Devin","count":2},{"id":"economics","name":"economics","count":2},{"id":"emacs","name":"Emacs","count":2},{"id":"essay","name":"essay","count":2},{"id":"git","name":"Git","count":2},{"id":"google","name":"Google","count":2},{"id":"ilya-sutskever","name":"Ilya Sutskever","count":2},{"id":"jeff-dean","name":"jeff-dean","count":2},{"id":"jepa","name":"JEPA","count":2},{"id":"org-mode","name":"Org mode","count":2},{"id":"programming","name":"programming","count":2},{"id":"software-engineering","name":"software-engineering","count":2},{"id":"vibe-coding","name":"Vibe Coding","count":2},{"id":"writing","name":"writing","count":2},{"id":"世界模型","name":"世界模型","count":2},{"id":"人性","name":"人性","count":2},{"id":"代数几何","name":"代数几何","count":2},{"id":"代码编辑器","name":"代码编辑器","count":2},{"id":"价值投资","name":"价值投资","count":2},{"id":"伯克希尔哈撒韦","name":"伯克希尔哈撒韦","count":2},{"id":"关税政策","name":"关税政策","count":2},{"id":"创业历程","name":"创业历程","count":2},{"id":"加速计算","name":"加速计算","count":2},{"id":"吉姆-西蒙斯","name":"吉姆·西蒙斯","count":2},{"id":"哲学","name":"哲学","count":2},{"id":"国际合作","name":"国际合作","count":2},{"id":"大型语言模型","name":"大型语言模型","count":2},{"id":"好奇心","name":"好奇心","count":2},{"id":"季后赛","name":"季后赛","count":2},{"id":"工程实践","name":"工程实践","count":2},{"id":"巴菲特","name":"巴菲特","count":2},{"id":"形式化证明","name":"形式化证明","count":2},{"id":"彼得-蒂尔","name":"彼得·蒂尔","count":2},{"id":"微软","name":"微软","count":2},{"id":"提示工程","name":"提示工程","count":2},{"id":"数学","name":"数学","count":2},{"id":"数学研究","name":"数学研究","count":2},{"id":"文班亚马","name":"文班亚马","count":2},{"id":"智能代理开发","name":"智能代理开发","count":2},{"id":"毕业演讲","name":"毕业演讲","count":2},{"id":"版本控制","name":"版本控制","count":2},{"id":"科学发现","name":"科学发现","count":2},{"id":"科技停滞","name":"科技停滞","count":2},{"id":"软件工程变革","name":"软件工程变革","count":2},{"id":"软件开发","name":"软件开发","count":2},{"id":"量子力学","name":"量子力学","count":2},{"id":"阿贝尔奖","name":"阿贝尔奖","count":2},{"id":"风险投资","name":"风险投资","count":2},{"id":"agent设计","name":"Agent设计","count":1},{"id":"ai-for-science","name":"AI for Science","count":1},{"id":"ai-编程","name":"AI 编程","count":1},{"id":"ai伦理","name":"AI伦理","count":1},{"id":"ai最佳实践","name":"AI最佳实践","count":1},{"id":"ai大模型","name":"AI大模型","count":1},{"id":"ai并购","name":"AI并购","count":1},{"id":"ai应用","name":"AI应用","count":1},{"id":"ai开发者大会","name":"AI开发者大会","count":1},{"id":"ai推理","name":"AI推理","count":1},{"id":"ai收购","name":"AI收购","count":1},{"id":"ai数学发现","name":"AI数学发现","count":1},{"id":"ai生物医药","name":"AI生物医药","count":1},{"id":"ai竞争","name":"AI竞争","count":1},{"id":"ai编程代理","name":"AI编程代理","count":1},{"id":"ai芯片","name":"AI芯片","count":1},{"id":"ai规模化","name":"AI规模化","count":1},{"id":"ai辅助学习","name":"AI辅助学习","count":1},{"id":"ai辅助开发","name":"AI辅助开发","count":1},{"id":"anysphere","name":"Anysphere","count":1},{"id":"biography","name":"biography","count":1},{"id":"blackwell架构","name":"Blackwell架构","count":1},{"id":"cag","name":"CAG","count":1},{"id":"career","name":"career","count":1},{"id":"ceo交接","name":"CEO交接","count":1},{"id":"chatgpt","name":"ChatGPT","count":1},{"id":"chris-bishop","name":"Chris Bishop","count":1},{"id":"claude-4","name":"Claude 4","count":1},{"id":"claude-sonnet-4-5","name":"Claude Sonnet 4.5","count":1},{"id":"coding-agent","name":"Coding Agent","count":1},{"id":"context-engineering","name":"Context Engineering","count":1},{"id":"cs50","name":"CS50","count":1},{"id":"cuda生态","name":"CUDA生态","count":1},{"id":"deep-search","name":"Deep Search","count":1},{"id":"deepmind","name":"DeepMind","count":1},{"id":"distributed-systems","name":"distributed-systems","count":1},{"id":"elon-musk","name":"Elon Musk","count":1},{"id":"engineering","name":"engineering","count":1},{"id":"fields奖","name":"Fields奖","count":1},{"id":"geoffrey-hinton","name":"Geoffrey Hinton","count":1},{"id":"gpt-4","name":"GPT-4","count":1},{"id":"gpt-4-5","name":"GPT-4.5","count":1},{"id":"gpu与深度学习","name":"GPU与深度学习","count":1},{"id":"gpu架构","name":"GPU架构","count":1},{"id":"gpu算力","name":"GPU算力","count":1},{"id":"grok-3","name":"Grok 3","count":1},{"id":"haskell","name":"haskell","count":1},{"id":"incident","name":"incident","count":1},{"id":"jim-simons","name":"Jim Simons","count":1},{"id":"julia","name":"Julia","count":1},{"id":"june-huh","name":"june-huh","count":1},{"id":"kaggle","name":"Kaggle","count":1},{"id":"kiro-spec模式","name":"Kiro SPEC模式","count":1},{"id":"labor","name":"labor","count":1},{"id":"lean","name":"Lean","count":1},{"id":"lisp","name":"Lisp","count":1},{"id":"llm工具","name":"LLM工具","count":1},{"id":"mcp","name":"MCP","count":1},{"id":"mit","name":"MIT","count":1},{"id":"mvp","name":"MVP","count":1},{"id":"naval-ravikant","name":"Naval Ravikant","count":1},{"id":"ncaa疯狂三月","name":"NCAA疯狂三月","count":1},{"id":"noema","name":"noema","count":1},{"id":"notes","name":"notes","count":1},{"id":"notion","name":"Notion","count":1},{"id":"nvidia-gtc-2025","name":"NVIDIA GTC 2025","count":1},{"id":"openai","name":"OpenAI","count":1},{"id":"optimus机器人","name":"Optimus机器人","count":1},{"id":"peter-lax","name":"Peter Lax","count":1},{"id":"pixar","name":"pixar","count":1},{"id":"prompt-engineering","name":"Prompt Engineering","count":1},{"id":"psychology","name":"psychology","count":1},{"id":"publishing","name":"publishing","count":1},{"id":"python","name":"Python","count":1},{"id":"reliability","name":"reliability","count":1},{"id":"report","name":"report","count":1},{"id":"research","name":"Research","count":1},{"id":"research-career","name":"research-career","count":1},{"id":"robotics","name":"robotics","count":1},{"id":"sanjay-ghemawat","name":"Sanjay Ghemawat","count":1},{"id":"satya-nadella","name":"Satya Nadella","count":1},{"id":"scaling-laws","name":"Scaling Laws","count":1},{"id":"security","name":"security","count":1},{"id":"skills","name":"skills","count":1},{"id":"slimv","name":"Slimv","count":1},{"id":"technical-report","name":"technical-report","count":1},{"id":"terence-tao","name":"terence-tao","count":1},{"id":"vim","name":"Vim","count":1},{"id":"vlime","name":"Vlime","count":1},{"id":"wolfram","name":"Wolfram","count":1},{"id":"xai","name":"xAI","count":1},{"id":"yann-lecun","name":"Yann LeCun","count":1},{"id":"yc","name":"YC","count":1},{"id":"上下文工程","name":"上下文工程","count":1},{"id":"个人反思","name":"个人反思","count":1},{"id":"个人电脑","name":"个人电脑","count":1},{"id":"中美关系","name":"中美关系","count":1},{"id":"乌克兰战争","name":"乌克兰战争","count":1},{"id":"乔姆斯基","name":"乔姆斯基","count":1},{"id":"交通基础设施","name":"交通基础设施","count":1},{"id":"产品市场契合","name":"产品市场契合","count":1},{"id":"人工智能未来","name":"人工智能未来","count":1},{"id":"人形机器人","name":"人形机器人","count":1},{"id":"人机协作","name":"人机协作","count":1},{"id":"人机博弈","name":"人机博弈","count":1},{"id":"人生哲学","name":"人生哲学","count":1},{"id":"人类未来","name":"人类未来","count":1},{"id":"人类福祉","name":"人类福祉","count":1},{"id":"代理开发","name":"代理开发","count":1},{"id":"代理式编程","name":"代理式编程","count":1},{"id":"代码生成","name":"代码生成","count":1},{"id":"任务管理","name":"任务管理","count":1},{"id":"仿真学习","name":"仿真学习","count":1},{"id":"企业采用","name":"企业采用","count":1},{"id":"众包协作","name":"众包协作","count":1},{"id":"优绩主义","name":"优绩主义","count":1},{"id":"伦理监管","name":"伦理监管","count":1},{"id":"伯克希尔-哈撒韦","name":"伯克希尔·哈撒韦","count":1},{"id":"俄乌战争","name":"俄乌战争","count":1},{"id":"保罗-狄拉克","name":"保罗·狄拉克","count":1},{"id":"保险业务","name":"保险业务","count":1},{"id":"信号处理","name":"信号处理","count":1},{"id":"信息动力学","name":"信息动力学","count":1},{"id":"信息物理学","name":"信息物理学","count":1},{"id":"全球贸易","name":"全球贸易","count":1},{"id":"公共美德","name":"公共美德","count":1},{"id":"具身智能","name":"具身智能","count":1},{"id":"写作","name":"写作","count":1},{"id":"写作工具","name":"写作工具","count":1},{"id":"冷战数学","name":"冷战数学","count":1},{"id":"创业转型","name":"创业转型","count":1},{"id":"创业领导力","name":"创业领导力","count":1},{"id":"创造力与年龄","name":"创造力与年龄","count":1},{"id":"制度经济学","name":"制度经济学","count":1},{"id":"加性数论","name":"加性数论","count":1},{"id":"包容性制度","name":"包容性制度","count":1},{"id":"医疗应用","name":"医疗应用","count":1},{"id":"半导体","name":"半导体","count":1},{"id":"协同设计","name":"协同设计","count":1},{"id":"单位距离问题","name":"单位距离问题","count":1},{"id":"南非种族隔离","name":"南非种族隔离","count":1},{"id":"卢卡-东契奇","name":"卢卡·东契奇","count":1},{"id":"压缩感知","name":"压缩感知","count":1},{"id":"变换编码","name":"变换编码","count":1},{"id":"可持续能源","name":"可持续能源","count":1},{"id":"可重复性危机","name":"可重复性危机","count":1},{"id":"史蒂夫-乔布斯","name":"史蒂夫·乔布斯","count":1},{"id":"史蒂夫-纳什","name":"史蒂夫·纳什","count":1},{"id":"同伦类型论","name":"同伦类型论","count":1},{"id":"哲学辩论","name":"哲学辩论","count":1},{"id":"国际政治","name":"国际政治","count":1},{"id":"在线教育","name":"在线教育","count":1},{"id":"地缘政治","name":"地缘政治","count":1},{"id":"埃尔德什猜想","name":"埃尔德什猜想","count":1},{"id":"埃罗尔-马斯克","name":"埃罗尔·马斯克","count":1},{"id":"埃隆-马斯克","name":"埃隆·马斯克","count":1},{"id":"基督教与科学","name":"基督教与科学","count":1},{"id":"基础主义","name":"基础主义","count":1},{"id":"基础模型","name":"基础模型","count":1},{"id":"复合工程","name":"复合工程","count":1},{"id":"外交谈判","name":"外交谈判","count":1},{"id":"多伦多大学","name":"多伦多大学","count":1},{"id":"多体物理","name":"多体物理","count":1},{"id":"多智能体协同","name":"多智能体协同","count":1},{"id":"大数假说","name":"大数假说","count":1},{"id":"太空探索","name":"太空探索","count":1},{"id":"孤子理论","name":"孤子理论","count":1},{"id":"学习路径","name":"学习路径","count":1},{"id":"学术写作","name":"学术写作","count":1},{"id":"学术建议","name":"学术建议","count":1},{"id":"学术生态","name":"学术生态","count":1},{"id":"学术研究方法","name":"学术研究方法","count":1},{"id":"学术自传","name":"学术自传","count":1},{"id":"宇宙学","name":"宇宙学","count":1},{"id":"官僚主义改革","name":"官僚主义改革","count":1},{"id":"定理证明","name":"定理证明","count":1},{"id":"家族故事","name":"家族故事","count":1},{"id":"对冲基金","name":"对冲基金","count":1},{"id":"对称性","name":"对称性","count":1},{"id":"对称性破缺","name":"对称性破缺","count":1},{"id":"小平邦彦","name":"小平邦彦","count":1},{"id":"少林寺","name":"少林寺","count":1},{"id":"就业与经济","name":"就业与经济","count":1},{"id":"就业影响","name":"就业影响","count":1},{"id":"工作尊严","name":"工作尊严","count":1},{"id":"工作流","name":"工作流","count":1},{"id":"工程精神","name":"工程精神","count":1},{"id":"幸福与成功","name":"幸福与成功","count":1},{"id":"库珀-弗拉格","name":"库珀·弗拉格","count":1},{"id":"开发环境","name":"开发环境","count":1},{"id":"开发者工具","name":"开发者工具","count":1},{"id":"开发者生产力","name":"开发者生产力","count":1},{"id":"开源模型","name":"开源模型","count":1},{"id":"形式主义","name":"形式主义","count":1},{"id":"彼得-拉克斯","name":"彼得·拉克斯","count":1},{"id":"微分几何","name":"微分几何","count":1},{"id":"心理学","name":"心理学","count":1},{"id":"思维链","name":"思维链","count":1},{"id":"慈善","name":"慈善","count":1},{"id":"慈善事业","name":"慈善事业","count":1},{"id":"慕尼黑安全会议","name":"慕尼黑安全会议","count":1},{"id":"成长型思维","name":"成长型思维","count":1},{"id":"技术监管","name":"技术监管","count":1},{"id":"技能退化","name":"技能退化","count":1},{"id":"投资哲学","name":"投资哲学","count":1},{"id":"推理时计算","name":"推理时计算","count":1},{"id":"提纲写作","name":"提纲写作","count":1},{"id":"摩根大通","name":"摩根大通","count":1},{"id":"播客","name":"播客","count":1},{"id":"政治哲学","name":"政治哲学","count":1},{"id":"数字革命","name":"数字革命","count":1},{"id":"数学反例","name":"数学反例","count":1},{"id":"数学史","name":"数学史","count":1},{"id":"数学基础","name":"数学基础","count":1},{"id":"数学实践","name":"数学实践","count":1},{"id":"数学家传记","name":"数学家传记","count":1},{"id":"数学工作流","name":"数学工作流","count":1},{"id":"数学形式化","name":"数学形式化","count":1},{"id":"数据中心","name":"数据中心","count":1},{"id":"数据效率","name":"数据效率","count":1},{"id":"数据科学","name":"数据科学","count":1},{"id":"文化多样性","name":"文化多样性","count":1},{"id":"文化转型","name":"文化转型","count":1},{"id":"文学编程","name":"文学编程","count":1},{"id":"斯多葛主义","name":"斯多葛主义","count":1},{"id":"无人机","name":"无人机","count":1},{"id":"日本数学","name":"日本数学","count":1},{"id":"日记写作","name":"日记写作","count":1},{"id":"智能代理","name":"智能代理","count":1},{"id":"智能体ai","name":"智能体AI","count":1},{"id":"智能分析","name":"智能分析","count":1},{"id":"更衣室训话","name":"更衣室训话","count":1},{"id":"未来战争","name":"未来战争","count":1},{"id":"未来趋势","name":"未来趋势","count":1},{"id":"机器人技术","name":"机器人技术","count":1},{"id":"杰米-戴蒙","name":"杰米·戴蒙","count":1},{"id":"柏拉图主义","name":"柏拉图主义","count":1},{"id":"查尔斯-巴克利","name":"查尔斯·巴克利","count":1},{"id":"查理-芒格","name":"查理·芒格","count":1},{"id":"标记语言","name":"标记语言","count":1},{"id":"格罗滕迪克","name":"格罗滕迪克","count":1},{"id":"概形","name":"概形","count":1},{"id":"模仿理论","name":"模仿理论","count":1},{"id":"模型应用","name":"模型应用","count":1},{"id":"模型驱动交易","name":"模型驱动交易","count":1},{"id":"模拟宇宙假说","name":"模拟宇宙假说","count":1},{"id":"欧洲创新","name":"欧洲创新","count":1},{"id":"欧洲民主","name":"欧洲民主","count":1},{"id":"欧盟资本市场","name":"欧盟资本市场","count":1},{"id":"欺骗性ai","name":"欺骗性AI","count":1},{"id":"比尔-盖茨","name":"比尔·盖茨","count":1},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","count":1},{"id":"沉思录","name":"沉思录","count":1},{"id":"沙奎尔-奥尼尔","name":"沙奎尔·奥尼尔","count":1},{"id":"波波维奇","name":"波波维奇","count":1},{"id":"泽连斯基","name":"泽连斯基","count":1},{"id":"活文档","name":"活文档","count":1},{"id":"测试时计算","name":"测试时计算","count":1},{"id":"涌现","name":"涌现","count":1},{"id":"深度阅读","name":"深度阅读","count":1},{"id":"湖人三连冠","name":"湖人三连冠","count":1},{"id":"炒作与现实","name":"炒作与现实","count":1},{"id":"热力学第二定律","name":"热力学第二定律","count":1},{"id":"特斯拉","name":"特斯拉","count":1},{"id":"特朗普","name":"特朗普","count":1},{"id":"狄拉克","name":"狄拉克","count":1},{"id":"狄拉克方程","name":"狄拉克方程","count":1},{"id":"理论物理","name":"理论物理","count":1},{"id":"生产力工具","name":"生产力工具","count":1},{"id":"生成式ai","name":"生成式AI","count":1},{"id":"相对论","name":"相对论","count":1},{"id":"知识管理","name":"知识管理","count":1},{"id":"研究方法","name":"研究方法","count":1},{"id":"研究生指南","name":"研究生指南","count":1},{"id":"硅谷","name":"硅谷","count":1},{"id":"社交媒体","name":"社交媒体","count":1},{"id":"社会公平","name":"社会公平","count":1},{"id":"福柯","name":"福柯","count":1},{"id":"离散几何","name":"离散几何","count":1},{"id":"私募股权","name":"私募股权","count":1},{"id":"科学哲学","name":"科学哲学","count":1},{"id":"科学研究","name":"科学研究","count":1},{"id":"科学论文","name":"科学论文","count":1},{"id":"科技史","name":"科技史","count":1},{"id":"科比-布莱恩特","name":"科比·布莱恩特","count":1},{"id":"移民政策","name":"移民政策","count":1},{"id":"稀疏表示","name":"稀疏表示","count":1},{"id":"空间技术","name":"空间技术","count":1},{"id":"竞技长青","name":"竞技长青","count":1},{"id":"笔记技巧","name":"笔记技巧","count":1},{"id":"第一性原理","name":"第一性原理","count":1},{"id":"算法与社会","name":"算法与社会","count":1},{"id":"篮球战术","name":"篮球战术","count":1},{"id":"篮球访谈","name":"篮球访谈","count":1},{"id":"类型论","name":"类型论","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"约束等距性","name":"约束等距性","count":1},{"id":"纯文本写作","name":"纯文本写作","count":1},{"id":"纯粹数学","name":"纯粹数学","count":1},{"id":"线性代数","name":"线性代数","count":1},{"id":"经典阅读","name":"经典阅读","count":1},{"id":"结对编程","name":"结对编程","count":1},{"id":"编程教学","name":"编程教学","count":1},{"id":"编程语言","name":"编程语言","count":1},{"id":"美国ai政策","name":"美国AI政策","count":1},{"id":"美国政府改革","name":"美国政府改革","count":1},{"id":"美国经济","name":"美国经济","count":1},{"id":"美欧关系","name":"美欧关系","count":1},{"id":"翻译","name":"翻译","count":1},{"id":"职业自律","name":"职业自律","count":1},{"id":"职业辩护","name":"职业辩护","count":1},{"id":"联邦政府改革","name":"联邦政府改革","count":1},{"id":"联邦财政","name":"联邦财政","count":1},{"id":"股东信","name":"股东信","count":1},{"id":"股东大会","name":"股东大会","count":1},{"id":"能源","name":"能源","count":1},{"id":"能量基模型","name":"能量基模型","count":1},{"id":"自动驾驶","name":"自动驾驶","count":1},{"id":"自我认知","name":"自我认知","count":1},{"id":"自由意志主义","name":"自由意志主义","count":1},{"id":"自由民主","name":"自由民主","count":1},{"id":"苹果","name":"苹果","count":1},{"id":"苹果公司","name":"苹果公司","count":1},{"id":"药物研发","name":"药物研发","count":1},{"id":"蓝鳍金枪鱼","name":"蓝鳍金枪鱼","count":1},{"id":"虚拟细胞","name":"虚拟细胞","count":1},{"id":"蛋白质折叠","name":"蛋白质折叠","count":1},{"id":"蜂巢思维","name":"蜂巢思维","count":1},{"id":"行为偏差","name":"行为偏差","count":1},{"id":"西部决赛","name":"西部决赛","count":1},{"id":"规模法则","name":"规模法则","count":1},{"id":"规范驱动开发","name":"规范驱动开发","count":1},{"id":"言论自由","name":"言论自由","count":1},{"id":"计算增强生成","name":"计算增强生成","count":1},{"id":"计算数学","name":"计算数学","count":1},{"id":"计算机教育","name":"计算机教育","count":1},{"id":"计算机证明","name":"计算机证明","count":1},{"id":"训练体系","name":"训练体系","count":1},{"id":"论文写作","name":"论文写作","count":1},{"id":"论文撰写","name":"论文撰写","count":1},{"id":"访谈实录","name":"访谈实录","count":1},{"id":"詹姆斯-西蒙斯","name":"詹姆斯·西蒙斯","count":1},{"id":"语言学","name":"语言学","count":1},{"id":"诺贝尔经济学奖","name":"诺贝尔经济学奖","count":1},{"id":"谷歌","name":"谷歌","count":1},{"id":"贝叶斯方法","name":"贝叶斯方法","count":1},{"id":"财政削减","name":"财政削减","count":1},{"id":"资本配置","name":"资本配置","count":1},{"id":"超级智能","name":"超级智能","count":1},{"id":"超级计算","name":"超级计算","count":1},{"id":"跨领域训练","name":"跨领域训练","count":1},{"id":"身体转型","name":"身体转型","count":1},{"id":"软件工程范式","name":"软件工程范式","count":1},{"id":"软件开发最佳实践","name":"软件开发最佳实践","count":1},{"id":"软件开发未来","name":"软件开发未来","count":1},{"id":"运动恢复","name":"运动恢复","count":1},{"id":"还原论","name":"还原论","count":1},{"id":"通用人工智能","name":"通用人工智能","count":1},{"id":"重整化","name":"重整化","count":1},{"id":"量化交易","name":"量化交易","count":1},{"id":"金融服务","name":"金融服务","count":1},{"id":"金融监管","name":"金融监管","count":1},{"id":"阅读方法","name":"阅读方法","count":1},{"id":"集合论","name":"集合论","count":1},{"id":"非虚构阅读","name":"非虚构阅读","count":1},{"id":"预训练","name":"预训练","count":1},{"id":"领导力","name":"领导力","count":1},{"id":"香农信息熵","name":"香农信息熵","count":1},{"id":"马刺","name":"马刺","count":1},{"id":"马库斯-奥勒留","name":"马库斯·奥勒留","count":1}],"moduleNavItems":[{"id":"essays","label":"Essays","href":"/?label=Essays","order":40,"icon":"BookOpen","count":62},{"id":"talks","label":"Talks","href":"/?label=Talks","order":42,"icon":"Video","count":165},{"id":"reports","label":"Reports","href":"/?label=Reports","order":41,"icon":"FileText","count":36},{"id":"notes","label":"Notes","href":"/?label=Notes","order":30,"icon":"Eye","count":78}],"children":"$L10"}]]}]]}]
+10:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"min-h-screen px-12 py-12 font-sans text-slate-900","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n            (function () {\n              var pathname = window.location.pathname || '';\n              var canonicalPrefix = '/hinbox';\n\n              if (/^/hinbox(?:/|$)/i.test(pathname) && pathname !== pathname.replace(/^/hinbox/i, canonicalPrefix)) {\n                var target = pathname.replace(/^/hinbox/i, canonicalPrefix) + window.location.search + window.location.hash;\n                window.location.replace(target);\n                return;\n              }\n            }());\n          "}}],["$","div",null,{"className":"mx-auto flex min-h-[60vh] max-w-2xl flex-col justify-center gap-4","children":[["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"页面未找到"}],["$","p",null,{"className":"text-base leading-7 text-slate-600","children":"如果你是从大写路径进入本站，系统会自动跳转到小写的规范地址。"}],["$","p",null,{"className":"text-base","children":["返回首页：",["$","a",null,{"className":"text-sky-600 underline underline-offset-4","href":"/hinbox/","children":"/hinbox/"}]]}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+11:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+12:T13cab,<h3>访谈概述</h3>
+<p>本次访谈发生在未来的时间点（文本背景设定在2026年5月左右），播客主持人 Lenny Rachitsky 邀请了 Every 的创始人兼 CEO Dan Shipper 作为嘉宾。一年前，Dan 曾准确预测了 Claude Code 在非技术工作中的爆发。在本次播客中，Dan 基于他团队“全员极客”的实验性工作模式，对未来一年内 AI 将如何改变我们的工作方式、工作形态以及哪些职业将成为最大赢家做出了极为大胆且反共识的预测。</p>
+<p><strong>核心观点包括：</strong></p>
+<ol>
+<li><strong>工作界面的重构：</strong> 几乎所有的知识工作都将迁移到类似 Codex 或 Claude Co-work 的本地 AI 桌面环境中完成，传统的 SaaS 软件将内嵌在这些 AI 智能体的环境里被调用。</li>
+<li><strong>看好 SaaS 行业：</strong> AI 不会消灭 SaaS，反而会因为“智能体”作为海量新用户的加入，让 SaaS 的使用量和价值飙升。</li>
+<li><strong>命令行（CLI）时代的终结：</strong> 尽管近期 CLI 交互很火，但更直观的 GUI 交互依然会是未来的主导。</li>
+<li><strong>AI 时代的职场赢家：</strong> 产品经理（PM）和全栈设计师将是最大的受益者。他们可以直接通过 AI 辅助编程完成产品交付，而不需要依赖庞大的工程团队。</li>
+<li><strong>AI 不会带来失业潮：</strong> 自动化是一个伪命题，AI 模型只是让“过去的专业技能”变得廉价（产生大量同质化的“Slop”），人类的价值在于如何利用这些新工具去创造新的专业知识。我们需要做的是“驾驭模型（Ride the models）”。</li>
+</ol>
+<hr>
+<h3>专用词语翻译列表</h3>
+<table>
+<thead>
+<tr>
+<th align="left">英文原词</th>
+<th align="left">中文翻译 / 解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Every</td>
+<td align="left">Every（Dan Shipper 创办的公司名）</td>
+</tr>
+<tr>
+<td align="left">Claude Code / Co-work</td>
+<td align="left">Claude Code / Co-work（Anthropic 推出的 AI 代码/工作平台）</td>
+</tr>
+<tr>
+<td align="left">Codex</td>
+<td align="left">Codex（OpenAI 推出的 AI 桌面应用/工作环境）</td>
+</tr>
+<tr>
+<td align="left">Agent</td>
+<td align="left">智能体 / AI 助手</td>
+</tr>
+<tr>
+<td align="left">CLI (Command Line Interface)</td>
+<td align="left">命令行界面</td>
+</tr>
+<tr>
+<td align="left">GUI (Graphical User Interface)</td>
+<td align="left">图形用户界面</td>
+</tr>
+<tr>
+<td align="left">SaaS</td>
+<td align="left">SaaS（软件即服务）</td>
+</tr>
+<tr>
+<td align="left">Slop</td>
+<td align="left">粗制滥造的内容 / 垃圾产出（特指 AI 廉价生成的同质化内容）</td>
+</tr>
+<tr>
+<td align="left">Vibe coding</td>
+<td align="left">直觉编程 / 氛围编程（指非专业人员依靠 AI 辅助和直觉进行编程）</td>
+</tr>
+<tr>
+<td align="left">Open Claw</td>
+<td align="left">Open Claw（文中提到的一种 AI 智能体/开源项目）</td>
+</tr>
+<tr>
+<td align="left">Forward deployed engineer</td>
+<td align="left">前沿部署工程师 / 驻场工程师（负责在企业内部署和维护智能体的人员）</td>
+</tr>
+<tr>
+<td align="left">Pull request (PR)</td>
+<td align="left">拉取请求（代码合并请求）</td>
+</tr>
+<tr>
+<td align="left">AI pilled</td>
+<td align="left">深度 AI 信仰者 / 重度 AI 用户</td>
+</tr>
+<tr>
+<td align="left">Ride the models</td>
+<td align="left">驾驭模型（指积极使用并紧跟最新 AI 模型的发展潮流）</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<figure class="video-embed video-embed--youtube">
+  <div class="video-embed__frame">
+    <iframe src="https://www.youtube.com/embed/4D3hDmGhFhA" title="YouTube video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+  <figcaption class="video-embed__caption">YouTube video</figcaption>
+</figure>
+<h3>播客正文翻译</h3>
+<p><strong>[开场预告]</strong></p>
+<p><strong>Lenny Rachitsky：</strong> 上次你上这档播客的时候，抛出了一个极其犀利的观点：大家都低估了 Claude Code 的潜力。事实证明，你准得不可思议。这期节目的主题，就是我们要接着聊聊你对未来还有哪些预测。</p>
+<p><strong>Dan Shipper：</strong> AI 带来的“职场末日”其实是个伪命题。我极其看好产品经理（PM）和全栈设计师。</p>
+<p><strong>Lenny Rachitsky：</strong> 你们公司在过去一年里人数翻了一倍，这对于一家如此前沿的 AI 公司来说，完全出乎了大家的意料。</p>
+<p><strong>Dan Shipper：</strong> 我既是重度 AI 信仰者，同时又极度看好人类的价值。所谓的“全自动化”是个谎言。每一个智能体背后都需要人类。我们拥有了这么多的自动化工具和 AI，但我个人的工作时间反而更长了。</p>
+<p><strong>Lenny Rachitsky：</strong> 创造力。在人们不断炮制和发布各种“AI 垃圾（slop）”的当下，能够脱颖而出显得越来越有价值。</p>
+<p><strong>Dan Shipper：</strong> 模型通常做的事情，就是让过去人类的专业技能变得廉价。因此，这些技能被商品化了，不再具有稀缺价值。而人类要做的是深入其中，说：“没错，我们手里现在掌握了所有这些被固化的过往人类能力，我该如何利用它们去创造新鲜有趣的东西？”</p>
+<p><strong>Lenny Rachitsky：</strong> 关于未来的工作方式会发生怎样的改变，你有什么预测？</p>
+<p><strong>Dan Shipper：</strong> 工作方式会产生两个主要的分化。第一，每个人都会有至少一个可以交流、可以把工作外包给它的智能体。第二，你所做的大部分工作，实际上都会在你的电脑上发生，但会在类似 Codex 或 Claude Co-work 这样的环境里进行。</p>
+<p><strong>Lenny Rachitsky：</strong> 你的预测是，SaaS 工具将会在 Codex 或 Claude Code 内部运行。</p>
+<p><strong>Dan Shipper：</strong> 我觉得“SaaS 末日论”很蠢。如果是我，我现在就会买入 SaaS 股票。智能体的作用是成倍增加 SaaS 的用户数量，而不是消灭它。</p>
+<p><strong>Dan Shipper：</strong> 很多人正在转向 CLI（命令行界面），试图在终端里工作。我们正处于 CLI 时代的速通模式，它存在的时候确实很棒，但我认为 CLI 的时代要结束了。</p>
+<p><strong>[播客正片开始]</strong></p>
+<p><strong>Lenny Rachitsky：</strong> 今天我的嘉宾是 Every 的创始人兼 CEO Dan Shipper。Dan 和他的团队正在打造的，或许是目前最前沿的 AI 创业公司。正因如此，随着 AI 在我们日常工作中占据越来越大的比重，他们已经真实地生活在未来工作方式的雏形之中了。在他们公司，包括所有非技术人员在内的每个人，都在使用 Codex、Co-work 和 Claude Code 来完成他们的大部分工作。</p>
+<p>正是因为这样，早在大众察觉之前，Dan 就预见到了 Claude Code 以及现在的 Cohere 的崛起。一年前他上次来播客时，就成功预测了这一点。</p>
+<p>所以我请 Dan 再次来到播客，分享他目前对于大多数人未来一年的工作方式将发生何种改变的最大预测。我们探讨了今年年底大多数公司的工作面貌、我们所做工作的形态将如何改变，以及在这个即将到来的未来中谁会表现得最好，或者说你现在需要致力于什么工作。剧透一下：产品经理和设计师将会非常吃香。</p>
+<p>Dan 做了很多大胆的预测和出人意料的反共识观点。整整一年后的今天，我们将重新回顾这段对话，看看他到底说中了多少。</p>
+<p>在开始之前，别忘了访问 Lenny's Product Hunt 网站，对于 Lenny 时事通讯的订阅者，可以免费获取一整年世界上最热门、制作最精良的 AI 产品使用权。接下来，把时间交给 Dan Shipper。</p>
+<p>Dan，非常感谢你能来，欢迎再次做客播客。</p>
+<p><strong>Dan Shipper：</strong> 感谢邀请，很高兴再次和你交流。</p>
+<p><strong>Lenny Rachitsky：</strong> 上次你来的时候，随口抛出了一个大胆的观点，说大家忽视了 Claude Code 的潜力，尤其是它在非工程类工作中的应用——比如仅仅用来修改文件、整理硬盘等大家以前没想过的杂活。一年前，还没人讨论这些。</p>
+<p>你在这一点上预判得准得惊人。过去一年发生的事情太不可思议了。他们基于将 Claude Code 用于非技术工作的具体理念打造了 Cohere。现在 Codex 也在切入这个领域。我想你肯定注意到了，他们都在大力推进将这些本质上的“编程智能体”用于非技术场景。</p>
+<p>感觉这也是 Anthropic 过去一年取得成功的关键部分，也就是探索非技术人员如何使用这些工具。</p>
+<p>你在这些方面真的很有远见。我甚至顺着这个思路写了一篇 Newsletter 简报。我觉得这太有趣了，值得深挖。我问大家：“你们是如何用 Claude Code 做非工程类工作的？”然后我收集到了海量的案例，那成了我阅读量第二高的文章。</p>
+<p>显然，你对行业的发展方向有着独特的洞察力。所以这期节目的前提是，我们将逐一探讨你对未来还会发生什么的预测，以及这对开发产品的人来说意味着什么改变。</p>
+<p>我想，如果能先让大家简单了解一下你和你的团队是如何运作的，可能会很有帮助，这能解释你是如何获得这种独特视角的。给大家讲讲你们平时是怎么工作的吧。</p>
+<p><strong>Dan Shipper：</strong> 谢谢你。非常感谢你的介绍。关于预测未来，或者说我们在 Every 思考预测未来的方式是：你不能仅仅是“未卜先知”地凭空猜测。</p>
+<p>相反，你要做的是置身于未来之中。在 Every，每个人都是 AI 的早期采用者。我们现在有将近 30 个人了，上次采访时我们只有 15 人，所以过去一年我们规模翻了一倍。我们都是早期采用者，团队里有工程师、设计师、作家、编辑、销售和客服人员。</p>
+<p>每个人身上都带着那么一点“极客”特质，就是那种喜欢探索、喜欢试验、保持强烈好奇心并且全心全意投入 AI 的状态。</p>
+<p>我认为这创造了一个属于未来的小生态，我们一起在这个生态里生活，所以能比别人走得稍微靠前一点。在其他公司，员工往往是混合型的：有早期采用者，有处于中间地带的人，还有极力抗拒 AI 的人。</p>
+<p>另一件很酷的事情是，由于我们经常负责评估模型并扮演 AI 品味制定者的角色，我们能够在产品发布前就拿到内测资格。所以我们可以进行 Alpha 和 Beta 测试，甚至稍微影响一下产品的发展方向，这非常棒。</p>
+<p>因此，当我思考预测未来时，其实只要你创造了这样一个环境，预测就变成了一种单纯的“观察和记录”。</p>
+<p>另外很重要的一点是把它写下来。我认为，把你观察到的趋势和对未来的设想用文字表达出来，会以一种非常真实的方式让它变成现实，无论是对你和你的团队，还是对网上阅读它的每一个人。</p>
+<p>关于 Claude Code，这是一个非常自然的过程。刚出来时我们就试用了它，这也是我们的本职工作，我们总是第一时间尝试各家模型公司推出的新东西。</p>
+<p>那时候它可能还有点早期。但到了大概 Sonnet 3.5 或 Sonnet 3.7 的时候，我们为了评估效果进行了测试。当时我们的反应是：“我的天，这太疯狂了。他们把代码编辑器给去掉了。”从那时起，我们就开始向一个新世界转变：不再有人盯着纯代码看，每个人都在终端里用英语通过 Claude Code 跟电脑对话。现在我们在内部运行着大约六个软件产品。当时大概只有两三个。</p>
+<p>所以，我能够看到“哦，这种趋势正在发生。”</p>
+<p>而且由于我的工作性质本来就是要去折腾和尝试新东西，我就在想：“不知道我能不能用它来帮我写作？我该怎么做呢？”然后事情就开始展开了，你会觉得：“好的，它现在虽然还不完美，但显然对我已经有用了。”我们内部常说的一个词叫“触手可及测试（the reach test）”，意思就是：你早上醒来时，会不会自然而然地想去用它？</p>
+<p><strong>Lenny Rachitsky：</strong> 我很喜欢你这种状态：你总是使用最新的工具，而且正如你所说，这可能是一种被低估的技能——你很善于自我察觉，能敏锐地发现什么是奇怪的、新的、不同的、有趣的东西。这是一个很酷的组合，部分原因也是因为你必须把它写下来。所以我觉得，对于一个能感知事物发展方向的人来说，这是个完美的配方。</p>
+<p><em>（赞助商播报部分：WorkOS）</em>
+本期节目由我们本季度的首席赞助商 WorkOS 赞助。OpenAI、Anthropic、Cursor、Vercel、Replit、Sierra、Clay 以及数百家其他成功公司有什么共同点？他们都由 WorkOS 提供支持。如果你正在为企业级客户构建产品，你一定经历过集成单点登录、SCIM、RBAC、审计日志以及其他大型企业所需功能的痛苦。WorkOS 将这些交易拦路虎转化为可直接接入的 API，它是一个专为 B2B SaaS 打造的现代开发者平台。基本上我投资的每一家试图向高端市场扩展的初创公司，最终都与 WorkOS 合作了。无论你是试图拿下第一个企业客户的种子期初创公司，还是正在全球扩张的独角兽，WorkOS 都是实现企业级就绪并扫除增长障碍的最快路径。它本质上就是企业级功能领域的 Stripe。访问 workos.com 开始使用，或者直接去他们的 Slack 频道，那里有真实的工程师随时准备回答你的问题。访问 workos.com，让你的应用立即具备企业级能力。
+<em>（赞助商播报结束）</em></p>
+<p><strong>Lenny Rachitsky：</strong> 好的，我打算把接下来的对话结构分为三个主要预测板块。第一板块：未来几年我们的工作方式将如何改变；第二板块：我们所做工作的形态将如何改变；第三板块：在这个未来中谁会最成功，以及你现在应该做些什么来获得成功？</p>
+<p><strong>Dan Shipper：</strong> Lenny，我唯一的请求是，一年后我们再录一期节目，然后你来给这些预测打分。我想被打分。</p>
+<p><strong>Lenny Rachitsky：</strong> 没问题，一年之约。所以这些是你对一年后景象的预测，还是说这只是正在浮现的未来趋势？</p>
+<p><strong>Dan Shipper：</strong> 我可能不会给出一个确切的时间表。我认为我要谈论的大部分内容在一年内都会变得非常明显，但完全实现可能需要更长时间。不过，至少在一年后，这些预测看起来不应该是明显错误的，它应该让人感觉确实在朝那个方向发展。</p>
+<p><strong>Lenny Rachitsky：</strong> 好的，2027年5月，我们将回顾你的预测。成交。太棒了，让我们开始吧。对于未来一年我们工作方式的改变，你有什么预测？</p>
+<h3>未来一年工作方式的改变</h3>
+<p><strong>Dan Shipper：</strong> 这是我最喜欢的问题之一。因为如果你去看目前的基准测试（Benchmarks），你只会得出一个结论：“AI 马上就要抢走我们所有的工作了。”</p>
+<p>SWE-bench 等评测有一个很酷的标准，它衡量最新模型自主完成任务的时间。比如最近大家都在恐慌的那个大型 Anthropic 模型 Mythos Preview，它能够以 50% 的准确率自主完成长达 17 小时的任务。这确实非常疯狂，而且模型的发展呈指数级上升，这也是真实的。</p>
+<p>但我的经验和直觉是，一年后当我们回首时会发现：<strong>人类其实有更多的工作要做。</strong> 即便模型完成工作的能力越来越强，人类反而有更多的事情要处理，这其中存在一个非常有趣的悖论。</p>
+<p>我对未来一年工作方式改变的最大预测是，它将主要在智能体（Agents）的使用上产生两种分化。</p>
+<p><strong>第一，大家会回到我们五年前想象的那种模式：</strong> 公司里的每个人都会有至少一个能跟他们对话、能被委派工作的智能体。我们稍后会讨论它的具体形态，但它本质上就像 Open Claw 一样。</p>
+<p><strong>第二，你所做的大部分工作，实际上将发生在你的电脑上，在一个类似于 Codex 或 Claude Co-work 的环境中。</strong> 这个环境会成为你完成所有工作（无论是收发邮件、创建文档等）的“操作系统”。这将成为一块非常明确的竞争高地。</p>
+<p>我想按顺序讲讲这两点。</p>
+<p><strong>Lenny Rachitsky：</strong> 所以第一点是，你会有可以在 Slack 或其他任何地方向其委派任务的智能体？</p>
+<p><strong>Dan Shipper：</strong> 没错。关于第一点，很有意思的是它未来的架构并不明确。是每个人都拥有一个私人智能体？还是每个团队拥有一个？是全公司只有一个统管的智能体？还是说智能体会变得专业化，形成一个平行的“影子组织架构”？</p>
+<p>当 Open Claw 刚问世时，我们 Every 内部所有人都用上了它，我当时非常坚信未来就是“每个人都有自己的私人智能体”。这种平行组织架构的概念非常吸引人。在那种世界里，智能体就像是你个人的小投影，这真的很酷。你读过《黑暗物质（The Golden Compass）》吗？就像你的肩膀上停着一只你的守护神（Daemon），它是你灵魂的一部分。我真的觉得事情本来是朝那个方向发展的，所以我以前非常痴迷于私人智能体。</p>
+<p><strong>但我现在完全倒戈了。</strong></p>
+<p>我现在真的认为，当前的模式将会是“超级智能体（Super Agent）”——即整个公司共用一个智能体。你已经开始在一些公司看到这种现象了。比如 Shopify 出了名地有一个，Ramp 现在也有一个。我觉得这里面有一些非常有趣的原因。虽然我认为私人智能体最终还是会到来。</p>
+<p>但我们发现，当 Open Claw 的热潮消退后，大家一开始都说：“我要装一个，太酷了。”然后大家发现这玩意儿太费劲了。它经常崩溃，我得不停地去鼓捣它，我得通过 SSH 连进服务器去修复乱七八糟的设置。大多数人为了完成工作，就是不想花这个时间，或者没能力花这个时间。</p>
+<p>驱动这一现象的根本原因在于：<strong>无论是 Open Claw 还是任何其他框架，目前的 AI 智能体要想真正好用，它非常需要一个关心它的人类。</strong> 它需要与某个特定的、能随时盯着它并确保它在做正确事情、对大家有用的“人”建立联系。一旦你切断了这种联系——比如一旦有人说：“啊，我不想再去维护这个蠢毙了的 Open Claw 了”——那么这个智能体立刻就变得没那么有用了。</p>
+<p>这就是为什么我认为趋势开始转向“每个公司一个智能体”的模式。因为目前理想的状况是：你设立一个“前沿部署工程师（Forward Deployed Engineer）”或具有类似技能的人，专门负责确保这个智能体对全公司都能正常运作。然后也许你再往下设立一些小型的团队智能体。</p>
+<p>我认为随着模型变得更加独立，这种模式会向下延伸，我们会更可能拥有不需要我们去捣鼓内部设置的私人智能体。但在我们和许多其他公司（包括模型公司自己）中行之有效的模式是，从异步智能体的角度来看，这更像是一个自上而下的过程：顶层有一个智能体，它可能什么都能做，但通常它负责你们决定的全公司都需要的那类特定工作，比如数据查询请求。</p>
+<p>它会从顶层开始，然后逐渐渗透到各个部门，随着大家越来越习惯这些使用场景，智能体会变得更加专业化，而且不那么需要人们频繁地去“修修补补”了。其核心机制就是：智能体需要关心它们的人。</p>
+<p><strong>Lenny Rachitsky：</strong> 这一点太有趣了。你提到你需要去“像园丁一样照料（garden）”你的智能体，因为你必须不断为它添加上下文，它会崩溃，就像你说的，一旦它变得太麻烦，你就会说：“算了，我还是用回 Codex 或 Claude 吧。”</p>
+<p><strong>Dan Shipper：</strong> 完全正确。</p>
+<p><strong>Lenny Rachitsky：</strong> 这是个很棒的切入点。所以你的预测是，公司将会拥有一个大家都能通过 Slack（最有可能的途径）交流的“超级智能体”，它可以去执行任务和回答问题。就像你提到的 Shopify 的 River，还有 Ramp 的那个。</p>
+<p><strong>Dan Shipper：</strong> 对，这是第一个预测。我们会从公司顶层更通用、使用人数更多的智能体开始，随着大家习惯并智能体变得更加稳定，它们会逐渐演化出更细分的专属智能体。</p>
+<p><strong>Lenny Rachitsky：</strong> 预测它们主要会在 Slack 里面运作吗？为了工作？</p>
+<p><strong>Dan Shipper：</strong> 是的，这很合理。虽然人们很喜欢 Open Claw 上的“蓝气球”提示，如果能在 iPhone 上使用的话。但我认为人们心理上有一种微妙的需求，他们真的希望把个人生活和工作用的智能体分开。</p>
+<p>我们的首席运营官 Brandon Gall 把处理个人事务称为“电脑跑腿（Computer Errands）”。比如“帮我订点杂货”之类的，我觉得个人智能体在这个领域会有巨大的应用空间。但我们目前主要关注的是工作场景。所以我认为在工作端，主要还是会在 Slack 发生。</p>
+<h3>Codex 和 Claude Code 将成为新的工作操作系统</h3>
+<p><strong>Lenny Rachitsky：</strong> 太棒了。我们来谈谈你提到的第二个工作界面吧？</p>
+<p><strong>Dan Shipper：</strong> 当然！我太期待聊这个了，我觉得这是最酷的一件事。</p>
+<p>基本上，发生的事情是：Anthropic 在某个节点意识到，如果你在你的电脑上安装了一个智能体（Claude Code），并且它直接在你的电脑上运行，那么它就拥有了你拥有的一切访问权限。它使用终端，所以它本质上拥有超级访问权限。不仅如此，这些智能体真的非常懂如何使用终端，因为网上关于这方面的内容太多了。</p>
+<p>这创造了一种极其强大的编程范式。Anthropic 真的是第一批做到这一点的。在很长一段时间里，我认为 OpenAI 在这方面非常落后，但最近在我看来，他们已经反超了。这非常有趣。</p>
+<p>当人们仍然认为编程智能体或者编程模型主要只是“结对程序员（Pair Programmers）”的时候，Anthropic 是最早站出来说“不，不仅如此”并且成功实现的公司之一。在他们之前也有人尝试，比如 Devin 拥有大型云环境，OpenAI 也尝试过，但真正的普及似乎是在把它直接放在你的本地电脑上之后才发生的。</p>
+<p>他们弄明白了这一点。然后我想，他们和他们的社区一起发现，一旦你的电脑上有了一个能构建任何东西的编程智能体，它实际上也能胜任你想要做的任何类型的工作。</p>
+<p>人们开始通过“黑客手段”改造 Claude Code，让它去完成他们所有的日常工作。接着 Anthropic 开发了 Co-work——算是给 Claude Code 套上了一个更漂亮的外壳，但底层逻辑是一样的。</p>
+<p>我认为 OpenAI 下了几步不同的棋。他们早期版本的 Codex 非常技术向，非常聪明，但有点“自闭症”的感觉。它听不懂你的言外之意，只能绝对字面地理解你的指令。</p>
+<p>大概三四个月前，大概在他们发布 5.3 模型的时候，他们开始转变方向：“哦不，我们懂了。这个模型速度很快，它非常适合用来处理通用的知识型工作任务。”然后他们推出了 Codex 的桌面版应用。如果你看看 Anthropic 从 Claude Code 演进到 Co-work 所学到的所有经验，你其实能在 Anthropic 桌面版 UI 的标签页里看到这些痕迹。我认为 OpenAI 只是觉得：“我们看到这东西要往哪走了，咱们直接跳到那一步吧。”</p>
+<p>所以，我认为 Codex 现在在这个赛道上处于领跑地位。这两家公司会有不同的定位，这是场赛马，但我现在把 Codex 当作我的日常主力工具。我基本上所有时间都泡在里面。我偶尔会切换回 Claude，但我认为 OpenAI 找对了范式。</p>
+<p>并且我很清楚，无论目前谁领先（以后可能还会变），所有的工作都将在这些界面中完成。比如，当我写文档时，Codex 应用内自带了一个浏览器。我只需要进入我的 Codex 线程（我每个项目都有一个对应的线程），打开内置浏览器，进入文档页面。我通常用 Proof 写作，那是我自己做的一个在线 Markdown 编辑器。然后我就让 Codex 运行着，看着我在 Proof 里操作。</p>
+<p>Codex 能看到我在做什么，我也能看到 Codex 在做什么。所有东西都在一个地方，这正是让 Claude Code 早期如此好用的那个核心优势的延伸。我基本上觉得我有了一个平行的工作伙伴，它不仅能在文档里回应和写作，还能去查资料。它可以使用我的电脑，基本上能做我在电脑上能做的任何事。</p>
+<p>这具有极其强大的威力。</p>
+<p>我用它做所有事情。比如，我已经连续 10 天保持“收件箱清零（Inbox Zero）”了，了解我的人都知道这有多疯狂，我以前从来做不到。这是因为我只需要让 Codex 配合 Cora（我们的邮件智能体）收集我所有的邮件。然后它会渲染出一个小页面（我在 Anthropic 的活动上给你看过这个），我只需要对着页面开始“独白”，对着每一封邮件说话。</p>
+<p>比如：“去查一下这个。”“哦，这是一个律师的提问。你能去收集一下过去四年里的所有相关文件，然后整理成一份报告发过去吗？”它就直接去做了。所以所有那些我以前会拖延的事情，我现在都不拖延了。</p>
+<p>很长一段时间以来，我们一直认为，体验 AI 的最佳方式是把 AI 放进浏览器里。但我认为现在正在发生的是截然相反的情况，而且它以一种我始料未及的方式变得非常有价值：<strong>把你一直在电脑上使用的 AI 智能体，直接内置一个浏览器，这样它就能看到你正在做的所有事情。</strong></p>
+<p>这是一个神奇的组合，目前还非常罕见（你现在甚至在 Claude Code 里也做不到，因为他们不允许你在 Claude Code 内部浏览外部网站）。但我认为一年后这会变得极其普遍。</p>
+<p><strong>Lenny Rachitsky：</strong> 这听起来比表面上更具颠覆性。我听明白的是：你的预测不是将 AI 植入到各种 SaaS 工具中，而是<strong>SaaS 工具将会在 Codex 或 Claude Code 内部运行。</strong></p>
+<p><strong>Dan Shipper：</strong> 这就是这件事产生的一个极其重要的二级效应。假设我在智能体里使用 Proof，或者 PostHog 等任何网站。智能体可以访问这个网站，所以它拥有我拥有的所有权限。它还能访问我的整个电脑。当我在那个网站上运行智能体时，<strong>我消耗的是我自己的 Token，而不是软件供应商的 Token，也不是这个应用本身的 Token。</strong></p>
+<p>这让 SaaS 回归了它应有的位置：是的，你想让它对智能体友好。现在大家都开始做 CLI 了。你想让 HTML 变得非常易用，你想确保 CLI 里发生的任何操作都能立刻在用户界面上显示出来。这里有很多需要处理的问题。但是一旦你做到了这些，你其实就不需要再去思考如何构建一个主要由用户使用的 AI 界面了。也就是说，你不需要在你的产品里原生内置一个智能体。</p>
+<p>这是一个巨大的改变。比如，任何人使用 Proof，我都不需要为他们的 Token 买单，因为用户会把自己的 AI 带到 Proof 里。这改变了你作为一家 SaaS 公司要构建的东西：你现在需要同时为人类和智能体设计产品。这也改变了你的利润率，因为你再也不用担心为用户的 Token 买单了。</p>
+<p><strong>Lenny Rachitsky：</strong> 这绝对是个大事件。你描述的是，越来越多我们从事的专业工作，将仅仅发生在 Codex 或 Claude Code 中。那么 Cursor 在这其中处于什么位置？那里有潜力吗？</p>
+<p><strong>Dan Shipper：</strong> 这是个好问题。我认为 Cursor 也看到了同样的趋势。在某些方面，他们做了同样的事情，甚至做得更好。比如我认为 Cursor 的云端实现方式比 OpenAI 或 Anthropic 的都更先进。但 Cursor 至少到目前为止，非常明确地选择了一条赛道：他们非常明确地选择只服务于程序员。</p>
+<p>这可能会限制他们在这个通用领域的上限。尽管“程序员”的定义正在扩大，足以给他们提供一个巨大的市场，但我不知道他们是否会跃升到“用这个来做个幻灯片”的层面。</p>
+<p>但有一点非常清楚：每家模型公司都开始意识到，要发挥模型的最大效用，拥有一个良好的“外壳/框架（Harness）”有多么重要。所有的平台都在向这样一个世界演进：你在 OpenAI 或 Anthropic 平台上调用模型时，不再仅仅是简单的“提示词-回复”。它们实际上是在云端的一台电脑上运行这个模型，然后把结果交给你。他们知道必须提供这种环境才能获得最好的结果。</p>
+<p>所以你看到了 Anthropic 有云托管的智能体。OpenAI 目前还没有公开的回应，但我预计那很快会发生。而现在 Cursor 基本上被 SpaceX 收购了（虽然不是完全收购，但也差不多了）。所以我认为人们开始意识到：“我不能只做模型那一层，我必须在它之上搭建一个框架。”而我认为这个框架的终极形态就是：“我能用来做任何类型的知识型工作。”</p>
+<p>Cursor 面临的一个艰难决定将是：是否要突破仅限程序员的定位。</p>
+<h3>这将如何改变 SaaS 公司应该构建的产品</h3>
+<p><strong>Lenny Rachitsky：</strong> 那么对于构建非 OpenAI 或 Anthropic 产品的公司来说，如果这个预测成真，随着时间的推移，人们将会在这两家的智能体内部使用你们的产品。如果你是这些公司的一员，你会为了迎接这个未来做些什么准备？</p>
+<p><strong>Dan Shipper：</strong> 我会全面为之做准备。举个例子，传统的生产力软件（无论是 Slack、Word 文档还是 PPT），主要都是设计给<strong>人</strong>使用的。现在大家都在做 CLI，所以这是设计给智能体脱离人类<strong>独立</strong>使用的。</p>
+<p>我认为我们正在进入一个全新的范式：<strong>人类和智能体将同时在同一份工作上协作。</strong> 我们都在做事情，我需要清楚智能体在干什么，智能体也需要清楚我在干什么。我们必须以一种无缝的方式来回互动。</p>
+<p>为这种场景制作的软件将会完全不同。比如，我的 Proof 省去了很多功能。我不需要做像 Word 那样的格式化工具栏、分页符或者插入表格的功能，因为智能体会直接帮我做好。我不需要操心这些，它能处理所有排版。所以你可以把产品做得比传统软件简单、轻量得多。</p>
+<p>另外，你需要开始提供各种全新的功能交互，因为智能体与软件交互的方式截然不同。比如，智能体可以同时做很多事，它们能在一瞬间对你的文档、PPT 或代码库进行成百上千次修改。你向用户展示这些修改的方式，与展示另一个人类同时协作的方式是完全不同的。你需要“审批”机制，你需要一个类似收件箱的东西来总结“这是即将发生或已经发生的所有修改”。你需要详细的日志，以及一键快速回滚的能力。</p>
+<p>因为智能体与软件互动的方式极其特别，底层的基础设施要求也不同。智能体可以在 3 秒内发起 10 亿次请求，你打算怎么应对？这正是 GitHub 现在遇到麻烦的原因，使用 GitHub 的用户数量呈指数级飙升，但实际上都是人们的智能体在跑请求。</p>
+<p>所以，我认为这是一个全新的世界，你现在只看到了它冰山一角。但它有很多酷炫的地方。比如在 Proof 和我们其他一些产品里，当有人遇到问题时，他们不会给客服发邮件。他们的智能体会直接发送一份漏洞报告（Bug Report）。</p>
+<p>智能体写的 Bug 报告比人类写的要好得多。里面包含了：“这是我具体的操作，这是精确的复现步骤，由于 Proof 是开源的，这是我认为代码库中出问题的地方。”然后我们收到这些，它变成一个 GitHub Issue，我们就可以直接派一个智能体去修复它。虽然不能解决所有问题，但这比以前好太多了。</p>
+<p>你可以看到这种极其快速的闭环反馈正在闪烁光芒：我遇到了一个小摩擦、想要一个小功能或发现了一个 Bug，我的智能体直接跑去和该公司的智能体对话，然后公司的智能体直接把问题修复了。这简直酷毙了。</p>
+<p><strong>Lenny Rachitsky：</strong> 所以，现在很多人都在转向 CLI 并试图在终端里工作。你的预测中有一部分是，人们会从这种方式中转变回来，回到与智能体在图形用户界面（GUI）中并肩工作的 UX 模式中吗？</p>
+<p><strong>Dan Shipper：</strong> 是的，CLI 的时代结束了。我们相当于“速通”了 CLI 时代。它存在的时候挺美好的，但显然它快结束了。并不是说 CLI 会完全消失，显然它过去三五十年都在，以后也还会存在。在 Claude Code 大火的时候，有人觉得它成功的秘诀在于它是一个 CLI。我不这么认为。</p>
+<p>当你进入一个真正的 GUI 后，你会意识到，我们发明 GUI 是有原因的。在 GUI 里就是更舒服。而且你可以在 GUI 中获得所有相同的好处，尤其是在非程序员的工作中。我敢估计，在 Every 内部，大多数技术人员都已经不再将 CLI 作为他们的主要工作界面了。很多程序员偶尔还会切过去用一下，但绝大多数时候，他们在用 Codex、Claude Code 或 Cursor。</p>
+<p><strong>Lenny Rachitsky：</strong> 太棒了。我想把这一点说清楚。回到这个预测的宏观视角，你预见了两种工作模式。一种是公司内部的超级智能体，你最可能通过 Slack 与它交流，它可以去执行任务和回答问题。另一种是在你的电脑上运行 Codex 或 Claude Code，通常你在电脑上完成的所有工作，现在都将存在于 Codex 或 Claude Code（或者某个我们还不知道的第三方平台）之中，你会使用这些工具内部的浏览器来运行应用。</p>
+<p><strong>Dan Shipper：</strong> 是的，这听起来可能没那么震撼，但这确实是工作方式的一个巨大改变。我们目前并没有在 Slack 中频繁交流的 AI，目前也并没有主要在 Codex 或 Claude Code 中工作。所以这实际上是一个相当大的转变。</p>
+<h3>两个智能体比一个强</h3>
+<p><strong>Lenny Rachitsky：</strong> 顺着这个思路，在我们进入下一个预测之前，还有什么要补充的吗？</p>
+<p><strong>Dan Shipper：</strong> 有几点。我绝对不是“单一智能体至上论者”。我真的认为我们会使用很多不同的智能体，这对我来说很明显。而且我坚信“两个智能体比一个强”。</p>
+<p><strong>Lenny Rachitsky：</strong> 能举个好例子吗？</p>
+<p><strong>Dan Shipper：</strong> 当我让 Codex 与另一个智能体互动时，它可以比我自己手动打字提供多得多的关于我以及我的需求的上下文。它可以在后台进行反复的沟通，如果让我直接向一个智能体表达这些，会花很长时间。当你假设你的用户都在使用 Codex 或 Co-work 作为他们访问你应用的基础方式时，你会获得这种巨大的加速效应。</p>
+<p>举个简单的例子。我们有一个托管的 Open Claw 产品，之前一直处于候补名单状态。我们甚至不得不向用户收取定金，因为我们开始让人们从候补名单中进入使用。Open Claw 是一个非常难搞的智能体框架，它迭代得太快了。如果你是一个平台，当东西坏了的时候你很难修复它。</p>
+<p>但在那个过程中我们学到了一件事：假设你正在构建一个智能体产品或任何新的软件体验，你通常会认为，要设置一个智能体，你需要建立一个网页界面或一个 Slack 工作流，询问用户：“你是谁？你打算用它做什么？你梦想中的理想结果是什么？”就像入职清单上的那些问题。</p>
+<p><strong>但如果相反，你设定一条硬性规定：我们只服务于使用 Codex 或 Co-work 的用户。</strong> 发生的事情就是，你只需将一个提示词粘贴到 Codex 中。Codex 就会去与你的应用对话（这个应用可以只是一个常规服务器，也可以是它自己的智能体）。由于 Codex 掌握了关于你的极其丰富的信息，它可以直接把这些信息抛过去：“这是我一直在和 Dan 处理的所有事情；这是他可能想使用这个应用的所有方式。”然后应用给出一个极其定制化的体验反馈回来。</p>
+<p>并且对于像智能体这样的技术产品，当出现问题时，我只需告诉 Codex：“去修好它。”Codex 就会去和应用对话，帮我弄清楚到底出了什么状况。所以我认为，当你假设每个人都有智能体，并且这些智能体在以这种极其神奇和重要的方式相互对话时，整个产品范式就开始发生改变了。</p>
+<h3>为什么 Dan 看好 SaaS 股票</h3>
+<p><strong>Lenny Rachitsky：</strong> 在开始下一个部分之前，我还有几点想再深入探讨一下，因为可以聊的太多了。你刚才提到，在使用 SaaS 工具时，可以使用模型公司的 Token（代币）。多讲讲这点，因为这可能会彻底改变未来 SaaS 公司的商业模式。</p>
+<p><strong>Dan Shipper：</strong> 我认为这实际上可能会拯救他们的利润率。因为现在所有这些 SaaS 公司都在争先恐后地在自己的产品里添加智能体，并认为：“这个内置的智能体会成为人们与我的产品互动的主要方式。”但这显然会消耗大量的 Token，成本高昂。</p>
+<p>实际上，一旦我把 Codex 或 Co-work 作为我的主要工作界面，我依然需要使用 SaaS。<strong>所以这是另一个很好的预测：我现在就会去买入 SaaS 股票。</strong> 我觉得“SaaS 末日论”结束了，SaaS 股票在未来几年内将大幅上涨。（这不是投资建议，但如果是我的话，我会买 SaaS 股票。）</p>
+<p>这能拯救 SaaS 的利润率，因为你现在的思维方式不再是“我必须把 AI 强行塞进我的产品里支付算力成本”，而是“我必须打造一款人类和 AI <strong>都愿意共同协作</strong>的软件”。这很难，但一旦你构建好了，这比你假设用户全都在消耗你的 Token 要便宜得多。</p>
+<p>这是一门好生意。我之所以如此看好 SaaS，部分原因是我们内部每个人都有了智能体，都在用 Codex 之类的工具，但我们依然为大量的 SaaS 付费，并且我们每年的 SaaS 支出都在同比增加。我们并没有什么鸡毛蒜皮的小事都自己用 AI 靠“直觉编程（Vibe coding）”去写个工具替代它。</p>
+<p><strong>智能体的作用是增加了 SaaS 的使用者数量，而不是让 SaaS 消失。</strong> 所以我认为 SaaS 公司将会看到其产品需求出现疯狂的激增，因为会有海量的智能体极其高频地使用这些产品。正如我所说，这是一个巨大的基础设施挑战，也面临着很多有趣的定价挑战，但这让我非常看好 SaaS。</p>
+<p><strong>Lenny Rachitsky：</strong> 我太喜欢这个观点了，哪怕这期节目大家只记住了一点：Dan Shipper 说 SaaS 是 AI 的未来。这简直太反共识了。另外一个有趣的点是，你们公司在过去一年里人数翻倍了。对于一家如此前沿的 AI 公司来说，这不符合大家“AI 取代人力”的预期。谈谈你们在这方面的经验吧。</p>
+<h3>为什么自动化不会减少人类的工作量</h3>
+<p><strong>Dan Shipper：</strong> 好的，实际上我们依然需要人类。<strong>“自动化”是一个谎言。</strong> 意思是，每次你自动化了一件事情，为了确保这个自动化运行良好，你都需要在它之上安排一个人类，确保它没出乱子。</p>
+<p>几年前我写过一篇题为《分配经济（The Allocation Economy）》的文章，核心观点是人类未来与 AI 合作的方式将更像是一个“经理”。你需要记住的是，<strong>经理实际上要花大量时间工作。</strong> 大多数经理并没有在沙滩上度假，他们总是在跟员工确认进度，试图弄清楚：“我们怎么把这件事做好？怎么做得更好？进展如何？这个人表现怎么样？”等等。</p>
+<p>管理人类和管理模型之间有一些区别，但从根本上说，它依然需要投入大量的时间和注意力。我认为我们在讨论 AI 模型的叙事中忽略了这一点。其中一个原因是，各类基准测试（Benchmarks）让 AI 看起来比它实际情况更加自动化。</p>
+<p>我所说的“自主性”有其特定的含义，我尽量把它表达清楚，这有点难描述。但我之所以自己领悟到这一点，是因为我切身感受到了这个悖论：<strong>我们拥有了如此多的自动化和 AI，但我的工作量却变得大得多了。</strong></p>
+<p>当我自己做了一个内部测试基准时，这个悖论稍微解开了一点。我做了一个叫“高级工程师基准测试”的东西，用来衡量 AI 对比人类高级工程师到底有多强。</p>
+<p>事情是这样的：我自己利用业余时间（一边管理着 Every），靠“直觉编程（Vibe coded）”写了刚才提到的那个叫 Proof 的应用。但当我们发布它时，因为代码全是 AI 靠直觉堆砌的，服务器直接就挂了，而且我根本修不好。非常丢脸。产品功能是完整的，我们内部也测试过，但发布后第二天，服务器每十分钟崩一次。大家看着我，我说：“我不知道怎么回事。Codex，你来修。”Codex 说：“我不知道怎么回事。”或者更准确地说，Codex 会说：“我知道怎么回事了，我修好了。”结果它的“修复”导致了四个新的错误。我就这样陷入了死循环，整晚没睡。我敲代码敲得太狠，连手肘都得了滑囊炎。</p>
+<p>所以教训就是：得了“直觉编程肘”。</p>
+<p>总之，我后来找了两位不同的人类高级工程师，让他们独立修复这个问题。所以我得到了两份重写的代码库。这就意味着，当新模型出来时，我只需要给新模型一个提示词：“这是一堆直觉编程搞出来的垃圾代码。如果你想从第一性原理出发重写它，你会怎么写？去干吧。”</p>
+<p>在 GPT 5.5 出来之前的所有模型，在这个测试中只能拿到 30 分（满分 100 分）。而人类高级工程师能拿到接近 90 分。差距非常大。然后我测试了 GPT 5.5，它拿了大约 62 分。</p>
+<p>你要知道，这 62 分是在 GPT 5.5 使用 Opus 4.7 生成的计划下达到的（Opus 4.7 的规划能力非常好）。GPT 5.5 是目前唯一一个具备足够的主观能动性和自信心，敢于直接把旧代码全部铲掉，真正从第一性原理开始重写的模型。其他编程模型总是试图在边缘缝缝补补，它们会觉得：“哦，这是个大工程，我还是打个小补丁吧。”你只能无奈地说：“不，我明确告诉过你不要这么做。”</p>
+<p>所以 GPT 5.5 让分数跃升了 30 分，达到了 60 分。显而易见，再过一年或更短的时间，它就能达到人类高级工程师的水平。这会在你脑海中描绘出一幅图景，尤其是考虑到我是如何给这个基准测试命名的。</p>
+<p>但我要告诉你的是，当我们真的到了那一步时，我会非常轻易地修改这个基准测试，把当前模型的分数瞬间“清零”。</p>
+<p>例如，我给模型的提示词是：“这是一堆垃圾代码，请从第一性原理重写它。”这听起来好像不需要什么技巧或思考，但实际上，我花了很长时间才摸索出这个既不剧透答案、又能激发模型能力的提示词。</p>
+<p>我最初在生产环境崩溃那个早晨给它的提示词其实是这样的：“昨天我们收到了四五个报错。我要你浏览所有问题，然后制定一个解决所有问题的计划，去执行它。”</p>
+<p>我可以打赌，市场上的每一个编程模型——我的预测是，即使在一年后，每一个编程模型仍然会死板地执行这个指令。如果你告诉它：“这里有一堆问题，去修好它。”它们就会傻傻地去试图修复那些问题。</p>
+<p>但一个<strong>真正的人类高级工程师</strong>会怎么做？他们会去看一眼代码库，然后骂一句：“这写的是什么狗屎。这人根本不知道自己在干嘛！”然后他们会跑来跟你说：“我们得把这玩意儿彻底重写，这很难也有风险。我知道你不想听这个，但我们必须这么做。”</p>
+<p>如果你主动问模型：“嘿，我们应该重写吗？”它可能确实能做到。但它不会主动、独立地做出这个判断。而且有很多机制（安全和对齐）在阻止它这么做。即使它真的这么做了，人类总会有更高维度的框架问题需要解决。</p>
+<p>因此，当我们看待基准测试的进步时，从这个角度思考非常重要：<strong>基准测试的分数之所以能提升，是因为我们（人类）已经把问题框定好了，我们能够清晰表达并评分。</strong> 但现实中还有大量属于人类的工作，那些工作在被写下来之前是无法评分的。而“思考如何给出提示词”或“把它写下来”这个行为本身，就是你无法衡量的能力。这就意味着，即使基准测试被刷爆了，也不等同于它能完全取代所有高级工程师。这就是为什么即使模型自动化能力越来越强，我依然在招聘工程师。</p>
+<p><em>（赞助商播报部分：Vanta）</em>
+本季度的支持赞助商 Vanta 帮助超过 15,000 家公司（如 Cursor、Ramp、Duolingo、Snowflake 和 Atlassian）赢得并证明客户的信任。随着 AI 的发展，产品发布速度比以往任何时候都快，但这引入的风险也越来越高。Vanta 通过 35 种以上的安全和隐私框架自动化了合规和风险管理，帮助公司快速达到并保持合规。
+<em>（赞助商播报结束）</em></p>
+<p><strong>Lenny Rachitsky：</strong> 顺便提一下关于人类写代码的事。我最近听到一个说法，数据标注公司现在正在疯狂购买 2021、2022 年（AI 普及之前）由纯人类编写的代码。这是非常有价值的数据。</p>
+<p><strong>Dan Shipper：</strong> 完全正确，纯正的人类原创代码。这很有趣，因为正是这类代码被用来训练现在的模型。不过我想澄清一点，在我的测试里，我并没有让那两个人类工程师完全手写代码。因为我觉得那很蠢，我也不在乎。如果一个工程师现在不用 AI，我是不会跟他们共事的。就像我不会让人类跑步去和汽车比赛一样。但如果是让人类开着汽车去和另一个人类开的汽车比赛，看谁更好，这是有意义的。</p>
+<p>在测试中，那些人类工程师使用了 AI，但他们使用 AI 的方式我做不到，因为我不懂那些代码，我没时间，老实说我也不想去理解那个代码库。我认为这在思考基准测试时非常重要：AI 是一种任何人类都可以使用的广泛分布的技术。当我们对比 AI 和人类时，<strong>我们实际上总是在对比“一个使用 AI 的人类”与“另一个使用 AI 的人类”。</strong> 因为 AI 不能自我使用（虽然在某种轻微的递归方式下可能可以），但在任何实际应用场景中，总是有一个人类在近距离盯着它，确保它正常工作。</p>
+<p><strong>Lenny Rachitsky：</strong> 好的，我试着总结一下我们的第一个话题板块，信息量太大了。根据你的预测，我列出了一些为了成功大家应该做的事情清单。</p>
+<ol>
+<li>在工作中越来越多地使用 Codex 或 Claude Code，尤其是使用其内部的浏览器来调用工具。</li>
+<li>允许智能体使用你的产品。如果你是做 SaaS 工具的，要让智能体更容易成为你的“用户”。</li>
+<li>开始思考你可以与之合作的 Slack 机器人/智能体。寻找能成为你公司内部 AI 智能体的工具。</li>
+<li>尽快买入 SaaS 股票！（笑）</li>
+</ol>
+<p><strong>Dan Shipper：</strong> 总结得非常对。我稍微补充一点：关于为智能体构建软件，目前的模式是“构建一个被智能体使用的 CLI”，这是一种“我把任务委派给智能体，智能体去用 CLI 执行”的单向状态。我认为未来的发展方向是：你和智能体<strong>一起</strong>使用这个应用。智能体可能在后台用 CLI，但你在前端使用网页界面，且这两者必须完全同步。这是一个极其有趣的新工程挑战。</p>
+<h3>工作形态将如何改变</h3>
+<p><strong>Lenny Rachitsky：</strong> 好的。那么第二类预测，也就是我们所做工作的形态将如何改变？</p>
+<p><strong>Dan Shipper：</strong> 一旦你进入这个拥有可以异步委派工作的智能体，并且将 Codex 或 Claude Code 作为主要工作界面的时代，有一件事我们内部经常看到，在那些大型模型公司里也看到了，那就是：<strong>公司里的 Pull Request（代码拉取请求）数量会呈火箭式暴涨。</strong></p>
+<p>我们会看到做咨询的、做运营的，或者编辑岗位的同事，突然都在提交 PR 页面。这真的很酷，这是一种截然不同的工作形态。这意味着你可以预期公司里很大一部分非技术人员，将开始承担以前只有技术人员才能做的事情。</p>
+<p>但这同时会在另一端，给那些必须处理所有这些新代码的人带来巨大的压力。这衍生出很多有趣的问题。比如，Open Claw 的创始人 Pete 每天会收到几千个关于 Open Claw 的 Pull Request。然后他只需启动 50,000 个 Codex 实例来对它们进行筛选，最后合并其中的一千个。这真的很疯狂。我认为这种现象会越来越普遍。</p>
+<p>这带来了一些非常有趣的问题，比如：你应该合并哪些 PR？每当你在流程的某个环节增加了产能，它就会打破原有的平衡。以前开发功能很难，现在变得非常容易。所以现在的问题不再是“我们能不能把它做出来”，而是**“这跟我们已经构建的东西契合吗？我们如何保持产品的连贯性和整体感？”**</p>
+<p>还有，“我们要删掉什么？”我认为 Anthropic 在这点上做得很好。为了确保不显得臃肿，他们从 Claude Code 里删掉了很多东西。</p>
+<p>所以，我认为会发生这样一种情况：一方面，大量非技术人员可以做技术工作；另一方面，技术人员（以及产品人员）的职责变成了：确保这些零散的工作成果以一种有凝聚力、连贯的方式被整合进产品或流程中。</p>
+<p><strong>Lenny Rachitsky：</strong> 我最近听到一些人抱怨说，现在每个人什么都能做——工程师能做设计，PM 能写代码，市场人员也能发布产品。这导致大家非常困惑：“我的本职工作到底他妈的是什么？我到底该负责什么？我还要发布产品吗？我还是个做市场的人吗？”这产生了很多不确定性。</p>
+<p><strong>Dan Shipper：</strong> 我觉得这是事实。在 Every 内部，每个人都有点像全才（Generalist），大家都非常享受这种“把手伸进不同锅里”的感觉。我认为这种混乱在某个阶段会沉淀下来，变得更加常态化。比如，市场人员哪怕偶尔改改网站，他们也依然是做市场的——修改网站现在只是市场工作的一部分。但我同时也认为，现在做个全才的职业发展上限变高了，这非常棒，尤其是对小公司来说。</p>
+<p>另一件有趣的事是，肯定会出现一些全新的职位。比如我刚才提到的“前沿部署工程师（Forward Deployed Engineer）”这一概念绝对是真实的。它的逻辑起点就是“每一个智能体都需要一个人类”。你去看看那些大模型公司内部运行的智能体，他们有专门的团队来维护这些智能体。我不认为这些团队会消失。模型会越来越强大，智能体数量会增长，但它们依然需要人类去管理。</p>
+<p>我们内部就有几位这样的人。比如我们的 AI 工程师 Nitesh，他非常符合这种画像。他的大部分时间其实是在 Slack 里和我们的智能体聊天。我们内部有一个负责运营整个咨询业务的智能体叫 Claudie。Nitesh 是写代码的，他使用 Claude Code，但他很大一部分工作只是跟智能体对话，质问它：“你为什么干这种蠢事？我们来修复一下。”</p>
+<p>有一类工程师非常热爱这种工作，他们喜欢接触最新的东西，并且喜欢在这个类似于工作空间的赛博环境里创造出一个“存在”。这与传统软件工程师的日常有很大的不同。</p>
+<p><strong>Lenny Rachitsky：</strong> 所以你的直觉是，我们距离“智能体不再需要人类”还很遥远。你已经多次强调了智能体需要人类，无论是在初始设置阶段，还是后续无限期的维护阶段。我听出你的意思是，这在很长一段时间内都会是一个稳固的职业。AI 还不够聪明，无法完全自动化取代他们。</p>
+<p><strong>Dan Shipper：</strong> 是的。我同时是一个极其狂热的 AI 信仰者，但也是一个极其坚定的“人类价值看多者”。坚信人类在确保 AI 良好运转中发挥着不可替代的作用。</p>
+<h3>为什么数据科学家正淹没在劣质分析报告中</h3>
+<p><strong>Lenny Rachitsky：</strong> 你刚才描述的两个方向，如果我没理解错的话。第一个是：软件发布的节奏加快了，这意味着有更多的工作是去审查别人随意生成的粗糙输出。我最近跟一个数据科学界的朋友聊天，他说他团队以前的工作是做分析、回答问题、验证实验是否成功。现在呢？全公司每个人都在自己做分析并分享结果，然后他的团队不得不去挨个指出：“不，你这个不对。”所以现在他们大部分的工作变成了去审查那些糟糕的数据科学工作。</p>
+<p><strong>Dan Shipper：</strong> 这是一个大问题。同样的事情也发生在工程师身上。这意味着你实际上需要更多的数据工程师和数据科学家，也意味着你还没有建立起合适的系统或智能体来帮你解决这个问题。</p>
+<p>比如在一家大型模型公司内部，他们直接构建了一个全员可用的数据科学机器人。这个机器人直接连接到他们的数据仓库，并且知道员工的权限级别。因为有一个专门的团队在维护这个机器人，所有员工可能想问的基础问题、甚至机器人偶尔搞错的问题，都有那个团队在不断修正和确保准确。</p>
+<p>所以，有了这个专门开发和维护智能体的团队在前面挡着处理基础请求，数据科学团队就不需要去回答所有那些狗屁不通的问题了。如果那个维护智能体的团队不存在，数据科学家绝对会恨死自己的生活。</p>
+<p><strong>Lenny Rachitsky：</strong> 但这会不会让工作变得无趣？你只是坐在那里给别人粗制滥造的工作“擦屁股”，而不是自己去做分析？</p>
+<p><strong>Dan Shipper：</strong> 我认为它实际上会让工作变得更好。因为对于数据科学家来说，你不再需要处理所有那些愚蠢琐碎的请求了。有人专门建了个智能体帮你挡掉了这些。你可以专注于更深层次、更难回答的问题。它过滤掉了噪音，让你能集中精力。</p>
+<h3>哪些职位受 AI 影响最小</h3>
+<p><strong>Lenny Rachitsky：</strong> 我一直在思考一个问题。产品技术领域中，哪个职位的受影响最小？工程师 100% 的代码都沾上了 AI，这已经是完全不同的工作了。PM 也不用写那么多 PRD 了，甚至可以自己发版。设计师？有人说传统的整个设计流程都死了，因为没时间走流程。数据科学也变了。那市场营销和销售呢？你觉得到目前为止，哪个职业的底层逻辑改变最小？</p>
+<p><strong>Dan Shipper：</strong> 有个有趣的现象（我不知道这算不算），就是对于 CEO 和投资人来说，是否使用这些 AI 工具似乎依然是非常“可选”的。</p>
+<p><strong>Lenny Rachitsky：</strong> 确实感觉是这样。</p>
+<p><strong>Dan Shipper：</strong> 但我认为恰恰相反。我们经常与高级管理团队合作，我的经验是：<strong>你的公司在 AI 领域能走多远，完全取决于你的 CEO 在 AI 领域走得多深。</strong> 这不是你可以随便指派给下属的事情。你必须自己动手去用，否则你对它根本没有直觉。很长一段时间以来，高管们似乎觉得：“这是底下干活的人该用的，我不需要，我只负责告诉他们该做什么。”</p>
+<p>我认为，现在的 CEO 们可能觉得自己的日常工作没啥变化，但这很快会迎来反噬，某天他们会突然发现：“噢不，我落后太多了。”但就目前而言，因为这种认知滞后，CEO 或是中层管理者的日常工作看起来确实还挺相似的。</p>
+<p>至于改变最小的，我认为可能是销售。因为销售非常依赖人际交往。</p>
+<p>它确实在渗透 BDR（业务拓展）环节，我们能用 AI 处理很多初步筛选的客户咨询。AI 对销售做背调极其有用。比如我最喜欢的一个 Codex 使用体验：我们当时在招一名 L&#x26;D（学习与发展）主管。我脑海里觉得纽约有一家叫 General Assembly 的公司，他们做科技教育做了很久。我想，如果有个在 General Assembly 工作过、又懂 AI 的人，肯定非常合适。</p>
+<p>我就把这想法随手打进 Codex 里，然后去干别的事了。等我回来时，它竟然找到了一个极其完美的人选：曾在 General Assembly 担任讲师、是个重度 AI 迷、而且还在推特上关注了我。我就直接发私信约他吃饭了。在以前，这得多费劲啊！虽然对销售背调极其有用，但销售工作本身的性质并没有根本改变。</p>
+<p><strong>Lenny Rachitsky：</strong> 我的想法也是销售。AI 在漏斗顶端（如寻找客户源和资格审查）帮助很大，但销售人员达成交易的核心工作并没有根本不同。至于客户服务，它已经发生彻底的改变了。目前来看，销售人员还算安全。</p>
+<p><strong>Dan Shipper：</strong> 是的。</p>
+<p><strong>Lenny Rachitsky：</strong> 好的。所以总结一下这个板块的预测：第一，工作的一部分将变成大量审查别人的粗糙输出；第二，会有很多类似“AI 保姆”的工作，去部署和维护智能体，确保它们能持续正常工作。</p>
+<p><strong>Dan Shipper：</strong> 我会稍作修正，不完全是“做保姆”，而是：你的前沿部署团队需要建立一个完整的系统，让缺乏技术背景的同事能够使用这套系统而不会犯蠢。这是一个极其有趣的工程挑战。而如果你是数据科学家等专业人员，你可以利用 AI 去挖掘更深的问题。</p>
+<h3>我们会阅读更多 AI 写的文章，并且会喜欢它们</h3>
+<p><strong>Dan Shipper：</strong> 还有最后一件事，我觉得很有意思：<strong>我认为我们会阅读越来越多 AI 生成的文档和邮件，而且我们会喜欢这种变化。</strong></p>
+<p>我们在代码审查里其实已经这么做了。比如阅读需求计划文档，我绝对不想让工程师手写一份规划文档，那太蠢了。同样的道理，2025 年底我们为 Every 做季度规划时，全都是用 Notion 的智能体完成的。</p>
+<p>我们在顶层设定了公司级战略，然后让全公司每个人都去跟智能体对话。智能体会问他们：“去年过得怎么样？你的目标是什么？今年你想做什么？怎么衡量？这跟公司大方向契合吗？”它还会进行反问和推敲。然后我就收到了这些质量极高的由 AI 生成的战略报告或各团队的季度计划。我再进去统筹协调就可以了，这让处理信息的难度大大降低。</p>
+<p>我经常收到 AI 生成的东西。但“AI 垃圾（Slop）”和“优质的 AI 生成内容”是有区别的。所谓的“AI 垃圾”就是：生成它花的时间，甚至比我阅读它花的时间还要短，而且发件人自己都不敢为里面的每一句话背书。</p>
+<p>我对这事的期望是：如果你发给我一份 AI 生成的文档，我觉得棒极了。但如果我们讨论它时，我发现你根本不知道里面写了什么，那就是踩红线了，绝对不允许。</p>
+<p>我认为我们对 AI 写作的抗拒心理会逐渐消失。因为只要引导得当，GPT 5.5 这种模型写出来的战略文档，比普通人自己在键盘上瞎敲出来的要好太多了。</p>
+<p><strong>Lenny Rachitsky：</strong> 大多数人确实很不擅长写战略文档，所以这方面人类的门槛本来就很低。</p>
+<p><strong>Dan Shipper：</strong> 同样适用于写邮件。我现在的邮件大部分是 GPT 5.5 和 Codex 写的。老实说，我甚至更希望在邮件上标明“这封信来自 GPT 5.5”。前几天我要给一位投资人发邮件，我让 Codex 去发。平常它都会先问我确认一下，但这次它没问就直接发出去了。我当时想：“卧槽！”我赶紧去“已发送”里看，结果发现：“哇，这写得完全就是我会发的内容。”</p>
+<p>有时候它确实会有点过于正式，但仔细想想，你大部分的工作邮件其实都是程式化、乏味的。我绝对希望是<strong>我</strong>来构思邮件“应该表达什么核心意思”，但至于具体的句子怎么组织，我通常不太在乎。作为一个极其重视人类写作的人，我这么说可能有点奇怪。我认为人类作家的写作仍然极其重要，这也是我们出版文章的标准。但我们对办公场景下“AI 写作”的抗拒，真的很可笑。</p>
+<p><strong>Lenny Rachitsky：</strong> 这个视角很有趣。当人们想到 AI 写作时，总会联想到社交媒体上泛滥的内容。但你的观点是，在内部规划、写文档、发邮件这些事情上，AI 写作完全不可怕。而且人们已经在这么做了，很多时候你甚至更愿意看 AI 写的，因为人类写得真的很差。</p>
+<p><strong>Dan Shipper：</strong> 对外发布的东西也是一样。我们会发布很多指南，这些指南通常都是 AI 辅助或与 AI 共同创作的，而且它们的设计初衷就是让<strong>人类和智能体</strong>都能阅读。当你写了一份超长的大部头信息指南时，想要真正应用它，最好的方式就是让你的智能体吃透它，然后当你需要做定价策略时提醒你：“别忘了这份指南，我们一起过一遍。”</p>
+<p>智能体能在一秒内读完一万页。所以你负责跟人类讲故事、讲重点，而智能体掌握所有的细节，在你需要的时候随时为你调用。</p>
+<p><strong>Lenny Rachitsky：</strong> 太棒了。在我们进入最后一个板块之前，还有什么要补充的吗？</p>
+<p><strong>Dan Shipper：</strong> 没有了。</p>
+<p><strong>Lenny Rachitsky：</strong> 好的，最后一个板块：在这个我们正在逼近的 AI 未来中，谁会获得成功？或者说，人们现在应该做什么才能在未来一两年内获得成功？</p>
+<h3>为什么产品经理（PM）将主导 AI 时代</h3>
+<p><strong>Dan Shipper：</strong> <strong>我极其看好产品经理（PM）。</strong></p>
+<p>我知道你的听众肯定很爱听这个。让我确信这一点的轶事是：我们内部有个叫 Marcus 的同事，他负责我们的写作应用 Spiral。Marcus 出身是 PM，他之前负责 Axios 的写作产品，带了很大的团队，做到了千万级别的 ARR（年度经常性收入）。</p>
+<p>他休了一年假，彻底成了重度 AI 用户。他基本学会了如何非常熟练地使用 Cursor。他属于那种“轻度技术型”的人——他知道什么是数据库迁移，如果必须看代码他也能看懂，但放在一年前，我们绝对不可能雇他来做现在的（开发）工作。</p>
+<p>但是现在的编程模型已经足够强大了，他能够将自己仅有的一点技术知识，与他极其敏锐的产品嗅觉、对文案的把控以及对用户的同理心结合起来。</p>
+<p>这让他变得非常可怕。他发布产品的速度比团队里几乎任何人都快。他极其关注每一个用户、每一次对话，思考：“这意味着什么？我们如何把它融入到接下来的产品规划中？我们需要修复什么问题？”我觉得他被彻底解放了，因为他再也不需要去组织一整个工程团队来做这些事，他自己直接就能干。</p>
+<p>这太令人印象深刻了。这让我非常看好任何深入拥抱 AI 的产品经理。</p>
+<p><strong>Lenny Rachitsky：</strong> Dan，这简直是天籁之音。你这期节目要让无数听众开心死了。很长一段时间以来我一直这么说：代码构建这部分工作以后会自动替你完成。你需要擅长什么？你需要擅长弄清楚“该做什么产品”、“怎么判断它好不好”、“我们要解决什么问题”。我很高兴看到你已经在实践中验证了这一点。</p>
+<p><strong>Dan Shipper：</strong> 我深信不疑。</p>
+<p><strong>Lenny Rachitsky：</strong> 这可能会是我所有播客中评价最高的一期。（笑）PM 们要迎来春天了。这大概是我做过最反共识的一期播客了。</p>
+<h3>全栈设计师是另一个大赢家</h3>
+<p><strong>Dan Shipper：</strong> 另一类我认为将成为“超级赛亚人”的人群，是我们同样在内部看到的：<strong>全栈设计师。</strong></p>
+<p>如果你是一个设计师，以前你经常会遇到这种情况：我设计了一个极其精美的交互界面，但工程师嫌麻烦不想做，或者做出来的效果跟我预想的完全不一样。而现在，我看到了太多无论是在我们内部还是外部的设计师，他们突然感到被赋予了力量。</p>
+<p>他们满脑子都是让东西变好看、增加有趣交互的想法。由于 AI 直觉编程写出来的东西通常看起来千篇一律的丑陋，设计师可以做出与众不同的东西，而且现在他们<strong>自己就能把它造出来</strong>。你会看到，他们现在也开始直接提交代码的 Pull Request 了。他们不需要再像以前那样把设计稿交接给别人。</p>
+<p>这对公司的运作方式来说不可思议。这也给了这些设计师变得更强、甚至自己去创业的巨大机会，因为他们现在可以直接做出成品了。AI 是这类富有创造力的人的超级武器。</p>
+<p><strong>Lenny Rachitsky：</strong> 我完全同意。尽管现在有很多 AI 设计工具，但很多时候你一眼就能看出来那是 AI 做的。在那种所有人都在不断批量制造“AI 垃圾代码”的环境里，创意和审美的差异化将变得越来越有价值。很有意思的是，我之前做过就业市场调研，设计师岗位的招聘需求已经停滞一段时间了。所以我在观察这是否会反转成一个“我们需要更多设计师”的大趋势。</p>
+<p><strong>Dan Shipper：</strong> 这很有意思，我们可以拭目以待。</p>
+<h3>AI 带来的职场末日不会发生</h3>
+<p><strong>Dan Shipper：</strong> 总体而言，我认为所谓的“AI 职场末日”并不会发生。当然，我们看到很多公司开始进行组织架构调整，这很合理。老实说，很多重组打着 AI 的幌子，实际上是因为之前招聘过度导致公司效益不好，这只是个好借口。</p>
+<p>但某些 AI 公司 CEO 鼓吹的那种大规模失业潮，我认为是不会发生的。</p>
+<p>根据我目前观察到的模式（虽然我没有完美的预知水晶球），新模型发布本质上做的事情是：<strong>它们让昨天的“人类专业技能”变得廉价。</strong> 它们吸收了过去所有发生过的数据，让你能极其低廉地将其部署到你需要的场景中。</p>
+<p>当这项新能力普及后，突然间大家都能做登录页了，到处都是新做的登录页；大家都会写作了，推特上到处都是 AI 生成的废话。但有趣的是，因为大家用的都是相同的模型，采取的都是最基础的默认用法，所有的东西看起来都一模一样。</p>
+<p>所以它就被商品化了，不再具有稀缺价值。此时人类会走进去说：“好吧，我们现在拥有了过去所有这些被固化的过往人类能力，我该如何利用它们去创造新的、有趣的东西？”</p>
+<p>从结构上讲，由于模型的运作方式和模型公司必须满足的安全/对齐激励机制，模型永远都会<strong>跟在那些正在创造新技能、解决新问题的人类后面跑</strong>。这些前沿探索最终也会被整合进模型里，但这反过来又为人类继续向前推进腾出了空间。</p>
+<p>就像现在人人似乎都是程序员了。但这并不意味着我们要解雇现有的程序员。因为对程序员的需求反而变大了——你需要工程师来判断：“这全都是垃圾代码，它到底该如何合理地整合进我们的代码库里？”这恰恰是不断刷榜的基准测试所无法体现的。所以要彻底颠覆现在的就业结构，还需要很长的时间。</p>
+<h3>如何“驾驭模型”以保持竞争力</h3>
+<p><strong>Lenny Rachitsky：</strong> 听众们听到“职场末日不会到来”可能会感到一丝安慰。但为了在未来保住饭碗，你可能必须改变现有的工作方式。你对大家如何避免被裁员有什么建议吗？</p>
+<p><strong>Dan Shipper：</strong> 是的，这极其重要。你唯一需要做的就是：<strong>驾驭模型（Ride the models）。</strong></p>
+<p>这意味着，无论你是做什么工作的，都要把模型用起来。我们刚才讨论了 Codex 和 Co-work 正在成为工作的新标准操作系统。你要做的就是去用它们，当新模型发布时，去尝试它们，去思考：“我现在拥有了新能力，我要怎么用它？”而不是出于恐惧选择逃避。逃避这种反应是可以理解的，但如果你顺势而为、驾驭这些模型，它们会以一种不会让你掉队的方式扩展你的能力。你将成为未来工作方式的一部分。很长一段时间内，我们都需要大量能做到这一点的人。</p>
+<p><strong>Lenny Rachitsky：</strong> 我很喜欢“驾驭模型”这个词。假如一个新的大模型发布了，比如对一个在 Salesforce 工作的 PM 来说，他们具体该怎么做去“驾驭模型”？</p>
+<p><strong>Dan Shipper：</strong> 有意思的是，很多公司反而限制员工去这么做。比如在 Salesforce，你可能用不到最新的模型，或者审批很慢。所以你可能得在业余时间去摸索。</p>
+<p>我最喜欢做的事情，就是用新模型去<strong>玩</strong>。很多时候我知道旧模型还做不到某些事，但当新模型发布时，我总喜欢<strong>把石头重新翻开看看</strong>：“现在它能做到了吗？”</p>
+<p>所以，驾驭模型并没有一个固定的标准动作，因为它们总是在变。核心在于保持好奇心和玩心，把新模型应用到你真正在乎的事情上——无论是你的工作，还是工作之外的爱好，并不断去重新测试。它现在也许不行，但迟早会行。而你使用它的方式决定了你的价值。</p>
+<p>大家总以为 AI 的最前沿在旧金山。我反而不这么认为。<strong>我认为 AI 的真正前沿，存在于 AI 与正在做实事的普通人相遇的任何角落。</strong> 旧金山的那些人造出了 AI，但他们自己未必知道怎么用它。他们需要看其他人怎么用。</p>
+<p>当一个新模型发布时，你其实有机会成为世界上第一批发现它新用途的人。这就像一次地理大发现。比如我们公司虽然在布鲁克林，但我真的觉得我们在应用层面上比旧金山的很多人走得靠前得多，因为我们把它用在了方方面面。如果大家能坚持这么做，你很难被时代淘汰。</p>
+<p><strong>Lenny Rachitsky：</strong> 这正是当前 AI 最神奇的地方之一：无论你穷还是富，你都能获得最先进的 AI 模型。它不是免费的，所以你需要花一点点钱，但你可以和所有人同步用上最新的东西。唯一的特权阶级可能就是 OpenAI 或 Anthropic 的内部员工了吧。</p>
+<p><strong>Dan Shipper：</strong> 哈哈是啊，之前参加 Anthropic 的活动，看到他们内部都在用未发布的 Mythos 模型，我当时觉得：“太气人了！”但这确实是真的，如果 AI 是由 IBM 发明的，绝对不会是现在这种普惠的局面。它会被标价一亿美元，只有最顶级的公司才能用，而且用在极其无趣的地方。AI 诞生在美国的硅谷文化中是非常关键的，他们的理念是“要把智能变得比水费还便宜”。这意味着每个人都拥有了这种广泛可用的工具。</p>
+<p><strong>Lenny Rachitsky：</strong> 说得太对了，这也是为什么他们催生了历史上发展最快、规模最大的公司。硅谷那帮人聪明着呢。</p>
+<h3>最后的总结与建议</h3>
+<p><strong>Lenny Rachitsky：</strong> 纵观我们的对话，这很有趣。像硬币的两面：一方面，很多东西<strong>并没有变</strong>。SaaS 会继续存在，工作没有大规模消失，我们还在发邮件，还在用 Slack。另一方面，每个角色的底层逻辑又<strong>全变了</strong>：工程师不怎么手写代码了，PM 不用手写 PRD 了，设计流程也被颠覆了。</p>
+<p><strong>Dan Shipper：</strong> 我就是这种感觉！我同时处于两种极端情绪中：既对未来的巨大进步极度兴奋，觉得一切都变了；同时又觉得很多事其实还是老样子，这或许是件好事。</p>
+<p>我们对未来的直觉，往往就像中世纪的人对地平线尽头的猜想：那边有喷火龙吗？我们会掉进万丈深渊吗？很多人总是有一种深层的直觉，觉得地平线那边会发生可怕的事情；同时另一拨人又觉得那是乌托邦的乐园。结果当你真正跨过那条线，你会发现：有一些很酷的东西，也有一些不那么酷的东西，然后前方还有另一条地平线。</p>
+<p>这就要求我们在未来真正显现之前，不要让脑洞跑偏。有些故事在当下听起来很真实，但事后你会发现它复杂得多。一旦你亲身参与其中，你就会看到真相。</p>
+<p><strong>Lenny Rachitsky：</strong> 部分原因也是 AI 公司自己非常擅长用“未来潜在的危险”来吓唬我们。我觉得这种公关策略毫无意义，虽然他们可能是发自内心的，但我觉得他们想错了。</p>
+<p>在进入快问快答环节之前，给大家几点关于如何在未来一年取得成功的行动建议吧？</p>
+<p><strong>Dan Shipper：</strong></p>
+<ol>
+<li><strong>驾驭模型：</strong> 在 Codex 或 Co-work 里跑一遍你所有的工作流，看看效果如何。如果公司不让，就自己业余时间试。</li>
+<li>尝试像 Open Claw 这样的开源智能体框架。</li>
+<li><strong>享受乐趣：</strong> 不要因为“FOMO（错失恐惧症）”或者害怕丢饭碗去用它。要真正找到 AI 给你的工作带来的愉悦感和不可思议的神奇时刻，这才是长久之计。</li>
+</ol>
+<p><strong>Lenny Rachitsky：</strong> 没找到痛点就去自己试着解决生活里的小麻烦。经常会有“卧槽，这太酷了”的时刻。Dan，还有什么没涵盖到的吗？</p>
+<p><strong>Dan Shipper：</strong> 差不多了。我很期待一年后看看我会被打几分，你得监督我。</p>
+<h3>快问快答（Lightning round）</h3>
+<p><strong>Lenny Rachitsky：</strong> 那么 Dan Shipper，我们进入激动人心的快问快答环节。准备好了吗？
+第一，最常推荐给别人的两三本书？
+<strong>Dan Shipper：</strong></p>
+<ul>
+<li><strong>Annie Dillard 的《The Writing Life（写作生涯）》</strong>。在 Every 每个人入职必读。虽然我只要求大家读最后一章。最后一章探讨了写作、技术、未来与时间的关系，非常震撼。</li>
+<li><strong>丘吉尔的《第二次世界大战回忆录》</strong>。我最近发现丘吉尔是个非常棒的作家，这是历史与回忆录的结合，非常迷人。</li>
+<li><strong>《The Rigor of Angels》</strong>。最近我在迷量子物理（AI 对理解量子物理很有帮助）。这本书讲述了海森堡、博尔赫斯和康德的思想渊源，非常开拓思路。</li>
+</ul>
+<p><strong>Lenny Rachitsky：</strong> 最近喜欢看的电影或剧集？
+<strong>Dan Shipper：</strong> 我最近看很多篮球比赛，我成了尼克斯球迷。还有一部纪录片叫**《The Dark Wizard》**，讲的是极限运动员 Dean Potter 的心理，很极限，有点像看到创业者精神的影子。</p>
+<p><strong>Lenny Rachitsky：</strong> 最近发现的超爱用的产品？
+<strong>Dan Shipper：</strong> <strong>Codex</strong>。我不得不再说一次，它真的太好用了。</p>
+<p><strong>Lenny Rachitsky：</strong> 你经常回顾的人生座右铭？
+<strong>Dan Shipper：</strong> 我在大学时给自己写了一句话：<strong>“做值得写下来的事，写值得读下去的字。”</strong>
+还有已故的 Rob Brezsny 的一句话：<strong>“当面对困难时，你需要以一种包容（spaciousness）和充满力量（strength）的姿态去应对。”</strong> 比如当我焦虑 AI 会不会取代我时，这种包容和充满力量的心态能帮我更高效地解决问题，而不是一味死磕。</p>
+<p><strong>Lenny Rachitsky：</strong> 最后一个问题，你觉得目前有什么 AI 工具还是被大家严重低估的？
+<strong>Dan Shipper：</strong> 还是 Codex。很多人没意识到它有多强。配合内置的浏览器处理邮件或分析数据，它彻底改变了我的工作方式。OpenAI 确实熬过了几个月的低谷，他们现在又打赢了翻身仗。</p>
+<p><strong>Lenny Rachitsky：</strong> Dan，我们聊得太透彻了，等不及要在一年后重新回顾这期节目。最后，大家去哪能找到你？有什么需要听众帮忙的吗？
+<strong>Dan Shipper：</strong> 可以在 X (Twitter) 上搜我的名字 Dan Shipper。可以去 every.to/subscribe 订阅我们的内容。至于听众能帮忙的：<strong>用 AI 去寻找乐趣吧！亲自上手去折腾，去享受它，而不是只会争论它。</strong> 把你在生活中用得好的场景分享出来，这就是最大的帮助。</p>
+<p><strong>Lenny Rachitsky：</strong> 非常感谢 Dan。感谢大家的收听，我们下期见！</p>
+5:["$","$L11",null,{"email":{"id":"talks-the-ai-paradox-more-automation-more-humans-more-work-dan-shipper","sender":"Lenny's Podcast","subject":"AI 悖论：自动化越多，工作越多","snippet":"本次访谈发生在未来的时间点（文本背景设定在2026年5月左右），播客主持人 Lenny Rachitsky 邀请了 Every 的创始人兼 CEO Dan Shipper 作为嘉宾。一年前，Dan 曾准确预测了 Claude Code 在非技术工作中的爆发。在本次播客中，Dan 基于他团队“全员极客”的实验性工作模式，对未来一年内 AI 将如何改变我们的工作方式、工作形态以及哪些职业将成为最大赢家做出了极为大胆且反共识的预测。","date":"2026-05-24","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["translated","interview"],"mdTheme":"magazine","sourcePath":"talks/the-ai-paradox-more-automation-more-humans-more-work-dan-shipper.md","sourceUrl":"https://www.youtube.com/watch?v=4D3hDmGhFhA","coverImage":"$undefined","body":"$12","prompts":[]},"listPosition":{"index":25,"total":365},"matchedPerson":{"id":"lenny-s-podcast","name":"Lenny's Podcast","email":""}}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[27201,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"IconMark"]
+c:[["$","title","0",{"children":"AI 悖论：自动化越多，工作越多 · Hinbox"}],["$","meta","1",{"name":"description","content":"本次访谈发生在未来的时间点（文本背景设定在2026年5月左右），播客主持人 Lenny Rachitsky 邀请了 Every 的创始人兼 CEO Dan Shipper 作为嘉宾。一年前，Dan 曾准确预测了 Claude Code 在非技术工作中的爆发。在本次播客中，Dan 基于他团队“全员极客”的实验性工作模式，对未来一年内 AI 将如何改变我们的工作方式、工作形态以及哪些职业将成为最大赢…"}],["$","meta","2",{"name":"application-name","content":"Hinbox"}],["$","link","3",{"rel":"canonical","href":"https://linguage.github.io/hinbox/mail/talks-the-ai-paradox-more-automation-more-humans-more-work-dan-shipper"}],["$","meta","4",{"property":"og:title","content":"AI 悖论：自动化越多，工作越多"}],["$","meta","5",{"property":"og:description","content":"本次访谈发生在未来的时间点（文本背景设定在2026年5月左右），播客主持人 Lenny Rachitsky 邀请了 Every 的创始人兼 CEO Dan Shipper 作为嘉宾。一年前，Dan 曾准确预测了 Claude Code 在非技术工作中的爆发。在本次播客中，Dan 基于他团队“全员极客”的实验性工作模式，对未来一年内 AI 将如何改变我们的工作方式、工作形态以及哪些职业将成为最大赢…"}],["$","meta","6",{"property":"og:url","content":"https://linguage.github.io/hinbox/mail/talks-the-ai-paradox-more-automation-more-humans-more-work-dan-shipper"}],["$","meta","7",{"property":"og:site_name","content":"Hinbox"}],["$","meta","8",{"property":"og:locale","content":"zh_CN"}],["$","meta","9",{"property":"og:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","meta","10",{"property":"og:image:width","content":"1200"}],["$","meta","11",{"property":"og:image:height","content":"630"}],["$","meta","12",{"property":"og:image:alt","content":"AI 悖论：自动化越多，工作越多"}],["$","meta","13",{"property":"og:type","content":"article"}],["$","meta","14",{"property":"article:published_time","content":"2026-05-24T00:00:00.000Z"}],["$","meta","15",{"property":"article:author","content":"Lenny's Podcast"}],["$","meta","16",{"property":"article:tag","content":"translated"}],["$","meta","17",{"property":"article:tag","content":"interview"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"AI 悖论：自动化越多，工作越多"}],["$","meta","20",{"name":"twitter:description","content":"本次访谈发生在未来的时间点（文本背景设定在2026年5月左右），播客主持人 Lenny Rachitsky 邀请了 Every 的创始人兼 CEO Dan Shipper 作为嘉宾。一年前，Dan 曾准确预测了 Claude Code 在非技术工作中的爆发。在本次播客中，Dan 基于他团队“全员极客”的实验性工作模式，对未来一年内 AI 将如何改变我们的工作方式、工作形态以及哪些职业将成为最大赢…"}],["$","meta","21",{"name":"twitter:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","link","22",{"rel":"icon","href":"/hinbox/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","23",{"rel":"icon","href":"/hinbox/icon.svg?icon.6ca2692a.svg","sizes":"any","type":"image/svg+xml"}],["$","$L13","24",{}]]
+8:null

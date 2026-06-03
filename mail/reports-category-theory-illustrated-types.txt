@@ -1,0 +1,1319 @@
+1:"$Sreact.fragment"
+3:I[39756,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+4:I[37457,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"ViewportBoundary"]
+b:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"MetadataBoundary"]
+d:I[68027,[],"default"]
+:HL["/hinbox/_next/static/chunks/24888a04b79e7824.css","style"]
+:HL["/hinbox/_next/static/media/fba5a26ea33df6a3-s.p.1bbdebe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"vMUiZWVsRx3pCqxArlZcR","c":["","mail","reports-category-theory-illustrated-types"],"q":"","i":false,"f":[[["",{"children":["mail",{"children":[["id","reports-category-theory-illustrated-types","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hinbox/_next/static/chunks/24888a04b79e7824.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[79520,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],""]
+f:I[59665,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],"default"]
+:HL["https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","style"]
+2:["$","html",null,{"lang":"zh-CN","className":"plus_jakarta_sans_9710934b-module__-vnxFq__variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function () {\n  try {\n    var theme = window.localStorage.getItem('hinbox:theme');\n    if (theme !== 'light' && theme !== 'dark' && theme !== 'sepia') {\n      theme = 'light';\n    }\n    window['__HINBOX_THEME__'] = theme;\n    document.documentElement.dataset.theme = theme;\n    document.documentElement.style.colorScheme = theme === 'dark' ? 'dark' : 'light';\n    function applyBodyTheme() {\n      if (document.body) {\n        document.body.dataset.theme = theme;\n      }\n    }\n    if (document.body) {\n      applyBodyTheme();\n    } else {\n      document.addEventListener('DOMContentLoaded', applyBodyTheme);\n    }\n  } catch (error) {\n    window['__HINBOX_THEME__'] = 'light';\n    document.documentElement.dataset.theme = 'light';\n    document.documentElement.style.colorScheme = 'light';\n  }\n})();"}}],"",["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","rel":"stylesheet"}],["$","$Le",null,{"id":"mathjax-config","strategy":"afterInteractive","children":"\n          window.MathJax = {\n            tex: {\n              inlineMath: [['$', '$'], ['\\\\(', '\\\\)']],\n              displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']],\n              processEscapes: true,\n              packages: { '[+]': ['noerrors', 'noundefined'] },\n            },\n            svg: {\n              fontCache: 'none',\n            },\n            startup: {\n              typeset: false,\n              ready: () => {\n                window.MathJax.startup.defaultReady();\n                window.dispatchEvent(new Event('MathJaxReady'));\n              },\n            },\n          };\n          "}],["$","$Le",null,{"id":"mathjax-cdn","strategy":"afterInteractive","src":"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"}]]}],["$","body",null,{"className":"font-[family-name:var(--font-jakarta)] antialiased","suppressHydrationWarning":true,"children":["",["$","$Lf",null,{"weeklyNavCounts":{"inboxWeeklyCount":10,"sentWeeklyCount":0,"starredTotalCount":21},"people":[{"id":"david-perell","name":"David Perell","email":""},{"id":"lenny-s-podcast","name":"Lenny's Podcast","email":""},{"id":"ryan-peterman","name":"Ryan Peterman","email":""},{"id":"anthropic","name":"Anthropic","email":""},{"id":"dwarkesh-patel","name":"Dwarkesh Patel","email":""},{"id":"stripe","name":"Stripe","email":""},{"id":"stephen-wolfram","name":"Stephen Wolfram","email":""},{"id":"latent-space","name":"Latent Space","email":""},{"id":"lex-fridman","name":"Lex Fridman","email":""},{"id":"steve-jobs","name":"Steve Jobs","email":""},{"id":"20vc-with-harry-stebbings","name":"20VC with Harry Stebbings","email":""},{"id":"jeremy-stern","name":"Jeremy Stern","email":""},{"id":"turing","name":"Turing","email":""},{"id":"demis-hassabis","name":"Demis Hassabis","email":""},{"id":"the-diary-of-a-ceo","name":"The Diary Of A CEO","email":""},{"id":"elon-musk","name":"Elon Musk","email":""},{"id":"sauteedveggies","name":"SauteedVeggies","email":""},{"id":"andy-matuschak","name":"Andy Matuschak","email":""},{"id":"mind-the-game","name":"Mind the Game","email":""},{"id":"ramona-shelburne","name":"Ramona Shelburne","email":""},{"id":"jared-weiss","name":"Jared Weiss","email":""},{"id":"deeplearningai","name":"DeepLearningAI","email":""},{"id":"cursor","name":"Cursor","email":""},{"id":"y-combinator","name":"Y Combinator","email":""},{"id":"openai","name":"OpenAI","email":""},{"id":"every","name":"Every","email":""},{"id":"sequoia-capital","name":"Sequoia Capital","email":""},{"id":"alex-kantrowitz","name":"Alex Kantrowitz","email":""},{"id":"peter-dizikes-mit-news","name":"Peter Dizikes ｜ MIT News","email":""},{"id":"world-finance-journal","name":"World Finance Journal","email":""},{"id":"andrej-karpathy","name":"Andrej karpathy","email":""},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","email":""},{"id":"jd-vance","name":"JD Vance","email":""},{"id":"街-大学","name":"やまぐち街なか大学","email":""},{"id":"jc","name":"JC","email":""}],"tags":[{"id":"translated","name":"translated","count":123},{"id":"interview","name":"interview","count":24},{"id":"ai","name":"ai","count":17},{"id":"人工智能","name":"人工智能","count":17},{"id":"clippings","name":"clippings","count":15},{"id":"essays","name":"Essays","count":9},{"id":"talks","name":"Talks","count":8},{"id":"深度学习","name":"深度学习","count":8},{"id":"ai-agents","name":"ai-agents","count":7},{"id":"cognition","name":"cognition","count":6},{"id":"nba","name":"NBA","count":6},{"id":"ai编程","name":"AI编程","count":5},{"id":"humanity","name":"humanity","count":5},{"id":"math","name":"math","count":5},{"id":"steve-jobs","name":"steve-jobs","count":5},{"id":"大语言模型","name":"大语言模型","count":5},{"id":"机器学习","name":"机器学习","count":5},{"id":"agi","name":"AGI","count":4},{"id":"anthropic","name":"Anthropic","count":4},{"id":"claude-code","name":"Claude Code","count":4},{"id":"doge","name":"DOGE","count":4},{"id":"nvidia","name":"nvidia","count":4},{"id":"windsurf","name":"Windsurf","count":4},{"id":"政府效率","name":"政府效率","count":4},{"id":"文艺复兴科技","name":"文艺复兴科技","count":4},{"id":"英伟达","name":"英伟达","count":4},{"id":"软件工程","name":"软件工程","count":4},{"id":"ai编程工具","name":"AI编程工具","count":3},{"id":"apple","name":"apple","count":3},{"id":"cursor","name":"Cursor","count":3},{"id":"deepseek","name":"deepseek","count":3},{"id":"linus-torvalds","name":"Linus Torvalds","count":3},{"id":"linux内核","name":"Linux内核","count":3},{"id":"llm","name":"llm","count":3},{"id":"mathematics","name":"mathematics","count":3},{"id":"reports","name":"Reports","count":3},{"id":"偏微分方程","name":"偏微分方程","count":3},{"id":"勒布朗-詹姆斯","name":"勒布朗·詹姆斯","count":3},{"id":"开源","name":"开源","count":3},{"id":"开源ai","name":"开源AI","count":3},{"id":"强化学习","name":"强化学习","count":3},{"id":"数学哲学","name":"数学哲学","count":3},{"id":"数学教育","name":"数学教育","count":3},{"id":"访谈","name":"访谈","count":3},{"id":"量化投资","name":"量化投资","count":3},{"id":"马斯克","name":"马斯克","count":3},{"id":"黄仁勋","name":"黄仁勋","count":3},{"id":"ai-agent","name":"AI Agent","count":2},{"id":"ai-coding","name":"ai-coding","count":2},{"id":"ai代理","name":"AI代理","count":2},{"id":"ai基础设施","name":"AI基础设施","count":2},{"id":"ai安全","name":"AI安全","count":2},{"id":"ai数学","name":"AI数学","count":2},{"id":"ai智能体","name":"AI智能体","count":2},{"id":"ai计算","name":"AI计算","count":2},{"id":"alphafold","name":"AlphaFold","count":2},{"id":"claude","name":"Claude","count":2},{"id":"devin","name":"Devin","count":2},{"id":"economics","name":"economics","count":2},{"id":"emacs","name":"Emacs","count":2},{"id":"essay","name":"essay","count":2},{"id":"git","name":"Git","count":2},{"id":"google","name":"Google","count":2},{"id":"ilya-sutskever","name":"Ilya Sutskever","count":2},{"id":"jeff-dean","name":"jeff-dean","count":2},{"id":"jepa","name":"JEPA","count":2},{"id":"org-mode","name":"Org mode","count":2},{"id":"programming","name":"programming","count":2},{"id":"software-engineering","name":"software-engineering","count":2},{"id":"vibe-coding","name":"Vibe Coding","count":2},{"id":"writing","name":"writing","count":2},{"id":"世界模型","name":"世界模型","count":2},{"id":"人性","name":"人性","count":2},{"id":"代数几何","name":"代数几何","count":2},{"id":"代码编辑器","name":"代码编辑器","count":2},{"id":"价值投资","name":"价值投资","count":2},{"id":"伯克希尔哈撒韦","name":"伯克希尔哈撒韦","count":2},{"id":"关税政策","name":"关税政策","count":2},{"id":"创业历程","name":"创业历程","count":2},{"id":"加速计算","name":"加速计算","count":2},{"id":"吉姆-西蒙斯","name":"吉姆·西蒙斯","count":2},{"id":"哲学","name":"哲学","count":2},{"id":"国际合作","name":"国际合作","count":2},{"id":"大型语言模型","name":"大型语言模型","count":2},{"id":"好奇心","name":"好奇心","count":2},{"id":"季后赛","name":"季后赛","count":2},{"id":"工程实践","name":"工程实践","count":2},{"id":"巴菲特","name":"巴菲特","count":2},{"id":"形式化证明","name":"形式化证明","count":2},{"id":"彼得-蒂尔","name":"彼得·蒂尔","count":2},{"id":"微软","name":"微软","count":2},{"id":"提示工程","name":"提示工程","count":2},{"id":"数学","name":"数学","count":2},{"id":"数学研究","name":"数学研究","count":2},{"id":"文班亚马","name":"文班亚马","count":2},{"id":"智能代理开发","name":"智能代理开发","count":2},{"id":"毕业演讲","name":"毕业演讲","count":2},{"id":"版本控制","name":"版本控制","count":2},{"id":"科学发现","name":"科学发现","count":2},{"id":"科技停滞","name":"科技停滞","count":2},{"id":"软件工程变革","name":"软件工程变革","count":2},{"id":"软件开发","name":"软件开发","count":2},{"id":"量子力学","name":"量子力学","count":2},{"id":"阿贝尔奖","name":"阿贝尔奖","count":2},{"id":"风险投资","name":"风险投资","count":2},{"id":"agent设计","name":"Agent设计","count":1},{"id":"ai-for-science","name":"AI for Science","count":1},{"id":"ai-编程","name":"AI 编程","count":1},{"id":"ai伦理","name":"AI伦理","count":1},{"id":"ai最佳实践","name":"AI最佳实践","count":1},{"id":"ai大模型","name":"AI大模型","count":1},{"id":"ai并购","name":"AI并购","count":1},{"id":"ai应用","name":"AI应用","count":1},{"id":"ai开发者大会","name":"AI开发者大会","count":1},{"id":"ai推理","name":"AI推理","count":1},{"id":"ai收购","name":"AI收购","count":1},{"id":"ai数学发现","name":"AI数学发现","count":1},{"id":"ai生物医药","name":"AI生物医药","count":1},{"id":"ai竞争","name":"AI竞争","count":1},{"id":"ai编程代理","name":"AI编程代理","count":1},{"id":"ai芯片","name":"AI芯片","count":1},{"id":"ai规模化","name":"AI规模化","count":1},{"id":"ai辅助学习","name":"AI辅助学习","count":1},{"id":"ai辅助开发","name":"AI辅助开发","count":1},{"id":"anysphere","name":"Anysphere","count":1},{"id":"biography","name":"biography","count":1},{"id":"blackwell架构","name":"Blackwell架构","count":1},{"id":"cag","name":"CAG","count":1},{"id":"career","name":"career","count":1},{"id":"ceo交接","name":"CEO交接","count":1},{"id":"chatgpt","name":"ChatGPT","count":1},{"id":"chris-bishop","name":"Chris Bishop","count":1},{"id":"claude-4","name":"Claude 4","count":1},{"id":"claude-sonnet-4-5","name":"Claude Sonnet 4.5","count":1},{"id":"coding-agent","name":"Coding Agent","count":1},{"id":"context-engineering","name":"Context Engineering","count":1},{"id":"cs50","name":"CS50","count":1},{"id":"cuda生态","name":"CUDA生态","count":1},{"id":"deep-search","name":"Deep Search","count":1},{"id":"deepmind","name":"DeepMind","count":1},{"id":"distributed-systems","name":"distributed-systems","count":1},{"id":"elon-musk","name":"Elon Musk","count":1},{"id":"engineering","name":"engineering","count":1},{"id":"fields奖","name":"Fields奖","count":1},{"id":"geoffrey-hinton","name":"Geoffrey Hinton","count":1},{"id":"gpt-4","name":"GPT-4","count":1},{"id":"gpt-4-5","name":"GPT-4.5","count":1},{"id":"gpu与深度学习","name":"GPU与深度学习","count":1},{"id":"gpu架构","name":"GPU架构","count":1},{"id":"gpu算力","name":"GPU算力","count":1},{"id":"grok-3","name":"Grok 3","count":1},{"id":"haskell","name":"haskell","count":1},{"id":"incident","name":"incident","count":1},{"id":"jim-simons","name":"Jim Simons","count":1},{"id":"julia","name":"Julia","count":1},{"id":"june-huh","name":"june-huh","count":1},{"id":"kaggle","name":"Kaggle","count":1},{"id":"kiro-spec模式","name":"Kiro SPEC模式","count":1},{"id":"labor","name":"labor","count":1},{"id":"lean","name":"Lean","count":1},{"id":"lisp","name":"Lisp","count":1},{"id":"llm工具","name":"LLM工具","count":1},{"id":"mcp","name":"MCP","count":1},{"id":"mit","name":"MIT","count":1},{"id":"mvp","name":"MVP","count":1},{"id":"naval-ravikant","name":"Naval Ravikant","count":1},{"id":"ncaa疯狂三月","name":"NCAA疯狂三月","count":1},{"id":"noema","name":"noema","count":1},{"id":"notes","name":"notes","count":1},{"id":"notion","name":"Notion","count":1},{"id":"nvidia-gtc-2025","name":"NVIDIA GTC 2025","count":1},{"id":"openai","name":"OpenAI","count":1},{"id":"optimus机器人","name":"Optimus机器人","count":1},{"id":"peter-lax","name":"Peter Lax","count":1},{"id":"pixar","name":"pixar","count":1},{"id":"prompt-engineering","name":"Prompt Engineering","count":1},{"id":"psychology","name":"psychology","count":1},{"id":"publishing","name":"publishing","count":1},{"id":"python","name":"Python","count":1},{"id":"reliability","name":"reliability","count":1},{"id":"report","name":"report","count":1},{"id":"research","name":"Research","count":1},{"id":"research-career","name":"research-career","count":1},{"id":"robotics","name":"robotics","count":1},{"id":"sanjay-ghemawat","name":"Sanjay Ghemawat","count":1},{"id":"satya-nadella","name":"Satya Nadella","count":1},{"id":"scaling-laws","name":"Scaling Laws","count":1},{"id":"security","name":"security","count":1},{"id":"skills","name":"skills","count":1},{"id":"slimv","name":"Slimv","count":1},{"id":"technical-report","name":"technical-report","count":1},{"id":"terence-tao","name":"terence-tao","count":1},{"id":"vim","name":"Vim","count":1},{"id":"vlime","name":"Vlime","count":1},{"id":"wolfram","name":"Wolfram","count":1},{"id":"xai","name":"xAI","count":1},{"id":"yann-lecun","name":"Yann LeCun","count":1},{"id":"yc","name":"YC","count":1},{"id":"上下文工程","name":"上下文工程","count":1},{"id":"个人反思","name":"个人反思","count":1},{"id":"个人电脑","name":"个人电脑","count":1},{"id":"中美关系","name":"中美关系","count":1},{"id":"乌克兰战争","name":"乌克兰战争","count":1},{"id":"乔姆斯基","name":"乔姆斯基","count":1},{"id":"交通基础设施","name":"交通基础设施","count":1},{"id":"产品市场契合","name":"产品市场契合","count":1},{"id":"人工智能未来","name":"人工智能未来","count":1},{"id":"人形机器人","name":"人形机器人","count":1},{"id":"人机协作","name":"人机协作","count":1},{"id":"人机博弈","name":"人机博弈","count":1},{"id":"人生哲学","name":"人生哲学","count":1},{"id":"人类未来","name":"人类未来","count":1},{"id":"人类福祉","name":"人类福祉","count":1},{"id":"代理开发","name":"代理开发","count":1},{"id":"代理式编程","name":"代理式编程","count":1},{"id":"代码生成","name":"代码生成","count":1},{"id":"任务管理","name":"任务管理","count":1},{"id":"仿真学习","name":"仿真学习","count":1},{"id":"企业采用","name":"企业采用","count":1},{"id":"众包协作","name":"众包协作","count":1},{"id":"优绩主义","name":"优绩主义","count":1},{"id":"伦理监管","name":"伦理监管","count":1},{"id":"伯克希尔-哈撒韦","name":"伯克希尔·哈撒韦","count":1},{"id":"俄乌战争","name":"俄乌战争","count":1},{"id":"保罗-狄拉克","name":"保罗·狄拉克","count":1},{"id":"保险业务","name":"保险业务","count":1},{"id":"信号处理","name":"信号处理","count":1},{"id":"信息动力学","name":"信息动力学","count":1},{"id":"信息物理学","name":"信息物理学","count":1},{"id":"全球贸易","name":"全球贸易","count":1},{"id":"公共美德","name":"公共美德","count":1},{"id":"具身智能","name":"具身智能","count":1},{"id":"写作","name":"写作","count":1},{"id":"写作工具","name":"写作工具","count":1},{"id":"冷战数学","name":"冷战数学","count":1},{"id":"创业转型","name":"创业转型","count":1},{"id":"创业领导力","name":"创业领导力","count":1},{"id":"创造力与年龄","name":"创造力与年龄","count":1},{"id":"制度经济学","name":"制度经济学","count":1},{"id":"加性数论","name":"加性数论","count":1},{"id":"包容性制度","name":"包容性制度","count":1},{"id":"医疗应用","name":"医疗应用","count":1},{"id":"半导体","name":"半导体","count":1},{"id":"协同设计","name":"协同设计","count":1},{"id":"单位距离问题","name":"单位距离问题","count":1},{"id":"南非种族隔离","name":"南非种族隔离","count":1},{"id":"卢卡-东契奇","name":"卢卡·东契奇","count":1},{"id":"压缩感知","name":"压缩感知","count":1},{"id":"变换编码","name":"变换编码","count":1},{"id":"可持续能源","name":"可持续能源","count":1},{"id":"可重复性危机","name":"可重复性危机","count":1},{"id":"史蒂夫-乔布斯","name":"史蒂夫·乔布斯","count":1},{"id":"史蒂夫-纳什","name":"史蒂夫·纳什","count":1},{"id":"同伦类型论","name":"同伦类型论","count":1},{"id":"哲学辩论","name":"哲学辩论","count":1},{"id":"国际政治","name":"国际政治","count":1},{"id":"在线教育","name":"在线教育","count":1},{"id":"地缘政治","name":"地缘政治","count":1},{"id":"埃尔德什猜想","name":"埃尔德什猜想","count":1},{"id":"埃罗尔-马斯克","name":"埃罗尔·马斯克","count":1},{"id":"埃隆-马斯克","name":"埃隆·马斯克","count":1},{"id":"基督教与科学","name":"基督教与科学","count":1},{"id":"基础主义","name":"基础主义","count":1},{"id":"基础模型","name":"基础模型","count":1},{"id":"复合工程","name":"复合工程","count":1},{"id":"外交谈判","name":"外交谈判","count":1},{"id":"多伦多大学","name":"多伦多大学","count":1},{"id":"多体物理","name":"多体物理","count":1},{"id":"多智能体协同","name":"多智能体协同","count":1},{"id":"大数假说","name":"大数假说","count":1},{"id":"太空探索","name":"太空探索","count":1},{"id":"孤子理论","name":"孤子理论","count":1},{"id":"学习路径","name":"学习路径","count":1},{"id":"学术写作","name":"学术写作","count":1},{"id":"学术建议","name":"学术建议","count":1},{"id":"学术生态","name":"学术生态","count":1},{"id":"学术研究方法","name":"学术研究方法","count":1},{"id":"学术自传","name":"学术自传","count":1},{"id":"宇宙学","name":"宇宙学","count":1},{"id":"官僚主义改革","name":"官僚主义改革","count":1},{"id":"定理证明","name":"定理证明","count":1},{"id":"家族故事","name":"家族故事","count":1},{"id":"对冲基金","name":"对冲基金","count":1},{"id":"对称性","name":"对称性","count":1},{"id":"对称性破缺","name":"对称性破缺","count":1},{"id":"小平邦彦","name":"小平邦彦","count":1},{"id":"少林寺","name":"少林寺","count":1},{"id":"就业与经济","name":"就业与经济","count":1},{"id":"就业影响","name":"就业影响","count":1},{"id":"工作尊严","name":"工作尊严","count":1},{"id":"工作流","name":"工作流","count":1},{"id":"工程精神","name":"工程精神","count":1},{"id":"幸福与成功","name":"幸福与成功","count":1},{"id":"库珀-弗拉格","name":"库珀·弗拉格","count":1},{"id":"开发环境","name":"开发环境","count":1},{"id":"开发者工具","name":"开发者工具","count":1},{"id":"开发者生产力","name":"开发者生产力","count":1},{"id":"开源模型","name":"开源模型","count":1},{"id":"形式主义","name":"形式主义","count":1},{"id":"彼得-拉克斯","name":"彼得·拉克斯","count":1},{"id":"微分几何","name":"微分几何","count":1},{"id":"心理学","name":"心理学","count":1},{"id":"思维链","name":"思维链","count":1},{"id":"慈善","name":"慈善","count":1},{"id":"慈善事业","name":"慈善事业","count":1},{"id":"慕尼黑安全会议","name":"慕尼黑安全会议","count":1},{"id":"成长型思维","name":"成长型思维","count":1},{"id":"技术监管","name":"技术监管","count":1},{"id":"技能退化","name":"技能退化","count":1},{"id":"投资哲学","name":"投资哲学","count":1},{"id":"推理时计算","name":"推理时计算","count":1},{"id":"提纲写作","name":"提纲写作","count":1},{"id":"摩根大通","name":"摩根大通","count":1},{"id":"播客","name":"播客","count":1},{"id":"政治哲学","name":"政治哲学","count":1},{"id":"数字革命","name":"数字革命","count":1},{"id":"数学反例","name":"数学反例","count":1},{"id":"数学史","name":"数学史","count":1},{"id":"数学基础","name":"数学基础","count":1},{"id":"数学实践","name":"数学实践","count":1},{"id":"数学家传记","name":"数学家传记","count":1},{"id":"数学工作流","name":"数学工作流","count":1},{"id":"数学形式化","name":"数学形式化","count":1},{"id":"数据中心","name":"数据中心","count":1},{"id":"数据效率","name":"数据效率","count":1},{"id":"数据科学","name":"数据科学","count":1},{"id":"文化多样性","name":"文化多样性","count":1},{"id":"文化转型","name":"文化转型","count":1},{"id":"文学编程","name":"文学编程","count":1},{"id":"斯多葛主义","name":"斯多葛主义","count":1},{"id":"无人机","name":"无人机","count":1},{"id":"日本数学","name":"日本数学","count":1},{"id":"日记写作","name":"日记写作","count":1},{"id":"智能代理","name":"智能代理","count":1},{"id":"智能体ai","name":"智能体AI","count":1},{"id":"智能分析","name":"智能分析","count":1},{"id":"更衣室训话","name":"更衣室训话","count":1},{"id":"未来战争","name":"未来战争","count":1},{"id":"未来趋势","name":"未来趋势","count":1},{"id":"机器人技术","name":"机器人技术","count":1},{"id":"杰米-戴蒙","name":"杰米·戴蒙","count":1},{"id":"柏拉图主义","name":"柏拉图主义","count":1},{"id":"查尔斯-巴克利","name":"查尔斯·巴克利","count":1},{"id":"查理-芒格","name":"查理·芒格","count":1},{"id":"标记语言","name":"标记语言","count":1},{"id":"格罗滕迪克","name":"格罗滕迪克","count":1},{"id":"概形","name":"概形","count":1},{"id":"模仿理论","name":"模仿理论","count":1},{"id":"模型应用","name":"模型应用","count":1},{"id":"模型驱动交易","name":"模型驱动交易","count":1},{"id":"模拟宇宙假说","name":"模拟宇宙假说","count":1},{"id":"欧洲创新","name":"欧洲创新","count":1},{"id":"欧洲民主","name":"欧洲民主","count":1},{"id":"欧盟资本市场","name":"欧盟资本市场","count":1},{"id":"欺骗性ai","name":"欺骗性AI","count":1},{"id":"比尔-盖茨","name":"比尔·盖茨","count":1},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","count":1},{"id":"沉思录","name":"沉思录","count":1},{"id":"沙奎尔-奥尼尔","name":"沙奎尔·奥尼尔","count":1},{"id":"波波维奇","name":"波波维奇","count":1},{"id":"泽连斯基","name":"泽连斯基","count":1},{"id":"活文档","name":"活文档","count":1},{"id":"测试时计算","name":"测试时计算","count":1},{"id":"涌现","name":"涌现","count":1},{"id":"深度阅读","name":"深度阅读","count":1},{"id":"湖人三连冠","name":"湖人三连冠","count":1},{"id":"炒作与现实","name":"炒作与现实","count":1},{"id":"热力学第二定律","name":"热力学第二定律","count":1},{"id":"特斯拉","name":"特斯拉","count":1},{"id":"特朗普","name":"特朗普","count":1},{"id":"狄拉克","name":"狄拉克","count":1},{"id":"狄拉克方程","name":"狄拉克方程","count":1},{"id":"理论物理","name":"理论物理","count":1},{"id":"生产力工具","name":"生产力工具","count":1},{"id":"生成式ai","name":"生成式AI","count":1},{"id":"相对论","name":"相对论","count":1},{"id":"知识管理","name":"知识管理","count":1},{"id":"研究方法","name":"研究方法","count":1},{"id":"研究生指南","name":"研究生指南","count":1},{"id":"硅谷","name":"硅谷","count":1},{"id":"社交媒体","name":"社交媒体","count":1},{"id":"社会公平","name":"社会公平","count":1},{"id":"福柯","name":"福柯","count":1},{"id":"离散几何","name":"离散几何","count":1},{"id":"私募股权","name":"私募股权","count":1},{"id":"科学哲学","name":"科学哲学","count":1},{"id":"科学研究","name":"科学研究","count":1},{"id":"科学论文","name":"科学论文","count":1},{"id":"科技史","name":"科技史","count":1},{"id":"科比-布莱恩特","name":"科比·布莱恩特","count":1},{"id":"移民政策","name":"移民政策","count":1},{"id":"稀疏表示","name":"稀疏表示","count":1},{"id":"空间技术","name":"空间技术","count":1},{"id":"竞技长青","name":"竞技长青","count":1},{"id":"笔记技巧","name":"笔记技巧","count":1},{"id":"第一性原理","name":"第一性原理","count":1},{"id":"算法与社会","name":"算法与社会","count":1},{"id":"篮球战术","name":"篮球战术","count":1},{"id":"篮球访谈","name":"篮球访谈","count":1},{"id":"类型论","name":"类型论","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"约束等距性","name":"约束等距性","count":1},{"id":"纯文本写作","name":"纯文本写作","count":1},{"id":"纯粹数学","name":"纯粹数学","count":1},{"id":"线性代数","name":"线性代数","count":1},{"id":"经典阅读","name":"经典阅读","count":1},{"id":"结对编程","name":"结对编程","count":1},{"id":"编程教学","name":"编程教学","count":1},{"id":"编程语言","name":"编程语言","count":1},{"id":"美国ai政策","name":"美国AI政策","count":1},{"id":"美国政府改革","name":"美国政府改革","count":1},{"id":"美国经济","name":"美国经济","count":1},{"id":"美欧关系","name":"美欧关系","count":1},{"id":"翻译","name":"翻译","count":1},{"id":"职业自律","name":"职业自律","count":1},{"id":"职业辩护","name":"职业辩护","count":1},{"id":"联邦政府改革","name":"联邦政府改革","count":1},{"id":"联邦财政","name":"联邦财政","count":1},{"id":"股东信","name":"股东信","count":1},{"id":"股东大会","name":"股东大会","count":1},{"id":"能源","name":"能源","count":1},{"id":"能量基模型","name":"能量基模型","count":1},{"id":"自动驾驶","name":"自动驾驶","count":1},{"id":"自我认知","name":"自我认知","count":1},{"id":"自由意志主义","name":"自由意志主义","count":1},{"id":"自由民主","name":"自由民主","count":1},{"id":"苹果","name":"苹果","count":1},{"id":"苹果公司","name":"苹果公司","count":1},{"id":"药物研发","name":"药物研发","count":1},{"id":"蓝鳍金枪鱼","name":"蓝鳍金枪鱼","count":1},{"id":"虚拟细胞","name":"虚拟细胞","count":1},{"id":"蛋白质折叠","name":"蛋白质折叠","count":1},{"id":"蜂巢思维","name":"蜂巢思维","count":1},{"id":"行为偏差","name":"行为偏差","count":1},{"id":"西部决赛","name":"西部决赛","count":1},{"id":"规模法则","name":"规模法则","count":1},{"id":"规范驱动开发","name":"规范驱动开发","count":1},{"id":"言论自由","name":"言论自由","count":1},{"id":"计算增强生成","name":"计算增强生成","count":1},{"id":"计算数学","name":"计算数学","count":1},{"id":"计算机教育","name":"计算机教育","count":1},{"id":"计算机证明","name":"计算机证明","count":1},{"id":"训练体系","name":"训练体系","count":1},{"id":"论文写作","name":"论文写作","count":1},{"id":"论文撰写","name":"论文撰写","count":1},{"id":"访谈实录","name":"访谈实录","count":1},{"id":"詹姆斯-西蒙斯","name":"詹姆斯·西蒙斯","count":1},{"id":"语言学","name":"语言学","count":1},{"id":"诺贝尔经济学奖","name":"诺贝尔经济学奖","count":1},{"id":"谷歌","name":"谷歌","count":1},{"id":"贝叶斯方法","name":"贝叶斯方法","count":1},{"id":"财政削减","name":"财政削减","count":1},{"id":"资本配置","name":"资本配置","count":1},{"id":"超级智能","name":"超级智能","count":1},{"id":"超级计算","name":"超级计算","count":1},{"id":"跨领域训练","name":"跨领域训练","count":1},{"id":"身体转型","name":"身体转型","count":1},{"id":"软件工程范式","name":"软件工程范式","count":1},{"id":"软件开发最佳实践","name":"软件开发最佳实践","count":1},{"id":"软件开发未来","name":"软件开发未来","count":1},{"id":"运动恢复","name":"运动恢复","count":1},{"id":"还原论","name":"还原论","count":1},{"id":"通用人工智能","name":"通用人工智能","count":1},{"id":"重整化","name":"重整化","count":1},{"id":"量化交易","name":"量化交易","count":1},{"id":"金融服务","name":"金融服务","count":1},{"id":"金融监管","name":"金融监管","count":1},{"id":"阅读方法","name":"阅读方法","count":1},{"id":"集合论","name":"集合论","count":1},{"id":"非虚构阅读","name":"非虚构阅读","count":1},{"id":"预训练","name":"预训练","count":1},{"id":"领导力","name":"领导力","count":1},{"id":"香农信息熵","name":"香农信息熵","count":1},{"id":"马刺","name":"马刺","count":1},{"id":"马库斯-奥勒留","name":"马库斯·奥勒留","count":1}],"moduleNavItems":[{"id":"essays","label":"Essays","href":"/?label=Essays","order":40,"icon":"BookOpen","count":62},{"id":"talks","label":"Talks","href":"/?label=Talks","order":42,"icon":"Video","count":165},{"id":"reports","label":"Reports","href":"/?label=Reports","order":41,"icon":"FileText","count":36},{"id":"notes","label":"Notes","href":"/?label=Notes","order":30,"icon":"Eye","count":78}],"children":"$L10"}]]}]]}]
+10:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"min-h-screen px-12 py-12 font-sans text-slate-900","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n            (function () {\n              var pathname = window.location.pathname || '';\n              var canonicalPrefix = '/hinbox';\n\n              if (/^/hinbox(?:/|$)/i.test(pathname) && pathname !== pathname.replace(/^/hinbox/i, canonicalPrefix)) {\n                var target = pathname.replace(/^/hinbox/i, canonicalPrefix) + window.location.search + window.location.hash;\n                window.location.replace(target);\n                return;\n              }\n            }());\n          "}}],["$","div",null,{"className":"mx-auto flex min-h-[60vh] max-w-2xl flex-col justify-center gap-4","children":[["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"页面未找到"}],["$","p",null,{"className":"text-base leading-7 text-slate-600","children":"如果你是从大写路径进入本站，系统会自动跳转到小写的规范地址。"}],["$","p",null,{"className":"text-base","children":["返回首页：",["$","a",null,{"className":"text-sky-600 underline underline-offset-4","href":"/hinbox/","children":"/hinbox/"}]]}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+11:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+12:T13aa6,<h1>Category Theory Illustrated - Types</h1>
+<p><a href="https://abuseofnotation.github.io/category-theory-illustrated/06_type/">原文链接</a></p>
+<p>在范畴论语境下，“类型”不仅是编程中的基础构件，更指向一种深刻的数学基础理论。本文从习以为常的“集合”概念切入，揭示了这种直观思维潜藏的深层危机——罗素悖论。当试图定义“所有不包含自身的集合”时，朴素集合论便陷入了无法自洽的逻辑死循环。面对这一困境，数学界分化出两条路径：其一是以ZFC集合论为代表，通过增添诸多限制性公理来“打补丁”，代价是牺牲了集合论原本引以为傲的简单性；其二则是罗素本人的选择，即完全抛弃集合，另起炉灶构建一种在底层设计上就天然免疫悖论的全新体系——类型理论。本文以清晰的逻辑脉络，引导读者跳出“以集合为中心”的思维定势，一窥类型理论作为替代性数学基础语言的严谨与优雅。</p>
+<hr>
+<h2>类型</h2>
+<p>在本章中我们将讨论类型。如果你期望学习尽可能多的 <em>新</em> 范畴（在你甚至都未怀疑它们真的是范畴，直到意外揭晓之前），这可能会让你感到失望——从第一章起，我们就一直在讨论给定编程语言中的类型范畴（category of types），而且我们已经知道它们是如何形成一个范畴的。然而，类型不仅仅关乎编程语言。它们也不仅仅是另一个范畴。它们还处于一个被称为 <em>类型理论（type theory）</em> 的数学理论的核心。</p>
+<p>作为数学的基础语言，类型理论是集合论（set theory）以及范畴论本身的替代方案，并且它和那些形式化体系中的任何一个一样，都是强大的工具。</p>
+<h3>集合、类型与罗素悖论</h3>
+<p>我们又开始了谈论集合。大多数关于范畴论（以及一般数学）的书都以集合开头，并且经常回到集合。即使在一本像这样关于范畴论的书中，大多数数学对象的标准定义也涉及集合。确实，在听到幺半群（monoids）是单对象范畴的定义时，一个只懂集合的人可能会说：</p>
+<blockquote>
+<p>“忘掉那个吧！你见过集合吗？这是同一回事，只不过你还有这个二元运算。”</p>
+</blockquote>
+<p>或者对于作为单态射范畴的 <em>序</em>（orders）：</p>
+<blockquote>
+<p>“你见过集合吗？这是同一回事，只不过某些元素比其他元素大。”</p>
+</blockquote>
+<p>这种 <em>“以集合为中心”</em> 的观点普遍存在的原因其实很简单：<em>集合很容易理解</em>，特别是当我们在入门材料惯有的概念层面上进行操作时。</p>
+<p>例如，我们都会把给定活动所需的一组用品归拢在一起（例如，数学课上的 <em>量角器</em>、<em>圆规</em> 和 <em>铅笔</em>，或者画画时的 <em>纸</em>、<em>颜料罐</em> 和 <em>画笔</em>），以免忘记其中的某一些。或者我们将经常一起闲逛的人归为这个或那个群体。因此，当我们在几样东西周围画一个圈时，每个人都知道我们在谈论什么。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/sets.svg" alt="集合"></p>
+<p>然而，这种对集合的初步理解有些 <em>过于简单</em> 了（或者如数学家所称的，<em>朴素（naive）</em>），因为当仔细审视它时，它会导致一堆不易解决的悖论，其中最著名的就是罗素悖论。</p>
+<h3>罗素悖论</h3>
+<p>罗素悖论本身就很有趣，除此之外，它也是创建类型理论的动机之一，因此我们将通过理解它是如何以及为何发生的来开始本章。</p>
+<p>我们见过的大多数集合（如空集和单元素集合）都不包含 <em>它们自己</em>。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/sets_dont_contain_themselves.svg" alt="不包含自身的集合"></p>
+<p>然而，由于集合的元素本身也是集合，<em>一个集合可以包含它自己</em>。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/set_contains_itself.svg" alt="包含自身的集合"></p>
+<p>这种能力是罗素悖论的根本原因。</p>
+<p>当我们试图将 <em>所有不包含自身的集合的集合</em> 可视化时，这个悖论就出现了。在最初的集合记法中，它可以被定义为这样一个集合：它包含所有满足 $x$ 不是 $x$ 的成员（即 $x \mid x \notin x$）的集合 $x$。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/russells_paradox.svg" alt="罗素悖论 - 选项一"></p>
+<p>然而，这幅图有些问题——如果我们看看定义，我们会发现我们刚刚定义的这个集合 <em>也不包含它自己</em>，因此它也属于那里。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/russells_paradox_2.svg" alt="罗素悖论 - 选项一"></p>
+<p>嗯，这里也有点不对劲——因为我们所做的新的调整，我们的集合现在 <em>包含了它自己</em>。</p>
+<p>而移除这个集合，使其不再是自身的元素，只会把我们带回到起点，所以我们无路可走——这就是罗素悖论。</p>
+<h3>用集合解决悖论</h3>
+<p>不包含自身的集合的集合听起来不像是一个非常有用的集合。而且它确实不是——事实上，除了构建罗素悖论之外，我没见过它因为任何其他原因被提及。因此，大多数人在了解罗素悖论时的最初反应会是这样的：</p>
+<blockquote>
+<p>“等等，难道我们不能直接加一些规则，说你不能画出不包含自身的集合的集合吗？”</p>
+</blockquote>
+<p>这正是数学家 Ernst Zermelo 和 Abraham Fraenkel 着手做的事情（无意双关）。他们添加的额外规则导致了集合论的一个新定义，被称为 Zermelo–Fraenkel 集合论（Zermelo–Fraenkel set theory），或 ZFC（末尾的 C 是另外的故事），这是一个没有悖论的集合论版本。ZFC 取得了成功，并且至今仍在使用，然而它妥协了集合所拥有的最好的特性之一，即它们的 <em>简单性</em>。</p>
+<p>我们这是什么意思？嗯，集合论的最初表述（如今被称为朴素集合论（naive set theory））仅仅基于一条（相当模糊的）规则/公理：“给定一个性质 P，存在一个集合，包含所有具有该性质的对象”，即任何一堆对象都可以形成一个集合。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/naive_sets.svg" alt="朴素集合论"></p>
+<p>相比之下，ZFC 由数量更多（且更具限制性）的公理来定义，例如，配对公理（axiom of pairing），它指出给定任何两个集合，存在一个包含它们作为元素的集合。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/zfc_pairing.svg" alt="ZFC 中的配对公理"></p>
+<p>……或者并集公理（the axiom of union），它指出如果你有两个集合，你也就有了一个包含它们所有元素的集合。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/zfc_union.svg" alt="ZFC 中的并集公理"></p>
+<p>总共有大约 8 条这样的公理（取决于理论的流派）。它们以一种允许我们构建所有有趣的集合，同时又无法构建那个臭名昭著的包含自身的集合的方式被策划出来。然而，接受 ZFC 将意味着接受集合论并不像它看起来那样简单直接。</p>
+<p>确实，它比范畴论更复杂，也比我们稍后将要学习的另一种理论更复杂……</p>
+<h3>用类型解决悖论</h3>
+<p>当 Zermelo 致力于完善集合论的公理以避免罗素悖论时，Russell 本人采取了一条不同的路线来解决他的悖论，并决定完全抛弃集合，开发一个在 <em>设计上</em> 就没有悖论的全新数学概念——一个你不需要用额外的公理来打补丁以避免出现不合逻辑的构造的概念。因此，在 1908 年，即 Zermelo 发布 ZFC 第一个版本的同年，Russell 提出了他的 <em>类型理论（theory of types）</em>。</p>
+<p>类型理论与集合论完全不相似，但同时，它与集合论也并非完全不同，因为 <em>类型（types）</em> 和 <em>项（terms）</em> 的概念明显让人联想到 <em>集合</em> 和 <em>元素</em> 的概念。</p>
+<table>
+<thead>
+<tr>
+<th>理论</th>
+<th>集合论</th>
+<th>类型理论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>元素</td>
+<td>项</td>
+</tr>
+<tr>
+<td>属于一个</td>
+<td>集合</td>
+<td>类型</td>
+</tr>
+<tr>
+<td>记法</td>
+<td>$a \in A$</td>
+<td>$a : A$</td>
+</tr>
+</tbody>
+</table>
+<p>当涉及 <em>结构</em> 时，两者之间最大的区别在于项绑定到了它们的类型上。</p>
+<p>因此，虽然在集合论中，一个元素可以是许多集合的成员</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/set_subset.svg" alt="一个集合与一个子集"></p>
+<p>在类型理论中，一个项只能拥有一个类型。（注意小圆圈里的红球与大圆圈里的红球是不同的）</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/type_subtype.svg" alt="一个类型与一个子类型"></p>
+<p>由于这条定律，类型不能包含它们自己，因此罗素悖论被完全避免了。</p>
+<p>这条定律听起来可能很奇怪，例如因为一个项只能属于一个类型，在类型理论中，自然数 1 被记为 $1 : \mathbb{N}$，并且它是与整数 1（记为 $1 : \mathbb{Z}$）完全独立的对象</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/int_nat_type.svg" alt="一个集合与一个子集"></p>
+<p>只有当我们意识到我们总是可以使用我们在第一章学到的像函数（image function）将值的一个版本转换为另一个版本时，它才开始变得有些道理。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/int_nat_type_function.svg" alt="一个集合与一个子集"></p>
+<p>正如您很快就会看到的，类型的概念与函数的概念有很大关系。</p>
+<h3>什么是类型理论</h3>
+<blockquote>
+<p>“每一个命题函数（propositional function）φ(x)——人们如此主张——除了它的真值范围（range of truth）之外，还有一个意义范围（range of significance），也就是说，如果 φ(x) 根本上要成为一个命题（无论真假），x 必须落在该范围内。这是类型理论的第一个要点；第二个要点是，意义范围构成了类型，即，如果 x 属于 φ(x) 的意义范围，那么就会存在一个对象类，即 x 的<em>类型</em>，该类中的所有对象也必定属于 φ(x) 的意义范围” — 罗素 - Principles of Mathematics</p>
+</blockquote>
+<p>在上一节中，我们差点掉进把类型解释为“像集合，但是……”的陷阱中（例如，它们像集合，但一个项只能是一个类型的成员）。然而，尽管这在技术层面上可能是对的，任何这样的解释都完全不合时宜，因为，虽然类型最初是作为集合的替代方案出现的，它们最终却变得相当不同。因此，用集合来思考是走不远的。确实，如果我们把上一节中那位典型的集合论学者请出来，问他们关于类型的事，他们真实的回答必定会是：</p>
+<blockquote>
+<p>“你见过集合吗？好吧，这跟它一点关系都没有。”</p>
+</blockquote>
+<p>那么，让我们看看如何正当地定义一个类型理论。</p>
+<p>但首先……</p>
+<p>在我们开始之前，让我们先把这段长长的免责声明解决掉：</p>
+<p>请注意，在上一句话中我们说的是 <em>a</em> type theory（一种类型理论），而不是“type theory”或“the type theory”。这是因为，并不存在唯一的一种类型理论，而是有许多不同（尽管相互关联的）类型理论的表述，令人困惑的是，它们被称为类型 theories（而不那么令人困惑的叫法是类型系统），例如简单类型 lambda 演算或多态 Lambda 演算。出于这个原因，谈论 <em>a</em> type theory 是有道理的。</p>
+<p>我把你们弄糊涂了吗？没有？</p>
+<p>在某些语境下，“type theory”这一术语（不可数）指的是研究类型理论的整个领域，就像范畴论是研究范畴的一样。但是，（深吸一口气）你有时可以把不同的类型系统看作“类型理论的不同版本”，因此，当人们谈论一组给定的、所有类型系统共有的特征时，他们有时会使用“type theory”一词来指代任何具有这些特征的随意的类型系统。</p>
+<h3>什么是类型？</h3>
+<p>无论如何，让我们回到我们的主题（不管我们想怎么称呼它）。正如我们所说，类型理论诞生于罗素的探索，他试图找到一种方法来定义所有<em>有趣的</em>对象集合，而又不会意外地定义出把我们引入歧途的集合（例如，导致他那个同名的悖论），且无需凭空捏造大量额外的公理（像 ZFC 那样）。</p>
+<p>他思考了很多（至少我想象他思考了），并设法设计出了一个符合所有这些标准的形式系统，基于一个革命性的新想法……这基本上就是处于范畴论核心的同一个想法（我不知道为什么他从未因为是一个范畴论先驱而获得赞誉）。这个想法如下：那些<em>有趣的</em>集合，那些我们首要想谈论的集合，就是<em>作为函数源和目标的集合</em>。我们或许可以这样说。</p>
+<blockquote>
+<p>类型是可以作为箭头的源和/或目标的事物。</p>
+</blockquote>
+<p>（为了使定义更通用，我们使用了更通用的术语——“箭头”，但目前你可以把箭头想象成函数。）</p>
+<p>让我们再想一想那个不包含自身的所有集合的集合。除了是罗素悖论的起因之外，这个集合相当无用（除非我们把引发悖论算作有用）。如果我们深入挖掘，最终会发现原因：没有任何（有趣的）函数从任何其他集合指向这个集合，所以我们<em>无法从任何地方到达它</em>。反过来，我们也无法从它到达任何地方（也没有以它为源的函数）。这个集合就像是沙漠中心的一片绿洲……或者是大绿洲中心的一片小沙漠……如果你能想到什么好比喻，请联系我。</p>
+<h3>构建类型</h3>
+<p>我们看到，就其<em>产生的结构</em>而言，类型理论与集合论并没有太大区别——所有的类型（至少在第一层级上）都是集合，尽管并非所有的集合都是类型。而所有的函数都是……嗯，函数。然而，就<em>结构产生的方式</em>而言，类型理论与集合论截然不同，就像逻辑的直觉主义方法不同于经典方法一样（顺便说一句，如果这个比喻让类型理论和直觉主义逻辑之间的联系对你来说太明显了，帮个忙，请不要提及它，并在我们明确指出它时装出惊讶的样子）。</p>
+<p>在集合论中，（特别是在其朴素版本中）所有可能的集合和函数<em>从一开始就在那里了</em>，就像柏拉图的理念世界一样。我们所做的仅仅是探索那些我们感兴趣的。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/set_theory_functions.svg" alt="集合论中的集合与函数"></p>
+<p>在类型理论中，我们从一个空的空间开始。</p>
+<p><em>[图表省略]</em></p>
+<p>从那里，我们必须构建我们的类型。一个接一个。用我们的双手（好吧，我们确实有一些很酷的数学工具来协助我们）。</p>
+<h3>类型形成、项引入与项消去</h3>
+<blockquote>
+<p>“通常，我们可以把数据看作是由选择器和构造器的某种集合定义的，加上这些过程为了成为有效表示而必须满足的特定条件。” — Harold Abelson, Gerald Jay Sussman, Julie Sussman — Structure and Interpretation of Computer Programs</p>
+</blockquote>
+<p>在介绍构建类型的具体公式之前，我想详细说明一下总体思路。在上一节中，我们说到：</p>
+<blockquote>
+<p>类型是可以作为箭头的源和/或目标的事物。</p>
+</blockquote>
+<p>这个定义可能看起来有点模糊，但当我们看看计算机编程中类型是如何定义的时，它就变得微不足道了。很明显，即使是通过传统命令式语言的视角来看，类型的定义也包含了用于构造函数（以及更一般的箭头）的规则的定义。</p>
+<pre><code>class MyType&#x3C;A> {
+
+  a: A;
+  constructor(a) {
+    this.a = a;
+  }
+
+  getA() {
+    return this.a;
+  }
+
+}
+</code></pre>
+<p>哪些种类的规则？我们可以将它们分为三类。</p>
+<p>首先，一个类型必须有一个<em>定义</em>来指明它是什么。请注意，这个箭头与我们通常认为的箭头不同——它不是一个值级箭头（从一个类型指向另一个类型），而是一个类型级箭头（从一个类型范畴指向另一个）。这被称为<em>类型形成规则</em>。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/rule_type_formation.svg" alt="表示为球体的类型"></p>
+<p>接下来，一个类型必须至少有一个指向这个新类型的箭头。这被称为<em>项引入规则</em>（“项”是“值”的对应词）。在编程中，它被称为<em>构造器</em>，并且它是一个值级箭头（例如函数）。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/rule_term_introduction.svg" alt="一个类型及一个指向它的箭头"></p>
+<p>最后，由于我们不想仅仅为了构造新类型而构造类型，一个类型必须至少有一个<em>从</em>这个新类型出发的箭头。这是一个被称为<em>项消去规则</em>的值级箭头（函数）（就好像我们通过用方法的结果替换掉该类型，从而“消去”了它一样）。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/rule_term_elimination.svg" alt="一个类型及一个从它出发的箭头"></p>
+<p>综上所述</p>
+<blockquote>
+<p>一个类型是通过定义以下三个箭头来定义的：</p>
+<ol>
+<li>一个类型级箭头（类型形成）。</li>
+<li>至少一个以该类型为目标的值级箭头（项引入）。</li>
+<li>至少一个以它为源的值级箭头（项消去）。</li>
+</ol>
+</blockquote>
+<p>好了，我觉得我们在没有真正定义类型理论的情况下，试图去定义类型理论走得有点太远了，所以我们将继续讲公式……在我们的第二段长免责声明之后。</p>
+<p>正如我们在第一段长免责声明中所说，并不存在唯一的一种类型理论，而是有许多类型理论。所以如果我们想要做类型理论，我们必须首先挑选 <em>a</em> type theory（如果这句话让你困惑，请重读第一段免责声明）。</p>
+<p>选择一个类型理论（或者我们称之为类型系统），也涉及到选择一个用来描述该理论的<em>语言</em>。当听到关于语言时，程序员可能会想到流行的、功能丰富的编程语言，如 TypeScript 或 Java。另一方面，<em>类型理论家</em>有不同的偏好——因为他们感兴趣的是类型系统，而不是语言，他们并不真正关心语言特性，因此他们大多数人选择的语言是可能存在的最简单、最极简的语言，即 <em>Lambda Calculus</em>（Lambda 演算）。如果你没听说过它，这是一种只有（匿名）函数而别无其他的语言。</p>
+<p>为了让双方都满意，（同时也让双方都感到恼火），我们将采用一种介于两者之间的语言——即（一个子集）<em>Haskell</em>。这在理论上不会有太大区别，因为 Haskell 是基于 Lambda 演算的，但会让程序员更容易接受：与只有函数的 Lambda 演算不同，Haskell 支持将积构造器定义为原语（这从形式化的角度来看本身没有区别，因为我们可以通过柯里化和反柯里化轻松地从积转换到函数）。</p>
+<p>另外，最后但同样重要的是，Haskell 的构造器和函数可以拥有名称（相信我，这很有帮助）。</p>
+<p>既然我们选择了 Haskell，我们将在 Haskell 的类型理论/类型系统中工作。这是一个由 Jean-Yves Girard 在 1972 年发现的类型系统，被称为 <em>Polymorphic Lambda Calculus</em>（多态 Lambda 演算）或 <em>System F</em>。</p>
+<h3>Unit 类型</h3>
+<p>我们从一个空的空间开始，此时什么都没有定义，除了单例类型，在 Haskell 中被称为 $U n i t$ 类型。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/unit_type.svg" alt="一个空图，仅包含 Unit 类型"></p>
+<p>一种只有一个值的类型，我们可以用作起点。</p>
+<blockquote>
+<p>$U n i t$ 类型（$1$）是具有一个值的类型。</p>
+</blockquote>
+<h3>Lambda 类型</h3>
+<p>实际上还有一个不太容易解释的前提：即针对每一对对象的<em>箭头类型</em>（arrow types），被称为 <em>Lambda</em> 类型。在 Lambda 演算中，类型之间的箭头也是类型（这一特征在编程语境中有时被称为“一等函数”）。</p>
+<blockquote>
+<p>对于任意类型 $A$ 和 $B$，存在一个类型 $A \rightarrow B$，称为 $A$ 和 $B$ 的 <em>Lambda</em> 类型，它以所有连接 $A$ 和 $B$ 的箭头作为值。</p>
+</blockquote>
+<p>我们在这里不会详述，因为 Lambda 类型的定义与工作方式与上一章所定义的直觉主义逻辑中的蕴涵对象相同。正如你将学到的，它也发挥着相同的作用。</p>
+<h3>基本类型。布尔类型</h3>
+<p>一旦有了一个起点，我们就可以定义一些类型。但如何定义呢？让我们从基本类型开始，比如<em>布尔值</em>。对于它们，这个过程非常简单，因为我们可以直接<em>列出它们的值</em>。</p>
+<p>$$
+\begin{aligned}
+\mathsf{Bool} &#x26; : \mathsf{Type} \\
+\mathsf{True} &#x26; : \mathsf{Bool} \\
+\mathsf{False} &#x26; : \mathsf{Bool}
+\end{aligned}
+$$</p>
+<p>让我们过一遍这个定义：</p>
+<h3>类型形成</h3>
+<p>首先，$\mathsf{Bool} : \mathsf{Type}$ 表示存在一个我们称之为“Bool”的类型。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/bool_type_empty.svg" alt="The Boolean type without values --- an empty circle"></p>
+<h3>项引入</h3>
+<p>然后，$\mathsf{True} : \mathsf{Bool}$ 表示“$\mathsf{True}$ 是一个布尔值”，即它为这个新创建的数据类型添加了一个值。在图中，我们将把它表示为一个从单元素类型（在 Haskell 中称为 $\mathsf{Unit}$ 类型）出发的箭头，正如第 2 章中集合范畴的基本理论所述。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/bool_type_true.svg" alt=" The Boolean type with one value: a circle with one ball --- True"></p>
+<p>而 $\mathsf{False} : \mathsf{Bool}$ 创建了另一个这样的值。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/bool_type_full.svg" alt="The full Boolean type: a circle with two balls True and False"></p>
+<p>看哪，我们刚刚定义了一个类型！</p>
+<h3>项消去</h3>
+<p>等等，划掉那句。实际上我们还没有定义一个类型。或者说我们确实定义了一个，但它毫无用处。因为只有当我们定义了至少一个<em>从</em>它出发的箭头时，它才会变得有用（否则，它只是一条单行道）。对于布尔类型，这个函数通常被称为 $\mathsf{ifElse}$。</p>
+<p>$$
+\begin{aligned}
+\mathsf{ifElse} &#x26;: \forall a . \mathsf{Bool} \rightarrow a \rightarrow a \rightarrow a \\
+\mathsf{ifElse}\ \mathsf{True}\ a\ b &#x26;= a \\
+\mathsf{ifElse}\ \mathsf{False}\ a\ b &#x26;= b
+\end{aligned}
+$$</p>
+<p>你可以看到，在 Haskell 中定义函数非常基础——你只需将一个类型的每个单独的值映射到另一个类型的值。</p>
+<p>以下是一些使用该函数的表达式，并附有它们返回值的说明（<code>--</code> 是 Haskell 的注释语法）</p>
+<pre><code class="language-haskell">ifElse True 1 2 --1
+ifElse False 1 2 --2
+</code></pre>
+<h3>类型之间的同构</h3>
+<p>但是为什么（冒着重复自己的风险）这个特定的类型必须是布尔类型呢？是什么阻止了我们的同事 Bobby——那个总是想按自己的方式做一切事情的人——去定义他们自己的布尔版本并在他们的项目中使用它呢。</p>
+<p>$$
+\begin{aligned}
+\mathsf{BobbysBool} &#x26; : \mathsf{Type} \\
+\mathsf{BobbysTrue} &#x26; : \mathsf{BobbysBool} \\
+\mathsf{BobbysFalse} &#x26; : \mathsf{BobbysBool}
+\end{aligned}
+$$</p>
+<p>答案是“什么都没有”。但这并不是什么大问题——我们可以直接迅速拼凑出一个函数，将他们的 Bool 转换为我们的：</p>
+<p>$$
+\begin{aligned}
+\mathsf{convertBobbysBool} &#x26;: \mathsf{BobbysBool} \rightarrow \mathsf{Bool} \\
+\mathsf{convertBobbysBool}\ \mathsf{BobbysTrue} &#x26;= \mathsf{True} \\
+\mathsf{convertBobbysBool}\ \mathsf{BobbysFalse} &#x26;= \mathsf{False}
+\end{aligned}
+$$</p>
+<p>这个函数也是可逆的。这意味着这两个类型是同构的，即它们是同一个类型，<em>相差一个（唯一的）同构</em>。</p>
+<h3>其他基本类型</h3>
+<p>差点忘了：就像我们构造布尔类型一样，我们可以构造任何其他有限/基本类型，比如球的类型。</p>
+<p>$$
+\begin{aligned}
+\mathsf{Ball} &#x26; : \mathsf{Type} \\
+\mathsf{OrangeBall} &#x26; : \mathsf{Ball} \\
+\mathsf{RedBall} &#x26; : \mathsf{Ball} \\
+\mathsf{YellowBall} &#x26; : \mathsf{Ball}
+\end{aligned}
+$$</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/balls_construct.svg" alt="The type of balls: a circle with several colorful balls"></p>
+<h3>多态类型。Maybe 类型</h3>
+<p>现在，我们将定义在 Haskell 中被称为 $M a y b e$ 的类型（在其他语言中通常被称为 $O p t i o n$）。如果你没有遇到过它，Haskell 文档提供了一个非常好的描述：</p>
+<blockquote>
+<p>The Maybe type encapsulates an optional value. A value of type Maybe a either contains a value of type a (represented as $J u s t \left[\right. a \left]\right.$), or it is empty (represented as $N o t h i n g$). Using $M a y b e$ is a good way to deal with errors or exceptional cases without resorting to drastic measures such as error.</p>
+</blockquote>
+<p>但是，一旦你学会了阅读它，类型定义本身就已经足够清晰了：</p>
+<p>$$
+\begin{aligned}
+\mathsf{Maybe} &#x26; : \mathsf{Type} \rightarrow \mathsf{Type} \\
+\mathsf{Nothing} &#x26; : \forall a . \mathsf{Maybe}[a] \\
+\mathsf{Just} &#x26; : \forall a . a \rightarrow \mathsf{Maybe}[a]
+\end{aligned}
+$$</p>
+<h3>类型形成</h3>
+<p>$M a y b e$ 看起来很像 $B o o l$，但是，与 $B o o l$ 不同，$M a y b e$ 是一个<em>多态</em>类型，正如我们通过查看<em>类型形成规则</em>所能看出的那样</p>
+<p>$$
+\mathsf{Maybe} : \mathsf{Type} \rightarrow \mathsf{Type}
+$$</p>
+<p>Maybe 是多态的，即不仅有一个 $M a y b e$，而是有许多 $M a y b e$——每个类型 <code>a</code> 对应一个。例如，让我们以类型 $B o o l$ 为例。因为 $B o o l$ 是一个类型，那么（根据这条规则）$M a y b e \left[\right. B o o l \left]\right.$ 也是一个类型。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/maybe_type_empty.svg" alt="The Maybe Boolean type without values --- A type-universe function, connecting the Bool circle to a new empty circle."></p>
+<p>多态类型是从类型宇宙（universe of types）到其自身的箭头（即 $M a y b e$ 的 kind 是 $T y p e \rightarrow T y p e$），而 $B o o l$ 只是一个 $T y p e$。</p>
+<h3>项引入：Nothing</h3>
+<p>现在，是时候填充我们的类型了。</p>
+<p>第一行与我们之前在布尔类型中看到的类似。</p>
+<p>$$
+\mathsf{Nothing} : \forall a . \mathsf{Maybe}[a]
+$$</p>
+<p>它表示对于所有的 $M a y b e$ 类型，都有一个名为 $N o t h i n g$ 的值（这就是 $\forall$ 的含义——“对于所有”）。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/maybe_type_nothing.svg" alt="The Maybe Boolean type without values: A type-universe function, connecting the Bool circle to a new empty circle."></p>
+<h3>项引入：Just</h3>
+<p>当然，如果所有的 $M a y b e$ 都一样，那么拥有许多 $M a y b e$ 就毫无意义。这就是第二行发挥作用的地方。</p>
+<p>$$
+\mathsf{Just} : \forall a . a \rightarrow \mathsf{Maybe}[a]
+$$</p>
+<p>构造器 $J u s t$ 表示一个从类型 $a$ 到类型 $M a y b e \left[\right. a \left]\right.$ 的箭头，例如从 $B o o l e a n$ 到 $M a y b e \left[\right. B o o l e a n \left]\right.$。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/maybe_type_full.svg" alt="The $Maybe Boolean$ type without values: A type-universe function, connecting the Bool circle to a new empty circle."></p>
+<h3>使用 Maybe</h3>
+<p>$M a y b e$ 类型用于处理错误，即用于定义<em>偏函数</em>。假设我们想要定义一个函数，该函数并不为源中的所有值都提供箭头。这是否意味着这个函数无法被定义？</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/isprime_int_bool.svg" alt="A partial function from  $Nat$ to $Boolean$: returns False for composite numbers, True for primes and is not defined for 0 and 1"></p>
+<p>不，我们只需将目标类型包裹在 $M a y b e$ 中，它就变成了一个常规函数。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/isprime_int_maybe_bool.svg" alt="A function from  $Nat$ to $Maybe Boolean$: returns $Just False$ for composite numbers, $Just True$ for primes and $Nothing$ for 0 and 1"></p>
+<h3>项消去</h3>
+<p>为了结束这个话题，我们定义了一个用于解构/消去类型 maybe 的函数，即通过使用一个转换其底层类型的函数，将其转换为其他东西。</p>
+<p>$$
+\begin{aligned}
+\mathsf{maybe} &#x26;: \forall a b . b \rightarrow (a \rightarrow b) \rightarrow \mathsf{Maybe}[a] \rightarrow b \\
+\mathsf{maybe}\ n\ f\ \mathsf{Nothing} &#x26;= n \\
+\mathsf{maybe}\ n\ f\ (\mathsf{Just}\ x) &#x26;= f\ x
+\end{aligned}
+$$</p>
+<p>请注意，这个函数定义了一个从类型 $M a y b e \left[\right. a \left]\right.$ 到任意类型 $b$ 的箭头，前提是提供了一个函数 $a \rightarrow b$ 和一个 $b$ 的值。</p>
+<h3>归纳类型：自然数类型</h3>
+<p>初学数学时可能会感到不知所措：面对如此庞大甚至无限的知识体系，你或许不知从何入手。但事实证明答案很简单：你从知道 0 件事开始。然后，你学了 1 个理论——恭喜，你学到了你的第一个理论，因此总共会知道 1 个理论。然后，你又学了 1 个理论，于是你总共已经知道了 2 个理论。接着再学 1 个理论，然后再学 1 个，只要给予足够的时间和投入，你可能会学到所有的理论。</p>
+<p>可以说，这个论证不仅适用于数学理论，也适用于所有其他“可数”的事物。因为这是自然数数学定义的基础，正如 19 世纪意大利数学家 Giuseppe Peano 所著名总结的那样：</p>
+<ol>
+<li>$0$ 是自然数。</li>
+<li>如果 $n$ 是自然数，$n + 1$ 是自然数。</li>
+</ol>
+<p>或者如 Haskell 程序员所说：</p>
+<p>$$
+\begin{aligned}
+\mathbb{N} &#x26; : \mathsf{Type} \\
+\mathsf{Zero} &#x26; : \mathbb{N} \\
+\mathsf{Succ} &#x26; : \mathbb{N} \rightarrow \mathbb{N}
+\end{aligned}
+$$</p>
+<p>让我们顺着箭头看。</p>
+<h3>类型形成</h3>
+<p>第一行表明自然数类型是一个普通的非多态，或者说“单态”（monomorphic）的类型。</p>
+<p>$$
+\mathbb{N} : \mathsf{Type}
+$$</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/nat_type_empty.svg" alt="没有值的自然数类型 --- 一个空圆"></p>
+<h3>项引入：零（Zero）</h3>
+<p>第一条规则同样显而易见。</p>
+<p>$$
+\mathsf{Zero} : \mathbb{N}
+$$</p>
+<p>它允许我们构造一个值，称为零（Zero）</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/nat_type_zero.svg" alt="添加了 Zero 的自然数类型 --- 一个圆，包含一个球 - &#x22;0&#x22;"></p>
+<p>即这是对 Giuseppe Peano 第一条公理的<em>逐字</em>重复。</p>
+<blockquote>
+<ol>
+<li>$0$ 是自然数。</li>
+</ol>
+</blockquote>
+<h3>项引入：后继（Successors）</h3>
+<p>第二条规则更有趣些。</p>
+<p>$$
+\mathsf{Succ} : \mathbb{N} \rightarrow \mathbb{N}
+$$</p>
+<p>它说存在一个称为“后继”的构造器 $Succ$（或者按我们的叫法 <code>+1</code>），即这等价于</p>
+<blockquote>
+<ol>
+<li>如果 $n$ 是自然数，$n + 1$ 是自然数。</li>
+</ol>
+</blockquote>
+<p>$Succ$ 是一个从自然数类型指向自身的箭头，这意味着给定一个自然数，$Succ$ 会构造出另一个。</p>
+<p>但现在我们只有自然数类型的一个项（值）：$Zero$。我们画出 $Succ$ 箭头并构造出另一个，$Succ Zero$（在某些语境下称为 $1$。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/nat_type_one_double_diagram.svg" alt="自然数类型的后继函数 --- 0 指向 s(0)"></p>
+<p>现在，我们多了一个值，所以必须再画一个 $Succ$ 箭头。这次的结果是 $Succ Succ Zero$，即二。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/nat_type_two_double_diagram.svg" alt="自然数类型的后继函数 --- 0 指向 s(0)，s(0) 指向 s(s(0))"></p>
+<p>我们像这样继续下去，<em>以至无限</em>，创造出一条无尽的值链。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/nat_type_full.svg" alt="自然数类型：0, s(0), s(s(0)), s(s(s(0))) 等"></p>
+<p>嗯，这种记法有点笨拙，要是能有更好的方式来表示这些值就好了……哦，等等。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/nat_type_full_normal.svg" alt="自然数类型：0, 1, 2, 3 等"></p>
+<p>这就是你定义<em>归纳</em>类型（inductive type）（或者我们也可以称之为<em>递归</em>类型（recursive type））的方式。</p>
+<h3>项消去</h3>
+<p>等等，还有消去规则，我总是忘记消去规则，它们在这里。</p>
+<p>$$
+\begin{aligned}
+\mathsf{foldNat} &#x26;: \mathbb{N} \rightarrow a \rightarrow (a \rightarrow a) \rightarrow a \\
+\mathsf{foldNat}\ \mathsf{Zero}\ z\ s &#x26;= z \\
+\mathsf{foldNat}\ (\mathsf{Succ}\ n)\ z\ s &#x26;= s\ (\mathsf{foldNat}\ n\ z\ s)
+\end{aligned}
+$$</p>
+<p>这允许我们，例如，将我们的 <code>Nat</code> 转换为普通的 Haskell <code>Nat</code>：</p>
+<pre><code class="language-haskell">foldNat (Succ (Succ Zero)) 0 (+ 1) -- 2
+</code></pre>
+<p>任何其他将自然数转换为其他类型的规范函数（canonical function），也都可以使用消去规则来定义。</p>
+<h3>复合类型：列表类型</h3>
+<p>没有<em>复合类型</em>（composite types），类型的风景将会是一个真正的……平坦之地。那些是允许你将其他类型的多个值合并为一个的类型。</p>
+<p>终极的复合类型是列表。具体来说，链表（linked list）是一件美妙的事物：</p>
+<p>$$
+\begin{aligned}
+\mathsf{List} &#x26; : \mathsf{Type} \rightarrow \mathsf{Type} \\
+\mathsf{Nil} &#x26; : \forall a . \mathsf{List}[a] \\
+\mathsf{Cons} &#x26; : \forall a . a \rightarrow \mathsf{List}[a] \rightarrow \mathsf{List}[a]
+\end{aligned}
+$$</p>
+<p>让我们拆解来看：</p>
+<h3>类型形成</h3>
+<p>类型形成规则告诉我们，$List$（像 $Maybe$ 一样）是一个复合类型。</p>
+<p>$$
+\mathsf{List} : \mathsf{Type} \rightarrow \mathsf{Type}
+$$</p>
+<p>这意味着，不止一个，而是有许多 $List$ 类型，例如 $List \left[\right. N a t \left]\right.$ $List \left[\right. B o o l \left]\right.$ 等（如果你考虑列表的列表（的列表），则有无限多个）。它们通常被读作“自然数列表”、“布尔值列表”等。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/list_type_empty.svg" alt="没有值的 List Nat 和 List Bool 类型 --- 一个类型宇宙函数，将 Bool 和 Nat 连接到 List Bool 和 List Nat 的空圆。"></p>
+<h3>项引入：Nil</h3>
+<p>现在，让我们看看构造器。第一个定义了一个静态值，每个列表一个，代表空列表。</p>
+<p>$$
+\mathsf{Nil} : \forall a . \mathsf{List}[a]
+$$</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/list_type_nil.svg" alt="只有 Nil 值的 List Nat 类型 --- 一个内部只有一个球的圆。一个来自单位类型的箭头指向该值"></p>
+<p>我们将这个值称为 $Nil$（原生 Haskell 列表使用 <code>[]</code> 符号）。</p>
+<h3>项引入：Cons</h3>
+<p>现在来看更有趣的部分：$Cons$，我们的第二个项引入规则（顺便说一句，$Cons$ 是 construct 的缩写），可以被视为将值 $a$ 添加到列表（并返回该列表）的操作。</p>
+<p>$$
+\mathsf{Cons} : \forall a . a \rightarrow \mathsf{List}[a] \rightarrow \mathsf{List}[a]
+$$</p>
+<p>乍一看，$Cons$ 看起来与我们见过的归纳构造器 $Succ$ 非常相似。事实上，就像 $Succ$ 一样，$Cons$ 是一个归纳/递归构造器，会生成无限数量的项。</p>
+<p>然而，与签名为 $X \rightarrow X$ 的 $Succ$ 不同（即对于每个 $X$，都有另一个），$Cons$ 的签名是 $a \rightarrow \left(\right. X \rightarrow X \left.\right)$ ——对于类型 $a$ 的<em>每个值</em>，都有一个 List 构造器。我们可以将 $Cons$ 可视化为一个指向另一个箭头的箭头。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/list_type_cons_internal.svg" alt="Cons 函数 --- 一个来自 Nat 类型的箭头，指向从列表类型到其自身的箭头类型：x -> (1,x), x -> (2,x), x -> (3,x) 等。"></p>
+<p>为什么我们能够有来自其他箭头的箭头？也许这里应该提醒你，在 Lambda 演算中，类型之间的箭头本身也是类型。</p>
+<p>那么，让我们从基础值 $Nil$ 开始，绘制这些箭头。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/list_type_cons.svg" alt="Cons 函数 --- 一个来自 Nat 类型的箭头，指向一个从列表类型到其自身的箭头：0 -> Nil -> (0,Nil), 1 -> Nil -> (1,Nil) 等。"></p>
+<p>如前所述，$List$ 类型是归纳的，即你画的每个箭头都会生成更多的箭头（在这里，我们只画了其中的<em>一部分</em>（那些来自橙色球的箭头））。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/list_type_cons_2.svg" alt="Cons 函数 --- 一个来自 Nat 类型的箭头，指向一个从列表类型到其自身的箭头：0 -> (1, Nil) -> (0, (1,Nil)), 1 -> (1, Nil) -> (1,(1,Nil)) 等。"></p>
+<p>结果是一个其值为……嗯，其他值的<em>列表</em>的类型，</p>
+<h3>项消去</h3>
+<p>现在，让我们写出项消去规则。</p>
+<p>$$
+\begin{aligned}
+\mathsf{foldList} &#x26;: (b \rightarrow a \rightarrow b) \rightarrow b \rightarrow \mathsf{List}[a] \rightarrow b \\
+\mathsf{foldList}\ f\ z\ \mathsf{Nil} &#x26;= z \\
+\mathsf{foldList}\ f\ z\ (\mathsf{Cons}\ x\ xs) &#x26;= \mathsf{foldList}\ f\ (f\ z\ x)\ xs
+\end{aligned}
+$$</p>
+<p>这个规则也是操作列表最有用的函数。</p>
+<p>**任务 1：**存在一种从 $L i s t$ 到 $B o o l e a n$ 的特定映射，它非常有用，以至于某些 Lisp 方言根本没有 $B o o l e a n$ 类型，而仅仅依赖这个映射。请画出它。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/list_bool_task.svg" alt="列表类型：(Nil) (1,Nil), (1,(1,Nil)), (1,(1,Nil)) 等，以及 Boolean 类型：True 和 False，留有绘制从 List 到 Bool 箭头的空白处"></p>
+<p>**任务 2：**在 Haskell 中定义这个映射（在 <code>List</code> 和 <code>Bool</code> 之间）。先从头写一个函数定义一次，再使用 <code>foldList</code> 函数定义一次。</p>
+<pre><code class="language-haskell">f :: (Bool -> a -> Bool) 
+f = undefined
+foldList f False
+</code></pre>
+<p>**任务 3：**我向你展示类型 $L i s t U n i t$（其中 $U n i t$ 是单例类型（singleton type），即只有一个值的类型）。请画出 $L i s t U n i t$ 的值，直到你画不出为止。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/list_unit_task.svg" alt="列表类型，包含一个值 (Nil)，单位类型（包含一个圆），带有函数  (Unit) -> Nil -> (Unit, Nil)。"></p>
+<p><strong>任务 4：</strong>$L i s t U n i t$ 类型实际上与我们在这里回顾过的另一个类型同构（isomorphic）。找出它是哪个。</p>
+<h3>正类型与负类型。Either 与元组（Tuples）。</h3>
+<p>现在，我们将快速介绍另外两个类型，（嗯……我感觉我实际上以前见过它们）。</p>
+<h3>Either</h3>
+<p>$E i t h e r$ 类型是一个有趣的类型。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/either_type.svg" alt="Either 类型 "></p>
+<p>它是一个由两个类型 $a$ 和 $b$ 参数化的类型，并有两个构造器/项引入规则——一个称为 $L e f t$ 的构造器，接收一个 $a$ 的值。另一个称为 $R i g h t$，接收一个 $b$。下面是 Either 的定义（不包括项消去规则）。</p>
+<p>$$
+\begin{aligned}
+\mathsf{Either} &#x26; : \mathsf{Type} \rightarrow \mathsf{Type} \rightarrow \mathsf{Type} \\
+\mathsf{Left} &#x26; : \forall a b . a \rightarrow \mathsf{Either}[a,b] \\
+\mathsf{Right} &#x26; : \forall a b . b \rightarrow \mathsf{Either}[a,b]
+\end{aligned}
+$$</p>
+<h3>元组（Tuple）</h3>
+<p>我们将要介绍的下一个类型是 $T u p l e$ 类型，它同样由 $a$ 和 $b$ 参数化，但它的每一个值都<em>同时</em>包含一个 $a$ 的值和一个 $b$ 的值。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/tuple_type.svg" alt="元组类型 "></p>
+<p>在这里我们将做一些不同的事情——不给出定义，而是直接展示类型消去规则。</p>
+<p>$$
+\begin{aligned}
+\mathsf{first} &#x26;: \forall a b . \mathsf{Tuple}[a,b] \rightarrow a \\
+\mathsf{second} &#x26;: \forall a b . \mathsf{Tuple}[a,b] \rightarrow b
+\end{aligned}
+$$</p>
+<p>**任务 5：**写一个 Tuple 的构造器。为 Either 写一个 <code>fold</code> 函数。</p>
+<h3>正类型与负类型</h3>
+<p>$E i t h e r$ 类型由其引入规则唯一定义，即消去规则可以从引入规则中推导出来。</p>
+<p>$$
+\begin{aligned}
+\mathsf{Left} &#x26; : \forall a b . a \rightarrow \mathsf{Either}[a,b] \\
+\mathsf{Right} &#x26; : \forall a b . b \rightarrow \mathsf{Either}[a,b]
+\end{aligned}
+$$</p>
+<p>另一方面，$T u p l e$ 由其消去规则定义，即引入规则可以从它们中推导出来：</p>
+<p>$$
+\begin{aligned}
+\mathsf{first} &#x26;: \forall a b . \mathsf{Tuple}[a,b] \rightarrow a \\
+\mathsf{second} &#x26;: \forall a b . \mathsf{Tuple}[a,b] \rightarrow b
+\end{aligned}
+$$</p>
+<p>像 $E i t h e r$ 这样由其引入规则定义的类型被称为<em>正类型（positive types）</em>。由其消去规则定义的类型是<em>负类型（negative types）</em>。到目前为止我们见过的所有类型（除了 $T u p l e$）都是正类型。</p>
+<p>正类型与负类型彼此对偶。</p>
+<p>正/负类型对应于范畴论中极限（limit）/余极限（colimit）的概念，但我们稍后会学到更多关于它们的知识。</p>
+<p>**任务 6：**除了 $T u p l e$，还有一个非常重要的负类型，我们在本章（以及各种其他地方）已经介绍过。</p>
+<h3>小结</h3>
+<p>在本节中，我们几乎从无开始——仅仅是 $U n i t$ 类型。然后我们非常快速地定义了许多东西。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/all_types.svg" alt="目前为止我们见过的所有类型（及其组合）：Unit，Bool，Maybe Bool，Nat，Maybe Nat，Nat 的 List，Bool 或 Nat"></p>
+<p>人们可以看到，程序员使用的一些类型仍然缺失，但它们可以用与我们已定义类型几乎相同的方式来定义：例如 $c h a r$ 只是一个基本类型，$s t r i n g$ 只是 $L i s t \left[\right. c h a r \left]\right.$ 等等。</p>
+<h3>Church 编码：从 Haskell 到 Lambda 演算</h3>
+<p>在上一节中，我们确实非常快速地定义了许多东西，但我们依赖于 Haskell 的广义代数数据类型（Generalized Algebraic Datatypes，GADTs），并且用仅有的函数实现同样的事情并非显而易见。然而，这<em>是</em>可能的：存在一种将每个类型编码为函数的机制，被称为 <em>Church 编码（Church encoding）</em>，得名于 Lambda 演算的创造者阿隆佐·邱奇（Alonzo Church）。</p>
+<h3>基本类型。布尔类型（Boolean type）</h3>
+<p>考虑布尔类型，我们这样定义它：</p>
+<p>$$
+\begin{aligned}
+\mathsf{Bool} &#x26; : \mathsf{Type} \\
+\mathsf{True} &#x26; : \mathsf{Bool} \\
+\mathsf{False} &#x26; : \mathsf{Bool}
+\end{aligned}
+$$</p>
+<p>这是相同事物的另一个版本，仅使用函数。</p>
+<p>$$
+\begin{aligned}
+\mathsf{type}\ \mathsf{Bool} &#x26; = \forall a . a \rightarrow a \rightarrow a \\
+\mathsf{false} &#x26; : \mathsf{Bool} \\
+\mathsf{false}\ a\ b &#x26;= b \\
+\mathsf{true} &#x26; : \mathsf{Bool} \\
+\mathsf{true}\ a\ b &#x26;= a
+\end{aligned}
+$$</p>
+<p>在这里 $B o o l$ 只是函数 $\forall a . a \rightarrow a \rightarrow a$ 的简写，该函数对于所有的 $a$ 接收两个类型为 $a$ 的值并返回另一个值。我们可以看到，在这个定义下，$T r u e$ 是一个返回第一个 $a$ 的函数，而 $F a l s e$ 是一个返回第二个的函数。</p>
+<p>不相信这些可以作为布尔值使用？这里是 $i f E l s e$ 函数的一个实现：</p>
+<p>$$
+\begin{aligned}
+\mathsf{ifElse} &#x26;: \forall a . \mathsf{Bool} \rightarrow a \rightarrow a \rightarrow a \\
+\mathsf{ifElse}\ v\ a\ b &#x26;= v\ a\ b
+\end{aligned}
+$$</p>
+<p>这个实现是微不足道的，因为数据类型本身在做这些工作。这是所谓的“Church 编码”数据类型背后的主要原则之一——数据类型编码了项消去规则。</p>
+<p>以下是你如何使用它的方式：</p>
+<pre><code class="language-haskell">ifElse true "True" "False" -- "True"
+  ifElse false "True" "False" -- "False"
+</code></pre>
+<h3>多态类型。Maybe 类型</h3>
+<p>布尔类型当然是一个基本类型。所以，让我们考虑更复杂的 $M a y b e$ 类型：</p>
+<p>$$
+\begin{aligned}
+\mathsf{Maybe} &#x26; : \mathsf{Type} \rightarrow \mathsf{Type} \\
+\mathsf{Nothing} &#x26; : \forall a . \mathsf{Maybe}[a] \\
+\mathsf{Just} &#x26; : \forall a . a \rightarrow \mathsf{Maybe}[a]
+\end{aligned}
+$$</p>
+<p>$M a y b e$ 更复杂，因为它可以在其内部<em>包含另一个值</em>（通过 $J u s t$ 构造器）。在这里我们学到了 Church 编码的另一个重要原则：使用柯里化函数来保存值。</p>
+<p>$$
+\begin{aligned}
+\mathsf{type}\ \mathsf{Maybe}[a] &#x26; = \forall m . m \rightarrow (a \rightarrow m) \rightarrow m \\
+\mathsf{nothing} &#x26; : \mathsf{Maybe}[a] \\
+\mathsf{nothing}\ n\ j &#x26;= n \\
+\mathsf{just} &#x26; : a \rightarrow \mathsf{Maybe}[a] \\
+\mathsf{just}\ val\ n\ j &#x26;= j\ val
+\end{aligned}
+$$</p>
+<h3>一般原则</h3>
+<p>到现在为止，你可能已经看到，类型的 Church 编码与“普通”类型具有相同的构造器——区别仅仅在于它将它们作为参数接收。</p>
+<p>如果我们有一个类似 $M a y b e$ 的类型，但只有一个值（像 $1$ 类型）……</p>
+<p>$$
+\begin{aligned}
+\mathsf{Nothing} &#x26; : \forall a . \mathsf{Maybe}[a]
+\end{aligned}
+$$</p>
+<p>……它的 Church 编码将会是……</p>
+<p>$$
+\forall m . m \rightarrow m
+$$</p>
+<p>（这确实是 $1$ 类型的 Church 编码）</p>
+<p>然后，如果我们扩展该类型使其也拥有 $J u s t$ 构造器……</p>
+<p>$$
+\begin{aligned}
+\mathsf{Nothing} &#x26; : \forall a . \mathsf{Maybe}[a] \\
+\mathsf{Just} &#x26; : \forall a . a \rightarrow \mathsf{Maybe}[a]
+\end{aligned}
+$$</p>
+<p>……编码像这样扩展……</p>
+<p>$$
+\forall m . m \rightarrow \left(\right. a \rightarrow m \left.\right) \rightarrow m
+$$</p>
+<p>这就是为什么 Church 编码类型的签名与用于消去它的 $f o l d$ 函数的签名几乎完全相同：</p>
+<p>$$
+\begin{aligned}
+\mathsf{foldMaybe} &#x26; : \forall a m . m \rightarrow (a \rightarrow m) \rightarrow \mathsf{Maybe}[a] \rightarrow m
+\end{aligned}
+$$</p>
+<p>而 $f o l d$ 函数本身是微不足道的。通常，类型的 Church 编码基本上就是一个柯里化的 $f o l d$ 函数，一个给定与“折叠”函数相同参数、从而产生相同结果的函数。</p>
+<p>Church 编码的一般原则是，一个类型完全由你能用它做什么来表征，因此，我们不是为类型提供构造器然后再用 $f o l d$ 消去它们，而是直接跳到 $f o l d$。</p>
+<p>**任务 7：**写一个自然数类型（natural numbers type）的 Church 编码版本</p>
+<h3>多态 Lambda 演算——形式化定义</h3>
+<p>到目前为止，我们看到了 Lambda 演算是如何<em>运作</em>的。现在，我们即将看到它是如何被形式化定义的。答案是，和所有类型系统一样，它是由<em>类型规则</em>定义的。那么什么是类型规则呢？基本上，它们也是箭头。（惊讶吗？）</p>
+<h3>自然演绎</h3>
+<p>是的，Haskell 的类型规则确实是箭头，但它们是用一种不同于 Haskell 的语言定义的，称为<em>自然演绎</em>。自然演绎就像 Haskell，但它使用一种将前提和结论用水平横线隔开的语法，例如，不是写……</p>
+<p>$$
+a \rightarrow b
+$$</p>
+<p>……我们写……</p>
+<p>$$
+\frac{a}{b}
+$$</p>
+<p>除此之外，自然演绎和 Haskell 之间没有太大的区别。以布尔类型为例。我们在 Haskell 中这样定义它：</p>
+<p>$$
+\begin{aligned}
+\mathsf{Bool} &#x26; : \mathsf{Type} \\
+\mathsf{True} &#x26; : \mathsf{Bool} \\
+\mathsf{False} &#x26; : \mathsf{Bool}
+\end{aligned}
+$$</p>
+<p>如果我们想使用自然演绎来定义它，使其成为类型系统本身一部分的“原始”类型之一（就像在大多数编程语言中定义的那样），它看起来会是这样的。</p>
+<p>$$</p>
+<p>$$</p>
+<p>这意味着有一个叫做 Bool 的类型（严格来说，这不是一条类型规则，而是一条“kinding”规则（因此使用了双冒号））。</p>
+<p>$$</p>
+<p>$$</p>
+<p>$$</p>
+<p>$$</p>
+<p>$True$ 和 $False$ 是布尔值。</p>
+<p>哦我忘了，在自然演绎中，允许没有前提的结论。</p>
+<p>**任务 8：**使用自然演绎定义布尔类型的消去规则。</p>
+<h3>上下文</h3>
+<p>这是否<em>太</em>简单了？让我们把类型<em>上下文</em>（或类型<em>环境</em>）的概念加入进来。</p>
+<p>情况是这样的：类型和变量必须被存储在<em>某个地方</em>。因此，给定一组值（例如 $x$, $y$, $z$ 等）和一组类型（例如 $A$, $B$, $C$ 等），一个上下文就是所有变量及其类型的一个<em>集合</em>（哎呀，我又这么说了），例如 $\left(\right. x , A \left.\right) , \left(\right. y , B \left.\right) , \left(\right. z , C \left.\right) \ldots$。</p>
+<p>我们通常用字母 $\Gamma$ 表示上下文，并使用 $\vdash$ 符号表示从该上下文中得出的东西（哦，不，又不是另一个箭头吧），例如 $\Gamma \vdash a : b$ 意味着在上下文 $\Gamma$ 中，存在一个变量 $a$ 具有类型 $b$。）。</p>
+<p>因此，当我们考虑上下文时，上述定义变成</p>
+<p>$$</p>
+<p>$$</p>
+<p>即上下文包含类型 $Bool$</p>
+<p>$$</p>
+<p>$$</p>
+<p>即上下文包含类型为 $Bool$ 的值 $True$</p>
+<p>$$</p>
+<p>$$</p>
+<p>即上下文包含类型为 $Bool$ 的值 $False$</p>
+<p>因此，我们直接将布尔类型定义为上下文的一部分。</p>
+<h3>值级箭头</h3>
+<p>以此，我们列出 Lambda 演算的公理，其中只不过包含了值级箭头（函数）的类型定义。</p>
+<p>我们必须定义几条类型规则，从平凡的规则 <em>Var</em> 开始，它声明如下：如果我们之前说过 $x$ 具有类型 $A$，那么 $x$ 具有类型 $A$。</p>
+<p>$$
+\frac{x : A \in \Gamma}{\Gamma \vdash x : A}
+$$</p>
+<p>现在，我们继续定义箭头的类型。</p>
+<p>我们从类型形成规则（type formation rule）（或 <em>kinding</em> 规则）开始。</p>
+<p>$$
+\frac{\Gamma \vdash A :: \mathsf{Type},\ \Gamma \vdash B :: \mathsf{Type}}{\Gamma \vdash A \rightarrow B :: \mathsf{Type}}
+$$</p>
+<p>然后是两条类型规则。一条是 lambda 项的<em>项引入</em>（term introduction），称为<em>抽象</em>（或 <em>Abs</em>）。</p>
+<p>$$
+\frac{\Gamma , x : A \vdash y : B}{\Gamma \vdash \lambda z : A \rightarrow B}
+$$</p>
+<p>（即，如果我们有一种方式，给定一个类型为 $A$ 的值 $x$ 来获得一个类型为 $B$ 的值 $y$，那么我们就得到了一个函数 $A \rightarrow B$）。</p>
+<p>还有 lambda 的项消去（term elimination），即函数<em>应用</em>（<em>App</em>）。</p>
+<p>$$
+\frac{\Gamma \vdash z : A \rightarrow B , \Gamma \vdash x : A}{\Gamma \vdash z x : B}
+$$</p>
+<p>为了理解这些规则是如何工作的，让我们以函数 $l e n g t h : s t r i n g \rightarrow i n t$ 为例。这个函数的抽象规则将是：</p>
+<p>$$
+\frac{\Gamma,\ x : \mathsf{string} \vdash y : \mathsf{int}}{\Gamma \vdash \lambda \mathsf{length} : \mathsf{string} \rightarrow \mathsf{int}}
+$$</p>
+<p>而<em>应用</em>规则将是</p>
+<p>$$
+\frac{\Gamma \vdash \mathsf{length} : \mathsf{string} \rightarrow \mathsf{int},\ \Gamma \vdash x : \mathsf{string}}{\Gamma \vdash \mathsf{length}\ x : \mathsf{int}}
+$$</p>
+<p>这些规则就是你定义值级箭头所需要的全部。</p>
+<h3>简单类型 Lambda 演算</h3>
+<p>到目前为止我们回顾的规则并没有定义多态 Lambda 演算，而是定义了一个更简单的类型系统，恰如其分地称为<em>简单类型 Lambda 演算</em>。</p>
+<blockquote>
+<p><em>简单类型 Lambda 演算</em>（STLC）是只有一种类型构造器——函数（lambda）的类型系统，具有类型规则 <em>Abs</em> 和 <em>App</em>（用于项引入和项消去）。它还具有 <em>Var</em> 类型规则。</p>
+</blockquote>
+<h3>多态</h3>
+<p>简单类型 lambda 演算就像多态 Lambda 演算，除了……它不是多态的，即我们不能定义像 $M a y b e$ 这样的多态类型。</p>
+<p>$$
+\begin{aligned}
+\mathsf{Maybe} &#x26; : \mathsf{Type} \rightarrow \mathsf{Type} \\
+\mathsf{Nothing} &#x26; : \forall a . \mathsf{Maybe}[a] \\
+\mathsf{Just} &#x26; : \forall a . a \rightarrow \mathsf{Maybe}[a]
+\end{aligned}
+$$</p>
+<p>我们能做的最好的事情就是定义该类型的单独版本，例如，一个仅适用于 $int$ 的版本。</p>
+<p>$$
+\begin{aligned}
+\mathsf{MaybeInt} &#x26; : \mathsf{Type} \\
+\mathsf{NoInt} &#x26; : \mathsf{MaybeInt} \\
+\mathsf{JustInt} &#x26; : \mathsf{int} \rightarrow \mathsf{MaybeInt}
+\end{aligned}
+$$</p>
+<p>还有一个适用于 $string$ 的版本</p>
+<p>$$
+\begin{aligned}
+\mathsf{MaybeString} &#x26; : \mathsf{Type} \\
+\mathsf{NoString} &#x26; : \mathsf{MaybeString} \\
+\mathsf{JustString} &#x26; : \mathsf{string} \rightarrow \mathsf{MaybeString}
+\end{aligned}
+$$</p>
+<p>此外，在 STLC 中，我们不能定义适用于多态 $M a y b e$ 的<em>函数</em>（无论它们持有的是什么类型），因此我们不仅必须重新定义类型，还必须重新定义所有使用它们的函数。</p>
+<p>为了解决这个问题，并将我们自己从<em>简单类型</em>提升到<em>多态</em> Lambda 演算（又名 System F），我们定义了类型级箭头。</p>
+<p>但是，实际上我们应该先谈谈 kind……</p>
+<h3>kind</h3>
+<p>在表达式 “ $x : A$ ” 中，“ $A$ ” 表示值的类型。那么在表达式 “ $A :: T y p e$ ” 中，$T y p e$ 又是什么呢？我们不能说 $T y p e$ 是一个<em>类型</em>，因为我们会看到罗素正潜伏在我们身后，带着他同名的悖论。在 Lambda 演算中，它是通过以下方式解决的：</p>
+<ul>
+<li><strong>值</strong>具有<strong>类型</strong>（用单冒号注释 – $:$）</li>
+<li><strong>类型</strong>具有类型的类型，即 <strong>kind</strong>（用双冒号注释 – $::$）</li>
+<li><strong>kind</strong> 具有……好吧，我们先停在这里……</li>
+</ul>
+<p>这意味着除了类型系统和类型规则之外，我们还有一个 <em>kind 系统</em>（kind-system）和 <em>kinding 规则</em>。但是，请不要把这本书扔出窗外——STLC 的 kinding 系统非常容易定义：只有一个 kind，我们称之为 $Type$（有时用 $*$ 标记）。</p>
+<p>$$</p>
+<p>$$</p>
+<p>然后类型定义规则像这样被定义（即，一切都是 kind $Type$：</p>
+<p>$$</p>
+<p>$$</p>
+<p>而对于多态 Lambda 演算，我们将在下一节看到。</p>
+<h3>类型级箭头</h3>
+<p>我们通过使用平凡的 <em>Var</em> 类型规则定义值级<em>变量</em>，开始了 STLC 的定义，</p>
+<p>$$
+\frac{x : A \in \Gamma}{\Gamma \vdash x : A}
+$$</p>
+<p>在多态 Lambda 演算中，我们还有<em>类型级变量</em>，它们用类似的 <em>TVar</em> <em>kinding</em> 规则定义。</p>
+<p>$$
+\frac{A :: K \in \Gamma}{\Gamma \vdash A :: K}
+$$</p>
+<p>现在，让我们继续定义箭头本身的类型。</p>
+<p>在多态 Lambda 演算中，就像在 STLC 中一样，我们有将值转换为其他值的值级箭头……</p>
+<p>$$
+\frac{\Gamma \vdash A :: \mathsf{Type},\ \Gamma \vdash B :: \mathsf{Type}}{\Gamma \vdash A \rightarrow B :: \mathsf{Type}}
+$$</p>
+<p>而且，我们还有将类型转换为其他类型的<em>类型级</em>箭头。它们用这条 kinding 规则定义：</p>
+<p>$$
+\frac{\Gamma,\ (\alpha :: A) \vdash (B :: \mathsf{Type})}{\Gamma \vdash \forall (\alpha :: A) . (B :: \mathsf{Type})}
+$$</p>
+<p>例如，对于 $M a y b e$ 类型，这条规则会说</p>
+<p>$$
+\frac{\Gamma,\ (\alpha :: \mathsf{Type}) \vdash \mathsf{Maybe}[\alpha] :: \mathsf{Type}}{\Gamma \vdash \forall (\alpha :: \mathsf{Type}) . \mathsf{Maybe}[\alpha] :: \mathsf{Type}}
+$$</p>
+<h3>多态函数</h3>
+<p>多态更有趣（也更难）的部分是增强值级箭头以使其与多态类型一起工作，即拥有除了值之外还接受一个类型作为参数的函数。</p>
+<p>例如，如果我们在 STLC 的上下文中工作，并使用我们在上一节中定义的 $M a y b e S t r i n g$ 类型（它只适用于字符串），我们可以定义一个具有以下类型签名的函数</p>
+<p>$$
+z :: \mathsf{string} \rightarrow \mathsf{MaybeString}
+$$</p>
+<p>利用多态 Lambda 演算的能力，我们可以抽象出类型 $S t r i n g$（使用规则 <em>TAbs</em> 来构建一个多态函数，它看起来像这样。</p>
+<p>$$
+z^{'} :: \forall \alpha . \alpha \rightarrow \mathsf{Maybe}\ \alpha
+$$</p>
+<p>然后，我们使用 <em>TApp</em> 将类型参数 $S t r i n g$ 应用于抽象函数，以获得我们的原始函数。</p>
+<p>$$
+z = z^{'}[\mathsf{String}]
+$$</p>
+<p>（这不是真正的 Haskell 语法，因为 Haskell 会自动进行类型应用——你只需提供值，语言就会从中推断出类型）。</p>
+<p>以下是多态函数本身的类型规则：</p>
+<p><em>类型抽象</em>（或 <em>TAbs</em>）</p>
+<p>$$
+\frac{\Gamma,\ (\alpha :: A) \vdash z : C}{\Gamma \vdash (\Lambda \alpha :: A . z) : \forall (\alpha :: A) . C}
+$$</p>
+<p>以及<em>类型应用</em>（<em>TApp</em>）</p>
+<p>$$
+\frac{\Gamma \vdash z^{'} : \forall (\alpha :: A) . C,\ \Gamma \vdash (X :: A)}{\Gamma \vdash z^{'}[X] : C[\alpha := X]}
+$$</p>
+<p>至此，我们结束了 System F 的定义。</p>
+<p><em>多态 Lambda 演算</em>（System F）是只拥有一个类型构造器——多态 lambda 的类型系统，带有类型规则 <em>Abs</em> 和 <em>App</em>（用于项的引入与消去）以及 kinding rules（kinding rules）<em>TAbs</em> 和 <em>TApp</em>（用于类型的引入与消去）。它也具有 <em>Var</em> 类型规则和 <em>TVar</em> kinding 规则。</p>
+<p>现在我们准备好去看看它与我们的主要主题有何关联。</p>
+<h3>类型系统即范畴</h3>
+<p>我们已经在类型理论与范畴论之间建立了一些平行联系，但这绝不仅仅是单纯的平行：透过恰当的视角来看，类型系统<em>就是</em>某种范畴。而且不仅如此：我们已经知道是哪一种！</p>
+<h3>类型即对象，箭头即态射</h3>
+<p>让我们从基础开始。</p>
+<p>每个类型都是一个对象。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/category_type.svg" alt="A bunch of balls"></p>
+<p>每个值级箭头（函数）都是一个态射。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/category_arrow.svg" alt="A bunch of balls, connected with each other with arrows"></p>
+<p>现在来看一些不那么平凡的东西——值。</p>
+<h3>值也是态射</h3>
+<p>我们说过范畴论全是关于箭头的。在这里，我们似乎背离了这一点，又开始画值和内部图，例如自然数类型。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/nat_type_full_normal.svg" alt="The Natural numbers type: 0, 1, 2, 3 etc."></p>
+<p>但这里并不矛盾。我们说过在类型理论中，“唯一的值是那些作为箭头源点和目标的实体”。在自然数的情况下，就是 $s u c c e s s o r$ 箭头和 $z e r o$ 箭头。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/category_nat_internal.svg" alt="An internal diagram of the natural numbers type, one arrow pointing from the one-element set to value 0, one arrow, pointing from 0 to 1, one arrow pointing from 1 to 2  etc."></p>
+<p>这意味着<em>值实际上只是表示箭头的另一种方式</em>。</p>
+<p>例如，自然数类型可以在外部这样表示。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/category_nat_external_zero.svg" alt="An external diagram of the functions of the natural numbers type --- 0: 1 -> N  and S: N -> N"></p>
+<p>这里我们回到了在第二章学过的关于集合/类型元素的一个简单定理：</p>
+<blockquote>
+<p>任何集合 $X$ 的每个元素都同构于一个函数 $1 \rightarrow X$（其中 $1$ 表示单例集合）。</p>
+</blockquote>
+<p>因此，对于某个类型 $X$，从 $1 \rightarrow X$ 的箭头，在将其视为集合时，等价于 $X$ 的一个<em>值</em>。</p>
+<p>这意味着我们称之为 $0$ 的从 $1 \rightarrow \mathbb{N}$ 的<em>箭头</em>，同构于<em>值</em> $0$。</p>
+<p>除了 $1 \rightarrow \mathbb{N}$ 之外，我们还有一个箭头 $s : \mathbb{N} \rightarrow \mathbb{N}$。那么，当我们把这两者组合起来会发生什么？我们得到了另一个 $1 \rightarrow \mathbb{N}$ 箭头——$s \circ 0$，$0$ 的后继，即 $1$。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/category_nat_external_one.svg" alt="An external diagram of the functions of the natural numbers type with added one more arrow s.0, the composition of s and 0"></p>
+<p>如果我们再这样做一次，就会得到 $s \circ s \circ 0$。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/category_nat_external_two.svg" alt="An external diagram of the functions of the natural numbers type with added one more arrow s.s.0, the composition of s and s.0"></p>
+<p>我们可以看到，它的展开方式与旧定义相同。我们并没有<em>退回</em>到值，而是<em>兜了一个完整的圈子</em>，发现（或者重新发现，因为我们从集合范畴的初等理论中已经知道了这一点）值只是画箭头的一种更方便的方式。</p>
+<h3>简单类型 lambda 演算作为笛卡尔闭范畴</h3>
+<p>好了，我们明白了：如果我们将类型视为对象，将箭头<em>和值</em>视为态射，那么整个类型理论/类型系统就可以被视为一个范畴。但是是哪个范畴呢？为了理解这一点，我们回顾一下 Lambda 演算具有的特殊特征：我们知道它有 Lambda 类型，也就是函数类型，因此我们需要一个带有函数类型的范畴。要定义它，你还需要终端对象（$1$ 对象）和积，因此我们要寻找的是一个必须具备这些特征的范畴。令人惊讶的是，我们已经知道哪个范畴具备所有这些特征了。我们在上一章讨论逻辑时已经研究过它。</p>
+<blockquote>
+<p>简单类型 lambda 演算可以被视为一个笛卡尔闭范畴——元组和 either 类型是“与”和“或”操作，Unit 和 Empty 类型是值“真”和“假”，而 Lambda 类型是指数对象。</p>
+</blockquote>
+<h3>无类型 Lambda 演算作为笛卡尔闭幺半群</h3>
+<p>我们不会深入探讨它，但我认为值得一提的是，还存在一种叫做<em>无类型</em> Lambda 演算的东西。这是一种只有一种类型的语言——函数，并且每个函数都接受任何其他函数作为参数。</p>
+<p>那么，无类型 Lambda 演算如何融入我们的图景中呢？它完美地契合了：它对应于笛卡尔闭幺半群（简称 C-幺半群）。这些是只有一个对象的笛卡尔闭范畴。</p>
+<h3>多态 Lambda 演算作为……</h3>
+<p>我们已经确定值级箭头对应<em>态射</em>。</p>
+<p>但是<em>类型级箭头</em>（也就是多态类型）呢？它们对应什么？</p>
+<p>我们将在下一章继续探讨这个问题！</p>
+<h3>Curry-Howard-Lambek 对应</h3>
+<p>在结束本节之前，让我们思考一下这个问题：为什么 Lambda 演算和直觉主义逻辑对应于几乎相同类型的范畴——笛卡尔闭范畴。</p>
+<p>为了理解这一点，我们回顾一下在上一章中研究过的逻辑与范畴之间的对应关系。</p>
+<blockquote>
+<p>直觉主义逻辑的逻辑系统可以被视为一个双笛卡尔闭范畴——“与”和“或”操作是积/余积，值“真”和“假”是初始/终端对象，而蕴涵操作是指数对象。</p>
+</blockquote>
+<p>这与我们现在关于类型的定义几乎完全相同（唯一的区别在于，Lambda 演算可以在没有余积和初始对象的情况下工作，所以它是一个笛卡尔闭范畴，而直觉主义逻辑需要它们，所以它是<em>双</em>笛卡尔的）。</p>
+<p>这意味着直觉主义逻辑与 Lambda 演算之间的相似性并不仅仅止于它们都是“范畴式的”。它们实际上是同一回事：</p>
+<ul>
+<li>逻辑命题可以被视为<em>类型</em>。</li>
+<li>给定命题的证明无非是对应类型的一个值。 - Lambda 类型是蕴涵对象。</li>
+<li>函数应用（App）是<em>假言推理</em>。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>直觉主义逻辑</th>
+<th>简单类型 lambda 演算</th>
+<th>笛卡尔闭范畴</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>命题</td>
+<td>类型</td>
+<td>对象</td>
+</tr>
+<tr>
+<td>蕴涵</td>
+<td>箭头</td>
+<td>态射</td>
+</tr>
+<tr>
+<td>基本命题</td>
+<td>类型 A 的值</td>
+<td>态射 1 → A（全局元素）</td>
+</tr>
+<tr>
+<td>蕴涵对象 (A → B)</td>
+<td>Lambda 类型 (A → B)</td>
+<td>指数对象 B^A</td>
+</tr>
+<tr>
+<td>与 (A ∧ B)</td>
+<td>元组 (A × B)</td>
+<td>积 A × B</td>
+</tr>
+<tr>
+<td>或 (A ∨ B)</td>
+<td>Either (A + B)</td>
+<td>余积 A + B</td>
+</tr>
+<tr>
+<td>真 (⊤)</td>
+<td>Unit 类型</td>
+<td>终端对象 (1)</td>
+</tr>
+<tr>
+<td>假 (⊥)</td>
+<td>Empty 类型</td>
+<td>初始对象 (0)</td>
+</tr>
+<tr>
+<td>否定 A → ⊥</td>
+<td>函数 A → Empty</td>
+<td>态射 A → 0</td>
+</tr>
+</tbody>
+</table>
+<p>简而言之，在上一章中，我们讨论了直觉主义逻辑与笛卡尔闭范畴之间的对应关系（被称为 Curry-Howard-Lambek 对应），现在我们正在为这种对应关系加上第三个分支——Lambda 演算。</p>
+<h3>附录：Haskell 中的定义</h3>
+<p>关于是以可执行的 Haskell 代码还是以公式（即等宽字体或现代排版）的形式来提供基本类型的定义，我考虑了很久。最后，我决定公式更好，但它们确实都是 Haskell 代码，只是有几个需要注意的地方：</p>
+<p>首先，我们想从空白状态开始。在 Haskell 中，我们可以通过移除标准库（叫做“Prelude”）来做到这一点，它通常是隐式导入的。</p>
+<pre><code class="language-haskell">{-# LANGUAGE NoImplicitPrelude #-}
+</code></pre>
+<p>并且我们还要再使用一个扩展，它允许我们编写更明确一些的类型定义。</p>
+<pre><code class="language-haskell">{-# LANGUAGE GADTs, NoImplicitPrelude #-}
+</code></pre>
+<p>差不多就是这样了。除此之外就是使用 <code>forall</code> 代替 $\forall$ 符号。</p>
+<pre><code>{-# LANGUAGE GADTs,  NoImplicitPrelude #-} 
+import qualified Prelude as P
+
+data Bool where
+  True :: Bool
+  False :: Bool
+  deriving (P.Show)
+
+ifElse :: forall a. Bool -> a -> a -> a
+ifElse True a b = a 
+ifElse False a b = b
+
+data Either a b where
+  Left   :: forall a b. a -> Either a b
+  Right  :: forall a b. b -> Either a b
+  deriving (P.Show)
+
+foldEither :: forall a b c. (a -> c) -> (b -> c) -> Either a b -> c
+foldEither fa fb (Left  val) = fa val
+foldEither fa fb (Right val) = fb val
+
+data Tuple a b where
+  Tuple :: forall a b. a -> b -> Tuple a b 
+  deriving (P.Show)
+
+first  :: Tuple a b -> a
+first    (Tuple a b) = a
+
+second :: Tuple a b -> b
+second   (Tuple a b) = b
+
+data Maybe a where
+  Nothing :: forall a. Maybe a
+  Just :: forall a. a -> Maybe a
+  deriving (P.Show)
+
+foldMaybe :: forall a b.  b -> (a -> b) -> Maybe a -> b
+foldMaybe n _ Nothing  = n
+foldMaybe _ f (Just x) = f x
+
+data List a where
+  Nil :: forall a. List a
+  Cons :: forall a. a -> List a -> List a
+  deriving (P.Show)
+
+foldList :: (b -> a -> b) -> b -> List a -> b
+foldList f z Nil = z
+foldList f z (Cons x xs) = foldList f (f z x) xs
+
+data Nat where
+  Zero :: Nat
+  Succ :: Nat -> Nat
+  deriving (P.Show)
+
+foldNat :: Nat -> a -> (a -> a) -> a
+foldNat Zero z s = z
+foldNat (Succ a) z s  = s (foldNat a z s)
+
+plus :: Nat -> Nat -> Nat
+plus Zero n = n
+plus (Succ m) n = Succ (plus m n)
+
+not :: Bool -> Bool
+not False = True
+not True = False
+
+main = do 
+  P.print (ifElse True 1 2) --1
+  P.print (ifElse False 1 2) --2
+  P.print (foldNat (Succ (Succ Zero)) 0 (P.+ 1)) -- 2
+</code></pre>
+<h3>答案</h3>
+<p><strong>任务 1：</strong> 存在一种从 <code>List</code> 到 <code>Boolean</code> 的映射，非常直观。直观到某些 Lisp 方言根本没有 <code>Boolean</code> 类型，完全依赖这种映射。试着猜猜这种映射。</p>
+<hr>
+<p><strong>任务 2：</strong> 在 Haskell 中定义这个映射（在 <code>List</code> 和 <code>Bool</code> 之间）。从零写一个函数定义一次，使用 <code>foldList</code> 函数再定义一次。</p>
+<hr>
+<p><strong>任务 3：</strong> 我向你展示 <code>List Unit</code> 类型，其中 <code>Unit</code> 是单例类型，记作 $1$（一个只有一个值的类型）。画出 <code>List Unit</code> 的值，直到画满空间。</p>
+<p>好的，它们在这里（我们将只画出最终结果，不画箭头）。</p>
+<p><img src="https://abuseofnotation.github.io/category-theory-illustrated/06_type/list_unit_task_answer.svg" alt="The values of the List Unit type, (Unit, Nil) (Unit, (Unit, Nil)) (Unit, (Unit, (Unit, Nil))), etc"></p>
+<hr>
+<p><strong>任务 4：</strong> <code>List Unit</code> 类型实际上与我们这里回顾过的另一个类型同构。找出是哪一个。</p>
+<p>它与自然数类型（<code>Nat</code>）同构。<code>List</code> 和 <code>Nat</code> 都是归纳类型，两者之间唯一的区别是，<code>List</code> 的归纳构造器 <code>Cons</code> 由一个类型参数化，即对于该类型的每个值都有一个构造器，而 <code>Nat</code> 只有一个 <code>Succ</code> 构造器。因此，一个只有一个值的类型（如 <code>Unit</code>）的列表，与 <code>Nat</code> 同构。</p>
+<hr>
+<p><strong>任务 5：</strong> 写一个 Tuple 的构造器。为 Either 写一个 <code>fold</code> 函数。</p>
+<p>首先是元组的构造器。这非常直接，为了能够有输出 <code>a</code> 和 <code>b</code> 的函数，你必须在构造器中<em>输入</em>一个 <code>a</code> 和一个 <code>b</code>。</p>
+<pre><code class="language-haskell">data Tuple a b where
+  Tuple :: forall a b. a -> b -> Tuple a b
+</code></pre>
+<p><code>Either</code> 的 <code>fold</code> 函数也很直接，尽管第一眼看上去可能并非如此：顾名思义，一个 <code>Either a b</code> 要么是一个 <code>a</code>，要么是一个 <code>b</code>，所以为了转换 <code>Either a b -> c</code>，你必须提供 <code>(a -> c)</code> 和 <code>(b -> c)</code>。</p>
+<pre><code class="language-haskell">foldEither :: forall a b c. (a -> c) -> (b -> c) -> Either a b -> c
+foldEither fa fb (Left  val) = fa val
+foldEither fa fb (Right val) = fb val
+</code></pre>
+<hr>
+<p><strong>任务 6：</strong> 除了 <code>Tuple</code> 之外，还有一种非常重要的负类型，我们将在本章（以及各种其他地方）介绍它。</p>
+<p>它就是<em>函数</em>类型。我们可以将函数视为“可以被求值的对象”，这意味着，像元组一样，它们由其项消去规则表征：一个函数 <code>a -> b</code>（连同值 <code>a</code>）可以被化简为一个值 <code>b</code>。</p>
+<hr>
+<p><strong>任务 7：</strong> 写出自然数类型的 Church 编码版本</p>
+<p>如下所示</p>
+<p>$$
+\begin{aligned}
+\mathsf{type}\ \mathbb{N} &#x26; = \forall b . b \rightarrow (b \rightarrow b) \rightarrow b \\
+\mathsf{zero} &#x26; : \mathbb{N} \\
+\mathsf{zero}\ z\ s &#x26;= z \\
+\mathsf{succ} &#x26; : \mathbb{N} \rightarrow \mathbb{N} \\
+\mathsf{succ}\ n\ z\ s &#x26;= s\ (n\ z\ s)
+\end{aligned}
+$$</p>
+<p>$$
+\begin{aligned}
+\mathsf{foldNat} &#x26; : \forall a b . b \rightarrow (b \rightarrow b) \rightarrow \mathbb{N} \rightarrow b \\
+\mathsf{foldNat}\ z\ s\ n &#x26;= n\ z\ s
+\end{aligned}
+$$</p>
+<p><strong>任务 8：</strong> 使用自然演绎定义布尔类型的消去规则。</p>
+<p>以类型规则表达的消去规则（即 $\mathsf{ifElse}$ 函数）如下：</p>
+<p>$$
+\frac{\Gamma \vdash b : \mathsf{Bool} \quad \Gamma \vdash x : a \quad \Gamma \vdash y : a}{\Gamma \vdash \mathsf{ifElse}\ b\ x\ y : a}
+$$</p>
+<p>给定一个布尔值 $b$，以及某个类型 $a$ 的两个值，我们可以产生一个类型为 $a$ 的值。</p>
+<h2>术语表</h2>
+<table>
+<thead>
+<tr>
+<th>原文</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>abstraction</td>
+<td>抽象</td>
+</tr>
+<tr>
+<td>Alonzo Church</td>
+<td>阿隆佐·邱奇</td>
+</tr>
+<tr>
+<td>application</td>
+<td>应用</td>
+</tr>
+<tr>
+<td>arrow types</td>
+<td>箭头类型</td>
+</tr>
+<tr>
+<td>axiom of pairing</td>
+<td>配对公理</td>
+</tr>
+<tr>
+<td>Bicartesian Closed Category</td>
+<td>双笛卡尔闭范畴</td>
+</tr>
+<tr>
+<td>Boolean type</td>
+<td>布尔类型</td>
+</tr>
+<tr>
+<td>C-monoids</td>
+<td>C-幺半群</td>
+</tr>
+<tr>
+<td>canonical function</td>
+<td>规范函数</td>
+</tr>
+<tr>
+<td>Cartesian Closed Monoid</td>
+<td>笛卡尔闭幺半群</td>
+</tr>
+<tr>
+<td>category of types</td>
+<td>类型范畴</td>
+</tr>
+<tr>
+<td>Church encoding</td>
+<td>Church 编码</td>
+</tr>
+<tr>
+<td>colimit</td>
+<td>余极限</td>
+</tr>
+<tr>
+<td>composite types</td>
+<td>复合类型</td>
+</tr>
+<tr>
+<td>conclusion</td>
+<td>结论</td>
+</tr>
+<tr>
+<td>constructor</td>
+<td>构造器</td>
+</tr>
+<tr>
+<td>Curry-Howard-Lambek correspondence</td>
+<td>Curry-Howard-Lambek 对应</td>
+</tr>
+<tr>
+<td>currying</td>
+<td>柯里化</td>
+</tr>
+<tr>
+<td>Elementary Theory of the Category of Sets</td>
+<td>集合范畴的初等理论</td>
+</tr>
+<tr>
+<td>Generalized Algebraic Datatypes (GADTs)</td>
+<td>广义代数数据类型（GADTs）</td>
+</tr>
+<tr>
+<td>Gerald Jay Sussman</td>
+<td>Gerald Jay Sussman</td>
+</tr>
+<tr>
+<td>global element</td>
+<td>全局元素</td>
+</tr>
+<tr>
+<td>Harold Abelson</td>
+<td>Harold Abelson</td>
+</tr>
+<tr>
+<td>image function</td>
+<td>像函数</td>
+</tr>
+<tr>
+<td>implication object</td>
+<td>蕴涵对象</td>
+</tr>
+<tr>
+<td>inductive type</td>
+<td>归纳类型</td>
+</tr>
+<tr>
+<td>intuitionistic logic</td>
+<td>直觉主义逻辑</td>
+</tr>
+<tr>
+<td>isomorphic</td>
+<td>同构</td>
+</tr>
+<tr>
+<td>Jean-Yves Girard</td>
+<td>Jean-Yves Girard</td>
+</tr>
+<tr>
+<td>Julie Sussman</td>
+<td>Julie Sussman</td>
+</tr>
+<tr>
+<td>kind</td>
+<td>kind</td>
+</tr>
+<tr>
+<td>kinding rules</td>
+<td>kinding rules</td>
+</tr>
+<tr>
+<td>Lambda Calculus</td>
+<td>Lambda 演算</td>
+</tr>
+<tr>
+<td>limit</td>
+<td>极限</td>
+</tr>
+<tr>
+<td>linked list</td>
+<td>链表</td>
+</tr>
+<tr>
+<td>modus ponens</td>
+<td>假言推理</td>
+</tr>
+<tr>
+<td>monoids</td>
+<td>幺半群</td>
+</tr>
+<tr>
+<td>monomorphic</td>
+<td>单态</td>
+</tr>
+<tr>
+<td>naive</td>
+<td>朴素</td>
+</tr>
+<tr>
+<td>naive set theory</td>
+<td>朴素集合论</td>
+</tr>
+<tr>
+<td>natural deduction</td>
+<td>自然演绎</td>
+</tr>
+<tr>
+<td>natural numbers type</td>
+<td>自然数类型</td>
+</tr>
+<tr>
+<td>negative types</td>
+<td>负类型</td>
+</tr>
+<tr>
+<td>partial functions</td>
+<td>偏函数</td>
+</tr>
+<tr>
+<td>polymorphic functions</td>
+<td>多态函数</td>
+</tr>
+<tr>
+<td>Polymorphic Lambda calculus</td>
+<td>多态 Lambda 演算</td>
+</tr>
+<tr>
+<td>positive types</td>
+<td>正类型</td>
+</tr>
+<tr>
+<td>premise</td>
+<td>前提</td>
+</tr>
+<tr>
+<td>product constructors</td>
+<td>积构造器</td>
+</tr>
+<tr>
+<td>propositional function</td>
+<td>命题函数</td>
+</tr>
+<tr>
+<td>range of significance</td>
+<td>意义范围</td>
+</tr>
+<tr>
+<td>range of truth</td>
+<td>真值范围</td>
+</tr>
+<tr>
+<td>recursive type</td>
+<td>递归类型</td>
+</tr>
+<tr>
+<td>Russell</td>
+<td>罗素</td>
+</tr>
+<tr>
+<td>set theory</td>
+<td>集合论</td>
+</tr>
+<tr>
+<td>Simply-typed lambda calculus</td>
+<td>简单类型 lambda 演算</td>
+</tr>
+<tr>
+<td>singleton type</td>
+<td>单例类型</td>
+</tr>
+<tr>
+<td>System F</td>
+<td>System F</td>
+</tr>
+<tr>
+<td>term elimination rule</td>
+<td>项消去规则</td>
+</tr>
+<tr>
+<td>term introduction rule</td>
+<td>项引入规则</td>
+</tr>
+<tr>
+<td>terms</td>
+<td>项</td>
+</tr>
+<tr>
+<td>the axiom of union</td>
+<td>并集公理</td>
+</tr>
+<tr>
+<td>theory of types</td>
+<td>类型理论</td>
+</tr>
+<tr>
+<td>Tuples</td>
+<td>元组</td>
+</tr>
+<tr>
+<td>type abstraction</td>
+<td>类型抽象</td>
+</tr>
+<tr>
+<td>type application</td>
+<td>类型应用</td>
+</tr>
+<tr>
+<td>type constructor</td>
+<td>类型构造器</td>
+</tr>
+<tr>
+<td>type formation rule</td>
+<td>类型形成规则</td>
+</tr>
+<tr>
+<td>type systems</td>
+<td>类型系统</td>
+</tr>
+<tr>
+<td>type theory</td>
+<td>类型理论</td>
+</tr>
+<tr>
+<td>type-level arrows</td>
+<td>类型级箭头</td>
+</tr>
+<tr>
+<td>type-level variables</td>
+<td>类型级变量</td>
+</tr>
+<tr>
+<td>types</td>
+<td>类型</td>
+</tr>
+<tr>
+<td>typing context</td>
+<td>类型上下文</td>
+</tr>
+<tr>
+<td>typing environment</td>
+<td>类型环境</td>
+</tr>
+<tr>
+<td>typing rules</td>
+<td>类型规则</td>
+</tr>
+<tr>
+<td>uncurrying</td>
+<td>反柯里化</td>
+</tr>
+<tr>
+<td>universe of types</td>
+<td>类型宇宙</td>
+</tr>
+<tr>
+<td>Untyped Lambda calculus</td>
+<td>无类型 Lambda 演算</td>
+</tr>
+<tr>
+<td>value-level arrows</td>
+<td>值级箭头</td>
+</tr>
+<tr>
+<td>Zermelo–Fraenkel set theory</td>
+<td>Zermelo–Fraenkel 集合论</td>
+</tr>
+<tr>
+<td>ZFC</td>
+<td>ZFC</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+5:["$","$L11",null,{"email":{"id":"reports-category-theory-illustrated-types","sender":"Rosetta Reports","subject":"范畴论图解：类型","snippet":"在范畴论语境下，“类型”不仅是编程中的基础构件，更指向一种深刻的数学基础理论。本文从习以为常的“集合”概念切入，揭示了这种直观思维潜藏的深层危机——罗素悖论。当试图定义“所有不包含自身的集合”时，朴素集合论便陷入了无法自洽的逻辑死循环。面对这一困境，数学界分化出两条路径：其一是以ZFC集合论为代表，通过增添诸多限制性公理来“打补丁”，代价是牺牲了集合论原本引以为傲的简单性；","date":"2026-04-12","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["translated"],"mdTheme":"magazine","sourcePath":"reports/category-theory-illustrated-types.md","sourceUrl":"https://abuseofnotation.github.io/category-theory-illustrated/06_type/","coverImage":"$undefined","body":"$12","prompts":[]},"listPosition":{"index":122,"total":365},"matchedPerson":"$undefined"}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[27201,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"IconMark"]
+c:[["$","title","0",{"children":"范畴论图解：类型 · Hinbox"}],["$","meta","1",{"name":"description","content":"在范畴论语境下，“类型”不仅是编程中的基础构件，更指向一种深刻的数学基础理论。本文从习以为常的“集合”概念切入，揭示了这种直观思维潜藏的深层危机——罗素悖论。当试图定义“所有不包含自身的集合”时，朴素集合论便陷入了无法自洽的逻辑死循环。面对这一困境，数学界分化出两条路径：其一是以ZFC集合论为代表，通过增添诸多限制性公理来“打补丁”，代价是牺牲了集合论原本引以为傲的简单性；"}],["$","meta","2",{"name":"application-name","content":"Hinbox"}],["$","link","3",{"rel":"canonical","href":"https://linguage.github.io/hinbox/mail/reports-category-theory-illustrated-types"}],["$","meta","4",{"property":"og:title","content":"范畴论图解：类型"}],["$","meta","5",{"property":"og:description","content":"在范畴论语境下，“类型”不仅是编程中的基础构件，更指向一种深刻的数学基础理论。本文从习以为常的“集合”概念切入，揭示了这种直观思维潜藏的深层危机——罗素悖论。当试图定义“所有不包含自身的集合”时，朴素集合论便陷入了无法自洽的逻辑死循环。面对这一困境，数学界分化出两条路径：其一是以ZFC集合论为代表，通过增添诸多限制性公理来“打补丁”，代价是牺牲了集合论原本引以为傲的简单性；"}],["$","meta","6",{"property":"og:url","content":"https://linguage.github.io/hinbox/mail/reports-category-theory-illustrated-types"}],["$","meta","7",{"property":"og:site_name","content":"Hinbox"}],["$","meta","8",{"property":"og:locale","content":"zh_CN"}],["$","meta","9",{"property":"og:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","meta","10",{"property":"og:image:width","content":"1200"}],["$","meta","11",{"property":"og:image:height","content":"630"}],["$","meta","12",{"property":"og:image:alt","content":"范畴论图解：类型"}],["$","meta","13",{"property":"og:type","content":"article"}],["$","meta","14",{"property":"article:published_time","content":"2026-04-12T00:00:00.000Z"}],["$","meta","15",{"property":"article:author","content":"Rosetta Reports"}],["$","meta","16",{"property":"article:tag","content":"translated"}],["$","meta","17",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","18",{"name":"twitter:title","content":"范畴论图解：类型"}],["$","meta","19",{"name":"twitter:description","content":"在范畴论语境下，“类型”不仅是编程中的基础构件，更指向一种深刻的数学基础理论。本文从习以为常的“集合”概念切入，揭示了这种直观思维潜藏的深层危机——罗素悖论。当试图定义“所有不包含自身的集合”时，朴素集合论便陷入了无法自洽的逻辑死循环。面对这一困境，数学界分化出两条路径：其一是以ZFC集合论为代表，通过增添诸多限制性公理来“打补丁”，代价是牺牲了集合论原本引以为傲的简单性；"}],["$","meta","20",{"name":"twitter:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","link","21",{"rel":"icon","href":"/hinbox/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","22",{"rel":"icon","href":"/hinbox/icon.svg?icon.6ca2692a.svg","sizes":"any","type":"image/svg+xml"}],["$","$L13","23",{}]]
+8:null

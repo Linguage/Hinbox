@@ -1,0 +1,66 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T2931,<h1>Anthropic’s Project Glasswing—restricting Claude Mythos to security researchers—sounds necessary to me</h1>
+<p><a href="https://simonwillison.net/2026/Apr/7/project-glasswing/">原文链接</a></p>
+<p>Anthropic近日推出模型Claude Mythos，却将其访问权严格限定于安全研究人员。本文剖析了这一审慎决策背后的现实：Mythos展现出远超前代的自主漏洞利用能力，能轻松串联复杂漏洞攻破主流操作系统。结合开源社区维护者的反馈，文章指出AI生成的安全报告已从“垃圾信息”演变为高质量的真实威胁浪潮。作者冷静地指出，在AI攻防能力发生范式转变的当下，Anthropic为行业留出缓冲期并非营销噱头，而是极具必要的理性克制。本文为读者提供了审视AI安全边界的清晰视角。</p>
+<hr>
+<p>Anthropic 今天<em>并没有</em>发布他们最新的模型 Claude Mythos（<a href="https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf">系统卡片 PDF</a>）。相反，他们通过其新宣布的 <a href="https://www.anthropic.com/glasswing">Project Glasswing</a>，将其提供给了一组非常受限的预览合作伙伴。</p>
+<p>该模型是一个通用模型，类似于 Claude Opus 4.6，但 Anthropic 声称其网络安全研究能力强大到他们需要给整个软件行业留出准备时间。</p>
+<blockquote>
+<p>Mythos Preview 已经发现了数千个高危漏洞（high-severity vulnerabilities），包括<em>每一个主流操作系统和 Web 浏览器</em>中的一些漏洞。鉴于 AI 的进步速度，这种能力普及开来为时不远，甚至可能扩散到那些不致力于安全部署这些能力的参与者手中。</p>
+<p>[...]</p>
+<p>Project Glasswing 合作伙伴将获得 Claude Mythos Preview 的访问权限，以发现和修复其基础系统中的漏洞或弱点——这些系统构成了全球网络攻击面非常大的一部分。我们预计这项工作将集中在本地漏洞检测（local vulnerability detection）、二进制文件的黑盒测试（black box testing of binaries）、端点安全（securing endpoints）以及系统渗透测试（penetration testing）等任务上。</p>
+</blockquote>
+<p>在 Anthropic 红队博客上的 <a href="https://red.anthropic.com/2026/mythos-preview/">评估 Claude Mythos Preview 的网络安全能力</a> 一文中，有更多技术细节：</p>
+<blockquote>
+<p>在一个案例中，Mythos Preview 编写了一个 Web 浏览器漏洞利用程序（exploit），将四个漏洞链接在一起，编写了一段复杂的 <a href="https://en.wikipedia.org/wiki/JIT_spraying">JIT 堆喷射（JIT heap spray）</a>，逃逸了渲染器和操作系统沙箱。它通过利用微妙的竞态条件（race conditions）和 KASLR 绕过，在 Linux 和其他操作系统上自主获取了本地提权（local privilege escalation）漏洞利用程序。它还在 FreeBSD 的 NFS 服务器上自主编写了一个远程代码执行（remote code execution）漏洞利用程序，通过将一个包含 20 个 gadget 的 ROP 链拆分到多个数据包中，赋予了未经身份验证的用户完全的 root 权限。</p>
+</blockquote>
+<p>以及与 Claude 4.6 Opus 的比较：</p>
+<blockquote>
+<p>我们的内部评估显示，Opus 4.6 在自主开发漏洞利用程序方面通常成功率接近 0%。但 Mythos Preview 完全不在一个层级。例如，Opus 4.6 在数百次尝试中，仅将其在 Mozilla Firefox 147 JavaScript 引擎中发现的漏洞（均在 Firefox 148 中修复）转化为了 JavaScript shell 漏洞利用程序两次。我们重新运行了该实验作为 Mythos Preview 的基准测试，它成功开发出可用的漏洞利用程序 181 次，并在另外 29 次中实现了寄存器控制。</p>
+</blockquote>
+<p>说“我们的模型太危险了，不能发布”是为一款新模型造势的好方法，但在这种情况下，我认为他们的谨慎是有道理的。</p>
+<h3>安全社区的警觉与实证</h3>
+<p>就在几天前（<a href="https://simonwillison.net/2026/Apr/3/">上周五</a>），我在这个博客上启用了一个新的 <a href="https://simonwillison.net/tags/ai-security-research/">ai-security-research</a> 标签，以确认越来越多可信的安全专业人员对现代 LLM 在漏洞研究方面变得多么出色拉响警报。</p>
+<p>Linux 内核的 Greg Kroah-Hartman：</p>
+<blockquote>
+<p>几个月前，我们收到的是我们称之为“AI 垃圾（AI slop）”的东西，即明显错误或低质量的 AI 生成安全报告。这有点好笑。它并没有真正让我们担心。</p>
+<p>一个月前发生了一些事，世界改变了。现在我们有了真实的报告。所有开源项目都有用 AI 制作的真实的报告，而且它们很好，是真实的。</p>
+</blockquote>
+<p><code>curl</code> 的 Daniel Stenberg：</p>
+<blockquote>
+<p>开源安全中 AI 带来的挑战，已经从 AI 垃圾海啸转变成了更像是……纯粹的安全报告海啸。垃圾少了，但报告很多。其中许多真的很好。</p>
+<p>我现在每天要花几个小时在这上面。强度很大。</p>
+</blockquote>
+<p>而 Thomas Ptacek 发表了《漏洞研究已完蛋》（<a href="https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/">Vulnerability Research Is Cooked</a>），这篇文章的灵感来自他与 Anthropic 的 Nicholas Carlini 的<a href="https://securitycryptographywhatever.com/2026/03/25/ai-bug-finding/">播客对话</a>。</p>
+<p>Anthropic 有一个 5 分钟的<a href="https://www.youtube.com/watch?v=INGOC6-LLv0">专家访谈视频（talking heads video）</a>介绍了 Glasswing 项目。Nicholas Carlini 作为受访专家之一出现，他在其中说道（粗体为我标出）：</p>
+<blockquote>
+<p>它具有将漏洞链接在一起的能力。所以这意味着你发现了两个漏洞，单独来看哪个都不太能有什么大作为。但这个模型能够利用三、四个甚至五个漏洞创建漏洞利用程序，这些漏洞按顺序组合给你某种非常复杂的最终结果。[...]</p>
+<p><strong>我在过去几周发现的 bug 比我之前一生发现的加起来还要多</strong>。我们用这个模型扫描了一堆开源代码，我们首先瞄准的是操作系统，因为这是构成整个互联网基础设施的代码。<strong>对于 OpenBSD，我们发现了一个存在了 27 年的 bug，我只需要向任何 OpenBSD 服务器发送几条数据就能让它崩溃</strong>。在 Linux 上，我们发现了多个漏洞，作为一个没有权限的用户，我可以仅仅通过在我的机器上运行一些二进制文件就能将自己提升为管理员。对于这些 bug 中的每一个，我们都告诉了实际运行该软件的维护者，他们去修复了它们并部署了补丁，这样任何运行该软件的人都不再容易受到这些攻击。</p>
+</blockquote>
+<p>我在 <a href="https://www.openbsd.org/errata78.html">OpenBSD 7.8 勘误页面</a>上找到了这个：</p>
+<blockquote>
+<p><strong>025: 可靠性修复（RELIABILITY FIX）：2026 年 3 月 25 日</strong> <em>所有架构</em></p>
+<p>具有无效 SACK 选项的 TCP 数据包可能导致内核崩溃。</p>
+<p><a href="https://ftp.openbsd.org/pub/OpenBSD/patches/7.8/common/025_sack.patch.sig">存在一个可以解决此问题的源代码补丁。</a></p>
+</blockquote>
+<p>我在 OpenBSD CVS 仓库的 <a href="https://github.com/openbsd/src">GitHub 镜像</a>中追踪到了这个更改（显然他们还在用 CVS！），并<a href="https://github.com/openbsd/src/blame/master/sys/netinet/tcp_input.c#L2461">使用 git blame 找到了它</a>：</p>
+<p><img src="https://static.simonwillison.net/static/2026/openbsd-27-years.jpg" alt="C 源代码在 2455 行左右的 Git blame 视图截图，显示了 TCP SACK 空洞验证逻辑。代码包含对 th->th_ack、tp->snd_una、sack.start、sack.end、tp->snd_max 和 tp->snd_holes 等字段使用 SEQ_GT、SEQ_LT 宏的检查。大多数提交来自 25 到 27 年前，带有诸如“more SACK hole validity testin...”和“knf”之类的消息，而 3 周前的一个最近提交（“Ignore TCP SACK packets wit...”）以橙色左边框突出显示，添加了一个新的守卫条件“if (SEQ_LT(sack.start, tp->snd_una)) continue;”"></p>
+<p>果然，周围的代码来自 27 年前。</p>
+<p>我不确定 Nicholas 描述的是哪个 Linux 漏洞，但可能是 <a href="https://mtlynch.io/claude-code-found-linux-vulnerability/">Michael Lynch</a> 最近报道的<a href="https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=5133b61aaf437e5f25b1b396b14242a6bb0508e2">这个 NFS 漏洞</a>。</p>
+<h3>行业清算与未来展望</h3>
+<p>这里烟够大了，我相信真的有火。在有着几十年历史的软件中发现漏洞并不令人惊讶，特别是考虑到它们大多是用 C 语言编写的，但新的是，由最新前沿 LLM 驱动的编码代理在挖掘这些问题方面证明了自己不知疲倦的能力。</p>
+<p>我在周五确实在心里想，这听起来像是一场正在酝酿中的全行业清算，可能值得投入大量的时间和金钱来抢在不可避免的漏洞轰炸之前。Project Glasswing 包含“1 亿美元的使用额度（usage credits）……以及向开源安全组织提供的 400 万美元直接捐款”。合作伙伴包括 AWS、Apple、Microsoft、Google 和 Linux Foundation。如果 OpenAI 也能参与进来就太好了——GPT-5.4 在发现安全漏洞方面已经拥有很高的声誉，而且他们在不久的将来会有更强的模型。</p>
+<p>对于我们这些<em>不是</em>受信任合作伙伴的人来说，坏消息是这样的：</p>
+<blockquote>
+<p>我们不打算普遍提供 Claude Mythos Preview，但我们最终的目标是让我们的用户能够安全地大规模部署 Mythos 级别的模型——出于网络安全目的，但也为了这种高能力模型将带来的无数其他好处。为了做到这一点，我们需要在开发网络安全（及其他）防护措施方面取得进展，以检测和阻止模型最危险的输出。我们计划在即将推出的 Claude Opus 模型中发布新的防护措施，从而让我们能够在一个不会带来与 Mythos Preview 相同级别风险的模型上改进和完善它们。</p>
+</blockquote>
+<p>我能接受。我认为这里的安全风险确实是可信的，为受信任的团队争取额外的时间来抢占先机是一个合理的权衡。</p>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-anthropics-project-glasswingrestricting-claude-mythos-to-sec","sender":"Simon Willison","subject":"Anthropic 的 Project Glasswing：限制 Claude Mythos 访问——我认为很有必要","snippet":"Anthropic近日推出模型Claude Mythos，却将其访问权严格限定于安全研究人员。本文剖析了这一审慎决策背后的现实：Mythos展现出远超前代的自主漏洞利用能力，能轻松串联复杂漏洞攻破主流操作系统。结合开源社区维护者的反馈，文章指出AI生成的安全报告已从“垃圾信息”演变为高质量的真实威胁浪潮。","date":"2026-04-07","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["translated"],"mdTheme":"magazine","sourcePath":"reports/anthropics-project-glasswingrestricting-claude-mythos-to-sec.md","sourceUrl":"https://simonwillison.net/2026/Apr/7/project-glasswing/","body":"$3","prompts":[]},"listPosition":{"index":134,"total":365}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

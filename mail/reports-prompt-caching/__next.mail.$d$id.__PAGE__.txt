@@ -1,0 +1,675 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T93ff,<h1>Prompt caching</h1>
+<p><a href="https://platform.claude.com/docs/en/build-with-claude/prompt-caching">原文链接</a></p>
+<p>在大模型应用日益复杂的当下，API调用的成本与延迟成为开发者不可忽视的瓶颈。本文深入解析了Anthropic推出的“提示词缓存”机制，为这一痛点提供了切实的工程解法。该功能通过复用提示词的特定前缀，在保障零数据保留合规性的前提下，显著削减了长上下文、多轮对话及重复性任务的处理开销。文章不仅清晰对比了自动缓存与显式断点两种控制策略的适用边界，还详细拆解了其底层运转逻辑与阶梯式定价模型。对于追求高性能与成本效益平衡的开发者而言，厘清这项技术的触发条件与计费细节，无疑是优化大模型应用架构的关键一步。</p>
+<hr>
+<p>提示词缓存（Prompt caching）通过允许从提示词中的特定前缀（prefix）恢复，来优化你的 API 使用。这显著减少了重复性任务或包含一致元素的提示词的处理时间和成本。</p>
+<p>此功能符合<a href="https://platform.claude.com/docs/en/build-with-claude/api-and-data-retention">零数据保留（Zero Data Retention, ZDR）</a>的条件。当你的组织有 ZDR 安排时，通过此功能发送的数据在 API 响应返回后不会被存储。</p>
+<p>有两种方式可以启用提示词缓存：</p>
+<ul>
+<li><strong><a href="#automatic-caching">自动缓存（Automatic caching）</a></strong>：在你的请求顶层添加一个 <code>cache_control</code> 字段。系统自动将缓存断点（cache breakpoint）应用于最后一个可缓存块（cacheable block），并随着对话的增长向前移动。最适合应自动缓存不断增长的消息历史的多轮对话（multi-turn conversations）。</li>
+<li><strong><a href="#explicit-cache-breakpoints">显式缓存断点（Explicit cache breakpoints）</a></strong>：将 <code>cache_control</code> 直接放在各个内容块上，以精确控制到底缓存什么。</li>
+</ul>
+<p>最简单的入门方式是使用自动缓存：</p>
+<pre><code>curl https://api.anthropic.com/v1/messages \
+  -H "content-type: application/json" \
+  -H "x-api-key: $ANTHROPIC_API_KEY" \
+  -H "anthropic-version: 2023-06-01" \
+  -d '{
+    "model": "claude-opus-4-6",
+    "max_tokens": 1024,
+    "cache_control": {"type": "ephemeral"},
+    "system": "You are an AI assistant tasked with analyzing literary works. Your goal is to provide insightful commentary on themes, characters, and writing style.",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Analyze the major themes in Pride and Prejudice."
+      }
+    ]
+  }'
+</code></pre>
+<p>使用自动缓存时，系统会缓存到最后一个可缓存块（包含该块）的所有内容。在具有相同前缀的后续请求中，缓存内容会被自动重用。</p>
+<hr>
+<h3>提示词缓存的工作原理</h3>
+<p>当你发送启用了提示词缓存的请求时：</p>
+<ol>
+<li>系统检查提示词前缀（直到指定的缓存断点）是否已从最近的查询中缓存。</li>
+<li>如果找到，则使用缓存版本，减少处理时间和成本。</li>
+<li>否则，处理完整的提示词，并在响应开始时缓存该前缀。</li>
+</ol>
+<p>这在以下情况特别有用：</p>
+<ul>
+<li>包含大量示例的提示词</li>
+<li>大量的上下文或背景信息</li>
+<li>具有一致指令的重复性任务</li>
+<li>长多轮对话</li>
+</ul>
+<p>默认情况下，缓存的生命周期为 5 分钟。每次使用缓存内容时，缓存会被刷新且不产生额外费用。</p>
+<p>如果你发现 5 分钟太短，Anthropic 也提供 1 小时的缓存持续时间<a href="#pricing">需额外付费</a>。</p>
+<p>更多信息，请参阅<a href="#1-hour-cache-duration">1 小时缓存持续时间</a>。</p>
+<p><strong>提示词缓存缓存完整前缀</strong></p>
+<p>提示词缓存引用整个提示词——<code>tools</code>、<code>system</code> 和 <code>messages</code>（按此顺序），直到并包含用 <code>cache_control</code> 指定的块。</p>
+<hr>
+<h3>定价</h3>
+<p>提示词缓存引入了新的定价结构。下表显示了每个受支持模型每百万 token 的价格：</p>
+<table>
+<thead>
+<tr>
+<th>模型</th>
+<th>基础输入 token</th>
+<th>5 分钟缓存写入</th>
+<th>1 小时缓存写入</th>
+<th>缓存命中与刷新</th>
+<th>输出 token</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Claude Opus 4.6</td>
+<td>$5 / MTok</td>
+<td>$6.25 / MTok</td>
+<td>$10 / MTok</td>
+<td>$0.50 / MTok</td>
+<td>$25 / MTok</td>
+</tr>
+<tr>
+<td>Claude Opus 4.5</td>
+<td>$5 / MTok</td>
+<td>$6.25 / MTok</td>
+<td>$10 / MTok</td>
+<td>$0.50 / MTok</td>
+<td>$25 / MTok</td>
+</tr>
+<tr>
+<td>Claude Opus 4.1</td>
+<td>$15 / MTok</td>
+<td>$18.75 / MTok</td>
+<td>$30 / MTok</td>
+<td>$1.50 / MTok</td>
+<td>$75 / MTok</td>
+</tr>
+<tr>
+<td>Claude Opus 4</td>
+<td>$15 / MTok</td>
+<td>$18.75 / MTok</td>
+<td>$30 / MTok</td>
+<td>$1.50 / MTok</td>
+<td>$75 / MTok</td>
+</tr>
+<tr>
+<td>Claude Sonnet 4.6</td>
+<td>$3 / MTok</td>
+<td>$3.75 / MTok</td>
+<td>$6 / MTok</td>
+<td>$0.30 / MTok</td>
+<td>$15 / MTok</td>
+</tr>
+<tr>
+<td>Claude Sonnet 4.5</td>
+<td>$3 / MTok</td>
+<td>$3.75 / MTok</td>
+<td>$6 / MTok</td>
+<td>$0.30 / MTok</td>
+<td>$15 / MTok</td>
+</tr>
+<tr>
+<td>Claude Sonnet 4</td>
+<td>$3 / MTok</td>
+<td>$3.75 / MTok</td>
+<td>$6 / MTok</td>
+<td>$0.30 / MTok</td>
+<td>$15 / MTok</td>
+</tr>
+<tr>
+<td>Claude Sonnet 3.7 (<a href="https://platform.claude.com/docs/en/about-claude/model-deprecations">已弃用</a>)</td>
+<td>$3 / MTok</td>
+<td>$3.75 / MTok</td>
+<td>$6 / MTok</td>
+<td>$0.30 / MTok</td>
+<td>$15 / MTok</td>
+</tr>
+<tr>
+<td>Claude Haiku 4.5</td>
+<td>$1 / MTok</td>
+<td>$1.25 / MTok</td>
+<td>$2 / MTok</td>
+<td>$0.10 / MTok</td>
+<td>$5 / MTok</td>
+</tr>
+<tr>
+<td>Claude Haiku 3.5</td>
+<td>$0.80 / MTok</td>
+<td>$1 / MTok</td>
+<td>$1.6 / MTok</td>
+<td>$0.08 / MTok</td>
+<td>$4 / MTok</td>
+</tr>
+<tr>
+<td>Claude Opus 3 (<a href="https://platform.claude.com/docs/en/about-claude/model-deprecations">已弃用</a>)</td>
+<td>$15 / MTok</td>
+<td>$18.75 / MTok</td>
+<td>$30 / MTok</td>
+<td>$1.50 / MTok</td>
+<td>$75 / MTok</td>
+</tr>
+<tr>
+<td>Claude Haiku 3</td>
+<td>$0.25 / MTok</td>
+<td>$0.30 / MTok</td>
+<td>$0.50 / MTok</td>
+<td>$0.03 / MTok</td>
+<td>$1.25 / MTok</td>
+</tr>
+</tbody>
+</table>
+<p>上表反映了提示词缓存的以下定价乘数：</p>
+<ul>
+<li>5 分钟缓存写入 token 是基础输入 token 价格的 1.25 倍</li>
+<li>1 小时缓存写入 token 是基础输入 token 价格的 2 倍</li>
+<li>缓存读取 token 是基础输入 token 价格的 0.1 倍</li>
+</ul>
+<p>这些乘数与其他定价修饰符（如 Batch API 折扣和数据驻留）叠加。完整详情请参阅<a href="https://platform.claude.com/docs/en/about-claude/pricing">定价</a>。</p>
+<hr>
+<h3>受支持的模型</h3>
+<p>提示词缓存（自动和显式）目前支持以下模型：</p>
+<ul>
+<li>Claude Opus 4.6</li>
+<li>Claude Opus 4.5</li>
+<li>Claude Opus 4.1</li>
+<li>Claude Opus 4</li>
+<li>Claude Sonnet 4.6</li>
+<li>Claude Sonnet 4.5</li>
+<li>Claude Sonnet 4</li>
+<li>Claude Sonnet 3.7 (<a href="https://platform.claude.com/docs/en/about-claude/model-deprecations">已弃用</a>)</li>
+<li>Claude Haiku 4.5</li>
+<li>Claude Haiku 3.5 (<a href="https://platform.claude.com/docs/en/about-claude/model-deprecations">已弃用</a>)</li>
+<li>Claude Haiku 3</li>
+</ul>
+<hr>
+<h3>自动缓存</h3>
+<p>自动缓存是启用提示词缓存的最简单方式。无需将 <code>cache_control</code> 放在各个内容块上，只需在你的请求体顶层添加一个 <code>cache_control</code> 字段。系统自动将缓存断点应用于最后一个可缓存块。</p>
+<pre><code>curl https://api.anthropic.com/v1/messages \
+  -H "content-type: application/json" \
+  -H "x-api-key: $ANTHROPIC_API_KEY" \
+  -H "anthropic-version: 2023-06-01" \
+  -d '{
+    "model": "claude-opus-4-6",
+    "max_tokens": 1024,
+    "cache_control": {"type": "ephemeral"},
+    "system": "You are a helpful assistant that remembers our conversation.",
+    "messages": [
+      {"role": "user", "content": "My name is Alex. I work on machine learning."},
+      {"role": "assistant", "content": "Nice to meet you, Alex! How can I help with your ML work today?"},
+      {"role": "user", "content": "What did I say I work on?"}
+    ]
+  }'
+</code></pre>
+<h3>自动缓存在多轮对话中的工作原理</h3>
+<p>使用自动缓存时，随着对话增长，缓存点会自动向前移动。每个新请求会缓存到最后一个可缓存块的所有内容，而之前的内容从缓存中读取。</p>
+<table>
+<thead>
+<tr>
+<th>请求</th>
+<th>内容</th>
+<th>缓存行为</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>请求 1</td>
+<td>System   + User(1) + Asst(1)   + <strong>User(2)</strong> ◀ 缓存</td>
+<td>所有内容写入缓存</td>
+</tr>
+<tr>
+<td>请求 2</td>
+<td>System   + User(1) + Asst(1)   + User(2) + Asst(2)   + <strong>User(3)</strong> ◀ 缓存</td>
+<td>从 System 到 User(2) 从缓存读取；   Asst(2) + User(3) 写入缓存</td>
+</tr>
+<tr>
+<td>请求 3</td>
+<td>System   + User(1) + Asst(1)   + User(2) + Asst(2)   + User(3) + Asst(3)   + <strong>User(4)</strong> ◀ 缓存</td>
+<td>从 System 到 User(3) 从缓存读取；   Asst(3) + User(4) 写入缓存</td>
+</tr>
+</tbody>
+</table>
+<p>缓存断点会自动移动到每个请求中最后一个可缓存块，因此你无需在对话增长时更新任何 <code>cache_control</code> 标记。</p>
+<h3>TTL 支持</h3>
+<p>默认情况下，自动缓存使用 5 分钟的 TTL。你可以指定 1 小时的 TTL，价格为基本输入 token 价格的 2 倍：</p>
+<pre><code>{ "cache_control": { "type": "ephemeral", "ttl": "1h" } }
+</code></pre>
+<h3>与块级缓存结合使用</h3>
+<p>自动缓存与<a href="#explicit-cache-breakpoints">显式缓存断点</a>兼容。同时使用时，自动缓存断点会占用 4 个可用断点槽位中的一个。</p>
+<p>这允许你结合这两种方法。例如，使用显式断点独立缓存你的系统提示词和工具，而自动缓存处理对话：</p>
+<pre><code>{
+  "model": "claude-opus-4-6",
+  "max_tokens": 1024,
+  "cache_control": { "type": "ephemeral" },
+  "system": [
+    {
+      "type": "text",
+      "text": "You are a helpful assistant.",
+      "cache_control": { "type": "ephemeral" }
+    }
+  ],
+  "messages": [{ "role": "user", "content": "What are the key terms?" }]
+}
+</code></pre>
+<h3>保持不变的内容</h3>
+<p>自动缓存使用相同的底层缓存基础设施。定价、最小 token 阈值、上下文排序要求以及 20 块回溯窗口（lookback window）的应用方式与显式断点完全相同。</p>
+<h3>边缘情况</h3>
+<ul>
+<li>如果最后一个块已经具有相同 TTL 的显式 <code>cache_control</code>，则自动缓存是空操作（no-op）。</li>
+<li>如果最后一个块具有不同 TTL 的显式 <code>cache_control</code>，则 API 返回 400 错误。</li>
+<li>如果已存在 4 个显式块级断点，则 API 返回 400 错误（没有留给自动缓存的槽位）。</li>
+<li>如果最后一个块不符合作为自动缓存断点目标的条件，系统会静默向后查找最近符合条件的块。如果未找到，则跳过缓存。</li>
+</ul>
+<p>自动缓存已在 Claude API 和 Azure AI Foundry（预览版）上提供。稍后将支持 Amazon Bedrock 和 Google Vertex AI。</p>
+<hr>
+<h3>显式缓存断点</h3>
+<p>为了更多地控制缓存，你可以将 <code>cache_control</code> 直接放置在单个内容块上。当你需要缓存以不同频率变化的不同部分，或者需要对究竟缓存什么进行精细控制时，这很有用。</p>
+<h3>构建你的提示词</h3>
+<p>将静态内容（工具定义、系统指令、上下文、示例）放在提示词的开头。使用 <code>cache_control</code> 参数标记可复用内容的结尾以进行缓存。</p>
+<p>缓存前缀按以下顺序创建：<code>tools</code>、<code>system</code>，然后是 <code>messages</code>。此顺序形成了一个层级结构，其中每一层都建立在前一层之上。</p>
+<h3>自动前缀检查的工作原理</h3>
+<p>你可以在静态内容的末尾仅使用一个缓存断点，系统将自动查找先前请求已写入缓存的最长前缀。理解其工作原理有助于你优化缓存策略。</p>
+<p><strong>三个核心原则：</strong></p>
+<ol>
+<li><strong>缓存写入仅在你的断点处发生。</strong> 用 <code>cache_control</code> 标记一个块会精确写入一个缓存条目（cache entry）：以该块结尾的前缀的哈希值（hash）。系统不会为任何更早的位置写入条目。因为哈希是累积的，覆盖直到并包含该断点的所有内容，更改断点处或之前的任何块都会在下次请求时产生不同的哈希值。</li>
+<li><strong>缓存读取向后查找先前请求写入的条目。</strong> 在每次请求时，系统会计算你的断点处的前缀哈希值（prefix hash），并检查是否有匹配的缓存条目。如果不存在，它会一次向后遍历一个块，检查每个更早位置的前缀哈希值是否与缓存中已有的内容匹配。它是在查找先前的写入，而不是查找稳定的内容。</li>
+<li><strong>回溯窗口为 20 个块。</strong> 系统每个断点最多检查 20 个位置，将断点本身计为第一个。如果系统在该窗口中未找到匹配的条目，检查就会停止（或者从下一个显式缓存断点恢复，如果有的话）。</li>
+</ol>
+<p><strong>示例：不断增长的对话中的回溯</strong></p>
+<p>你在每一轮追加新块，并在每次请求的最后一个块上设置 <code>cache_control</code>：</p>
+<ul>
+<li><strong>第 1 轮：</strong> 10 个块，断点在第 10 个块上。不存在先前的缓存条目。系统在第 10 个块处写入一个条目。</li>
+<li><strong>第 2 轮：</strong> 15 个块，断点在第 15 个块上。第 15 个块没有条目，因此系统向后查找到第 10 个块并找到第 1 轮的条目。在第 10 个块处缓存命中（cache hit）；系统仅全新处理第 11 到 15 个块，并在第 15 个块处写入一个新条目。</li>
+<li><strong>第 3 轮：</strong> 35 个块，断点在第 35 个块上。系统检查 20 个位置（第 35 到 16 个块）并一无所获。第 2 轮在第 15 个块处的条目位于窗口外一个位置，因此没有缓存命中。在第 15 个块处添加第二个断点会在那里启动第二个回溯窗口，从而找到第 2 轮的条目。</li>
+</ul>
+<p><strong>常见错误：断点放在每次请求都会变化的内容上</strong></p>
+<p>你的提示词有一个很大的静态系统上下文（第 1 到 5 个块），其后是包含时间戳和用户消息的每次请求块（第 6 个块）。你在第 6 个块上设置了 <code>cache_control</code>：</p>
+<ul>
+<li><strong>请求 1：</strong> 在第 6 个块处缓存写入（cache write）。哈希包含时间戳。</li>
+<li><strong>请求 2：</strong> 时间戳不同，因此第 6 个块处的前缀哈希也不同。回溯遍历第 5、4、3、2 和 1 个块，但系统从未在任何这些位置写入过条目。没有缓存命中。你为每次请求的全新缓存写入付费，却从未获得读取（cache read）。</li>
+</ul>
+<p>回溯并不会找到断点之前的稳定内容并将其缓存。它找到的是先前请求已写入的条目，而写入仅发生在断点处。将 <code>cache_control</code> 移到第 5 个块，即跨请求保持不变的最后一个块，随后的每次请求都会读取缓存的前缀。<a href="#automatic-caching">自动缓存</a>也会陷入同样的陷阱：它将断点放在最后一个可缓存块上，而在这种结构中，该块正是每次请求都会变化的块，因此请改为在第 5 个块上使用显式缓存断点。</p>
+<p><strong>关键要点：</strong> 将 <code>cache_control</code> 放在你希望共享缓存的那些请求中前缀相同的最后一个块上。在不断增长的对话中，只要每一轮新增的块少于 20 个，最后一个块就能起作用：较早的内容永远不会改变，因此下次请求的回溯会找到先前的写入。对于带有可变后缀（时间戳、每次请求的上下文、传入消息）的提示词，请将断点放在静态前缀的末尾，而不是放在可变块上。</p>
+<h3>何时使用多个断点</h3>
+<p>如果你想进行以下操作，可以定义最多 4 个缓存断点：</p>
+<ul>
+<li>缓存以不同频率变化的不同部分（例如，工具很少变化，但上下文每天更新）</li>
+<li>对究竟缓存什么进行更多控制</li>
+<li>当不断增长的对话将你的断点推离最后一次缓存写入 20 个或更多块时，确保缓存命中</li>
+</ul>
+<p><strong>重要限制：</strong> 回溯只能找到先前请求已写入的条目。如果不断增长的对话将你的断点推离最后一次写入 20 个或更多块，回溯窗口就会错过它。从一开始就在更靠近该位置的地方添加第二个断点，以便在需要之前在那里累积写入。</p>
+<h3>理解缓存断点成本</h3>
+<p><strong>缓存断点本身不增加任何成本。</strong> 你仅需为以下内容付费：</p>
+<ul>
+<li><strong>缓存写入</strong>：当新内容写入缓存时（对于 5 分钟 TTL（生存时间），比基础输入 token 高 25%）</li>
+<li><strong>缓存读取</strong>：当使用缓存内容时（基础输入 token 价格的 10%）</li>
+<li><strong>常规输入 token</strong>：针对任何未缓存的内容</li>
+</ul>
+<p>添加更多 <code>cache_control</code> 断点不会增加你的成本——你仍然根据实际缓存和读取的内容支付相同金额。断点只是让你能够控制哪些部分可以独立缓存。</p>
+<h3>缓存策略与注意事项</h3>
+<h3>缓存限制</h3>
+<p>最小可缓存提示词长度为：</p>
+<ul>
+<li>Claude Opus 4.6、Claude Opus 4.5 为 4096 个 token</li>
+<li>Claude Sonnet 4.6 为 2048 个 token</li>
+<li>Claude Sonnet 4.5、Claude Opus 4.1、Claude Opus 4、Claude Sonnet 4 和 Claude Sonnet 3.7 为 1024 个 token（<a href="https://platform.claude.com/docs/en/about-claude/model-deprecations">已弃用</a>）</li>
+<li>Claude Haiku 4.5 为 4096 个 token</li>
+<li>Claude Haiku 3.5（<a href="https://platform.claude.com/docs/en/about-claude/model-deprecations">已弃用</a>）和 Claude Haiku 3 为 2048 个 token</li>
+</ul>
+<p>较短的提示词无法被缓存，即使标记了 <code>cache_control</code>。任何缓存少于该数量 token 的请求都将在不进行缓存的情况下被处理，且不会返回错误。要验证提示词是否已缓存，请检查响应使用情况<a href="https://platform.claude.com/docs/en/build-with-claude/prompt-caching#tracking-cache-performance">字段</a>：如果 <code>cache_creation_input_tokens</code> 和 <code>cache_read_input_tokens</code> 均为 0，则提示词未被缓存（可能是因为未满足最小长度要求）。</p>
+<p>如果你的提示词刚好未达到所用模型的最小长度要求，通常值得扩展缓存内容以达到该阈值。缓存读取的成本显著低于未缓存的输入 token，因此达到最小长度可以降低频繁重复使用的提示词的成本。</p>
+<p>对于并发请求，请注意，缓存条目仅在首次响应开始后才可用。如果你需要并行请求获得缓存命中，请在发送后续请求前等待首次响应。</p>
+<p>目前，“ephemeral”是唯一支持的缓存类型，其默认生存时间为 5 分钟。</p>
+<h3>可缓存的内容</h3>
+<p>请求中的大多数块都可以被缓存。包括：</p>
+<ul>
+<li>工具：<code>tools</code> 数组中的工具定义</li>
+<li>系统消息：<code>system</code> 数组中的内容块</li>
+<li>文本消息：<code>messages.content</code> 数组中的内容块，适用于用户和助手轮次</li>
+<li>图片与文档：<code>messages.content</code> 数组中的内容块，适用于用户轮次</li>
+<li>工具使用与工具结果：<code>messages.content</code> 数组中的内容块，适用于用户和助手轮次</li>
+</ul>
+<p>这些元素中的每一个都可以被缓存，无论是自动缓存还是通过标记 <code>cache_control</code> 来缓存。</p>
+<h3>不可缓存的内容</h3>
+<p>虽然大多数请求块都可以被缓存，但有一些例外：</p>
+<ul>
+<li>思考块不能直接使用 <code>cache_control</code> 进行缓存。但是，当思考块出现在之前的助手轮次中时，它们可以与其他内容一起被缓存。以这种方式缓存时，从缓存中读取时它们确实会计入输入 token。</li>
+<li>子内容块（如<a href="https://platform.claude.com/docs/en/build-with-claude/citations">引用</a>）本身不能直接被缓存。相反，应缓存顶层块。
+在引用的情况下，作为引用源材料的顶层文档内容块可以被缓存。这允许你通过缓存引用将引用的文档，来有效地结合使用提示词缓存与引用功能。</li>
+<li>空文本块无法被缓存。</li>
+</ul>
+<h3>导致缓存失效的因素</h3>
+<p>对缓存内容的修改可能导致部分或全部缓存失效。</p>
+<p>如<a href="#structuring-your-prompt">构建你的提示词</a>中所述，缓存遵循层级结构：<code>tools</code> → <code>system</code> → <code>messages</code>。每一层级的更改都会使该层级及所有后续层级失效。</p>
+<p>下表显示了不同类型的更改会使缓存的哪些部分失效。✘ 表示缓存失效，而 ✓ 表示缓存保持有效。</p>
+<table>
+<thead>
+<tr>
+<th>更改内容</th>
+<th>工具缓存</th>
+<th>系统缓存</th>
+<th>消息缓存</th>
+<th>影响</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>工具定义</strong></td>
+<td>✘</td>
+<td>✘</td>
+<td>✘</td>
+<td>修改工具定义（名称、描述、参数）会使整个缓存失效</td>
+</tr>
+<tr>
+<td><strong>网络搜索开关</strong></td>
+<td>✓</td>
+<td>✘</td>
+<td>✘</td>
+<td>启用/禁用网络搜索会修改系统提示词</td>
+</tr>
+<tr>
+<td><strong>引用开关</strong></td>
+<td>✓</td>
+<td>✘</td>
+<td>✘</td>
+<td>启用/禁用引用会修改系统提示词</td>
+</tr>
+<tr>
+<td><strong>速度设置</strong></td>
+<td>✓</td>
+<td>✘</td>
+<td>✘</td>
+<td>在 <a href="https://platform.claude.com/docs/en/build-with-claude/fast-mode"><code>speed: "fast"</code> 和标准速度</a>之间切换会使系统和消息缓存失效</td>
+</tr>
+<tr>
+<td><strong>工具选择</strong></td>
+<td>✓</td>
+<td>✓</td>
+<td>✘</td>
+<td>对 <code>tool_choice</code> 参数的更改仅影响消息块</td>
+</tr>
+<tr>
+<td><strong>图片</strong></td>
+<td>✓</td>
+<td>✓</td>
+<td>✘</td>
+<td>在提示词中的任何位置添加/移除图片会影响消息块</td>
+</tr>
+<tr>
+<td><strong>思考参数</strong></td>
+<td>✓</td>
+<td>✓</td>
+<td>✘</td>
+<td>对扩展思考设置的更改（启用/禁用、预算）会影响消息块</td>
+</tr>
+<tr>
+<td><strong>传递给扩展思考请求的非工具结果</strong></td>
+<td>✓</td>
+<td>✓</td>
+<td>✘</td>
+<td>当启用扩展思考时，如果在请求中传递非工具结果，所有先前缓存的思考块都将从上下文中剥离，并且上下文中跟在这些思考块之后的任何消息都将从缓存中移除。更多详情，请参见<a href="#caching-with-thinking-blocks">结合思考块的缓存</a>。</td>
+</tr>
+</tbody>
+</table>
+<h3>追踪缓存性能</h3>
+<p>使用以下 API 响应字段监控缓存性能，这些字段位于响应的 <code>usage</code> 中（或者如果在<a href="https://platform.claude.com/docs/en/build-with-claude/streaming">流式传输</a>中，则位于 <code>message_start</code> 事件中）：</p>
+<ul>
+<li><code>cache_creation_input_tokens</code>：创建新缓存条目时写入缓存的 token 数量。</li>
+<li><code>cache_read_input_tokens</code>：为此请求从缓存中检索的 token 数量。</li>
+<li><code>input_tokens</code>：未从缓存读取或用于创建缓存的输入 token 数量（即最后一个缓存断点之后的 token）。</li>
+</ul>
+<p><strong>理解 token 细分</strong></p>
+<p><code>input_tokens</code> 字段仅表示请求中位于最后一个缓存断点<strong>之后</strong>的 token——而不是你发送的所有输入 token。</p>
+<p>要计算总输入 token：</p>
+<pre><code>total_input_tokens = cache_read_input_tokens + cache_creation_input_tokens + input_tokens
+</code></pre>
+<p><strong>空间解释：</strong></p>
+<ul>
+<li><code>cache_read_input_tokens</code> = 断点之前已缓存的 token（读取）</li>
+<li><code>cache_creation_input_tokens</code> = 断点之前正在缓存的 token（写入）</li>
+<li><code>input_tokens</code> = 最后一个断点之后的 token（不符合缓存条件）</li>
+</ul>
+<p><strong>示例：</strong> 如果你有一个请求，包含 100,000 个 token 的缓存内容（从缓存读取），0 个 token 的新内容正在缓存，并且你的用户消息中有 50 个 token（在缓存断点之后）：</p>
+<ul>
+<li><code>cache_read_input_tokens</code>：100,000</li>
+<li><code>cache_creation_input_tokens</code>：0</li>
+<li><code>input_tokens</code>：50</li>
+<li><strong>处理的总输入 token</strong>：100,050 个 token</li>
+</ul>
+<p>这对于理解成本和速率限制非常重要，因为在有效使用缓存时，<code>input_tokens</code> 通常会远小于你的总输入量。</p>
+<h3>结合思考块的缓存</h3>
+<p>在将<a href="https://platform.claude.com/docs/en/build-with-claude/extended-thinking">扩展思考</a>与提示词缓存结合使用时，思考块具有特殊行为：</p>
+<p><strong>与其他内容一起自动缓存</strong>：虽然思考块不能显式地标记为 <code>cache_control</code>，但当你使用工具结果进行后续 API 调用时，它们会作为请求内容的一部分被缓存。这通常发生在工具使用期间，当你将思考块传回以继续对话时。</p>
+<p><strong>输入 token 计数</strong>：当从缓存中读取思考块时，它们会在你的使用指标中计为输入 token。这对于成本计算和 token 预算非常重要。</p>
+<p><strong>缓存失效模式</strong>：</p>
+<ul>
+<li>当仅将工具结果作为用户消息提供时，缓存保持有效</li>
+<li>当添加非工具结果的用户内容时，缓存失效，导致所有先前的思考块被剥离</li>
+<li>即使没有显式的 <code>cache_control</code> 标记，这种缓存行为也会发生</li>
+</ul>
+<p>有关缓存失效的更多详细信息，请参见<a href="#what-invalidates-the-cache">导致缓存失效的因素</a>。</p>
+<p><strong>工具使用示例：</strong></p>
+<pre><code>Request 1: User: "What's the weather in Paris?"
+Response: [thinking_block_1] + [tool_use block 1]
+
+Request 2:
+User: ["What's the weather in Paris?"],
+Assistant: [thinking_block_1] + [tool_use block 1],
+User: [tool_result_1, cache=True]
+Response: [thinking_block_2] + [text block 2]
+# Request 2 缓存其请求内容（而非响应）
+# 缓存包括：用户消息、thinking_block_1、tool_use block 1 以及 tool_result_1
+
+Request 3:
+User: ["What's the weather in Paris?"],
+Assistant: [thinking_block_1] + [tool_use block 1],
+User: [tool_result_1, cache=True],
+Assistant: [thinking_block_2] + [text block 2],
+User: [Text response, cache=True]
+# 非工具结果的用户块导致所有思考块被忽略
+# 此请求被处理时，就像思考块从未存在过一样
+</code></pre>
+<p>当包含非工具结果的用户块时，它指定了一个新的助手循环，并且所有先前的思考块都会从上下文中移除。</p>
+<p>有关更详细的信息，请参阅<a href="https://platform.claude.com/docs/en/build-with-claude/extended-thinking#understanding-thinking-block-caching-behavior">扩展思考文档</a>。</p>
+<h3>缓存存储与共享</h3>
+<p>从 2026 年 2 月 5 日起，提示词缓存将使用工作区级别的隔离，而不是组织级别的隔离。缓存将按工作区隔离，确保同一组织内各个工作区之间的数据分离。此更改适用于 Claude API 和 Azure AI Foundry（预览版）；Amazon Bedrock 和 Google Vertex AI 将保持组织级别的缓存隔离。如果你使用多个工作区，请审查你的缓存策略以应对此更改。</p>
+<ul>
+<li><strong>组织隔离</strong>：缓存在不同组织之间是隔离的。不同的组织永远不会共享缓存，即使它们使用完全相同的提示词。</li>
+<li><strong>精确匹配</strong>：缓存命中需要 100% 相同的提示词片段，包括直到并包含标记为缓存控制的块在内的所有文本和图片。</li>
+<li><strong>输出 token 生成</strong>：提示词缓存对输出 token 的生成没有影响。你收到的响应将与不使用提示词缓存时获得的响应完全相同。</li>
+</ul>
+<h3>高效缓存的最佳实践</h3>
+<p>要优化提示词缓存性能：</p>
+<ul>
+<li>对于多轮对话，从<a href="#automatic-caching">自动缓存</a>开始。它自动处理断点管理。</li>
+<li>当你需要缓存具有不同更改频率的不同部分时，使用<a href="#explicit-cache-breakpoints">显式块级断点</a>。</li>
+<li>缓存稳定、可复用的内容，如系统指令、背景信息、大型上下文或频繁使用的工具定义。</li>
+<li>将缓存内容置于提示词开头以获得最佳性能。</li>
+<li>策略性地使用缓存断点来分隔不同的可缓存前缀部分。</li>
+<li>将断点置于在各个请求间保持相同的最后一个块上。对于具有静态前缀和变化后缀（时间戳、每次请求的上下文、传入消息）的提示词，那是前缀的末尾，而非变化的块。</li>
+<li>定期分析缓存命中率并根据需要调整策略。</li>
+</ul>
+<h3>针对不同用例进行优化</h3>
+<p>针对你的场景定制提示词缓存策略：</p>
+<ul>
+<li>对话代理：降低长对话的成本和延迟，尤其是包含长指令或上传文档的对话。</li>
+<li>编程助手：通过在提示词中保留相关部分或代码库的摘要版本，改善自动补全和代码库问答。</li>
+<li>大型文档处理：将包含图片的完整长篇材料纳入提示词，而不会增加响应延迟。</li>
+<li>详细指令集：分享大量的指令、流程和示例列表以微调 Claude 的响应。开发者通常在提示词中包含一两个示例，但借助提示词缓存，你可以通过包含 20 个以上的高质量答案的多样化示例来获得更佳的性能。</li>
+<li>代理工具使用：增强涉及多次工具调用和迭代代码更改的场景的性能，其中每个步骤通常需要一次新的 API 调用。</li>
+<li>与书籍、论文、文档、播客文本及其他长篇内容对话：通过将整个文档嵌入提示词并让用户向其提问，让任何知识库活起来。</li>
+</ul>
+<h3>常见问题排查</h3>
+<p>若遇到异常行为：</p>
+<ul>
+<li>确保缓存的部分在各次调用间完全相同。对于显式断点，请验证 <code>cache_control</code> 标记位于相同位置</li>
+<li>检查调用是否在缓存生命周期（cache lifetime，默认为 5 分钟）内进行</li>
+<li>验证 <code>tool_choice</code> 和图片使用在调用之间保持一致</li>
+<li>确认你缓存的 token 数量至少达到你所使用模型的最低要求（见<a href="#cache-limitations">缓存限制</a>）。基于长度的缓存失败是无声的：请求会成功，但 <code>cache_creation_input_tokens</code> 和 <code>cache_read_input_tokens</code> 都将为 0</li>
+<li>确认你的断点位于在各个请求间保持相同的块上。缓存写入仅在缓存断点处发生，如果该块发生更改（时间戳、每次请求的上下文、传入消息），前缀哈希值将永远不会匹配。回溯不会在缓存断点之后找到稳定的内容；它只会找到早期请求在其自身缓存断点处写入的缓存条目</li>
+<li>验证 <code>tool_use</code> 内容块中的键是否具有稳定的排序，因为某些语言（例如 Swift、Go）在 JSON 转换期间会随机化键顺序，从而破坏缓存</li>
+</ul>
+<p>对 <code>tool_choice</code> 的更改，或提示词中任何位置图片的出现/缺失，都会使缓存失效，从而需要创建新的缓存条目。有关缓存失效的更多详细信息，请参阅<a href="#what-invalidates-the-cache">什么会使缓存失效</a>。</p>
+<h3>1小时缓存时长</h3>
+<p>如果你发现5分钟太短，Anthropic 也提供1小时的缓存时长<a href="#pricing">需额外付费</a>。</p>
+<p>要使用扩展缓存，请在 <code>cache_control</code> 定义中包含 <code>ttl</code>，如下所示：</p>
+<pre><code>"cache_control": {
+  "type": "ephemeral",
+  "ttl": "1h"
+}
+</code></pre>
+<p>响应将包含如下详细的缓存信息：</p>
+<pre><code>{
+  "usage": {
+    "input_tokens": 2048,
+    "cache_read_input_tokens": 1800,
+    "cache_creation_input_tokens": 248,
+    "output_tokens": 503,
+
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 456,
+      "ephemeral_1h_input_tokens": 100
+    }
+  }
+}
+</code></pre>
+<p>请注意，当前的 <code>cache_creation_input_tokens</code> 字段等于 <code>cache_creation</code> 对象中值的总和。</p>
+<h3>何时使用1小时缓存</h3>
+<p>如果你有以固定节奏使用的提示词（即使用频率高于每5分钟一次的系统提示词），请继续使用5分钟缓存，因为这会继续被刷新而无需额外付费。</p>
+<p>1小时缓存最适合在以下场景中使用：</p>
+<ul>
+<li>当你的提示词使用频率可能低于每5分钟一次，但高于每小时一次时。例如，当一个代理侧边代理将耗时超过5分钟时，或者在存储与用户的长对话而你通常预计该用户可能不会在接下来的5分钟内回复时。</li>
+<li>当延迟很重要且你的后续提示词可能会在超过5分钟后发送时。</li>
+<li>当你想要提高速率限制利用率时，因为缓存命中不会从你的速率限制中扣除。</li>
+</ul>
+<p>5分钟和1小时缓存在延迟方面的表现相同。对于长文档，你通常会看到首 token 延迟（time-to-first-token）的改善。</p>
+<h3>混合使用不同的生存时间</h3>
+<p>你可以在同一请求中同时使用1小时和5分钟的缓存控制，但有一个重要限制：生存时间较长的缓存条目必须出现在生存时间较短的之前（即，1小时的缓存条目必须出现在任何5分钟的缓存条目之前）。</p>
+<p>混合使用生存时间时，API 会在你的提示词中确定三个计费位置：</p>
+<ol>
+<li>位置 <code>A</code>：最高缓存命中处的 token 计数（如果没有命中则为0）。</li>
+<li>位置 <code>B</code>：<code>A</code> 之后最高的1小时 <code>cache_control</code> 块处的 token 计数（如果不存在则等于 <code>A</code>）。</li>
+<li>位置 <code>C</code>：最后一个 <code>cache_control</code> 块处的 token 计数。</li>
+</ol>
+<p>如果 <code>B</code> 和/或 <code>C</code> 大于 <code>A</code>，它们必然是缓存未命中，因为 <code>A</code> 是最高的缓存命中。</p>
+<p>你将被收取以下费用：</p>
+<ol>
+<li><code>A</code> 的缓存读取 token。</li>
+<li><code>(B - A)</code> 的1小时缓存写入 token。</li>
+<li><code>(C - B)</code> 的5分钟缓存写入 token。</li>
+</ol>
+<p>以下是3个示例。这描绘了3个请求的输入 token，每个请求都有不同的缓存命中和缓存未命中。结果，每个请求都有不同的计算出的定价，如彩色框中所示。<img src="https://platform.claude.com/docs/images/prompt-cache-mixed-ttl.svg" alt="混合使用生存时间示意图"></p>
+<hr>
+<h3>提示词缓存示例</h3>
+<p>为了帮助你开始使用提示词缓存，<a href="https://platform.claude.com/cookbook/misc-prompt-caching">提示词缓存手册</a>提供了详细的示例和最佳实践。</p>
+<p>以下代码片段展示了各种提示词缓存模式。这些示例演示了如何在不同场景中实现缓存，帮助你理解此功能的实际应用：</p>
+<h3>数据保留</h3>
+<p>提示词缓存（自动和显式）均符合零数据保留（ZDR）条件。Anthropic 不会存储你的提示词或 Claude 响应的原始文本。</p>
+<p>KV（键值对）缓存表示形式（KV cache representations）和缓存内容的加密哈希值仅保存在内存中，不会静态存储。缓存条目的最短缓存生命周期为5分钟（标准）或60分钟（扩展），此后它们会被及时（尽管并非立即）删除。缓存条目在不同组织之间是隔离的。</p>
+<h2>术语表</h2>
+<table>
+<thead>
+<tr>
+<th>原文</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Agentic tool use</td>
+<td>代理工具使用</td>
+</tr>
+<tr>
+<td>cache breakpoint</td>
+<td>缓存断点</td>
+</tr>
+<tr>
+<td>cache entry</td>
+<td>缓存条目</td>
+</tr>
+<tr>
+<td>cache hit</td>
+<td>缓存命中</td>
+</tr>
+<tr>
+<td>cache lifetime</td>
+<td>缓存生命周期</td>
+</tr>
+<tr>
+<td>cache read</td>
+<td>缓存读取</td>
+</tr>
+<tr>
+<td>cache write</td>
+<td>缓存写入</td>
+</tr>
+<tr>
+<td>cacheable block</td>
+<td>可缓存块</td>
+</tr>
+<tr>
+<td>explicit block-level breakpoints</td>
+<td>显式块级断点</td>
+</tr>
+<tr>
+<td>Explicit cache breakpoints</td>
+<td>显式缓存断点</td>
+</tr>
+<tr>
+<td>hash</td>
+<td>哈希值</td>
+</tr>
+<tr>
+<td>KV (key-value) cache</td>
+<td>KV（键值对）缓存</td>
+</tr>
+<tr>
+<td>lookback window</td>
+<td>回溯窗口</td>
+</tr>
+<tr>
+<td>multi-turn conversations</td>
+<td>多轮对话</td>
+</tr>
+<tr>
+<td>no-op</td>
+<td>空操作</td>
+</tr>
+<tr>
+<td>prefix</td>
+<td>前缀</td>
+</tr>
+<tr>
+<td>prefix hash</td>
+<td>前缀哈希值</td>
+</tr>
+<tr>
+<td>Prompt caching</td>
+<td>提示词缓存</td>
+</tr>
+<tr>
+<td>time-to-first-token</td>
+<td>首 token 延迟</td>
+</tr>
+<tr>
+<td>TTL</td>
+<td>生存时间</td>
+</tr>
+<tr>
+<td>Zero Data Retention (ZDR)</td>
+<td>零数据保留</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-prompt-caching","sender":"Rosetta Reports","subject":"提示词缓存","snippet":"在大模型应用日益复杂的当下，API调用的成本与延迟成为开发者不可忽视的瓶颈。本文深入解析了Anthropic推出的“提示词缓存”机制，为这一痛点提供了切实的工程解法。该功能通过复用提示词的特定前缀，在保障零数据保留合规性的前提下，显著削减了长上下文、多轮对话及重复性任务的处理开销。文章不仅清晰对比了自动缓存与显式断点两种控制策略的适用边界，还详细拆解了其底层运转逻辑与阶梯式定价模型。","date":"2026-04-12","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["translated"],"mdTheme":"magazine","sourcePath":"reports/prompt-caching.md","sourceUrl":"https://platform.claude.com/docs/en/build-with-claude/prompt-caching","body":"$3","prompts":[]},"listPosition":{"index":124,"total":365}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

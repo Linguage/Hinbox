@@ -1,0 +1,335 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:Te3ee,<h1>Lethal conflict after group fission in wild chimpanzees</h1>
+<p><a href="https://www.science.org/doi/10.1126/science.adz4944">原文链接</a></p>
+<p>人类战争的根源是文化驱动还是社会关系演变？Sandel 等人基于对乌干达 Ngogo 黑猩猩长达 30 年的追踪，揭示了非人类动物中首例确凿的“内战”。研究记录了一个大型群体如何经历社会网络断裂与空间隔离，最终分裂为两个阵营，并在随后七年间对曾经的同伴发动数十次致命突袭。这一发现有力挑战了“文化标志假说”，表明即使缺乏宗教、语言等文化建构，单纯的社会关系动态转变也足以催生群体暴力，将同族化为死敌。本文不仅填补了动物行为学空白，更为理解人类冲突的底层逻辑提供了深刻的生物学视角。</p>
+<hr>
+<h2>编者按</h2>
+<p>从獴到猴子，非人类动物中的群体冲突已广为人知。然而，曾经具有社会联系的动物群体之间的致命冲突，此前在人类之外尚未被观察到；而在人类中，文化意识形态能够驱动同一群体内个体之间的分裂。Sandel <em>et al</em>. 现在描述了一个 Ngogo 黑猩猩群体在多年间逐渐消散的过程，最终形成了两个社会隔离的群体，其中一个群体对另一个群体发动了多次致命突袭，导致成年个体与幼体死亡（见 Brooks 的展望）。关键互联个体的非关联性死亡，可能促成了最终暴力的分裂。——Sacha Vignieri</p>
+<h3>摘要</h3>
+<p>动物的领地冲突能够为了解人类战争的某些方面提供启示，但伴随着群体身份转变的内战，此前尚未被观察到。我们报告了已知最大的野生黑猩猩（<em>Pan troglodytes</em>）群体中发生的一次罕见的永久性分裂（fission）。利用 30 年的行为观察与网络分析，我们描述了 2015 年从凝聚到两极分化的转变，以及到 2018 年两个独立群体的出现。在接下来的 7 年中，一个群体的成员发动了 24 次攻击，杀死了另一个群体中至少 7 只成年雄性和 17 只幼体。这些发现表明，在人类现存亲缘关系最近的物种之一中，群体身份能够发生转变，并升级为致命敌意，而无需通常被认为人类战争所必需的文化标志（cultural markers）。</p>
+<p>数千年来，战争及其他形式的集体暴力塑造了人类社会，但其起源与机制仍存在争议（<sup><a href="#user-content-fn-1" id="user-content-fnref-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup>, <sup><a href="#user-content-fn-2" id="user-content-fnref-2" data-footnote-ref aria-describedby="footnote-label">2</a></sup>）。一项突出的研究脉络表明，种族、宗教、语言及其他文化标志锚定了群体身份，并激发了群体内部的合作与对外人的敌意（<sup><a href="#user-content-fn-3" id="user-content-fnref-3" data-footnote-ref aria-describedby="footnote-label">3</a></sup> – <sup><a href="#user-content-fn-5" id="user-content-fnref-5" data-footnote-ref aria-describedby="footnote-label">4</a></sup>）。然而，这一文化标志假说难以解释群体身份如何重构，从而在先前具有凝聚力的共同体内部产生敌意，正如叛乱和内战中发生的那样。另一种理论框架表明，转变的人际纽带与局部竞争足以使群体破裂并引发集体暴力，且独立于文化标志（<sup><a href="#user-content-fn-6" id="user-content-fnref-6" data-footnote-ref aria-describedby="footnote-label">5</a></sup> – <sup><a href="#user-content-fn-9" id="user-content-fnref-9" data-footnote-ref aria-describedby="footnote-label">6</a></sup>）。这一关系动态假说（relational dynamics hypothesis）与民族志及实验证据相吻合，这些证据表明，群体内与群体外偏见能够从不断变化的社会情境甚至任意划分中迅速产生（<sup><a href="#user-content-fn-10" id="user-content-fnref-10" data-footnote-ref aria-describedby="footnote-label">7</a></sup> – <sup><a href="#user-content-fn-13" id="user-content-fnref-13" data-footnote-ref aria-describedby="footnote-label">8</a></sup>）。</p>
+<p>与非人类动物进行比较，为检验关系过程假说（relational processes hypothesis）作为文化标志假说的替代方案提供了一条途径。非人类物种没有宗教、文化制度或政治意识形态，但其中几种表现出了人类战争的组成部分，包括领地冲突与致命攻击——例如带状獴（<sup><a href="#user-content-fn-14" id="user-content-fnref-14" data-footnote-ref aria-describedby="footnote-label">9</a></sup>）、狮子（<sup><a href="#user-content-fn-15" id="user-content-fnref-15" data-footnote-ref aria-describedby="footnote-label">10</a></sup>）和狼（<sup><a href="#user-content-fn-16" id="user-content-fnref-16" data-footnote-ref aria-describedby="footnote-label">11</a></sup>）。许多群居物种会经历永久性分裂（<sup><a href="#user-content-fn-17" id="user-content-fnref-17" data-footnote-ref aria-describedby="footnote-label">12</a></sup>），这揭示了在缺乏文化标志的情况下群体成员资格如何重组。然而，在大多数物种中，永久性分裂似乎是为了减少觅食竞争或内部社会压力（<sup><a href="#user-content-fn-18" id="user-content-fnref-18" data-footnote-ref aria-describedby="footnote-label">13</a></sup>, <sup><a href="#user-content-fn-19" id="user-content-fnref-19" data-footnote-ref aria-describedby="footnote-label">14</a></sup>），且与群体间的致命攻击无关，这使得难以重构亲和关系是如何恶化为敌意的。</p>
+<p>黑猩猩（<em>Pan troglodytes</em>）作为人类现存亲缘关系最近的两个物种之一，有助于填补这一空白。雄性黑猩猩一生都留在其出生群体中，并在领地防御与致命突袭中展开合作（<sup><a href="#user-content-fn-20" id="user-content-fnref-20" data-footnote-ref aria-describedby="footnote-label">15</a></sup> – <sup><a href="#user-content-fn-22" id="user-content-fnref-22" data-footnote-ref aria-describedby="footnote-label">16</a></sup>）。针对成年雄性黑猩猩的大多数致命攻击发生在不同群体的成员之间，可由对外人的敌意来解释，但这种攻击也发生在相互熟悉的个体之间（<sup><a href="#user-content-fn-23" id="user-content-fnref-23" data-footnote-ref aria-describedby="footnote-label">17</a></sup>, <sup><a href="#user-content-fn-24" id="user-content-fnref-24" data-footnote-ref aria-describedby="footnote-label">18</a></sup>）。值得注意的是，坦桑尼亚贡贝的一个黑猩猩群体被怀疑在 20 世纪 70 年代发生了分裂，其中一个分裂后群体的雄性在 4 年内杀死了另一个群体中的一只成年雌性和全部六只雄性（<sup><a href="#user-content-fn-20" id="user-content-fnref-20-2" data-footnote-ref aria-describedby="footnote-label">15</a></sup>, <sup><a href="#user-content-fn-25" id="user-content-fnref-25" data-footnote-ref aria-describedby="footnote-label">19</a></sup>）。然而，人工投食（provisioning）与有限的观察模糊了关键细节（<sup><a href="#user-content-fn-26" id="user-content-fnref-26" data-footnote-ref aria-describedby="footnote-label">20</a></sup>, <sup><a href="#user-content-fn-27" id="user-content-fnref-27" data-footnote-ref aria-describedby="footnote-label">21</a></sup>），在随后的数十年里，该案例一直被视为一个异常现象。遗传学证据表明，黑猩猩的永久性分裂极其罕见，发生的中位间隔为 500 年（<sup><a href="#user-content-fn-28" id="user-content-fnref-28" data-footnote-ref aria-describedby="footnote-label">22</a></sup>）。</p>
+<p>在本研究中，我们报告了一次清晰且记录详尽的黑猩猩群体永久性分裂，以及随之而来的致命攻击。我们分析了乌干达基巴莱国家公园 Ngogo 黑猩猩 24 年的社会网络数据、10 年的基于 GPS 的活动范围数据，以及 30 年的人口统计数据。我们确定了三个关键阶段： 从凝聚到两极分化的骤然转变，其定义为关系整合为两个凝聚的集群，且跨集群互动减少； 不断增加回避的 2 年，这导致了两个群体的形成；以及 先前群体成员之间的致命攻击（<a href="#F1">图 1</a>）。这些发现提供了证据，表明转变的关系能够独立于文化标志，使共同体破裂并催生集体暴力。</p>
+<p><img src="https://www.science.org/cms/10.1126/science.adz4944/asset/e36493bc-df46-4cac-9c40-807fbe54a002/assets/images/large/science.adz4944-f1.jpg" alt=""></p>
+<p>图 1. 网络与空间分离先于从关联到暴力的转变。( A ) 基于 219 只雌雄黑猩猩的社会网络。节点颜色基于由 Leiden 算法识别出的集群。到 2018 年，该网络呈现为两个独立的组件，且保持断开状态。( B ) 直到 2015 年，大多数黑猩猩在领地使用上相互重叠（中位数 = 每年 99 个个体，≥12 岁）。个体活动范围（95% 核密度估计）根据其群体归属进行了颜色编码，该归属由空间重叠的 Bhattacharyya 亲和指数的层次聚类确定（蓝色，主要与中央群重叠；橙色，主要与西部群重叠；灰色，与两个群同等重叠）。空间重叠在 2015 年减少，到 2016 年，出现了两个清晰的群体。( C ) 2015 年，位于领地边缘的 Ngogo 黑猩猩听到邻近黑猩猩的叫声；成年雄性彼此拥抱以示安抚，随后向叫声方向移动并参与群体间的遭遇。C 和 W 的名称分别指代后来成为中央群和西部群成员的雄性。( D ) 2019 年，西部群黑猩猩（包括 W1、W2 和 W3）攻击并杀死了中央群的成年雄性黑猩猩 C1，它们在分裂前曾与 C1 有过关联，这标志着关系的显著转变。</p>
+<h3>分裂前时期的凝聚力（1998 至 2014 年）</h3>
+<p>在始于 1995 年的连续研究的头二十年里，Ngogo 的黑猩猩同属于一个单一的大型群体（<a href="#F2">图 2A</a>）。像其他地方的黑猩猩一样，它们表现出高度的分裂-融合动态（fission-fusion dynamics），形成临时的联合或“聚群（parties）”，随着个体在共同领地上移动，这些聚群在一天中不断变化（<sup><a href="#user-content-fn-20" id="user-content-fnref-20-3" data-footnote-ref aria-describedby="footnote-label">15</a></sup>, <sup><a href="#user-content-fn-29" id="user-content-fnref-29" data-footnote-ref aria-describedby="footnote-label">23</a></sup>）。雌性通常在青春期离散，而雄性则终生留在它们的群体中。Ngogo 的成年雄性形成了一个线性的支配等级，在混合性别的聚群中交往，共同狩猎，并在领地巡逻中合作（<sup><a href="#user-content-fn-30" id="user-content-fnref-30" data-footnote-ref aria-describedby="footnote-label">24</a></sup>, <sup><a href="#user-content-fn-31" id="user-content-fnref-31" data-footnote-ref aria-describedby="footnote-label">25</a></sup>）。</p>
+<p><img src="https://www.science.org/cms/10.1126/science.adz4944/asset/52368f63-5774-4fa2-8ac7-cc35bf660362/assets/images/large/science.adz4944-f2.jpg" alt=""></p>
+<p>图 2. Ngogo 黑猩猩群体规模与亚结构。( A ) 群体规模从 1998 年增至 2016 年。成熟雄性（≥12 岁）的数量在 40 只左右波动。( B ) 在整个研究期间，群体内部存在通过 Leiden 算法计算出的集群；我们将每年的集群可视化为矩形，并根据属于后来成为西部群和中央群的个体比例对其进行颜色编码。在 2018 年分裂发生时不在样本中的黑猩猩用白色表示，这导致当它们与其他个体一起出现在集群中时呈现出较淡的颜色。</p>
+<p>社会网络分析证实，Ngogo 黑猩猩最初是一个群体。为了构建网络，我们从 1998 年到 2024 年每年对雄性进行 2 到 3 个月的焦点跟随（focal follows），包括所有成年雄性和一些经常与成年雄性一起活动的年轻雄性（<em>n</em> = 77，平均年龄 = 28.7 ± 9.2 岁）。在焦点跟随期间，我们记录了聚群交往、近距和理毛。雌性和其他年轻雄性通过与焦点受试者的互动进入网络。我们使用一种使连续年份间的结构一致性最大化的优化程序，将雄性和雌性的理毛、近距和聚群网络（<em>n</em> = 219 只个体）每年融合成一个单一的加权网络（<sup><a href="#user-content-fn-32" id="user-content-fnref-32" data-footnote-ref aria-describedby="footnote-label">26</a></sup>）。我们还为雄性焦点受试者创建了近距网络，因为这些个体被充分抽样，并且是领地行为和致命攻击的主要参与者（<sup><a href="#user-content-fn-33" id="user-content-fnref-33" data-footnote-ref aria-describedby="footnote-label">27</a></sup>）。</p>
+<p>尽管属于单一群体，Ngogo 黑猩猩仍表现出社会亚结构。为了识别密集的子网络或“集群”，我们应用了一种稳健的社会网络指标，即 Leiden 算法（<sup><a href="#user-content-fn-34" id="user-content-fnref-34" data-footnote-ref aria-describedby="footnote-label">28</a></sup>）。从 1998 年到 2014 年，我们每年识别出两到四个集群（<a href="#F2">图 2B</a>）。这些对应于在较短的抽样期间内已被识别出的一个西部集群和一个中央集群（<sup><a href="#user-content-fn-35" id="user-content-fnref-35" data-footnote-ref aria-describedby="footnote-label">29</a></sup> – <sup><a href="#user-content-fn-37" id="user-content-fnref-37" data-footnote-ref aria-describedby="footnote-label">30</a></sup>）。集群成员关系是流动的：平均有 29% 的个体在第二年切换了集群（图 S1）。除了这种灵活性之外，广泛的纽带将不同集群的个体联系在一起。</p>
+<p>有几种关系尤为持久。我们开发了一种方法来测试个体是否形成了“派系（cliques）”，在其中它们出现在同一集群中的次数超过了随机预期的次数（<sup><a href="#user-content-fn-32" id="user-content-fnref-32-2" data-footnote-ref aria-describedby="footnote-label">26</a></sup>）。在 1998 年至 2014 年间，我们识别出了三个由两到三只成年雄性组成的派系。其中一个派系由三只成年雄性组成，它们后来成为了分裂后西部群的核心。这些雄性始终待在一起，即使它们加入了包含后来属于中央群的个体的集群。一个完全由未来的西部群雄性组成的集群于 2014 年首次出现。</p>
+<p>尽管存在社会集群，但个体空间利用模式仍存在广泛的重叠（<a href="#F1">图 1B</a>），包括在成年雄性之间（图 S2）（<sup><a href="#user-content-fn-35" id="user-content-fnref-35-2" data-footnote-ref aria-describedby="footnote-label">29</a></sup>）。所有的 Ngogo 黑猩猩不仅共享同一块领地，它们还共享同一批繁殖伴侣：我们能够进行基因亲本分配的所有后代，都是由 Ngogo 的父亲和母亲所生（<sup><a href="#user-content-fn-28" id="user-content-fnref-28-2" data-footnote-ref aria-describedby="footnote-label">22</a></sup>）。在 2004 年至 2014 年基因抽样的第一个十年期间，44% 的幼崽是由属于不同集群的雄性和雌性孕育的（<em>n</em> = 57 个案例，在这些案例中我们能够基于 Leiden 算法为双亲都分配一个集群）。</p>
+<h3>两极分化导致永久分裂（2015 至 2018 年）</h3>
+<p>我们首次暗示分裂的行为观察发生在 2015 年 6 月 24 日，当时西部集群和中央集群的成员在它们领地中心附近相互靠近。西部黑猩猩并没有以典型的分裂-融合方式重新联合，而是跑开了，中央黑猩猩则追赶它们。随后是一段为期 6 周的回避期。如此长时间的回避期以前从未被观察到过。</p>
+<p>对社会网络的正式分析捕捉到了这些变化。模块度（Modularity）在 2015 年急剧增加（<a href="#F3">图 3A</a>）。针对纵向网络数据的变点分析（change-point analysis）将 2015 年确定为 24 年数据集中最强的结构转变（<a href="#F3">图 3B</a>）。该方法是可分离时间指数族随机图模型（separable temporal exponential-family random graph model）的扩展，能够识别网络结构稳定的位置，并在数据驱动阈值的基础上标出它们之间显著的转变（<sup><a href="#user-content-fn-38" id="user-content-fnref-38" data-footnote-ref aria-describedby="footnote-label">31</a></sup>）。度修正随机块模型（degree-corrected stochastic block model）（<sup><a href="#user-content-fn-39" id="user-content-fnref-39" data-footnote-ref aria-describedby="footnote-label">32</a></sup>）也表明，雄性近距网络在 2015 年从单一模块转变为多个模块，并在 2018 年稳定为两个模块（<a href="#F3">图 3C</a>）。在对雄性理毛网络的独立分析中获得了类似的结果（<sup><a href="#user-content-fn-40" id="user-content-fnref-40" data-footnote-ref aria-describedby="footnote-label">33</a></sup>）。</p>
+<p><img src="https://www.science.org/cms/10.1126/science.adz4944/asset/b19f529f-216b-4431-a683-7114d076c629/assets/images/large/science.adz4944-f3.jpg" alt=""></p>
+<p>图 3. 网络结构在 2015 年发生重大变化。三种不同的统计分析将 2015 年确定为一次重大的网络转变。( A ) 群体内的模块度从 2014 年到 2015 年增幅最大。( B ) 对四个网络指标的分析表明 2015 年是一个主要变点。( C ) 对雄性网络应用度修正随机块模型，识别出从 1998 年到 2014 年为一个群体。从 2015 年起，模块数量的增加表明群体分裂的开始，这在 2018 年至 2022 年间最终达到稳定的两个最优模块数量。</p>
+<p>随着网络两极分化的加剧，攻击性也增强了。2016 年，西部雄性发起了第一次针对中央黑猩猩的领地巡逻。在这次巡逻中，西部雄性由两只中央雄性陪同。此后，西部黑猩猩的巡逻只包括它们集群的成员。2017 年，中央雄性进行了第一次针对西部黑猩猩的巡逻，它们之间的攻击性互动升级了。在 2017 年的一次遭遇中，西部黑猩猩集体攻击并重伤了一只属于中央集群但在 2014 年之前曾是西部集群一部分的阿尔法雄性。在随后的几个月里，西部和中央黑猩猩的巡逻都增加了（<a href="#F4">图 4</a>）。</p>
+<p><img src="https://www.science.org/cms/10.1126/science.adz4944/asset/85f6bb18-5124-4d6e-b08c-5014e316df94/assets/images/large/science.adz4944-f4.jpg" alt=""></p>
+<p>图 4. 西部与中央黑猩猩之间的领地巡逻。2016 年，后来成为西部群成员的黑猩猩（橙色）开始参与针对后来成为中央群成员的黑猩猩（蓝色）的领地巡逻。2017 年，我们观察到了中央黑猩猩针对西部黑猩猩的第一次巡逻。我们将 2016 年至 2024 年期间此类 Ngogo 内部巡逻的数量按季度进行了汇总。由于 COVID-19 大流行期间观察力度下降，2020 年的巡逻数量可能被低估了（灰色阴影）。</p>
+<p>空间隔离与日益加剧的网络两极分化相伴而行。到 2017 年，西部和中央黑猩猩使用了在很大程度上截然不同的领地（<a href="#F1">图 1B</a>），其重叠程度类似于属于不同群体的黑猩猩（<sup><a href="#user-content-fn-41" id="user-content-fnref-41" data-footnote-ref aria-describedby="footnote-label">34</a></sup>）。曾经是共享领地中心的地方，变成了一条边界。</p>
+<p>繁殖隔离与这些变化相吻合。由生活在分裂后不同群体中的雄性和雌性产生的最后一个后代，孕育于 2015 年 3 月。2015 年之后，所有已知亲本的后代都是由同一群体的雄性和雌性孕育的（<em>n</em> = 22 只西部，<em>n</em> = 26 只中央）。</p>
+<p>到 2018 年，基于社会、空间和繁殖数据，永久分裂已显而易见。西部群包括 10 只雄性和 22 只 ≥12 岁的雌性；中央群包括 30 只雄性和 39 只 ≥12 岁的雌性。少数中央雌性及其受抚养的后代偶尔会在无花果树处加入西部黑猩猩。然而，在 2018 年之后，行为观察和网络分析显示这两个群体的成员之间不存在亲和关系。此外，两个群体个体之间的繁殖停止了。</p>
+<h3>分裂后的致命攻击（2018 年至 2024 年）</h3>
+<p>在 2018 年永久分裂后，西部黑猩猩在一系列集体攻击中杀死了许多中央群的黑猩猩（<a href="#F5">图 5</a>）。所有观察到的攻击都发生在西部群成员对中央群领地进行领地巡逻之后。我们观察到了六次针对成年雄性的致命攻击，并以高置信度推断出了第七次攻击（表 S1）。这些结果记录了曾经属于同一群体的个体之间向持续致命冲突的转变。</p>
+<p><img src="https://www.science.org/cms/10.1126/science.adz4944/asset/48c43873-0a1c-426c-b254-2d30400cc337/assets/images/large/science.adz4944-f5.jpg" alt=""></p>
+<p>图 5. 永久分裂后中央黑猩猩群的死亡人数与种群变化。（A 和 B）2018 年至 2024 年间中央群成年雄性（≥12 岁）（A）和婴儿（B）的年度死亡数。堆叠条形图显示了归因于西部群攻击（观察到、推断出或怀疑）的死亡以及无法解释的死亡，后者包括无法归因于其他原因的青少年或成年雄性的突然消失。线条表示年度总死亡率，包括因疾病、受伤和衰老导致的死亡。 (C) 中央黑猩猩群的规模与种群结构变化。</p>
+<p>从 2021 年开始，致命攻击扩大到了婴儿。我们观察到了 14 起杀婴事件（6 只雌性，6 只雄性，2 只未知），并推断出西部雄性对中央群婴儿实施了另外 3 起杀婴事件（表 S2）。在 2018 年至 2024 年间，西部黑猩猩平均每年攻击并杀死中央群的一只成年雄性和两只婴儿。</p>
+<p>中央黑猩猩的死亡率估计是保守的，因为可能存在未被观察到的致命攻击。在 2021 年至 2024 年间，中央群另有 14 只青少年和成年雄性死亡（表 S3）。死因不明，因为黑猩猩经常消失且尸体从未被找到。消失的雄性中没有一个表现出疾病的迹象，这增加了其中一些是西部黑猩猩致命攻击受害者的可能性。</p>
+<h3>讨论</h3>
+<p>我们整合了数十年的数据，记录了一起罕见的野生黑猩猩群体分裂及其随后对前群体成员的致命攻击，据估计，这种事件每 500 年才会发生一次（<sup><a href="#user-content-fn-28" id="user-content-fnref-28-3" data-footnote-ref aria-describedby="footnote-label">22</a></sup>）。与大多数灵长类动物的群体分裂不同，在分裂后发生了对长期伙伴的协调杀戮。杀戮率远超对黑猩猩和小规模人类社会群体间攻击的估计（<sup><a href="#user-content-fn-33" id="user-content-fnref-33-2" data-footnote-ref aria-describedby="footnote-label">27</a></sup>, <sup><a href="#user-content-fn-42" id="user-content-fnref-42" data-footnote-ref aria-describedby="footnote-label">35</a></sup>）。这些结果支持了关系动态假设（relational dynamics hypothesis）：在缺乏种族、宗教或政治意识形态的情况下，社会网络可以分裂，新的群体边界可以出现，从而导致集体暴力。</p>
+<p>几个因素可能促成了这次分裂。Ngogo 黑猩猩群拥有近 200 个个体，包括 30 多只成年雄性，其规模超过了其他黑猩猩群，可能使关系维护能力承压（<sup><a href="#user-content-fn-43" id="user-content-fnref-43" data-footnote-ref aria-describedby="footnote-label">36</a></sup>, <sup><a href="#user-content-fn-44" id="user-content-fnref-44" data-footnote-ref aria-describedby="footnote-label">37</a></sup>）。因群体规模庞大而加剧的觅食竞争在许多其他灵长类物种的永久分裂中发挥了作用（<sup><a href="#user-content-fn-18" id="user-content-fnref-18-2" data-footnote-ref aria-describedby="footnote-label">13</a></sup>）。尽管 Ngogo 领地内有丰富的食物，但果实产量在时间和空间上都有变化（<sup><a href="#user-content-fn-45" id="user-content-fnref-45" data-footnote-ref aria-describedby="footnote-label">38</a></sup>），黑猩猩可能经历了加剧的觅食竞争。此外，繁殖隔离先于完全分离为两个群体。这可能加剧了雄性间的竞争，表明繁殖竞争是促成分裂的一个因素（<sup><a href="#user-content-fn-40" id="user-content-fnref-40-2" data-footnote-ref aria-describedby="footnote-label">33</a></sup>）。</p>
+<p>另外三个因素可能起到了催化剂的作用。首先，主要的网络转变之前是 2014 年五只成年雄性和一只成年雌性的死亡。它们的死因尚不清楚，但有两个个体表现出患病的临床体征，增加了其中一些死于疾病的可能性。个体的丧失，即使是弱连接节点，也可能破坏社会网络（<sup><a href="#user-content-fn-11" id="user-content-fnref-11" data-footnote-ref aria-describedby="footnote-label">39</a></sup>, <sup><a href="#user-content-fn-46" id="user-content-fnref-46" data-footnote-ref aria-describedby="footnote-label">40</a></sup>）。这些死亡代表了超过 10% 的成年雄性，可能削弱了跨群集的社会联系，并促成了 2015 年模块度的增加。其次，2015 年阿尔法雄性的更替与西部和中央群集成员之间第一次持续分离相吻合。等级制度的变化会增加黑猩猩的攻击性和回避行为（<sup><a href="#user-content-fn-25" id="user-content-fnref-25-2" data-footnote-ref aria-describedby="footnote-label">19</a></sup>, <sup><a href="#user-content-fn-47" id="user-content-fnref-47" data-footnote-ref aria-describedby="footnote-label">41</a></sup>）。在 Ngogo，即将卸任和新上任的阿尔法雄性都属于中央群集，尽管新上任的阿尔法雄性在等级地位上升之前曾是西部群集的一部分。尽管单凭阿尔法雄性的更替无法解释 Ngogo 群体为何分裂，但它可能放大了两个群集之间的紧张关系。第三个因素可能促成了分裂。2017 年 1 月，一场呼吸道流行病杀死了 25 只黑猩猩，其中包括 4 只成年雄性和 10 只成年雌性（<sup><a href="#user-content-fn-48" id="user-content-fnref-48" data-footnote-ref aria-describedby="footnote-label">42</a></sup>）。尽管这发生在两极分化已经开始之后，但它可能加速了最终的分离。死亡的成年雄性中有两只属于西部群集，其中一只是连接两个群体的最后几个个体之一。总而言之，这些事件表明了在面对多种种群和社会变化时，网络可能如何断裂（<sup><a href="#user-content-fn-11" id="user-content-fnref-11-2" data-footnote-ref aria-describedby="footnote-label">39</a></sup>, <sup><a href="#user-content-fn-49" id="user-content-fnref-49" data-footnote-ref aria-describedby="footnote-label">43</a></sup>）。</p>
+<p>长期以来人们很清楚，黑猩猩能感知谁在自己的群体中，谁不在（<sup><a href="#user-content-fn-24" id="user-content-fnref-24-2" data-footnote-ref aria-describedby="footnote-label">18</a></sup>, <sup><a href="#user-content-fn-50" id="user-content-fnref-50" data-footnote-ref aria-describedby="footnote-label">44</a></sup>）。尽管雌性黑猩猩通常在青春期离开其群体加入新群体，但雄性在其一生中都会留在自己的群体中。因此，任何不熟悉的雄性都相对是个陌生人，没有与其他群体中的黑猩猩建立联系或合作的历史。对来自其他群体的雄性的强烈敌意是适应性的，因为对外来者的致命攻击可以导致领地扩张以及雌性生育力和婴儿存活率的提高（<sup><a href="#user-content-fn-21" id="user-content-fnref-21" data-footnote-ref aria-describedby="footnote-label">45</a></sup>, <sup><a href="#user-content-fn-51" id="user-content-fnref-51" data-footnote-ref aria-describedby="footnote-label">46</a></sup>）。然而，单凭对陌生人的恐惧无法解释针对现有或前群体成员的致命攻击案例。在 Ngogo 分裂的案例中，多年一起生活、进食、理毛和巡逻的个体，因为其新的群体成员身份而成为致命攻击的目标。这突显了黑猩猩具有一种超越熟悉与否的群体认同感，正如在人类中一样（<sup><a href="#user-content-fn-52" id="user-content-fnref-52" data-footnote-ref aria-describedby="footnote-label">47</a></sup>），这种认同感可以在面对变化的关系和社会背景时重新组织。</p>
+<p>Ngogo 分裂后随之而来的致命攻击为群体间冲突模型提供了参考。所有观察到的攻击都是由数量上较少的西部群发起的，这与预测大群体具有优势的简单权力失衡模型（imbalance-of-power models）相矛盾（<sup><a href="#user-content-fn-24" id="user-content-fnref-24-3" data-footnote-ref aria-describedby="footnote-label">18</a></sup>）。西部雄性持续的进攻成功表明，由持久关系支持的凝聚力可以胜过数量上的劣势。我们的观察也与偏狭利他主义（parochial altruism）的预测相关（<sup><a href="#user-content-fn-53" id="user-content-fnref-53" data-footnote-ref aria-describedby="footnote-label">48</a></sup>）。由于西部群集内部的凝聚力先于公开的敌意，外部威胁可能并非培养合作所必需。然而，在 2009 年领地扩张后，来自相邻群体的外部威胁减少，更广泛的 Ngogo 群体成员之间的凝聚力可能因此减弱（<sup><a href="#user-content-fn-21" id="user-content-fnref-21-2" data-footnote-ref aria-describedby="footnote-label">45</a></sup>）。</p>
+<p>这项研究鼓励重新评估当前的人类集体暴力模型。如果黑猩猩群体可以在没有人类类型文化标志的情况下发生两极分化、分裂并参与致命攻击，那么关系动态在人类冲突中可能发挥了比通常假设的更大的因果作用。文化特征对于大规模合作仍然至关重要（<sup><a href="#user-content-fn-54" id="user-content-fnref-54" data-footnote-ref aria-describedby="footnote-label">49</a></sup>），但许多冲突可能起源于人际关系的破裂，而不是根深蒂固的种族或意识形态分歧（<sup><a href="#user-content-fn-6" id="user-content-fnref-6-2" data-footnote-ref aria-describedby="footnote-label">5</a></sup>）。人们很容易将当今人类发生的两极分化和战争归因于种族、宗教或政治分歧。然而，完全关注这些文化因素，忽略了塑造人类行为的社会过程——这些过程也存在于我们最亲近的动物亲属中。在某些情况下，正是在个体之间微小的、日常的和解与重聚行为中，我们才能找到和平的机会。</p>
+<h3>致谢</h3>
+<p>乌干达野生动物管理局、乌干达国家科学技术委员会以及马克雷雷大学生物野外站资助了野外研究。我们感谢学生、研究人员和项目工作人员对 Ngogo 黑猩猩数据收集和行为监测做出的贡献，特别是 L. Ngandizi、A. Twineomujuni、A. Magoba、K. Kolff、N. Lahiff、B. Finkel、C. Wilke、J. Widness、L. Sarringhaus、S. Amsler、M. Sobolewski、B. Pav、K. Potts、M. Wakefield、B. Hansen、S. Gunter、J. Fenton、R. Derby、S. Dunphy-Lelii、N. Chesterman、C. Tretter、L. Aarakit 以及已故的 J. Lwanga。本研究遵守了动物处理中的伦理标准，并获得了密歇根大学动物使用与护理委员会和德克萨斯大学奥斯汀分校机构动物护理与使用委员会的豁免。我们感谢 V. Städele 在数据组织方面的协助。在协助组织和分析空间数据以及在 R 中格式化图表最终版本方面，我们使用了 Claude（模型：3.7 Sonnet、Opus 4 和 Opus 4.5；Anthropic，2025）。</p>
+<h3>资金支持：</h3>
+<p>本研究获得了亚利桑那州立大学、人类起源研究所、Keo Films、Leakey 基金会、马克斯·普朗克学会、美国国家科学基金会（BCS-9253590、BCS-0215622、IOS-0516644、BSC-0850951、BCS-1540259、BCS-1613393 和 BSC-1850328）、美国国家老龄化研究所（R01-AG049395）、国家地理学会、Wenner-Gren 基金会（资助号 9957）、探险者俱乐部、Nacey Maggioncalda 基金会、美国哲学学会、Silverback Films、Underdog Films、Wildstar Films、密歇根大学、耶鲁大学以及德克萨斯大学奥斯汀分校的资金支持。</p>
+<h3>作者贡献：</h3>
+<p>概念化：A.A.S.、J.C.M.、K.E.L.、D.P.W.、R.B.R.、J.D.N.；数据管理：J.C.M.、K.E.L.、K.C.L.、S.A.；形式分析：Y.H.、J.R.、Y.L.K.、A.A.S.、O.M.-P.；资金获取：J.C.M.、K.E.L.、D.P.W.、A.A.S.、R.B.R.、J.D.N.、K.C.L.、I.R.C.；调查研究：J.C.M.、D.P.W.、K.E.L.、A.A.S.、K.C.L.、I.R.C.、R.B.R.、C.B.、B.A.A.、D.Kal.、D.Kan.、C.A.、S.R.-A.、P.N.、R.K.、B.K.、D.A.-F.、B.v.B.、G.M.、E.A.、S.N.、A.T.；方法论：Y.H.、J.R.、Y.L.K.、G.R.、O.M.-P.、M.C.、D.W.；项目管理：S.A.、A.A.S.；软件：Y.H.、J.R.、Y.L.K.；监督：S.A.、J.C.M.、D.P.W.、K.E.L.、G.R.、O.M.-P.、M.C.、D.W.；可视化：Y.H.、J.R.、Y.L.K.、A.A.S.；撰写 – 初稿：A.A.S.、K.E.L.、J.C.M.、D.P.W.；撰写 – 审阅与编辑：A.A.S.、K.E.L.、J.C.M.、D.P.W.、R.B.R.、J.D.N.、Y.H.、J.R.、Y.L.K.、K.C.L.、I.R.C.、C.B.、B.A.A.、D.Kal.、D.Kan.、C.A.、P.N.、R.K.、B.K.、D.A.-F.、B.v.B.、G.M.、E.A.、S.N.、A.T.、S.A.、G.R.、O.M.-P.、M.C.、D.W.。</p>
+<h3>利益冲突：</h3>
+<p>作者声明不存在利益冲突。</p>
+<h3>数据、代码和材料可用性：</h3>
+<p>本文分析的所有数据均作为补充材料或在在线存储库中提供。数据存储在 Dryad（<sup><a href="#user-content-fn-94" id="user-content-fnref-94" data-footnote-ref aria-describedby="footnote-label">50</a></sup>）中。统计分析代码存储在 Zenodo（<sup><a href="#user-content-fn-95" id="user-content-fnref-95" data-footnote-ref aria-describedby="footnote-label">51</a></sup> – <sup><a href="#user-content-fn-97" id="user-content-fnref-97" data-footnote-ref aria-describedby="footnote-label">52</a></sup>）中。</p>
+<h3>许可信息：</h3>
+<p>版权所有 © 2026 作者，保留部分权利；独家被许可人美国科学促进会。对原始美国政府作品不主张权利。<a href="https://www.science.org/about/science-licenses-journal-article-reuse">https://www.science.org/about/science-licenses-journal-article-reuse</a></p>
+<h3>补充材料</h3>
+<h3>PDF 文件包含：</h3>
+<p>材料与方法</p>
+<p>补充文本</p>
+<p>图 S1 至 S13</p>
+<p>表 S1 至 S3</p>
+<p>参考文献 (<sup><a href="#user-content-fn-55" id="user-content-fnref-55" data-footnote-ref aria-describedby="footnote-label">53</a></sup> – <sup><a href="#user-content-fn-93" id="user-content-fnref-93" data-footnote-ref aria-describedby="footnote-label">54</a></sup>)</p>
+<ul>
+<li><a href="https://www.science.org/doi/suppl/10.1126/science.adz4944/suppl_file/science.adz4944_sm.pdf">下载</a></li>
+<li>1.65 MB</li>
+</ul>
+<h3>本稿的其他补充材料包括以下内容：</h3>
+<p>MDAR 可重复性检查表</p>
+<ul>
+<li><a href="https://www.science.org/doi/suppl/10.1126/science.adz4944/suppl_file/science.adz4944_mdar_reproducibility_checklist.pdf">下载</a></li>
+<li>175.36 KB</li>
+</ul>
+<p>|</p>
+<h2>术语表</h2>
+<table>
+<thead>
+<tr>
+<th>原文</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bhattacharyya</td>
+<td>Bhattacharyya</td>
+</tr>
+<tr>
+<td>Brooks</td>
+<td>Brooks</td>
+</tr>
+<tr>
+<td>change-point analysis</td>
+<td>变点分析</td>
+</tr>
+<tr>
+<td>cliques</td>
+<td>派系</td>
+</tr>
+<tr>
+<td>degree-corrected stochastic block model</td>
+<td>度修正随机块模型</td>
+</tr>
+<tr>
+<td>fission-fusion dynamics</td>
+<td>分裂-融合动态</td>
+</tr>
+<tr>
+<td>focal follows</td>
+<td>焦点跟随</td>
+</tr>
+<tr>
+<td>imbalance-of-power models</td>
+<td>权力失衡模型</td>
+</tr>
+<tr>
+<td>Kibale</td>
+<td>Kibale</td>
+</tr>
+<tr>
+<td>Leiden</td>
+<td>Leiden</td>
+</tr>
+<tr>
+<td>Modularity</td>
+<td>模块度</td>
+</tr>
+<tr>
+<td>Ngogo</td>
+<td>Ngogo</td>
+</tr>
+<tr>
+<td>parochial altruism</td>
+<td>偏狭利他主义</td>
+</tr>
+<tr>
+<td>parties</td>
+<td>聚群</td>
+</tr>
+<tr>
+<td>relational dynamics hypothesis</td>
+<td>关系动态假设</td>
+</tr>
+<tr>
+<td>Sacha Vignieri</td>
+<td>Sacha Vignieri</td>
+</tr>
+<tr>
+<td>Sandel</td>
+<td>Sandel</td>
+</tr>
+<tr>
+<td>separable temporal exponential-family random graph model</td>
+<td>可分离时间指数族随机图模型</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+<section data-footnotes class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes</h2>
+<ol>
+<li id="user-content-fn-1">
+<p>S. Bowles, 祖先狩猎采集者之间的战争是否影响了人类社会行为的进化？ <em>Science</em> <strong>324</strong>, 1293–1298 (2009). <a href="#user-content-fnref-1" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-2">
+<p>D. P. Fry, 编, <em>战争、和平与人性：进化与文化视角的趋同</em> (Oxford Univ. Press, 2013). <a href="#user-content-fnref-2" data-footnote-backref="" aria-label="Back to reference 2" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-3">
+<p>C. Efferson, R. Lalive, E. Fehr, 文化群体与群内偏好的协同进化。 <em>Science</em> <strong>321</strong>, 1844–1849 (2008). <a href="#user-content-fnref-3" data-footnote-backref="" aria-label="Back to reference 3" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-5">
+<p>C. Kaufmann, 种族内战的可行与不可行解决方案。 <em>Int. Secur.</em> <strong>20</strong>, 136–175 (1996). 10.1162/isec.20.4.136 <a href="#user-content-fnref-5" data-footnote-backref="" aria-label="Back to reference 4" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-6">
+<p>S. N. Kalyvas, <em>内战中的暴力逻辑</em> (Cambridge Univ. Press, 2006). <a href="#user-content-fnref-6" data-footnote-backref="" aria-label="Back to reference 5" class="data-footnote-backref">↩</a> <a href="#user-content-fnref-6-2" data-footnote-backref="" aria-label="Back to reference 5-2" class="data-footnote-backref">↩<sup>2</sup></a></p>
+</li>
+<li id="user-content-fn-9">
+<p>E. J. Wood, 内战的社会过程：社会网络在战时的转变。 <em>Annu. Rev. Polit. Sci.</em> <strong>11</strong>, 539–561 (2008). <a href="#user-content-fnref-9" data-footnote-backref="" aria-label="Back to reference 6" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-10">
+<p>J. Esteban, L. Mayoral, D. Ray, 族群性与冲突：理论与事实。 <em>Science</em> <strong>336</strong>, 858–865 (2012). <a href="#user-content-fnref-10" data-footnote-backref="" aria-label="Back to reference 7" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-13">
+<p>H. Tajfel, J. C. Turner, “群际行为的社会认同理论” 载于 <em>政治心理学：核心读本</em>, J. T. Jost, J. Sidanius, 编 (Psychology Press, 2004), 第 276–293 页. <a href="#user-content-fnref-13" data-footnote-backref="" aria-label="Back to reference 8" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-14">
+<p>R. A. Johnstone, M. A. Cant, D. Cram, F. J. Thompson, 剥削型领导者在一种社会哺乳动物中煽动群际战争。 <em>Proc. Natl. Acad. Sci. U.S.A.</em> <strong>117</strong>, 29759–29766 (2020). <a href="#user-content-fnref-14" data-footnote-backref="" aria-label="Back to reference 9" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-15">
+<p>A. Mosser, C. Packer, 非洲狮 <em>Panthera leo</em> 的群体领地性与社会性的益处。 <em>Anim. Behav.</em> <strong>78</strong>, 359–370 (2009). <a href="#user-content-fnref-15" data-footnote-backref="" aria-label="Back to reference 10" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-16">
+<p>S. Cubaynes, D. R. MacNulty, D. R. Stahler, K. A. Quimby, D. W. Smith, T. Coulson, 密度依赖的种内攻击行为调节北黄石狼 (<em>Canis lupus</em>) 的生存。 <em>J. Anim. Ecol.</em> <strong>83</strong>, 1344–1356 (2014). <a href="#user-content-fnref-16" data-footnote-backref="" aria-label="Back to reference 11" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-17">
+<p>C. Sueur, J.-L. Deneubourg, O. Petit, I. D. Couzin, 灵长类动物的群组大小、理毛与分裂：一种基于群组结构的建模方法。 <em>J. Theor. Biol.</em> <strong>273</strong>, 156–166 (2011). <a href="#user-content-fnref-17" data-footnote-backref="" aria-label="Back to reference 12" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-18">
+<p>W. P. J. Dittus, 野生帽猴的群组分裂是雌性资源竞争和环境压力的结果。 <em>Anim. Behav.</em> <strong>36</strong>, 1626–1645 (1988). <a href="#user-content-fnref-18" data-footnote-backref="" aria-label="Back to reference 13" class="data-footnote-backref">↩</a> <a href="#user-content-fnref-18-2" data-footnote-backref="" aria-label="Back to reference 13-2" class="data-footnote-backref">↩<sup>2</sup></a></p>
+</li>
+<li id="user-content-fn-19">
+<p>R. Wakeford, M. Cords, 群组分裂的适应性益处：来自蓝猴的证据。 <em>Behav. Ecol.</em> <strong>36</strong>, araf047 (2025). <a href="#user-content-fnref-19" data-footnote-backref="" aria-label="Back to reference 14" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-20">
+<p>J. Goodall, <em>贡贝的黑猩猩：行为模式</em> (Belknap Press of Harvard Univ. Press, 1986). <a href="#user-content-fnref-20" data-footnote-backref="" aria-label="Back to reference 15" class="data-footnote-backref">↩</a> <a href="#user-content-fnref-20-2" data-footnote-backref="" aria-label="Back to reference 15-2" class="data-footnote-backref">↩<sup>2</sup></a> <a href="#user-content-fnref-20-3" data-footnote-backref="" aria-label="Back to reference 15-3" class="data-footnote-backref">↩<sup>3</sup></a></p>
+</li>
+<li id="user-content-fn-22">
+<p>R. W. Wrangham, L. Glowacki, 黑猩猩的群际攻击与游牧狩猎采集者的战争：评估黑猩猩模型。 <em>Hum. Nat.</em> <strong>23</strong>, 5–29 (2012). <a href="#user-content-fnref-22" data-footnote-backref="" aria-label="Back to reference 16" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-23">
+<p>M. L. Wilson, C. Boesch, B. Fruth, T. Furuichi, I. C. Gilby, C. Hashimoto, C. L. Hobaiter, G. Hohmann, N. Itoh, K. Koops, J. N. Lloyd, T. Matsuzawa, J. C. Mitani, D. C. Mjungu, D. Morgan, M. N. Muller, R. Mundry, M. Nakamura, J. Pruetz, A. E. Pusey, J. Riedel, C. Sanz, A. M. Schel, N. Simmons, M. Waller, D. P. Watts, F. White, R. M. Wittig, K. Zuberbühler, R. W. Wrangham, <em>Pan</em> 属的致命攻击行为用适应性策略比用人类影响解释更好。 <em>Nature</em> <strong>513</strong>, 414–417 (2014). <a href="#user-content-fnref-23" data-footnote-backref="" aria-label="Back to reference 17" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-24">
+<p>R. W. Wrangham, 联盟杀戮的进化。 <em>Am. J. Phys. Anthropol.</em> <strong>110</strong>, 1–30 (1999). <a href="#user-content-fnref-24" data-footnote-backref="" aria-label="Back to reference 18" class="data-footnote-backref">↩</a> <a href="#user-content-fnref-24-2" data-footnote-backref="" aria-label="Back to reference 18-2" class="data-footnote-backref">↩<sup>2</sup></a> <a href="#user-content-fnref-24-3" data-footnote-backref="" aria-label="Back to reference 18-3" class="data-footnote-backref">↩<sup>3</sup></a></p>
+</li>
+<li id="user-content-fn-25">
+<p>J. T. Feldblum, S. Manfredi, I. C. Gilby, A. E. Pusey, 贡贝“四年战争”之前一次独特的黑猩猩群落分裂的时间与原因。 <em>Am. J. Phys. Anthropol.</em> <strong>166</strong>, 730–744 (2018). <a href="#user-content-fnref-25" data-footnote-backref="" aria-label="Back to reference 19" class="data-footnote-backref">↩</a> <a href="#user-content-fnref-25-2" data-footnote-backref="" aria-label="Back to reference 19-2" class="data-footnote-backref">↩<sup>2</sup></a></p>
+</li>
+<li id="user-content-fn-26">
+<p>G. Teleki, E. Hunt Jr., J.-H. Pfifferling, 对坦桑尼亚贡贝国家公园黑猩猩的人口统计观察 (1963–1973)。 <em>J. Hum. Evol.</em> <strong>5</strong>, 559–598 (1976). <a href="#user-content-fnref-26" data-footnote-backref="" aria-label="Back to reference 20" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-27">
+<p>R. W. Wrangham, 在自然栖息地人工喂养黑猩猩和狒狒。 <em>Anim. Behav.</em> <strong>22</strong>, 83–93 (1974). <a href="#user-content-fnref-27" data-footnote-backref="" aria-label="Back to reference 21" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-28">
+<p>K. E. Langergraber, C. Rowney, G. Schubert, C. Crockford, C. Hobaiter, R. Wittig, R. W. Wrangham, K. Zuberbühler, L. Vigilant, 黑猩猩群落有多古老？高度父系社会中 Y 染色体最近共同祖先的时间。 <em>J. Hum. Evol.</em> <strong>69</strong>, 1–7 (2014). <a href="#user-content-fnref-28" data-footnote-backref="" aria-label="Back to reference 22" class="data-footnote-backref">↩</a> <a href="#user-content-fnref-28-2" data-footnote-backref="" aria-label="Back to reference 22-2" class="data-footnote-backref">↩<sup>2</sup></a> <a href="#user-content-fnref-28-3" data-footnote-backref="" aria-label="Back to reference 22-3" class="data-footnote-backref">↩<sup>3</sup></a></p>
+</li>
+<li id="user-content-fn-29">
+<p>K. Kawanaka, 坦桑尼亚马哈雷山脉黑猩猩的联合、活动范围与社会单元。 <em>Int. J. Primatol.</em> <strong>5</strong>, 411–434 (1984). <a href="#user-content-fnref-29" data-footnote-backref="" aria-label="Back to reference 23" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-30">
+<p>K. E. Langergraber, D. P. Watts, L. Vigilant, J. C. Mitani, 雄性黑猩猩的群体扩增、集体行动与领地边界巡逻。 <em>Proc. Natl. Acad. Sci. U.S.A.</em> <strong>114</strong>, 7337–7342 (2017). <a href="#user-content-fnref-30" data-footnote-backref="" aria-label="Back to reference 24" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-31">
+<p>D. P. Watts, 乌干达 Kibale 国家公园 Ngogo 极大黑猩猩群落中的雄性支配关系。 <em>Behaviour</em> <strong>155</strong>, 969–1009 (2018). <a href="#user-content-fnref-31" data-footnote-backref="" aria-label="Back to reference 25" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-32">
+<p>Y. He, A. Sandel, D. Wipf, M. Cucuringu, J. Mitani, G. Reinert, 学习融合时间邻近网络：黑猩猩社会互动的案例研究。 <a href="https://arxiv.org/abs/2502.00302">arXiv:2502.00302</a> [stat.ML] (2025). <a href="#user-content-fnref-32" data-footnote-backref="" aria-label="Back to reference 26" class="data-footnote-backref">↩</a> <a href="#user-content-fnref-32-2" data-footnote-backref="" aria-label="Back to reference 26-2" class="data-footnote-backref">↩<sup>2</sup></a></p>
+</li>
+<li id="user-content-fn-33">
+<p>请参阅补充材料。 <a href="#user-content-fnref-33" data-footnote-backref="" aria-label="Back to reference 27" class="data-footnote-backref">↩</a> <a href="#user-content-fnref-33-2" data-footnote-backref="" aria-label="Back to reference 27-2" class="data-footnote-backref">↩<sup>2</sup></a></p>
+</li>
+<li id="user-content-fn-34">
+<p>V. A. Traag, L. Waltman, N. J. van Eck, 从 Louvain 到 Leiden：保证良好连接的社区。 <em>Sci. Rep.</em> <strong>9</strong>, 5233 (2019). <a href="#user-content-fnref-34" data-footnote-backref="" aria-label="Back to reference 28" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-35">
+<p>J. C. Mitani, S. Amsler, 野生黑猩猩群落中雄性子群划分的社会与空间方面。 <em>Behaviour</em> <strong>140</strong>, 869–884 (2003). <a href="#user-content-fnref-35" data-footnote-backref="" aria-label="Back to reference 29" class="data-footnote-backref">↩</a> <a href="#user-content-fnref-35-2" data-footnote-backref="" aria-label="Back to reference 29-2" class="data-footnote-backref">↩<sup>2</sup></a></p>
+</li>
+<li id="user-content-fn-37">
+<p>A. A. Sandel, J. Rushmore, J. D. Negrey, J. C. Mitani, D. M. Lyons, D. Caillaud, 社会网络预测野生黑猩猩群落的呼吸道感染暴露。 <em>EcoHealth</em> <strong>17</strong>, 437–448 (2020). <a href="#user-content-fnref-37" data-footnote-backref="" aria-label="Back to reference 30" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-38">
+<p>Y. L. Kei, H. Li, Y. Chen, O. H. Madrid Padilla, “动态网络可分离模型上的变点检测” (Transactions on Machine Learning Research, 2025); <a href="https://openreview.net/forum?id=DSNJykzHF3">https://openreview.net/forum?id=DSNJykzHF3</a> <a href="#user-content-fnref-38" data-footnote-backref="" aria-label="Back to reference 31" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-39">
+<p>D. F. Saldaña, Y. Yu, Y. Feng, 有多少个社区？ <em>J. Comput. Graph. Stat.</em> <strong>26</strong>, 171–181 (2017). <a href="#user-content-fnref-39" data-footnote-backref="" aria-label="Back to reference 32" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-40">
+<p>D. P. Watts, Ngogo 永久性群落分裂前雄性黑猩猩理毛网络的变化。 <em>Am. J. Primatol.</em> <strong>87</strong>, e70074 (2025). <a href="#user-content-fnref-40" data-footnote-backref="" aria-label="Back to reference 33" class="data-footnote-backref">↩</a> <a href="#user-content-fnref-40-2" data-footnote-backref="" aria-label="Back to reference 33-2" class="data-footnote-backref">↩<sup>2</sup></a></p>
+</li>
+<li id="user-content-fn-41">
+<p>I. Herbinger, C. Boesch, H. Rothe, 科特迪瓦 Taï 国家公园三个相邻黑猩猩群落的领地特征。 <em>Int. J. Primatol.</em> <strong>22</strong>, 143–167 (2001). <a href="#user-content-fnref-41" data-footnote-backref="" aria-label="Back to reference 34" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-42">
+<p>R. W. Wrangham, M. L. Wilson, M. N. Muller, 黑猩猩与人类暴力率的比较。 <em>Primates</em> <strong>47</strong>, 14–26 (2006). <a href="#user-content-fnref-42" data-footnote-backref="" aria-label="Back to reference 35" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-43">
+<p>G. Badihi, K. Bodden, K. Zuberbühler, L. Samuni, C. Hobaiter, 乌干达布东戈森林雄性黑猩猩 (<em>Pan troglodytes schweinfurthii</em>) 社会结构的灵活性。 <em>R. Soc. Open Sci.</em> <strong>9</strong>, 220904 (2022). <a href="#user-content-fnref-43" data-footnote-backref="" aria-label="Back to reference 36" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-44">
+<p>D. Escribano, V. Doldán-Martelli, K. A. Cronin, D. B. M. Haun, E. J. C. van Leeuwen, J. A. Cuesta, A. Sánchez, 黑猩猩像人类一样组织其社会关系。 <em>Sci. Rep.</em> <strong>12</strong>, 16641 (2022). <a href="#user-content-fnref-44" data-footnote-backref="" aria-label="Back to reference 37" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-45">
+<p>K. B. Potts, D. P. Watts, K. E. Langergraber, J. C. Mitani, 乌干达 Kibale 国家公园 Ngogo 热带森林果实产量的长期趋势。 <em>Biotropica</em> <strong>52</strong>, 521–532 (2020). <a href="#user-content-fnref-45" data-footnote-backref="" aria-label="Back to reference 38" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-11">
+<p>M. S. Granovetter, 弱关系的力量。 <em>Am. J. Sociol.</em> <strong>78</strong>, 1360–1380 (1973). <a href="#user-content-fnref-11" data-footnote-backref="" aria-label="Back to reference 39" class="data-footnote-backref">↩</a> <a href="#user-content-fnref-11-2" data-footnote-backref="" aria-label="Back to reference 39-2" class="data-footnote-backref">↩<sup>2</sup></a></p>
+</li>
+<li id="user-content-fn-46">
+<p>F. Morone, H. A. Makse, 通过最优渗流在复杂网络中实现影响力最大化。 <em>Nature</em> <strong>524</strong>, 65–68 (2015). <a href="#user-content-fnref-46" data-footnote-backref="" aria-label="Back to reference 40" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-47">
+<p>S. S. K. Kaburu, S. Inoue, N. E. Newton-Fisher, 阿尔法雄性的死亡：马哈雷山脉国家公园黑猩猩群内的致命暴力。 <em>Am. J. Primatol.</em> <strong>75</strong>, 789–797 (2013). <a href="#user-content-fnref-47" data-footnote-backref="" aria-label="Back to reference 41" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-48">
+<p>J. D. Negrey, R. B. Reddy, E. J. Scully, S. Phillips-Garcia, L. A. Owens, K. E. Langergraber, J. C. Mitani, M. Emery Thompson, R. W. Wrangham, M. N. Muller, E. Otali, Z. Machanda, D. Hyeroba, K. A. Grindle, T. E. Pappas, A. C. Palmenberg, J. E. Gern, T. L. Goldberg, 野生黑猩猩中由不同人类起源病毒引起的同步呼吸道疾病暴发。 <em>Emerg. Microbes Infect.</em> <strong>8</strong>, 139–149 (2019). <a href="#user-content-fnref-48" data-footnote-backref="" aria-label="Back to reference 42" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-49">
+<p>D. Shizuka, A. E. Johnson, 人口统计过程如何塑造动物社会网络。 <em>Behav. Ecol.</em> <strong>31</strong>, 1–11 (2020). <a href="#user-content-fnref-49" data-footnote-backref="" aria-label="Back to reference 43" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-50">
+<p>J. Brooks, S. Yamamoto, 群体意识的进化：倭黑猩猩与黑猩猩自上而下与自下而上群体合作的比较研究。 <em>Curr. Opin. Behav. Sci.</em> <strong>47</strong>, 101205 (2022). <a href="#user-content-fnref-50" data-footnote-backref="" aria-label="Back to reference 44" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-21">
+<p>J. C. Mitani, D. P. Watts, S. J. Amsler, 致命的群际攻击导致野生黑猩猩的领土扩张。 <em>Curr. Biol.</em> <strong>20</strong>, R507–R508 (2010). <a href="#user-content-fnref-21" data-footnote-backref="" aria-label="Back to reference 45" class="data-footnote-backref">↩</a> <a href="#user-content-fnref-21-2" data-footnote-backref="" aria-label="Back to reference 45-2" class="data-footnote-backref">↩<sup>2</sup></a></p>
+</li>
+<li id="user-content-fn-51">
+<p>B. M. Wood, D. P. Watts, K. E. Langergraber, J. C. Mitani, 野生黑猩猩在致命的群际攻击和领地扩张后，雌性生育力与幼崽存活率增加。 <em>Proc. Natl. Acad. Sci. U.S.A.</em> <strong>122</strong>, e2524502122 (2025). <a href="#user-content-fnref-51" data-footnote-backref="" aria-label="Back to reference 46" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-52">
+<p>R. Spears, 社会影响与群体认同。 <em>Annu. Rev. Psychol.</em> <strong>72</strong>, 367–390 (2021). <a href="#user-content-fnref-52" data-footnote-backref="" aria-label="Back to reference 47" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-53">
+<p>J.-K. Choi, S. Bowles, 偏狭利他主义与战争的协同进化。 <em>Science</em> <strong>318</strong>, 636–640 (2007). <a href="#user-content-fnref-53" data-footnote-backref="" aria-label="Back to reference 48" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-54">
+<p>R. Boyd, P. J. Richerson, 小规模觅食社会中的大规模合作。 <em>Evol. Anthropol.</em> <strong>31</strong>, 175–198 (2022). <a href="#user-content-fnref-54" data-footnote-backref="" aria-label="Back to reference 49" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-94">
+<p>A. Sandel, J. Mitani, K. Langergraber, I. R. Clark, K. Lee, J. Ren, Y. L. Kei, Y. He, R. B. Reddy, J. Negrey, C. Birungi, B. A. Apamaku, D. Kanweri, D. Wipf, D. Kalunga, P. Nakayima, R. Katumba, B. Kamugyisha, D. Acosta-Florez, B. van Boekholt, G. Mbabazi, E. Akamumpa, S. Namaganda, C. Aliganyira, A. Tumusiime, S. Angedakin, O. Madrid-Padilla, G. Reinert, M. Cucuringu, D. Watts, “野生黑猩猩群体分裂后的致命冲突”的数据，<em>Dryad</em> (2026). <a href="https://doi.org/10.5061/dryad.sf7m0cgkg">http://dx.doi.org/10.5061/dryad.sf7m0cgkg</a> <a href="#user-content-fnref-94" data-footnote-backref="" aria-label="Back to reference 50" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-95">
+<p>J. Ren, Y. L. Kei, O. H. Madrid Padilla, A. Sandel, “野生黑猩猩群体分裂后的致命冲突”中网络分析的数据集与代码，<em>Zenodo</em> (2026). <a href="https://doi.org/10.5281/zenodo.18626723">http://dx.doi.org/10.5281/zenodo.18626723</a> <a href="#user-content-fnref-95" data-footnote-backref="" aria-label="Back to reference 51" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-97">
+<p>Y. He, A. Sandel, D. Wipf, M. Cucuringu, J. Mitani, G. Reinert, “野生黑猩猩群体分裂后的致命冲突”中学习型网络分析的数据集与代码，<em>Zenodo</em> (2026). <a href="https://doi.org/10.5281/zenodo.19210783">http://dx.doi.org/10.5281/zenodo.19210783</a> <a href="#user-content-fnref-97" data-footnote-backref="" aria-label="Back to reference 52" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-55">
+<p>J. S. Lwanga, 乌干达 Kibale 国家公园的森林演替：对森林恢复与管理的启示。 <em>Afr. J. Ecol.</em> <strong>41</strong>, 9–22 (2003). <a href="#user-content-fnref-55" data-footnote-backref="" aria-label="Back to reference 53" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-93">
+<p>A. A. Sandel, D. P. Watts, 乌干达 Kibale 国家公园 Ngogo 黑猩猩 (<em>Pan troglodytes</em>) 群落分裂相关的致命联盟攻击。 <em>Int. J. Primatol.</em> <strong>42</strong>, 26–48 (2021). <a href="#user-content-fnref-93" data-footnote-backref="" aria-label="Back to reference 54" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-lethal-conflict-after-group-fission-in-wild-chimpanzees","sender":"Aaron A. Sandel","subject":"野生黑猩猩群体分裂后的致命冲突","snippet":"人类战争的根源是文化驱动还是社会关系演变？Sandel 等人基于对乌干达 Ngogo 黑猩猩长达 30 年的追踪，揭示了非人类动物中首例确凿的“内战”。研究记录了一个大型群体如何经历社会网络断裂与空间隔离，最终分裂为两个阵营，并在随后七年间对曾经的同伴发动数十次致命突袭。这一发现有力挑战了“文化标志假说”，表明即使缺乏宗教、语言等文化建构，单纯的社会关系动态转变也足以催生群体暴力，将同族化为死敌。","date":"2026-04-10","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["translated"],"mdTheme":"magazine","sourcePath":"reports/lethal-conflict-after-group-fission-in-wild-chimpanzees.md","sourceUrl":"https://www.science.org/doi/10.1126/science.adz4944","body":"$3","prompts":[]},"listPosition":{"index":125,"total":365}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

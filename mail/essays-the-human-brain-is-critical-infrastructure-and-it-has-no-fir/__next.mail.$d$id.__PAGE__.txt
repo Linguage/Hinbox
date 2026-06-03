@@ -1,0 +1,67 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T1da8,<h1>人脑是关键基础设施——但它没有防火墙</h1>
+<p>这篇文章深刻揭示了当前信息防御范式的根本困境：法国首部反信息操纵战略仍将重心放在管控信息来源上，却遭遇法律、技术与心理层面的三重不可能。作者一针见血地指出，对抗叙事的底层逻辑无法解决公众的认知脆弱性——虚假信息留下的认知印迹，更正也无法抹除。真正的出路在于视角转换：从控制信息流转向强化判断力。剑桥大学的心理接种研究、瑞典心理防卫局的全民韧性实践，都指向一个更根本的概念——认知主权。这不是抽象的理论建构，而是每个人都可以训练和迁移的判断力保护能力。当人的大脑成为没有任何防火墙的关键基础设施，唯一的解决方案也只能是人的。这篇文章为理解信息时代的认知防御提供了既有理论深度又有实践指向的思考框架。</p>
+<hr>
+<p>法国刚刚通过了首部《国家打击信息操纵战略》。其中一项主张认为"抵御信息操纵的第一道防线是社会本身"[^1]。这一意图值得肯定。但该文件的十五项战略目标中，只有四项涉及公民韧性。其余十一项分布在平台监管、强化国家检测能力和国际行动之间。更关键的是：其范围仅限于外国来源的操纵行为，排除了国内虚假信息和算法极化问题。这种失衡并非偶然。它是一种范式的症候——尽管有所调整，该范式仍聚焦于控制信息来源。</p>
+<h3>三重不可能</h3>
+<p>然而，这一范式面临着三重不可能。首先是法律上的限制：总统设立的布隆纳委员会（2022）旨在评估和理解数字技术对国家凝聚力和民主制度构成的威胁，以便更好地应对它们，但该委员会自身也承认，试图打击虚假信息可能带来侵犯言论自由的风险[^2]。其次是技术上的限制：在全球化的数字空间中，没有任何系统能在源头过滤所有信息流。最后是心理层面的问题：即便更正信息送达个人，最初的信念仍难以消除。这正是文献中所称的"持续影响效应"，由埃克等人（Ecker et al.）在《Nature Reviews Psychology》上进行了广泛记录[^3]。虚假信息会留下认知印迹，更正无法将其抹除。</p>
+<blockquote>
+<p>该工具具有战术价值，但其底层逻辑是对抗叙事，这使公众的认知脆弱性未能得到解决</p>
+</blockquote>
+<p>法国外交部于2025年9月在X平台发起的"法国回应"（French Response）倡议，展示了这一逻辑的极致演绎。据部长让-诺埃尔·巴罗（Jean-Noël Barrot）称，其目标是通过快速对抗叙事介入信息场域，以"还原事实、纠正认知"[^4]。该工具具有战术价值，尤其在非洲公众认知争夺战中。但其逻辑仍是对抗叙事，这使得民众的认知脆弱性完好无损。</p>
+<p>是否存在有科学依据的替代方案？认知心理学的研究表明确实存在，且这一替代方案基于视角的转换：以接收者而非发送者为目标，强化判断力而非试图控制信息流。</p>
+<h3>预防性前置暴露</h3>
+<p>桑德·范德林登（Sander van der Linden）和乔恩·鲁曾贝克（Jon Roozenbeek）在剑桥大学进行的心理接种研究，为这一方法提供了最坚实的实证验证。通过提前让个体接触稀释后的操纵技巧（诉诸情感、虚假两难、依赖伪专家），他们在后续遭遇这些技巧时识别它们的能力得到了增强。研究结果——经33项研究、超过37,000名参与者的荟萃分析确认[^5]——表明，接种训练在不引发反应偏差的情况下，提高了区分可靠与不可靠内容的能力。这一点至关重要：辨别力得到增强，而不会滋生普遍的怀疑。</p>
+<p>北约已从这些进展中得出结论。2025年10月，盟军转型司令部的应用认知效应团队提出了一个名为"韧性定向"（resilience orientation）的概念：即在信息解读阶段建立韧性。其建议明确无误：联盟必须超越对抗虚假信息的表层斗争，在从个人训练到军民协作的各个层面构建认知韧性[^6]。这一概念建立在贝尔纳·克拉弗里（Bernard Claverie）与迪迪埃·巴扎尔热特（Didier Bazalgette）及保罗·雅南（Paul Janin）在本专栏发起的<a href="https://www.polytechnique-insights.com/en/columns/society/cognitive-warfare-what-seven-years-of-military-civilian-research-reveals/">认知战思考</a>基础之上[^7]，将焦点从威胁转向对接收者的保护。</p>
+<hr>
+<h3>瑞典的范例</h3>
+<p>瑞典为这一范式提供了最成功的概念验证。其心理防卫局（Psychological Defence Agency，2022年重建）基于一个可概括为一句话的前提："欺骗你越难，我们的民主社会就越强大。"历史学家赫德维格·厄登（Hedvig Ördén）将瑞典的思想轨迹概括为"从假想敌转向易感公众"的转变[^8]。其实践覆盖面广泛：全国性的"Bli inte lurad"（勿被愚弄）宣传活动、2024年覆盖超过10,000名参与者的免费培训计划，以及一项旨在让偏远社区青年参与韧性讨论的专项方案。</p>
+<p>在法国，媒体与信息素养（MIL）以及国家教育科学委员会关于批判性思维的工作[^9]，是朝着正确方向迈出的一步。然而，媒体与信息素养目前仍属于跨学科科目，而教育、体育与研究总督察局（IGÉSR）已指出其在小学教育中的薄弱环节和地区间的不均衡问题[^10]。最重要的是，这些举措未能覆盖成年人。ASTRID"抵抗"项目征集计划（AID/ANR，2025年7月）为认知抵抗研究提供资助，这是一个令人鼓舞的信号，但它仍属于应用研究项目，而非能够在全民范围内立即投入运作的方案。</p>
+<p>所缺少的是一个总体性概念。认知自主性（epistemic autonomy）——由马西森（Mathieson）与洛希德（Lougheed）的著作（Routledge, 2022）或牛津-格拉斯哥"扩展自主性"项目[^11]所重新阐发——提供了哲学基础。心理接种提供了方法。瑞典心理防卫提供了制度模式。然而，个体认知保护与集体韧性之间的纽带仍有待建立。</p>
+<p>正是这一纽带，我提议称之为<strong>认知主权</strong>（cognitive sovereignty）：一种可训练、可迁移的能力，用以保护个人的判断力免受操纵企图的影响。我在近期出版的《认知主权短论》[^12]（法文原题：<em>Petit Traité de Souveraineté Cognitive</em>）中为其奠定了基础，提出了具体工具（STOP协议、解释偏差图谱、心智空间的领土隐喻），以便每位公民都能成为自身信息防卫的行动者。因为，如果人是任何影响行动的最终目标，那么解决方案从根本上也只能是人的。</p>
+<hr>
+<p><em>*本文表达的观点仅代表作者本人，不代表作者所属机构的立场。*</em></p>
+<h2>术语表</h2>
+<table>
+<thead>
+<tr>
+<th>原文</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>cognitive sovereignty</td>
+<td>认知主权</td>
+</tr>
+<tr>
+<td>cognitive warfare</td>
+<td>认知战</td>
+</tr>
+<tr>
+<td>epistemic autonomy</td>
+<td>认知自主性</td>
+</tr>
+<tr>
+<td>persistent influence effect</td>
+<td>持续影响效应</td>
+</tr>
+<tr>
+<td>psychological inoculation</td>
+<td>心理接种</td>
+</tr>
+<tr>
+<td>resilience orientation</td>
+<td>韧性定向</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"essays-the-human-brain-is-critical-infrastructure-and-it-has-no-fir","sender":"Guillaume Chillet","subject":"人脑是关键基础设施——但它没有防火墙","snippet":"这篇文章深刻揭示了当前信息防御范式的根本困境：法国首部反信息操纵战略仍将重心放在管控信息来源上，却遭遇法律、技术与心理层面的三重不可能。作者一针见血地指出，对抗叙事的底层逻辑无法解决公众的认知脆弱性——虚假信息留下的认知印迹，更正也无法抹除。真正的出路在于视角转换：从控制信息流转向强化判断力。剑桥大学的心理接种研究、瑞典心理防卫局的全民韧性实践，都指向一个更根本的概念——认知主权。这不是抽象的理论建构，而是每个人都可以训练和迁移的判断力","date":"2026-04-14","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["translated"],"mdTheme":"magazine","sourcePath":"essays/the-human-brain-is-critical-infrastructure-and-it-has-no-fir.md","sourceUrl":"https://www.polytechnique-insights.com/en/columns/society/the-human-brain-is-the-last-unprotected-critical-infrastructure/?utm_source=brevo&utm_campaign=newsletter203en&utm_medium=email&utm_id=162","body":"$3","prompts":[]},"listPosition":{"index":117,"total":365}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

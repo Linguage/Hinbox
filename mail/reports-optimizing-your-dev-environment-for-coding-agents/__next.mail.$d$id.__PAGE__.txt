@@ -1,0 +1,145 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T1b36,<h1>Optimizing your dev environment for coding agents</h1>
+<p><a href="https://x.com/ericzakariasson/article/2041897427431563613">原文链接</a></p>
+<p>当编码智能体接管日常开发工作时，开发者应如何为其铺设跑道？Eric Zakariasson 指出，前提是赋予智能体与人类员工同等的权限与工具访问权，这也促使开发者从逐行写代码转变为构建系统与定义标准。</p>
+<p>作者提出了一套清晰的智能体环境优化框架：提供同地代码等“原语”降低认知负荷，设立规则与钩子等“护栏”防止行为偏航，并通过技能封装与系统集成等“使能器”打破信息孤岛，延长自主运行时间。文章还提炼了四个检验标准，强调只有让智能体具备自我验证与获取上下文的能力，人类才能真正脱离执行瓶颈。在多智能体并行时代，这种环境投入将产生可观的复利价值。</p>
+<hr>
+<p>如果你希望智能体（agents）去做人类做的工作，就给它们人类在第一天就能得到的东西：一台机器、凭证（credentials）、Slack、Linear、Notion、Datadog、GitHub 组织（org）。</p>
+<p>这也意味着你的工作发生了转变。你不再是逐行编写代码的人，而更多是构建系统的人，告诉智能体好的和坏的标准是什么。这和为人类构建良好的开发者体验（developer experience）基本是相同的工作。</p>
+<p>本文概述了在优化运行编码智能体（coding agents）的环境时需要考虑的一些事情。</p>
+<p><img src="https://pbs.twimg.com/media/HFY_yfRWMAIYKfk?format=jpg&#x26;name=large" alt="图像"></p>
+<h3>原语（Primitives）、护栏（guardrails）与使能器（enablers）</h3>
+<p>这些名称还在不断完善中，六个月后别拿这些话来引用我。但这里是首次尝试划分这个领域。</p>
+<p>**原语与模式（patterns）**是智能体拿来使用而非自己去发明的基础构建块。</p>
+<ul>
+<li>同地代码（Co-located code）。当智能体需要的东西紧挨着它正在编辑的东西时，它能找到。隔着三个目录且位于抽象层之后，它就找不到。</li>
+<li>使用模式。你如何将“我们这里是这么做的”进行编码。随你的包附带的 NPM 脚本、README 中的示例等。</li>
+</ul>
+<p><strong>护栏</strong>告诉智能体它们是否在正确的轨道上。</p>
+<ul>
+<li>规则（Rules）。主动式。它们在智能体行动之前塑造行为。一个用于数据库迁移的 Bugbot 规则可以在不安全模式被写出来之前将其捕获。</li>
+<li>钩子（Hooks）。响应式。对特定文件的编辑会触发工具或直接阻止更改。</li>
+<li>测试（Tests）。如果智能体无法验证自己的工作，你就是瓶颈。</li>
+</ul>
+<p><strong>使能器</strong>是让智能体在无需人类介入循环的情况下运行更久的东西。</p>
+<ul>
+<li>技能（Skills）。打包重复的工作。添加一个特性开关、搭建一个新端点、任何你解释过两次以上的东西。</li>
+<li>MCPs（MCPs）。将智能体连接到你的团队日常使用的系统。Slack 提供上下文，Datadog 提供日志。</li>
+</ul>
+<h3>测试你的环境</h3>
+<p>了解自身所处位置的唯一真正方法是运行一个智能体并观察会发生什么。</p>
+<p><strong>它能启动你的本地环境吗？</strong> 大多数代码库的设置步骤作为部落知识（tribal knowledge）存在，且从未被写下来。智能体（目前）没有部落。</p>
+<p><img src="https://pbs.twimg.com/amplify_video_thumb/2041890417302761474/img/bgKLDz4dVd5ULGUp.jpg?name=large" alt=""></p>
+<p><strong>它能运行测试并理解输出吗？</strong> 如果输出充满噪音或失败信息晦涩难懂，智能体就会去猜。你的队友可能也在猜，只是他们更擅长而已。</p>
+<p><img src="https://pbs.twimg.com/media/HFZAuMKWAAApRNU?format=jpg&#x26;name=large" alt="图像"></p>
+<p><strong>它能拉取外部上下文吗？</strong> 日志、议题（issues）、任务、版本历史。如果它在需要另一个系统的信息时立刻陷入死胡同，你将永远成为循环中的人类。</p>
+<p><img src="https://pbs.twimg.com/amplify_video_thumb/2041890690192568326/img/n-wZPMff5cRTeLAy.jpg?name=large" alt=""></p>
+<p><strong>它能验证自身的更改吗？</strong> 测试、类型检查、它可以访问的开发服务器、来自无头浏览器（headless browser）的截图。如果智能体无法确认自身的工作，你就成了验证步骤，而这个循环只能以你的速度运转。</p>
+<p><img src="https://pbs.twimg.com/amplify_video_thumb/2041890847449559040/img/DfHwJLSM_717hXBF.jpg?name=large" alt=""></p>
+<h3>为什么现在这变得合理</h3>
+<p>这种工作在小团队中总是很难证明其合理性。你会花上一周时间去优化做某事的过程，而不是直接去做某事。你在搭建环境上投入的任何精力，都会在你运行的每一个并行智能体上产生复利，而且你可以运行大量智能体。</p>
+<p>模型正在变得更好。如果你相信这一点（我非常相信），准备就绪的代码库和环境将会快速脱颖而出。</p>
+<h3>下一步</h3>
+<p>一旦环境成型，下一步就是给智能体它们自己的机器。这就是我们在 Cursor 尝试用云智能体（cloud agents）做的事情，每个智能体在拥有完整开发环境的独立隔离虚拟机（VM）上运行，并能在交还附带截图、视频和日志的 PR 之前验证自身的工作。</p>
+<p>这个领域还有很多事情要做，在 Cursor 我们正在大量内部测试（dogfooding）我们的云智能体，以了解下一个挑战和瓶颈会在哪里，从而让更多智能体运行更长时间。</p>
+<p>让我知道我遗漏了什么！</p>
+<h2>术语表</h2>
+<table>
+<thead>
+<tr>
+<th>原文</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>agents</td>
+<td>智能体</td>
+</tr>
+<tr>
+<td>cloud agents</td>
+<td>云智能体</td>
+</tr>
+<tr>
+<td>Co-located code</td>
+<td>同地代码</td>
+</tr>
+<tr>
+<td>coding agents</td>
+<td>编码智能体</td>
+</tr>
+<tr>
+<td>credentials</td>
+<td>凭证</td>
+</tr>
+<tr>
+<td>developer experience</td>
+<td>开发者体验</td>
+</tr>
+<tr>
+<td>dogfooding</td>
+<td>内部测试</td>
+</tr>
+<tr>
+<td>enablers</td>
+<td>使能器</td>
+</tr>
+<tr>
+<td>guardrails</td>
+<td>护栏</td>
+</tr>
+<tr>
+<td>headless browser</td>
+<td>无头浏览器</td>
+</tr>
+<tr>
+<td>Hooks</td>
+<td>钩子</td>
+</tr>
+<tr>
+<td>issues</td>
+<td>议题</td>
+</tr>
+<tr>
+<td>org</td>
+<td>组织</td>
+</tr>
+<tr>
+<td>patterns</td>
+<td>模式</td>
+</tr>
+<tr>
+<td>Primitives</td>
+<td>原语</td>
+</tr>
+<tr>
+<td>Rules</td>
+<td>规则</td>
+</tr>
+<tr>
+<td>Skills</td>
+<td>技能</td>
+</tr>
+<tr>
+<td>Tests</td>
+<td>测试</td>
+</tr>
+<tr>
+<td>tribal knowledge</td>
+<td>部落知识</td>
+</tr>
+<tr>
+<td>VM</td>
+<td>虚拟机</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-optimizing-your-dev-environment-for-coding-agents","sender":"Eric Zakariasson","subject":"为编码智能体优化开发环境","snippet":"当编码智能体接管日常开发工作时，开发者应如何为其铺设跑道？Eric Zakariasson 指出，前提是赋予智能体与人类员工同等的权限与工具访问权，这也促使开发者从逐行写代码转变为构建系统与定义标准。","date":"2026-04-08","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["translated"],"mdTheme":"magazine","sourcePath":"reports/optimizing-your-dev-environment-for-coding-agents.md","sourceUrl":"https://x.com/ericzakariasson/article/2041897427431563613","body":"$3","prompts":[]},"listPosition":{"index":132,"total":365}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

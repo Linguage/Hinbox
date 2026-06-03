@@ -1,0 +1,288 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T139b0,<h1>终极存在是什么？形而上学与 Ruliad（规则体）</h1>
+<p><em>Wolfram 研究所最近获得了邓普顿世界慈善基金会（Templeton World Charity Foundation）关于“<a href="https://www.templetonworldcharity.org/projects-resources/project-database/34225">计算形而上学 (Computational Metaphysics)</a>”的拨款。我写这篇文章的部分原因，是为了作为与传统哲学专家展开讨论的出发点。</em></p>
+<h2>将形而上学从哲学推向科学</h2>
+<p><img src="https://content.wolfram.com/sites/43/2026/02/sw02032026movingimg1-a.png" alt="Moving Metaphysics from Philosophy to Science" title="Moving Metaphysics from Philosophy to Science"></p>
+<p>“终极存在是什么？”一直被视为哲学（或许也是神学）中一个基础且棘手的问题。但是，尽管经过了两千多年的讨论，我认为可以公允地说，这个问题只取得了有限的进展。但也许，仅仅是也许，现在正是改变这一现状的时刻——基于我们<a href="https://writings.stephenwolfram.com/all-by-date/">在科学上的最新努力</a>所带来的令人惊讶的新思想和新成果，我们终于有可能取得实质性的进展，并最终建立起一种正式的、科学的形而上学方法。</p>
+<p>这一切都围绕着一个终极的基础构造展开，我将其<a href="https://writings.stephenwolfram.com/2021/11/the-concept-of-the-ruliad/">称为 ruliad（规则体）</a>——以及像我们这样嵌入其中的<a href="https://writings.stephenwolfram.com/2023/12/observer-theory/">观察者</a>必定如何感知它。这是一个关于空间、时间、数学、自然定律乃至客观现实等基本概念，如何不可避免地（对于像我们这样的观察者而言）涌现出来的故事。</p>
+<p>传统上对形而上学问题的哲学思考往往会走向两极分化，形成强烈对立的观点。但我们将在这里看到的一件了不起的事情是，借助我们从科学中学到的东西，我们常常能够将这些对立的观点统一起来——通常是以相当出人意料的方式。</p>
+<p>我应该强调的是，我在此的目标是基于我们最近在科学上的进展，来总结我们现在对形而上学能说些什么。将其与哲学和神学中的历史立场和历史思想联系起来将是非常有价值的——但这并非我在此试图做的事情。我还应该说明，我将把重点放在一种新的、科学的形而上学方法的主要思想脉络上；关于这些科学的诸多技术细节，我大部分已经在<a href="https://writings.stephenwolfram.com/category/philosophy/">其他地方讨论过了</a>。</p>
+<h2>物理学的基础</h2>
+<p><img src="https://content.wolfram.com/sites/43/2026/02/sw02032026foundationsimg1-a.png" alt="The Foundations of Physics" title="The Foundations of Physics"></p>
+<p>我们将从讨论物理学的传统目标开始我们的旅程：寻找抽象的理论来描述我们在物理世界中所观察和测量到的事物。<a href="https://writings.stephenwolfram.com/2020/04/how-we-got-here-the-backstory-of-the-wolfram-physics-project/#why-wasnt-this-already-figured-out">纵观物理学史</a>，我们已经预期这样的理论最终充其量只能是连续的近似。但我们的<a href="https://www.wolframphysics.org/">物理学项目 (Physics Project)</a> 提出了一种新的可能性：我们现在或许终于到达了终点——一个<a href="https://writings.stephenwolfram.com/2020/04/finally-we-may-have-a-path-to-the-fundamental-theory-of-physics-and-its-beautiful/">真正基础的物理学理论</a>，它为我们宇宙最低层的“机器代码”提供了完整的描述。</p>
+<p>早在古代，人们就提出了宇宙终究是一个连续体，还是由离散的原子元素组成的问题。到了十九世纪末，人们终于确立了至少物质是由离散元素组成的。很快，人们清楚了光也可以用同样的方式来理解。那么空间呢？自欧几里得以来，人们一直假设空间是一个连续体。而在二十世纪初，试图弄清空间是否也像物质一样是离散的努力并未成功。</p>
+<p>但一个世纪后，基于受计算启发的新思想，我们的物理学项目从<a href="https://writings.stephenwolfram.com/2020/04/finally-we-may-have-a-path-to-the-fundamental-theory-of-physics-and-its-beautiful/#what-is-space">“空间不仅仅是一个简单的连续体”这一概念</a>出发。相反，它是一个复杂的离散结构，实际上代表了我们宇宙的各个方面——既包括我们通常所认为的空间，也包括其中的一切。我们可以想象用很多种方式来描述这种结构。一种方便的方式是说它由大量离散的、本质上完全相同的“空间原子（atoms of space）”组成——可以将其想象成类似无形的几何点——它们唯一的属性（除了彼此不同之外）就是它们如何与其他空间原子抽象地关联。换句话说，我们想象用空间原子之间的关系模式来描述宇宙的整个结构。为了方便起见，可以将其<a href="https://www.wolframphysics.org/technical-introduction/basic-form-of-models/">表示为一个超图 (hypergraph)</a>，其节点是空间原子，超边定义了它们之间的关系。（如果关系仅仅存在于节点对之间，这就变成了一个普通的图。）</p>
+<p>我们从计算机的实践经验中获得的一个重要直觉是，我们可以用“比特”来表示我们处理的一切事物。但是，当我们还想表示空间结构时，最好不要以某种预定排列的比特来思考，而是以超图定义的更底层、更灵活的“数据结构”来思考。</p>
+<p>那么，我们通常感知的宇宙是如何从中涌现的呢？这与物质发生的情况非常相似。例如，尽管像水这样的东西是由离散的分子组成的，但它们的聚集效应却<a href="https://www.wolframscience.com/nks/p378--fluid-flow/">产生了看似连续的流体行为</a>。然后——仍然由相同的底部分子组成——流体中会出现离散的涡流，这在<a href="https://writings.stephenwolfram.com/2020/04/finally-we-may-have-a-path-to-the-fundamental-theory-of-physics-and-its-beautiful/#elementary-particles-old-and-new">空间的情况下就类似于基本粒子</a>，比如电子（或者就此而言，黑洞）。</p>
+<h2>时间与时空</h2>
+<p><img src="https://content.wolfram.com/sites/43/2026/02/sw02032026timeimg1-a.png" alt="Time and Spacetime" title="Time and Spacetime"></p>
+<p>如果存在一个作为宇宙终极“数据结构”的超图，那么应用于它的算法是什么呢？正如我们想象数据结构由离散元素组成一样，我们也想象对它的更改是通过离散事件发生的。目前，我们可以想象存在某种固定的规则来决定这些基本事件。例如，<a href="https://writings.stephenwolfram.com/2020/04/finally-we-may-have-a-path-to-the-fundamental-theory-of-physics-and-its-beautiful/#how-it-works">规则可能是：每当超图的一部分具有某种指定形式时</a>，就应将其替换为具有另一种指定形式的超图部分。</p>
+<p>我们可以把应用这样一条规则看作是根据宇宙的前一个状态计算出“下一个状态”。如果重复应用这条规则，它将生成宇宙更新状态的整个序列。然后，我们就可以将这些状态的推进视为<a href="https://writings.stephenwolfram.com/2024/10/on-the-nature-of-time/">对应于宇宙中时间的推移</a>。</p>
+<p>值得注意的是，在这种设定下，空间和时间至少在开始时是不同种类的事物。空间与超图的结构相关，而时间则与超图上的计算相关。</p>
+<p>不过，正如超图定义了空间原子之间的关系一样，我们可以想象一个<a href="https://writings.stephenwolfram.com/2020/04/finally-we-may-have-a-path-to-the-fundamental-theory-of-physics-and-its-beautiful/#the-graph-of-causal-relationships">因果图 (causal graph)</a>，它定义了事件之间的“因果关系”。任何特定事件都可以被认为是以一些空间原子集合作为“输入”，并产生另一些空间原子集合作为“输出”。但这随后就意味着事件之间的因果关系：任何以另一个事件生成的空间原子输出作为输入的事件，都可以被认为是对那另一个事件有“因果依赖”。</p>
+<p>这些因果关系的整个模式最终定义了宇宙中所有事件的因果图——从某种意义上说，它在空间和时间两个维度上编码了宇宙的结构。</p>
+<p>但是，给定这样一个因果图，我们能从中重建出一系列超图吗？我们可以把这些超图看作是连续的“空间瞬时状态”。并且——就像在相对论中一样——事实证明，并没有唯一可能的状态序列。相反，存在<a href="https://www.wolframphysics.org/technical-introduction/the-updating-process-for-string-substitution-systems/causal-foliations-and-causal-cones/">许多不同的序列</a>，它们都与底层的因果图一致——而在传统物理学术语中，这就对应于不同的相对论参考系。</p>
+<p>因此，实际上我们可以认为因果图才是关于宇宙信息的“真实表示”。任何特定的“重构”超图序列都不可避免地涉及任意的切片选择。</p>
+<p>当我们介绍因果图时，我们谈到它的构建是从一个特定的超图开始，然后观察应用规则的效果。但关键点在于，我们在超图和规则应用方式上都有很大的选择余地，但（由于<a href="https://www.wolframphysics.org/technical-introduction/the-updating-process-for-string-substitution-systems/the-phenomenon-of-causal-invariance/">因果不变性现象 (phenomenon of causal invariance)</a>），基本上所有的选择都会将我们导向相同的因果图。</p>
+<p>我们可能原本以为，给定一个基础物理理论，我们应该能问宇宙在某种意义上“静态地是什么”。但我们发现，我们反而应该讨论宇宙中发生的过程——正如因果图所表示的那样。</p>
+<p>我们可以将<a href="https://writings.stephenwolfram.com/2024/10/on-the-nature-of-time/">时间的流逝</a>视为因果图中事件的推进。但为什么甚至会有类似空间这样的东西存在呢？最终发现这是因果图中不同事件序列“纠缠”的反映——其结构实际上是这些事件序列之间关系的映射（这种结构可以方便地用超图来表示）。</p>
+<p>想象一下从因果图中的一个事件开始，然后追踪依赖于它的一系列事件。我们可以认为这些连续的事件在时间上发生得越来越晚。但是，给定事件的两个直接后继事件又是怎么回事呢？它们之间是什么关系？核心思想是，即使这两个“兄弟”事件“在同一时间”发生，它们依然是分离的——分离于我们可以认为是空间的东西之中。</p>
+<p>那么“作为一个整体的空间”是如何形成的呢？最终它是非常动态的东西。确实，正是宇宙中事件的不断发生，将空间的结构“编织”在一起。没有这种“活动”，就不会存在我们可以连贯地认为是“空间”的东西。</p>
+<p>在空间原子的层面上，宇宙中没有任何东西是永恒的；在每一个基本事件中，旧的空间原子被摧毁，新的空间原子被创造出来。但不知何故，在聚合的层面上，涌现出的事物具有某种稳定性。这又有点像流体，大量底部分子的微观运动在聚合上导致了流体力学定律。</p>
+<p>那么大量超图更新涌现出的聚合定律是什么呢？非常令人惊讶的是，它们几乎不可避免地<a href="https://writings.stephenwolfram.com/2020/04/finally-we-may-have-a-path-to-the-fundamental-theory-of-physics-and-its-beautiful/#general-relativity-and-gravity">正好是爱因斯坦方程</a>：似乎支配时空大尺度结构的方程。因此，即使“在底层”的只是我们可能认为是“抽象的”空间原子和重写它们之间关系的规则，所涌现出来的东西却重现了我们所认为的“物理现实”中的熟悉元素。</p>
+<h2>计算不可约性现象</h2>
+<p><img src="https://content.wolfram.com/sites/43/2026/02/sw02032026phenomenonimg1-a.png" alt="The Phenomenon of Computational Irreducibility" title="The Phenomenon of Computational Irreducibility"></p>
+<p>如果存在一条最终能够重现宇宙行为的规则，这条规则需要有多复杂？我们传统的直觉（比如来自工程学的经验）是，如果你想产生复杂的行为，就需要复杂的规则。但我<a href="https://www.wolframscience.com/nks/chap-2--the-crucial-experiment/">在 1980 年代初的重大发现</a>是，事实并非如此——实际上，即使是极其简单的底层规则（比如<a href="https://www.wolframscience.com/nks/p27--how-do-simple-programs-behave/">我最喜欢的“规则 30”</a>），也完全有可能产生极其复杂的行为。</p>
+<p>但为什么最终会发生这种情况？我们可以把运行规则看作是运行程序，或者换句话说，就像在做计算。但这种计算有多复杂呢？我们原本可能认为不同的规则会进行截然不同的计算。但是在一个世纪前发现的<a href="https://www.wolframscience.com/nks/chap-11--the-notion-of-computation#sect-11-3--the-phenomenon-of-universality">通用计算的存在性 (existence of universal computation)</a> 意味着，实际上存在一类通用规则，它们可以有效地模拟任何其他规则（例如，这就是软件之所以成为可能的原因）。</p>
+<p>但实际上还有很多东西可以说。特别地，我的<a href="https://www.wolframscience.com/nks/chap-12--the-principle-of-computational-equivalence/">计算等效原理 (Principle of Computational Equivalence)</a> 意味着，本质上只要你看到一个行为并非明显简单的系统，该系统实际上就在进行某种意义上达到最高复杂度的计算。换句话说，复杂的计算不仅仅是专门设置的“类似计算机”的系统的特征；它是无处不在的，甚至存在于具有简单底层规则的系统中。</p>
+<p>那么这意味着什么呢？科学通常被认为具有预测系统行为的目标。但要做出这样的预测，在某种意义上需要能够“跳过”系统本身的行为来提前得出结果。但是，计算等效原理告诉我们，这在通常情况下是不可能的——因为我们试图预测的系统通常与我们试图用来预测它的系统在计算上一样复杂，这是普遍现象。这种结果就是<a href="https://www.wolframscience.com/nks/chap-12--the-principle-of-computational-equivalence#sect-12-6--computational-irreducibility">计算不可约性现象 (phenomenon of computational irreducibility)</a>。</p>
+<p>你总是可以通过一步步显式地运行系统的规则来找出它将做什么。但如果系统是计算不可约的，就没有通用的方法来走捷径，从而以减少计算量的方式找到结果。</p>
+<p>计算不可约性将底层规则与它们产生的行为不可约地分离开来。正是它使得简单的规则也能够生成无法被“解码”的行为，除非付出不可约的巨大计算努力——因此对于计算能力有限的观察者来说，这<a href="https://www.wolframscience.com/nks/chap-7--mechanisms-in-programs-and-nature#sect-7-5--the-intrinsic-generation-of-randomness">将被视为是随机的</a>。</p>
+<p>在某种意义上，计算不可约性也使得<a href="https://writings.stephenwolfram.com/2024/10/on-the-nature-of-time/">时间成为某种“真实的”东西</a>。我们上面讨论过，时间的推移对应于计算规则的逐步应用。计算不可约性使得这个过程“累积成有意义的结果”。而计算等效原理告诉我们，存在着我们可以认为是时间的东西，它实际上是“纯粹的、不可约的计算”，独立于我们正在研究它的系统。</p>
+<p>对于空间来说，情况也非常相似。计算不可约性通常会导致超图结构出现某种“均匀的有效随机性”，这使我们能够想象存在一个明确的、与“底层基质无关”的空间概念。</p>
+<p>这与<a href="https://writings.stephenwolfram.com/2023/02/computational-foundations-for-the-second-law-of-thermodynamics/">在流体等事物中发生的情况</a>有着密切的相似性。在分子层面上，发生着大量的分子碰撞。但关键是，这是一个计算不可约的过程——其最终结果是足够的“均匀的有效随机性”，使得我们可以有意义地谈论流体“宏观上”的属性，将其作为一个独立的事物，而无需提及它是由分子组成的。</p>
+<p>那么这一切与我们最初关于“终极存在是什么”的形而上学问题有何关联？计算不可约性引入了这样一种观念：关于“纯粹计算”，存在某种健壮的、不变量的东西——某些不依赖于“实现”该计算的细节的东西。或者换句话说，谈论事物仅仅是“由计算构成”在某种意义上是有意义的。</p>
+<h2>观察者的意义</h2>
+<p><img src="https://content.wolfram.com/sites/43/2026/02/sw02032026significanceimg1-a.png" alt="The Significance of the Observer" title="The Significance of the Observer"></p>
+<p>在谈论代表空间及其内部一切的超图等概念时，我们在某种意义上给出了对宇宙“从外部”视角的客观描述。但对我们来说，最终重要的不是“原则上那里有什么”，而是我们实际感知到了什么。确实，我们可以将科学首先视为一种寻找能够融入我们头脑中的、对外部存在的某些方面进行叙事性描述的方法。</p>
+<p>但是，考虑到计算不可约性，为什么这甚至是可能的？例如，为什么甚至会存在“自然定律”，让我们即使凭借我们有限头脑所能进行的有限计算，也能对事物做出预测？</p>
+<p>答案与计算不可约性的一个不可避免的基本特征有关：在任何计算不可约的过程中，必然始终存在无数个计算可约性的口袋（pockets of computational reducibility）。换句话说，尽管计算不可约性使得预测系统将做的每一件事变得不可约地困难，但总是存在一些可约性的口袋，允许我们对其说出某些确定的事情。正是这些可约性口袋被我们的感知过程——以及我们的科学——所利用。</p>
+<p>我们再次以流体动力学为例。尽管流体中底部分子运动的详细模式是计算不可约的，但仍然存在计算上简单的流体流动总体定律——我们可以将其认为与计算可约性的口袋相关联。而从我们作为计算能力有界的观察者的角度来看，我们倾向于将这些视为流体的定律。</p>
+<p>换句话说，我们赋予系统的定律取决于我们作为<a href="https://writings.stephenwolfram.com/2023/12/observer-theory/">观察者的能力</a>。以<a href="https://writings.stephenwolfram.com/2023/02/computational-foundations-for-the-second-law-of-thermodynamics/">热力学第二定律</a>为例，想象从某种简单的配置（比如气体分子）开始。这些分子的动力学将普遍对应于一个计算不可约的过程——对像我们这样计算能力有界的观察者来说，其结果似乎会变得“越来越随机”。当然，如果我们在计算上没有界限，我们就能“解码”整个底层的计算不可约过程，我们就不会相信存在看似日益增加的随机性，也不会相信第二定律。但是——无论任何细节如何——只要我们在计算上是有界的，我们就会立刻感知到第二定律。</p>
+<p>我们可能假设第二定律是某种内在的自然定律——与终极存在直接相关。但我们看到的是，第二定律的涌现是因为我们，因为我们作为观察者的特征，特别是我们在计算上的有界性。</p>
+<p>还有其他事物也是按照这种方式运作的——例如，我们对一个连贯的空间概念的信念。在最低层，我们想象有一个离散的超图，正在通过一个终极上是计算不可约的过程进行更新。但作为计算能力有界的观察者，我们只感知到某些聚合特征——这实际上对应于与我们对空间的简单、连续感知相关联的一个计算可约性口袋。</p>
+<p>当我们思考时空——比如推导其相对论特性时——作为观察者的我们的另一个特征也被证明非常重要：那就是我们<a href="https://writings.stephenwolfram.com/2021/03/what-is-consciousness-some-new-perspectives-from-our-physics-project/">假设我们在时间上是持久存在的</a>，并且——即使我们在随后的每一时刻可能由不同的空间原子组成——我们仍然能够成功地将连续时刻的感知编织在一起，形成一条单一的体验主线。在某种意义上，这是由于我们的计算有界性而被迫采取的“简化”。但在很多方面，这也就是我们所认为的<a href="https://writings.stephenwolfram.com/2021/03/what-is-consciousness-some-new-perspectives-from-our-physics-project/">意识概念</a>的核心（我在<a href="https://writings.stephenwolfram.com/2025/05/what-if-we-had-bigger-brains-imagining-minds-beyond-ours/">其他文章中</a>已对这部分<a href="https://writings.stephenwolfram.com/2021/03/what-is-consciousness-some-new-perspectives-from-our-physics-project/">进行了较长篇幅的论述</a>）。</p>
+<p>计算等效原理意味着复杂的计算是无处不在的——绝对不仅仅是大脑独有的。确实，似乎<a href="https://writings.stephenwolfram.com/2025/05/what-if-we-had-bigger-brains-imagining-minds-beyond-ours/#how-brains-seem-to-work">大脑实际上专注于一种特定的——在很多方面也是受限的——计算形式</a>。它们接收大量的感官数据，并实际上将其压缩，以得出最终对我们采取的动作的一条单一主线。在生物学层面上，我们大脑的数十亿神经元之间总在发生各种各样的活动。但我们的大脑，似乎被特别构造为将所有这些活动浓缩成本质上是思想、行动和“体验”的单一主线。正是这种单线程特性似乎赋予了我们连贯存在的感觉，实际上也就是意识的感觉。</p>
+<h2>量子力学与多路系统</h2>
+<p><img src="https://content.wolfram.com/sites/43/2026/02/sw02032026quantumimg1-a.png" alt="Quantum Mechanics and Multiway Systems" title="Quantum Mechanics and Multiway Systems"></p>
+<p>传统的经典物理学谈论宇宙中发生的确定事件——比如抛体沿着由其运动定律决定的确切路径运动。但量子力学则谈论遵循许多不同路径的可能性——仅为它们的各种结果规定了概率。</p>
+<p>在物理学史上，量子力学是一种“附加物”。但<a href="https://writings.stephenwolfram.com/2020/04/finally-we-may-have-a-path-to-the-fundamental-theory-of-physics-and-its-beautiful/#the-inevitability-of-quantum-mechanics">在我们的物理学项目中，它直接就是必不可少的</a>和不可避免的。因为我们定义的规则只是说明：只要超图的某个部分符合特定的模式，就应该对其进行变换。但通常会有许多这样的匹配——每一次匹配都会产生不同的变换，每一次实际上都在启动我们可以认为是不同的历史路径。而且除了这种分支之外，也可能存在合并——当不同的变换最终产生相同的超图时。</p>
+<p>我们可以用我所谓的<a href="https://writings.stephenwolfram.com/2021/09/multicomputation-a-fourth-paradigm-for-theoretical-science/#multiway-systems-and-the-concept-of-the-multicomputation">多路图 (multiway graph)</a> 来表示所有这些分支和合并的历史路径。我们可以认为这样一个多路图给出了宇宙中“发生的事情”的完整描述。</p>
+<p>但正如我们上面讨论的，像我们这样的观察者只维持一条单一的体验主线。这意味着我们无法直接感知整个多路图。相反，我们实际上不得不从中挑选出一条路径。但这将是哪条路径呢？在量子力学形式主义（或我们物理学项目）的层面上，我们唯一谈论的是所有路径的整体集合。因此，必须有其他东西来决定这条路径。</p>
+<p>在物理空间中，我们习惯于这样一种观念：作为观察者，我们被局限在一个特定的位置，只能直接感知我们周围的事物。在整个物理空间中发生着许许多多的事情。但由于我们碰巧所处的位置，我们只能直接感知到它们中极小的一个样本。</p>
+<p>那么，从多路图中挑选历史路径的过程中是否也发生了类似的事情呢？似乎确实如此。如果我们在任何特定时间对多路图切一刀，我们会看到许多历史路径的“悬空端点”，每一个都与宇宙的一个不同状态相关联。但不可避免地，这些状态之间存在着许多关系。（例如，两个状态可能有一个直接的共同祖先。）事实证明，我们可以把这些状态视为被布局在所谓的“<a href="https://www.wolframphysics.org/technical-introduction/the-updating-process-for-string-substitution-systems/the-concept-of-branchial-graphs/">分支空间 (branchial space)</a>”中。</p>
+<p>就像在物理空间中一样，我们可以预期，我们作为观察者局限于分支空间中的某个位置。这意味着，尽管在某个层面上存在许多不同的历史路径，我们只感知得到那些“在我们所处位置”附近的路径。就像没有“理论”告诉我们我们在物理空间中处于什么位置（哪个星球，哪个星系等）一样，在分支空间中也是如此。也许有一天我们会找到描述我们在分支空间中位置的方法，但目前我们最好说它是“随机的”。</p>
+<p>我认为，这就是为什么量子力学中的结果对我们来说似乎是随机的原因。整个多路图是完全决定的（正如即使在标准的量子力学形式主义中，波函数等也是完全确定的）。但作为观察者，我们对多路图采样的是哪一部分，取决于我们在分支空间中的位置。</p>
+<p>我们可以预期，正如我们人类在物理空间中都紧密相连一样，我们在分支空间中也是如此。这意味着，尽管在抽象层面上，例如某个特定的量子测量的结果可能显得“随机”，但所有人类观察者——由于在分支空间中靠得很近——往往会对该结果达成一致。至少在人类之中，存在着他们可以认为是“客观现实”的东西。</p>
+<h2>Ruliad（规则体）的概念</h2>
+<p><img src="https://content.wolfram.com/sites/43/2026/02/sw02032026conceptimg1-a.png" alt="The Concept of the Ruliad" title="The Concept of the Ruliad"></p>
+<p>我们物理项目的一个了不起的启示是，我们整个宇宙及其所有的丰富性，都可以仅仅通过重复应用一条简单的底层规则而涌现。但那到底是哪条规则？它是如何被选中的呢？</p>
+<p><a href="https://writings.stephenwolfram.com/2021/11/the-concept-of-the-ruliad/">Ruliad 的概念</a>设想不需要进行任何选择——因为所有的规则都在被使用。而产生的结果就是 Ruliad：所有可能计算过程的纠缠极限。</p>
+<p>我们在量子力学的背景下讨论了这样一种思想：给定的一条规则可以以多种方式应用，从而导致多条历史路径。Ruliad 将这个概念推向了极致，不仅以所有可能的方式应用一条规则，而且以所有可能的方式应用所有可能的规则。</p>
+<p>我们可以想象将 Ruliad 表示为一个巨大的多路图——其中包含了代表任何可想象的特定计算的路径。从根本上赋予 Ruliad 结构的是，这些路径不仅可以分支，还可以合并——当不同状态导致等效的结果在多路图中合并时，合并就会发生。</p>
+<p>起初我们可以认为 Ruliad 是由我们物理学项目中所有可能的超图规则构建的。但计算等效原理意味着，实际上我们可以使用任何类型的规则作为基础：由于 Ruliad 包含了所有可能的计算过程，它的最终形式将是相同的。</p>
+<p>换句话说，无论我们最终如何表示它，Ruliad 的内在形式始终是一样的。一旦我们有了计算（或遵循规则）的概念，Ruliad 就是一个不可避免的结果。在某种意义上，它是计算概念的终极闭环：它封装了所有可能的计算过程及其之间不可避免的关系，是这样一个独一无二的对象。</p>
+<p>我们是通过思考物理学和物理宇宙的终极基础设施才得出 Ruliad 这个概念的。但 Ruliad 远比这更通用。它是一个抽象对象，捕捉了一切可以用计算形式化的事物，以及这些事物之间复杂的结构关系。</p>
+<p>当然，Ruliad 能够描述我们真实物理宇宙的想法最终只是一个假说——尽管我们物理项目的成功极大地支持了这一假说。</p>
+<p>它怎么可能会错呢？好吧，我们的宇宙可能涉及超计算（hypercomputation）——这无法被 Ruliad 有限地捕捉。并且我们可能不得不考虑<a href="https://writings.stephenwolfram.com/2021/11/the-concept-of-the-ruliad/#whats-beyond-the-ruliad">整个超规则体（hyperruliads）的可能层级结构</a>。（尽管正如我们将看到的，由此产生的任何影响可能都超出了像我们这样的观察者所能感知的范畴。）</p>
+<p>但假设 Ruliad 是包罗万象的终极底层结构，我们就可以问它是用什么组成的。在某个层面上，我们可以只说它是由抽象计算过程组成的。但是这些过程操作的对象是什么呢？同样是抽象的事物。但我们可以想象分解这些抽象事物。尽管必然会有不同的方法来做到这一点，但通常将它们设想为由终极的、不可分割的实体之间的关系组成会很方便——我们可以将其描述为“存在的原子”，或<a href="https://writings.stephenwolfram.com/2022/03/the-physicalization-of-metamathematics-and-its-implications-for-the-foundations-of-mathematics/#:~:text=I%E2%80%99ll%20call%20such%20atoms%20of%20existence%20%E2%80%9Cemes%E2%80%9D%20(pronounced%20%E2%80%9Ceemes%E2%80%9D%2C%20like%20phonemes%20etc.)">我称之为“emes（存在基元）”</a>的东西。</p>
+<p>在我们的物理学项目中，我们将 emes 认同为空间原子。但在一般讨论 Ruliad 时，我们可以仅仅将它们视为“存在的终极原材料”。Emes 本身没有任何结构。事实上，关于它们唯一内在可说的就是它们是各不相同的：在某种意义上，它们是身份认同的基本单元。然后我们就可以认为是它们之间的关系构建了 Ruliad——以及它所奠定的一切。</p>
+<h2>Ruliad 中的观察者与自然定律</h2>
+<p><img src="https://content.wolfram.com/sites/43/2026/02/sw02032026observersimg1-a.png" alt="Observers in the Ruliad and the Laws of Nature" title="Observers in the Ruliad and the Laws of Nature"></p>
+<p>我们最初的形而上学问题是：“终极存在是什么？”在某个层面上，我们的科学现在给了我们一个答案：Ruliad 就是终极存在的一切。</p>
+<p>但对我们来说存在的是什么呢？换言之，在我们所感知和体验的事物中，终极存在是什么？不可避免地，作为观察者，我们必须是 Ruliad 的一部分。我们的“内在体验”必然也类似地在 Ruliad 中被体现。但其本身并不足以告诉我们这些体验可能是什么。我们可能会认为，要弄清楚这一点，我们需要了解大量关于我们自身构造的特定细节以及我们在 Ruliad 中的位置。</p>
+<p>但过去几年中浮现的结论是，在很多重要方面我们并不需要。相反，只要了解我们作为观察者的某些粗略特征，就已经<a href="https://writings.stephenwolfram.com/2023/12/observer-theory/">暗示了我们必定会体验到很多东西</a>。特别是，如果我们假设我们是计算有界的观察者，并且相信我们在时间中是持续存在的，那么我们主张：不可避免地，我们必定会感知到某些定律在起作用——而这些定律恰好就是二十世纪物理学的三大核心定律：广义相对论、量子力学和热力学第二定律。</p>
+<p>这是一个惊人的主张：我们观察到的物理定律并非偶然如此；对于具有我们所具备的一般特征的观察者来说，它们是不可避免的。在底层 Ruliad 的层面上，我们可能观察到的物理定律并没有被决定。但是，一旦我们知道了关于我们作为观察者的某种特性，我们必定会得出我们熟悉的物理定律。</p>
+<p>因此，从某种意义上说，我们体验到的物理定律之所以是现在这个样子，是因为我们是现在这个样子的观察者。我们在上面讨论第二定律时已经谈到了这一点。虽然我们还不知道所有的细节，但基本结论是，通过将 Ruliad 的抽象结构与我们对我们作为观察者的假设结合起来，我们能够推导出二十世纪所有熟悉的核心物理定律。</p>
+<p>值得强调的是，我们能立即推导出的某种意义上是“一般性定律”。我们知道时空具有特定的整体结构，其动力学满足爱因斯坦方程。但是，比如，我们不知道为什么我们感知的宇宙（至少近似地）具有 3 个空间维度——尽管我猜测观察到的物理学中的许多此类特征最终都可以追溯到<a href="https://writings.stephenwolfram.com/2023/12/observer-theory/#what-we-assume-about-ourselves">我们作为观察者的方式的特征</a>。</p>
+<p>那么<a href="https://writings.stephenwolfram.com/2021/11/the-concept-of-the-ruliad/#alien-views-of-the-ruliad">与我们不同的观察者</a>呢？他们仍然是 Ruliad 的一部分。但在某种意义上，他们正在以不同的方式对其进行采样。并且他们有可能会感知到截然不同的物理定律。</p>
+<p>关于我们的宇宙，有一个非常基本的观察是，我们感觉到它遵循着相当简单的定律。但在某种意义上，这也只是我们作为观察者的本质特征。因为考虑到我们的计算有界性，我们根本无法真正利用——甚至无法识别——任何在某种意义上不简单的定律。</p>
+<p>简单定律之成为可能，可以被视为是在任何计算不可约过程中不可避免地存在计算可约性口袋的反映。但正是我们作为观察者的计算有界性驱使我们去挑选出它们。如果我们在计算上是没有界限的，我们就可以在原始的计算不可约性的层面上操作，而不需要去挑选任何简单的定律。</p>
+<p>一开始，我们可能设想物理定律在某种程度上从根本上就是“终极存在是什么？”这个问题的根源。但我们看到的是，实际上这些定律在某种意义上是更高层级的构造，其形式取决于我们作为观察者的特征。而要回答我们最初的形而上学问题，我们必须突破我们所感知的物理定律，“向下钻取”到它们的“计算基础设施”，最终直达 Ruliad。</p>
+<h2>客观现实问题</h2>
+<p><img src="https://content.wolfram.com/sites/43/2026/02/sw02032026questionimg1-a.png" alt="The Question of Objective Reality" title="The Question of Objective Reality"></p>
+<p>当我们问终极存在是什么时，我们在某种意义上隐含地假设实际上存在某种确定的东西——或者说实际存在一个单一的终极“客观现实”。但这真的是事物的运作方式吗？还是说，比如说，每个观察者实际上“拥有他们自己的现实”？</p>
+<p>在我们的方法中，有一个相当微妙的答案。在最低层面上，存在一个将一切编织在一起的单一的终极客观现实——那就是 Ruliad。但与此同时，原则上不同的观察者可以体验到不同的事物。但是，只要我们面对的是在某种程度上和我们哪怕只是有些相似的观察者（也就是在他们拥有与我们相同的计算有界性、并且相信自身持久存在的意义上），我们已经论证过，他们不可避免地将总是体验到我们所熟知的核心物理定律。换句话说，这些定律实际上代表了单一的客观现实——至少在所有与我们哪怕只是有些相似的观察者中是这样的。</p>
+<p>那么我们体验中更细致的特征呢？毫无疑问，其中一些我们能够根据我们在所有“像我们这样的观察者”之间确认的共享特征来进行“客观推导”。但在某个层面上，不同的观察者总是有不同的体验——这并非最不重要的原因，例如，他们通常在空间中的不同位置进行操作，甚至一般而言，在 Ruliad 的不同位置进行操作。</p>
+<p>然而，我们日常的印象是，即使看着同一个场景的不同的人的具体经历可能不同，但仍然可以合理地认为这些经历都是从同一个“潜在的客观现实”中衍生出来的。为什么会这样呢？从根本上讲，我认为是因为人类观察者在 Ruliad 中都彼此靠得很近——所以从某种意义上说，他们都在对 Ruliad 中同一个微小的部分进行采样。</p>
+<p>在 Ruliad 中不同位置的观察者实际上是在对不同的历史主线进行采样，这些主线根据不同的规则运行。但计算等效原理告诉我们——就像总是有可能将一个通用计算系统转换为另一个一样——最终总是可以将在 Ruliad 不同位置采样的观察者所获得的信息进行转换/翻译（translate）。</p>
+<p>不过，翻译的难度取决于试图在 Ruliad 中走多远。接触到类似知识、文化等的人类思维彼此相近，翻译起来相对容易。动物思维则距离较远，翻译更困难。而谈到诸如天气这样的事物时，即使原则上它是计算等效的，但在 Ruliad 中要达到它所需跨越的距离是如此之大，以至于翻译非常困难。</p>
+<p>Ruliad 中位置之间的翻译在某种意义上只是物理空间中平移（翻译，translation同样也有平移之意）的推广。在物理空间中移动的过程被我们描述为运动（motion）。但<a href="https://writings.stephenwolfram.com/2022/03/on-the-concept-of-motion/">运动实际上是什么呢</a>？实际上，它是让某物移动到空间中的另一个位置，同时仍然“是相同的东西”。然而，在我们的物理项目中，如果某物处于空间中的不同位置，它必定是由不同的空间原子组成的。但不知何故，必然存在某种空间原子的模式——有点像流体中的漩涡——可以说代表了在空间中不同位置的“相同东西”。</p>
+<p>并且潜在地，我们可以把诸如电子或光子之类的粒子视为某种意义上的“纯粹运动的基本载体”：能够在不改变自身的情况下移动的最小对象。</p>
+<p>但这在 Ruliad 中是如何更普遍地起作用的呢？是什么能够在不改变的情况下在观察者之间，或者在思维之间“移动”？实质上这似乎是概念（通常以文字为基本形式表现）。例如，在同一个人类大脑中，一个想法对应于某种复杂的神经活动模式。但允许它被“移动”到另一个大脑中的，是将其“打包”成一个可以被另一个大脑解包的“概念”。在某个层面上，正是这种沟通“校准了观察者”拥有相似的内在体验——甚至到了可以认为它们反映了一个共同的客观现实的地步。</p>
+<p>但这所有一切都隐晦地预设了存在许多观察者——他们的体验可以通过“三角定位（交叉验证）”指向一个共同的客观现实。不过，如果只存在一个观察者，就没有什么三角定位可言，可以想象，唯一重要的就是这唯一的观察者的内在体验。</p>
+<p>因此，从某种意义上说，我们能够有效地谈论客观现实的这一概念本身，就是存在许多类似观察者的结果。当然，在具体到我们人类的情况下，确实有数十亿之众。</p>
+<p>但从基本角度来看，为什么会有许多相似的观察者，或者为什么甚至会有观察者存在？正如我们在上文讨论的，<a href="https://writings.stephenwolfram.com/2023/12/observer-theory/">观察者的核心抽象特征</a>是其具有将大量可能输入进行等效以产生少量可能输出的能力。尽管我们还不知道怎么做，但我们可以想象，能够推导出 Ruliad 内部必然存在一定密度的具备此类功能的结构。这是否不可避免地意味着必然会有足够多相似的观察者，从而能够合理地通过三角定位得出客观现实？</p>
+<p>如果我们以<a href="https://writings.stephenwolfram.com/2024/05/why-does-biological-evolution-work-a-minimal-model-for-biological-evolution-and-other-adaptive-processes/">生物学（或现代技术）为例</a>，在产生大量相似观察者时，关键似乎在于某种形式的自我复制。因此，对于看似如此基础的事物而言，这似乎令人惊讶：我们对客观现实存在的印象，实际上与自我复制这一相当务实的生物学现象有着密切的联系。</p>
+<p>好了，那么我们到底应该如何看待客观现实？我们原本可能以为，拥有了一个宇宙的科学理论就能直接暗示某种客观现实的存在。确实，在 Ruliad 的层面上这是真的。但我们已经看到，即使是为了得到我们熟悉的物理定律，我们也需要一个在“解析”原始 Ruliad 的观察者。换句话说，如果没有观察者，我们甚至无法谈论物理学中的基本概念。但关键是，对于极其广泛地哪怕仅仅只是和我们模糊相似的观察者来说，观察者的许多细节其实并不重要；某些事物——如核心物理定律——会不可避免且“客观”地涌现出来。</p>
+<p>但是物理定律并不能决定观察者感知到的一切。有些事情不可避免地由观察者的特定环境所决定：他们在空间中的位置、在 Ruliad 中的位置等等。但现在的关键点是，观察者——比如我们人类——在空间、在 Ruliad 等方面距离足够近，因此我们的感知在很大程度上是一致的，以至于我们能够再次有效地将它们归因于我们认为的外部客观现实。</p>
+<h2>时间的起点与终点</h2>
+<p><img src="https://content.wolfram.com/sites/43/2026/02/sw02032026beginningimg1-a.png" alt="The Beginning and End of Time" title="The Beginning and End of Time"></p>
+<p>在思考终极存在是什么时，一个明显的问题是，无论那是什么，它是一直存在（并将永远存在）的，还是实际上时间有起点和终点。</p>
+<p>如我们在上面所讨论的，在我们的计算范式中，<a href="https://writings.stephenwolfram.com/2024/10/on-the-nature-of-time/">时间的流逝与宇宙相继状态的逐步计算推进相关联</a>。但重要的是，这些状态体现了一切——包括任何潜在的观察者。因此，永远不会出现一个观察者可以说“宇宙尚未开始”的情况——因为如果宇宙没有开始，观察者也没有。</p>
+<p>但为什么宇宙会有一个开始呢？稍后我们将详细讨论这一点。但在这里只需说明，Ruliad 实际上包含了所有可能的抽象计算，每一个计算都由遵循彼此的一连串步骤组成。没有任何东西需要“主动启动”这些计算链：它们仅仅是不可避免地源于 Ruliad 定义的抽象构造。</p>
+<p>然而，每个计算链都会有一个开端。而 Ruliad 包含了所有可能的开端，或者换言之，计算的所有可能初始状态。考虑到这一切，人们可能会好奇，Ruliad 怎么还能有任何连贯的结构。正如我们前面所讨论的，答案在于不同计算主线之间的纠缠：这些主线并非各自独立，而是通过等效状态的合并关联在一起。</p>
+<p>当然，我们接着会问为什么等效状态实际上合并了。这立刻就成为一个关于观察者的故事。我们可以想象一种原始的 Ruliad 构造，其中每条不同的计算主线都在独立地分支。但是只要在不同主线中生成的状态是完全相同的，任何观察者都会将它们等效视之。因此，这意味着对任何观察者而言，这些主线将被合并——而在 Ruliad 中也就实际产生了纠缠。</p>
+<p>我们曾说时间的推移对应于计算的推进。基于此，我们可以想象 Ruliad 是随着“时间的推移”通过逐步应用相应规则而构建的。但其实我们并不需要这样去想。因为一旦定义了构建 Ruliad 的程序，整个 Ruliad 的结构不可避免地（至少在原则上）立刻就被确定了。</p>
+<p>换句话说，我们可以想象随时间一步一步地构建 Ruliad。或者我们也可以想象 Ruliad 在某种意义上立刻“就那么存在着”。但关键在于，对于计算有界的观察者来说，这二者基本是等效的。在第一种情况中，观察者被正在“无论如何都在发生”的不可约计算“推着走”，从而推动 Ruliad 的“边界”向前。在第二种情况中，观察者在某种意义上不得不主动探索“已成型”的 Ruliad，但由于观察者的计算限制，只能以有限的速率进行探索——这样一来，再次出现了与时间的流逝相对应并将其与计算不可约性联系起来的东西。</p>
+<p>但如果我们把 Ruliad 中有从所有可能初始状态出发的计算主线这一事实考虑在内，会发生什么？一个受限的观察者只能以有限的速率探测所有这些状态及其行为。所以，即使“从 Ruliad 外部”（假设有人能待在那里）看，也许能看到宇宙的无数个不同的开端，但嵌入在 Ruliad 内部的任何受计算能力限制的观察者，将只感知到一个有限的子集。并且事实上，根据所涉及的尺度，观察者很有可能会将这些有限的可能性合并（conflate）为仅仅对宇宙单一、有限开端的感知——尽管在底层，在整个 Ruliad 中正发生着多得多的事情。</p>
+<p>（有人可能想知道的一件事是，既然 Ruliad 包含了每一个可能的规则，为什么不能只有一个极其复杂的规则，一次性通过单一步骤直接创造我们的整个宇宙？答案是，原则上是可以的。但像我们这样计算有界的观察者永远无法感知到它；我们关于“宇宙的故事”必定包含计算受限的步骤。）</p>
+<p>另一个微妙之处涉及时间与状态等效的关系。想象一下，在 Ruliad（或者只是在一个因果图中），某个特定状态在应用规则时被重复生成。我们可以预期观察者会将该状态的这些不同实例等效处理——从而在状态的推进过程中形成一个循环（loop）。很可能这样的循环与量子场论中的现象有关。但对于像我们这样的观察者，这样的循环将发生在我们感知时间的“更低”层级上。</p>
+<p>我们讨论了时间的起点。那么终点呢？如果时间的流逝就是计算的推进，计算能直接停止吗？对于任何特定的计算，答案是肯定的。例如，一条特定规则可能仅仅在给定的超图中的任何地方都不适用。这意味着对于该超图而言，时间实际上停止了。确实，这<a href="https://writings.stephenwolfram.com/2020/04/finally-we-may-have-a-path-to-the-fundamental-theory-of-physics-and-its-beautiful/#black-holes-singularities-etc">推测正是在黑洞中心发生的事情</a>（至少在最简单的情况下）。</p>
+<p>但对于整个 Ruliad 呢？不可避免地，它的一部分会“持续运行”，即使其中的一些计算主线停止了。但问题是观察者能感知到什么。</p>
+<p>通常我们只是想当然地认为，观察者所做的事情会永远持续下去。但在现实中，作为嵌入在 Ruliad 中的东西，观察者在某个层面上必须“驾驭计算不可约性”来维持自身存在。无论是因为生物观察者的死亡，还是因为观察者最终进入了黑洞，我们可以预期个体观察者实际体验的跨度是有限的，这实质上为观察者定义了时间的终点，即使对整个 Ruliad 并非如此。</p>
+<h2>为什么会有事物真正存在？</h2>
+<p><img src="https://content.wolfram.com/sites/43/2026/02/sw02032026whyimg1-a.png" alt="Why Does Anything Actually Exist?" title="Why Does Anything Actually Exist?"></p>
+<p>在我们关于终极存在是什么的讨论中，一个显而易见的问题是，为什么终极上会有事物存在。或者更具体地说，<a href="https://writings.stephenwolfram.com/2021/04/why-does-the-universe-exist-some-perspectives-from-our-physics-project/">为什么我们的宇宙存在</a>？为什么会有存在（something）而不是虚无（nothing）？</p>
+<p>有人可能认为在科学框架内对这类问题无话可说。但在 Ruliad 的背景下，实际上我们能说很多。</p>
+<p>关键点在于，可以将 Ruliad 视为一个必然的、抽象的对象。给定其元素的定义，它不可避免地具有它现在的结构。对于它没有任何别的选择。这就像在数学中：给定了 1、+ 等的定义，1 + 1 = 2 就是一个必然的结果。这不是一个需要涉及鹅卵石或硬币等具体事物的陈述；它是一个抽象且必然的逻辑形式陈述。</p>
+<p>对于 Ruliad 也是如此。Ruliad 必定是它呈现的样子。它的每一个细节都是抽象地被决定好的。或者换句话说，至少作为一个抽象对象，它必然存在。</p>
+<p>但我们可能会问，它为什么会被具现化（actualized）？我们可以想象拥有各种各样结构的各种形式系统。但为什么是 Ruliad 被具现化并赋予我们所体验的物理世界呢？</p>
+<p>这里的关键在于思考我们在操作层面上所说的“具现化”意味着什么。关键在于，它不是某种绝对的东西；它依赖于作为观察者的我们。毕竟，我们最终唯一能确认知道的只有我们自己的内在体验。对我们来说，如果（如我们上文所述）我们能够成功地“三角定位（交叉验证）我们的体验”，从而使我们认为其具备客观现实性，那么某物就被认为是“具现化”的。</p>
+<p>在某种层面上，Ruliad 是一件抽象事物。我们的内在体验也是抽象事物。我们认为，这些事物之间的联系方式存在一种抽象的必然性。而我们对物理世界所作的描述，便是这种必然联系过程中必需的一个中间步骤。</p>
+<p>给定其定义，作为一个抽象对象，Ruliad 必然存在，这是直接且不可避免的。但像我们这样的观察者呢？我们根据自己的内在体验知道自己是存在的。但我们必然存在吗？或者换种说法，Ruliad 中不可避免地必然存在对应于我们这种观察者的结构吗？</p>
+<p>现在，这是一个我们可以作为科学问题进行研究的问题。最终，我们可以想象对 Ruliad 中不同层次观察者的密度进行抽象推导。正如我们前面讨论的，要演化出像我们这样的观察者需要各种细节，可能包括生物学特征如自我复制等。但如果我们只要求具备“计算有界”以及“相信持久存在”这两个特征，毫无疑问 Ruliad 中有更多形式的“观察者结构”。</p>
+<p>思考<a href="https://writings.stephenwolfram.com/2023/07/generative-ai-space-and-the-mental-imagery-of-alien-minds/">分布在 Ruliad 中的那些“异形思维 (alien minds)”</a>非常有趣。在传统对地外智慧的寻找中，人们试图跨越物理空间中的距离。但 Ruliad （即在规则空间中）的距离可能要大得多。实际上那些“思维”更加异化（比如天气的“思维”）——并且要与它们进行“交流”，实际上需要付出包含极大数量不可约计算的翻译努力。</p>
+<p>但对我们和我们的科学来说，重要的是我们自身的体验。考虑到我们知道自己存在这一事实，Ruliad 的存在似乎使得我们不可避免地必须认为宇宙是存在的。</p>
+<p>这里要提到一个关于 Ruliad 推广的小细节。我们说过，Ruliad 包含了所有可能的计算过程。但我们这么说指的是可以在我们传统计算模型（如被图灵机）上实现的过程。但超计算（hypercomputations）呢？在图灵机上它们需要无限多的步骤。我们可以想象基于这些存在一套超规则体（hyperruliads）的整个层级结构。并且我们可以想象有观察者不是嵌入在普通 Ruliad 中，而是嵌入在某个超规则体中。那么这种观察者的体验会是什么样呢？他们将永远无法感知其超规则体之外的任何事物，并且实际上我们可以预期，通过他们自己的超计算，他们对其自身超规则体的感知，将与我们对普通 Ruliad 的感知基本等效——因此最终存在于 Ruliad 或存在于超规则体之中没有可察觉的区别：存在的是“同一个宇宙”，并且我们所知的相同物理定律在二者之中都存在。</p>
+<p>当人们开始谈论宇宙在最底层根据计算规则运行时，似乎有时会认为这意味着我们的宇宙归根结底必须是“在计算机上运行的”。但这样想象实质上误解了理论科学的整个概念。理论科学的思想是构建抽象模型，以允许我们重现系统行为的某些方面。并不是系统本身机械地实现了模型；而只是模型抽象地重现了系统行为的某些方面。</p>
+<p>对我们的物理学模型也是如此。并不是说在宇宙“内部”某个地方有一台计算机在移动比特来重新排列超图。相反，抽象地重新排列超图只是表示宇宙中正在发生的事情的一种方式（而且毫无疑问，不是唯一的方式）。</p>
+<p>通常在科学中，人们构建的<a href="https://www.wolframscience.com/nks/chap-8--implications-for-everyday-systems#sect-8-1--issues-of-modelling">模型</a>目标只是近似：它们捕捉我们关心的系统中的某些方面，而忽略其他所有方面。但我们的物理学项目有所不同，因为它的目标是建立一个能够——至少在原则上——以完美的细节、毫无近似或理想化地重现宇宙中所发生一切的模型。但我们所拥有的仍然只是一个模型：实际上，这只是一种建立桥梁的方式，将宇宙中实际发生的事情连接到我们能在本质上用人类语言描述的事情上。</p>
+<p>当谈及整个 Ruliad 时，还有一点微妙之处。因为虽然 Ruliad 是精确且完整的，但对它进行决定我们体验的采样，却取决于我们作为观察者的特征，而对于这些特征我们将永远无法做到完全精确。更重要的是，正如我们讨论过的，虽然 Ruliad 的定义是抽象的，但它实际上对我们这样的观察者而言被具现化了——这为我们提供了我们的物理世界，以及我们认为是客观现实的东西。</p>
+<p>但是，所有这些在某种程度上能否仍然是在某个更底层的基础设施上运行的“模拟（simulation）”？从任何有意义的层面上来说都不是。在谈论“模拟”时，我们隐含地想象，实际上，Ruliad 在一个地方运行，而其他东西在另一个地方运行。但 Ruliad 封装了所有计算过程的总体。所以在某种意义上，Ruliad 之外没有容纳任何东西的空间——而 Ruliad 唯一能够“在其上运行”的东西就是它自己。</p>
+<p>尽管如此，当我们这些像我们这样的观察者面对它时，我们只对 Ruliad 的一小部分进行采样——并且在某种意义上我们是可以选择那部分的。确实，只要我们<a href="https://www.wolframscience.com/nks/chap-12--the-principle-of-computational-equivalence#sect-12-7--the-phenomenon-of-free-will">视自己拥有自由意志</a>并能自由选择进行什么观察（或许还包括我们自身的结构应该是什么样），我们就掌握着这种选择的控制权。我们作为观察者的基本性质仍然会决定我们体验中的一部分——最明显的就是核心物理定律。但除此之外，是我们作为观察者的选择有效地决定了我们在 Ruliad 中“运行”的是“哪个可能的程序”。因此，如果我们将这些程序视为在 Ruliad 上运行的“模拟”，那么并非存在某种外部实体在挑选这些程序；而是我们的天性和我们的选择在起决定作用。</p>
+<h2>数学现实</h2>
+<p><img src="https://content.wolfram.com/sites/43/2026/02/sw02032026mathematicalimg1-a.png" alt="Mathematical Reality" title="Mathematical Reality"></p>
+<p>我们谈论了很多在“具体的”物理世界中终极存在是什么的问题。那在“抽象的”数学世界中呢？Ruliad 令人惊讶的一点在于，它表明在物理和数学的<a href="https://www.wolframscience.com/metamathematics/">终极基础之间存在着极其密切的联系</a>。</p>
+<p>在我们的物理学项目中，我们不得不从发明一种以超图、重写规则等方式来描述物理世界的“机器代码级”表示开始。但在数学中，事实证明<a href="https://www.wolframscience.com/metamathematics/the-metamodeling-of-axiomatic-mathematics/">已经存在一套成熟的“机器代码级”表示</a>：定理网络可以表述为符号表达式，并根据推理定律（本质上是结构性法则）相互转换。</p>
+<p>在这样的描述层面上，任何特定的数学领域都可以被认为从特定公理出发，进而构建出一个包含其所隐含的所有可能定理的多路图。该图中的路径对应于数学证明——不可判定性现象表现为存在无限长的路径——而人类数学家觉得有趣的定理则散落在这个图的各处。</p>
+<p>那么，如果我们不去查看单一的公理系统，而是去查看所有可能的公理系统，会发生什么呢？我们将获得一个对应于所有可能证明的纠缠极限的结构——这些证明基于从所有可能公理系统派生出的规则。但我们之前已经见过一个等效的结构：它就是 Ruliad！</p>
+<p>但现在，我们不再将 emes 解释为空间原子，而是将它们解释为“数学原子”，或者说是数学表达式中最基础的底层元素。而且我们不再将 Ruliad 的切片解释为极限下的物理空间，而是将它们解释为定义了元数学空间（metamathematical space）。</p>
+<p>因此，除了封装所有可能的计算过程之外，Ruliad 还封装了所有可能的数学过程。但是人类数学家——或者我们可以称之为数学观察者——是如何“感知”这一点的呢？他们是如何提取出他们认为有意义的数学的呢？</p>
+<p>物理观察者通过在时间上建立连续的体验主线，从本质上获取他们“对世界的看法”。而数学观察者则是通过假设某组定理（或公理）作为起点，然后“向外扩展”以构建出庞大数学成果集合，从而获取他们“对世界的看法”。</p>
+<p>原始的 Ruliad 充满了计算不可约性。但在物理和数学中，其实际目标都是寻找可以让我们这般观察者获得的、能够容纳进有限头脑的精简总结——即可约性的口袋。在物理学中，这表现为识别出诸如空间这样的概念，然后找出关于这些概念必须遵循的定律。</p>
+<p>那么对于数学的类似情况是什么呢？原则上可以在公理层面（甚至以下）进行操作。但在进行欧几里得几何计算时，使用毕达哥拉斯定理来探讨是完全合理的，没有必要总是回溯到最低层的定义（比如实数的定义）。这非常像在物理学中，出于很多目的我们探讨像流体流动的东西时，不需要去担心分子动力学层面正在发生什么。</p>
+<p>事实上，就像在物理学中一样，数学是由我们这样的观察者来完成的这一事实，对数学是什么样子的有直接的启示，换句话说，对“<a href="https://www.wolframscience.com/metamathematics/the-physicalized-laws-of-mathematics/">数学定律</a>”有直接的启示。这些定律是什么？最重要的是，高级数学是可能的：换言之，数学家确实能够成功地在“流体动力学”层面上进行数学计算，而不需要总是降到原始公理及更底层的“分子动力学”层面。</p>
+<p>我们还可以预期有其他的数学定律。例如，Ruliad 的结构暗示元数学空间是齐次的，其结果应该是“纯元数学运动”是可能的，从而必然存在“对偶性”，使得我们可以将一个数学领域翻译到另一个数学领域。再比如，在元数学空间中应该有广义相对论的模拟物，以及黑洞的模拟物——其中“时间停止”对应的就是可判定数学理论，在其中证明“总是会停止”（在长度有界的意义上）。</p>
+<p>但是——就像物理学一样——在某种意义上我们从 Ruliad 中得到了我们现在拥有的数学，是因为我们是具有现在特征的观察者。我们可能曾想象，只要设定一套适当的公理系统，我们就可以凭空发明我们想要的任何数学。但关键在于，只有一些公理系统——也就是对应 Ruliad 中的某些切片——将<a href="https://www.wolframscience.com/metamathematics/what-can-human-mathematics-be-like/">允许具有我们特征的观察者连贯地进行数学推理</a>。</p>
+<p>我们在物理世界的日常经验给了我们一种错觉：认为我们对许多物理学基础特征（比如空间的存在和运动现象）具有一种“直接的访问能力”。但我们的物理学项目意味着这些并不是任何意义上“固有存在”的概念；它们仅仅是我们这些物理观察者以特有的方式在“解析”原始 Ruliad 时所涌现出来的东西。</p>
+<p>在数学中，这一点其实不太明显（至少除了经验丰富的纯粹数学家外，对大多数人来说是这样的）：即认为人们可以“直接访问”某些东西。但在我们此处对数学的观点中，它最终就和物理学一样——最终也植根于 Ruliad 中，只不过不是被物理观察者而是被数学观察者所采样。</p>
+<p>因此从这个角度来看，在数学底层所拥有的“现实”，就和在物理底层所拥有的“现实”一样多。数学采样的方式稍微有些不同——但我们不应该在任何意义上认为它“从根本上更抽象”。</p>
+<p>当我们将自己视为 Ruliad 中的实体时，我们可以构建一种在一定意义上“完全抽象”的描述，来说明我们如何获得关于物理学的“体验”。并且对数学来说，我们基本上能做同样的事情。因此，如果我们采取常识观点，认为物理世界是“真正存在”的，我们就被迫对数学采取同样的观点。换句话说，如果我们说物理世界是存在的，我们就必然也要说在某种基本意义上，数学也是存在的。</p>
+<p>在数学底层，正如在物理底层一样，存在着 Ruliad。因此在某种意义上，数学中终极存在的事物与物理中终极存在的事物是相同的。数学并非我们人类“凭空捏造”的东西；它是来源于 Ruliad，通过我们由特定的观察者特征所定义的特定观察方式而形成的。</p>
+<h2>Ruliad 浩瀚宇宙中的观察者</h2>
+<p><img src="https://content.wolfram.com/sites/43/2026/02/sw02032026vastnessimg1-a.png" alt="Observers in the Vastness of the Ruliad" title="Observers in the Vastness of the Ruliad"></p>
+<p>我们在过去几个世纪学到的东西之一是，与宇宙相比，我们是多么渺小。但现在我们意识到，与整个 Ruliad 相比，我们还要更极其渺小得多。不过我们肯定没有达到最小的程度。事实上，在某种层面上我们算是相当巨大的，不仅是由几个空间原子或者少数 emes 组成，而是由一个难以估量的巨大数量组成。</p>
+<p>我们实际上处于一种中间尺度：相对于 emes 来说极其庞大，但相对于整个 Ruliad 来说又微乎其微。而作为观察者的我们处于这个尺度的这一事实，对我们如何体验宇宙和 Ruliad 至关重要。</p>
+<p>我们大到足以在某种程度上持久存在，并形成稳固、持久的体验，而不必屈从于不断变化的微观细节。但同时我们也足够小，从而可以作为 Ruliad 中连贯、独立的实体而存在。我们大到可以有一定的“内在生活”；但我们也足够小，使得依然有充足的从 Ruliad 其他地方传来的“外部刺激”施加到我们身上。</p>
+<p>我们也大到通常能够用连续的空间，而不是空间原子来思考问题。我们也能用连续的量子振幅，而不是离散的多路主线来思考。但我们也足够小，从而可以对在物理空间和分支空间中“我们所处的位置”保持一致的看法。并且，所有人类观察者在物理空间和分支空间中都聚集得非常紧密，以至于我们基本上对周围“正在发生什么”有一致认同——这就构成了我们认为是“客观现实”的基础。</p>
+<p>当我们思考整个 Ruliad 时，基本故事也是如此。但现在，“我们所处的位置”实际上决定了我们赋予宇宙什么规则。而我们的尺度正是使得那些规则既相当一致又相当明确的原因。宇宙的某些特征——比如广义相对论和量子力学的基本现象——仅仅取决于我们作为观察者的一般特征。但其他特征——很可能像粒子的质量——则取决于我们在“Ruliad 中的位置”。（并且例如，我们已经从传统物理学中知道，像电子的感知质量这种东西取决于我们用来探测它的动量。）</p>
+<p>当我们询问终极存在是什么时，最令人震撼的事情之一就是最终竟然存在着如此之多的东西。我们目前还不知道空间离散性的具体尺度，<a href="https://www.wolframphysics.org/technical-introduction/potential-relation-to-physics/units-and-scales/">但可以想象它大概在 $10^{–90}$ 米左右</a>——这意味着在任何给定时刻，宇宙中可能有 $10^{400}$ 个空间原子，而在迄今为止的宇宙历史中大约有 $10^{500}$ 个。那么整个 Ruliad 呢？emes 的总数呈指数级更大，可以想象其数量级约为 $(10^{500})^{10^{500}}$。这是一个极其巨大的数字——但只要我们能够去猜测它，就给了我们一种感觉：我们可以开始具体思考终极存在到底是什么了。</p>
+<p>那么这一切与人类的尺度有什么关系呢？我们知道物理宇宙在体积上大约比人类大 $10^{80}$ 倍。在一个人类体内，任何给定时间大约有 $10^{300}$ 个空间原子；我们通过生命周期的存在可能由大约 $10^{400}$ 个 emes 定义。我们也可以猜测我们在分支空间中，乃至在整个 Ruliad 中的范围。这涉及到庞大的数字——使我们感受到了为什么我们在宇宙中能观察到这么多看似非常确定的事物。其结果是，由于我们“足够大”，所以我们的“平均化”感知非常精确，然而我们又“足够小”，以至于我们本质上在 Ruliad 内部处于一个精确的位置。</p>
+<p>（以 emes 和 Ruliad 进行思考的一个显著特点是，我们可以做诸如<a href="https://www.wolframscience.com/metamathematics/counting-the-emes-of-mathematics-and-physics/">比较人类尺度上物理学和数学“大小”</a>的事情。粗略的估计是，人类历史上完成的所有数学计算或许涉及 $10^{100}$ 个 emes——这远远少于我们物理存在中涉及的 emes 数量。）</p>
+<p>我们可以认为，正是我们“既大又小”的尺度让我们成为可以被当作在时间上持久存在的观察者。同样的道理也适用于“空间上的持久存在”。要想具备“<a href="https://writings.stephenwolfram.com/2022/03/on-the-concept-of-motion/">纯粹运动</a>”的能力，即我们从一个地方移动到另一个地方并且仍是“持续的自我”，我们必须在与 emes 的尺度相比时显得庞大，而在与 Ruliad 相比时则微小。</p>
+<p>谈到在物理宇宙中移动时，我们知道要“实际移动我们自己”（比如乘坐宇宙飞船）是需要时间的。但如果只是想象移动过去后的状态，这是可以抽象而迅速地完成的。在 Ruliad 层面上也是一样的。要实际“移动我们在 Ruliad 中的位置”，实际上需要从一组规则到另一组规则的明确计算翻译，这需要耗费（通常是不可约的）计算努力，也就是时间。但我们仍然可以抽象地“跳跃”到 Ruliad 中的任何地方。而这实际上就是<a href="https://writings.stephenwolfram.com/2026/01/what-is-ruliology/">我们在规则学 (ruliology) 中所做的事情</a>——研究我们可以（例如）随机选取，或通过枚举发现的规则。通过这种方式我们可以<a href="https://writings.stephenwolfram.com/category/ruliology">发现各种有趣的事物</a>。但在某种意义上它们——至少一开始——是异形的事物，并没有立即与我们在 Ruliad 正常位置所熟悉的任何事物联系起来。</p>
+<p>我们在数学中看到了类似的情况。我们可以开始枚举庞大网络中可能的定理。但除非我们能找到方法把作为数学观察者的我们完整地传送到元数学空间中，否则我们将无法为这些大部分定理提供语境；它们对我们来说会显得陌生与异化。</p>
+<p>要获得对 Ruliad 中“异形”事物的直觉并不容易。一种方法是<a href="https://writings.stephenwolfram.com/2023/07/generative-ai-space-and-the-mental-imagery-of-alien-minds/">使用生成式 AI，例如制作图片</a>，然后问如果改变 AI 的参数（实际上就是转移到不同的规则，移动到 Ruliad 的不同部分）会发生什么。有时你会得到能用某个概念（比如人类语言中某个词相关的概念）描述的可识别的图片。但在绝大多数情况下，你会发现自己处于“<a href="https://writings.stephenwolfram.com/2023/07/generative-ai-space-and-the-mental-imagery-of-alien-minds/#the-notion-of-interconcept-space">概念间空间 (interconcept space)</a>”中——一个尚未被任何现有人类概念覆盖的地方。事实上，在实际神经网络的实验中，这个属于我们熟悉概念的极小的 Ruliad 角落，可能仅占总空间的 $10^{–600}$。换句话说，我们（比如在人类语言中）能描述的事物，仅仅代表了终极存在的极小部分。</p>
+<p>但如果我们<a href="https://writings.stephenwolfram.com/2025/05/what-if-we-had-bigger-brains-imagining-minds-beyond-ours/#language-and-beyond">发明更多概念</a>会发生什么？在某种意义上我们随后就会在规则空间（rulial space）中扩展——这样我们作为观察者将跨越 Ruliad 更大的部分。也许我们会将其视为科学和知识某种终极目标，使我们自身在整个 Ruliad 中扩展。</p>
+<p>但这里有个陷阱。我们之所以能将自己视为明确独立的观察者，依赖于我们相较于 Ruliad 是渺小的。如果我们能够扩展到填满整个 Ruliad，在某种意义上我们将是一切——但同时我们也将是什么也不是，我们将不再作为连贯实体存在。</p>
+<h2>发展形而上学科学</h2>
+<p><img src="https://content.wolfram.com/sites/43/2026/02/sw02032026developingimg1-a.png" alt="Developing a Science of Metaphysics" title="Developing a Science of Metaphysics"></p>
+<p>历史上形而上学被认为是哲学的一个分支。但我在这里论证的是，借助来自科学的新成果和新见解，我们可以开始不仅将形而上学作为哲学，更可以作为科学来探讨——并且我们可以开始讲述一个关于终极存在是什么、以及我们如何契合其中的真实科学故事。</p>
+<p>过去，形而上学基本上总是不得不完全建立在基于语言的论证之上——这也许就是为什么它经常被认为是有些难以捉摸和脆弱的。但现在，有了我们在这里讨论的这类内容，我们正开始获得为形而上学建立稳固的、正式体系所需要的东西，并在此框架中能够逐步构建出一座充满确定性结论的宏伟高塔。</p>
+<p>一些要说的东西与 Ruliad 相关，且在某种意义上是纯抽象的、必然的。但其他部分则涉及观察者的“主观”体验——对我们而言，基本上也就是人类观察者。那么形而上学是否必须牵涉到生物学或甚至心理学的所有细节呢？令人惊讶的答案是否定的。因为科学表明，仅仅知道关于观察者的非常粗略的特征（比如他们计算有界），就已经可以推导出关于他们必须感知的某些特征和定律的精确结论。实际上，存在一种涌现的形而上学。</p>
+<p>Ruliad 以某种形式给出了“抽象层面上终极存在是什么”的答案。但要将它连接到对我们来说“真实存在”的事物上，我们需要了解我们自身本质的面貌。</p>
+<p>探索 Ruliad 的特征很大程度上涉及纯粹的<a href="https://writings.stephenwolfram.com/2026/01/what-is-ruliology/">规则学 (ruliology)</a>——并实证研究那些抽象简单的程序会做什么。谈论观察者则更多的是<a href="https://writings.stephenwolfram.com/2021/09/charting-a-course-for-complexity-metamodeling-ruliology-and-more/#metamodeling-and-the-metatheory-of-models">元建模 (metamodeling)</a> 的练习——采用那些大抵已知关于世界的模型，并试图从中提取发生事情的抽象本质。要使形而上学成为一门科学，不可避免地需要这两者结合。</p>
+<p>但令人兴奋的是，在计算范式以及从研究计算宇宙获得的直觉的基础上，我们正发展到一个阶段，在这个阶段中，我们能够开始对那些几千年来人们似乎只能争论却无法得出结论的形而上学问题给出确定的科学答案。就像之前许多哲学分支一样，形而上学如今似乎注定要完成从纯粹的哲学事务转变为科学事务的过程——最终为我们千古以来的疑问：“终极存在是什么？”提供答案。</p>
+<h2>相关资料</h2>
+<p>有关此处探讨理念的其他讨论，请参阅我最近的<a href="https://writings.stephenwolfram.com/category/philosophy/">《哲学写作》系列 (Philosophical Writings) »</a></p>
+<p>DOI:</p>
+<p>10.31855/d2fb462d-02d</p>
+<p>Stephen Wolfram (2026), "What Ultimately Is There? Metaphysics and the Ruliad," Stephen Wolfram Writings. writings.stephenwolfram.com/2026/02/what-ultimately-is-there-metaphysics-and-the-ruliad.</p>
+<p>Text</p>
+<p>Stephen Wolfram (2026), "What Ultimately Is There? Metaphysics and the Ruliad," Stephen Wolfram Writings. writings.stephenwolfram.com/2026/02/what-ultimately-is-there-metaphysics-and-the-ruliad.</p>
+<p>CMS</p>
+<p>Wolfram, Stephen. "What Ultimately Is There? Metaphysics and the Ruliad," Stephen Wolfram Writings. February 4, 2026. writings.stephenwolfram.com/2026/02/what-ultimately-is-there-metaphysics-and-the-ruliad.</p>
+<p>APA</p>
+<p>Wolfram, S. (2026, February 4). What ultimately is there? Metaphysics and the ruliad. Stephen Wolfram Writings. writings.stephenwolfram.com/2026/02/what-ultimately-is-there-metaphysics-and-the-ruliad.</p>
+<p>发布于: <a href="https://writings.stephenwolfram.com/category/big-picture/">大图景 (Big Picture)</a>, <a href="https://writings.stephenwolfram.com/category/philosophy/">哲学 (Philosophy)</a>, <a href="https://writings.stephenwolfram.com/category/physics/">物理学 (Physics)</a></p>
+<hr>
+<h3>重要术语及翻译对照表</h3>
+<table>
+<thead>
+<tr>
+<th align="left">英文原词</th>
+<th align="left">中文翻译</th>
+<th align="left">描述/语境上下文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><strong>Metaphysics</strong></td>
+<td align="left">形而上学</td>
+<td align="left">探讨物理宇宙终极本源和存在本质的哲学分支，在文中作者探讨如何将其转为一门科学。</td>
+</tr>
+<tr>
+<td align="left"><strong>Ruliad</strong></td>
+<td align="left">规则体 (Ruliad)</td>
+<td align="left">Wolfram 提出的一个概念，指代所有可能计算过程在纠缠极限下构成的无所不包的终极结构。</td>
+</tr>
+<tr>
+<td align="left"><strong>Emes</strong></td>
+<td align="left">存在基元 (emes)</td>
+<td align="left">"atoms of existence"，作者提出作为一切事物基础的终极不可分割单元，除了身份标识别无他物。</td>
+</tr>
+<tr>
+<td align="left"><strong>Hypergraph</strong></td>
+<td align="left">超图</td>
+<td align="left">在图论中，连结不仅限于两个节点而是多个节点的结构。在 Wolfram 物理项目中代表空间的底层离散结构。</td>
+</tr>
+<tr>
+<td align="left"><strong>Multiway Graph</strong></td>
+<td align="left">多路图</td>
+<td align="left">包含系统所有分支和合并可能历史路径的网络，是量子力学在作者理论中的体现。</td>
+</tr>
+<tr>
+<td align="left"><strong>Branchial Space</strong></td>
+<td align="left">分支空间</td>
+<td align="left">在多路图中连接各个量子分支状态的空间。对应于描述宇宙量子分支关系的维度。</td>
+</tr>
+<tr>
+<td align="left"><strong>Causal Graph</strong></td>
+<td align="left">因果图</td>
+<td align="left">定义时空中事件之间因果依赖关系的网络，实际上表示信息的流向，反映了时空的结构。</td>
+</tr>
+<tr>
+<td align="left"><strong>Computational Irreducibility</strong></td>
+<td align="left">计算不可约性</td>
+<td align="left">一个系统的演化除了每一步精确演算之外无法使用捷径进行预测的现象，解释了简单规则能产生极高复杂度的原因。</td>
+</tr>
+<tr>
+<td align="left"><strong>Principle of Computational Equivalence</strong></td>
+<td align="left">计算等效原理</td>
+<td align="left">只要不是表现得极其简单的系统，其内在计算能力的复杂程度都等同于任意高阶系统的能力（即都能达到“通用计算”级别）。</td>
+</tr>
+<tr>
+<td align="left"><strong>Pockets of Computational Reducibility</strong></td>
+<td align="left">计算可约性口袋 / 可约性区域</td>
+<td align="left">在整体计算不可约的过程中必然存在的局部可预测的简化规律部分。观察者正是依此建立物理定律。</td>
+</tr>
+<tr>
+<td align="left"><strong>Observer Theory</strong></td>
+<td align="left">观察者理论</td>
+<td align="left">探讨观察者（尤其具备有限计算能力并认为自身持续存在的观察者）的特定属性如何从 Ruliad 中塑造出物理规律。</td>
+</tr>
+<tr>
+<td align="left"><strong>Metamathematical Space</strong></td>
+<td align="left">元数学空间</td>
+<td align="left">类比物理空间的数学等效概念。在这里，所有数学公理、定理和证明在 Ruliad 构成了错综复杂的发展网络结构。</td>
+</tr>
+<tr>
+<td align="left"><strong>Ruliology</strong></td>
+<td align="left">规则学</td>
+<td align="left">研究简单抽象规则会产生何种行为的新科学分支，涉及在规则体（Ruliad）中移动并研究特定的局部规则。</td>
+</tr>
+<tr>
+<td align="left"><strong>Metamodeling</strong></td>
+<td align="left">元建模</td>
+<td align="left">获取已有大体描述世界的模型并从中萃取其抽象本质运行方式的一种理论科学研究活动。</td>
+</tr>
+</tbody>
+</table>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-what-ultimately-is-there-metaphysics-and-the-ruliad-1","sender":"Stephen Wolfram","subject":"终极存在是什么？形而上学与 Ruliad","snippet":"Wolfram 以科学方法重新审视形而上学：从物理学项目到 Ruliad 概念，探讨空间、时间、数学和客观现实的涌现","date":"2026-02-04","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["Reports"],"mdTheme":"magazine","sourcePath":"reports/what-ultimately-is-there-metaphysics-and-the-ruliad-1.md","sourceUrl":"https://writings.stephenwolfram.com/2026/02/what-ultimately-is-there-metaphysics-and-the-ruliad/","body":"$3","prompts":[]},"listPosition":{"index":191,"total":365},"matchedPerson":{"id":"stephen-wolfram","name":"Stephen Wolfram","email":""}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

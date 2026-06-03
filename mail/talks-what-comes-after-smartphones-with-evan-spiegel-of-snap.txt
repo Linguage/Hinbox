@@ -1,0 +1,365 @@
+1:"$Sreact.fragment"
+3:I[39756,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+4:I[37457,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"ViewportBoundary"]
+b:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"MetadataBoundary"]
+d:I[68027,[],"default"]
+:HL["/hinbox/_next/static/chunks/24888a04b79e7824.css","style"]
+:HL["/hinbox/_next/static/media/fba5a26ea33df6a3-s.p.1bbdebe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"vMUiZWVsRx3pCqxArlZcR","c":["","mail","talks-what-comes-after-smartphones-with-evan-spiegel-of-snap"],"q":"","i":false,"f":[[["",{"children":["mail",{"children":[["id","talks-what-comes-after-smartphones-with-evan-spiegel-of-snap","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hinbox/_next/static/chunks/24888a04b79e7824.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[79520,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],""]
+f:I[59665,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],"default"]
+:HL["https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","style"]
+2:["$","html",null,{"lang":"zh-CN","className":"plus_jakarta_sans_9710934b-module__-vnxFq__variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function () {\n  try {\n    var theme = window.localStorage.getItem('hinbox:theme');\n    if (theme !== 'light' && theme !== 'dark' && theme !== 'sepia') {\n      theme = 'light';\n    }\n    window['__HINBOX_THEME__'] = theme;\n    document.documentElement.dataset.theme = theme;\n    document.documentElement.style.colorScheme = theme === 'dark' ? 'dark' : 'light';\n    function applyBodyTheme() {\n      if (document.body) {\n        document.body.dataset.theme = theme;\n      }\n    }\n    if (document.body) {\n      applyBodyTheme();\n    } else {\n      document.addEventListener('DOMContentLoaded', applyBodyTheme);\n    }\n  } catch (error) {\n    window['__HINBOX_THEME__'] = 'light';\n    document.documentElement.dataset.theme = 'light';\n    document.documentElement.style.colorScheme = 'light';\n  }\n})();"}}],"",["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","rel":"stylesheet"}],["$","$Le",null,{"id":"mathjax-config","strategy":"afterInteractive","children":"\n          window.MathJax = {\n            tex: {\n              inlineMath: [['$', '$'], ['\\\\(', '\\\\)']],\n              displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']],\n              processEscapes: true,\n              packages: { '[+]': ['noerrors', 'noundefined'] },\n            },\n            svg: {\n              fontCache: 'none',\n            },\n            startup: {\n              typeset: false,\n              ready: () => {\n                window.MathJax.startup.defaultReady();\n                window.dispatchEvent(new Event('MathJaxReady'));\n              },\n            },\n          };\n          "}],["$","$Le",null,{"id":"mathjax-cdn","strategy":"afterInteractive","src":"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"}]]}],["$","body",null,{"className":"font-[family-name:var(--font-jakarta)] antialiased","suppressHydrationWarning":true,"children":["",["$","$Lf",null,{"weeklyNavCounts":{"inboxWeeklyCount":10,"sentWeeklyCount":0,"starredTotalCount":21},"people":[{"id":"david-perell","name":"David Perell","email":""},{"id":"lenny-s-podcast","name":"Lenny's Podcast","email":""},{"id":"ryan-peterman","name":"Ryan Peterman","email":""},{"id":"anthropic","name":"Anthropic","email":""},{"id":"dwarkesh-patel","name":"Dwarkesh Patel","email":""},{"id":"stripe","name":"Stripe","email":""},{"id":"stephen-wolfram","name":"Stephen Wolfram","email":""},{"id":"latent-space","name":"Latent Space","email":""},{"id":"lex-fridman","name":"Lex Fridman","email":""},{"id":"steve-jobs","name":"Steve Jobs","email":""},{"id":"20vc-with-harry-stebbings","name":"20VC with Harry Stebbings","email":""},{"id":"jeremy-stern","name":"Jeremy Stern","email":""},{"id":"turing","name":"Turing","email":""},{"id":"demis-hassabis","name":"Demis Hassabis","email":""},{"id":"the-diary-of-a-ceo","name":"The Diary Of A CEO","email":""},{"id":"elon-musk","name":"Elon Musk","email":""},{"id":"sauteedveggies","name":"SauteedVeggies","email":""},{"id":"andy-matuschak","name":"Andy Matuschak","email":""},{"id":"mind-the-game","name":"Mind the Game","email":""},{"id":"ramona-shelburne","name":"Ramona Shelburne","email":""},{"id":"jared-weiss","name":"Jared Weiss","email":""},{"id":"deeplearningai","name":"DeepLearningAI","email":""},{"id":"cursor","name":"Cursor","email":""},{"id":"y-combinator","name":"Y Combinator","email":""},{"id":"openai","name":"OpenAI","email":""},{"id":"every","name":"Every","email":""},{"id":"sequoia-capital","name":"Sequoia Capital","email":""},{"id":"alex-kantrowitz","name":"Alex Kantrowitz","email":""},{"id":"peter-dizikes-mit-news","name":"Peter Dizikes ｜ MIT News","email":""},{"id":"world-finance-journal","name":"World Finance Journal","email":""},{"id":"andrej-karpathy","name":"Andrej karpathy","email":""},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","email":""},{"id":"jd-vance","name":"JD Vance","email":""},{"id":"街-大学","name":"やまぐち街なか大学","email":""},{"id":"jc","name":"JC","email":""}],"tags":[{"id":"translated","name":"translated","count":123},{"id":"interview","name":"interview","count":24},{"id":"ai","name":"ai","count":17},{"id":"人工智能","name":"人工智能","count":17},{"id":"clippings","name":"clippings","count":15},{"id":"essays","name":"Essays","count":9},{"id":"talks","name":"Talks","count":8},{"id":"深度学习","name":"深度学习","count":8},{"id":"ai-agents","name":"ai-agents","count":7},{"id":"cognition","name":"cognition","count":6},{"id":"nba","name":"NBA","count":6},{"id":"ai编程","name":"AI编程","count":5},{"id":"humanity","name":"humanity","count":5},{"id":"math","name":"math","count":5},{"id":"steve-jobs","name":"steve-jobs","count":5},{"id":"大语言模型","name":"大语言模型","count":5},{"id":"机器学习","name":"机器学习","count":5},{"id":"agi","name":"AGI","count":4},{"id":"anthropic","name":"Anthropic","count":4},{"id":"claude-code","name":"Claude Code","count":4},{"id":"doge","name":"DOGE","count":4},{"id":"nvidia","name":"nvidia","count":4},{"id":"windsurf","name":"Windsurf","count":4},{"id":"政府效率","name":"政府效率","count":4},{"id":"文艺复兴科技","name":"文艺复兴科技","count":4},{"id":"英伟达","name":"英伟达","count":4},{"id":"软件工程","name":"软件工程","count":4},{"id":"ai编程工具","name":"AI编程工具","count":3},{"id":"apple","name":"apple","count":3},{"id":"cursor","name":"Cursor","count":3},{"id":"deepseek","name":"deepseek","count":3},{"id":"linus-torvalds","name":"Linus Torvalds","count":3},{"id":"linux内核","name":"Linux内核","count":3},{"id":"llm","name":"llm","count":3},{"id":"mathematics","name":"mathematics","count":3},{"id":"reports","name":"Reports","count":3},{"id":"偏微分方程","name":"偏微分方程","count":3},{"id":"勒布朗-詹姆斯","name":"勒布朗·詹姆斯","count":3},{"id":"开源","name":"开源","count":3},{"id":"开源ai","name":"开源AI","count":3},{"id":"强化学习","name":"强化学习","count":3},{"id":"数学哲学","name":"数学哲学","count":3},{"id":"数学教育","name":"数学教育","count":3},{"id":"访谈","name":"访谈","count":3},{"id":"量化投资","name":"量化投资","count":3},{"id":"马斯克","name":"马斯克","count":3},{"id":"黄仁勋","name":"黄仁勋","count":3},{"id":"ai-agent","name":"AI Agent","count":2},{"id":"ai-coding","name":"ai-coding","count":2},{"id":"ai代理","name":"AI代理","count":2},{"id":"ai基础设施","name":"AI基础设施","count":2},{"id":"ai安全","name":"AI安全","count":2},{"id":"ai数学","name":"AI数学","count":2},{"id":"ai智能体","name":"AI智能体","count":2},{"id":"ai计算","name":"AI计算","count":2},{"id":"alphafold","name":"AlphaFold","count":2},{"id":"claude","name":"Claude","count":2},{"id":"devin","name":"Devin","count":2},{"id":"economics","name":"economics","count":2},{"id":"emacs","name":"Emacs","count":2},{"id":"essay","name":"essay","count":2},{"id":"git","name":"Git","count":2},{"id":"google","name":"Google","count":2},{"id":"ilya-sutskever","name":"Ilya Sutskever","count":2},{"id":"jeff-dean","name":"jeff-dean","count":2},{"id":"jepa","name":"JEPA","count":2},{"id":"org-mode","name":"Org mode","count":2},{"id":"programming","name":"programming","count":2},{"id":"software-engineering","name":"software-engineering","count":2},{"id":"vibe-coding","name":"Vibe Coding","count":2},{"id":"writing","name":"writing","count":2},{"id":"世界模型","name":"世界模型","count":2},{"id":"人性","name":"人性","count":2},{"id":"代数几何","name":"代数几何","count":2},{"id":"代码编辑器","name":"代码编辑器","count":2},{"id":"价值投资","name":"价值投资","count":2},{"id":"伯克希尔哈撒韦","name":"伯克希尔哈撒韦","count":2},{"id":"关税政策","name":"关税政策","count":2},{"id":"创业历程","name":"创业历程","count":2},{"id":"加速计算","name":"加速计算","count":2},{"id":"吉姆-西蒙斯","name":"吉姆·西蒙斯","count":2},{"id":"哲学","name":"哲学","count":2},{"id":"国际合作","name":"国际合作","count":2},{"id":"大型语言模型","name":"大型语言模型","count":2},{"id":"好奇心","name":"好奇心","count":2},{"id":"季后赛","name":"季后赛","count":2},{"id":"工程实践","name":"工程实践","count":2},{"id":"巴菲特","name":"巴菲特","count":2},{"id":"形式化证明","name":"形式化证明","count":2},{"id":"彼得-蒂尔","name":"彼得·蒂尔","count":2},{"id":"微软","name":"微软","count":2},{"id":"提示工程","name":"提示工程","count":2},{"id":"数学","name":"数学","count":2},{"id":"数学研究","name":"数学研究","count":2},{"id":"文班亚马","name":"文班亚马","count":2},{"id":"智能代理开发","name":"智能代理开发","count":2},{"id":"毕业演讲","name":"毕业演讲","count":2},{"id":"版本控制","name":"版本控制","count":2},{"id":"科学发现","name":"科学发现","count":2},{"id":"科技停滞","name":"科技停滞","count":2},{"id":"软件工程变革","name":"软件工程变革","count":2},{"id":"软件开发","name":"软件开发","count":2},{"id":"量子力学","name":"量子力学","count":2},{"id":"阿贝尔奖","name":"阿贝尔奖","count":2},{"id":"风险投资","name":"风险投资","count":2},{"id":"agent设计","name":"Agent设计","count":1},{"id":"ai-for-science","name":"AI for Science","count":1},{"id":"ai-编程","name":"AI 编程","count":1},{"id":"ai伦理","name":"AI伦理","count":1},{"id":"ai最佳实践","name":"AI最佳实践","count":1},{"id":"ai大模型","name":"AI大模型","count":1},{"id":"ai并购","name":"AI并购","count":1},{"id":"ai应用","name":"AI应用","count":1},{"id":"ai开发者大会","name":"AI开发者大会","count":1},{"id":"ai推理","name":"AI推理","count":1},{"id":"ai收购","name":"AI收购","count":1},{"id":"ai数学发现","name":"AI数学发现","count":1},{"id":"ai生物医药","name":"AI生物医药","count":1},{"id":"ai竞争","name":"AI竞争","count":1},{"id":"ai编程代理","name":"AI编程代理","count":1},{"id":"ai芯片","name":"AI芯片","count":1},{"id":"ai规模化","name":"AI规模化","count":1},{"id":"ai辅助学习","name":"AI辅助学习","count":1},{"id":"ai辅助开发","name":"AI辅助开发","count":1},{"id":"anysphere","name":"Anysphere","count":1},{"id":"biography","name":"biography","count":1},{"id":"blackwell架构","name":"Blackwell架构","count":1},{"id":"cag","name":"CAG","count":1},{"id":"career","name":"career","count":1},{"id":"ceo交接","name":"CEO交接","count":1},{"id":"chatgpt","name":"ChatGPT","count":1},{"id":"chris-bishop","name":"Chris Bishop","count":1},{"id":"claude-4","name":"Claude 4","count":1},{"id":"claude-sonnet-4-5","name":"Claude Sonnet 4.5","count":1},{"id":"coding-agent","name":"Coding Agent","count":1},{"id":"context-engineering","name":"Context Engineering","count":1},{"id":"cs50","name":"CS50","count":1},{"id":"cuda生态","name":"CUDA生态","count":1},{"id":"deep-search","name":"Deep Search","count":1},{"id":"deepmind","name":"DeepMind","count":1},{"id":"distributed-systems","name":"distributed-systems","count":1},{"id":"elon-musk","name":"Elon Musk","count":1},{"id":"engineering","name":"engineering","count":1},{"id":"fields奖","name":"Fields奖","count":1},{"id":"geoffrey-hinton","name":"Geoffrey Hinton","count":1},{"id":"gpt-4","name":"GPT-4","count":1},{"id":"gpt-4-5","name":"GPT-4.5","count":1},{"id":"gpu与深度学习","name":"GPU与深度学习","count":1},{"id":"gpu架构","name":"GPU架构","count":1},{"id":"gpu算力","name":"GPU算力","count":1},{"id":"grok-3","name":"Grok 3","count":1},{"id":"haskell","name":"haskell","count":1},{"id":"incident","name":"incident","count":1},{"id":"jim-simons","name":"Jim Simons","count":1},{"id":"julia","name":"Julia","count":1},{"id":"june-huh","name":"june-huh","count":1},{"id":"kaggle","name":"Kaggle","count":1},{"id":"kiro-spec模式","name":"Kiro SPEC模式","count":1},{"id":"labor","name":"labor","count":1},{"id":"lean","name":"Lean","count":1},{"id":"lisp","name":"Lisp","count":1},{"id":"llm工具","name":"LLM工具","count":1},{"id":"mcp","name":"MCP","count":1},{"id":"mit","name":"MIT","count":1},{"id":"mvp","name":"MVP","count":1},{"id":"naval-ravikant","name":"Naval Ravikant","count":1},{"id":"ncaa疯狂三月","name":"NCAA疯狂三月","count":1},{"id":"noema","name":"noema","count":1},{"id":"notes","name":"notes","count":1},{"id":"notion","name":"Notion","count":1},{"id":"nvidia-gtc-2025","name":"NVIDIA GTC 2025","count":1},{"id":"openai","name":"OpenAI","count":1},{"id":"optimus机器人","name":"Optimus机器人","count":1},{"id":"peter-lax","name":"Peter Lax","count":1},{"id":"pixar","name":"pixar","count":1},{"id":"prompt-engineering","name":"Prompt Engineering","count":1},{"id":"psychology","name":"psychology","count":1},{"id":"publishing","name":"publishing","count":1},{"id":"python","name":"Python","count":1},{"id":"reliability","name":"reliability","count":1},{"id":"report","name":"report","count":1},{"id":"research","name":"Research","count":1},{"id":"research-career","name":"research-career","count":1},{"id":"robotics","name":"robotics","count":1},{"id":"sanjay-ghemawat","name":"Sanjay Ghemawat","count":1},{"id":"satya-nadella","name":"Satya Nadella","count":1},{"id":"scaling-laws","name":"Scaling Laws","count":1},{"id":"security","name":"security","count":1},{"id":"skills","name":"skills","count":1},{"id":"slimv","name":"Slimv","count":1},{"id":"technical-report","name":"technical-report","count":1},{"id":"terence-tao","name":"terence-tao","count":1},{"id":"vim","name":"Vim","count":1},{"id":"vlime","name":"Vlime","count":1},{"id":"wolfram","name":"Wolfram","count":1},{"id":"xai","name":"xAI","count":1},{"id":"yann-lecun","name":"Yann LeCun","count":1},{"id":"yc","name":"YC","count":1},{"id":"上下文工程","name":"上下文工程","count":1},{"id":"个人反思","name":"个人反思","count":1},{"id":"个人电脑","name":"个人电脑","count":1},{"id":"中美关系","name":"中美关系","count":1},{"id":"乌克兰战争","name":"乌克兰战争","count":1},{"id":"乔姆斯基","name":"乔姆斯基","count":1},{"id":"交通基础设施","name":"交通基础设施","count":1},{"id":"产品市场契合","name":"产品市场契合","count":1},{"id":"人工智能未来","name":"人工智能未来","count":1},{"id":"人形机器人","name":"人形机器人","count":1},{"id":"人机协作","name":"人机协作","count":1},{"id":"人机博弈","name":"人机博弈","count":1},{"id":"人生哲学","name":"人生哲学","count":1},{"id":"人类未来","name":"人类未来","count":1},{"id":"人类福祉","name":"人类福祉","count":1},{"id":"代理开发","name":"代理开发","count":1},{"id":"代理式编程","name":"代理式编程","count":1},{"id":"代码生成","name":"代码生成","count":1},{"id":"任务管理","name":"任务管理","count":1},{"id":"仿真学习","name":"仿真学习","count":1},{"id":"企业采用","name":"企业采用","count":1},{"id":"众包协作","name":"众包协作","count":1},{"id":"优绩主义","name":"优绩主义","count":1},{"id":"伦理监管","name":"伦理监管","count":1},{"id":"伯克希尔-哈撒韦","name":"伯克希尔·哈撒韦","count":1},{"id":"俄乌战争","name":"俄乌战争","count":1},{"id":"保罗-狄拉克","name":"保罗·狄拉克","count":1},{"id":"保险业务","name":"保险业务","count":1},{"id":"信号处理","name":"信号处理","count":1},{"id":"信息动力学","name":"信息动力学","count":1},{"id":"信息物理学","name":"信息物理学","count":1},{"id":"全球贸易","name":"全球贸易","count":1},{"id":"公共美德","name":"公共美德","count":1},{"id":"具身智能","name":"具身智能","count":1},{"id":"写作","name":"写作","count":1},{"id":"写作工具","name":"写作工具","count":1},{"id":"冷战数学","name":"冷战数学","count":1},{"id":"创业转型","name":"创业转型","count":1},{"id":"创业领导力","name":"创业领导力","count":1},{"id":"创造力与年龄","name":"创造力与年龄","count":1},{"id":"制度经济学","name":"制度经济学","count":1},{"id":"加性数论","name":"加性数论","count":1},{"id":"包容性制度","name":"包容性制度","count":1},{"id":"医疗应用","name":"医疗应用","count":1},{"id":"半导体","name":"半导体","count":1},{"id":"协同设计","name":"协同设计","count":1},{"id":"单位距离问题","name":"单位距离问题","count":1},{"id":"南非种族隔离","name":"南非种族隔离","count":1},{"id":"卢卡-东契奇","name":"卢卡·东契奇","count":1},{"id":"压缩感知","name":"压缩感知","count":1},{"id":"变换编码","name":"变换编码","count":1},{"id":"可持续能源","name":"可持续能源","count":1},{"id":"可重复性危机","name":"可重复性危机","count":1},{"id":"史蒂夫-乔布斯","name":"史蒂夫·乔布斯","count":1},{"id":"史蒂夫-纳什","name":"史蒂夫·纳什","count":1},{"id":"同伦类型论","name":"同伦类型论","count":1},{"id":"哲学辩论","name":"哲学辩论","count":1},{"id":"国际政治","name":"国际政治","count":1},{"id":"在线教育","name":"在线教育","count":1},{"id":"地缘政治","name":"地缘政治","count":1},{"id":"埃尔德什猜想","name":"埃尔德什猜想","count":1},{"id":"埃罗尔-马斯克","name":"埃罗尔·马斯克","count":1},{"id":"埃隆-马斯克","name":"埃隆·马斯克","count":1},{"id":"基督教与科学","name":"基督教与科学","count":1},{"id":"基础主义","name":"基础主义","count":1},{"id":"基础模型","name":"基础模型","count":1},{"id":"复合工程","name":"复合工程","count":1},{"id":"外交谈判","name":"外交谈判","count":1},{"id":"多伦多大学","name":"多伦多大学","count":1},{"id":"多体物理","name":"多体物理","count":1},{"id":"多智能体协同","name":"多智能体协同","count":1},{"id":"大数假说","name":"大数假说","count":1},{"id":"太空探索","name":"太空探索","count":1},{"id":"孤子理论","name":"孤子理论","count":1},{"id":"学习路径","name":"学习路径","count":1},{"id":"学术写作","name":"学术写作","count":1},{"id":"学术建议","name":"学术建议","count":1},{"id":"学术生态","name":"学术生态","count":1},{"id":"学术研究方法","name":"学术研究方法","count":1},{"id":"学术自传","name":"学术自传","count":1},{"id":"宇宙学","name":"宇宙学","count":1},{"id":"官僚主义改革","name":"官僚主义改革","count":1},{"id":"定理证明","name":"定理证明","count":1},{"id":"家族故事","name":"家族故事","count":1},{"id":"对冲基金","name":"对冲基金","count":1},{"id":"对称性","name":"对称性","count":1},{"id":"对称性破缺","name":"对称性破缺","count":1},{"id":"小平邦彦","name":"小平邦彦","count":1},{"id":"少林寺","name":"少林寺","count":1},{"id":"就业与经济","name":"就业与经济","count":1},{"id":"就业影响","name":"就业影响","count":1},{"id":"工作尊严","name":"工作尊严","count":1},{"id":"工作流","name":"工作流","count":1},{"id":"工程精神","name":"工程精神","count":1},{"id":"幸福与成功","name":"幸福与成功","count":1},{"id":"库珀-弗拉格","name":"库珀·弗拉格","count":1},{"id":"开发环境","name":"开发环境","count":1},{"id":"开发者工具","name":"开发者工具","count":1},{"id":"开发者生产力","name":"开发者生产力","count":1},{"id":"开源模型","name":"开源模型","count":1},{"id":"形式主义","name":"形式主义","count":1},{"id":"彼得-拉克斯","name":"彼得·拉克斯","count":1},{"id":"微分几何","name":"微分几何","count":1},{"id":"心理学","name":"心理学","count":1},{"id":"思维链","name":"思维链","count":1},{"id":"慈善","name":"慈善","count":1},{"id":"慈善事业","name":"慈善事业","count":1},{"id":"慕尼黑安全会议","name":"慕尼黑安全会议","count":1},{"id":"成长型思维","name":"成长型思维","count":1},{"id":"技术监管","name":"技术监管","count":1},{"id":"技能退化","name":"技能退化","count":1},{"id":"投资哲学","name":"投资哲学","count":1},{"id":"推理时计算","name":"推理时计算","count":1},{"id":"提纲写作","name":"提纲写作","count":1},{"id":"摩根大通","name":"摩根大通","count":1},{"id":"播客","name":"播客","count":1},{"id":"政治哲学","name":"政治哲学","count":1},{"id":"数字革命","name":"数字革命","count":1},{"id":"数学反例","name":"数学反例","count":1},{"id":"数学史","name":"数学史","count":1},{"id":"数学基础","name":"数学基础","count":1},{"id":"数学实践","name":"数学实践","count":1},{"id":"数学家传记","name":"数学家传记","count":1},{"id":"数学工作流","name":"数学工作流","count":1},{"id":"数学形式化","name":"数学形式化","count":1},{"id":"数据中心","name":"数据中心","count":1},{"id":"数据效率","name":"数据效率","count":1},{"id":"数据科学","name":"数据科学","count":1},{"id":"文化多样性","name":"文化多样性","count":1},{"id":"文化转型","name":"文化转型","count":1},{"id":"文学编程","name":"文学编程","count":1},{"id":"斯多葛主义","name":"斯多葛主义","count":1},{"id":"无人机","name":"无人机","count":1},{"id":"日本数学","name":"日本数学","count":1},{"id":"日记写作","name":"日记写作","count":1},{"id":"智能代理","name":"智能代理","count":1},{"id":"智能体ai","name":"智能体AI","count":1},{"id":"智能分析","name":"智能分析","count":1},{"id":"更衣室训话","name":"更衣室训话","count":1},{"id":"未来战争","name":"未来战争","count":1},{"id":"未来趋势","name":"未来趋势","count":1},{"id":"机器人技术","name":"机器人技术","count":1},{"id":"杰米-戴蒙","name":"杰米·戴蒙","count":1},{"id":"柏拉图主义","name":"柏拉图主义","count":1},{"id":"查尔斯-巴克利","name":"查尔斯·巴克利","count":1},{"id":"查理-芒格","name":"查理·芒格","count":1},{"id":"标记语言","name":"标记语言","count":1},{"id":"格罗滕迪克","name":"格罗滕迪克","count":1},{"id":"概形","name":"概形","count":1},{"id":"模仿理论","name":"模仿理论","count":1},{"id":"模型应用","name":"模型应用","count":1},{"id":"模型驱动交易","name":"模型驱动交易","count":1},{"id":"模拟宇宙假说","name":"模拟宇宙假说","count":1},{"id":"欧洲创新","name":"欧洲创新","count":1},{"id":"欧洲民主","name":"欧洲民主","count":1},{"id":"欧盟资本市场","name":"欧盟资本市场","count":1},{"id":"欺骗性ai","name":"欺骗性AI","count":1},{"id":"比尔-盖茨","name":"比尔·盖茨","count":1},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","count":1},{"id":"沉思录","name":"沉思录","count":1},{"id":"沙奎尔-奥尼尔","name":"沙奎尔·奥尼尔","count":1},{"id":"波波维奇","name":"波波维奇","count":1},{"id":"泽连斯基","name":"泽连斯基","count":1},{"id":"活文档","name":"活文档","count":1},{"id":"测试时计算","name":"测试时计算","count":1},{"id":"涌现","name":"涌现","count":1},{"id":"深度阅读","name":"深度阅读","count":1},{"id":"湖人三连冠","name":"湖人三连冠","count":1},{"id":"炒作与现实","name":"炒作与现实","count":1},{"id":"热力学第二定律","name":"热力学第二定律","count":1},{"id":"特斯拉","name":"特斯拉","count":1},{"id":"特朗普","name":"特朗普","count":1},{"id":"狄拉克","name":"狄拉克","count":1},{"id":"狄拉克方程","name":"狄拉克方程","count":1},{"id":"理论物理","name":"理论物理","count":1},{"id":"生产力工具","name":"生产力工具","count":1},{"id":"生成式ai","name":"生成式AI","count":1},{"id":"相对论","name":"相对论","count":1},{"id":"知识管理","name":"知识管理","count":1},{"id":"研究方法","name":"研究方法","count":1},{"id":"研究生指南","name":"研究生指南","count":1},{"id":"硅谷","name":"硅谷","count":1},{"id":"社交媒体","name":"社交媒体","count":1},{"id":"社会公平","name":"社会公平","count":1},{"id":"福柯","name":"福柯","count":1},{"id":"离散几何","name":"离散几何","count":1},{"id":"私募股权","name":"私募股权","count":1},{"id":"科学哲学","name":"科学哲学","count":1},{"id":"科学研究","name":"科学研究","count":1},{"id":"科学论文","name":"科学论文","count":1},{"id":"科技史","name":"科技史","count":1},{"id":"科比-布莱恩特","name":"科比·布莱恩特","count":1},{"id":"移民政策","name":"移民政策","count":1},{"id":"稀疏表示","name":"稀疏表示","count":1},{"id":"空间技术","name":"空间技术","count":1},{"id":"竞技长青","name":"竞技长青","count":1},{"id":"笔记技巧","name":"笔记技巧","count":1},{"id":"第一性原理","name":"第一性原理","count":1},{"id":"算法与社会","name":"算法与社会","count":1},{"id":"篮球战术","name":"篮球战术","count":1},{"id":"篮球访谈","name":"篮球访谈","count":1},{"id":"类型论","name":"类型论","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"约束等距性","name":"约束等距性","count":1},{"id":"纯文本写作","name":"纯文本写作","count":1},{"id":"纯粹数学","name":"纯粹数学","count":1},{"id":"线性代数","name":"线性代数","count":1},{"id":"经典阅读","name":"经典阅读","count":1},{"id":"结对编程","name":"结对编程","count":1},{"id":"编程教学","name":"编程教学","count":1},{"id":"编程语言","name":"编程语言","count":1},{"id":"美国ai政策","name":"美国AI政策","count":1},{"id":"美国政府改革","name":"美国政府改革","count":1},{"id":"美国经济","name":"美国经济","count":1},{"id":"美欧关系","name":"美欧关系","count":1},{"id":"翻译","name":"翻译","count":1},{"id":"职业自律","name":"职业自律","count":1},{"id":"职业辩护","name":"职业辩护","count":1},{"id":"联邦政府改革","name":"联邦政府改革","count":1},{"id":"联邦财政","name":"联邦财政","count":1},{"id":"股东信","name":"股东信","count":1},{"id":"股东大会","name":"股东大会","count":1},{"id":"能源","name":"能源","count":1},{"id":"能量基模型","name":"能量基模型","count":1},{"id":"自动驾驶","name":"自动驾驶","count":1},{"id":"自我认知","name":"自我认知","count":1},{"id":"自由意志主义","name":"自由意志主义","count":1},{"id":"自由民主","name":"自由民主","count":1},{"id":"苹果","name":"苹果","count":1},{"id":"苹果公司","name":"苹果公司","count":1},{"id":"药物研发","name":"药物研发","count":1},{"id":"蓝鳍金枪鱼","name":"蓝鳍金枪鱼","count":1},{"id":"虚拟细胞","name":"虚拟细胞","count":1},{"id":"蛋白质折叠","name":"蛋白质折叠","count":1},{"id":"蜂巢思维","name":"蜂巢思维","count":1},{"id":"行为偏差","name":"行为偏差","count":1},{"id":"西部决赛","name":"西部决赛","count":1},{"id":"规模法则","name":"规模法则","count":1},{"id":"规范驱动开发","name":"规范驱动开发","count":1},{"id":"言论自由","name":"言论自由","count":1},{"id":"计算增强生成","name":"计算增强生成","count":1},{"id":"计算数学","name":"计算数学","count":1},{"id":"计算机教育","name":"计算机教育","count":1},{"id":"计算机证明","name":"计算机证明","count":1},{"id":"训练体系","name":"训练体系","count":1},{"id":"论文写作","name":"论文写作","count":1},{"id":"论文撰写","name":"论文撰写","count":1},{"id":"访谈实录","name":"访谈实录","count":1},{"id":"詹姆斯-西蒙斯","name":"詹姆斯·西蒙斯","count":1},{"id":"语言学","name":"语言学","count":1},{"id":"诺贝尔经济学奖","name":"诺贝尔经济学奖","count":1},{"id":"谷歌","name":"谷歌","count":1},{"id":"贝叶斯方法","name":"贝叶斯方法","count":1},{"id":"财政削减","name":"财政削减","count":1},{"id":"资本配置","name":"资本配置","count":1},{"id":"超级智能","name":"超级智能","count":1},{"id":"超级计算","name":"超级计算","count":1},{"id":"跨领域训练","name":"跨领域训练","count":1},{"id":"身体转型","name":"身体转型","count":1},{"id":"软件工程范式","name":"软件工程范式","count":1},{"id":"软件开发最佳实践","name":"软件开发最佳实践","count":1},{"id":"软件开发未来","name":"软件开发未来","count":1},{"id":"运动恢复","name":"运动恢复","count":1},{"id":"还原论","name":"还原论","count":1},{"id":"通用人工智能","name":"通用人工智能","count":1},{"id":"重整化","name":"重整化","count":1},{"id":"量化交易","name":"量化交易","count":1},{"id":"金融服务","name":"金融服务","count":1},{"id":"金融监管","name":"金融监管","count":1},{"id":"阅读方法","name":"阅读方法","count":1},{"id":"集合论","name":"集合论","count":1},{"id":"非虚构阅读","name":"非虚构阅读","count":1},{"id":"预训练","name":"预训练","count":1},{"id":"领导力","name":"领导力","count":1},{"id":"香农信息熵","name":"香农信息熵","count":1},{"id":"马刺","name":"马刺","count":1},{"id":"马库斯-奥勒留","name":"马库斯·奥勒留","count":1}],"moduleNavItems":[{"id":"essays","label":"Essays","href":"/?label=Essays","order":40,"icon":"BookOpen","count":62},{"id":"talks","label":"Talks","href":"/?label=Talks","order":42,"icon":"Video","count":165},{"id":"reports","label":"Reports","href":"/?label=Reports","order":41,"icon":"FileText","count":36},{"id":"notes","label":"Notes","href":"/?label=Notes","order":30,"icon":"Eye","count":78}],"children":"$L10"}]]}]]}]
+10:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"min-h-screen px-12 py-12 font-sans text-slate-900","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n            (function () {\n              var pathname = window.location.pathname || '';\n              var canonicalPrefix = '/hinbox';\n\n              if (/^/hinbox(?:/|$)/i.test(pathname) && pathname !== pathname.replace(/^/hinbox/i, canonicalPrefix)) {\n                var target = pathname.replace(/^/hinbox/i, canonicalPrefix) + window.location.search + window.location.hash;\n                window.location.replace(target);\n                return;\n              }\n            }());\n          "}}],["$","div",null,{"className":"mx-auto flex min-h-[60vh] max-w-2xl flex-col justify-center gap-4","children":[["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"页面未找到"}],["$","p",null,{"className":"text-base leading-7 text-slate-600","children":"如果你是从大写路径进入本站，系统会自动跳转到小写的规范地址。"}],["$","p",null,{"className":"text-base","children":["返回首页：",["$","a",null,{"className":"text-sky-600 underline underline-offset-4","href":"/hinbox/","children":"/hinbox/"}]]}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+11:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+12:T10dc1,<h3>访谈概述</h3>
+<p>在本期访谈中，Snap 首席执行官埃文·斯皮格尔（Evan Spiegel）在一家英式小酒馆里与主持人 John 进行了一次深度对话，探讨了 Snap 在 2026 年迎来的“关键转折点”：备受期待的消费者版本 Spectacles 智能眼镜的发布。</p>
+<p>埃文在对话中分享了他对计算平台演进的深刻理解。他认为智能手机已经变成了一种让人相互孤立的传统设备，而真正的增强现实（AR）眼镜迈出了让计算“回归人性”、让人们重连现实世界的第一步。两人探讨了将空间计算机塞入眼镜形态所面临的技术难关、Snap 坚持从零开始构建自研操作系统的原因，以及人工智能（尤其是 Claude）是如何彻底改变他们软件开发模式的——目前 Snap 超过三分之二的新代码均由 AI 编写。</p>
+<p>此外，两人还深入讨论了青少年使用手机的复杂现实、社交媒体与即时通讯产品之间的本质区别、内容审核的责任边界，以及为什么远在北欧的挪威会成为第一个拥抱 Snapchat 的国家。</p>
+<h3>专用词语翻译列表</h3>
+<table>
+<thead>
+<tr>
+<th align="left">英文原词</th>
+<th align="left">中文翻译/解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Specs / Spectacles</td>
+<td align="left">Specs / Spectacles（Snap 推出的 AR 智能眼镜）</td>
+</tr>
+<tr>
+<td align="left">Crucible moment</td>
+<td align="left">关键转折点 / 决断时刻</td>
+</tr>
+<tr>
+<td align="left">Spatial computer</td>
+<td align="left">空间计算机</td>
+</tr>
+<tr>
+<td align="left">Pass-through VR</td>
+<td align="left">透视虚拟现实（即通过外部摄像头捕捉画面并显示在屏幕上的 VR 设备，如 Apple Vision Pro）</td>
+</tr>
+<tr>
+<td align="left">See-through glasses</td>
+<td align="left">光学透视眼镜（即可以直接透过镜片看到现实世界的 AR 眼镜）</td>
+</tr>
+<tr>
+<td align="left">Waveguide</td>
+<td align="left">光波导（AR 眼镜中的核心光学显示元件）</td>
+</tr>
+<tr>
+<td align="left">Lens Studio</td>
+<td align="left">Lens Studio（Snap 旗下的 AR 滤镜与应用开发工具）</td>
+</tr>
+<tr>
+<td align="left">Lens Core</td>
+<td align="left">Lens Core（Snap 的底层渲染引擎）</td>
+</tr>
+<tr>
+<td align="left">Vibe-coding / Vibe-coded</td>
+<td align="left">意念编程 / 感觉编程（科技圈黑话，指借助 AI 大模型通过自然语言提示直接生成应用或代码）</td>
+</tr>
+<tr>
+<td align="left">MAU (Monthly Active Users)</td>
+<td align="left">MAU（月活跃用户）</td>
+</tr>
+<tr>
+<td align="left">Streaks / Snapstreaks</td>
+<td align="left">连续互动 / 连火（Snapchat 上记录用户连续每天互相发送消息天数的功能）</td>
+</tr>
+<tr>
+<td align="left">USDC / Stablecoin</td>
+<td align="left">USDC / 稳定币</td>
+</tr>
+<tr>
+<td align="left">PR (Pull Request)</td>
+<td align="left">PR（代码合并请求）</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3>访谈正文</h3>
+<p><strong>John</strong>：在酒吧里下国际象棋，这感觉挺有意思的。干杯。</p>
+<p><strong>Evan</strong>：干杯。很高兴见到你。</p>
+<p><strong>John</strong>：谢谢。来给我同步一下 Snap 2026 年的最新情况吧：产品、业务，你每天都在思考些什么？</p>
+<h4>Snap 的关键转折点 (Snap’s crucible moment)</h4>
+<p><strong>Evan</strong>：我们将其描述为一个“关键转折点”。其实我们在 2025 年底就这么定义了，而现在它正以一种非常宏大的方式被证实。原因有几个：
+首先，我们的月活跃用户（MAU）即将突破十亿大关，这对我们来说是件大事。我们对核心的 Snapchat 业务取得的进展感到非常兴奋。
+其次，我们即将实现净利润的盈利，这非常令人振奋，尤其是考虑到我们在硬件和 Specs 眼镜项目上投入了巨额资金。
+这引出了我的最后一点：今年晚些时候，Specs 将首次面向消费者发布。在对智能眼镜、下一代计算平台以及“让计算更具人性化”进行了长达 12 年的投资之后，它终于要面世了。所以这是 Snap 的一个极其关键的时期。不仅如此，我们还在利用 AI 彻底重塑我们的业务。这真的是一个全力以赴的时刻。</p>
+<h4>Specs 智能眼镜 (Specs)</h4>
+<p><strong>John</strong>：为什么做好 Specs 这么难？你们的这个愿景已经存在很久了，之前也有像 Google Glass 这样的先驱。或者说，Google Glass 算是先驱吗？还是你们做 Specs 比那更早？</p>
+<p><strong>Evan</strong>：我们大概从 2014 年就开始研发 Specs 了。我记得 Google Glass 是 2013 年出来的吧。</p>
+<p><strong>John</strong>：总之时间点差不多。你们很早就开始做 Specs 了。能不能给我们讲讲其中的技术挑战？这听起来技术难度极高，涉及到很多微型化的问题。</p>
+<p><strong>Evan</strong>：技术挑战确实是极其巨大的。我认为 Specs 的承诺在于，你将人们在透视 VR（Pass-through VR）中体验到的强大功能，塞进一个可以直接透视的眼镜形态中。这正是目前市场上的空白。
+你现在看到的，要么是功能非常基础的智能眼镜或 AI 眼镜（类似于带摄像头的 AirPods），要么就是像 Vision Pro 那样功能强大但体积庞大的虚拟现实设备。
+我认为今年晚些时候推出的 Specs 的“甜点位”在于：它拥有普通眼镜的佩戴舒适度，同时又具备真正的空间计算机（类似于 Vision Pro）的强大能力。智能眼镜的理念，或者说我最喜欢它的一点，是它真的把计算带入了物理世界。
+我认为计算技术长期以来深受其害的一点在于，它的本质是让人孤立的。我从小就热爱计算机，自己组装过电脑。但要想用电脑，你必须在午休时间待在机房里，而你所有的朋友都在操场上玩。
+我认为手机延续了这种趋势，它把人们吸进屏幕里，而不是把人们带入现实世界去帮助他们与朋友分享体验。光学透视眼镜的承诺是：你和我可以面对面坐着，一起下盘国际象棋，一起设计东西，一起搭建模型，或者一起看视频。这与现存的任何计算体验都截然不同。</p>
+<p><strong>John</strong>：你认为在 10 到 15 年后，计算设备的组合会是什么样？会有一定比例的眼镜，那智能手表还有一席之地吗，还是眼镜会取代它？也许手表在测量手腕数据方面还有用。你还会随身携带类似 Amazon Alexa 那样的 AI 语音设备吗？如果有，带几个？当你思考超越智能手机的未来时，你认为那种新的平衡状态是怎样的？</p>
+<p><strong>Evan</strong>：我不认为我们必然会完全“超越”智能手机。我认为智能手机实际上将扮演最重要的“传统遗留设备”的角色。</p>
+<p><strong>John</strong>：你的意思是，我们将超越“仅仅依赖智能手机”的阶段。</p>
+<p><strong>Evan</strong>：对。如果你看看眼镜的能力，至少就 Specs 而言，我预计很多基于“大屏幕”的用例会是最先转移的。你想想 Specs 有趣的地方在哪：你几乎可以在任何地方随身携带一台巨大的电视、一块巨大的屏幕。如果你可以通过轻便的眼镜拥有任意尺寸的屏幕，你为什么还要花几千美元在家里装两三台电视呢？我认为桌面显示器或笔记本电脑也是同理。这对旅行来说尤其有价值。在一个小小的笔记本电脑上工作让我感到非常沮丧。</p>
+<p><strong>John</strong>：需要一个“战斗工位”。</p>
+<p><strong>Evan</strong>：没错，尤其是当有人站在你背后看你屏幕的时候。在旅途中很难高效完成工作。眼镜最早能解决的痛点之一，就是在飞机上以符合人体工程学的方式工作，你再也不用像驼背一样蜷缩在笔记本电脑前了。</p>
+<p><strong>John</strong>：除了大屏幕体验，还有哪些用例会转移？在未来的设备组合中还会有哪些设备？</p>
+<p><strong>Evan</strong>：当我们谈论用例转移时，基于屏幕的用例肯定是最好的例子。但我更感兴趣的、也是我们投入最多时间的，实际上是以前不存在的纯新增体验。
+我认为这才是手机变得如此有意义的原因。台式机仍然是文字处理的最佳选择，也是信息检索和办公的最佳工具；而手机在移动通信方面表现惊人。眼镜真正与众不同的地方在于“体验”。
+我认为这意义重大，这也契合了当下人们想要与世界互动的方式。大家都知道，现在的年轻人想要体验，他们想一起做点什么，想用新的方式看待世界。而这正是眼镜所能提供的。
+对我来说，最令人兴奋的未必是取代墙上的电视，而是戴着眼镜和我的孩子们在户外玩激光枪战，在后院放几只恐龙，或者和他们一起搭乐高。我认为正是这些体验向人们证明了，计算机实际上是可以把人们在现实世界中聚集在一起的，而不是让我们都低头盯着一个小屏幕。</p>
+<p><strong>John</strong>：是的。这或许也是一种非常有用的“防 AGI（通用人工智能）冲击”的未来生活方式：你可以戴着 Snap Spectacles 在科切拉音乐节狂欢，与此同时，AI 助手 Claude 正在你的台式机上帮你完成实际的工作。</p>
+<p><strong>Evan</strong>：这太有趣了。开发者们已经想出办法，通过 Specs 来监控你的 AI 智能体在干什么，你可以随时查看进度，然后继续过你的一天。我觉得这在旧金山已经很普遍了。人们带着笔记本电脑去酒吧，快速打开看一眼进度，然后继续玩。</p>
+<p><strong>John</strong>：这就像个笑话：在公司里地位越高的人，用的屏幕越小。开发者用两个并排的显示器，而老板只会回复“发自我的 iPhone”。未来的情况是，每个人都能通过 Specs 随时监控 AI 智能体的进度。</p>
+<p><strong>Evan</strong>：我确实认为这是计算机正在发生的非常酷的转变之一。我们必须一整天都守在电脑前操作的范式正在消亡，我认为这是极其积极的现象。</p>
+<p><strong>John</strong>：在研发 Specs 的过程中，什么是最困难的？电池、屏幕、眩晕感？人们在谈论 AR 和 VR 时总会提到这些问题。作为身处研发第一线的人，我想知道你们攻克了哪些挑战？或者说，Snap 建立了哪些核心 IP 来形成你们的技术护城河？</p>
+<p><strong>Evan</strong>：天哪，我甚至想说，把一台计算机塞进一副眼镜里，每一件事都很难。但我可以给你讲讲我们平台的各个组成部分，以及我们是如何思考的。
+让 Specs 如此独特的一点是，我们实际上拥有技术栈的每一个环节。从名为 Lens Studio 的开发者工具，到名为 Lens Core 的渲染引擎（我们在智能手机上打磨这个引擎已经十年了，特别是在低端手机上，这对于在眼镜这样的小型设备上管理功耗和散热至关重要），再到我们自己的操作系统，以及我们自己的光学引擎。光波导（就是你眼前那片玻璃）、投影仪本身，还有一些我们尚未公布的黑科技，所有这些部件协同工作，才能将完整的沉浸式计算体验塞进一副眼镜里。
+所有这些事情都非常难。在 Linux 上从零开始构建一个操作系统非常困难，但这比试图去魔改 Android 要高效得多。</p>
+<p><strong>John</strong>：你们不用 Android，而是为它建立了自己的操作系统？</p>
+<p><strong>Evan</strong>：是的，Android 太臃肿了，无法在眼镜上有效运行。我想这就是为什么你会看到 Google 最新的实验项目 Project Aura 拖着一个巨大的计算模块。我们只是认为，让人们随身携带一个计算模块来使用眼镜是不现实的。</p>
+<p><strong>John</strong>：最新的代码生成模型在处理 Linux 方面非常出色，因为它们有大量的相关训练数据。你觉得 Claude Code 或 Codex 在这种环境下的开发有用吗？这与人们设想的标准 Claude Code 项目大不相同。</p>
+<p><strong>Evan</strong>：Claude 正在全面重塑 Snap 每个部门的软件开发。</p>
+<p><strong>John</strong>：能具体描述一下是什么样的吗？</p>
+<p><strong>Evan</strong>：这太不可思议了。现在，Snap 超过三分之二的新代码都是由 AI 编写的。这一切发生得太快了。这些模型的进化速度令人惊叹。
+对我们来说，我们非常兴奋，因为我们很幸运能身处一个拥有网络效应的软件行业。谢天谢地，我们的服务将人与人连接起来，但从根本上说，它依然是一个软件业务。我们编写软件、运营业务的方式正在发生翻天覆地的变化。与此同时，我认为我们免受了一些其他软件企业正面临的冲击——那些业务正被 AI 迅速蚕食。</p>
+<h4>AR 是正确的终端形态 (AR as the right form factor)</h4>
+<p><strong>John</strong>：长期以来，你比我认识的几乎任何人都更坚信 AR 这种硬件形态。是什么让你确信这是正确的终端形态？</p>
+<p><strong>Evan</strong>：我们所做的一切，其实一切的出发点都是“人性”。计算技术需要为人类服务，最终是由人类来决定如何采用技术。
+我认为科技行业经常犯的一个错误是，我们过于关注技术本身，而不是以人为本。这是一个巨大的错误。当你从人的角度出发时，眼镜就变得顺理成章了。它已经被数十亿人佩戴。作为传递计算体验的媒介，它恰好位于你的双眼正前方，并且你可以免提操作。作为人类，这意义重大，我们平时需要用双手做很多事情。把计算设备做成眼镜的形式，我认为更契合我们的日常生活。
+当然，把它放在眼睛和耳朵的高度，让眼镜对你周围的世界有很好的感知，如果你想让计算更具人性化，这一点非常重要。如果你想让计算机理解这个世界和人类（我们认为这是获得计算红利的关键，也是将人们聚集在一起的关键），那就必须这样做。</p>
+<p><strong>John</strong>：这本质上是一个“低头”与“抬头”的区别吗？你是否认为低头看智能手机的生活方式本质上有点反社交，而抬头看世界是一种更投入、更有连接感的生活方式？</p>
+<p><strong>Evan</strong>：这只是其中一方面。我也认为，如果你想设计或架构一台能真正理解你周围世界的计算机，它从根本上就不能待在你的口袋里。理想情况下，因为我们人类感知世界的大部分传感器都在头部，我认为这非常契合我们的眼镜技术，它能让我们架构出一台真正将人们聚集在一起、更好融入他们生活的计算机。</p>
+<p><strong>John</strong>：有一种现象是，在一个新科技范式的早期阶段，往往会有很多异构的产品出现，人们认为会有很多专业化的细分设备，但最后它们都会坍缩成一种形态。
+在智能手机的极早期，比如回到 2005、2006 年，大家会觉得：“哦，我们需要带键盘的黑莓手机给重度发邮件的人用。”你还记得诺基亚 N-Gage 吗？那几乎是个类似 PlayStation PSP 的游戏平台。当时有一种观点认为，应该存在各种不同类型的智能手机。但后来一切都坍缩成了单一的 iPhone/Android 形态，也就是一块大触摸屏，仅此而已。这是唯一的交互模式。
+你认为 Specs 也会发生类似的情况吗？现在有纯 VR（如 Apple Vision Pro），有非常轻量级的智能眼镜，然后还有你们的 Specs 介于两者之间。你认为在 5 到 10 年后，纯 VR 还有一席之地吗，还是所有东西都会坍缩成（Specs）这种形态？</p>
+<p><strong>Evan</strong>：VR 可能会在沉浸式培训环境或类似场景中拥有其专业地位。</p>
+<p><strong>John</strong>：比如外科医生和飞行模拟器之类的。</p>
+<p><strong>Evan</strong>：对。但即便如此，我认为人们依然希望能够戴着眼镜协同工作。当你在虚拟驾驶舱里时，你还是会希望能看到你的副驾驶。我认为眼镜是更好的选择。
+归根结底，人类是高度社会化的物种。这是人类如此特别的原因之一。我觉得那种认为我们会使用一种完全将我们与世界隔绝，或者导致我们只能通过屏幕来看世界的技术，是不现实的。</p>
+<p><strong>John</strong>：Apple 的 Vision Pro 确实有透视功能。但从根本上说，你在物理上还是被一定程度隔绝的。</p>
+<p><strong>Evan</strong>：是的。那是透视 VR（Pass-through VR），他们把现实世界的影像重新投影在屏幕上。但我无法想象大部分人类会希望通过一块屏幕来与世界互动。我认为这不符合我们作为一个物种的本性。</p>
+<p><strong>John</strong>：你认为 Specs 的普及过程会是怎样的？我什么时候能预期在街上看到大量的人戴着它？</p>
+<p><strong>Evan</strong>：今年晚些时候我们肯定会推出它。我认为早期的受众会是“早期采用者”，那些对科技充满热情的人。
+大家可能不记得最初的 Macintosh 电脑了。换算成 2026 年的美元，一台 Macintosh 要卖 8000 美元，非常昂贵。我清楚地记得我小时候，我的教父给我们带来了第一台 Macintosh。</p>
+<p><strong>John</strong>：你说的是 1984 年的 Macintosh。</p>
+<p><strong>Evan</strong>：对。他对计算技术、对计算机的潜能充满了热情，那真的改变了我的生活。我记得当时在上面玩 Kid Pix 画图软件。
+当我想起早期采用者时，我就会想到我的教父。我想到那些真正想体验下一代计算技术的人。我认为 Specs 最初会吸引的就是这类人。当然，它肯定不会卖 8000 美元。我觉得那有点太贵了。但我确实认为，吸引这群人非常重要，特别是当你审视技术是如何在社会中普及的时候。
+我认为对这项技术最充满热情的人，也将成为它的布道者。他们会展示给家人和朋友看，他们会开发新的应用（Lenses）。我们已经有非常多开发者在为 Specs 开发应用，创造新体验了。几乎每天都有新的应用发布。</p>
+<p><strong>John</strong>：当我回想智能眼镜迄今为止取得的成功时，很大程度上它像是一个 GoPro 的竞争对手。即便是我曾经体验过的智能眼镜（我是很多年前体验的你们非常早期的上一代 Specs 版本），如果你在滑雪或者进行一些需要解放双手的酷炫活动，它会很有趣。那是一个有价值的市场吗？你可以说它很小众，但确实有很多人喜欢做这些活动并分享它们。这与你们的核心业务搭配得很好。我很好奇，这对你们来说只是一个无关紧要的小众市场，还是说做一个“GoPro 替代品”是一件大事？</p>
+<p><strong>Evan</strong>：这对我们来说是个问题，因为它违反了我们开发新产品的一项基本原则。我们是吸取了惨痛教训才明白这点的，因为十多年前我们就做过带摄像头的眼镜。
+我们交了学费。我们也看到了很多机会，我们曾觉得把相机从口袋里拿出来很酷。把它放在一个你在划皮划艇时可以免提录像的地方。天哪，能有个第一人称视角的视频不是太酷了吗？
+问题在于，它并没有比它的最佳替代品——也就是手机——好上 10 倍。我们在产品设计或投资新创意时的原则是：如果它不能比第二好的替代方案强 10 倍，那就没有投资的意义。
+我认为我们看到的另一个问题是，这种产品的市场规模其实相当小，用户的付费意愿也很低。你看看今天的相机眼镜，大概只要一两百美元，可能 150 块、200 块就能买到。
+有趣的是，如果你继续推演下去，相机眼镜的问题在于，即使你非常成功，你也无法建立一个“平台”，因为它们没有操作系统。它们不理解现实世界，也不能运行应用程序。因此，你的产品很快就会在价格上被竞争对手打压。
+那个彩虹尽头的奖赏其实很小。而且对客户的实际好处也微乎其微——当你在划皮划艇时，你完全可以掏出手机拍出很棒的视频，或者如果你真的是硬核玩家，你可以把 GoPro 戴在头上。
+所以我们就是看不到那条能让它成为“好上 10 倍”的产品的路径。</p>
+<p><strong>John</strong>：明白了。那不是正确的市场。我通常对新平台的看法是：客户购买它们往往是因为一个“杀手级应用（Killer App）”，这积累了装机量，然后他们会发现这个设备还可以用来做很多其他事情。
+你还记得个人电脑（PC）早期的普及过程。企业可能会说：“我需要一台能运行电子表格的计算机，我买这个专门用来跑电子表格的盒子，它有屏幕、主机和键盘。”后来你发现它还能做别的事，比如“哦，太酷了。”然后你开始用它干别的，但它的起点绝对是那个“运行电子表格的东西”。
+你觉得 Specs 也会有类似的普及模式吗？人们买它是因为可以随身携带全尺寸屏幕，然后他们发现上面还有游戏，还能做别的事情。还是你认为人们从一开始就会为了各种广泛的用例而购买它？</p>
+<p><strong>Evan</strong>：在当今这个时代，我认为“杀手级应用”的概念已经有点像海市蜃楼了。相反，我认为——</p>
+<p><strong>John</strong>：你这是在告诉我，我的想法全错了。（笑）我开发 Specs 的直觉太糟了。这很好，我学到了很多。</p>
+<p><strong>Evan</strong>：不，我理解人们为什么会这么看。我只是认为在今天，特别是考虑到编写软件变得如此容易，更重要的是开发一个平台，让人们能够去追求对他们具有高度相关性和高价值的各种不同的用例。
+我认为你在企业软件领域已经看到了这种现象。我们有一个叫 Saturn 的日历应用，非常棒，它是围绕你的朋友和家人设计的，专为移动端打造。那个团队原本在使用一项企业服务来提交 Bug 报告，这项服务每年可能要花费 10 万美元。现在，他们花了一天时间自己建了一个替代品，省了 10 万美元，但更重要的是，他们觉得：“这对我们来说是更好用的工具。它是为我量身定制的。我爱死这个工具了。”
+我认为我们在 2026 年所处的环境（这有着本质的区别），是人们真的将会拥有量身定制的软件。他们能够想象、能够极其快速地构建和创造，并从中获得巨大的价值。我不认为这种“一刀切”的软件理念在这个新世界里还有那么强的适用性。</p>
+<p><strong>John</strong>：所以你对 Specs 的愿景是，你提供了一个新平台，然后我们就进入了“定制软件时代”。你想要 Specs 做什么，你就能让它做什么。</p>
+<p><strong>Evan</strong>：是的。有了 Lens Studio，Lens Studio 正变得越来越具备“智能体（agentic）”能力。我不想破坏今年晚些时候我们要宣布的惊喜，但我认为这个平台承诺的令人兴奋之处在于：任何人几乎都可以构建任何东西，并极快地在现实世界中看到它。
+这与游戏主机的运作方式有很大的不同，游戏主机确实需要那个杀手级的软件。我认为关于未来非常有趣的一点，以及 Specs 如此不同的一点，是人们将开发最适合自己的软件，也许他们会把它分享给朋友或全世界。因为现在开发软件太容易了，这是一个根本性的范式转变。</p>
+<p><strong>John</strong>：你有没有在 Lens Studio 里用 AI（Vibe-coded）给自己做过什么应用？能不能分享一下你做的，或者 Snap 内部员工做的有趣的东西？</p>
+<p><strong>Evan</strong>：几乎每天都有人在 Specs 里捣鼓和构建新东西。把玩、构建不可思议的新工具。它可以是像小飞机游戏那样傻傻的东西，比如拖着你的手，在云层中开飞机。或者像我提到的，有些人在用它来监控 AI 智能体的状态并与之协作，这也是用智能体构建出来的。
+我认为整个工程范式、编写软件的方式的改变，赋予了我们看待 Specs 和平台一种全新的视角。坦白说，这克服了我们面临的最大障碍——也就是 App Store 的锁定和护城河。
+这通常是人们对新计算平台提出的最大疑问：你打算如何克服 App Store 上那 100 万或 200 万个被锁定在苹果生态系统中的应用？
+今天，写软件变得太容易了。我确定你肯定看过我最喜欢的那张图表，就是 iOS 应用提交数量趋势图。它本来一直平平无奇，现在直接向右上方爆炸式增长。</p>
+<p><strong>John</strong>：Stripe 内部的图表也是类似的，新业务的创建速度出现了惊人的激增。</p>
+<p><strong>Evan</strong>：这是令人难以置信的。这对我来说超级兴奋。我认为这解锁了我们思考 Specs、操作系统和 Lens Studio 的全新方式。</p>
+<h4>Stripe 上的稳定币支付 (Stablecoin payouts on Stripe)</h4>
+<p><strong>John</strong>：<em>(广告口播，移动棋子)</em> 我把国王移到这里……
+世界上最成功的创作者平台正变得越来越像全球金融网络。它们将资金从数百万粉丝转移到数百万个人创作者手中。但传统的支付轨道并不是为了支持这种跨国的资金持续流动而建立的。
+借助 Stripe，平台可以瞬间跨国发送美元稳定币付款，而且成本极低。这意味着地球另一端的创作者可以像隔壁的主播一样快速、无缝地获得报酬。如果你需要向全球范围的创作者或卖家付款，Stripe 在此为您提供稳定币支付服务。</p>
+<h4>相机的商业化 (Monetizing the camera)</h4>
+<p><strong>John</strong>：我想稍微聊聊你们的核心业务。你们的竞争对手是谁？是狭义上的其他移动优先的社交应用？还是你们与所有的娱乐形式竞争？比如 Netflix 实际上也是个竞争对手，因为它也是打发时间的方式。我很好奇你怎么看待你们的竞争对手群？</p>
+<p><strong>Evan</strong>：我认为我们的竞争对手主要是即时通讯服务（Messaging services）。我认为那是服务的核心。当我们推出 Snapchat 时，除了发消息，它没有任何社交功能。这一直驱动着服务的增长。
+其次，我认为相机也是。如果你的眼前正在发生精彩的瞬间，你会选择用哪个相机？是用 Snap 相机还是锁屏自带的相机？这是我们经常思考的另一个问题。我觉得人们没有意识到大家自拍的数量规模到底有多大。
+这挺有意思的。苹果去年好像宣布：“今年在 iPhone 上拍摄了 5000 亿张自拍”，类似这样的数据。我当时给团队发了条消息，我说：“这个数字听起来好小啊。怎么回事？”果不其然，他们回复我说：“哦，光是在 Snapchat 上，就已经拍摄了超过一万亿张自拍了。”</p>
+<p><strong>John</strong>：在同一时期内？这太多了。</p>
+<p><strong>Evan</strong>：是的。我们在对外公布数据时刻意低调了。</p>
+<p><strong>John</strong>：等等，那相当于每个 MAU 拍了一千张。是一生中吗？</p>
+<p><strong>Evan</strong>：如果说生命周期的话，超过一万亿张。</p>
+<p><strong>John</strong>：是在一年内？</p>
+<p><strong>Evan</strong>：是一年内，我们现在将近有十亿月活用户了。</p>
+<p><strong>John</strong>：那是真的很多。</p>
+<p><strong>Evan</strong>：是的，是挺多的。但我觉得人们没有意识到 Snapchat 相机的使用规模和参与度。</p>
+<p><strong>John</strong>：所以竞争对手是通讯服务。那你们的商业模式是怎样的？我其实对你们的商业模式了解不多。你们快有十亿月活了，变现方式主要靠广告吗？还是说你们的各项收入来源是如何划分的？</p>
+<p><strong>Evan</strong>：我们有两大主要收入来源。一个是广告，另一个是直接收入（Direct Revenue）。
+直接收入对我们来说相对较新。大概是过去两三年发展起来的。我们刚刚宣布 Snapchat+ 订阅用户达到了 2500 万，直接收入的运行率（Run rate）超过了 10 亿美元。这部分业务增长得非常漂亮。
+然后当然是广告。无论是在地图上（我们有一个叫 Promoted Places 的产品，并且围绕它建立了非常强大的闭环数据测量）。现在很多商家非常在意如何将客流吸引到他们的线下实体店，Promoted Places 在这方面发挥了巨大作用。</p>
+<p><strong>John</strong>：我认为有一种总体趋势是，由于 AI 推理成本是实打实的，企业的“直接商业化”或类似直接收入的模式正变得越来越重要。在上一代互联网公司中，可能是非常偏向广告主导的。而如果你看看 ChatGPT 或 Claude 等，它们必须有不同梯队的订阅服务，比如 20 美元一个月，200 美元一个月。因为用户可以消耗少量的算力，也可以消耗极大的算力。
+随着你们未来推出计算成本更高的产品，你是否认为直接收入对 Snap 会变得越来越重要？如果用户频繁使用高算力消耗的 Lens Studio 功能，他们作为 Snap 用户可能会烧掉大量算力。</p>
+<p><strong>Evan</strong>：这是我们需要考虑的一个因素。当然，我们的订阅服务里有一个 Lens+ 级别，它能让你访问更多的高级 AI 工具和编辑工具。
+我觉得大家没意识到，仅仅因为其使用频率之高，Snapchat 相机已经是全球最大的图像和视频生成平台之一了。我们对其商业化的一种方式就是通过 Lens+ 产品。
+但对我来说，审视我们的订阅业务，它实际上与我们公司的理念以及核心技能高度契合。如果你想想 Snapchat 过去十年擅长什么，那就是打造人们真正喜爱的产品。
+我们经常收到用户的邮件，要求增加新功能、与众不同的功能，或者更个性化的功能，比如 App 主题换肤。但以前我们永远没有资源去做这些。我们会觉得：“天哪，我们不能为一个很小的用户子集去开发功能，”哪怕他们对产品和我们创造的东西充满热情。
+我认为 Snapchat+ 让人开心的地方在于，我们现在能够投入资源去开发这长长的一串功能列表，这些都是我们最热情的 Snapchat 用户非常想要、并且愿意为之付费的功能。这完美契合了我们热爱做的事，以及我们最擅长的事——与社区一起打造酷炫的新产品，提供他们想要的个性化功能。</p>
+<p><strong>John</strong>：付费用户和免费用户想要的功能有什么区别吗？</p>
+<p><strong>Evan</strong>：不一定有明显的界限，但最热情的 Snapchat 用户总是对如何改进产品有很多诉求。我们不能满足所有的需求。但现在有了 Snapchat+，我们有了一个渠道，如果有人对服务充满热情并想要新功能，告诉我们，我们就能为订阅用户开发出来。这真的很令人兴奋。</p>
+<p><strong>John</strong>：大家的点子好吗？</p>
+<p><strong>Evan</strong>：非常好，有数不清的好点子。</p>
+<p><strong>John</strong>：你是如何从社区获取产品灵感的？</p>
+<p><strong>Evan</strong>：我的邮箱是 <a href="mailto:evan@snap.com">evan@snap.com</a>。</p>
+<p><strong>John</strong>：这下好了，尤其你在播客里说了之后。</p>
+<p><strong>Evan</strong>：是啊，我会收到相当多的优质客户邮件，还有网上的评论。每次我发个视频，都能收到一堆评论告诉我我们哪里应该做得不同。这就是与社区互动的魅力之一。</p>
+<h4>社交媒体与即时通讯 (Social media vs messaging)</h4>
+<p><strong>John</strong>：人们通常认为社交网络和通讯应用是“网络效应”业务。就是说，规模越大，产品和业务体验就越好，因为你的朋友都在那。它们几乎被用作商学院讨论网络效应的教科书案例。
+这有一定道理，但同时也存在“反网络效应”和规模不经济的情况。其一是随着你越来越受欢迎，欺诈和垃圾信息的问题也会增多。
+其次就是关于社交网络“本我（核心气质）”的问题。也许使用某款产品的青少年并不希望他们的阿姨和叔叔也来用，因为那感觉完全不对。或者硅谷圈内人曾经更偏爱 Quora——还记得我们刚起步时，Quora 一开始是一个非常硅谷圈内的产品，现在它变得非常大众化了。
+当我看待 Snap 时，我觉得你们做得很好的一点是，你们保持了“酷”的特质，避免了因为规模太大而让人感到“下头（ick）”，而这往往是其他社交网络会遇到的问题。能不能谈谈这种现象，以及你如何看待这种风险？</p>
+<p><strong>Evan</strong>：这太有趣了。因为你恰好点出了社交领域两个最重要的理念，或者说至少是我们得出的最重要的两个发现。
+第一个，可能也是最重要的一个：在创立 Snapchat 的时候，如你所说，人们普遍相信网络规模越大价值越高，大家甚至有专门的模型来描述它。
+但 Snapchat 证明了，<strong>社交的价值不在于你的网络规模有多大，或者你能联系到多少人，而在于你真正在跟谁说话。</strong>
+而这些人往往只占你潜在社交网络总规模，甚至你好友总数的一小部分。事实上，你每天绝大部分的对话可能都是跟你的妻子、几个密友或最亲密的同事进行的。真正频繁交流的圈子非常小。
+这打破了当时社交媒体的模型——他们认为好友越多、参与度越高、价值就越大。而我们说：“这听起来不对。”我们认为人们大部分时间都在跟对他们最重要的人交流。如果我们要设计一款服务，它的核心就是为了让你和你最重要的人、你的密友沟通，而且我们把它做到极致。
+你可能不会每天给你列表里的第 400 个好友发 Snap 动态，但对我自己来说，我非常喜欢看我两岁大的儿子一整天都在干嘛。我妻子发给我的那些小片段，是我一天中最美好的部分。
+我们真正打造了一款服务于“亲密好友”的产品。这并不意味着你需要尽可能庞大的网络，你只需要最重要的人在里面就够了。我认为这是 Snapchat 当年能够崛起的原因之一。因为刚起步时，每个人都在告诉我们：“你们永远无法和 Meta 竞争。不可能的，因为他们的网络大得多。”
+然后，我认为第二个经验教训是建立在第一点之上的。我们发现，随着 Facebook 和 Instagram 的发展，用户面临着不断添加更多好友的巨大压力。因为在当年，他们的整个商业模式是建立在信息流（Newsfeed）上的。为了让信息流里有内容，你需要加好友。为了有更多内容，你需要加越来越多、越来越多的好友，这样信息流里才有更多帖子，进而创造更多广告位。
+这造成了一个极其不稳定的问题。人们发现，当好友加到一定数量后，他们实际上已经不知道自己在 Facebook 上的好友都是些什么人了。他们不知道谁会看到他们发的内容。这就是“压死骆驼的最后一根稻草”效应：它反而抑制了用户的发布意愿，这是非常危险的。人们对发帖感到非常不自在。
+我认为，这进而加速了引入公共内容的需求，信息流里不再是朋友的内容。很快，社交网络异化成了充斥着 BuzzFeed 或其他新闻机构文章的地方，而不是关于你朋友的内容。
+这就是我们随着时间推移学到的另一个关键教训，也是 Snapchat 成为一个更私密服务的原因之一。你不会在 Snapchat 上被你的阿姨弄得尴尬，因为你的 Story 下面没有公开评论。你可以和朋友分享，并感到很自在，不用担心出丑。因为我们的服务是以密友为导向的，我们没有那些公共信息流带来的种种麻烦。</p>
+<p><strong>John</strong>：你的观点是，如果你把产品的价值（体验好坏）和好友数量画一条收益曲线：教科书的观点是它会单调递增；而你的观点是，它从零开始（因为没人的话产品没用），然后快速攀升到 10 或 20 个人，但随后可能就会触及平台期甚至开始下降？到底到多少人时，一个社交网络会因为新增用户而产生负效用？</p>
+<p><strong>Evan</strong>：我觉得我们需要谨慎地将“社交网络（Social network）”和“即时通讯服务（Messaging service）”区分开来。因为 Snapchat 本质上是一个通讯服务，哪怕你只有一两个、两三个好友，你也能获得它绝大部分的价值。这些人是你交流最频繁的，这种连接对你来说非常重要。
+就像我提到的，社交网络面临的一个大挑战是，为了拥有足够的内容来推动参与度、进而增长广告业务，它们需要不断地添加更多好友。因为信息流极其依赖新内容。
+我们在非常早期就做了一件事（你可以评价我们执行得好不好）：我们意识到我们需要向非好友内容开放。非常早地引入发布商内容和创作者内容。这样用户就不必为了看更多内容而被逼着去加好友。当他们看完了密友的动态，他们可以去看发布商的内容。
+而且我们对那些内容进行审核。我们是首批通过 Discover 服务使用 AI 对内容进行排名的公司之一。基本理念就是：不要为了让人们看内容而强迫他们加好友。直接给他们提供发布商或创作者的内容就好了。</p>
+<p><strong>John</strong>：这非常有意思。所以你认为错误的做法是让人去加更多好友，比如在 LinkedIn 上建立更多连接，就为了让动态流里有东西可看。你的观点是，你应该把“你想互动的人”和“在应用里找事做（看内容）”分开。这是两个相对独立的需求，把它们混为一谈是非常危险的。</p>
+<p><strong>Evan</strong>：记得大概是在 2016 或 2017 年，我们曾说过，你需要做的最重要的事情就是将“社交（Social）”和“媒体（Media）”分离开来。最大的错误就是把它们混在一起，这会产生很多扭曲的激励机制。
+相反，只添加那些对你重要的、关系亲密的朋友。把服务当作通讯工具。如果你愿意，可以通过 Story 和他们分享。然后，如果你想看更多内容，很好，我们为你准备了由发布商和创作者提供的整个内容世界。</p>
+<p><strong>John</strong>：确实，这太有意思了。从产品层面看，我一想到 Snapchat，显然就会联想到持久性的反面——阅后即焚（ephemerality）。关于这点的社会规范在我的生命中已经发生了很大的变化。
+我还记得我刚开始上网时，不知道你记不记得，当时的规范是“绝不在网上使用真实姓名”。互联网是个可怕的地方，实名很危险。后来我们接受了实名。
+再后来进入了一个时代，所有发布在社交网络上的东西都会被永久保存。然后我们突然意识到：“咦，把所有东西都永久保存好像不是个好主意。”我觉得人们至今仍在摸索这些东西。
+我很好奇，你认为长期的平衡状态是怎样的？你是想要一个中央存储库保存你拍过的所有照片？还是想要一切都阅后即焚？如果都是阅后即焚的，也许你有时又会很后悔没保存某条生日祝福。在这个问题上，人们如何理性对待数据，长期平衡点在哪里？我们是不是需要在“发完即毁”和“永久保存”之间，提供更细颗粒度的控制？也许我们需要新的产品发明。</p>
+<p><strong>Evan</strong>：我的总体看法是，它可能会映射我们数千年来的生活方式：生活中绝大多数的事情都是稍纵即逝的。然后你只保存那些重要的事情。你不会把你所有的想法都写下来，你当然也不会录下你的每一次对话（虽然我们正在录制这场对话）。我认为随着时间的推移，人们与技术的互动方式也会自然地演变成这样。这在 Snapchat 上已经得到了印证。
+当我们说“大家把所有的对话永远记录下来是没有意义的”，实际上这改变了人们表达自我和相互分享的方式。当时这听起来很疯狂，因为当时网上的任何东西都是永久保存的。
+早在 2012 年，我们就在谈论隐私的重要性，以及隐私与自我表达之间的关系。人们当时觉得：“你们在胡说什么？”在那个年代，所有人的口号都是“一切都将变得开放和互联，你要把自己的所有信息与全世界分享。”但这根本不是人类过去几千年的生活方式。
+展望未来，最可能发生的情况，其实现在已经发生了。就是你现在使用的大多数通讯产品，都具备消息留存设置，除非你主动保存，否则它们会删除你的对话记录。对于 Snapchat 上的动态（Snaps）也是如此。你可能只是想给朋友发点傻乎乎的东西，但如果这是一段重要的回忆，比如我两岁的儿子到处乱跑做了一件很可爱的事，我就会把它保存下来。人们与技术互动的方式将和他们与物理世界互动的方式一样：保存重要的，丢弃其余的。</p>
+<h4>青少年屏幕时间与政策 (Teen screen time and policy)</h4>
+<p><strong>John</strong>：即时通讯应用未来将走向何方？</p>
+<p><strong>Evan</strong>：对我来说，我们需要解决的大问题是：在 Specs 眼镜上沟通的最佳方式是什么？这是我现在非常感兴趣的事。我认为，未来的社交网络实际上是大家在线下聚在一起，共同使用 Specs。这让我对数字通信的未来感到兴奋。
+我觉得发消息挺好的，但这很难与真实地和亲朋好友待在一起相媲美。如果我们能创造出这种既带来科技红利，又能让你和亲友共享乐趣的技术，那绝对是一件大好事。</p>
+<p><strong>John</strong>：你不让你的孩子使用屏幕设备，你打算让他们几岁开始用？</p>
+<p><strong>Evan</strong>：我们 15 岁的孩子已经完全离不开屏幕了，这艘船早就开走了，特别是在疫情期间。至于那个两岁的婴儿，他理发的时候我们会让他看 YouTube，他很喜欢看各种工程施工的视频。</p>
+<p><strong>John</strong>：从两岁孩子的眼睛看世界一定很棒。这本身就令人惊叹。</p>
+<p><strong>Evan</strong>：是的。他特别迷那些挖掘机之类的视频。六七岁的孩子偶尔会看场电影什么的。对了，TPBN 的伙计们送了我那个 ModRetro 改造版的 Game Boy。圣诞节的时候他们也拿到了这个。</p>
+<p><strong>John</strong>：比如在上面玩《精灵宝可梦 黄》。我也得去弄一个。</p>
+<p><strong>Evan</strong>：他们会玩一会儿那个。我的意思是，目前社会上关于“如何处理儿童、青少年和手机/社交媒体的关系”存在巨大的争议。大家普遍认为成年人可以自己决定，但对青少年有很多顾虑。你觉得正确的政策立场是什么？</p>
+<p><strong>Evan</strong>：我认为真正的危险在于“一刀切”的政策，因为每个人都是不同的。儿童在发育阶段不同，我们自己的几个孩子在发育阶段、兴趣爱好上也都各不相同。无论如何，父母都需要努力培养孩子健康的生活平衡，并在不同时期为每个孩子采取最合适的做法。
+比如我们 15 岁的儿子 Flynn，他小时候经常在他爸爸家和我们家之间两头跑，所以他需要更早配手机，否则根本没法协调联系。这很重要。所以我和我妻子决定比平常更早给他配手机，肯定比我小时候拿到手机的时间早，但这符合他的实际需求。作为父母，我们最了解自己的孩子。思考什么对自己的孩子是发育上适宜的，这一点非常重要。</p>
+<p>总的来说，最让我担心的是公众情绪的巨大摇摆。你还记得疫情期间，大家的态度是“科技正在拯救我们，一整天都盯着屏幕吧。”而现在，人们又开始对屏幕感到恐慌，高呼“绝对不要用屏幕”。任何事情的健康应对之道都是寻找平衡。
+我们 15 岁的儿子喜欢艺术，非常有天赋，他也喜欢和朋友出去玩。当然，他也想放松一下看个 Netflix，或者在 Snapchat 上跟朋友聊天。这没问题，关键在于健康的平衡。
+令我深切关注的是，在当下人工智能带来如此剧烈变革的时期，年轻人必须学习如何使用这些工具。这一点至关重要。顺便说一句，当年轻人看到自己脑海中的想法被如此迅速地转化为现实时，那是非常鼓舞人心的。
+然而，所有这些技术进步都发生在人们对科技和 AI 充满怀疑和担忧的时期。我认为整个科技行业还有很多工作要做，去建立信任，确保年轻人能够接纳这些对他们未来至关重要的工具。</p>
+<p><strong>John</strong>：与此相关的是，澳大利亚刚刚全面禁止 16 岁以下青少年使用大概排名前 10 的社交媒体应用。你观察到禁令实施后，澳大利亚青少年的行为有什么变化吗？还是说你们的日志里只看到一堆使用量归零的数据？</p>
+<p><strong>Evan</strong>：这个禁令的实施存在很多挑战。正如你提到的，它只针对极少部分应用。如果一个年轻人想继续使用像 Snapchat 这样的服务，他们完全可以去用一个不在禁令名单上的克隆替代品。</p>
+<p><strong>John</strong>：基本上就是涌现了一堆直接克隆的应用？</p>
+<p><strong>Evan</strong>：我没统计具体有多少克隆产品，但替代方案多的是。应用商店里有几百万个 App。只对极少数应用实施禁令，而不是在操作系统层面去管控，这会带来很多问题。
+你可以使用面部识别，也可以使用政府 ID 来验证。但很多年轻人根本没有政府 ID。所以在应用层面去实施这种禁令，面临着现实的困难。
+对父母来说，最需要知道的一点是：他们现在已经可以通过操作系统在孩子的手机上进行配置了。苹果有很多很棒的设置功能。我们在家里就是这么管我们 15 岁的儿子的，我们可以精确决定他能用哪些 App、用多长时间。所有这些设置在操作系统层面都是对父母开放的，这是一种更有弹性、更合理的政策落实方式。
+目前的很多噪音和担忧，掩盖了一个事实：父母早就拥有这些管理工具了，而且存在了很长时间。我希望政府能花更多精力去教育家长，告诉他们有这些工具可用，因为仅仅针对几款特定应用搞封杀，真的说不通。</p>
+<p><strong>John</strong>：我同意。点名几款特定应用感觉是一种非常笨拙的执行方式，正如你所说，应用商店里有很多替代品，尤其是即时通讯工具。可替代性很强，这显然会导致人们转向其他应用，所以不清楚这项禁令到底能达到什么目的。
+当你整体思考青少年的使用情况时……比如在很多国家都有关于青少年心理健康的辩论。我其实不太知道该如何分辨那些数据。很多数据依赖于“自我报告”的心理健康状况，这个指标很难把握，因为报告标准随时在变。但与此同时，你也可以想象，应用可能被设计成会把人拽进去的“流量黑洞”，产品也可能走向糟糕的发展方向。
+我很好奇你是怎么看的。你觉得是不是青少年本身就是在摸索生活，他们生活很复杂，然后大家很容易就把社交媒体或通讯应用当成了替罪羊？
+还是你觉得，“这其中确实有正确或错误的产品设计方式。我们花了很多时间思考，不，那种产品交互特性并不好，因为它会导致糟糕的后果。”你认为在 App 层面确实有改进空间，还是这只是一只方便的替罪羊？</p>
+<p><strong>Evan</strong>：首先也是最重要的一点，我们有巨大的责任去打造一款能对世界产生积极影响的产品。
+刚才你提到“社交媒体”这个大概念，很多研究也是把 Snapchat 和 Instagram、TikTok 等等混为一谈去研究的。但也有少数独立研究（我们既未资助也没有参与），试图了解不同应用产生的影响，并对它们进行了区分。
+这非常有意思。目前可能至少有三项这样的研究了：一项来自澳大利亚，一项来自荷兰，还有一项来自美国。它们都表明：Snapchat 实际上对人们的幸福感和人际关系产生了积极的影响。这与 TikTok 或 Instagram 形成了鲜明对比，后者被认为对心理健康有负面关联。
+我认为，因为 Snapchat 是围绕你与家人朋友的沟通而构建的，而良好的人际关系是预测积极心理健康结果、衡量人从抑郁事件中恢复能力的最重要指标。所以当研究人员发现，专注于连接真实好友的 Snapchat 能带来积极结果时，我并不感到惊讶。
+对我们来说，挑战在于确保人们理解 Snapchat 的特殊定位，而不是把我们和传统社交媒体混为一谈，因为人们使用 Snapchat 的方式大相径庭，主要是作为通讯工具。我们真的希望对世界产生积极影响。我们对独立研究得出的这些结论感到自豪，但也认可人们对“过度使用技术”的担忧是有根据的。
+这就是为什么我认为保持健康的平衡如此重要。过去也有很多关于看电视的研究，看太多电视也与负面健康结果相关。凡事过犹不及。</p>
+<p><strong>John</strong>：你觉得应用产品中存在一个“孤独-连接（loneliness/connectedness）”的光谱吗？你的意思是，如果产品让你在漫无目的的信息流中刷了四个小时，滑向了“孤独”的那一端，这显然不是一个好去处；而你们试图鼓励的是走向“连接”的一端，这对青少年或任何人都更有利？</p>
+<p><strong>Evan</strong>：根据我们从独立研究中看到的，Snapchat 之所以与积极的幸福感和关系挂钩，是因为它在连接朋友。而且是在一个让人们觉得可以表达真我、展示真实的自己的环境中。你可以发张搞笑的丑照，不用承受在社交媒体上必须表现得完美的压力，也不用担心它被永久保存并受到公众的点赞和评论点评。我确实认为这是 Snapchat 的不同之处。对我们来说，不断向外界澄清“我们打造服务的方式不同”非常重要。
+其实，早期启发我们开发 Snapchat 的原因之一，正是因为我们不喜欢 Facebook。我们不喜欢社交媒体。我们不喜欢你有一个庞大且公开的好友列表，伴随着巨大的发帖压力——你觉得发出来的东西必须酷、受欢迎或是漂亮。我们是在社交媒体的陪伴下长大的，所以我们为了有所回应，创造了一个在很多方面截然不同的产品，一个我们可以跟朋友开开心心使用的东西。</p>
+<h4>内容审核 (Content moderation)</h4>
+<p><strong>John</strong>：当你思考业务中的“内容”板块时，有一种批评是：如果你掉进了一个兔子洞，算法就会把你越拉越深。如果你开始对“主权公民”的阴谋论感兴趣，你就会被拉向那个深渊。如果你一开始看了宣传厌食症的内容，你就会看到越来越多。
+这是否是你们在内容运营上需要考量的平衡问题——防止人们在兔子洞里陷得太深？</p>
+<p><strong>Evan</strong>：你刚才说的非常耐人寻味，因为人们过度关注了“算法”，而对“内容本身”的关注不够。
+我认为人们之所以盯着算法不放，是因为他们忌惮美国第一修正案（言论自由）带来的限制，不敢轻易决定服务上能展示什么内容。
+但自从我们推出 Discover，自从我们在 Snapchat 上提供内容产品以来，我们一直对内容进行审核。早年这很难，在 AI 出现之前只能靠人工审核，所以我们当时合作的发布商很少。这实际上限制了我们的增长，因为我们没有庞大的内容库。但到了今天，我们依然在审核所有在 Snapchat 上公开发布的内容。我认为这才是提供安全、负责任的内容体验的重点。</p>
+<p><strong>John</strong>：但是大家关注算法的原因，不是因为对单个用户来说，算法推送的东西就代表了“所有的内容”吗？一个无聊的内容和极具吸引力的内容，在播放量上会有好几个数量级的差别。我对这些 App 的个人体验是，算法定义了我的个人专属电视频道。</p>
+<p><strong>Evan</strong>：但拿你举的“厌食症内容兔子洞”的例子来说，我的观点是，提倡厌食症的内容本身就违反了我们的社区准则，因此从一开始就不该出现在我们的平台上。</p>
+<p><strong>John</strong>：所以你想在“审核环节”就把它拦下来？</p>
+<p><strong>Evan</strong>：在“内容准入环节”。我认为讨论的重心应该放在这里。但这在美国很难，因为这涉及第一修正案的问题，监管起来非常困难。</p>
+<p><strong>John</strong>：有意思。关于内容审核还有什么值得分享的吗？我猜这是一条摸索了十几年的漫长道路。</p>
+<p><strong>Evan</strong>：我想说的是，这非常重要。我们的社区体验到的内容质量至关重要。我们始终拥有一套公平、一致的内容指南，并向所有人公开，这样大家都能明白平台上的规矩。我们的理念是，路上必须要有交通规则。十年前可能不是这样，但现在越来越多的人开始认同，在线服务展示的内容需要有更多的规范。</p>
+<p><strong>John</strong>：大家经常谈论这个领域里的“分发机制（Distribution dynamics）”。既然你们现在的 MAU 快到十亿了，你们拥有了巨大的优势，可以把原本靠发消息积累起来的用户导流到 Discover 内容板块。但反过来，竞争对手也能模仿你们发明的某个功能，然后利用他们更大的用户基数去分发。你们在这两面都有涉猎：既拥有自己的分发渠道，同时又要面对分发能力更强的竞争对手。目前这场“分发战”进展如何？</p>
+<p><strong>Evan</strong>：也许在当今时代最重要的一点就是，分发变得越来越重要了。随着创立公司、编写软件、利用 AI 工具进行创新变得越来越容易，我认为“分发渠道”的溢价非常高。为了增长得更快，人们会把更多的资源从软件工程转移到渠道分发上。分发极其珍贵。
+今天，一个品牌想要获得曝光和牵引力非常困难。像 Snapchat 这样的平台，我认为是任何业务实现增长的关键环节。在这个特定的时代背景下，这种价值只会越来越高。</p>
+<p><strong>John</strong>：所以，尤其是在“做产品”变得更容易的今天，分发能力反倒成了你们的护城河？</p>
+<p><strong>Evan</strong>：这绝对是至关重要的。对我们来说，回顾公司的发展，我们总有无数的好点子，但能去执行的资源总是匮乏的。以前每次我们讨论“要不要做一个新 App”，结论总是：“天哪，我们抽不出 15 个人去搞一个新 App。绝不可能。”
+但现在，只需要半个人的时间，我们就能构建一项全新的服务，然后通过 Snapchat 进行分发。这对我们构建多应用战略或提供更多服务来说，这种分发能力再加上 AI 的赋能，具有极其重大的意义。</p>
+<h4>Snap 的产品开发与演进 (Snap’s evolution)</h4>
+<p><strong>John</strong>：我们前面提到 Snap 成功保持了“酷”的特质，这对一个通讯或社交应用来说是很难的。你们是如何运作产品开发的？日常是怎样的？是设计师来展示作品？是你自己想点子？大家向你提案？评审流程是怎样的？你是看可运行的 Demo 还是线框图（Wireframes）？我很想了解 Snap 的创意流程。</p>
+<p><strong>Evan</strong>：首先，我们从不刻意追求“酷”，其实“不酷才是真的酷”。我们追求的是做有用的东西，能让社区真正获得价值的东西。这一点非常重要。我们的北极星是“持久的价值（durable value）”。
+我热爱设计，那是我最开心的地方。我每周会花几个小时和设计团队在一起，什么都不做，就是看各种东西。它可以是任何形式：草图、白板上的画、功能完备的原型、或者是 PPT 里的某一页。关键在于我们要看海量的点子，每周可能要看几百个点子，关于如何进化现有服务或是打造新产品。</p>
+<p><strong>John</strong>：都是概念级别的吗？草图？</p>
+<p><strong>Evan</strong>：很多是画稿，或者是原型。现在不可思议的是，我们的设计师也开始直接写代码（shipping code）了。</p>
+<p><strong>John</strong>：有了 AI 之后，是不是因为做 Demo 变容易了，你能看到更多可运行的 Demo 了？</p>
+<p><strong>Evan</strong>：是的。更重要的是，设计师会说：“你知道吗？我早就对这个功能的现状不爽了，它在积压需求里躺了八百年了，但我对它充满热情。你看，这是我自己提交的代码合并请求（PR）。”我觉得这太酷了。</p>
+<p><strong>John</strong>：然后你是怎么筛选的呢？这周可能有一堆人给你推销好点子，数量远超你们能落地的带宽。而且我认为，你还会受限于“用户对新功能的消化能力”。即便你能把它们全做出来，你也不能一股脑塞进 App 里，那会把用户吓跑的。所以你有两个限制因素：你能做出好东西吗？用户能消化吗？有时候，“去掉某个功能”也是一个伟大的想法。所以，筛选过程是怎样的？</p>
+<p><strong>Evan</strong>：这个过程充满了辩论，我觉得这很有趣。在我们的会议上，大家全程都在大笑。我认为最重要的一点是：创意过程必须充满乐趣。否则我们做这一切是为了什么呢？
+我们努力去辩论、探索创意，并建立在彼此的想法之上。没有所谓严格的“过滤流程”。如果你有什么想带到设计会议上讨论的，尽管拿来，我们一起讨论、一起把玩。有时候我们也会觉得：“哦，这挺有意思，但也许现在不是时候。”然后过个两三年，我们会说：“天哪，你还记得我们以前瞎琢磨的那个东西吗？也许现在我们该把它做出来了。”所以这是一个探索新想法的持续迭代过程。</p>
+<p><strong>John</strong>：Brian Armstrong 来我们这里的时候谈到过，当初有人向他提出 USDC（稳定币）的想法时，他其实不太确定，觉得听起来有点扯。但他说：“好吧，既然你们想做，那就去试试吧。”后来这显然成了 Coinbase 最大的业务之一。你有没有类似的故事？一开始你不太看好，结果却大获成功的？</p>
+<p><strong>Evan</strong>：天哪，那可太多了。Streaks（连续互动 / 连火功能）就是一个。我一开始完全不喜欢 Streaks 这个主意，根本不想做，甚至多年来我一直极力主张砍掉它。我们在 Snap 一直是“反指标（anti-metric）”的。我们对任何用户数据指标都说不。</p>
+<p><strong>John</strong>：是指对内还是对外？面向用户的指标还是游戏化？</p>
+<p><strong>Evan</strong>：面向用户的指标。大多数社交服务都会展示你拥有多少好友、多少粉丝、多少点赞和评论。一切都有一个数字。我们不希望用户的体验变成去盯着一堆数字看。我们希望退居幕后，纯粹帮助你和朋友沟通。所以我这些年一直想干掉 Streaks。
+但真正改变我看法的，是后来我了解到人们有多么热爱用 Streaks 来保持与彼此的联系。依然是 <a href="mailto:evan@snap.com">evan@snap.com</a> 这个邮箱，人们会给我发邮件说：“你绝对想不到。我搬到了地球的另一端，和最好的朋友分开了；我离了婚，换了新工作；但我每一天都和最好的朋友保持着联系。”这种联系改变了他们的生活，这让我深受触动。
+我恍然大悟：“哇！”有时候，仅仅提供一个沟通的“邀请”或者一个连接的“借口”就非常重要。随着时间的推移，我转变了想法，真正看到了它的价值。</p>
+<p><strong>John</strong>：Streaks 就像是数字世界里的“走出家门”。人是需要出门走走的，在网上也一样。</p>
+<p><strong>Evan</strong>：这很有意思。关于产品设计流程，是设计师主导的吗？你有没有和 Airbnb 的 Brian 对比过笔记？他们有一种非常“设计驱动（design-forward）”的文化。Snap 的文化也是这样吗？</p>
+<p><strong>Evan</strong>：我会说 Snap 的文化是在设计、工程、产品经理以及数据科学等部门之间，经过精心管理的对话。因为对我们来说，这项业务最初就是建立在我和 Bobby 之间的对话上的。他有着深厚的工程背景，而我更多是设计背景。但他热爱设计，我也很喜欢工程。我们能从不同的角度去辩论和看待事物，这始终是推动业务增长的动力。
+我们努力在团队中复制这种模式，所以这里未必是设计主导、产品主导或工程主导。它是所有这些极其重要的职能部门之间一种健康的对话与关系。</p>
+<p><strong>John</strong>：当你提到数据科学时，我想到社交网络常常因为网络效应而在特定国家出现“爆款”现象。比如 Google 的社交网络 Orkut，很长一段时间都没什么人用，除了整个巴西的人疯狂沉迷于它。你们有没有在哪些国家极其意外地受欢迎？</p>
+<p><strong>Evan</strong>：挪威是 Snapchat 第一个真正火起来的地方。</p>
+<p><strong>John</strong>：不是美国？</p>
+<p><strong>Evan</strong>：不是美国。在别的地方都没起色，唯独在挪威火了。大概是在我们拿到风投之后，拿了 40 万美元之类的。我们在挪威增长得非常快。</p>
+<p><strong>John</strong>：就像那种骗人的梗：“我有个加拿大的女朋友，我的 App 在挪威很火，相信我。”</p>
+<p><strong>Evan</strong>：我们真的买机票飞去了挪威。我们在那里像大明星一样。走在 7-Eleven 里，人们会说：“什么？你们在 Snapchat 工作？太疯狂了。”我记得当时我就在想：“天哪，希望这种事能在更多地方发生。”那种感觉太棒了。</p>
+<p><strong>John</strong>：那是怎么发生的呢？</p>
+<p><strong>Evan</strong>：我们的一个假设是，当时的挪威既拥有高端的智能手机设备，又拥有民众能够负担得起的优质互联网连接。你回想一下 2012 年的 Snapchat，你真的需要一部 iPhone 才能使用，而且它极其消耗网络流量，因为你总是在发照片和视频。在当年，这要求其实是很高的。</p>
+<p><strong>John</strong>：挪威的条件足够成熟，所以 Snap 的星星之火就燎原了。</p>
+<p><strong>Evan</strong>：是的。后来当然在美国也发展起来了，但美国当时未必具备同样的基础网络能力或者 iPhone 普及率。</p>
+<p><strong>John</strong>：那今天呢？有没有哪些国家特别适合作为试验田？</p>
+<p><strong>Evan</strong>：挪威依然是 Snapchat 的领先市场。</p>
+<p><strong>John</strong>：这个效应居然能持续 15 年？</p>
+<p><strong>Evan</strong>：不可思议吧，是的。这也是挪威很有意思的一点，我觉得对 Snapchat 的整体认知也很适用：那是一个非常看重亲密家庭和朋友关系的文化。这对他们来说非常重要。</p>
+<p><strong>John</strong>：我对挪威的印象是基础设施太好了。国家非常富裕。他们甚至建了一些感觉完全没必要的基础设施，比如开车去一个只有 200 人的村庄，居然要穿过一条 7 公里长的海底隧道，换在别的地方肯定是坐渡轮。连给你倒健力士黑啤的酒保都有研究生学历。</p>
+<p><strong>Evan</strong>：非常准确。那是个很有意思的国家。</p>
+<p><strong>John</strong>：这些年来，你在 Snap 的领导风格发生了怎样的变化？</p>
+<p><strong>Evan</strong>：发生了很多深刻的变化。我认为关于领导力的一切都与“人”有关。我爱我们的员工。但我起初并不是学着去领导人的，我是学着去打造产品的。
+从“试图做出人们真正喜爱的东西”，到“试图以一种能够激励他人的方式去领导”……你要知道，我们现在做的事情极其艰难：在即时通讯领域与全球最大的公司竞争；研发硬件，同样是与巨头抗衡；研发基础大模型（比如我们的视频生成模型）。
+我们正在尝试做世界上最难的事情。这需要激励人们去迎接巨大的挑战，招募全球最顶尖的人才与我们并肩作战，并建立一种企业文化，让这些人在其中能做出他们人生中最出色的工作。这与单纯开发一个受人喜爱的产品在很多方面是截然不同的。
+但它们也有共通之处：都需要极大的同理心，需要理解人类，理解每个人都是不同的，懂得如何激发每个人的最大潜能。这是我今天最热爱这份工作的地方之一。</p>
+<p><strong>John</strong>：谈到硬件制造，我常听业内人士说，在美国做硬件更难，因为缺乏相应的供应链生态。特别是在深圳，可能街头转角就有一家公司能连夜给你做出 V1 版本，然后你说想换个零件，他们连夜就能调整整条生产线。
+考虑到现在大环境在谈论制造业回流，你认为这种由于供应链速度造成的快速迭代能力的差异，是美国制造业的限制因素吗？</p>
+<p><strong>Evan</strong>：当人们听到我们是在美国和英国制造 Specs 最重要的一些组件时，总是感到非常震惊。我们深思熟虑后决定，将那些最涉及核心知识产权保护（IP-sensitive）、最精密复杂的组件放在美国和英国生产。这样我们就能将生产线直接安排在研发和工程团队旁边，从而实现你说的那些极快的迭代周期。</p>
+<p><strong>John</strong>：是在内部制造，还是外包给美国的代工厂？</p>
+<p><strong>Evan</strong>：是在我们内部（In-house）。这让我们在显示技术上保持了领先。即使看看今天的 Specs，我们光波导的分辨率和性能也远远超过了竞争对手。而且我们在这个领域拥有大量的核心 IP 和专利。
+这也是我热爱硬件的原因之一。与软件相比，尤其是在今天这个 AI 时代，保护我们在硬件领域的创新和想法要容易得多。</p>
+<p><strong>John</strong>：确实，这在如今是一个巨大的考量因素。我们要不要玩个游戏？来玩掷飞镖怎么样？</p>
+<p><strong>Evan</strong>：好啊。我想试试。这里气氛刚好。</p>
+<p><em>(两人起身走向 AR 飞镖区)</em></p>
+<p><strong>John</strong>：萨蒂亚（Satya Nadella）目前是飞镖榜第一名。我们还没跟所有来访者都玩过，但你可以挑战一下他的记录。</p>
+<p><strong>Evan</strong>：我们可以先戴着 Specs 练习一下。</p>
+<p><em>(投掷飞镖中……)</em></p>
+<p><strong>John</strong>：我拿了 28 分。这是一个压哨球！哇哦！玩家 2 获胜了。我的天！51 分。你想下国际象棋吗？</p>
+<p><strong>Evan</strong>：好啊。你能看到棋盘吗？</p>
+<p><strong>John</strong>：我看到了。这就是那个棋盘。这太棒了。在酒吧里下棋，这感觉太搞笑了。将军！老实说，你现在处境很危险啊。</p>
+<p><strong>Evan</strong>：糟糕！哇，下得好。这太酷了。谢谢你！</p>
+<p><strong>John</strong>：这很有趣。我们回头见。</p>
+<p><strong>Evan</strong>：回头见。</p>
+5:["$","$L11",null,{"email":{"id":"talks-what-comes-after-smartphones-with-evan-spiegel-of-snap","sender":"Stripe","subject":"Evan Spiegel 谈智能手机之后的未来","snippet":"在本期访谈中，Snap 首席执行官埃文·斯皮格尔（Evan Spiegel）在一家英式小酒馆里与主持人 John 进行了一次深度对话，探讨了 Snap 在 2026 年迎来的“关键转折点”：备受期待的消费者版本 Spectacles 智能眼镜的发布。 埃文在对话中分享了他对计算平台演进的深刻理解。他认为智能手机已经变成了一种让人相互孤立的传统设备，而真正的增强现实（AR）眼镜迈出了让计算“回归人性”、让人们重连现实世界的第一步。","date":"2026-04-27","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["translated","interview"],"mdTheme":"magazine","sourcePath":"talks/what-comes-after-smartphones-with-evan-spiegel-of-snap.md","sourceUrl":"https://www.youtube.com/watch?v=8fZNK-M-77I&list=WL&index=11","coverImage":"$undefined","body":"$12","prompts":[]},"listPosition":{"index":88,"total":365},"matchedPerson":{"id":"stripe","name":"Stripe","email":""}}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[27201,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"IconMark"]
+c:[["$","title","0",{"children":"Evan Spiegel 谈智能手机之后的未来 · Hinbox"}],["$","meta","1",{"name":"description","content":"在本期访谈中，Snap 首席执行官埃文·斯皮格尔（Evan Spiegel）在一家英式小酒馆里与主持人 John 进行了一次深度对话，探讨了 Snap 在 2026 年迎来的“关键转折点”：备受期待的消费者版本 Spectacles 智能眼镜的发布。 埃文在对话中分享了他对计算平台演进的深刻理解。他认为智能手机已经变成了一种让人相互孤立的传统设备，而真正的增强现实（AR）眼镜迈出了让计算“回归人…"}],["$","meta","2",{"name":"application-name","content":"Hinbox"}],["$","link","3",{"rel":"canonical","href":"https://linguage.github.io/hinbox/mail/talks-what-comes-after-smartphones-with-evan-spiegel-of-snap"}],["$","meta","4",{"property":"og:title","content":"Evan Spiegel 谈智能手机之后的未来"}],["$","meta","5",{"property":"og:description","content":"在本期访谈中，Snap 首席执行官埃文·斯皮格尔（Evan Spiegel）在一家英式小酒馆里与主持人 John 进行了一次深度对话，探讨了 Snap 在 2026 年迎来的“关键转折点”：备受期待的消费者版本 Spectacles 智能眼镜的发布。 埃文在对话中分享了他对计算平台演进的深刻理解。他认为智能手机已经变成了一种让人相互孤立的传统设备，而真正的增强现实（AR）眼镜迈出了让计算“回归人…"}],["$","meta","6",{"property":"og:url","content":"https://linguage.github.io/hinbox/mail/talks-what-comes-after-smartphones-with-evan-spiegel-of-snap"}],["$","meta","7",{"property":"og:site_name","content":"Hinbox"}],["$","meta","8",{"property":"og:locale","content":"zh_CN"}],["$","meta","9",{"property":"og:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","meta","10",{"property":"og:image:width","content":"1200"}],["$","meta","11",{"property":"og:image:height","content":"630"}],["$","meta","12",{"property":"og:image:alt","content":"Evan Spiegel 谈智能手机之后的未来"}],["$","meta","13",{"property":"og:type","content":"article"}],["$","meta","14",{"property":"article:published_time","content":"2026-04-27T00:00:00.000Z"}],["$","meta","15",{"property":"article:author","content":"Stripe"}],["$","meta","16",{"property":"article:tag","content":"translated"}],["$","meta","17",{"property":"article:tag","content":"interview"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"Evan Spiegel 谈智能手机之后的未来"}],["$","meta","20",{"name":"twitter:description","content":"在本期访谈中，Snap 首席执行官埃文·斯皮格尔（Evan Spiegel）在一家英式小酒馆里与主持人 John 进行了一次深度对话，探讨了 Snap 在 2026 年迎来的“关键转折点”：备受期待的消费者版本 Spectacles 智能眼镜的发布。 埃文在对话中分享了他对计算平台演进的深刻理解。他认为智能手机已经变成了一种让人相互孤立的传统设备，而真正的增强现实（AR）眼镜迈出了让计算“回归人…"}],["$","meta","21",{"name":"twitter:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","link","22",{"rel":"icon","href":"/hinbox/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","23",{"rel":"icon","href":"/hinbox/icon.svg?icon.6ca2692a.svg","sizes":"any","type":"image/svg+xml"}],["$","$L13","24",{}]]
+8:null

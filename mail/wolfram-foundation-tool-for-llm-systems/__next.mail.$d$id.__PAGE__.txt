@@ -1,0 +1,66 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T19ba,<h2>摘要</h2>
+<p>Stephen Wolfram 提出，大语言模型虽然擅长语言理解与生成，但缺乏精确计算和可靠知识处理能力。Wolfram 希望把 Wolfram Language、Wolfram Alpha 等技术作为 LLM 系统的基础工具，通过计算增强生成机制，为模型实时提供可计算、可验证、结构化的知识与结果。</p>
+<h2>内容框架与概述</h2>
+<p>文章开头强调，大语言模型能力广泛，也具备相当强的类人表达能力，但它们并不能承担所有任务。LLM 的短板在于精确性、深层计算和可靠知识处理。Wolfram 将自己过去四十年建设的 Wolfram Language 定位为一种补充模型能力的通用基础工具，用来承接计算、数据、算法和知识表达等工作。</p>
+<p>随后，文章回顾了 Wolfram 与 ChatGPT 的早期结合。2023 年，Wolfram 曾推出 ChatGPT 插件，让模型能够调用 Wolfram Alpha 的计算能力。但当时 LLM 生态还不成熟，工具调用和系统集成方式都处在早期阶段。三年后，模型能力、工具协议和部署方式逐渐清晰，Wolfram 认为现在已经适合推出更标准化、更深入的基础工具方案。</p>
+<p>文章最后介绍了 Wolfram 新推出的三种主要接入方式。MCP Service 允许兼容 MCP 的 LLM 系统直接调用 Wolfram Foundation Tool。Agent One API 将 LLM 与 Wolfram 工具打包为一站式接口。CAG Component APIs 则提供更细粒度的组件能力，方便开发者和企业根据自己的系统架构进行定制集成。</p>
+<h2>核心概念及解读</h2>
+<p><strong>Foundation Tool｜基础工具</strong><br>
+Wolfram 对自己技术栈的新定位。意思是：它不是某个窄领域插件，而是给各种 LLM 系统调用的通用计算基础设施。它负责模型本身不擅长的精确计算、知识调用和结构化推理。</p>
+<p><strong>LLM Foundation Model｜大语言基础模型</strong><br>
+指 ChatGPT、Claude、Gemini 这类通用模型。它们能力很广，但文章强调它们的短板是“不精确、不擅长深层计算”。Wolfram 的方案不是替代 LLM，而是补上这块能力。</p>
+<p><strong>Wolfram Language｜Wolfram 语言</strong><br>
+一门面向计算表达的语言。它不仅能算数学，还能表达数据、图像、图形、地理、科学模型、算法和外部系统连接。Wolfram 认为，这种语言也适合作为 AI 进行计算式思考的中间媒介。</p>
+<p><strong>CAG｜Computation-Augmented Generation｜计算增强生成</strong><br>
+文章的技术核心。意思是在 LLM 生成回答的过程中，实时调用计算系统，让模型获得现场生成的精确内容。它比单纯检索文档更进一步，因为它不是只拿现成材料，而是可以即时计算新结果。</p>
+<p><strong>RAG｜Retrieval-Augmented Generation｜检索增强生成</strong><br>
+常见的 AI 应用方案。它通过搜索文档、知识库，把相关内容提供给 LLM。Wolfram 用它来对比 CAG：RAG 是“找已有内容”，CAG 是“现场算出内容”。</p>
+<p><strong>MCP Service｜模型上下文协议服务</strong><br>
+Wolfram 提供的一种接入方式。支持 MCP 的 LLM 系统可以通过它调用 Wolfram 的计算能力。简单说，就是让模型比较标准化地接上 Wolfram 这套工具。</p>
+<p><strong>Agent One API</strong><br>
+Wolfram 推出的“一站式代理 API”。它把 LLM 和 Wolfram Foundation Tool 打包在一起，可以作为传统 LLM API 的替代品来接入。</p>
+<p><strong>CAG Component APIs｜CAG 组件 API</strong><br>
+更细粒度的接口。适合开发者或企业把 Wolfram 的某些计算能力嵌进自己的 AI 系统里，而不是直接用完整打包方案。</p>
+<h2>文章基本信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原标题</td>
+<td><a href="https://writings.stephenwolfram.com/2026/02/making-wolfram-tech-available-as-a-foundation-tool-for-llm-systems/">Making Wolfram Tech Available as a Foundation Tool for LLM Systems</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td>Stephen Wolfram</td>
+</tr>
+<tr>
+<td>发布日期</td>
+<td>2026 年 2 月 23 日</td>
+</tr>
+</tbody>
+</table>
+<h2>文章解读</h2>
+<p>这篇文章在讲：Wolfram 想把 Wolfram Language / Wolfram|Alpha 这一套计算技术，变成大模型系统的“基础工具”。Stephen Wolfram 的判断是：LLM 擅长语言、联想、泛化，但不擅长精确计算、可靠知识和深层计算。所以未来强大的 AI 系统，不应只靠模型本身，而应把 LLM 和可计算知识系统结合起来。文章重点推出了基于 CAG，也就是“计算增强生成”的几种接入方式，包括 MCP Service、Agent One API 和 CAG Component APIs。</p>
+<h2>费曼式解读</h2>
+<p>可以把 LLM 想成一个很会说话、读过很多书的人。它能帮你解释问题、写文章、做推理，看起来很聪明。但如果你问它一个需要精确计算、严格公式、真实数据库的问题，它就容易“凭感觉说”。</p>
+<p>比如你问：“这个积分是多少？”“某个城市过去 30 年气温趋势如何？”“给我算一个复杂工程系统的参数。”<br>
+LLM 可以猜，可以组织语言，但它自己不是一个真正的数学软件、数据库系统或科学计算平台。</p>
+<p>Wolfram 想做的事就是：让 LLM 身边常备一个“计算大脑”。</p>
+<p>这个计算大脑不是一个小插件，而是一整套 Wolfram 多年来积累的东西：数学计算、符号运算、数据知识库、图像生成、科学模型、单位换算、算法系统、外部服务连接能力。LLM 负责理解人的问题、组织表达、判断什么时候调用工具；Wolfram 负责把那些需要精确、可验证、可计算的部分算出来。</p>
+<p>文章里最关键的词是 CAG，Computation-Augmented Generation，计算增强生成。它有点像 RAG，但 RAG 是“从已有文档里找材料塞给模型”，CAG 是“现场算出新材料塞给模型”。</p>
+<p>RAG 像翻资料柜：你问问题，它去找相关文档。<br>
+CAG 像旁边坐了一个数学家和工程计算器：你问问题，它现场推导、计算、查结构化知识，再把结果交给 LLM 组织成自然语言。</p>
+<p>所以 Wolfram 的核心判断是：AI 的下一步不只是训练更大的模型，而是让模型接入更可靠的外部能力。模型像大脑皮层，Wolfram Tech 像一个严肃的计算器官。没有这个器官，LLM 很会说；有了它，LLM 才更容易变成能干活的系统。</p>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"wolfram-foundation-tool-for-llm-systems","sender":"Stephen Wolfram","subject":"Wolfram 要给大模型补上一套可计算的基础工具","snippet":"Wolfram提出把Wolfram Language和Alpha作为LLM系统的基础工具，通过计算增强生成为模型提供精确计算和结构化知识。","date":"2026-02-23","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":["Wolfram","LLM工具","计算增强生成","CAG","AI基础设施"],"mdTheme":"magazine","sourcePath":"notes/wolfram-foundation-tool-for-llm-systems.md","sourceUrl":"https://writings.stephenwolfram.com/2026/02/making-wolfram-tech-available-as-a-foundation-tool-for-llm-systems/","body":"$3","prompts":[]},"listPosition":{"index":181,"total":365},"matchedPerson":{"id":"stephen-wolfram","name":"Stephen Wolfram","email":""}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

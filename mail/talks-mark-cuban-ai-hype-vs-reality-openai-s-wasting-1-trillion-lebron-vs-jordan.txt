@@ -1,0 +1,333 @@
+1:"$Sreact.fragment"
+3:I[39756,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+4:I[37457,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"ViewportBoundary"]
+b:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"MetadataBoundary"]
+d:I[68027,[],"default"]
+:HL["/hinbox/_next/static/chunks/24888a04b79e7824.css","style"]
+:HL["/hinbox/_next/static/media/fba5a26ea33df6a3-s.p.1bbdebe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"vMUiZWVsRx3pCqxArlZcR","c":["","mail","talks-mark-cuban-ai-hype-vs-reality-openai-s-wasting-1-trillion-lebron-vs-jordan"],"q":"","i":false,"f":[[["",{"children":["mail",{"children":[["id","talks-mark-cuban-ai-hype-vs-reality-openai-s-wasting-1-trillion-lebron-vs-jordan","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hinbox/_next/static/chunks/24888a04b79e7824.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[79520,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],""]
+f:I[59665,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],"default"]
+:HL["https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","style"]
+2:["$","html",null,{"lang":"zh-CN","className":"plus_jakarta_sans_9710934b-module__-vnxFq__variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function () {\n  try {\n    var theme = window.localStorage.getItem('hinbox:theme');\n    if (theme !== 'light' && theme !== 'dark' && theme !== 'sepia') {\n      theme = 'light';\n    }\n    window['__HINBOX_THEME__'] = theme;\n    document.documentElement.dataset.theme = theme;\n    document.documentElement.style.colorScheme = theme === 'dark' ? 'dark' : 'light';\n    function applyBodyTheme() {\n      if (document.body) {\n        document.body.dataset.theme = theme;\n      }\n    }\n    if (document.body) {\n      applyBodyTheme();\n    } else {\n      document.addEventListener('DOMContentLoaded', applyBodyTheme);\n    }\n  } catch (error) {\n    window['__HINBOX_THEME__'] = 'light';\n    document.documentElement.dataset.theme = 'light';\n    document.documentElement.style.colorScheme = 'light';\n  }\n})();"}}],"",["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","rel":"stylesheet"}],["$","$Le",null,{"id":"mathjax-config","strategy":"afterInteractive","children":"\n          window.MathJax = {\n            tex: {\n              inlineMath: [['$', '$'], ['\\\\(', '\\\\)']],\n              displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']],\n              processEscapes: true,\n              packages: { '[+]': ['noerrors', 'noundefined'] },\n            },\n            svg: {\n              fontCache: 'none',\n            },\n            startup: {\n              typeset: false,\n              ready: () => {\n                window.MathJax.startup.defaultReady();\n                window.dispatchEvent(new Event('MathJaxReady'));\n              },\n            },\n          };\n          "}],["$","$Le",null,{"id":"mathjax-cdn","strategy":"afterInteractive","src":"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"}]]}],["$","body",null,{"className":"font-[family-name:var(--font-jakarta)] antialiased","suppressHydrationWarning":true,"children":["",["$","$Lf",null,{"weeklyNavCounts":{"inboxWeeklyCount":10,"sentWeeklyCount":0,"starredTotalCount":21},"people":[{"id":"david-perell","name":"David Perell","email":""},{"id":"lenny-s-podcast","name":"Lenny's Podcast","email":""},{"id":"ryan-peterman","name":"Ryan Peterman","email":""},{"id":"anthropic","name":"Anthropic","email":""},{"id":"dwarkesh-patel","name":"Dwarkesh Patel","email":""},{"id":"stripe","name":"Stripe","email":""},{"id":"stephen-wolfram","name":"Stephen Wolfram","email":""},{"id":"latent-space","name":"Latent Space","email":""},{"id":"lex-fridman","name":"Lex Fridman","email":""},{"id":"steve-jobs","name":"Steve Jobs","email":""},{"id":"20vc-with-harry-stebbings","name":"20VC with Harry Stebbings","email":""},{"id":"jeremy-stern","name":"Jeremy Stern","email":""},{"id":"turing","name":"Turing","email":""},{"id":"demis-hassabis","name":"Demis Hassabis","email":""},{"id":"the-diary-of-a-ceo","name":"The Diary Of A CEO","email":""},{"id":"elon-musk","name":"Elon Musk","email":""},{"id":"sauteedveggies","name":"SauteedVeggies","email":""},{"id":"andy-matuschak","name":"Andy Matuschak","email":""},{"id":"mind-the-game","name":"Mind the Game","email":""},{"id":"ramona-shelburne","name":"Ramona Shelburne","email":""},{"id":"jared-weiss","name":"Jared Weiss","email":""},{"id":"deeplearningai","name":"DeepLearningAI","email":""},{"id":"cursor","name":"Cursor","email":""},{"id":"y-combinator","name":"Y Combinator","email":""},{"id":"openai","name":"OpenAI","email":""},{"id":"every","name":"Every","email":""},{"id":"sequoia-capital","name":"Sequoia Capital","email":""},{"id":"alex-kantrowitz","name":"Alex Kantrowitz","email":""},{"id":"peter-dizikes-mit-news","name":"Peter Dizikes ｜ MIT News","email":""},{"id":"world-finance-journal","name":"World Finance Journal","email":""},{"id":"andrej-karpathy","name":"Andrej karpathy","email":""},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","email":""},{"id":"jd-vance","name":"JD Vance","email":""},{"id":"街-大学","name":"やまぐち街なか大学","email":""},{"id":"jc","name":"JC","email":""}],"tags":[{"id":"translated","name":"translated","count":123},{"id":"interview","name":"interview","count":24},{"id":"ai","name":"ai","count":17},{"id":"人工智能","name":"人工智能","count":17},{"id":"clippings","name":"clippings","count":15},{"id":"essays","name":"Essays","count":9},{"id":"talks","name":"Talks","count":8},{"id":"深度学习","name":"深度学习","count":8},{"id":"ai-agents","name":"ai-agents","count":7},{"id":"cognition","name":"cognition","count":6},{"id":"nba","name":"NBA","count":6},{"id":"ai编程","name":"AI编程","count":5},{"id":"humanity","name":"humanity","count":5},{"id":"math","name":"math","count":5},{"id":"steve-jobs","name":"steve-jobs","count":5},{"id":"大语言模型","name":"大语言模型","count":5},{"id":"机器学习","name":"机器学习","count":5},{"id":"agi","name":"AGI","count":4},{"id":"anthropic","name":"Anthropic","count":4},{"id":"claude-code","name":"Claude Code","count":4},{"id":"doge","name":"DOGE","count":4},{"id":"nvidia","name":"nvidia","count":4},{"id":"windsurf","name":"Windsurf","count":4},{"id":"政府效率","name":"政府效率","count":4},{"id":"文艺复兴科技","name":"文艺复兴科技","count":4},{"id":"英伟达","name":"英伟达","count":4},{"id":"软件工程","name":"软件工程","count":4},{"id":"ai编程工具","name":"AI编程工具","count":3},{"id":"apple","name":"apple","count":3},{"id":"cursor","name":"Cursor","count":3},{"id":"deepseek","name":"deepseek","count":3},{"id":"linus-torvalds","name":"Linus Torvalds","count":3},{"id":"linux内核","name":"Linux内核","count":3},{"id":"llm","name":"llm","count":3},{"id":"mathematics","name":"mathematics","count":3},{"id":"reports","name":"Reports","count":3},{"id":"偏微分方程","name":"偏微分方程","count":3},{"id":"勒布朗-詹姆斯","name":"勒布朗·詹姆斯","count":3},{"id":"开源","name":"开源","count":3},{"id":"开源ai","name":"开源AI","count":3},{"id":"强化学习","name":"强化学习","count":3},{"id":"数学哲学","name":"数学哲学","count":3},{"id":"数学教育","name":"数学教育","count":3},{"id":"访谈","name":"访谈","count":3},{"id":"量化投资","name":"量化投资","count":3},{"id":"马斯克","name":"马斯克","count":3},{"id":"黄仁勋","name":"黄仁勋","count":3},{"id":"ai-agent","name":"AI Agent","count":2},{"id":"ai-coding","name":"ai-coding","count":2},{"id":"ai代理","name":"AI代理","count":2},{"id":"ai基础设施","name":"AI基础设施","count":2},{"id":"ai安全","name":"AI安全","count":2},{"id":"ai数学","name":"AI数学","count":2},{"id":"ai智能体","name":"AI智能体","count":2},{"id":"ai计算","name":"AI计算","count":2},{"id":"alphafold","name":"AlphaFold","count":2},{"id":"claude","name":"Claude","count":2},{"id":"devin","name":"Devin","count":2},{"id":"economics","name":"economics","count":2},{"id":"emacs","name":"Emacs","count":2},{"id":"essay","name":"essay","count":2},{"id":"git","name":"Git","count":2},{"id":"google","name":"Google","count":2},{"id":"ilya-sutskever","name":"Ilya Sutskever","count":2},{"id":"jeff-dean","name":"jeff-dean","count":2},{"id":"jepa","name":"JEPA","count":2},{"id":"org-mode","name":"Org mode","count":2},{"id":"programming","name":"programming","count":2},{"id":"software-engineering","name":"software-engineering","count":2},{"id":"vibe-coding","name":"Vibe Coding","count":2},{"id":"writing","name":"writing","count":2},{"id":"世界模型","name":"世界模型","count":2},{"id":"人性","name":"人性","count":2},{"id":"代数几何","name":"代数几何","count":2},{"id":"代码编辑器","name":"代码编辑器","count":2},{"id":"价值投资","name":"价值投资","count":2},{"id":"伯克希尔哈撒韦","name":"伯克希尔哈撒韦","count":2},{"id":"关税政策","name":"关税政策","count":2},{"id":"创业历程","name":"创业历程","count":2},{"id":"加速计算","name":"加速计算","count":2},{"id":"吉姆-西蒙斯","name":"吉姆·西蒙斯","count":2},{"id":"哲学","name":"哲学","count":2},{"id":"国际合作","name":"国际合作","count":2},{"id":"大型语言模型","name":"大型语言模型","count":2},{"id":"好奇心","name":"好奇心","count":2},{"id":"季后赛","name":"季后赛","count":2},{"id":"工程实践","name":"工程实践","count":2},{"id":"巴菲特","name":"巴菲特","count":2},{"id":"形式化证明","name":"形式化证明","count":2},{"id":"彼得-蒂尔","name":"彼得·蒂尔","count":2},{"id":"微软","name":"微软","count":2},{"id":"提示工程","name":"提示工程","count":2},{"id":"数学","name":"数学","count":2},{"id":"数学研究","name":"数学研究","count":2},{"id":"文班亚马","name":"文班亚马","count":2},{"id":"智能代理开发","name":"智能代理开发","count":2},{"id":"毕业演讲","name":"毕业演讲","count":2},{"id":"版本控制","name":"版本控制","count":2},{"id":"科学发现","name":"科学发现","count":2},{"id":"科技停滞","name":"科技停滞","count":2},{"id":"软件工程变革","name":"软件工程变革","count":2},{"id":"软件开发","name":"软件开发","count":2},{"id":"量子力学","name":"量子力学","count":2},{"id":"阿贝尔奖","name":"阿贝尔奖","count":2},{"id":"风险投资","name":"风险投资","count":2},{"id":"agent设计","name":"Agent设计","count":1},{"id":"ai-for-science","name":"AI for Science","count":1},{"id":"ai-编程","name":"AI 编程","count":1},{"id":"ai伦理","name":"AI伦理","count":1},{"id":"ai最佳实践","name":"AI最佳实践","count":1},{"id":"ai大模型","name":"AI大模型","count":1},{"id":"ai并购","name":"AI并购","count":1},{"id":"ai应用","name":"AI应用","count":1},{"id":"ai开发者大会","name":"AI开发者大会","count":1},{"id":"ai推理","name":"AI推理","count":1},{"id":"ai收购","name":"AI收购","count":1},{"id":"ai数学发现","name":"AI数学发现","count":1},{"id":"ai生物医药","name":"AI生物医药","count":1},{"id":"ai竞争","name":"AI竞争","count":1},{"id":"ai编程代理","name":"AI编程代理","count":1},{"id":"ai芯片","name":"AI芯片","count":1},{"id":"ai规模化","name":"AI规模化","count":1},{"id":"ai辅助学习","name":"AI辅助学习","count":1},{"id":"ai辅助开发","name":"AI辅助开发","count":1},{"id":"anysphere","name":"Anysphere","count":1},{"id":"biography","name":"biography","count":1},{"id":"blackwell架构","name":"Blackwell架构","count":1},{"id":"cag","name":"CAG","count":1},{"id":"career","name":"career","count":1},{"id":"ceo交接","name":"CEO交接","count":1},{"id":"chatgpt","name":"ChatGPT","count":1},{"id":"chris-bishop","name":"Chris Bishop","count":1},{"id":"claude-4","name":"Claude 4","count":1},{"id":"claude-sonnet-4-5","name":"Claude Sonnet 4.5","count":1},{"id":"coding-agent","name":"Coding Agent","count":1},{"id":"context-engineering","name":"Context Engineering","count":1},{"id":"cs50","name":"CS50","count":1},{"id":"cuda生态","name":"CUDA生态","count":1},{"id":"deep-search","name":"Deep Search","count":1},{"id":"deepmind","name":"DeepMind","count":1},{"id":"distributed-systems","name":"distributed-systems","count":1},{"id":"elon-musk","name":"Elon Musk","count":1},{"id":"engineering","name":"engineering","count":1},{"id":"fields奖","name":"Fields奖","count":1},{"id":"geoffrey-hinton","name":"Geoffrey Hinton","count":1},{"id":"gpt-4","name":"GPT-4","count":1},{"id":"gpt-4-5","name":"GPT-4.5","count":1},{"id":"gpu与深度学习","name":"GPU与深度学习","count":1},{"id":"gpu架构","name":"GPU架构","count":1},{"id":"gpu算力","name":"GPU算力","count":1},{"id":"grok-3","name":"Grok 3","count":1},{"id":"haskell","name":"haskell","count":1},{"id":"incident","name":"incident","count":1},{"id":"jim-simons","name":"Jim Simons","count":1},{"id":"julia","name":"Julia","count":1},{"id":"june-huh","name":"june-huh","count":1},{"id":"kaggle","name":"Kaggle","count":1},{"id":"kiro-spec模式","name":"Kiro SPEC模式","count":1},{"id":"labor","name":"labor","count":1},{"id":"lean","name":"Lean","count":1},{"id":"lisp","name":"Lisp","count":1},{"id":"llm工具","name":"LLM工具","count":1},{"id":"mcp","name":"MCP","count":1},{"id":"mit","name":"MIT","count":1},{"id":"mvp","name":"MVP","count":1},{"id":"naval-ravikant","name":"Naval Ravikant","count":1},{"id":"ncaa疯狂三月","name":"NCAA疯狂三月","count":1},{"id":"noema","name":"noema","count":1},{"id":"notes","name":"notes","count":1},{"id":"notion","name":"Notion","count":1},{"id":"nvidia-gtc-2025","name":"NVIDIA GTC 2025","count":1},{"id":"openai","name":"OpenAI","count":1},{"id":"optimus机器人","name":"Optimus机器人","count":1},{"id":"peter-lax","name":"Peter Lax","count":1},{"id":"pixar","name":"pixar","count":1},{"id":"prompt-engineering","name":"Prompt Engineering","count":1},{"id":"psychology","name":"psychology","count":1},{"id":"publishing","name":"publishing","count":1},{"id":"python","name":"Python","count":1},{"id":"reliability","name":"reliability","count":1},{"id":"report","name":"report","count":1},{"id":"research","name":"Research","count":1},{"id":"research-career","name":"research-career","count":1},{"id":"robotics","name":"robotics","count":1},{"id":"sanjay-ghemawat","name":"Sanjay Ghemawat","count":1},{"id":"satya-nadella","name":"Satya Nadella","count":1},{"id":"scaling-laws","name":"Scaling Laws","count":1},{"id":"security","name":"security","count":1},{"id":"skills","name":"skills","count":1},{"id":"slimv","name":"Slimv","count":1},{"id":"technical-report","name":"technical-report","count":1},{"id":"terence-tao","name":"terence-tao","count":1},{"id":"vim","name":"Vim","count":1},{"id":"vlime","name":"Vlime","count":1},{"id":"wolfram","name":"Wolfram","count":1},{"id":"xai","name":"xAI","count":1},{"id":"yann-lecun","name":"Yann LeCun","count":1},{"id":"yc","name":"YC","count":1},{"id":"上下文工程","name":"上下文工程","count":1},{"id":"个人反思","name":"个人反思","count":1},{"id":"个人电脑","name":"个人电脑","count":1},{"id":"中美关系","name":"中美关系","count":1},{"id":"乌克兰战争","name":"乌克兰战争","count":1},{"id":"乔姆斯基","name":"乔姆斯基","count":1},{"id":"交通基础设施","name":"交通基础设施","count":1},{"id":"产品市场契合","name":"产品市场契合","count":1},{"id":"人工智能未来","name":"人工智能未来","count":1},{"id":"人形机器人","name":"人形机器人","count":1},{"id":"人机协作","name":"人机协作","count":1},{"id":"人机博弈","name":"人机博弈","count":1},{"id":"人生哲学","name":"人生哲学","count":1},{"id":"人类未来","name":"人类未来","count":1},{"id":"人类福祉","name":"人类福祉","count":1},{"id":"代理开发","name":"代理开发","count":1},{"id":"代理式编程","name":"代理式编程","count":1},{"id":"代码生成","name":"代码生成","count":1},{"id":"任务管理","name":"任务管理","count":1},{"id":"仿真学习","name":"仿真学习","count":1},{"id":"企业采用","name":"企业采用","count":1},{"id":"众包协作","name":"众包协作","count":1},{"id":"优绩主义","name":"优绩主义","count":1},{"id":"伦理监管","name":"伦理监管","count":1},{"id":"伯克希尔-哈撒韦","name":"伯克希尔·哈撒韦","count":1},{"id":"俄乌战争","name":"俄乌战争","count":1},{"id":"保罗-狄拉克","name":"保罗·狄拉克","count":1},{"id":"保险业务","name":"保险业务","count":1},{"id":"信号处理","name":"信号处理","count":1},{"id":"信息动力学","name":"信息动力学","count":1},{"id":"信息物理学","name":"信息物理学","count":1},{"id":"全球贸易","name":"全球贸易","count":1},{"id":"公共美德","name":"公共美德","count":1},{"id":"具身智能","name":"具身智能","count":1},{"id":"写作","name":"写作","count":1},{"id":"写作工具","name":"写作工具","count":1},{"id":"冷战数学","name":"冷战数学","count":1},{"id":"创业转型","name":"创业转型","count":1},{"id":"创业领导力","name":"创业领导力","count":1},{"id":"创造力与年龄","name":"创造力与年龄","count":1},{"id":"制度经济学","name":"制度经济学","count":1},{"id":"加性数论","name":"加性数论","count":1},{"id":"包容性制度","name":"包容性制度","count":1},{"id":"医疗应用","name":"医疗应用","count":1},{"id":"半导体","name":"半导体","count":1},{"id":"协同设计","name":"协同设计","count":1},{"id":"单位距离问题","name":"单位距离问题","count":1},{"id":"南非种族隔离","name":"南非种族隔离","count":1},{"id":"卢卡-东契奇","name":"卢卡·东契奇","count":1},{"id":"压缩感知","name":"压缩感知","count":1},{"id":"变换编码","name":"变换编码","count":1},{"id":"可持续能源","name":"可持续能源","count":1},{"id":"可重复性危机","name":"可重复性危机","count":1},{"id":"史蒂夫-乔布斯","name":"史蒂夫·乔布斯","count":1},{"id":"史蒂夫-纳什","name":"史蒂夫·纳什","count":1},{"id":"同伦类型论","name":"同伦类型论","count":1},{"id":"哲学辩论","name":"哲学辩论","count":1},{"id":"国际政治","name":"国际政治","count":1},{"id":"在线教育","name":"在线教育","count":1},{"id":"地缘政治","name":"地缘政治","count":1},{"id":"埃尔德什猜想","name":"埃尔德什猜想","count":1},{"id":"埃罗尔-马斯克","name":"埃罗尔·马斯克","count":1},{"id":"埃隆-马斯克","name":"埃隆·马斯克","count":1},{"id":"基督教与科学","name":"基督教与科学","count":1},{"id":"基础主义","name":"基础主义","count":1},{"id":"基础模型","name":"基础模型","count":1},{"id":"复合工程","name":"复合工程","count":1},{"id":"外交谈判","name":"外交谈判","count":1},{"id":"多伦多大学","name":"多伦多大学","count":1},{"id":"多体物理","name":"多体物理","count":1},{"id":"多智能体协同","name":"多智能体协同","count":1},{"id":"大数假说","name":"大数假说","count":1},{"id":"太空探索","name":"太空探索","count":1},{"id":"孤子理论","name":"孤子理论","count":1},{"id":"学习路径","name":"学习路径","count":1},{"id":"学术写作","name":"学术写作","count":1},{"id":"学术建议","name":"学术建议","count":1},{"id":"学术生态","name":"学术生态","count":1},{"id":"学术研究方法","name":"学术研究方法","count":1},{"id":"学术自传","name":"学术自传","count":1},{"id":"宇宙学","name":"宇宙学","count":1},{"id":"官僚主义改革","name":"官僚主义改革","count":1},{"id":"定理证明","name":"定理证明","count":1},{"id":"家族故事","name":"家族故事","count":1},{"id":"对冲基金","name":"对冲基金","count":1},{"id":"对称性","name":"对称性","count":1},{"id":"对称性破缺","name":"对称性破缺","count":1},{"id":"小平邦彦","name":"小平邦彦","count":1},{"id":"少林寺","name":"少林寺","count":1},{"id":"就业与经济","name":"就业与经济","count":1},{"id":"就业影响","name":"就业影响","count":1},{"id":"工作尊严","name":"工作尊严","count":1},{"id":"工作流","name":"工作流","count":1},{"id":"工程精神","name":"工程精神","count":1},{"id":"幸福与成功","name":"幸福与成功","count":1},{"id":"库珀-弗拉格","name":"库珀·弗拉格","count":1},{"id":"开发环境","name":"开发环境","count":1},{"id":"开发者工具","name":"开发者工具","count":1},{"id":"开发者生产力","name":"开发者生产力","count":1},{"id":"开源模型","name":"开源模型","count":1},{"id":"形式主义","name":"形式主义","count":1},{"id":"彼得-拉克斯","name":"彼得·拉克斯","count":1},{"id":"微分几何","name":"微分几何","count":1},{"id":"心理学","name":"心理学","count":1},{"id":"思维链","name":"思维链","count":1},{"id":"慈善","name":"慈善","count":1},{"id":"慈善事业","name":"慈善事业","count":1},{"id":"慕尼黑安全会议","name":"慕尼黑安全会议","count":1},{"id":"成长型思维","name":"成长型思维","count":1},{"id":"技术监管","name":"技术监管","count":1},{"id":"技能退化","name":"技能退化","count":1},{"id":"投资哲学","name":"投资哲学","count":1},{"id":"推理时计算","name":"推理时计算","count":1},{"id":"提纲写作","name":"提纲写作","count":1},{"id":"摩根大通","name":"摩根大通","count":1},{"id":"播客","name":"播客","count":1},{"id":"政治哲学","name":"政治哲学","count":1},{"id":"数字革命","name":"数字革命","count":1},{"id":"数学反例","name":"数学反例","count":1},{"id":"数学史","name":"数学史","count":1},{"id":"数学基础","name":"数学基础","count":1},{"id":"数学实践","name":"数学实践","count":1},{"id":"数学家传记","name":"数学家传记","count":1},{"id":"数学工作流","name":"数学工作流","count":1},{"id":"数学形式化","name":"数学形式化","count":1},{"id":"数据中心","name":"数据中心","count":1},{"id":"数据效率","name":"数据效率","count":1},{"id":"数据科学","name":"数据科学","count":1},{"id":"文化多样性","name":"文化多样性","count":1},{"id":"文化转型","name":"文化转型","count":1},{"id":"文学编程","name":"文学编程","count":1},{"id":"斯多葛主义","name":"斯多葛主义","count":1},{"id":"无人机","name":"无人机","count":1},{"id":"日本数学","name":"日本数学","count":1},{"id":"日记写作","name":"日记写作","count":1},{"id":"智能代理","name":"智能代理","count":1},{"id":"智能体ai","name":"智能体AI","count":1},{"id":"智能分析","name":"智能分析","count":1},{"id":"更衣室训话","name":"更衣室训话","count":1},{"id":"未来战争","name":"未来战争","count":1},{"id":"未来趋势","name":"未来趋势","count":1},{"id":"机器人技术","name":"机器人技术","count":1},{"id":"杰米-戴蒙","name":"杰米·戴蒙","count":1},{"id":"柏拉图主义","name":"柏拉图主义","count":1},{"id":"查尔斯-巴克利","name":"查尔斯·巴克利","count":1},{"id":"查理-芒格","name":"查理·芒格","count":1},{"id":"标记语言","name":"标记语言","count":1},{"id":"格罗滕迪克","name":"格罗滕迪克","count":1},{"id":"概形","name":"概形","count":1},{"id":"模仿理论","name":"模仿理论","count":1},{"id":"模型应用","name":"模型应用","count":1},{"id":"模型驱动交易","name":"模型驱动交易","count":1},{"id":"模拟宇宙假说","name":"模拟宇宙假说","count":1},{"id":"欧洲创新","name":"欧洲创新","count":1},{"id":"欧洲民主","name":"欧洲民主","count":1},{"id":"欧盟资本市场","name":"欧盟资本市场","count":1},{"id":"欺骗性ai","name":"欺骗性AI","count":1},{"id":"比尔-盖茨","name":"比尔·盖茨","count":1},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","count":1},{"id":"沉思录","name":"沉思录","count":1},{"id":"沙奎尔-奥尼尔","name":"沙奎尔·奥尼尔","count":1},{"id":"波波维奇","name":"波波维奇","count":1},{"id":"泽连斯基","name":"泽连斯基","count":1},{"id":"活文档","name":"活文档","count":1},{"id":"测试时计算","name":"测试时计算","count":1},{"id":"涌现","name":"涌现","count":1},{"id":"深度阅读","name":"深度阅读","count":1},{"id":"湖人三连冠","name":"湖人三连冠","count":1},{"id":"炒作与现实","name":"炒作与现实","count":1},{"id":"热力学第二定律","name":"热力学第二定律","count":1},{"id":"特斯拉","name":"特斯拉","count":1},{"id":"特朗普","name":"特朗普","count":1},{"id":"狄拉克","name":"狄拉克","count":1},{"id":"狄拉克方程","name":"狄拉克方程","count":1},{"id":"理论物理","name":"理论物理","count":1},{"id":"生产力工具","name":"生产力工具","count":1},{"id":"生成式ai","name":"生成式AI","count":1},{"id":"相对论","name":"相对论","count":1},{"id":"知识管理","name":"知识管理","count":1},{"id":"研究方法","name":"研究方法","count":1},{"id":"研究生指南","name":"研究生指南","count":1},{"id":"硅谷","name":"硅谷","count":1},{"id":"社交媒体","name":"社交媒体","count":1},{"id":"社会公平","name":"社会公平","count":1},{"id":"福柯","name":"福柯","count":1},{"id":"离散几何","name":"离散几何","count":1},{"id":"私募股权","name":"私募股权","count":1},{"id":"科学哲学","name":"科学哲学","count":1},{"id":"科学研究","name":"科学研究","count":1},{"id":"科学论文","name":"科学论文","count":1},{"id":"科技史","name":"科技史","count":1},{"id":"科比-布莱恩特","name":"科比·布莱恩特","count":1},{"id":"移民政策","name":"移民政策","count":1},{"id":"稀疏表示","name":"稀疏表示","count":1},{"id":"空间技术","name":"空间技术","count":1},{"id":"竞技长青","name":"竞技长青","count":1},{"id":"笔记技巧","name":"笔记技巧","count":1},{"id":"第一性原理","name":"第一性原理","count":1},{"id":"算法与社会","name":"算法与社会","count":1},{"id":"篮球战术","name":"篮球战术","count":1},{"id":"篮球访谈","name":"篮球访谈","count":1},{"id":"类型论","name":"类型论","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"约束等距性","name":"约束等距性","count":1},{"id":"纯文本写作","name":"纯文本写作","count":1},{"id":"纯粹数学","name":"纯粹数学","count":1},{"id":"线性代数","name":"线性代数","count":1},{"id":"经典阅读","name":"经典阅读","count":1},{"id":"结对编程","name":"结对编程","count":1},{"id":"编程教学","name":"编程教学","count":1},{"id":"编程语言","name":"编程语言","count":1},{"id":"美国ai政策","name":"美国AI政策","count":1},{"id":"美国政府改革","name":"美国政府改革","count":1},{"id":"美国经济","name":"美国经济","count":1},{"id":"美欧关系","name":"美欧关系","count":1},{"id":"翻译","name":"翻译","count":1},{"id":"职业自律","name":"职业自律","count":1},{"id":"职业辩护","name":"职业辩护","count":1},{"id":"联邦政府改革","name":"联邦政府改革","count":1},{"id":"联邦财政","name":"联邦财政","count":1},{"id":"股东信","name":"股东信","count":1},{"id":"股东大会","name":"股东大会","count":1},{"id":"能源","name":"能源","count":1},{"id":"能量基模型","name":"能量基模型","count":1},{"id":"自动驾驶","name":"自动驾驶","count":1},{"id":"自我认知","name":"自我认知","count":1},{"id":"自由意志主义","name":"自由意志主义","count":1},{"id":"自由民主","name":"自由民主","count":1},{"id":"苹果","name":"苹果","count":1},{"id":"苹果公司","name":"苹果公司","count":1},{"id":"药物研发","name":"药物研发","count":1},{"id":"蓝鳍金枪鱼","name":"蓝鳍金枪鱼","count":1},{"id":"虚拟细胞","name":"虚拟细胞","count":1},{"id":"蛋白质折叠","name":"蛋白质折叠","count":1},{"id":"蜂巢思维","name":"蜂巢思维","count":1},{"id":"行为偏差","name":"行为偏差","count":1},{"id":"西部决赛","name":"西部决赛","count":1},{"id":"规模法则","name":"规模法则","count":1},{"id":"规范驱动开发","name":"规范驱动开发","count":1},{"id":"言论自由","name":"言论自由","count":1},{"id":"计算增强生成","name":"计算增强生成","count":1},{"id":"计算数学","name":"计算数学","count":1},{"id":"计算机教育","name":"计算机教育","count":1},{"id":"计算机证明","name":"计算机证明","count":1},{"id":"训练体系","name":"训练体系","count":1},{"id":"论文写作","name":"论文写作","count":1},{"id":"论文撰写","name":"论文撰写","count":1},{"id":"访谈实录","name":"访谈实录","count":1},{"id":"詹姆斯-西蒙斯","name":"詹姆斯·西蒙斯","count":1},{"id":"语言学","name":"语言学","count":1},{"id":"诺贝尔经济学奖","name":"诺贝尔经济学奖","count":1},{"id":"谷歌","name":"谷歌","count":1},{"id":"贝叶斯方法","name":"贝叶斯方法","count":1},{"id":"财政削减","name":"财政削减","count":1},{"id":"资本配置","name":"资本配置","count":1},{"id":"超级智能","name":"超级智能","count":1},{"id":"超级计算","name":"超级计算","count":1},{"id":"跨领域训练","name":"跨领域训练","count":1},{"id":"身体转型","name":"身体转型","count":1},{"id":"软件工程范式","name":"软件工程范式","count":1},{"id":"软件开发最佳实践","name":"软件开发最佳实践","count":1},{"id":"软件开发未来","name":"软件开发未来","count":1},{"id":"运动恢复","name":"运动恢复","count":1},{"id":"还原论","name":"还原论","count":1},{"id":"通用人工智能","name":"通用人工智能","count":1},{"id":"重整化","name":"重整化","count":1},{"id":"量化交易","name":"量化交易","count":1},{"id":"金融服务","name":"金融服务","count":1},{"id":"金融监管","name":"金融监管","count":1},{"id":"阅读方法","name":"阅读方法","count":1},{"id":"集合论","name":"集合论","count":1},{"id":"非虚构阅读","name":"非虚构阅读","count":1},{"id":"预训练","name":"预训练","count":1},{"id":"领导力","name":"领导力","count":1},{"id":"香农信息熵","name":"香农信息熵","count":1},{"id":"马刺","name":"马刺","count":1},{"id":"马库斯-奥勒留","name":"马库斯·奥勒留","count":1}],"moduleNavItems":[{"id":"essays","label":"Essays","href":"/?label=Essays","order":40,"icon":"BookOpen","count":62},{"id":"talks","label":"Talks","href":"/?label=Talks","order":42,"icon":"Video","count":165},{"id":"reports","label":"Reports","href":"/?label=Reports","order":41,"icon":"FileText","count":36},{"id":"notes","label":"Notes","href":"/?label=Notes","order":30,"icon":"Eye","count":78}],"children":"$L10"}]]}]]}]
+10:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"min-h-screen px-12 py-12 font-sans text-slate-900","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n            (function () {\n              var pathname = window.location.pathname || '';\n              var canonicalPrefix = '/hinbox';\n\n              if (/^/hinbox(?:/|$)/i.test(pathname) && pathname !== pathname.replace(/^/hinbox/i, canonicalPrefix)) {\n                var target = pathname.replace(/^/hinbox/i, canonicalPrefix) + window.location.search + window.location.hash;\n                window.location.replace(target);\n                return;\n              }\n            }());\n          "}}],["$","div",null,{"className":"mx-auto flex min-h-[60vh] max-w-2xl flex-col justify-center gap-4","children":[["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"页面未找到"}],["$","p",null,{"className":"text-base leading-7 text-slate-600","children":"如果你是从大写路径进入本站，系统会自动跳转到小写的规范地址。"}],["$","p",null,{"className":"text-base","children":["返回首页：",["$","a",null,{"className":"text-sky-600 underline underline-offset-4","href":"/hinbox/","children":"/hinbox/"}]]}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+11:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+12:Tb642,<h3>访谈概述</h3>
+<p>在本期《Big Technology Podcast》播客中，主持人 Alex Kantrowitz 邀请到了著名企业家、投资者（也是前达拉斯独行侠队老板）Mark Cuban。两人在现场观众面前进行了一场关于人工智能（AI）的深度对话。</p>
+<p>Mark Cuban 坚信，AI 的发展并不是线性的，而是呈<strong>指数级</strong>爆发的。他将 AI 代理（AI Agents）形象地比喻为“喝醉酒的实习生（Drunk intern）”——它们能不知疲倦地完成繁琐的工作，虽然有时会出错，但效率惊人。Cuban 强调，无论是企业还是个人，如果不能拥抱并学习如何使用这些工具，必将被时代淘汰。他指出，现有的企业如果只是把 AI 当作附加工具，将无法获得真正的回报；想要在这个时代生存，就必须在 AI 的基础上**重塑（Reformulate）**整个业务流程。</p>
+<p>此外，两人还探讨了 SaaS 软件面临的颠覆危机、OpenAI 疯狂的基础设施投资战略、AI 在垂直领域（如法律、医疗、教育）的应用潜力，以及年轻人在 AI 时代应该如何寻找创业与就业机会。在最后的“闪电快问快答”环节，Cuban 分享了他对迈克尔·乔丹、2028 年美国大选以及缩短 NBA 比赛时间的看法。</p>
+<h3>专用词语翻译列表</h3>
+<table>
+<thead>
+<tr>
+<th align="left">英文专有名词 / 术语</th>
+<th align="left">中文翻译 / 解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Agentic AI / AI Agent</td>
+<td align="left">代理式 AI / AI 智能体（能够自主执行任务、做决策的 AI 系统）</td>
+</tr>
+<tr>
+<td align="left">Large Language Models (LLMs)</td>
+<td align="left">大语言模型</td>
+</tr>
+<tr>
+<td align="left">Exponential vs. Linear</td>
+<td align="left">指数级 vs. 线性（指技术发展的速度和轨迹）</td>
+</tr>
+<tr>
+<td align="left">Vibe coding</td>
+<td align="left">凭感觉编程 / 直觉式编程（指非专业开发者依赖 AI 辅助直接生成代码）</td>
+</tr>
+<tr>
+<td align="left">MVP (Minimum Viable Product)</td>
+<td align="left">最小可行性产品</td>
+</tr>
+<tr>
+<td align="left">SaaS apocalypse</td>
+<td align="left">SaaS 末日（指 AI 可能带来的对传统软件即服务模式的颠覆）</td>
+</tr>
+<tr>
+<td align="left">FUD (Fear, Uncertainty, Doubt)</td>
+<td align="left">恐惧、不确定和怀疑（一种营销或公关策略，此处指有关 AI 开销的悲观言论）</td>
+</tr>
+<tr>
+<td align="left">Tanking</td>
+<td align="left">摆烂（体育术语，指球队故意输球以获得高顺位选秀权）</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<figure class="video-embed video-embed--youtube">
+  <div class="video-embed__frame">
+    <iframe src="https://www.youtube.com/embed/CEz9RRg0FfI" title="YouTube video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+  <figcaption class="video-embed__caption">YouTube video</figcaption>
+</figure>
+<h2>访谈正文</h2>
+<h3>开场介绍</h3>
+<p><strong>Alex:</strong>
+今天我们的现场观众非常多，这期节目肯定会放在 YouTube 上。所以，我想让在家的观众们听听现场有多少人。大家欢呼一下吧！</p>
+<p>我是 Alex Kantrowitz，《Big Technology Podcast》的主持人。非常激动能在这里和 Mark Cuban 就所有关于 AI 的话题展开对话。Mark，欢迎你。</p>
+<p><strong>Mark:</strong>
+谢谢你的邀请。</p>
+<p><strong>Alex:</strong>
+现在我们正处于一个能听到人工智能（AI）革命性力量的时刻，每天都有人在谈论 AI 的新能力。然而尽管炒作得很厉害，我们日常生活的改变却并不大。对大多数人来说，ChatGPT 可能只是他们偶尔试用一下的工具，或者就是一个更好的 Google。所以，AI 智能体（AI Agent）听起来像是未来的东西，在今天并不适用。那么，你怎么看如今“炒作”与“落地现实”之间的差距？</p>
+<p><strong>Mark:</strong>
+我不认为这中间有差距，真的没有。我认为，如果你不使用大语言模型（不管是 Claude——我最喜欢的、ChatGPT、Grok 还是 Gemini），从商业角度来看（毕竟在座的都是商界人士和学生），你已经远远落后了。如果你不知道什么是智能体，碰巧你还在公司工作或经营着一家公司，那你就大大落后了。</p>
+<p>并不是说 AI 已经像人一样聪明了，它不是终结者阿诺·施瓦辛格推门走进来要接管一切。</p>
+<h3>为什么 AI 现在如此重要</h3>
+<p><strong>Mark:</strong>
+但是，就像它之前出现的每一种技术工具一样，它正在产生重大影响。我的资历够老了，我记得当年向那些说“我们不需要个人电脑（PC）”的人推销 PC 的场景。
+然后我又和人们说：“我们要把这些 PC 连接起来。”我创办了一家公司来做这件事。结果人们说：“哦，我们不需要把它们连起来。我只需要拿着这张软盘，走到那台 PC 前插进去就行了。”</p>
+<p>接着互联网出现了。人们问：“什么是互联网？”我们创办了一家名为 Audionet 的公司，这是第一家流媒体公司，人们当时觉得我是个白痴。他们说：“等等，你想用这台 PC 来听体育比赛、听广播、看东西？老兄，我直接打开电视和收音机不就行了？”</p>
+<p>这样的事情不断重演。总有一群人敢为人先，也总有一群人唱衰。而那些敢为人先的人，通常都能走得更远。我认为今天的 AI 也是一样。</p>
+<p><strong>Alex:</strong>
+等一下，我可是做了功课的。就在不久前的 2026 年 2 月（注：根据文本假设的未来日期），你把 AI 比作“一个宿醉的实习生（Hungover intern）”，对吧？</p>
+<p><strong>Mark:</strong>
+但那指的是智能体（Agents），对吧？因为我当时的意思是，你知道智能体能做什么吗？当你把一个智能体组装起来（不管你用的是 Claude 还是什么），它能帮你完成所有你不想做的繁琐工作，以及那些你希望能抽出时间做、但就是没时间去做的琐事。
+这就好比你找了个实习生，可能是星期五早上宿醉未醒的实习生……（笑）</p>
+<p><strong>Alex:</strong>
+实习生还有别的状态吗？（笑）</p>
+<p><strong>Mark:</strong>
+对。所以，利用智能体来完成所有这些事情是非常容易的。你可以让那个真正的实习生在外面玩得晚一点，晚点来上班，因为这个 AI 智能体可以全天候（24/7）为你工作。</p>
+<h3>指数级 vs. 线性的技术创新</h3>
+<p><strong>Alex:</strong>
+你在这一路上的确表达过一些怀疑态度。我绝对同意你的观点，目前我们正处于必须使用它的时刻。但在评价 AI 时，你相对一些炒作狂热者要克制得多。
+所以，我的问题是：你曾身处过几次重大技术变革的最前沿。现在 AI 实验室对当下的描述是，这是一次“指数级（Exponential）”的变革。地平线似乎在离我们越来越近，而不是越来越远。他们说，这使它不同于我们典型的技术转型（后者往往是线性发展的）。
+你是怎么看的？指数级还是线性？</p>
+<p><strong>Mark:</strong>
+指数级。</p>
+<p><strong>Alex:</strong>
+为什么这么说？</p>
+<p><strong>Mark:</strong>
+仅仅是因为它变化得太快了。当技术是线性发展时，就像在 PC 时代，甚至是第一代 iPhone 时期。你买了第一台 iPhone，然后你听到新一代 iPhone 出来的消息，那台新 iPhone 速度更快、内存更大、网络连接更好，这就是线性的，对吧？也就是一步一个脚印，你等着下一步，然后你达到一个边际收益递减的临界点。到了那个点，你其实不太在乎现在到了第几代 iPhone 了。它很好用，但并没有什么惊天动地的东西能让你觉得必须去换它。</p>
+<p>而对于 AI 来说，变化来得太快了。智能体 AI 能够做这么多不同的事情。如果你想编程……对任何人来说都是如此。比如我的公司 Cost Plus Drugs（平价药品公司），我喜欢把我们的定价和竞争对手比较。我只需要进入 Claude 然后说：“好的，去这三个网站。这是 Cost Plus Drugs 提供的所有药品清单。挑出最贵的 25 种，我要每周收到一份价格对比报告。”
+12 分钟后，报告就出来了。</p>
+<p>这在以前是难以想象的。我自己也会写代码（至少曾经会），你也可以雇人写，你甚至可以找个醉醺醺的实习生来写。但是，能直接在手机上告诉 Claude 去做这件事，并说：“我想让它能从任何浏览器点击访问”，这太神奇了。当然，它可能会有一点问题，我会说：“不，这不对。重新排版。我更希望是这种格式。”然后它就来回调整修改。
+我的天，这是非线性的，这是直接向上飙升的（指数级）。</p>
+<p><strong>Alex:</strong>
+跟我说说这个“醉酒实习生”比喻是怎么来的？你遇到过很多这样的人吗？还是你自己曾经就是？</p>
+<p><strong>Mark:</strong>
+（笑）我的啤酒去哪了？录完节目就去喝。你知道吗？没有多少工作是我做得特别出色的。但当个醉酒实习生，那绝对是其中之一。</p>
+<p><strong>Alex:</strong>
+如果这是一个指数级的增长，那么它会走向哪里？就像你说的，iPhone 已经停滞了，iPhone 15、16、17 看起来都一样。我今天早些时候还在谈论 iPhone，我甚至不记得现在出到第几代了。</p>
+<p><strong>Mark:</strong>
+我们刚才聊的时候我也想不起来了。</p>
+<p><strong>Alex:</strong>
+而我的工作还是专门追踪这些科技动态的！如果 AI 没有所谓的“停滞期”，如果无论是“醉酒的实习生”还是 Claude 都没有瓶颈，那么这个技术时刻最终会走向何方？</p>
+<h3>AI 的短板在哪里</h3>
+<p><strong>Mark:</strong>
+说它不会有停滞期，这和说它是向上飙升和指数级增长是两码事。它可能继续呈指数级增长，不断改变它的功能，改变它能做的事情，改变它改变商业、教育和许多其他行业的方式，但它<strong>依然会达到一个停滞点</strong>。</p>
+<p>因为，我给你举一个完美的例子，说明 AI 现在还不擅长什么。假设你是个盲人，你有一只导盲犬，站在十字路口，同时你手里还有一部带有 AI 功能的手机。如果你必须在“使用导盲犬”和“举起手机让 AI 引导你”之间做出选择。我每次都会选导盲犬！</p>
+<p>当你思考现在和可预见未来的 AI 时，你会发现<strong>它无法知道其行为的后果（Consequences of its actions）</strong>。如果你向 ChatGPT 等提问，它给了你糟糕的建议，它完全不知道因为你听信了那些建议会发生什么后果。</p>
+<p>但是，一个坐在高脚椅上拿着吸管杯的 2 岁孩子，他知道当他把那个吸管杯从高脚椅上推下去时，妈妈会跑过来，而宝宝会笑得合不拢嘴。<strong>孩子知道其行为的后果，这是一个巨大的区别。</strong></p>
+<p>所以，虽然 AI 作为一种商业工具可以提供帮助，但它还不是能为你做所有决定的“万能解（End all be all）”。我认为现在的 AI 使用者正分化为两类人：<strong>为了不学习任何东西而使用 AI 的人，以及为了学习一切而使用 AI 的人。</strong></p>
+<p>你能看出区别吧？我找 AI，给它输入指令：“我必须给我老板写这份报告。给我研究资料，我交个报告上去。”完事。或者：“天哪，我老板对这个主题感兴趣，他们想要一份报告。我想学习关于这方面的一切，我想使用不同的 AI，以便能得出最佳的解决方案来帮助他们。我想要了解更多这方面的信息，这样我就能更好地准备在未来帮助他们。”</p>
+<p>当人们只是敷衍了事、把 AI 当作那那个“醉酒实习生”来用时，大家都会感到焦虑。但是，如果有机会用它来学习，<strong>它是我们前所未见的知识最伟大的普及者（Democratizer）</strong>。</p>
+<p>你可能是一个处于最恶劣家庭环境、最糟糕社区的 8 岁孩子，无论在世界哪个角落，只要你能拿到一部智能手机，能访问 ChatGPT 或 Claude，你就能接触到世界上所有的图书馆、几乎所有的教授和顾问。你可以问任何问题。比如，“我想学习社会学、了解美国宪法。”只要说“教我”，它就会为你制定一个学习计划。</p>
+<p>所以，对于那些利用 AI 来学习的人，那些充满好奇心并不断渴望学习更多知识的人来说，AI 是现象级的。只要你用 AI 来学习，你将永远比周围的人拥有优势。如果你只是用它来逃避工作，那你会过得很挣扎。</p>
+<p><strong>Alex:</strong>
+快速插一句。实际上，AI 变得越来越好的方式，非常类似于那个拿着吸管杯的孩子。这些实验室训练模型的方式是：你有一个期望的行为，当它做到了，你就奖励它；当它没做到，你不惩罚它，但不给它奖励，然后它就学会了优化。所以也许它可以产生类似的作用。</p>
+<p><strong>Mark:</strong>
+但你必须定义你正在寻找的优化目标。你必须定义所有的目标。你必须了解所有的背景信息（Context）！而在现实生活中，我们并不知道所有的背景信息。我们不知道接下来会发生什么。我们不知道它多快会发生。所以，并不是所有的信息都可以用来训练那些模型。</p>
+<p>这就好比你现在随便找个 AI 问：“告诉我伊朗的战争会如何收场？”它不管说什么，基本上都是毫无用处的废话。现实就是这样，所以你必须知道你所使用的 AI 的输出，在何处与你试图实现的目标相匹配。</p>
+<p>在游戏中训练很容易，因为排列组合是有限的。但在现实生活中试图弄清楚背景信息就难得多，也远没有那么有价值。</p>
+<h3>用 AI 重塑企业</h3>
+<p><strong>Mark:</strong>
+但在商业领域，我们往往有目标，有标准，有路径和流程。而 AI 是一项绝佳的工具，能让你优化所有这些环节。</p>
+<p><strong>Alex:</strong>
+那么利用手头的工具，今天你该如何建立一家企业？这与以前建立企业的方式有区别吗？你在努力服务客户，我应该把客户服务交给 GPT 模型吗？我想对于如何建立企业肯定有更根本的问题。</p>
+<p><strong>Mark:</strong>
+这取决于你的企业处于生命周期的哪个阶段，或者你是否正在创立一家新企业。如果你已经有一家企业，那些你曾考虑外包的事情（比如客服呼叫中心等），AI 智能体都能完美胜任。那些你会交给实习生做的事情，AI 智能体也能完美胜任。</p>
+<p>但如果你有一家大企业——我们经常听到这样的故事：大型上市公司花了很多钱试图实施 AI，但并没有真正获得投资回报率（ROI）。人们就会问：既然 AI 这么棒，为什么会这样？</p>
+<p>因为你仍然在用过去一直以来的方式运营你的企业。为了回答你的问题，想要利用好 AI，你必须<strong>彻底重塑（Reformulate）你的业务，将其建立在 AI 的基础之上</strong>。</p>
+<p>这就是在 PC 和计算机出现之前运营企业，与在 PC 和计算机出现之后运营企业之间的区别。你会采取完全不同的方式。</p>
+<p>所以现在使用 AI 创办公司，有太多不同的方式可以通过代理式 AI（Agentic AI）来处理流程、优化沟通步骤，并且利用大语言模型来加速事务。使用 ChatGPT 或 Claude 是一种极好的“提高效率的捷径”。</p>
+<p>比如我们今天收到了一封邮件，有人问关于我们网站的一个法律问题。我就把整封邮件复制粘贴到 Claude，并附上网站链接，然后说：“向我展示在这个问题上我应该考虑的所有选项。”
+在过去，面对这些事情我可能会觉得：“好吧，我得找律师，我得找负责这个团队和那个团队的人。”现在，我直接把它放进模型里，自己学习和理解。然后我再去找那个人问：“这正确吗？”这样我在律师身上花的钱少多了，花在与部门负责人沟通优化上的时间也少多了。</p>
+<p>所以，当你在创建一家企业时，由于 AI 的存在，你将走一条与 AI 出现之前完全不同的道路。</p>
+<p><strong>Alex:</strong>
+这就是为什么我们现在处于一个“技术非常强大，但并没有渗透到我们所做的一切”的时刻。因为就像你刚才描述的流程（有问题 -> 找 Claude 而不是律师），如果你在公司高层，这当然没问题。但在一个如你所说“用传统方式运行了很长时间”的公司里，如果一个人不在高层，他们需要获得一定程度的“创业精神（Entrepreneurialness）”的授权，才能走进去说：“我要真正发挥这项技术的潜力，我要在一家成熟的公司内部进行创业。”</p>
+<p><strong>Mark:</strong>
+绝对如此。就像我告诉即将大学毕业去咨询公司工作的女儿一样：你必须学习这些。因为如果你不知道如何使用“凭感觉编程（Vibe coding）”或者用智能体和 Claude 做各种事情，懂得怎么做的人就会取代你的位置。</p>
+<p><strong>Alex:</strong>
+但更大的问题难道不是她的老板是否允许她这么做吗？</p>
+<p><strong>Mark:</strong>
+不是的。它并不是个问题。你必须去了解、去把这当成工具使用并弄懂它的运作原理。随着它不断发展、快速变化，你才能跟得上。如果你的老板允许你利用这些额外的知识，那太棒了。如果他们不允许你利用，那他们做你老板的时间也长不了。</p>
+<p>如果 CEO 不明白这一点，他（或她）做 CEO 的时间也长不了。如果董事会还留着那个不使用 AI 来推动公司前进的 CEO，你告诉我，我立刻开家公司去打败他们。因为这就是现实！</p>
+<p>就像当年我们开始做流媒体时，我说：“这只是一台 PC，现在用它做流媒体很麻烦。但总有一天，你只需点击一下，视频就会播放。”而今天我们做到了。你必须能看到你的业务可能走向何方，了解如何使用可用的工具，并去猜测这些工具可能把你带向何处。</p>
+<p>特别是现在有了 AI，公司面临的最大挑战将是 CEO 必须做出决定：“嘿，我们将不得不颠覆我们正在做的大部分事情，来重塑我们的公司。因为如果我们不这样做，别人就会做，而且他们付出的成本会少得多。”</p>
+<p>在接下来的三年里，一切尘埃落定后，公司将只剩下两种：<strong>擅长使用 AI 的公司，和破产的公司。</strong></p>
+<h3>AI 时代的赢家与输家</h3>
+<p><strong>Alex:</strong>
+这可能开启一个新的竞争时代，那些后来者可以进来颠覆现有的格局。</p>
+<p><strong>Mark:</strong>
+大门已经完全敞开了。你们所有人现在都可以拿出手机，打开你最喜欢的大语言模型，想出一个创业点子。与其来找我问：“Mark，这是个好主意吗？”不如直接告诉 AI：“我想做这个，这是我的想法。给我写一份商业计划，告诉我这个想法的优缺点，我应该如何融资，经济模型应该是怎样的。”10 分钟后就搞定了！</p>
+<p>我给你举个例子。当我在自学如何使用这些东西时，我想：“我想出一个点子，看看我能不能把它一路推到申请专利的程度。”
+我想：“好吧，我们想象一下，我们在衬衫上放一个纽扣，里面有个摄像机，可以全天 24 小时录像。然后自动把所有录制的内容发送到我的手机或电脑上，并为我保存下来。我需要一份商业计划书、一份材料清单（BOM）和一份专利申请。”
+12 分钟！全搞定了。它完全正确吗？不完全是。但我继续问：“给我找这些材料清单上所有组件的供应商，并估算成本。”几分钟就出来了。</p>
+<p>尽管它不必是完美的，但想想以前要怎么做。如果我想经历同样的过程，我得去 Google 搜：“我正在考虑做这个东西……”然后你看到 15 个蓝色链接，其中 7 个是垃圾信息，白白浪费你的时间。然后你还得把它们全看一遍。
+而现在，它根据训练过的数据，以你想要的格式综合并整理好信息。你遇到任何问题，直接问它就行了。这个能“节省时间的工具”，它能满足你的好奇心，让你学到东西，这对所有地方的任何人来说都极具价值。</p>
+<p><strong>Alex:</strong>
+但从另一个角度来看，作为一名投资者，这难道不会让你感到有些烦恼吗？因为会涌入大量粗制滥造的内容（Slop）。你是一个出了名会亲自回复邮件的人。我相信你肯定注意到收件箱里出现了我们都注意到的现象——大量推销邮件听起来一模一样，因为全是用 ChatGPT 写的。</p>
+<p><strong>Mark:</strong>
+（笑）所以我创建了一个 AI 智能体来帮我筛选那些垃圾邮件。不开玩笑。你会收到很多垃圾，但我一直都会收到很多垃圾。就像在《创智赢家》（Shark Tank）节目上，人们总说他们有“下一个 Uber”、“下一个什么什么”，因为人们总是盲目跟风抄袭。
+我一直都说，如果有 1000 个人在做同一件事，你为什么想成为第 1001 个？或者如果有一万人在做，你为什么要做那一万零一个？在 AI 领域也会是一样的。</p>
+<p>对 AI 会不会有某种程度的抵触？当然会。我们将亲自去做更多的事情，因为 AI 能做的太多了。你对面对面的交流和活动的兴趣，将远大于那封“第一万零一封”写着“嘿，我看了你的 LinkedIn 资料，你看起来很聪明，我觉得你很适合这份工作”的邮件。我心想：“你把这发给我？你认真的吗？我申请了吗？”（笑）</p>
+<p>所以，是的，会有让人受不了的事情，但那是因为我们处于初期阶段。每个人都在尝试不同的东西。很大一部分这种邮件直接进了垃圾箱，就像我们仍然会接到烦人的垃圾电话一样，但至少现在它会提示你这是垃圾电话，而以前不会。你的邮箱和其他通讯工具也会发生同样的情况，AI 将进步到足以在垃圾邮件过滤中展开“AI 对抗 AI”的较量，这只是技术发展的一部分。</p>
+<p><strong>Alex:</strong>
+这其中很酷的一点不是吗？虽然它让发送推销邮件变得更容易，但它也创造了让非技术人员构建出“最小可行性产品（MVP）”并将其展示给你的能力。</p>
+<p><strong>Mark:</strong>
+哦，那是肯定的。</p>
+<p><strong>Alex:</strong>
+肯定很多人曾经对你说：“我有个关于 App 的点子。”你问：“你有开发者吗？”他们说：“没有。”那你肯定觉得这永远做不出来。但现在你真的可以做了，因为你可以让 Claude 帮你把代码写出来。这反而断了他们去借钱雇开发者的借口。</p>
+<p><strong>Mark:</strong>
+对。如果你不愿意或者没有意识到你只需去问 Claude 学习这些东西并做出一个 MVP，那你绝对不是我会投资的人。因为无论是作为创业者、员工还是学生，你能拥有的第一技能就是<strong>好奇心（Curiosity）</strong>。而没有比 AI 更好的方式来满足这种好奇心并让你保持好奇了。</p>
+<h3>软件服务 (SaaS) 的颠覆</h3>
+<p><strong>Alex:</strong>
+这还有另一面：市场一直在严厉惩罚软件（SaaS）股票，因为构建软件变得如此容易。投资者意识到，这些为规模化而构建的软件，其实永远无法完美契合人们的个性化需求，它们有很大的被颠覆的空间。借助 AI，你可以拥有更多定制化的软件，这被称为“SaaS 末日（SaaS apocalypse）”。
+你认为这种（科技股的）抛售合理吗？</p>
+<p><strong>Mark:</strong>
+既合理也不合理。取决于具体是哪家公司。</p>
+<p><strong>Alex:</strong>
+太好了，我就想知道谁安全，谁将被颠覆。这些公司的基本面如何？</p>
+<p><strong>Mark:</strong>
+你必须要有一些<strong>不可共享的独特知识产权（IP）</strong>。
+我给你举个例子，DocuSign（电子签名公司）。你可能会觉得签文件很简单，因为还有 Adobe 和其他公司做这个。但这是一家全球性公司。签署法律文件的法律规定，从不同的城市、不同的州，到不同的国家都是不一样的。你必须了解所有这些规定。所以这就是一个独特的差异化优势，你不想仅仅依赖 AI 幻觉去处理这种事。这是一个例子。</p>
+<p><strong>Alex:</strong>
+我快速反驳一下。一个 AI 智能体可以自己去查找当地法规然后输入进去。</p>
+<p><strong>Mark:</strong>
+不。你必须知道首先该把 AI 派到哪里去找，难道你要让它去爬取每一个国家、每一个州、每一个城市、每一个市政机构的数据吗？这花费的 Token 成本比你能获得的价值还高。</p>
+<p>所以我的观点是，如果一家公司的软件包含 IP（不仅仅是说“我们的软件更好、更快、更便宜”），而是一个你从其他任何地方都无法获得的数据库，并且他们没有把它开放给 AI 训练……那就是他们的机密信息。那么我认为这些公司会没事的。
+如果他们只是按“席位”销售一款标准化的通用软件，那他们就麻烦大了。</p>
+<p><strong>Alex:</strong>
+Anthropic 曾有传言说要发布一个法律插件。整个法律软件版块的股票瞬间就崩了。但这似乎不太明智，因为这些软件公司确实有专有信息。</p>
+<p><strong>Mark:</strong>
+是也不是，因为很多（法律条文）是来自 Pacer（美国法院电子记录系统）和其他公共法律数据库的。我曾和一家律师事务所交谈过类似的话题，我问：“我们能拿你们所有的法律文书来训练 AI 吗？”他们说：“不行，第一那是专有的，第二那是针对特定客户的，我们不能分享。” 所以那仅适用于该律师事务所，而不是整个法律软件。</p>
+<p><strong>Alex:</strong>
+说到另一个可能被颠覆的领域——咨询业（Consulting）。很多人说实施落地和做业务分析这种事，你给 AI 一个提示词就能一次性（One-shot）解决。你刚才提到你女儿要去咨询公司工作，你同意她去了吗？</p>
+<p><strong>Mark:</strong>
+当然同意。因为在相当长的一段时间内，我们仍然需要有人来帮助所有这些公司弄清楚如何实施 AI。不仅是如何实施，还包括如何重塑他们的业务。因为在 AI 的世界里，你要努力变得更高效、更赚钱、更有竞争力，你的做法将完全不同。</p>
+<p>对于这些 CEO 来说，最大的挑战是：我愿意为了重塑公司而颠覆我现有的业务吗？即使明知道在此期间我的股价可能会崩溃？在这个过渡期，咨询公司拥有大量专有信息和实战经验，这能引导 CEO 走过这个重组过程。</p>
+<h3>OpenAI 与 AI 开销战</h3>
+<p><strong>Alex:</strong>
+让我们简短地谈谈 AI 的商业层面。从你的角度来看，这些 AI 公司吸引的投资规模一定是令人着迷的。OpenAI 最近宣布筹集了数百亿美元（估值超过 1500 亿美元），这比史上最大的 IPO 规模还要大得多。他们计划在未来几年内花费超过一万亿美元用于基础设施建设。我很想听听你的看法，不是关于这笔支出，而是关于要让这些数字合理，他们需要什么样的“回报（Return）”？</p>
+<p><strong>Mark:</strong>
+<strong>他们永远得不到这种回报。</strong></p>
+<p><strong>Alex:</strong>
+（笑）是的。</p>
+<p><strong>Mark:</strong>
+他们只是在挥霍那些钱。我指的是在这种超级规模上。这并不是说 AI 行不通，而是看看苹果吧，他们几乎没花什么钱在底层基建上，但他们拥有一个庞大的生态基础，可以直接将 AI 插入到他们的设备中即插即用。
+其实关于开销有很多被散布的 FUD（恐惧、不确定、怀疑言论）。比如“我们要花一万亿美元，因为我们需要所有这些数据中心容量。”其实，处理能力会变得更快、更便宜，这发生的速度将比人们预期的还要快。所以，我认为他们抛出的很多天文数字并不会成为现实。</p>
+<p>但那些已经“全押（All-in）”的人，有些人花的现金比他们实际拥有的还要多。我理解他们为什么这么做，但我并不相信这对所有人都能奏效。
+原因在于，我们不知道“基础模型（Foundational models）”的商业模式，到底是会像流媒体行业那样——有一个领头羊和一群也能赚钱的玩家；还是会像搜索行业那样——实际上只剩下一家公司通吃。</p>
+<p>因此，他们必须筹集所有的钱，全力以赴，花光所能花的一切，去亲吻世界上所有他们需要讨好的戒指，以期成为那个“天选之子（The One）”。这听起来就像是在等基努·里维斯走进来拯救世界一样（《黑客帝国》的梗）。这将非常困难，我不认为它会按照他们预期的方式得到回报。</p>
+<p><strong>Alex:</strong>
+这很难做到。但如果不这样全力以赴，你也就无法继续融资。随着局势曲折发展，如果你不是赢家，你就有大麻烦了。
+让我为了争论而做个反方假设。我们目前在 AI 世界看到的一个现象是，训练已经到了不再那么“通用（General）”的地步，而是专注于特定能力。我们知道 Anthropic 专注于代码，OpenAI 曾专注于医疗保健等。而在这些具体领域中训练出极其出色的模型是很困难的。Anthropic 在代码领域的领先也说明了他们擅长此道。这是否暗示着最终会有多个赢家？</p>
+<p><strong>Mark:</strong>
+但在一个垂直领域，比如医疗保健，你有一家叫 OpenEvidence 的公司（专门做医疗AI）。OpenEvidence 实际上是在四处购买知识产权（医疗数据）。而 ChatGPT 没有。
+你将看到的情况是：如果你拥有知识产权，你申请专利的意愿会越来越低。因为一旦你申请了专利，它就对所有人公开了，这意味着每个模型都可以在上面进行训练。</p>
+<p>当我去和医院、研究机构和学校交谈时，我告诉他们：“千万不要发表（Publish），去卖掉它（Sell）！”因为你一旦发表研究成果，虽然这让你感觉很好，让你在学术界显得更有分量，但突然之间每个 AI 模型都在这上面训练过了，你就把自己的优势白白送人了。</p>
+<p>所以在垂直领域，我不知道他们是否真的能继续买到他们需要的 IP。Anthropic 用 Claude 专注于编程，这其实不能算是一个垂直领域，因为它无处不在，这是一个非常有策略的流程驱动（Process-driven）方向。</p>
+<p>当我看看其他的竞争者：Gemini 有优势，因为谷歌搜索就是 Gemini，所以当你搜索时，它返回 AI 响应并在周围卖广告，这是它顺理成章的业务。我不知道 Meta 会做什么。我也不知道 OpenAI 最终会做什么，因为我认为像 OpenAI 做医疗保健，这只算是一个功能（Feature），而不是一个产品（Product）。这只是 OpenEvidence 也拥有的一个功能，而其他人只要花钱买医疗 IP 也能加上。</p>
+<p>还有一个更大的问题，当你思考现在和未来几年的所有这些基础模型时，<strong>它们建立在文本和图片上，并没有真正理解视频，它们不知道现实世界中到底在发生什么。</strong> 就像我提到的那个 2 岁小孩推杯子的例子，AI 根本不理解。它不可能自己想出 $E=MC^2$。要做到这一点，你必须理解物理学，你必须理解这个物理世界。</p>
+<p>所以我们正在从大语言模型转向所谓的**“世界模型视角（Worldview approach）”**，它建立在理解世界的物理规律和能够解析视频的基础上。我投资了一家发射卫星的公司，他们通过观察不同材料（比如通过光谱仪）告诉你这些自然物质的构成，是木头还是石头等。我认为这将取代 Claude 和 Grok 等模型现在在做的很多事情。</p>
+<p>所以，我们还没有看到 AI 最好的样子。它只会变得越来越疯狂。
+当你看到所有这些人在花这么多钱时，如果你能做最好的编程（像 Claude 一样），那是你的利基市场，太好了。但我不知道其他人的利基市场在哪里。你知道吗？如果能有三四个赢家，也许可行，但如果有更多，就会非常困难。否则你就只不过是一个普通应用。为了做个普通应用，你刚刚花了一万亿美元。这钱也太多了吧。</p>
+<h3>Sam Altman 与 Dario Amodei</h3>
+<p><strong>Alex:</strong>
+让我问你这个。你是因为有点直言不讳、反抗建制而获得全国知名度的。你在 Sam Altman（OpenAI CEO）和 Dario Amodei（Anthropic CEO）身上看到了一点你自己的影子吗？</p>
+<p><strong>Mark:</strong>
+在 Dario 身上也许看到了一点，但在 Sam 身上没有。</p>
+<p><strong>Alex:</strong>
+展开说说。</p>
+<p><strong>Mark:</strong>
+我的意思是，Dario 现在试图把所有人都吓坏（强调AI的危险性），对吧？但这其实是“融资策略”的一部分。就像我们当年做 Broadcast.com 时，我也会说：“我们将取代有线电视和卫星电视。”当时并没有，但我一直说“过几年就会了”。现在 30 年过去了，我们某种程度上确实实现了。</p>
+<p>我认为 Dario 正带着 Claude 奋力向前推进，我认为他们在编程和智能体上的利基市场能稳得住。而且我认为他们明白自己也可能必须转向“世界模型”。</p>
+<p>而 Sam 是在“漫天撒网”，我认为这最终会反噬他。
+我只是觉得……他们曾打算购买一家芯片公司 40% 的内存芯片，结果又退出了。你不能这样做。到了某个时候，人们会停止信任你，不再想和你做生意。他们刚刚把他从安全委员会转移到了其他地方。我认为 Sam 取得了很多惊人的成就，但我看不出他这种到处沟通画大饼的方式，除了能帮他筹钱之外还有什么真正的好处。</p>
+<p><strong>Alex:</strong>
+所以你会给他什么建议？</p>
+<p><strong>Mark:</strong>
+他们根本不需要我的建议。这是一切都太早期了，变化太快了。你必须与尽可能多的人保持联系。但我认为，你必须更深入地参与到底层应用中，而不仅仅是盯着程序员。
+我认为苹果在某些方面做得对：每个拥有 iPhone 的人，都可以即插即用地接入任何你想要的 AI 模型，而且苹果有能力在某个时候选择把它们换成自己的模型，或者就像他们对搜索引擎做的那样——仅仅是为了流量付费或者收钱。</p>
+<p>但我认为，AI 公司应该去接触孩子们，向学校展示如何使用 AI，让 AI 成为教育普及的工具，成为让老师能够点亮每个学生眼中光芒的工具。现在我们的教学方式是，老师制定教学大纲，然后用同样的方式教所有人，并期望所有学生对同样的问题给出标准的答案，一旦不同，老师就抓狂。但是有了 AI……老师之所以教不好，是因为他们在向班里的每个学生问同样的问题。</p>
+<h3>AI 在教育领域的潜力</h3>
+<p><strong>Mark:</strong>
+当我和老师交谈时，我告诉他们：对你们来说，最难的部分是点亮孩子们眼中的光芒，让他们对某门学科真正感到兴奋。而利用 AI，你可以为每个学生实现<strong>个性化教学</strong>。</p>
+<p>你可以说：“我们正在学习美国历史的宪法部分。六年级的小比利可能成绩不是那么好，所以我们将建立一个适应比利学习进度的 AI 项目。”AI 根据比利的回答重新组合问题，并让老师和父母随时了解比利的进度。如果他喜欢了解保罗·里维尔（Paul Revere）胜过乔治·华盛顿，AI 就可以在保罗·里维尔身上花更多时间，以提高他的兴趣。
+你可以用 AI 个性化任何主题。这是传统教学无法做到的。</p>
+<p>回答你关于“对 AI 公司有什么建议”的问题，我认为通过让学生和老师对 AI 功能感到兴奋，就能创造一个坚实的基础，他们会对这些工具感到熟悉，并长期坚持使用。</p>
+<p><strong>Alex:</strong>
+对学生进行个性化辅导，似乎能让成绩提高两倍标准差。</p>
+<p><strong>Mark:</strong>
+我不知道具体数据，但这听起来非常合理。因为费用昂贵，这么多年来很多人都无法获得这种个性化辅导。但现在，如果你能在规模上普及它，它能节省时间和开支。比如课后作业，如果你回家在笔记本电脑或手机上，知识通过生动的图形和视频以一种有趣的方式呈现，而且 AI 能够理解你是否真正参与其中。AI 判断你是否在认真回答问题或者提出问题，这并不难。它不仅适用于教孩子，也适用于教任何人任何东西！</p>
+<p>如果你用过 Google 的 Notebook LM，你可以把你想要的任何东西（比如一本枯燥的培训手册）变成一个对话播客！这简直太疯狂了。比如你想做一个关于“如何保持美国航空中心洗手间清洁”的播客。它就能生成一男一女两个主持人的对话：“我们刚才正在浏览如何保持洗手间清洁的培训手册，这里面他们使用的工具非常有趣……”
+它能让年轻人愿意去听，尤其是如果你把它做成一个在你谈论拖把和地板清洁剂混合液时还能让你笑出声的播客。它正在改变我们教育人们的方式。</p>
+<p>如果你利用并学会应用它，无论是作为创业者、CEO、经理、员工、学生还是老师，你都会拥有优势。如果你不这样做，还在用老一套的方式，你就会得到老一套的下场。</p>
+<h3>谁将在这场变革中胜出</h3>
+<p><strong>Alex:</strong>
+那么在这个时代，究竟是谁能成功呢？</p>
+<p><strong>Mark:</strong>
+就是那些学会把工具用到最好的人。那些认识到一个 AI 世界中最重要的关键词是**迭代（Iterate）**的人。随着工具的改变，你必须不断迭代、不断改进。你必须认识到你在变得更聪明，你的员工在变得更聪明，你的客户在变得更聪明，智能体会互相交流也会变得更聪明。</p>
+<p>作为一名创业者，我知道那种感觉：大家都在努力达到某个门槛。“我的销售额达到了 50 万！”“我销售额达到了 100 万！”“我盈利了！”“我有 10 个员工了！”然后你开始想：“好吧，我的公司稳了，客户喜欢我。”
+但在 AI 的宇宙中，现在的你比以往任何时候都必须不断改进。因为任何人都可以进来，看到你没有在改进、不理解新工具，然后来抢你的生意。你必须不断迭代。</p>
+<p><strong>Alex:</strong>
+我从不止一个人那里听到过，他们认为在公司内有效地使用这些工具，就意味着他们正在训练 AI 来取代自己。在某些情况下这肯定是事实。当这项技术继续发展时，你认为更广泛的就业情况会发生什么？</p>
+<p><strong>Mark:</strong>
+肯定会有人被取代。这是毫无疑问的。但我不是那种说“以后工作将变成可选项（Elon Musk 原话）”或者“50% 会失业”的人。不。
+如果你的工作只是在重新排版，或者你只是在回答“是或否”，那么你很有可能被 AI 取代。<strong>但如果你是一个具有批判性思维的人（Critical thinker），你永远被需要。</strong></p>
+<p>如果你是一个具有批判性思维的人，并且懂得如何使用这些工具，明白哪里最适合用智能体，哪里不适合；哪里适合用“感觉编程”，哪里不适合……就像我告诉我女儿的，如果你学会了使用这些工具，能批判性地思考，保持好奇心和持续学习，你将永远有工作。
+因为正如我所说，AI 不知道其行为的后果。你绝对不想在你的业务中只是盲目相信 AI。你需要有人作为缓冲，去理解如何、何地、何时、为什么使用它，或者为什么不使用它。这在许多情况下就是“中层管理”的价值。而且很多公司必须彻底重塑自我，他们将需要明白如何让所有这些拼图协同工作的人。</p>
+<p>所以，我认为会有足够的工作机会。对于现在的 16 岁年轻人或者应届毕业生，我会建议他们去学习关于 AI 的一切。然后走进那些中小型企业，告诉他们：“让我进门。那些在你们待办事项清单底部积压已久的事，让我展示如何用智能体来帮你们完成。这能让你们更高效、更有竞争力、赚更多钱。”</p>
+<p>我给你举个完美的例子。我在《创智赢家》投过一家叫 Rebel Cheese 的公司，他们卖纯素奶酪并运往世界各地。就像很多寄包裹的公司一样，你知道快递公司有不同的箱子尺寸和运费分区。而且他们也知道，快递公司往往向你收取了错误（更贵）的运费。
+这就听起来很熟悉对吧？</p>
+<p>所以，Rebel Cheese 团队写了一个小智能体。当包裹准备发货时，它会拍下箱子的照片并计算尺寸，查看价格表，然后拍下快递账单，进行对比。当发现不一致时，智能体会自动生成退款请求。他们每个月能省下 5 万美元！而且全自动，不需要人工干预。这就是智能体派上用场的地方。</p>
+<p>如果你毕业了，你应该去找这些中小型公司，每小时收他们 100 美元。而且随着新版本的推出，那些智能体可能需要修改。所以你还会有源源不断的经常性收入。</p>
+<p><strong>Alex:</strong>
+你的建议是年轻人应该去小公司做内部员工，那他们为什么不干脆自己创业，把这当成一种服务来卖呢？</p>
+<p><strong>Mark:</strong>
+当我说去中小型企业时，我指的就是这个。去向他们展示那些太繁琐、耗时的事情，交给智能体去做。如果你不知道智能体是什么，你必须去学。最好的学习方式就是去问 ChatGPT：“我对 AI 完全是个新手。到底什么是智能体？你能教我怎么做吗？它会如何影响我的业务？”</p>
+<p>我还要补充一点：<strong>作为 CEO、经理或员工，如果你害怕与你的 AI 进行一次“推心置腹（Heart-to-heart）”的谈话，你就会落后。</strong> 我不是指个人生活，比如“这男的适合我吗？”或者“我该和这女孩约会吗？”不。
+我的意思是，开始和 AI 交谈刚开始会觉得有点怪异。比如我把它连在车里，我一边开车一边和它聊天，然后我会突然觉得：“这有点奇怪。”
+但你必须克服这种犹豫。因为就像我给你的那个专利申请的例子，AI 给出的答案是非常好的。如果你不让自己适应这种交流，你的职业和商业生活将会变得困难得多。</p>
+<p><strong>Alex:</strong>
+最后两分钟，我们进入“闪电快问快答”环节。</p>
+<h3>闪电快问快答</h3>
+<p><strong>Alex:</strong>
+第一个问题：迈克尔·乔丹还是勒布朗·詹姆斯单挑谁会赢？</p>
+<p><strong>Mark:</strong>
+乔丹。毫无疑问。</p>
+<p><strong>Alex:</strong>
+科比能打败他们中任何一个吗？</p>
+<p><strong>Mark:</strong>
+是的。他们都太出色了，在任何一场特定比赛中，谁都有可能击败谁。</p>
+<p><strong>Alex:</strong>
+2028 年美国大选，你最喜欢哪位候选人？</p>
+<p><strong>Mark:</strong>
+巴特·辛普森（《辛普森一家》角色，开玩笑）。现在还不是 2028 年。关于政治我说什么都改变不了人们的想法。我是做医疗保健（Cost Plus Drugs）的。共和党需要低价药，民主党也需要低价药。这就是我唯一关心的。</p>
+<p><strong>Alex:</strong>
+NBA 应该缩短比赛时间吗？</p>
+<p><strong>Mark:</strong>
+是的，缩短到 40 分钟。因为无论是 NCCA“疯狂三月”、WNBA 还是奥运会篮球，40 分钟的比赛没人会觉得不满。从 48 分钟缩短到 40 分钟，相当于一个赛季减少了 14 场比赛的时间，这有助于保护球员的身体。
+而且这会让比赛变得更好看，因为现在我们总是在前三节慢吞吞地打，而如果缩短时间，第四节很快就会到来，每一次球权的影响都会更大。同时爆冷的几率也会增加。
+另外你看电视收视率最高的运动——橄榄球。一场橄榄球比赛实际的比赛时间有多少？大概只有 12 到 15 分钟。体育比赛的实际进行时间越少，收视率往往越高。</p>
+<p><strong>Alex:</strong>
+最后一个问题。你如何修复 NBA 选秀制度？</p>
+<p><strong>Mark:</strong>
+人们认为现在的问题是“球队为了选秀权故意摆烂（Tanking）”。其实不仅是外界，连 NBA 官方都搞错了，这根本不是摆烂的问题。这是“如何重建一支球队”的问题。
+当你是一支烂队时，你的薪资总额较低。所以你在交易选秀权时有更多的灵活性。我认为首先是缩短比赛时间。其次，你要更严格地限制选秀权的交易数量。比如现在可以交易未来 7 年的选秀权，你应该把它限制在不能交易 3 年以后的选秀权，并且减少一支球队在同一时间可以拥有的首轮签数量。因为一旦你不能囤积更多的选秀权，你也就没有理由一直保持在工资帽以下了。既然不能一直压低薪资，那你还不如努力让球队变得更好。这就是我的做法。</p>
+<p><strong>Alex:</strong>
+非常棒。我们时间到了。非常感谢你们，现场的观众太棒了！</p>
+5:["$","$L11",null,{"email":{"id":"talks-mark-cuban-ai-hype-vs-reality-openai-s-wasting-1-trillion-lebron-vs-jordan","sender":"Alex Kantrowitz","subject":"Mark Cuban 谈 AI 炒作与现实","snippet":"在本期《Big Technology Podcast》播客中，主持人 Alex Kantrowitz 邀请到了著名企业家、投资者（也是前达拉斯独行侠队老板）Mark Cuban。两人在现场观众面前进行了一场关于人工智能（AI）的深度对话。 Mark Cuban 坚信，AI 的发展并不是线性的，而是呈指数级爆发的。","date":"2026-04-30","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["translated","interview"],"mdTheme":"magazine","sourcePath":"talks/mark-cuban-ai-hype-vs-reality-openai-s-wasting-1-trillion-lebron-vs-jordan.md","sourceUrl":"https://www.youtube.com/watch?v=CEz9RRg0FfI&list=WL&index=3","coverImage":"$undefined","body":"$12","prompts":[]},"listPosition":{"index":76,"total":365},"matchedPerson":{"id":"alex-kantrowitz","name":"Alex Kantrowitz","email":""}}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[27201,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"IconMark"]
+c:[["$","title","0",{"children":"Mark Cuban 谈 AI 炒作与现实 · Hinbox"}],["$","meta","1",{"name":"description","content":"在本期《Big Technology Podcast》播客中，主持人 Alex Kantrowitz 邀请到了著名企业家、投资者（也是前达拉斯独行侠队老板）Mark Cuban。两人在现场观众面前进行了一场关于人工智能（AI）的深度对话。 Mark Cuban 坚信，AI 的发展并不是线性的，而是呈指数级爆发的。"}],["$","meta","2",{"name":"application-name","content":"Hinbox"}],["$","link","3",{"rel":"canonical","href":"https://linguage.github.io/hinbox/mail/talks-mark-cuban-ai-hype-vs-reality-openai-s-wasting-1-trillion-lebron-vs-jordan"}],["$","meta","4",{"property":"og:title","content":"Mark Cuban 谈 AI 炒作与现实"}],["$","meta","5",{"property":"og:description","content":"在本期《Big Technology Podcast》播客中，主持人 Alex Kantrowitz 邀请到了著名企业家、投资者（也是前达拉斯独行侠队老板）Mark Cuban。两人在现场观众面前进行了一场关于人工智能（AI）的深度对话。 Mark Cuban 坚信，AI 的发展并不是线性的，而是呈指数级爆发的。"}],["$","meta","6",{"property":"og:url","content":"https://linguage.github.io/hinbox/mail/talks-mark-cuban-ai-hype-vs-reality-openai-s-wasting-1-trillion-lebron-vs-jordan"}],["$","meta","7",{"property":"og:site_name","content":"Hinbox"}],["$","meta","8",{"property":"og:locale","content":"zh_CN"}],["$","meta","9",{"property":"og:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","meta","10",{"property":"og:image:width","content":"1200"}],["$","meta","11",{"property":"og:image:height","content":"630"}],["$","meta","12",{"property":"og:image:alt","content":"Mark Cuban 谈 AI 炒作与现实"}],["$","meta","13",{"property":"og:type","content":"article"}],["$","meta","14",{"property":"article:published_time","content":"2026-04-30T00:00:00.000Z"}],["$","meta","15",{"property":"article:author","content":"Alex Kantrowitz"}],["$","meta","16",{"property":"article:tag","content":"translated"}],["$","meta","17",{"property":"article:tag","content":"interview"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"Mark Cuban 谈 AI 炒作与现实"}],["$","meta","20",{"name":"twitter:description","content":"在本期《Big Technology Podcast》播客中，主持人 Alex Kantrowitz 邀请到了著名企业家、投资者（也是前达拉斯独行侠队老板）Mark Cuban。两人在现场观众面前进行了一场关于人工智能（AI）的深度对话。 Mark Cuban 坚信，AI 的发展并不是线性的，而是呈指数级爆发的。"}],["$","meta","21",{"name":"twitter:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","link","22",{"rel":"icon","href":"/hinbox/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","23",{"rel":"icon","href":"/hinbox/icon.svg?icon.6ca2692a.svg","sizes":"any","type":"image/svg+xml"}],["$","$L13","24",{}]]
+8:null

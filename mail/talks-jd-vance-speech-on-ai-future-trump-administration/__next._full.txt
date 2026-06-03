@@ -1,0 +1,294 @@
+1:"$Sreact.fragment"
+3:I[39756,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+4:I[37457,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"ViewportBoundary"]
+b:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"MetadataBoundary"]
+d:I[68027,[],"default"]
+:HL["/hinbox/_next/static/chunks/24888a04b79e7824.css","style"]
+:HL["/hinbox/_next/static/media/fba5a26ea33df6a3-s.p.1bbdebe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"vMUiZWVsRx3pCqxArlZcR","c":["","mail","talks-jd-vance-speech-on-ai-future-trump-administration"],"q":"","i":false,"f":[[["",{"children":["mail",{"children":[["id","talks-jd-vance-speech-on-ai-future-trump-administration","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hinbox/_next/static/chunks/24888a04b79e7824.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[79520,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],""]
+f:I[59665,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],"default"]
+:HL["https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","style"]
+2:["$","html",null,{"lang":"zh-CN","className":"plus_jakarta_sans_9710934b-module__-vnxFq__variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function () {\n  try {\n    var theme = window.localStorage.getItem('hinbox:theme');\n    if (theme !== 'light' && theme !== 'dark' && theme !== 'sepia') {\n      theme = 'light';\n    }\n    window['__HINBOX_THEME__'] = theme;\n    document.documentElement.dataset.theme = theme;\n    document.documentElement.style.colorScheme = theme === 'dark' ? 'dark' : 'light';\n    function applyBodyTheme() {\n      if (document.body) {\n        document.body.dataset.theme = theme;\n      }\n    }\n    if (document.body) {\n      applyBodyTheme();\n    } else {\n      document.addEventListener('DOMContentLoaded', applyBodyTheme);\n    }\n  } catch (error) {\n    window['__HINBOX_THEME__'] = 'light';\n    document.documentElement.dataset.theme = 'light';\n    document.documentElement.style.colorScheme = 'light';\n  }\n})();"}}],"",["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","rel":"stylesheet"}],["$","$Le",null,{"id":"mathjax-config","strategy":"afterInteractive","children":"\n          window.MathJax = {\n            tex: {\n              inlineMath: [['$', '$'], ['\\\\(', '\\\\)']],\n              displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']],\n              processEscapes: true,\n              packages: { '[+]': ['noerrors', 'noundefined'] },\n            },\n            svg: {\n              fontCache: 'none',\n            },\n            startup: {\n              typeset: false,\n              ready: () => {\n                window.MathJax.startup.defaultReady();\n                window.dispatchEvent(new Event('MathJaxReady'));\n              },\n            },\n          };\n          "}],["$","$Le",null,{"id":"mathjax-cdn","strategy":"afterInteractive","src":"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"}]]}],["$","body",null,{"className":"font-[family-name:var(--font-jakarta)] antialiased","suppressHydrationWarning":true,"children":["",["$","$Lf",null,{"weeklyNavCounts":{"inboxWeeklyCount":10,"sentWeeklyCount":0,"starredTotalCount":21},"people":[{"id":"david-perell","name":"David Perell","email":""},{"id":"lenny-s-podcast","name":"Lenny's Podcast","email":""},{"id":"ryan-peterman","name":"Ryan Peterman","email":""},{"id":"anthropic","name":"Anthropic","email":""},{"id":"dwarkesh-patel","name":"Dwarkesh Patel","email":""},{"id":"stripe","name":"Stripe","email":""},{"id":"stephen-wolfram","name":"Stephen Wolfram","email":""},{"id":"latent-space","name":"Latent Space","email":""},{"id":"lex-fridman","name":"Lex Fridman","email":""},{"id":"steve-jobs","name":"Steve Jobs","email":""},{"id":"20vc-with-harry-stebbings","name":"20VC with Harry Stebbings","email":""},{"id":"jeremy-stern","name":"Jeremy Stern","email":""},{"id":"turing","name":"Turing","email":""},{"id":"demis-hassabis","name":"Demis Hassabis","email":""},{"id":"the-diary-of-a-ceo","name":"The Diary Of A CEO","email":""},{"id":"elon-musk","name":"Elon Musk","email":""},{"id":"sauteedveggies","name":"SauteedVeggies","email":""},{"id":"andy-matuschak","name":"Andy Matuschak","email":""},{"id":"mind-the-game","name":"Mind the Game","email":""},{"id":"ramona-shelburne","name":"Ramona Shelburne","email":""},{"id":"jared-weiss","name":"Jared Weiss","email":""},{"id":"deeplearningai","name":"DeepLearningAI","email":""},{"id":"cursor","name":"Cursor","email":""},{"id":"y-combinator","name":"Y Combinator","email":""},{"id":"openai","name":"OpenAI","email":""},{"id":"every","name":"Every","email":""},{"id":"sequoia-capital","name":"Sequoia Capital","email":""},{"id":"alex-kantrowitz","name":"Alex Kantrowitz","email":""},{"id":"peter-dizikes-mit-news","name":"Peter Dizikes ｜ MIT News","email":""},{"id":"world-finance-journal","name":"World Finance Journal","email":""},{"id":"andrej-karpathy","name":"Andrej karpathy","email":""},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","email":""},{"id":"jd-vance","name":"JD Vance","email":""},{"id":"街-大学","name":"やまぐち街なか大学","email":""},{"id":"jc","name":"JC","email":""}],"tags":[{"id":"translated","name":"translated","count":123},{"id":"interview","name":"interview","count":24},{"id":"ai","name":"ai","count":17},{"id":"人工智能","name":"人工智能","count":17},{"id":"clippings","name":"clippings","count":15},{"id":"essays","name":"Essays","count":9},{"id":"talks","name":"Talks","count":8},{"id":"深度学习","name":"深度学习","count":8},{"id":"ai-agents","name":"ai-agents","count":7},{"id":"cognition","name":"cognition","count":6},{"id":"nba","name":"NBA","count":6},{"id":"ai编程","name":"AI编程","count":5},{"id":"humanity","name":"humanity","count":5},{"id":"math","name":"math","count":5},{"id":"steve-jobs","name":"steve-jobs","count":5},{"id":"大语言模型","name":"大语言模型","count":5},{"id":"机器学习","name":"机器学习","count":5},{"id":"agi","name":"AGI","count":4},{"id":"anthropic","name":"Anthropic","count":4},{"id":"claude-code","name":"Claude Code","count":4},{"id":"doge","name":"DOGE","count":4},{"id":"nvidia","name":"nvidia","count":4},{"id":"windsurf","name":"Windsurf","count":4},{"id":"政府效率","name":"政府效率","count":4},{"id":"文艺复兴科技","name":"文艺复兴科技","count":4},{"id":"英伟达","name":"英伟达","count":4},{"id":"软件工程","name":"软件工程","count":4},{"id":"ai编程工具","name":"AI编程工具","count":3},{"id":"apple","name":"apple","count":3},{"id":"cursor","name":"Cursor","count":3},{"id":"deepseek","name":"deepseek","count":3},{"id":"linus-torvalds","name":"Linus Torvalds","count":3},{"id":"linux内核","name":"Linux内核","count":3},{"id":"llm","name":"llm","count":3},{"id":"mathematics","name":"mathematics","count":3},{"id":"reports","name":"Reports","count":3},{"id":"偏微分方程","name":"偏微分方程","count":3},{"id":"勒布朗-詹姆斯","name":"勒布朗·詹姆斯","count":3},{"id":"开源","name":"开源","count":3},{"id":"开源ai","name":"开源AI","count":3},{"id":"强化学习","name":"强化学习","count":3},{"id":"数学哲学","name":"数学哲学","count":3},{"id":"数学教育","name":"数学教育","count":3},{"id":"访谈","name":"访谈","count":3},{"id":"量化投资","name":"量化投资","count":3},{"id":"马斯克","name":"马斯克","count":3},{"id":"黄仁勋","name":"黄仁勋","count":3},{"id":"ai-agent","name":"AI Agent","count":2},{"id":"ai-coding","name":"ai-coding","count":2},{"id":"ai代理","name":"AI代理","count":2},{"id":"ai基础设施","name":"AI基础设施","count":2},{"id":"ai安全","name":"AI安全","count":2},{"id":"ai数学","name":"AI数学","count":2},{"id":"ai智能体","name":"AI智能体","count":2},{"id":"ai计算","name":"AI计算","count":2},{"id":"alphafold","name":"AlphaFold","count":2},{"id":"claude","name":"Claude","count":2},{"id":"devin","name":"Devin","count":2},{"id":"economics","name":"economics","count":2},{"id":"emacs","name":"Emacs","count":2},{"id":"essay","name":"essay","count":2},{"id":"git","name":"Git","count":2},{"id":"google","name":"Google","count":2},{"id":"ilya-sutskever","name":"Ilya Sutskever","count":2},{"id":"jeff-dean","name":"jeff-dean","count":2},{"id":"jepa","name":"JEPA","count":2},{"id":"org-mode","name":"Org mode","count":2},{"id":"programming","name":"programming","count":2},{"id":"software-engineering","name":"software-engineering","count":2},{"id":"vibe-coding","name":"Vibe Coding","count":2},{"id":"writing","name":"writing","count":2},{"id":"世界模型","name":"世界模型","count":2},{"id":"人性","name":"人性","count":2},{"id":"代数几何","name":"代数几何","count":2},{"id":"代码编辑器","name":"代码编辑器","count":2},{"id":"价值投资","name":"价值投资","count":2},{"id":"伯克希尔哈撒韦","name":"伯克希尔哈撒韦","count":2},{"id":"关税政策","name":"关税政策","count":2},{"id":"创业历程","name":"创业历程","count":2},{"id":"加速计算","name":"加速计算","count":2},{"id":"吉姆-西蒙斯","name":"吉姆·西蒙斯","count":2},{"id":"哲学","name":"哲学","count":2},{"id":"国际合作","name":"国际合作","count":2},{"id":"大型语言模型","name":"大型语言模型","count":2},{"id":"好奇心","name":"好奇心","count":2},{"id":"季后赛","name":"季后赛","count":2},{"id":"工程实践","name":"工程实践","count":2},{"id":"巴菲特","name":"巴菲特","count":2},{"id":"形式化证明","name":"形式化证明","count":2},{"id":"彼得-蒂尔","name":"彼得·蒂尔","count":2},{"id":"微软","name":"微软","count":2},{"id":"提示工程","name":"提示工程","count":2},{"id":"数学","name":"数学","count":2},{"id":"数学研究","name":"数学研究","count":2},{"id":"文班亚马","name":"文班亚马","count":2},{"id":"智能代理开发","name":"智能代理开发","count":2},{"id":"毕业演讲","name":"毕业演讲","count":2},{"id":"版本控制","name":"版本控制","count":2},{"id":"科学发现","name":"科学发现","count":2},{"id":"科技停滞","name":"科技停滞","count":2},{"id":"软件工程变革","name":"软件工程变革","count":2},{"id":"软件开发","name":"软件开发","count":2},{"id":"量子力学","name":"量子力学","count":2},{"id":"阿贝尔奖","name":"阿贝尔奖","count":2},{"id":"风险投资","name":"风险投资","count":2},{"id":"agent设计","name":"Agent设计","count":1},{"id":"ai-for-science","name":"AI for Science","count":1},{"id":"ai-编程","name":"AI 编程","count":1},{"id":"ai伦理","name":"AI伦理","count":1},{"id":"ai最佳实践","name":"AI最佳实践","count":1},{"id":"ai大模型","name":"AI大模型","count":1},{"id":"ai并购","name":"AI并购","count":1},{"id":"ai应用","name":"AI应用","count":1},{"id":"ai开发者大会","name":"AI开发者大会","count":1},{"id":"ai推理","name":"AI推理","count":1},{"id":"ai收购","name":"AI收购","count":1},{"id":"ai数学发现","name":"AI数学发现","count":1},{"id":"ai生物医药","name":"AI生物医药","count":1},{"id":"ai竞争","name":"AI竞争","count":1},{"id":"ai编程代理","name":"AI编程代理","count":1},{"id":"ai芯片","name":"AI芯片","count":1},{"id":"ai规模化","name":"AI规模化","count":1},{"id":"ai辅助学习","name":"AI辅助学习","count":1},{"id":"ai辅助开发","name":"AI辅助开发","count":1},{"id":"anysphere","name":"Anysphere","count":1},{"id":"biography","name":"biography","count":1},{"id":"blackwell架构","name":"Blackwell架构","count":1},{"id":"cag","name":"CAG","count":1},{"id":"career","name":"career","count":1},{"id":"ceo交接","name":"CEO交接","count":1},{"id":"chatgpt","name":"ChatGPT","count":1},{"id":"chris-bishop","name":"Chris Bishop","count":1},{"id":"claude-4","name":"Claude 4","count":1},{"id":"claude-sonnet-4-5","name":"Claude Sonnet 4.5","count":1},{"id":"coding-agent","name":"Coding Agent","count":1},{"id":"context-engineering","name":"Context Engineering","count":1},{"id":"cs50","name":"CS50","count":1},{"id":"cuda生态","name":"CUDA生态","count":1},{"id":"deep-search","name":"Deep Search","count":1},{"id":"deepmind","name":"DeepMind","count":1},{"id":"distributed-systems","name":"distributed-systems","count":1},{"id":"elon-musk","name":"Elon Musk","count":1},{"id":"engineering","name":"engineering","count":1},{"id":"fields奖","name":"Fields奖","count":1},{"id":"geoffrey-hinton","name":"Geoffrey Hinton","count":1},{"id":"gpt-4","name":"GPT-4","count":1},{"id":"gpt-4-5","name":"GPT-4.5","count":1},{"id":"gpu与深度学习","name":"GPU与深度学习","count":1},{"id":"gpu架构","name":"GPU架构","count":1},{"id":"gpu算力","name":"GPU算力","count":1},{"id":"grok-3","name":"Grok 3","count":1},{"id":"haskell","name":"haskell","count":1},{"id":"incident","name":"incident","count":1},{"id":"jim-simons","name":"Jim Simons","count":1},{"id":"julia","name":"Julia","count":1},{"id":"june-huh","name":"june-huh","count":1},{"id":"kaggle","name":"Kaggle","count":1},{"id":"kiro-spec模式","name":"Kiro SPEC模式","count":1},{"id":"labor","name":"labor","count":1},{"id":"lean","name":"Lean","count":1},{"id":"lisp","name":"Lisp","count":1},{"id":"llm工具","name":"LLM工具","count":1},{"id":"mcp","name":"MCP","count":1},{"id":"mit","name":"MIT","count":1},{"id":"mvp","name":"MVP","count":1},{"id":"naval-ravikant","name":"Naval Ravikant","count":1},{"id":"ncaa疯狂三月","name":"NCAA疯狂三月","count":1},{"id":"noema","name":"noema","count":1},{"id":"notes","name":"notes","count":1},{"id":"notion","name":"Notion","count":1},{"id":"nvidia-gtc-2025","name":"NVIDIA GTC 2025","count":1},{"id":"openai","name":"OpenAI","count":1},{"id":"optimus机器人","name":"Optimus机器人","count":1},{"id":"peter-lax","name":"Peter Lax","count":1},{"id":"pixar","name":"pixar","count":1},{"id":"prompt-engineering","name":"Prompt Engineering","count":1},{"id":"psychology","name":"psychology","count":1},{"id":"publishing","name":"publishing","count":1},{"id":"python","name":"Python","count":1},{"id":"reliability","name":"reliability","count":1},{"id":"report","name":"report","count":1},{"id":"research","name":"Research","count":1},{"id":"research-career","name":"research-career","count":1},{"id":"robotics","name":"robotics","count":1},{"id":"sanjay-ghemawat","name":"Sanjay Ghemawat","count":1},{"id":"satya-nadella","name":"Satya Nadella","count":1},{"id":"scaling-laws","name":"Scaling Laws","count":1},{"id":"security","name":"security","count":1},{"id":"skills","name":"skills","count":1},{"id":"slimv","name":"Slimv","count":1},{"id":"technical-report","name":"technical-report","count":1},{"id":"terence-tao","name":"terence-tao","count":1},{"id":"vim","name":"Vim","count":1},{"id":"vlime","name":"Vlime","count":1},{"id":"wolfram","name":"Wolfram","count":1},{"id":"xai","name":"xAI","count":1},{"id":"yann-lecun","name":"Yann LeCun","count":1},{"id":"yc","name":"YC","count":1},{"id":"上下文工程","name":"上下文工程","count":1},{"id":"个人反思","name":"个人反思","count":1},{"id":"个人电脑","name":"个人电脑","count":1},{"id":"中美关系","name":"中美关系","count":1},{"id":"乌克兰战争","name":"乌克兰战争","count":1},{"id":"乔姆斯基","name":"乔姆斯基","count":1},{"id":"交通基础设施","name":"交通基础设施","count":1},{"id":"产品市场契合","name":"产品市场契合","count":1},{"id":"人工智能未来","name":"人工智能未来","count":1},{"id":"人形机器人","name":"人形机器人","count":1},{"id":"人机协作","name":"人机协作","count":1},{"id":"人机博弈","name":"人机博弈","count":1},{"id":"人生哲学","name":"人生哲学","count":1},{"id":"人类未来","name":"人类未来","count":1},{"id":"人类福祉","name":"人类福祉","count":1},{"id":"代理开发","name":"代理开发","count":1},{"id":"代理式编程","name":"代理式编程","count":1},{"id":"代码生成","name":"代码生成","count":1},{"id":"任务管理","name":"任务管理","count":1},{"id":"仿真学习","name":"仿真学习","count":1},{"id":"企业采用","name":"企业采用","count":1},{"id":"众包协作","name":"众包协作","count":1},{"id":"优绩主义","name":"优绩主义","count":1},{"id":"伦理监管","name":"伦理监管","count":1},{"id":"伯克希尔-哈撒韦","name":"伯克希尔·哈撒韦","count":1},{"id":"俄乌战争","name":"俄乌战争","count":1},{"id":"保罗-狄拉克","name":"保罗·狄拉克","count":1},{"id":"保险业务","name":"保险业务","count":1},{"id":"信号处理","name":"信号处理","count":1},{"id":"信息动力学","name":"信息动力学","count":1},{"id":"信息物理学","name":"信息物理学","count":1},{"id":"全球贸易","name":"全球贸易","count":1},{"id":"公共美德","name":"公共美德","count":1},{"id":"具身智能","name":"具身智能","count":1},{"id":"写作","name":"写作","count":1},{"id":"写作工具","name":"写作工具","count":1},{"id":"冷战数学","name":"冷战数学","count":1},{"id":"创业转型","name":"创业转型","count":1},{"id":"创业领导力","name":"创业领导力","count":1},{"id":"创造力与年龄","name":"创造力与年龄","count":1},{"id":"制度经济学","name":"制度经济学","count":1},{"id":"加性数论","name":"加性数论","count":1},{"id":"包容性制度","name":"包容性制度","count":1},{"id":"医疗应用","name":"医疗应用","count":1},{"id":"半导体","name":"半导体","count":1},{"id":"协同设计","name":"协同设计","count":1},{"id":"单位距离问题","name":"单位距离问题","count":1},{"id":"南非种族隔离","name":"南非种族隔离","count":1},{"id":"卢卡-东契奇","name":"卢卡·东契奇","count":1},{"id":"压缩感知","name":"压缩感知","count":1},{"id":"变换编码","name":"变换编码","count":1},{"id":"可持续能源","name":"可持续能源","count":1},{"id":"可重复性危机","name":"可重复性危机","count":1},{"id":"史蒂夫-乔布斯","name":"史蒂夫·乔布斯","count":1},{"id":"史蒂夫-纳什","name":"史蒂夫·纳什","count":1},{"id":"同伦类型论","name":"同伦类型论","count":1},{"id":"哲学辩论","name":"哲学辩论","count":1},{"id":"国际政治","name":"国际政治","count":1},{"id":"在线教育","name":"在线教育","count":1},{"id":"地缘政治","name":"地缘政治","count":1},{"id":"埃尔德什猜想","name":"埃尔德什猜想","count":1},{"id":"埃罗尔-马斯克","name":"埃罗尔·马斯克","count":1},{"id":"埃隆-马斯克","name":"埃隆·马斯克","count":1},{"id":"基督教与科学","name":"基督教与科学","count":1},{"id":"基础主义","name":"基础主义","count":1},{"id":"基础模型","name":"基础模型","count":1},{"id":"复合工程","name":"复合工程","count":1},{"id":"外交谈判","name":"外交谈判","count":1},{"id":"多伦多大学","name":"多伦多大学","count":1},{"id":"多体物理","name":"多体物理","count":1},{"id":"多智能体协同","name":"多智能体协同","count":1},{"id":"大数假说","name":"大数假说","count":1},{"id":"太空探索","name":"太空探索","count":1},{"id":"孤子理论","name":"孤子理论","count":1},{"id":"学习路径","name":"学习路径","count":1},{"id":"学术写作","name":"学术写作","count":1},{"id":"学术建议","name":"学术建议","count":1},{"id":"学术生态","name":"学术生态","count":1},{"id":"学术研究方法","name":"学术研究方法","count":1},{"id":"学术自传","name":"学术自传","count":1},{"id":"宇宙学","name":"宇宙学","count":1},{"id":"官僚主义改革","name":"官僚主义改革","count":1},{"id":"定理证明","name":"定理证明","count":1},{"id":"家族故事","name":"家族故事","count":1},{"id":"对冲基金","name":"对冲基金","count":1},{"id":"对称性","name":"对称性","count":1},{"id":"对称性破缺","name":"对称性破缺","count":1},{"id":"小平邦彦","name":"小平邦彦","count":1},{"id":"少林寺","name":"少林寺","count":1},{"id":"就业与经济","name":"就业与经济","count":1},{"id":"就业影响","name":"就业影响","count":1},{"id":"工作尊严","name":"工作尊严","count":1},{"id":"工作流","name":"工作流","count":1},{"id":"工程精神","name":"工程精神","count":1},{"id":"幸福与成功","name":"幸福与成功","count":1},{"id":"库珀-弗拉格","name":"库珀·弗拉格","count":1},{"id":"开发环境","name":"开发环境","count":1},{"id":"开发者工具","name":"开发者工具","count":1},{"id":"开发者生产力","name":"开发者生产力","count":1},{"id":"开源模型","name":"开源模型","count":1},{"id":"形式主义","name":"形式主义","count":1},{"id":"彼得-拉克斯","name":"彼得·拉克斯","count":1},{"id":"微分几何","name":"微分几何","count":1},{"id":"心理学","name":"心理学","count":1},{"id":"思维链","name":"思维链","count":1},{"id":"慈善","name":"慈善","count":1},{"id":"慈善事业","name":"慈善事业","count":1},{"id":"慕尼黑安全会议","name":"慕尼黑安全会议","count":1},{"id":"成长型思维","name":"成长型思维","count":1},{"id":"技术监管","name":"技术监管","count":1},{"id":"技能退化","name":"技能退化","count":1},{"id":"投资哲学","name":"投资哲学","count":1},{"id":"推理时计算","name":"推理时计算","count":1},{"id":"提纲写作","name":"提纲写作","count":1},{"id":"摩根大通","name":"摩根大通","count":1},{"id":"播客","name":"播客","count":1},{"id":"政治哲学","name":"政治哲学","count":1},{"id":"数字革命","name":"数字革命","count":1},{"id":"数学反例","name":"数学反例","count":1},{"id":"数学史","name":"数学史","count":1},{"id":"数学基础","name":"数学基础","count":1},{"id":"数学实践","name":"数学实践","count":1},{"id":"数学家传记","name":"数学家传记","count":1},{"id":"数学工作流","name":"数学工作流","count":1},{"id":"数学形式化","name":"数学形式化","count":1},{"id":"数据中心","name":"数据中心","count":1},{"id":"数据效率","name":"数据效率","count":1},{"id":"数据科学","name":"数据科学","count":1},{"id":"文化多样性","name":"文化多样性","count":1},{"id":"文化转型","name":"文化转型","count":1},{"id":"文学编程","name":"文学编程","count":1},{"id":"斯多葛主义","name":"斯多葛主义","count":1},{"id":"无人机","name":"无人机","count":1},{"id":"日本数学","name":"日本数学","count":1},{"id":"日记写作","name":"日记写作","count":1},{"id":"智能代理","name":"智能代理","count":1},{"id":"智能体ai","name":"智能体AI","count":1},{"id":"智能分析","name":"智能分析","count":1},{"id":"更衣室训话","name":"更衣室训话","count":1},{"id":"未来战争","name":"未来战争","count":1},{"id":"未来趋势","name":"未来趋势","count":1},{"id":"机器人技术","name":"机器人技术","count":1},{"id":"杰米-戴蒙","name":"杰米·戴蒙","count":1},{"id":"柏拉图主义","name":"柏拉图主义","count":1},{"id":"查尔斯-巴克利","name":"查尔斯·巴克利","count":1},{"id":"查理-芒格","name":"查理·芒格","count":1},{"id":"标记语言","name":"标记语言","count":1},{"id":"格罗滕迪克","name":"格罗滕迪克","count":1},{"id":"概形","name":"概形","count":1},{"id":"模仿理论","name":"模仿理论","count":1},{"id":"模型应用","name":"模型应用","count":1},{"id":"模型驱动交易","name":"模型驱动交易","count":1},{"id":"模拟宇宙假说","name":"模拟宇宙假说","count":1},{"id":"欧洲创新","name":"欧洲创新","count":1},{"id":"欧洲民主","name":"欧洲民主","count":1},{"id":"欧盟资本市场","name":"欧盟资本市场","count":1},{"id":"欺骗性ai","name":"欺骗性AI","count":1},{"id":"比尔-盖茨","name":"比尔·盖茨","count":1},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","count":1},{"id":"沉思录","name":"沉思录","count":1},{"id":"沙奎尔-奥尼尔","name":"沙奎尔·奥尼尔","count":1},{"id":"波波维奇","name":"波波维奇","count":1},{"id":"泽连斯基","name":"泽连斯基","count":1},{"id":"活文档","name":"活文档","count":1},{"id":"测试时计算","name":"测试时计算","count":1},{"id":"涌现","name":"涌现","count":1},{"id":"深度阅读","name":"深度阅读","count":1},{"id":"湖人三连冠","name":"湖人三连冠","count":1},{"id":"炒作与现实","name":"炒作与现实","count":1},{"id":"热力学第二定律","name":"热力学第二定律","count":1},{"id":"特斯拉","name":"特斯拉","count":1},{"id":"特朗普","name":"特朗普","count":1},{"id":"狄拉克","name":"狄拉克","count":1},{"id":"狄拉克方程","name":"狄拉克方程","count":1},{"id":"理论物理","name":"理论物理","count":1},{"id":"生产力工具","name":"生产力工具","count":1},{"id":"生成式ai","name":"生成式AI","count":1},{"id":"相对论","name":"相对论","count":1},{"id":"知识管理","name":"知识管理","count":1},{"id":"研究方法","name":"研究方法","count":1},{"id":"研究生指南","name":"研究生指南","count":1},{"id":"硅谷","name":"硅谷","count":1},{"id":"社交媒体","name":"社交媒体","count":1},{"id":"社会公平","name":"社会公平","count":1},{"id":"福柯","name":"福柯","count":1},{"id":"离散几何","name":"离散几何","count":1},{"id":"私募股权","name":"私募股权","count":1},{"id":"科学哲学","name":"科学哲学","count":1},{"id":"科学研究","name":"科学研究","count":1},{"id":"科学论文","name":"科学论文","count":1},{"id":"科技史","name":"科技史","count":1},{"id":"科比-布莱恩特","name":"科比·布莱恩特","count":1},{"id":"移民政策","name":"移民政策","count":1},{"id":"稀疏表示","name":"稀疏表示","count":1},{"id":"空间技术","name":"空间技术","count":1},{"id":"竞技长青","name":"竞技长青","count":1},{"id":"笔记技巧","name":"笔记技巧","count":1},{"id":"第一性原理","name":"第一性原理","count":1},{"id":"算法与社会","name":"算法与社会","count":1},{"id":"篮球战术","name":"篮球战术","count":1},{"id":"篮球访谈","name":"篮球访谈","count":1},{"id":"类型论","name":"类型论","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"约束等距性","name":"约束等距性","count":1},{"id":"纯文本写作","name":"纯文本写作","count":1},{"id":"纯粹数学","name":"纯粹数学","count":1},{"id":"线性代数","name":"线性代数","count":1},{"id":"经典阅读","name":"经典阅读","count":1},{"id":"结对编程","name":"结对编程","count":1},{"id":"编程教学","name":"编程教学","count":1},{"id":"编程语言","name":"编程语言","count":1},{"id":"美国ai政策","name":"美国AI政策","count":1},{"id":"美国政府改革","name":"美国政府改革","count":1},{"id":"美国经济","name":"美国经济","count":1},{"id":"美欧关系","name":"美欧关系","count":1},{"id":"翻译","name":"翻译","count":1},{"id":"职业自律","name":"职业自律","count":1},{"id":"职业辩护","name":"职业辩护","count":1},{"id":"联邦政府改革","name":"联邦政府改革","count":1},{"id":"联邦财政","name":"联邦财政","count":1},{"id":"股东信","name":"股东信","count":1},{"id":"股东大会","name":"股东大会","count":1},{"id":"能源","name":"能源","count":1},{"id":"能量基模型","name":"能量基模型","count":1},{"id":"自动驾驶","name":"自动驾驶","count":1},{"id":"自我认知","name":"自我认知","count":1},{"id":"自由意志主义","name":"自由意志主义","count":1},{"id":"自由民主","name":"自由民主","count":1},{"id":"苹果","name":"苹果","count":1},{"id":"苹果公司","name":"苹果公司","count":1},{"id":"药物研发","name":"药物研发","count":1},{"id":"蓝鳍金枪鱼","name":"蓝鳍金枪鱼","count":1},{"id":"虚拟细胞","name":"虚拟细胞","count":1},{"id":"蛋白质折叠","name":"蛋白质折叠","count":1},{"id":"蜂巢思维","name":"蜂巢思维","count":1},{"id":"行为偏差","name":"行为偏差","count":1},{"id":"西部决赛","name":"西部决赛","count":1},{"id":"规模法则","name":"规模法则","count":1},{"id":"规范驱动开发","name":"规范驱动开发","count":1},{"id":"言论自由","name":"言论自由","count":1},{"id":"计算增强生成","name":"计算增强生成","count":1},{"id":"计算数学","name":"计算数学","count":1},{"id":"计算机教育","name":"计算机教育","count":1},{"id":"计算机证明","name":"计算机证明","count":1},{"id":"训练体系","name":"训练体系","count":1},{"id":"论文写作","name":"论文写作","count":1},{"id":"论文撰写","name":"论文撰写","count":1},{"id":"访谈实录","name":"访谈实录","count":1},{"id":"詹姆斯-西蒙斯","name":"詹姆斯·西蒙斯","count":1},{"id":"语言学","name":"语言学","count":1},{"id":"诺贝尔经济学奖","name":"诺贝尔经济学奖","count":1},{"id":"谷歌","name":"谷歌","count":1},{"id":"贝叶斯方法","name":"贝叶斯方法","count":1},{"id":"财政削减","name":"财政削减","count":1},{"id":"资本配置","name":"资本配置","count":1},{"id":"超级智能","name":"超级智能","count":1},{"id":"超级计算","name":"超级计算","count":1},{"id":"跨领域训练","name":"跨领域训练","count":1},{"id":"身体转型","name":"身体转型","count":1},{"id":"软件工程范式","name":"软件工程范式","count":1},{"id":"软件开发最佳实践","name":"软件开发最佳实践","count":1},{"id":"软件开发未来","name":"软件开发未来","count":1},{"id":"运动恢复","name":"运动恢复","count":1},{"id":"还原论","name":"还原论","count":1},{"id":"通用人工智能","name":"通用人工智能","count":1},{"id":"重整化","name":"重整化","count":1},{"id":"量化交易","name":"量化交易","count":1},{"id":"金融服务","name":"金融服务","count":1},{"id":"金融监管","name":"金融监管","count":1},{"id":"阅读方法","name":"阅读方法","count":1},{"id":"集合论","name":"集合论","count":1},{"id":"非虚构阅读","name":"非虚构阅读","count":1},{"id":"预训练","name":"预训练","count":1},{"id":"领导力","name":"领导力","count":1},{"id":"香农信息熵","name":"香农信息熵","count":1},{"id":"马刺","name":"马刺","count":1},{"id":"马库斯-奥勒留","name":"马库斯·奥勒留","count":1}],"moduleNavItems":[{"id":"essays","label":"Essays","href":"/?label=Essays","order":40,"icon":"BookOpen","count":62},{"id":"talks","label":"Talks","href":"/?label=Talks","order":42,"icon":"Video","count":165},{"id":"reports","label":"Reports","href":"/?label=Reports","order":41,"icon":"FileText","count":36},{"id":"notes","label":"Notes","href":"/?label=Notes","order":30,"icon":"Eye","count":78}],"children":"$L10"}]]}]]}]
+10:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"min-h-screen px-12 py-12 font-sans text-slate-900","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n            (function () {\n              var pathname = window.location.pathname || '';\n              var canonicalPrefix = '/hinbox';\n\n              if (/^/hinbox(?:/|$)/i.test(pathname) && pathname !== pathname.replace(/^/hinbox/i, canonicalPrefix)) {\n                var target = pathname.replace(/^/hinbox/i, canonicalPrefix) + window.location.search + window.location.hash;\n                window.location.replace(target);\n                return;\n              }\n            }());\n          "}}],["$","div",null,{"className":"mx-auto flex min-h-[60vh] max-w-2xl flex-col justify-center gap-4","children":[["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"页面未找到"}],["$","p",null,{"className":"text-base leading-7 text-slate-600","children":"如果你是从大写路径进入本站，系统会自动跳转到小写的规范地址。"}],["$","p",null,{"className":"text-base","children":["返回首页：",["$","a",null,{"className":"text-sky-600 underline underline-offset-4","href":"/hinbox/","children":"/hinbox/"}]]}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+11:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+12:T632f,<h1>JD 万斯：关于人工智能未来的演讲：特朗普政府的立场与展望</h1>
+<h2>摘要</h2>
+<p>美国副总统万斯在AI峰会上发表演讲，阐述特朗普政府对人工智能发展的四大政策立场——确保美国AI全球领先、反对过度监管、保持技术意识形态中立、以促进就业为导向。演讲强调AI在制造业、医疗和能源领域的变革潜力，呼吁国际社会关注AI机遇而非风险，并警惕AI被用于审查与控制。</p>
+<figure class="video-embed video-embed--youtube">
+  <div class="video-embed__frame">
+    <iframe src="https://www.youtube.com/embed/64E9O1Gv99o" title="JD 万斯：关于人工智能未来的演讲：特朗普政府的立场与展望" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+  <figcaption class="video-embed__caption">JD 万斯：关于人工智能未来的演讲：特朗普政府的立场与展望</figcaption>
+</figure>
+<h2>核心概念及解读</h2>
+<p><strong>AI去监管化——特朗普政府主张减少对人工智能行业的监管束缚，认为过度监管会扼杀创新并巩固现有企业的垄断地位，应以开放环境鼓励技术发展</strong>：</p>
+<p><strong>意识形态中立——要求AI系统不受政治或意识形态偏见影响，防止其沦为专制审查工具，保障言论自由与信息开放</strong>：</p>
+<p><strong>以工人为中心的AI发展——强调AI应作为提升工人生产力的补充工具而非替代力量，通过教育和培训帮助劳动力适应AI时代</strong>：</p>
+<p><strong>美国AI技术栈优势——指美国在半导体设计、前沿算法和变革性应用等AI全产业链环节的综合领先地位</strong>：</p>
+<p><strong>数字服务法批评——对欧盟等地区的数字监管法案提出质疑，认为此类立法可能阻碍AI技术创新并对美国科技企业构成不公平限制</strong>：</p>
+<p>关于人工智能未来的演讲：特朗普政府的立场与展望</p>
+<ul>
+<li>
+<p>原文标题：VP JD Vance on the future of artificial intelligence</p>
+</li>
+<li>
+<p>链接：<a href="https://www.youtube.com/watch?v=64E9O1Gv99o">https://www.youtube.com/watch?v=64E9O1Gv99o</a></p>
+</li>
+<li>
+<p><strong>文章类别</strong>：访谈实录</p>
+</li>
+</ul>
+<hr>
+<p><strong>内容整理</strong>：</p>
+<h3>演讲主题与背景</h3>
+<ul>
+<li><strong>演讲者</strong>：VP JD Vance（特朗普政府官员）</li>
+<li><strong>会议主题</strong>：人工智能的未来与机遇</li>
+<li><strong>演讲目的</strong>：强调美国在人工智能领域的领导地位，探讨人工智能的经济、社会和国家安全潜力，以及特朗普政府对人工智能发展的政策立场。</li>
+</ul>
+<h3>树形目录结构</h3>
+<pre><code>├── 演讲主题与背景
+├── 美国在人工智能领域的优势
+│   ├── 技术与经济创新
+│   ├── 国家安全与自由表达
+│   └── 美国AI技术的全球标准
+├── 政府的四大主要观点
+│   ├── 确保美国AI技术的全球领先地位
+│   ├── 反对过度监管以促进AI发展
+│   ├── 保持AI技术的意识形态中立
+│   └── 推动AI作为促进就业的工具
+├── AI技术的经济与社会影响
+│   ├── AI对制造业、医疗保健和能源的变革
+│   ├── AI对工人生产力和繁荣的推动
+│   └── AI在教育和劳动力培训中的应用
+├── 国际合作与监管
+│   ├── 呼吁国际监管合作以促进AI发展
+│   ├── 对欧洲数字服务法的批评
+│   └── 强调与盟友合作保障AI技术安全
+└── 结语与展望
+    ├── 强调AI技术的机遇而非风险
+    └── 呼吁全球共同推动AI发展
+</code></pre>
+<h3>文章标签</h3>
+<p>#人工智能 ， #政策立场 ， #技术创新 ， #就业与经济</p>
+<h3>演讲核心内容</h3>
+<h4>美国在人工智能领域的优势</h4>
+<ul>
+<li><strong>技术与经济创新</strong>：特朗普政府认为人工智能将在经济创新、就业创造、国家安全、自由表达等方面发挥革命性作用。美国在AI技术的各个方面都处于领先地位，包括先进的半导体设计、前沿算法和变革性应用。</li>
+<li><strong>国家安全与自由表达</strong>：AI技术将增强美国的国家安全能力，同时保障言论自由，避免被用作专制审查的工具。</li>
+<li><strong>美国AI技术的全球标准</strong>：美国将继续保持其在AI技术领域的全球领先地位，并成为其他国家和企业扩展AI应用的首选合作伙伴。</li>
+</ul>
+<h4>政府的四大主要观点</h4>
+<ol>
+<li><strong>确保美国AI技术的全球领先地位</strong>：美国将通过政策支持和国际合作，确保其在AI技术领域的全球标准地位。</li>
+<li><strong>反对过度监管以促进AI发展</strong>：过度监管可能会扼杀AI这一变革性行业。政府将努力推动AI政策的去监管化，鼓励创新和增长。</li>
+<li><strong>保持AI技术的意识形态中立</strong>：美国AI技术将保持自由，不受意识形态偏见的影响，不会被用作专制审查的工具。</li>
+<li><strong>推动AI作为促进就业的工具</strong>：AI将提高工人生产力，创造更多就业机会，而不是取代人类工作。</li>
+</ol>
+<h4>AI技术的经济与社会影响</h4>
+<ul>
+<li><strong>AI对制造业、医疗保健和能源的变革</strong>：AI技术将改变制造业的生产方式，提高医疗保健的效率和质量，并推动能源领域的创新。</li>
+<li><strong>AI对工人生产力和繁荣的推动</strong>：AI将使工人更具生产力，从而带来更高的工资、更好的福利和更繁荣的社区。</li>
+<li><strong>AI在教育和劳动力培训中的应用</strong>：美国将通过教育和培训，确保劳动力能够充分利用AI技术，适应未来的经济需求。</li>
+</ul>
+<h4>国际合作与监管</h4>
+<ul>
+<li><strong>呼吁国际监管合作以促进AI发展</strong>：美国希望与国际伙伴合作，建立促进AI技术发展的监管框架，而不是限制其发展。</li>
+<li><strong>对欧洲数字服务法的批评</strong>：美国对欧洲数字服务法等过度监管的措施表示担忧，认为这可能会阻碍AI技术的创新和应用。</li>
+<li><strong>强调与盟友合作保障AI技术安全</strong>：美国将与盟友合作，保护AI技术和芯片技术免受盗窃和滥用，确保其用于促进自由和繁荣。</li>
+</ul>
+<h4>结语与展望</h4>
+<ul>
+<li><strong>强调AI技术的机遇而非风险</strong>：演讲者呼吁全球关注AI技术带来的机遇，而不是过度担忧其风险。AI技术应被视为推动社会进步和经济发展的强大工具。</li>
+<li><strong>呼吁全球共同推动AI发展</strong>：美国希望与全球伙伴合作，共同推动AI技术的发展，以实现更广泛的社会和经济利益。</li>
+</ul>
+<hr>
+<h2>要点内容</h2>
+<p><strong>框架：</strong></p>
+<ol>
+<li>
+<p><strong>开场白与感谢 (0:12 - 0:48)</strong></p>
+<ul>
+<li>感谢总统马克龙的邀请和晚宴。</li>
+<li>感谢莫迪总理共同主持峰会。</li>
+<li>明确表示此次演讲的主题不是AI安全，而是AI机遇。</li>
+</ul>
+</li>
+<li>
+<p><strong>核心观点陈述 (0:48 - 1:34)</strong></p>
+<ul>
+<li>强调AI的巨大潜力，呼吁积极拥抱而非过度担忧风险。</li>
+<li>阐述特朗普政府对AI的积极态度：认为AI将带来革命性的应用、经济创新、就业机会、国家安全、健康、言论自由等。</li>
+<li>警告限制AI发展的负面影响：阻碍最具前景的技术之一。</li>
+</ul>
+</li>
+<li>
+<p><strong>特朗普政府的四大AI政策 (1:34 - 3:11)</strong></p>
+<ul>
+<li><strong>确保美国AI技术的全球领先地位 (1:37 - 1:52)：</strong>
+<ul>
+<li>美国将成为全球AI技术的黄金标准和首选合作伙伴。</li>
+</ul>
+</li>
+<li><strong>避免过度监管 (1:52 - 2:16)：</strong>
+<ul>
+<li>过度监管会扼杀这个变革性产业。</li>
+<li>鼓励“放松管制”的AI政策。</li>
+</ul>
+</li>
+<li><strong>保持AI免受意识形态偏见的影响 (2:16 - 2:28)：</strong>
+<ul>
+<li>美国AI不会成为专制审查的工具。</li>
+</ul>
+</li>
+<li><strong>以促进就业为导向的AI发展路径 (2:28 - 3:11)：</strong>
+<ul>
+<li>AI将成为美国创造就业机会的有力工具。</li>
+<li>AI不会取代人类，而是提高生产力、繁荣和自由。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>美国在AI领域的优势与合作意愿 (3:12 - 4:20)</strong></p>
+<ul>
+<li>美国拥有完整的AI技术栈：先进的半导体设计、前沿算法、变革性应用。</li>
+<li>强调强大的计算能力对AI发展至关重要。</li>
+<li>特朗普政府将确保最强大的AI系统在美国构建。</li>
+<li>强调美国希望与其他国家合作，共同推动AI革命。</li>
+<li>呼吁建立促进AI技术发展的国际监管机制。</li>
+</ul>
+</li>
+<li>
+<p><strong>对过度监管的担忧与批评 (4:20 - 7:27)</strong></p>
+<ul>
+<li>美国通过开放的监管环境鼓励创新和研发投入。</li>
+<li>批评一些外国政府对美国科技公司的监管。</li>
+<li>担忧欧盟的《数字服务法案》和GDPR带来的负面影响。</li>
+<li>强调AI发展需要可靠的能源和高质量的半导体，批评一些国家的去工业化和能源政策。</li>
+</ul>
+</li>
+<li>
+<p><strong>AI的现实意义与潜力 (7:27 - 8:48)</strong></p>
+<ul>
+<li>AI植根于实体经济，将影响工厂、医疗保健等领域。</li>
+<li>AI需要能源基础设施的支持。</li>
+<li>AI经济将主要依赖并改变“原子世界”（实体世界）。</li>
+</ul>
+</li>
+<li>
+<p><strong>警惕AI被用于审查和控制 (8:48 - 11:21)</strong></p>
+<ul>
+<li>过度监管可能有利于市场上的既得利益者。</li>
+<li>批评一些政府、企业和非营利组织利用AI推行不受欢迎的社会议程（例如，篡改历史图像）。</li>
+<li>特朗普政府将确保美国开发的AI系统不受意识形态偏见的影响，不限制公民的言论自由。</li>
+<li>警惕敌对国家利用AI重写历史、监视用户和审查言论。</li>
+<li>美国将阻止此类行为，保护美国AI和芯片技术。</li>
+<li>提醒国际合作伙伴，与专制政权合作不会有好结果。</li>
+</ul>
+</li>
+<li>
+<p><strong>以工人为中心的AI政策 (12:07 - 13:53)</strong></p>
+<ul>
+<li>拒绝将AI视为纯粹的破坏性技术。</li>
+<li>AI将使工人更有效率，并带来更高的工资和更好的福利。</li>
+<li>AI的主要应用是补充而不是取代人类的工作。</li>
+<li>美国将培养世界上训练有素的劳动力，以充分利用AI。</li>
+<li>政府、企业和劳工组织有义务共同赋能工人。</li>
+<li>特朗普政府将保证美国工人在所有主要的AI政策决策中都有一席之地。</li>
+</ul>
+</li>
+<li>
+<p><strong>总结与展望 (13:56 - 15:39)</strong></p>
+<ul>
+<li>以拉法耶特侯爵的剑为例，强调正确使用技术的重要性。</li>
+<li>呼吁关注AI的机遇，释放创新潜力，改善国家福祉。</li>
+<li>特朗普政府不会浪费AI带来的机会。</li>
+</ul>
+</li>
+</ol>
+<p><strong>要点：</strong></p>
+<ul>
+<li><strong>AI机遇大于风险：</strong> 演讲的核心论点是，应该积极拥抱AI带来的机遇，而不是过分担忧风险。</li>
+<li><strong>美国优先：</strong> 特朗普政府致力于保持美国在AI领域的领导地位，并保护美国的技术和利益。</li>
+<li><strong>反对过度监管：</strong> 演讲强烈批评了对AI的过度监管，认为这会扼杀创新，并对美国公司不利。</li>
+<li><strong>警惕AI滥用：</strong> 演讲警告了AI被用于审查、控制和传播虚假信息的风险。</li>
+<li><strong>以人为本：</strong> 强调AI应该为人类服务，提高生产力，创造就业机会，而不是取代人类。</li>
+<li><strong>国际合作：</strong> 美国希望与其他国家合作，共同推动AI革命，但前提是建立合理的监管框架，并警惕与专制政权的合作。</li>
+<li><strong>关注实体经济：</strong> 强调AI与实体经济的紧密联系，包括能源、制造业和医疗保健等领域。</li>
+<li><strong>自由与开放：</strong> 保持AI免受意识形态偏见, 确保言论自由。</li>
+</ul>
+<hr>
+<h2>演讲稿</h2>
+<p><strong>1. 开场白与感谢 (0:12 - 0:48)</strong></p>
+<p>大家早上好！感谢[主持人]的介绍。首先，我要感谢马克龙总统的盛情邀请，以及昨晚的丰盛晚宴。晚宴期间，马克龙总统问我是否愿意发言，我说：“总统先生，我来这是为了享受美好的氛围和免费的葡萄酒，但今天我必须履行我的职责。”</p>
+<p>当然，我还要感谢莫迪总理能够出席并共同主持本次峰会，感谢所有人的参与。今天早上，我在这里不是要谈论几年前会议的主题——AI安全，而是要谈论AI的机遇。</p>
+<p><strong>2. 核心观点陈述 (0:48 - 1:34)</strong></p>
+<p>每当像这样的会议召开，讨论一项尖端技术时，我们往往会过于自我意识、过于规避风险。但我从未遇到过一项技术突破，如此明确地呼吁我们采取截然相反的做法。</p>
+<p>本届政府，也就是特朗普政府，坚信人工智能将带来无数革命性的应用，包括经济创新、就业机会创造、国家安全、医疗健康、言论自由等等。现在限制它的发展，不仅会不公平地让现有企业受益，还会让这一代人所见过的最有前途的技术之一陷入瘫痪。</p>
+<p><strong>3. 特朗普政府的四大AI政策 (1:34 - 3:11)</strong></p>
+<p>基于上述考虑，今天我想提出四个主要观点。</p>
+<ul>
+<li>
+<p><strong>确保美国AI技术的全球领先地位 (1:37 - 1:52)：</strong>
+首先，本届政府将确保美国的AI技术继续成为全球的黄金标准。我们将成为其他国家和企业在扩展其AI应用时的首选合作伙伴。</p>
+</li>
+<li>
+<p><strong>避免过度监管 (1:52 - 2:16)：</strong>
+其次，我们认为，对AI行业的过度监管可能会扼杀这个正在起飞的变革性产业。我们将尽一切努力鼓励进步、推动增长。我很高兴看到“放松管制”的思路正在进入本次会议的许多讨论中。</p>
+</li>
+<li>
+<p><strong>保持AI免受意识形态偏见的影响 (2:16 - 2:28)：</strong>
+第三，我们坚信，人工智能必须摆脱意识形态偏见。美国的AI不会被用作专制审查的工具。</p>
+</li>
+<li>
+<p><strong>以促进就业为导向的AI发展路径 (2:28 - 3:11)：</strong>
+最后，第四点，特朗普政府将坚持以促进就业为导向的AI发展路径，使其成为美国创造就业机会的有力工具。我非常赞赏莫迪总理的观点。我坚信，AI 永远不会取代人类。我认为，许多AI行业的领导者在谈论取代工人的恐惧时，实际上没有抓住重点。我们相信，AI将使我们更高效、更繁荣、更自由。美利坚合众国是AI领域的领导者，本届政府计划保持这一地位。</p>
+</li>
+</ul>
+<p><strong>4. 美国在AI领域的优势与合作意愿 (3:12 - 4:20)</strong></p>
+<p>美国拥有完整AI技术栈的所有组成部分，包括先进的半导体设计、前沿算法，当然还有变革性的应用。这个技术栈所需的计算能力，对于推进AI技术和维护美国的优势至关重要。特朗普政府将确保最强大的AI系统在美国构建，使用美国设计和制造的芯片。</p>
+<p>当然，仅仅因为我们是领导者，并不意味着我们想要或需要单打独斗。关于这一点，请允许我强调：美国希望与在座的各位合作，我们希望以开放和协作的精神，共同开启我们面前的AI革命。</p>
+<p>但是，为了建立这种信任，我们需要国际监管制度来促进AI技术的创造，而不是扼杀它。我们特别需要我们的欧洲朋友们以乐观而不是恐惧的态度看待这一新的前沿领域。</p>
+<p><strong>5. 对过度监管的担忧与批评 (4:20 - 7:27)</strong></p>
+<p>美国尖端AI的发展并非偶然。通过保持开放的监管环境，我们鼓励了美国的创新者进行试验，并进行了无与伦比的研发投资。据估计，到2028年，全球在AI上的支出将达到约7000亿美元，其中一半以上可能会投资于美利坚合众国。</p>
+<p>本届政府不会扼杀那些正在开发一些最具突破性人工智能应用的初创企业和研究生。相反，我们的法律将使大型科技公司、小型科技公司和所有其他开发者处于公平的竞争环境中。</p>
+<p>总统最近发布的关于AI的行政命令，我们正在制定一项AI行动计划，该计划避免了过于谨慎的监管制度，同时确保所有美国人都能从这项技术及其变革潜力中受益。我们也邀请你们的国家与我们合作，并在适合你们国情的情况下，借鉴这一模式。</p>
+<p>然而，特朗普政府对一些外国政府正在考虑收紧对具有国际影响力的美国科技公司的监管的报道感到不安。美国不能也不会接受这种情况，我们认为这是一个可怕的错误，不仅对美利坚合众国，而且对你们自己的国家都是如此。</p>
+<p>各种规模的美国创新者已经知道如何应对繁琐的国际规则。我们的许多最具生产力的科技公司被迫应对欧盟的《数字服务法案》及其关于下架内容和监管所谓“虚假信息”的大量规定。当然，我们希望确保互联网是一个安全的地方，但阻止捕食者在互联网上侵害儿童是一回事，阻止一个成年人获取政府认为是虚假信息的观点则是另一回事。</p>
+<p>与此同时，对于较小的公司来说，遵守GDPR意味着支付无休止的法律合规成本，否则就有可能面临巨额罚款。现在，对于一些人来说，避免这种困境的最简单方法就是直接屏蔽欧盟用户。女士们先生们，这真的是我们想要的未来吗？我认为我们所有人的答案都应该是“不”。</p>
+<p>没有哪个领域比能源领域更让我们担心监管问题。我再次感谢本次会议上许多人的发言，因为他们认识到，我们现在正站在一个渴求可靠电力和高质量半导体的AI产业的前沿。然而，我们的许多朋友一方面正在去工业化，另一方面又通过其他方式将可靠的电力赶出他们的国家和电网。</p>
+<p>AI的未来不会因为担心安全问题而停滞不前，它将通过建设来实现，从可靠的发电厂到能够生产未来芯片的制造设施。</p>
+<p><strong>6. AI的现实意义与潜力 (7:27 - 8:48)</strong></p>
+<p>从个人层面来说，AI最让我兴奋的是它植根于现实和实体经济。这个行业的成功不仅仅是聪明人坐在电脑屏幕前编写代码的问题，它还取决于那些将改变我们工厂的人。它肯定会让我们的医疗保健提供者更善于治疗疾病，但它也将取决于这些医疗保健提供者、医生和护士产生的数据。</p>
+<p>我相信它将帮助我们在未来创造和储存新的能源模式。但现在，除非世界建设支持AI的能源基础设施，否则AI无法起飞。</p>
+<p>我认为，过去20年的技术创新常常让人联想到聪明人盯着电脑屏幕，在比特的世界里进行工程设计。但AI经济将主要依赖并改变原子的世界。</p>
+<p>此时此刻，我们面临着一场新的工业革命的非凡前景，这场革命堪比蒸汽机或贝塞麦炼钢法的发明。但是，如果过度监管阻止创新者承担推进发展的必要风险，它就永远不会实现。如果我们允许AI被那些试图利用这项技术审查或控制用户思想的大公司所主导，它也不会发生。</p>
+<p><strong>7. 警惕AI被用于审查和控制 (8:48 - 11:21)</strong></p>
+<p>我想问一下，在座的各位政治领导人，如果今天聚集在这里进行最激进的监管，通常会是那些已经在市场上拥有现有优势的人。当一个庞大的现有企业来找我们要求制定安全法规时，我们应该问问，这些安全法规是为了我们人民的利益，还是为了现有企业的利益。</p>
+<p>在过去的几年里，我们看到，一些政府、企业和非营利组织通过AI推进不受欢迎的、甚至我认为是完全不符合历史的社会议程。在美国，我们有AI图像生成器试图告诉我们乔治·华盛顿是黑人，或者美国在一战中的士兵实际上是女性。现在我们嘲笑这一点，当然这很荒谬，但我们必须记住那个荒谬时刻的教训。</p>
+<p>我们从中得到的教训是，特朗普政府将确保在美国开发的AI系统不受意识形态偏见的影响，并且永远不会限制我们公民的言论自由权。我们可以信任我们的人民去思考、去获取信息、去发展他们的想法，并在开放的思想市场中相互辩论。</p>
+<p>我们也看到，敌对的外国对手将AI软件武器化，以改写历史、监视用户和审查言论。这当然不是什么新鲜事，就像他们对其他技术所做的那样。一些专制政权窃取并利用AI来加强其军事、情报和监视能力，获取数据，并制造宣传来破坏其他国家的国家安全。</p>
+<p>我想明确一点，本届政府将阻止此类行为。我们将保护美国的AI和芯片技术免遭盗窃和滥用，与我们的盟友和伙伴合作，加强和扩大这些保护，并关闭广告商获取威胁我们所有人的AI能力的途径。</p>
+<p>我还要提醒今天在座的国际朋友们，从长远来看，与这些政权合作永远不会有回报。从闭路电视到5G设备，我们都熟悉市场上那些由专制政权大量补贴和出口的廉价技术。但正如我所知，并且我认为在座的一些人已经从经验中吸取了教训，与他们合作意味着将你的国家束缚在一个试图渗透、扎根并夺取你的信息基础设施的专制主人身上。</p>
+<p>如果一项交易看起来好得令人难以置信，请记住我们在硅谷学到的那句老话：如果你不为产品付费，那么你就是产品。</p>
+<p><strong>8. 以工人为中心的AI政策 (12:07 - 13:53)</strong></p>
+<p>最后，本届政府希望非常明确地阐述最后一点：我们将始终把美国工人置于我们AI政策的核心。我们拒绝将AI视为一种纯粹的破坏性技术，它将不可避免地使我们的劳动力自动化。我们相信，并且我们将为确保AI使我们的工人更有效率的政策而奋斗。我们希望他们能够通过更高的工资、更好的福利以及更安全、更繁荣的社区来获得回报。</p>
+<p>从法律到医学，再到制造业，AI最直接的应用几乎都涉及补充而不是取代美国人正在做的工作。结合本届政府以工人为先的移民政策，我们相信，一个准备充分利用AI的美国劳动力，反而会吸引那些已经将其中一些角色转移到海外的企业的注意力。</p>
+<p>为了实现这一目标，本届政府将确保美国拥有世界上训练有素的劳动力。我们的学校将教导学生如何管理、监督和与AI工具互动，因为它们将越来越成为我们日常生活的一部分。随着AI创造新的就业机会和产业，我们的政府、企业和劳工组织有义务共同努力，不仅要赋能美国的工人，还要赋能全世界的工人。</p>
+<p>为此，对于来自联邦政府的所有重大AI政策决策，特朗普政府将保证美国工人在谈判桌上占有一席之地，我们对此感到非常自豪。</p>
+<p><strong>9. 总结与展望 (13:56 - 15:39)</strong></p>
+<p>我已经占用了大家足够多的时间，所以我想用一个简短的故事来结束。</p>
+<p>这是一个美丽的国家，马克龙总统，我知道你为此感到自豪，也应该感到自豪。昨天，当我和我的三个孩子在[将军]的陪同下参观[地点]时，他好心地向我展示了属于美国在我们独立战争中最亲密的国际朋友——拉法耶特侯爵的剑。他让我拿着剑，但当然他让我先戴上白手套。这让我想起了这个国家——法国，当然还有我的祖国，以及我们共同建立的美丽文明，用像那把军刀一样的武器。这些武器在坏人手中是危险的，但在好人手中却是自由和繁荣的不可思议的工具。</p>
+<p>我不禁想到了今天的会议。如果我们对其他可能被认为是危险的事物，比如AI，选择了错误的方法，并选择退缩，它不仅会改变我们的GDP或股市，还会改变拉法耶特和美国国父们开始创造的项目的未来。</p>
+<p>这并不意味着完全不考虑安全问题，但关注点很重要，我们现在必须专注于抓住机遇，释放我们最聪明的创新者，并利用AI来改善我们国家及其人民的福祉。</p>
+<p>我非常有信心地说，这是特朗普政府不会浪费的机会，我们希望今天聚集在这里的每个人都有同样的感觉。谢谢大家，上帝保佑你们！</p>
+5:["$","$L11",null,{"email":{"id":"talks-jd-vance-speech-on-ai-future-trump-administration","sender":"JD Vance","subject":"JD 万斯：关于人工智能未来的演讲：特朗普政府的立场与展望","snippet":"美国副总统万斯在AI峰会上发表演讲，阐述特朗普政府对人工智能发展的四大政策立场——确保美国AI全球领先、反对过度监管、保持技术意识形态中立、以促进就业为导向。演讲强调AI在制造业、医疗和能源领域的变革潜力，呼吁国际社会关注AI机遇而非风险，并警惕AI被用于审查与控制。","date":"2025-02-11","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["人工智能","美国AI政策","技术监管","就业与经济","国际合作"],"mdTheme":"magazine","sourcePath":"talks/jd-vance-speech-on-ai-future-trump-administration.md","sourceUrl":"https://www.youtube.com/watch?v=64E9O1Gv99o","coverImage":"$undefined","body":"$12","prompts":[]},"listPosition":{"index":288,"total":365},"matchedPerson":{"id":"jd-vance","name":"JD Vance","email":""}}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[27201,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"IconMark"]
+c:[["$","title","0",{"children":"JD 万斯：关于人工智能未来的演讲：特朗普政府的立场与展望 · Hinbox"}],["$","meta","1",{"name":"description","content":"美国副总统万斯在AI峰会上发表演讲，阐述特朗普政府对人工智能发展的四大政策立场——确保美国AI全球领先、反对过度监管、保持技术意识形态中立、以促进就业为导向。演讲强调AI在制造业、医疗和能源领域的变革潜力，呼吁国际社会关注AI机遇而非风险，并警惕AI被用于审查与控制。"}],["$","meta","2",{"name":"application-name","content":"Hinbox"}],["$","link","3",{"rel":"canonical","href":"https://linguage.github.io/hinbox/mail/talks-jd-vance-speech-on-ai-future-trump-administration"}],["$","meta","4",{"property":"og:title","content":"JD 万斯：关于人工智能未来的演讲：特朗普政府的立场与展望"}],["$","meta","5",{"property":"og:description","content":"美国副总统万斯在AI峰会上发表演讲，阐述特朗普政府对人工智能发展的四大政策立场——确保美国AI全球领先、反对过度监管、保持技术意识形态中立、以促进就业为导向。演讲强调AI在制造业、医疗和能源领域的变革潜力，呼吁国际社会关注AI机遇而非风险，并警惕AI被用于审查与控制。"}],["$","meta","6",{"property":"og:url","content":"https://linguage.github.io/hinbox/mail/talks-jd-vance-speech-on-ai-future-trump-administration"}],["$","meta","7",{"property":"og:site_name","content":"Hinbox"}],["$","meta","8",{"property":"og:locale","content":"zh_CN"}],["$","meta","9",{"property":"og:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","meta","10",{"property":"og:image:width","content":"1200"}],["$","meta","11",{"property":"og:image:height","content":"630"}],["$","meta","12",{"property":"og:image:alt","content":"JD 万斯：关于人工智能未来的演讲：特朗普政府的立场与展望"}],["$","meta","13",{"property":"og:type","content":"article"}],["$","meta","14",{"property":"article:published_time","content":"2025-02-11T00:00:00.000Z"}],["$","meta","15",{"property":"article:author","content":"JD Vance"}],["$","meta","16",{"property":"article:tag","content":"人工智能"}],["$","meta","17",{"property":"article:tag","content":"美国AI政策"}],["$","meta","18",{"property":"article:tag","content":"技术监管"}],["$","meta","19",{"property":"article:tag","content":"就业与经济"}],["$","meta","20",{"property":"article:tag","content":"国际合作"}],["$","meta","21",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","22",{"name":"twitter:title","content":"JD 万斯：关于人工智能未来的演讲：特朗普政府的立场与展望"}],["$","meta","23",{"name":"twitter:description","content":"美国副总统万斯在AI峰会上发表演讲，阐述特朗普政府对人工智能发展的四大政策立场——确保美国AI全球领先、反对过度监管、保持技术意识形态中立、以促进就业为导向。演讲强调AI在制造业、医疗和能源领域的变革潜力，呼吁国际社会关注AI机遇而非风险，并警惕AI被用于审查与控制。"}],["$","meta","24",{"name":"twitter:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","link","25",{"rel":"icon","href":"/hinbox/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","26",{"rel":"icon","href":"/hinbox/icon.svg?icon.6ca2692a.svg","sizes":"any","type":"image/svg+xml"}],["$","$L13","27",{}]]
+8:null

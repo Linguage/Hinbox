@@ -1,0 +1,256 @@
+1:"$Sreact.fragment"
+3:I[39756,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+4:I[37457,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"ViewportBoundary"]
+b:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"MetadataBoundary"]
+d:I[68027,[],"default"]
+:HL["/hinbox/_next/static/chunks/24888a04b79e7824.css","style"]
+:HL["/hinbox/_next/static/media/fba5a26ea33df6a3-s.p.1bbdebe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"vMUiZWVsRx3pCqxArlZcR","c":["","mail","essays-whitesides-group-writing-a-paper"],"q":"","i":false,"f":[[["",{"children":["mail",{"children":[["id","essays-whitesides-group-writing-a-paper","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hinbox/_next/static/chunks/24888a04b79e7824.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[79520,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],""]
+f:I[59665,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],"default"]
+:HL["https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","style"]
+2:["$","html",null,{"lang":"zh-CN","className":"plus_jakarta_sans_9710934b-module__-vnxFq__variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function () {\n  try {\n    var theme = window.localStorage.getItem('hinbox:theme');\n    if (theme !== 'light' && theme !== 'dark' && theme !== 'sepia') {\n      theme = 'light';\n    }\n    window['__HINBOX_THEME__'] = theme;\n    document.documentElement.dataset.theme = theme;\n    document.documentElement.style.colorScheme = theme === 'dark' ? 'dark' : 'light';\n    function applyBodyTheme() {\n      if (document.body) {\n        document.body.dataset.theme = theme;\n      }\n    }\n    if (document.body) {\n      applyBodyTheme();\n    } else {\n      document.addEventListener('DOMContentLoaded', applyBodyTheme);\n    }\n  } catch (error) {\n    window['__HINBOX_THEME__'] = 'light';\n    document.documentElement.dataset.theme = 'light';\n    document.documentElement.style.colorScheme = 'light';\n  }\n})();"}}],"",["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","rel":"stylesheet"}],["$","$Le",null,{"id":"mathjax-config","strategy":"afterInteractive","children":"\n          window.MathJax = {\n            tex: {\n              inlineMath: [['$', '$'], ['\\\\(', '\\\\)']],\n              displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']],\n              processEscapes: true,\n              packages: { '[+]': ['noerrors', 'noundefined'] },\n            },\n            svg: {\n              fontCache: 'none',\n            },\n            startup: {\n              typeset: false,\n              ready: () => {\n                window.MathJax.startup.defaultReady();\n                window.dispatchEvent(new Event('MathJaxReady'));\n              },\n            },\n          };\n          "}],["$","$Le",null,{"id":"mathjax-cdn","strategy":"afterInteractive","src":"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"}]]}],["$","body",null,{"className":"font-[family-name:var(--font-jakarta)] antialiased","suppressHydrationWarning":true,"children":["",["$","$Lf",null,{"weeklyNavCounts":{"inboxWeeklyCount":10,"sentWeeklyCount":0,"starredTotalCount":21},"people":[{"id":"david-perell","name":"David Perell","email":""},{"id":"lenny-s-podcast","name":"Lenny's Podcast","email":""},{"id":"ryan-peterman","name":"Ryan Peterman","email":""},{"id":"anthropic","name":"Anthropic","email":""},{"id":"dwarkesh-patel","name":"Dwarkesh Patel","email":""},{"id":"stripe","name":"Stripe","email":""},{"id":"stephen-wolfram","name":"Stephen Wolfram","email":""},{"id":"latent-space","name":"Latent Space","email":""},{"id":"lex-fridman","name":"Lex Fridman","email":""},{"id":"steve-jobs","name":"Steve Jobs","email":""},{"id":"20vc-with-harry-stebbings","name":"20VC with Harry Stebbings","email":""},{"id":"jeremy-stern","name":"Jeremy Stern","email":""},{"id":"turing","name":"Turing","email":""},{"id":"demis-hassabis","name":"Demis Hassabis","email":""},{"id":"the-diary-of-a-ceo","name":"The Diary Of A CEO","email":""},{"id":"elon-musk","name":"Elon Musk","email":""},{"id":"sauteedveggies","name":"SauteedVeggies","email":""},{"id":"andy-matuschak","name":"Andy Matuschak","email":""},{"id":"mind-the-game","name":"Mind the Game","email":""},{"id":"ramona-shelburne","name":"Ramona Shelburne","email":""},{"id":"jared-weiss","name":"Jared Weiss","email":""},{"id":"deeplearningai","name":"DeepLearningAI","email":""},{"id":"cursor","name":"Cursor","email":""},{"id":"y-combinator","name":"Y Combinator","email":""},{"id":"openai","name":"OpenAI","email":""},{"id":"every","name":"Every","email":""},{"id":"sequoia-capital","name":"Sequoia Capital","email":""},{"id":"alex-kantrowitz","name":"Alex Kantrowitz","email":""},{"id":"peter-dizikes-mit-news","name":"Peter Dizikes ｜ MIT News","email":""},{"id":"world-finance-journal","name":"World Finance Journal","email":""},{"id":"andrej-karpathy","name":"Andrej karpathy","email":""},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","email":""},{"id":"jd-vance","name":"JD Vance","email":""},{"id":"街-大学","name":"やまぐち街なか大学","email":""},{"id":"jc","name":"JC","email":""}],"tags":[{"id":"translated","name":"translated","count":123},{"id":"interview","name":"interview","count":24},{"id":"ai","name":"ai","count":17},{"id":"人工智能","name":"人工智能","count":17},{"id":"clippings","name":"clippings","count":15},{"id":"essays","name":"Essays","count":9},{"id":"talks","name":"Talks","count":8},{"id":"深度学习","name":"深度学习","count":8},{"id":"ai-agents","name":"ai-agents","count":7},{"id":"cognition","name":"cognition","count":6},{"id":"nba","name":"NBA","count":6},{"id":"ai编程","name":"AI编程","count":5},{"id":"humanity","name":"humanity","count":5},{"id":"math","name":"math","count":5},{"id":"steve-jobs","name":"steve-jobs","count":5},{"id":"大语言模型","name":"大语言模型","count":5},{"id":"机器学习","name":"机器学习","count":5},{"id":"agi","name":"AGI","count":4},{"id":"anthropic","name":"Anthropic","count":4},{"id":"claude-code","name":"Claude Code","count":4},{"id":"doge","name":"DOGE","count":4},{"id":"nvidia","name":"nvidia","count":4},{"id":"windsurf","name":"Windsurf","count":4},{"id":"政府效率","name":"政府效率","count":4},{"id":"文艺复兴科技","name":"文艺复兴科技","count":4},{"id":"英伟达","name":"英伟达","count":4},{"id":"软件工程","name":"软件工程","count":4},{"id":"ai编程工具","name":"AI编程工具","count":3},{"id":"apple","name":"apple","count":3},{"id":"cursor","name":"Cursor","count":3},{"id":"deepseek","name":"deepseek","count":3},{"id":"linus-torvalds","name":"Linus Torvalds","count":3},{"id":"linux内核","name":"Linux内核","count":3},{"id":"llm","name":"llm","count":3},{"id":"mathematics","name":"mathematics","count":3},{"id":"reports","name":"Reports","count":3},{"id":"偏微分方程","name":"偏微分方程","count":3},{"id":"勒布朗-詹姆斯","name":"勒布朗·詹姆斯","count":3},{"id":"开源","name":"开源","count":3},{"id":"开源ai","name":"开源AI","count":3},{"id":"强化学习","name":"强化学习","count":3},{"id":"数学哲学","name":"数学哲学","count":3},{"id":"数学教育","name":"数学教育","count":3},{"id":"访谈","name":"访谈","count":3},{"id":"量化投资","name":"量化投资","count":3},{"id":"马斯克","name":"马斯克","count":3},{"id":"黄仁勋","name":"黄仁勋","count":3},{"id":"ai-agent","name":"AI Agent","count":2},{"id":"ai-coding","name":"ai-coding","count":2},{"id":"ai代理","name":"AI代理","count":2},{"id":"ai基础设施","name":"AI基础设施","count":2},{"id":"ai安全","name":"AI安全","count":2},{"id":"ai数学","name":"AI数学","count":2},{"id":"ai智能体","name":"AI智能体","count":2},{"id":"ai计算","name":"AI计算","count":2},{"id":"alphafold","name":"AlphaFold","count":2},{"id":"claude","name":"Claude","count":2},{"id":"devin","name":"Devin","count":2},{"id":"economics","name":"economics","count":2},{"id":"emacs","name":"Emacs","count":2},{"id":"essay","name":"essay","count":2},{"id":"git","name":"Git","count":2},{"id":"google","name":"Google","count":2},{"id":"ilya-sutskever","name":"Ilya Sutskever","count":2},{"id":"jeff-dean","name":"jeff-dean","count":2},{"id":"jepa","name":"JEPA","count":2},{"id":"org-mode","name":"Org mode","count":2},{"id":"programming","name":"programming","count":2},{"id":"software-engineering","name":"software-engineering","count":2},{"id":"vibe-coding","name":"Vibe Coding","count":2},{"id":"writing","name":"writing","count":2},{"id":"世界模型","name":"世界模型","count":2},{"id":"人性","name":"人性","count":2},{"id":"代数几何","name":"代数几何","count":2},{"id":"代码编辑器","name":"代码编辑器","count":2},{"id":"价值投资","name":"价值投资","count":2},{"id":"伯克希尔哈撒韦","name":"伯克希尔哈撒韦","count":2},{"id":"关税政策","name":"关税政策","count":2},{"id":"创业历程","name":"创业历程","count":2},{"id":"加速计算","name":"加速计算","count":2},{"id":"吉姆-西蒙斯","name":"吉姆·西蒙斯","count":2},{"id":"哲学","name":"哲学","count":2},{"id":"国际合作","name":"国际合作","count":2},{"id":"大型语言模型","name":"大型语言模型","count":2},{"id":"好奇心","name":"好奇心","count":2},{"id":"季后赛","name":"季后赛","count":2},{"id":"工程实践","name":"工程实践","count":2},{"id":"巴菲特","name":"巴菲特","count":2},{"id":"形式化证明","name":"形式化证明","count":2},{"id":"彼得-蒂尔","name":"彼得·蒂尔","count":2},{"id":"微软","name":"微软","count":2},{"id":"提示工程","name":"提示工程","count":2},{"id":"数学","name":"数学","count":2},{"id":"数学研究","name":"数学研究","count":2},{"id":"文班亚马","name":"文班亚马","count":2},{"id":"智能代理开发","name":"智能代理开发","count":2},{"id":"毕业演讲","name":"毕业演讲","count":2},{"id":"版本控制","name":"版本控制","count":2},{"id":"科学发现","name":"科学发现","count":2},{"id":"科技停滞","name":"科技停滞","count":2},{"id":"软件工程变革","name":"软件工程变革","count":2},{"id":"软件开发","name":"软件开发","count":2},{"id":"量子力学","name":"量子力学","count":2},{"id":"阿贝尔奖","name":"阿贝尔奖","count":2},{"id":"风险投资","name":"风险投资","count":2},{"id":"agent设计","name":"Agent设计","count":1},{"id":"ai-for-science","name":"AI for Science","count":1},{"id":"ai-编程","name":"AI 编程","count":1},{"id":"ai伦理","name":"AI伦理","count":1},{"id":"ai最佳实践","name":"AI最佳实践","count":1},{"id":"ai大模型","name":"AI大模型","count":1},{"id":"ai并购","name":"AI并购","count":1},{"id":"ai应用","name":"AI应用","count":1},{"id":"ai开发者大会","name":"AI开发者大会","count":1},{"id":"ai推理","name":"AI推理","count":1},{"id":"ai收购","name":"AI收购","count":1},{"id":"ai数学发现","name":"AI数学发现","count":1},{"id":"ai生物医药","name":"AI生物医药","count":1},{"id":"ai竞争","name":"AI竞争","count":1},{"id":"ai编程代理","name":"AI编程代理","count":1},{"id":"ai芯片","name":"AI芯片","count":1},{"id":"ai规模化","name":"AI规模化","count":1},{"id":"ai辅助学习","name":"AI辅助学习","count":1},{"id":"ai辅助开发","name":"AI辅助开发","count":1},{"id":"anysphere","name":"Anysphere","count":1},{"id":"biography","name":"biography","count":1},{"id":"blackwell架构","name":"Blackwell架构","count":1},{"id":"cag","name":"CAG","count":1},{"id":"career","name":"career","count":1},{"id":"ceo交接","name":"CEO交接","count":1},{"id":"chatgpt","name":"ChatGPT","count":1},{"id":"chris-bishop","name":"Chris Bishop","count":1},{"id":"claude-4","name":"Claude 4","count":1},{"id":"claude-sonnet-4-5","name":"Claude Sonnet 4.5","count":1},{"id":"coding-agent","name":"Coding Agent","count":1},{"id":"context-engineering","name":"Context Engineering","count":1},{"id":"cs50","name":"CS50","count":1},{"id":"cuda生态","name":"CUDA生态","count":1},{"id":"deep-search","name":"Deep Search","count":1},{"id":"deepmind","name":"DeepMind","count":1},{"id":"distributed-systems","name":"distributed-systems","count":1},{"id":"elon-musk","name":"Elon Musk","count":1},{"id":"engineering","name":"engineering","count":1},{"id":"fields奖","name":"Fields奖","count":1},{"id":"geoffrey-hinton","name":"Geoffrey Hinton","count":1},{"id":"gpt-4","name":"GPT-4","count":1},{"id":"gpt-4-5","name":"GPT-4.5","count":1},{"id":"gpu与深度学习","name":"GPU与深度学习","count":1},{"id":"gpu架构","name":"GPU架构","count":1},{"id":"gpu算力","name":"GPU算力","count":1},{"id":"grok-3","name":"Grok 3","count":1},{"id":"haskell","name":"haskell","count":1},{"id":"incident","name":"incident","count":1},{"id":"jim-simons","name":"Jim Simons","count":1},{"id":"julia","name":"Julia","count":1},{"id":"june-huh","name":"june-huh","count":1},{"id":"kaggle","name":"Kaggle","count":1},{"id":"kiro-spec模式","name":"Kiro SPEC模式","count":1},{"id":"labor","name":"labor","count":1},{"id":"lean","name":"Lean","count":1},{"id":"lisp","name":"Lisp","count":1},{"id":"llm工具","name":"LLM工具","count":1},{"id":"mcp","name":"MCP","count":1},{"id":"mit","name":"MIT","count":1},{"id":"mvp","name":"MVP","count":1},{"id":"naval-ravikant","name":"Naval Ravikant","count":1},{"id":"ncaa疯狂三月","name":"NCAA疯狂三月","count":1},{"id":"noema","name":"noema","count":1},{"id":"notes","name":"notes","count":1},{"id":"notion","name":"Notion","count":1},{"id":"nvidia-gtc-2025","name":"NVIDIA GTC 2025","count":1},{"id":"openai","name":"OpenAI","count":1},{"id":"optimus机器人","name":"Optimus机器人","count":1},{"id":"peter-lax","name":"Peter Lax","count":1},{"id":"pixar","name":"pixar","count":1},{"id":"prompt-engineering","name":"Prompt Engineering","count":1},{"id":"psychology","name":"psychology","count":1},{"id":"publishing","name":"publishing","count":1},{"id":"python","name":"Python","count":1},{"id":"reliability","name":"reliability","count":1},{"id":"report","name":"report","count":1},{"id":"research","name":"Research","count":1},{"id":"research-career","name":"research-career","count":1},{"id":"robotics","name":"robotics","count":1},{"id":"sanjay-ghemawat","name":"Sanjay Ghemawat","count":1},{"id":"satya-nadella","name":"Satya Nadella","count":1},{"id":"scaling-laws","name":"Scaling Laws","count":1},{"id":"security","name":"security","count":1},{"id":"skills","name":"skills","count":1},{"id":"slimv","name":"Slimv","count":1},{"id":"technical-report","name":"technical-report","count":1},{"id":"terence-tao","name":"terence-tao","count":1},{"id":"vim","name":"Vim","count":1},{"id":"vlime","name":"Vlime","count":1},{"id":"wolfram","name":"Wolfram","count":1},{"id":"xai","name":"xAI","count":1},{"id":"yann-lecun","name":"Yann LeCun","count":1},{"id":"yc","name":"YC","count":1},{"id":"上下文工程","name":"上下文工程","count":1},{"id":"个人反思","name":"个人反思","count":1},{"id":"个人电脑","name":"个人电脑","count":1},{"id":"中美关系","name":"中美关系","count":1},{"id":"乌克兰战争","name":"乌克兰战争","count":1},{"id":"乔姆斯基","name":"乔姆斯基","count":1},{"id":"交通基础设施","name":"交通基础设施","count":1},{"id":"产品市场契合","name":"产品市场契合","count":1},{"id":"人工智能未来","name":"人工智能未来","count":1},{"id":"人形机器人","name":"人形机器人","count":1},{"id":"人机协作","name":"人机协作","count":1},{"id":"人机博弈","name":"人机博弈","count":1},{"id":"人生哲学","name":"人生哲学","count":1},{"id":"人类未来","name":"人类未来","count":1},{"id":"人类福祉","name":"人类福祉","count":1},{"id":"代理开发","name":"代理开发","count":1},{"id":"代理式编程","name":"代理式编程","count":1},{"id":"代码生成","name":"代码生成","count":1},{"id":"任务管理","name":"任务管理","count":1},{"id":"仿真学习","name":"仿真学习","count":1},{"id":"企业采用","name":"企业采用","count":1},{"id":"众包协作","name":"众包协作","count":1},{"id":"优绩主义","name":"优绩主义","count":1},{"id":"伦理监管","name":"伦理监管","count":1},{"id":"伯克希尔-哈撒韦","name":"伯克希尔·哈撒韦","count":1},{"id":"俄乌战争","name":"俄乌战争","count":1},{"id":"保罗-狄拉克","name":"保罗·狄拉克","count":1},{"id":"保险业务","name":"保险业务","count":1},{"id":"信号处理","name":"信号处理","count":1},{"id":"信息动力学","name":"信息动力学","count":1},{"id":"信息物理学","name":"信息物理学","count":1},{"id":"全球贸易","name":"全球贸易","count":1},{"id":"公共美德","name":"公共美德","count":1},{"id":"具身智能","name":"具身智能","count":1},{"id":"写作","name":"写作","count":1},{"id":"写作工具","name":"写作工具","count":1},{"id":"冷战数学","name":"冷战数学","count":1},{"id":"创业转型","name":"创业转型","count":1},{"id":"创业领导力","name":"创业领导力","count":1},{"id":"创造力与年龄","name":"创造力与年龄","count":1},{"id":"制度经济学","name":"制度经济学","count":1},{"id":"加性数论","name":"加性数论","count":1},{"id":"包容性制度","name":"包容性制度","count":1},{"id":"医疗应用","name":"医疗应用","count":1},{"id":"半导体","name":"半导体","count":1},{"id":"协同设计","name":"协同设计","count":1},{"id":"单位距离问题","name":"单位距离问题","count":1},{"id":"南非种族隔离","name":"南非种族隔离","count":1},{"id":"卢卡-东契奇","name":"卢卡·东契奇","count":1},{"id":"压缩感知","name":"压缩感知","count":1},{"id":"变换编码","name":"变换编码","count":1},{"id":"可持续能源","name":"可持续能源","count":1},{"id":"可重复性危机","name":"可重复性危机","count":1},{"id":"史蒂夫-乔布斯","name":"史蒂夫·乔布斯","count":1},{"id":"史蒂夫-纳什","name":"史蒂夫·纳什","count":1},{"id":"同伦类型论","name":"同伦类型论","count":1},{"id":"哲学辩论","name":"哲学辩论","count":1},{"id":"国际政治","name":"国际政治","count":1},{"id":"在线教育","name":"在线教育","count":1},{"id":"地缘政治","name":"地缘政治","count":1},{"id":"埃尔德什猜想","name":"埃尔德什猜想","count":1},{"id":"埃罗尔-马斯克","name":"埃罗尔·马斯克","count":1},{"id":"埃隆-马斯克","name":"埃隆·马斯克","count":1},{"id":"基督教与科学","name":"基督教与科学","count":1},{"id":"基础主义","name":"基础主义","count":1},{"id":"基础模型","name":"基础模型","count":1},{"id":"复合工程","name":"复合工程","count":1},{"id":"外交谈判","name":"外交谈判","count":1},{"id":"多伦多大学","name":"多伦多大学","count":1},{"id":"多体物理","name":"多体物理","count":1},{"id":"多智能体协同","name":"多智能体协同","count":1},{"id":"大数假说","name":"大数假说","count":1},{"id":"太空探索","name":"太空探索","count":1},{"id":"孤子理论","name":"孤子理论","count":1},{"id":"学习路径","name":"学习路径","count":1},{"id":"学术写作","name":"学术写作","count":1},{"id":"学术建议","name":"学术建议","count":1},{"id":"学术生态","name":"学术生态","count":1},{"id":"学术研究方法","name":"学术研究方法","count":1},{"id":"学术自传","name":"学术自传","count":1},{"id":"宇宙学","name":"宇宙学","count":1},{"id":"官僚主义改革","name":"官僚主义改革","count":1},{"id":"定理证明","name":"定理证明","count":1},{"id":"家族故事","name":"家族故事","count":1},{"id":"对冲基金","name":"对冲基金","count":1},{"id":"对称性","name":"对称性","count":1},{"id":"对称性破缺","name":"对称性破缺","count":1},{"id":"小平邦彦","name":"小平邦彦","count":1},{"id":"少林寺","name":"少林寺","count":1},{"id":"就业与经济","name":"就业与经济","count":1},{"id":"就业影响","name":"就业影响","count":1},{"id":"工作尊严","name":"工作尊严","count":1},{"id":"工作流","name":"工作流","count":1},{"id":"工程精神","name":"工程精神","count":1},{"id":"幸福与成功","name":"幸福与成功","count":1},{"id":"库珀-弗拉格","name":"库珀·弗拉格","count":1},{"id":"开发环境","name":"开发环境","count":1},{"id":"开发者工具","name":"开发者工具","count":1},{"id":"开发者生产力","name":"开发者生产力","count":1},{"id":"开源模型","name":"开源模型","count":1},{"id":"形式主义","name":"形式主义","count":1},{"id":"彼得-拉克斯","name":"彼得·拉克斯","count":1},{"id":"微分几何","name":"微分几何","count":1},{"id":"心理学","name":"心理学","count":1},{"id":"思维链","name":"思维链","count":1},{"id":"慈善","name":"慈善","count":1},{"id":"慈善事业","name":"慈善事业","count":1},{"id":"慕尼黑安全会议","name":"慕尼黑安全会议","count":1},{"id":"成长型思维","name":"成长型思维","count":1},{"id":"技术监管","name":"技术监管","count":1},{"id":"技能退化","name":"技能退化","count":1},{"id":"投资哲学","name":"投资哲学","count":1},{"id":"推理时计算","name":"推理时计算","count":1},{"id":"提纲写作","name":"提纲写作","count":1},{"id":"摩根大通","name":"摩根大通","count":1},{"id":"播客","name":"播客","count":1},{"id":"政治哲学","name":"政治哲学","count":1},{"id":"数字革命","name":"数字革命","count":1},{"id":"数学反例","name":"数学反例","count":1},{"id":"数学史","name":"数学史","count":1},{"id":"数学基础","name":"数学基础","count":1},{"id":"数学实践","name":"数学实践","count":1},{"id":"数学家传记","name":"数学家传记","count":1},{"id":"数学工作流","name":"数学工作流","count":1},{"id":"数学形式化","name":"数学形式化","count":1},{"id":"数据中心","name":"数据中心","count":1},{"id":"数据效率","name":"数据效率","count":1},{"id":"数据科学","name":"数据科学","count":1},{"id":"文化多样性","name":"文化多样性","count":1},{"id":"文化转型","name":"文化转型","count":1},{"id":"文学编程","name":"文学编程","count":1},{"id":"斯多葛主义","name":"斯多葛主义","count":1},{"id":"无人机","name":"无人机","count":1},{"id":"日本数学","name":"日本数学","count":1},{"id":"日记写作","name":"日记写作","count":1},{"id":"智能代理","name":"智能代理","count":1},{"id":"智能体ai","name":"智能体AI","count":1},{"id":"智能分析","name":"智能分析","count":1},{"id":"更衣室训话","name":"更衣室训话","count":1},{"id":"未来战争","name":"未来战争","count":1},{"id":"未来趋势","name":"未来趋势","count":1},{"id":"机器人技术","name":"机器人技术","count":1},{"id":"杰米-戴蒙","name":"杰米·戴蒙","count":1},{"id":"柏拉图主义","name":"柏拉图主义","count":1},{"id":"查尔斯-巴克利","name":"查尔斯·巴克利","count":1},{"id":"查理-芒格","name":"查理·芒格","count":1},{"id":"标记语言","name":"标记语言","count":1},{"id":"格罗滕迪克","name":"格罗滕迪克","count":1},{"id":"概形","name":"概形","count":1},{"id":"模仿理论","name":"模仿理论","count":1},{"id":"模型应用","name":"模型应用","count":1},{"id":"模型驱动交易","name":"模型驱动交易","count":1},{"id":"模拟宇宙假说","name":"模拟宇宙假说","count":1},{"id":"欧洲创新","name":"欧洲创新","count":1},{"id":"欧洲民主","name":"欧洲民主","count":1},{"id":"欧盟资本市场","name":"欧盟资本市场","count":1},{"id":"欺骗性ai","name":"欺骗性AI","count":1},{"id":"比尔-盖茨","name":"比尔·盖茨","count":1},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","count":1},{"id":"沉思录","name":"沉思录","count":1},{"id":"沙奎尔-奥尼尔","name":"沙奎尔·奥尼尔","count":1},{"id":"波波维奇","name":"波波维奇","count":1},{"id":"泽连斯基","name":"泽连斯基","count":1},{"id":"活文档","name":"活文档","count":1},{"id":"测试时计算","name":"测试时计算","count":1},{"id":"涌现","name":"涌现","count":1},{"id":"深度阅读","name":"深度阅读","count":1},{"id":"湖人三连冠","name":"湖人三连冠","count":1},{"id":"炒作与现实","name":"炒作与现实","count":1},{"id":"热力学第二定律","name":"热力学第二定律","count":1},{"id":"特斯拉","name":"特斯拉","count":1},{"id":"特朗普","name":"特朗普","count":1},{"id":"狄拉克","name":"狄拉克","count":1},{"id":"狄拉克方程","name":"狄拉克方程","count":1},{"id":"理论物理","name":"理论物理","count":1},{"id":"生产力工具","name":"生产力工具","count":1},{"id":"生成式ai","name":"生成式AI","count":1},{"id":"相对论","name":"相对论","count":1},{"id":"知识管理","name":"知识管理","count":1},{"id":"研究方法","name":"研究方法","count":1},{"id":"研究生指南","name":"研究生指南","count":1},{"id":"硅谷","name":"硅谷","count":1},{"id":"社交媒体","name":"社交媒体","count":1},{"id":"社会公平","name":"社会公平","count":1},{"id":"福柯","name":"福柯","count":1},{"id":"离散几何","name":"离散几何","count":1},{"id":"私募股权","name":"私募股权","count":1},{"id":"科学哲学","name":"科学哲学","count":1},{"id":"科学研究","name":"科学研究","count":1},{"id":"科学论文","name":"科学论文","count":1},{"id":"科技史","name":"科技史","count":1},{"id":"科比-布莱恩特","name":"科比·布莱恩特","count":1},{"id":"移民政策","name":"移民政策","count":1},{"id":"稀疏表示","name":"稀疏表示","count":1},{"id":"空间技术","name":"空间技术","count":1},{"id":"竞技长青","name":"竞技长青","count":1},{"id":"笔记技巧","name":"笔记技巧","count":1},{"id":"第一性原理","name":"第一性原理","count":1},{"id":"算法与社会","name":"算法与社会","count":1},{"id":"篮球战术","name":"篮球战术","count":1},{"id":"篮球访谈","name":"篮球访谈","count":1},{"id":"类型论","name":"类型论","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"约束等距性","name":"约束等距性","count":1},{"id":"纯文本写作","name":"纯文本写作","count":1},{"id":"纯粹数学","name":"纯粹数学","count":1},{"id":"线性代数","name":"线性代数","count":1},{"id":"经典阅读","name":"经典阅读","count":1},{"id":"结对编程","name":"结对编程","count":1},{"id":"编程教学","name":"编程教学","count":1},{"id":"编程语言","name":"编程语言","count":1},{"id":"美国ai政策","name":"美国AI政策","count":1},{"id":"美国政府改革","name":"美国政府改革","count":1},{"id":"美国经济","name":"美国经济","count":1},{"id":"美欧关系","name":"美欧关系","count":1},{"id":"翻译","name":"翻译","count":1},{"id":"职业自律","name":"职业自律","count":1},{"id":"职业辩护","name":"职业辩护","count":1},{"id":"联邦政府改革","name":"联邦政府改革","count":1},{"id":"联邦财政","name":"联邦财政","count":1},{"id":"股东信","name":"股东信","count":1},{"id":"股东大会","name":"股东大会","count":1},{"id":"能源","name":"能源","count":1},{"id":"能量基模型","name":"能量基模型","count":1},{"id":"自动驾驶","name":"自动驾驶","count":1},{"id":"自我认知","name":"自我认知","count":1},{"id":"自由意志主义","name":"自由意志主义","count":1},{"id":"自由民主","name":"自由民主","count":1},{"id":"苹果","name":"苹果","count":1},{"id":"苹果公司","name":"苹果公司","count":1},{"id":"药物研发","name":"药物研发","count":1},{"id":"蓝鳍金枪鱼","name":"蓝鳍金枪鱼","count":1},{"id":"虚拟细胞","name":"虚拟细胞","count":1},{"id":"蛋白质折叠","name":"蛋白质折叠","count":1},{"id":"蜂巢思维","name":"蜂巢思维","count":1},{"id":"行为偏差","name":"行为偏差","count":1},{"id":"西部决赛","name":"西部决赛","count":1},{"id":"规模法则","name":"规模法则","count":1},{"id":"规范驱动开发","name":"规范驱动开发","count":1},{"id":"言论自由","name":"言论自由","count":1},{"id":"计算增强生成","name":"计算增强生成","count":1},{"id":"计算数学","name":"计算数学","count":1},{"id":"计算机教育","name":"计算机教育","count":1},{"id":"计算机证明","name":"计算机证明","count":1},{"id":"训练体系","name":"训练体系","count":1},{"id":"论文写作","name":"论文写作","count":1},{"id":"论文撰写","name":"论文撰写","count":1},{"id":"访谈实录","name":"访谈实录","count":1},{"id":"詹姆斯-西蒙斯","name":"詹姆斯·西蒙斯","count":1},{"id":"语言学","name":"语言学","count":1},{"id":"诺贝尔经济学奖","name":"诺贝尔经济学奖","count":1},{"id":"谷歌","name":"谷歌","count":1},{"id":"贝叶斯方法","name":"贝叶斯方法","count":1},{"id":"财政削减","name":"财政削减","count":1},{"id":"资本配置","name":"资本配置","count":1},{"id":"超级智能","name":"超级智能","count":1},{"id":"超级计算","name":"超级计算","count":1},{"id":"跨领域训练","name":"跨领域训练","count":1},{"id":"身体转型","name":"身体转型","count":1},{"id":"软件工程范式","name":"软件工程范式","count":1},{"id":"软件开发最佳实践","name":"软件开发最佳实践","count":1},{"id":"软件开发未来","name":"软件开发未来","count":1},{"id":"运动恢复","name":"运动恢复","count":1},{"id":"还原论","name":"还原论","count":1},{"id":"通用人工智能","name":"通用人工智能","count":1},{"id":"重整化","name":"重整化","count":1},{"id":"量化交易","name":"量化交易","count":1},{"id":"金融服务","name":"金融服务","count":1},{"id":"金融监管","name":"金融监管","count":1},{"id":"阅读方法","name":"阅读方法","count":1},{"id":"集合论","name":"集合论","count":1},{"id":"非虚构阅读","name":"非虚构阅读","count":1},{"id":"预训练","name":"预训练","count":1},{"id":"领导力","name":"领导力","count":1},{"id":"香农信息熵","name":"香农信息熵","count":1},{"id":"马刺","name":"马刺","count":1},{"id":"马库斯-奥勒留","name":"马库斯·奥勒留","count":1}],"moduleNavItems":[{"id":"essays","label":"Essays","href":"/?label=Essays","order":40,"icon":"BookOpen","count":62},{"id":"talks","label":"Talks","href":"/?label=Talks","order":42,"icon":"Video","count":165},{"id":"reports","label":"Reports","href":"/?label=Reports","order":41,"icon":"FileText","count":36},{"id":"notes","label":"Notes","href":"/?label=Notes","order":30,"icon":"Eye","count":78}],"children":"$L10"}]]}]]}]
+10:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"min-h-screen px-12 py-12 font-sans text-slate-900","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n            (function () {\n              var pathname = window.location.pathname || '';\n              var canonicalPrefix = '/hinbox';\n\n              if (/^/hinbox(?:/|$)/i.test(pathname) && pathname !== pathname.replace(/^/hinbox/i, canonicalPrefix)) {\n                var target = pathname.replace(/^/hinbox/i, canonicalPrefix) + window.location.search + window.location.hash;\n                window.location.replace(target);\n                return;\n              }\n            }());\n          "}}],["$","div",null,{"className":"mx-auto flex min-h-[60vh] max-w-2xl flex-col justify-center gap-4","children":[["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"页面未找到"}],["$","p",null,{"className":"text-base leading-7 text-slate-600","children":"如果你是从大写路径进入本站，系统会自动跳转到小写的规范地址。"}],["$","p",null,{"className":"text-base","children":["返回首页：",["$","a",null,{"className":"text-sky-600 underline underline-offset-4","href":"/hinbox/","children":"/hinbox/"}]]}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+11:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+12:T3a13,<h1>怀特塞兹研究组：撰写论文</h1>
+<h2>摘要</h2>
+<p>本文是哈佛大学化学家怀特塞兹撰写的经典学术写作指南，系统阐述了科学论文的本质、提纲驱动的写作方法以及写作风格要点。文章强调论文不仅是研究成果的归档工具，更是规划和组织研究的框架，主张从项目早期就开始围绕数据构建提纲，并通过反复迭代修改来高效完成论文写作。</p>
+<h2>核心概念及解读</h2>
+<p><strong>提纲驱动写作法</strong>：指在动笔撰写正文之前，先围绕数据、图表和组织结构反复打磨提纲，待框架确定后再填充文本，从而大幅提升写作效率</p>
+<p><strong>假说检验导向</strong>：科学研究的核心目标不是收集数据，而是提出假说、通过实验检验假说、得出结论并传播给他人</p>
+<p><strong>数据优先于文本</strong>：论文应被视为实验结果的有序集合，信息尽可能通过图、表、方程式和反应路线呈现，文本仅作辅助说明</p>
+<p><strong>重要性排序原则</strong>：论文内容应按结果的重要程度而非实验的时间顺序组织，最重要的发现放在最前面，次要内容后置或省略</p>
+<p><strong>迭代式提纲修改</strong>：提纲需经过导师与学生之间多轮交换审阅和修改（通常四到五次），期间常伴随补充实验，最终使数据和结构趋于完善</p>
+<ul>
+<li>作者：乔治·M·怀特塞兹（George M. Whitesides）</li>
+<li>原文链接：<a href="https://intra.ece.ucr.edu/~rlake/Whitesides_writing_res_paper.pdf">Whitesides' Group: Writing a Paper</a></li>
+</ul>
+<h1><strong>1. 什么是科学论文？</strong></h1>
+<p>一篇论文是对假说、数据和结论的有组织的描述，旨在指导读者。论文是研究的核心部分。如果你的研究不能产出论文，那还不如不做。“有趣但未发表”等同于“不存在”。</p>
+<p>要认识到，你做研究的目标是提出并检验假说，从这些检验中得出结论，并将这些结论传授给他人。你的目标不是“收集数据”。</p>
+<p>一篇论文不仅仅是存档已完成研究项目的工具；它也是规划进行中研究的框架。如果你清楚地理解论文的目的和形式，它将在组织和进行研究方面对你大有裨益。一份好的论文提纲也是一份好的研究计划。你应该在整个研究过程中不断撰写和修改这些计划/提纲。开始时，你可能更多的是计划；结束时，则更多的是提纲。在纸上不断努力理解、分析、总结和重新阐述假说，将比那种收集完所有数据后才开始整理的过程对你来说效率高得多。</p>
+<h1><strong>2. 提纲</strong></h1>
+<h2><strong>2.1. 撰写提纲的理由</strong></h2>
+<p>我强调提纲在撰写论文、准备研讨会报告和规划研究中的核心地位。我尤其相信，对你我而言，从提纲开始写论文是最高效的方式。提纲是一份书面计划，包含了论文的组织结构以及其所依据的数据。事实上，你应该将提纲视为一套精心组织和呈现的数据集，附带有相应的目标、假说和结论，而不仅仅是文本的提纲。</p>
+<p>提纲本身包含的文本很少。如果你我能在提纲的细节上达成一致（即在数据和组织结构上），那么支撑的文本就可以相当容易地组合起来。如果我们对提纲无法达成一致，任何文本都是无用的。撰写论文的大部分时间花在文本上；而大部分的思考则投入到数据的组织和分析中。在开始撰写文本之前，经历几轮（甚至多轮）提纲修改，在时间上相对高效；而撰写论文全文的多个版本则非常缓慢。</p>
+<p>我所有的写作——论文、报告、项目申请书（当然，还有研讨会的幻灯片）——都从提纲开始。我强烈建议你也学会如何使用它们。</p>
+<h2><strong>2.2. 你应该如何构建提纲？</strong></h2>
+<p>经典方法是从一张白纸开始，不按顺序地写下你所有关于这篇论文的重要想法。问自己一些显而易见的问题：</p>
+<ul>
+<li>“我为什么做这项工作？”</li>
+<li>“它意味着什么？”</li>
+<li>“我打算检验哪些假说？”</li>
+<li>“我实际检验了哪些？”</li>
+<li>“结果是什么？这项工作是否产生了一种新方法或新化合物？是什么？”</li>
+<li>“我做了哪些测量？”</li>
+<li>“哪些化合物？它们是如何表征的？”</li>
+</ul>
+<p>勾画出可能的方程式、图表和反应路线（schemes）。关键是要抓住主要思想。如果你开始研究是为了检验一个假说，但在看到已有结果后，觉得数据似乎更适合检验另一个假说，别担心。把它们都写下来，然后挑选假说、目标和数据的最佳组合。论文完成时的目标常常不同于开始工作时的理由。很多好的科学研究是机会主义和修正主义的。</p>
+<p>当你写完能想到的所有内容后，另拿一张纸，尝试整理第一张纸上的杂乱内容。将你所有的想法归入三个主要部分（1-3）：</p>
+<ol>
+<li><strong>引言 (Introduction)</strong>
+<ul>
+<li>我为什么做这项工作？</li>
+<li>核心动机和假说是什么？</li>
+</ul>
+</li>
+<li><strong>结果与讨论 (Results and Discussion)</strong>
+<ul>
+<li>结果是什么？</li>
+<li>化合物是如何合成与表征的？</li>
+<li>测量了什么？</li>
+</ul>
+</li>
+<li><strong>结论 (Conclusions)</strong>
+<ul>
+<li>这一切意味着什么？</li>
+<li>哪些假说被证实或证伪了？</li>
+<li>我学到了什么？</li>
+<li>为什么这项工作有意义？</li>
+</ul>
+</li>
+</ol>
+<p>接下来，对每个部分进行更细致的组织。专注于组织数据。构建图、表和反应路线（schemes），以尽可能清晰和简洁地呈现数据。这个过程可能很慢——我可能会以不同方式勾画一个图五到十次，试图决定哪种方式最清晰（并且看起来最美观）。</p>
+<p>最后，把所有东西——各部分的提纲、表格、图表的草图、方程式——都整理好。</p>
+<p>当你满意地认为已经包含了所有数据（或者知道你打算收集哪些额外数据），并且有了一个合理的组织结构时，把提纲交给我。只需指出缺失数据将放在哪里，你认为（假设）它们会是什么样子，以及如果你的假说正确你将如何解释它们。我会审阅这份提纲，加入我的意见，提出修改建议，然后返还给你。通常需要四到五次迭代（常常伴随着额外的实验）才能就提纲达成一致。当我们达成一致时，数据通常已经处于（或接近）最终形式（也就是说，提纲中的表格、图表等将成为论文中的表格、图表……）。</p>
+<p>然后你就可以开始写作了，并且可以确信你的大部分文字会被采用。</p>
+<p>高效利用你我时间的关键在于，我们尽早在一个项目开始时就交换提纲和草案。<strong>无论如何，不要等到数据收集“完成”才开始写提纲。</strong> 没有哪个项目是真正“完成”的，一旦你看到一个项目的基本结构，就尽快提出一个合理的论文框架和提纲，这样可以节省巨大的精力和大量时间。即使我们决定在认真组织论文之前还要做大量额外工作，撰写提纲的努力也已经有助于指导研究方向了。</p>
+<h2><strong>2.3. 提纲内容</strong></h2>
+<p>一份提纲应包含：</p>
+<ol>
+<li><strong>标题 (Title)</strong></li>
+<li><strong>作者 (Authors)</strong></li>
+<li><strong>摘要 (Abstract)</strong>
+<ul>
+<li>暂时不要写摘要。这可以在论文完成时再做。</li>
+</ul>
+</li>
+<li><strong>引言 (Introduction)</strong>
+<ul>
+<li>开头一两段应完整写出。特别注意开篇句。理想情况下，它应简明扼要地陈述工作目标，并指出为何此目标重要。</li>
+<li>总的来说，引言应包含以下要素：
+<ul>
+<li>工作的目标。</li>
+<li>目标的理由：为什么这项工作重要？</li>
+<li>背景：其他人做了什么？如何做的？我们之前做了什么？</li>
+<li>读者指南：读者在论文中应关注什么？有趣的亮点是什么？我们采用了什么策略？</li>
+<li>总结/结论：读者应期待得到什么结论？</li>
+</ul>
+</li>
+<li>在提纲的高级版本中，还应包括实验部分的所有小节（达到段落副标题的级别），并指明哪些信息将放入补充材料（Microfilm section）。</li>
+</ul>
+</li>
+<li><strong>结果与讨论 (Results and Discussion)</strong>
+<ul>
+<li>结果和讨论通常合并在一起。</li>
+<li>本节应按主要主题组织。各部分应使用<strong>粗体副标题</strong>，以使结构清晰，并帮助读者浏览最终文本以找到感兴趣的部分。</li>
+<li>以下列表包含了一些可以作为章节标题的示例短语：
+<pre><code>-   Synthesis of Alkane Thiols (烷基硫醇的合成)
+-   Characterization of Monolayers (单分子层的表征)
+-   Absolute Configuration of the Vicinal Diol Unit (邻二醇单元的绝对构型)
+-   Hysteresis Correlates with Roughness of the Surface (滞后现象与表面粗糙度相关)
+-   Dependence of the Rate Constant on Temperature (速率常数对温度的依赖性)
+-   The Rate of Self-Exchange Decreases with the Polarity of the Solvent (自交换速率随溶剂极性降低)
+</code></pre>
+</li>
+<li>尽量使这些章节标题具体且信息丰富。例如，“自交换速率随溶剂极性降低”显然比“速率测量”长，但对读者更有用。</li>
+<li>通常，尝试涵盖主要的共同要点：
+<ul>
+<li>起始材料的合成</li>
+<li>产物的表征</li>
+<li>表征方法</li>
+<li>测量方法</li>
+<li>结果（速率常数、接触角等任何测量值）</li>
+</ul>
+</li>
+<li>在提纲中，不要写大量文本，但要把所有数据放在正确的位置：任何文本只需说明该部分将包含什么内容。</li>
+<li>应包含：
+<ul>
+<li>章节标题 (Section Headings)</li>
+<li>图 (Figures) (带图注)</li>
+<li>反应路线/示意图 (Schemes) (带图注和脚注)</li>
+<li>方程式 (Equations)</li>
+<li>表格 (Tables) (格式正确)</li>
+</ul>
+</li>
+<li>记住，把一篇论文看作是实验结果的集合，通过图、表、方程式和反应路线（schemes）尽可能清晰、经济地进行总结。论文中的文本仅用于解释数据，是次要的。信息越能压缩到表格、方程式等中，论文就越短、越易读。</li>
+</ul>
+</li>
+<li><strong>结论 (Conclusions)</strong>
+<ul>
+<li>在提纲中，用简短的短语或句子列表总结论文的结论。</li>
+<li>不要重复结果部分的内容，除非需要特别强调。</li>
+<li>结论部分就应该是结论，而不是总结。它应该增加一个新的、更高层次的分析，并明确指出工作的意义。</li>
+</ul>
+</li>
+<li><strong>实验部分 (Experimental)</strong>
+<ul>
+<li>按照与结果部分相对应的正确顺序，包含实验部分的所有段落副标题。</li>
+</ul>
+</li>
+</ol>
+<h2><strong>2.4. 总结</strong></h2>
+<ul>
+<li>在一个项目的早期就开始撰写可能的论文提纲。不要等到“结束”。结束可能永远不会到来。</li>
+<li>围绕易于理解的数据——表格、方程式、图、反应路线（schemes）——来组织提纲和论文，而不是围绕文本。</li>
+<li>按重要性排序，而不是按时间顺序。撰写论文的一个重要细节涉及主题的权重。新手通常按时间顺序组织论文：即，他们叙述其实验过程，从他们珍视的最初失败开始，到高潮的成功结局结束。这种方法完全错误。<strong>从最重要的结果开始，将次要结果放在后面，或者干脆省略。</strong> 读者通常不关心你是如何得到重大结果的，只关心结果是什么。</li>
+<li>短论文比长论文更容易阅读。</li>
+</ul>
+<h1><strong>3. 一些写作风格要点</strong></h1>
+<ul>
+<li>
+<p><strong>不要使用名词作形容词：</strong></p>
+<ul>
+<li>不应：
+<pre><code>ATP formation; reaction product
+</code></pre>
+</li>
+<li>应：
+<pre><code>formation of ATP; product of the reaction
+(ATP的形成；反应的产物)
+</code></pre>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>单词“this”后面必须跟一个名词，使其指代明确。</strong></p>
+<ul>
+<li>不应：
+<pre><code>This is a fast reaction; This leads us to conclude
+</code></pre>
+</li>
+<li>应：
+<pre><code>This reaction is fast; This observation leads us to conclude
+(这个反应很快；这个观察使我们得出结论)
+</code></pre>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>统一使用过去时描述实验结果。</strong></p>
+<ul>
+<li>不应：
+<pre><code>Addition of water gives product.
+</code></pre>
+</li>
+<li>应：
+<pre><code>Addition of water gave product.
+(加入水得到了产物。)
+</code></pre>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>尽可能使用主动语态。</strong></p>
+<ul>
+<li>不应：
+<pre><code>It was observed that the solution turned red.
+</code></pre>
+</li>
+<li>应：
+<pre><code>The solution turned red.
+或者
+We observed that the solution turned red.
+(溶液变红了。或者 我们观察到溶液变红了。)
+</code></pre>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>完成所有的比较。</strong></p>
+<ul>
+<li>不应：
+<pre><code>The yield was higher using bromine.
+</code></pre>
+</li>
+<li>应：
+<pre><code>The yield was higher using bromine than chlorine.
+(使用溴的产率比使用氯的产率高。)
+</code></pre>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>所有论文字稿使用双倍行距（不是单倍或1.5倍行距），冒号后和句子末尾的句号后留两个空格。页边距要足够宽。</strong></p>
+</li>
+<li>
+<p><strong>假设我们所有的论文都将使用美国化学会（American Chemical Society, ACS）的风格。你可以从三个来源很好地了解这种风格：</strong></p>
+<ol>
+<li><strong>期刊。</strong> 只需查看期刊上的文章，模仿你看到的组织结构。</li>
+<li><strong>研究组以前的论文。</strong> 通过查看以前的论文，你可以确切地看到一篇论文应该“看起来”是什么样子。如果你写的东西看起来不同，那可能就不是我们想要的。</li>
+<li><strong>《ACS作者手册》(The ACS Handbook for Authors)。</strong> 有用、详细，尤其是关于参考文献的部分，第173-229页。</li>
+</ol>
+</li>
+<li>
+<p><strong>我还建议你阅读 Strunk 和 White 的《风格要素》(The Elements of Style, Macmillan: New York, 1979, 3rd ed.) 来培养语感。</strong> 研究组图书馆里还有一些关于科学写作的其他书籍；这些书都包含有用的建议，但读起来并不生动。也有几本关于图表设计的优秀书籍。</p>
+</li>
+</ul>
+<hr>
+5:["$","$L11",null,{"email":{"id":"essays-whitesides-group-writing-a-paper","sender":"乔治·M·怀特塞兹（George M. Whitesides）","subject":"怀特塞兹研究组：撰写论文","snippet":"本文是哈佛大学化学家怀特塞兹撰写的经典学术写作指南，系统阐述了科学论文的本质、提纲驱动的写作方法以及写作风格要点。文章强调论文不仅是研究成果的归档工具，更是规划和组织研究的框架，主张从项目早期就开始围绕数据构建提纲，并通过反复迭代修改来高效完成论文写作。","date":"2025-05-02","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["学术写作","论文撰写","研究方法","提纲写作","科学论文"],"mdTheme":"magazine","sourcePath":"essays/whitesides-group-writing-a-paper.md","sourceUrl":"$undefined","coverImage":"$undefined","body":"$12","prompts":[]},"listPosition":{"index":252,"total":365},"matchedPerson":"$undefined"}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[27201,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"IconMark"]
+c:[["$","title","0",{"children":"怀特塞兹研究组：撰写论文 · Hinbox"}],["$","meta","1",{"name":"description","content":"本文是哈佛大学化学家怀特塞兹撰写的经典学术写作指南，系统阐述了科学论文的本质、提纲驱动的写作方法以及写作风格要点。文章强调论文不仅是研究成果的归档工具，更是规划和组织研究的框架，主张从项目早期就开始围绕数据构建提纲，并通过反复迭代修改来高效完成论文写作。"}],["$","meta","2",{"name":"application-name","content":"Hinbox"}],["$","link","3",{"rel":"canonical","href":"https://linguage.github.io/hinbox/mail/essays-whitesides-group-writing-a-paper"}],["$","meta","4",{"property":"og:title","content":"怀特塞兹研究组：撰写论文"}],["$","meta","5",{"property":"og:description","content":"本文是哈佛大学化学家怀特塞兹撰写的经典学术写作指南，系统阐述了科学论文的本质、提纲驱动的写作方法以及写作风格要点。文章强调论文不仅是研究成果的归档工具，更是规划和组织研究的框架，主张从项目早期就开始围绕数据构建提纲，并通过反复迭代修改来高效完成论文写作。"}],["$","meta","6",{"property":"og:url","content":"https://linguage.github.io/hinbox/mail/essays-whitesides-group-writing-a-paper"}],["$","meta","7",{"property":"og:site_name","content":"Hinbox"}],["$","meta","8",{"property":"og:locale","content":"zh_CN"}],["$","meta","9",{"property":"og:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","meta","10",{"property":"og:image:width","content":"1200"}],["$","meta","11",{"property":"og:image:height","content":"630"}],["$","meta","12",{"property":"og:image:alt","content":"怀特塞兹研究组：撰写论文"}],["$","meta","13",{"property":"og:type","content":"article"}],["$","meta","14",{"property":"article:published_time","content":"2025-05-02T00:00:00.000Z"}],["$","meta","15",{"property":"article:author","content":"乔治·M·怀特塞兹（George M. Whitesides）"}],["$","meta","16",{"property":"article:tag","content":"学术写作"}],["$","meta","17",{"property":"article:tag","content":"论文撰写"}],["$","meta","18",{"property":"article:tag","content":"研究方法"}],["$","meta","19",{"property":"article:tag","content":"提纲写作"}],["$","meta","20",{"property":"article:tag","content":"科学论文"}],["$","meta","21",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","22",{"name":"twitter:title","content":"怀特塞兹研究组：撰写论文"}],["$","meta","23",{"name":"twitter:description","content":"本文是哈佛大学化学家怀特塞兹撰写的经典学术写作指南，系统阐述了科学论文的本质、提纲驱动的写作方法以及写作风格要点。文章强调论文不仅是研究成果的归档工具，更是规划和组织研究的框架，主张从项目早期就开始围绕数据构建提纲，并通过反复迭代修改来高效完成论文写作。"}],["$","meta","24",{"name":"twitter:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","link","25",{"rel":"icon","href":"/hinbox/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","26",{"rel":"icon","href":"/hinbox/icon.svg?icon.6ca2692a.svg","sizes":"any","type":"image/svg+xml"}],["$","$L13","27",{}]]
+8:null

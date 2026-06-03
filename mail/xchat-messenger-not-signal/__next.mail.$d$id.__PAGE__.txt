@@ -1,0 +1,90 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T2ac4,<h2>摘要</h2>
+<p>XChat 被马斯克包装成安全加密通信应用，但文章认为它更像 X 平台的附属私信工具，而不是 Signal 这类独立、安全、成熟的通信产品。它依赖 X 账户，隐私政策含混，功能粗糙，发布过程混乱，实际使用场景也很窄。所谓加密卖点并不能掩盖它作为社交平台延伸产品的局限。</p>
+<h2>内容框架与概述</h2>
+<p>文章先从马斯克对竞争对手的攻击切入。他转发批评 Signal、WhatsApp、Telegram 和 iMessage 的内容，把 XChat 称作唯一安全的加密消息应用。但安全专家对此保持怀疑，尤其担心 XChat 绑定 X 账户、密钥管理方式、过往安全记录，以及缺乏外部审计等问题。</p>
+<p>接着，作者把关注点从加密之争转向实际产品体验。XChat 的上线过程拖延且混乱，App Store 上发布日期多次变化，甚至出现同名误导应用。正式发布后，地区可用性不一致，注册流程也让早期用户困惑。下载后，作者发现自己很难找到真正需要联系的人，因为很多亲友并不用 X。</p>
+<p>最后，文章把 XChat 类比为 Facebook Messenger。它同样依赖母平台账户，同样有跳回主应用的入口，也同样把聊天功能做成社交平台的附属设施。问题不只是功能少，而是它缺乏成为主流通信工具的理由。对普通用户来说，已有 Signal、WhatsApp、iMessage 等成熟选择，XChat 更像是给 X 重度用户准备的边缘工具。</p>
+<h2>核心概念及解读</h2>
+<ol>
+<li>
+<p>端到端加密，End to End Encryption<br>
+理想状态下，只有通信双方能读取消息内容，平台本身也无法解密。文章的重点不在于 XChat 是否宣称加密，而在于加密实现方式是否可信，是否接受了独立审计，密钥是否安全保管。</p>
+</li>
+<li>
+<p>账户绑定，Account Linking<br>
+XChat 必须关联现有 X 账户。这样做降低了匿名性，也把聊天行为与社交媒体身份绑定在一起。对隐私来说，越多数据点被连起来，越容易形成用户画像。</p>
+</li>
+<li>
+<p>外部安全审计，External Security Audit<br>
+安全产品不能只靠公司自己保证。独立专家审计可以检查加密实现、密钥管理、漏洞风险。文章中专家对 XChat 的态度很克制，核心原因就是它还没有通过足够可信的外部检验。</p>
+</li>
+<li>
+<p>平台附属应用，Platform Extension<br>
+XChat 看起来不像一个独立通信工具，更像 X 的私信功能拆出来做成一个单独应用。帮助中心、服务条款、隐私政策都指向 X，总体体验也围绕 X 账户展开。</p>
+</li>
+<li>
+<p>消息平台碎片化，Messaging Fragmentation<br>
+用户已经被分散在 iMessage、WhatsApp、Signal、Telegram、Messenger 等平台。新工具若没有强关系链或强功能，很难让用户迁移。XChat 的问题就在这里：它多了一个入口，却没有给出足够强的使用理由。</p>
+</li>
+</ol>
+<h2>文章基本信息</h2>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原标题</td>
+<td><a href="https://www.wired.com/story/elon-musk-xchat-app-is-more-like-facebook-messenger-than-signal/">Elon Musk’s XChat App Is More Like Facebook’s Messenger Than Signal</a></td>
+</tr>
+<tr>
+<td>作者</td>
+<td>Reece Rogers</td>
+</tr>
+<tr>
+<td>发布日期</td>
+<td>2026 年 4 月 27 日</td>
+</tr>
+</tbody>
+</table>
+<h2><strong>伊隆·马斯克的 XChat 应用更像 Facebook Messenger，而不是 Signal</strong></h2>
+<blockquote>
+<p>马斯克并没有推出一款设计精良、有价值的加密消息应用，而是发布了一个附属于其社交媒体平台的垃圾且封闭的扩展应用。</p>
+</blockquote>
+<p><strong>作者：</strong> Reece Rogers | <strong>时间：</strong> 2026年4月27日<br>
+<br>
+<em>题图：一个人拿着 iPhone，屏幕上显示应用商店中的 XChat 应用。(摄影：Cheng Xin/Getty Images)</em></p>
+<hr>
+<p>周五，伊隆·马斯克在发布面向 X 用户的独立消息应用 XChat 后，花了一整天时间转发对竞争对手的批评。“Signal、WhatsApp、Telegram 和 iMessage 都有严重的安全问题，”马斯克转发的一条消息中写道，“XChat 是唯一安全、加密的消息应用。”然而，在 XChat 发布前夕，与我交谈过的加密专家对其执行情况表达了谨慎的怀疑，并为 Signal 等其他通信平台辩护，认为它们才是可靠的选择。</p>
+<p>XChat 的一个危险信号是，用户必须关联现有的 X 账户才能登录并开始发消息。“我对此有点怀疑，因为你把关于一个人越多的数据点连接在一起，你就越能追踪他们在做什么，”电子隐私信息中心（EPIC）的法律顾问 Maria Villegas Bravo 说。Bravo 认为，马斯克过去对其他应用的攻击令人担忧，且完全是出于私利。</p>
+<p>去年，当马斯克将 XChat 作为 X 平台上私信功能的加密升级版推出时，安全专家就质疑将用户的加密密钥存储在 X 服务器上（而不是像 Signal 那样存储在设备端）的有效性。“鉴于 XChat 过去的安全漏洞历史，在它接受彻底的外部审计之前，我会对其使用感到犹豫，”电子前哨基金会（EFF）的高级技术专家 Cooper Quintin 表示。</p>
+<p>尽管马斯克希望人们讨论“哪款加密消息应用最好”（XChat vs. Signal vs. WhatsApp），但这种比较方向完全错了。在下载并亲自体验 XChat 后，它让我想到的是另一款远没那么“性感”的聊天应用：Facebook 的 Messenger。就是那个你手机里可能留着、只为了偶尔敷衍一下长辈发消息的应用？没错。马斯克并没有推出一款设计精良的全新加密消息应用，而是发布了一个附属于其社交媒体平台的垃圾且封闭的扩展应用，只不过碰巧包含了加密消息功能。</p>
+<h3><strong>迟到的发布</strong></h3>
+<p>本月早些时候，当 XChat 团队发布该应用将全面上线的消息时，苹果 App Store 页面上列出的“预期”发布日期是 4 月 17 日。这个日期在发布前多次更改，从最初的日期变成了 4 月 23 日，然后是 4 月 24 日。在 24 日（周五）出人意料地上线之前，该应用还曾显示 4 月 25 日和 4 月 27 日作为潜在的发布日期。（Android 版本的正式发布日期尚未公布。）</p>
+<p>在发布前的这段时间里，搜索该应用名称时并不总是出现正确的应用。一款同样名为“XChat App”的应用（采用俄语设计，与马斯克毫无关系）一度冲上了苹果免费下载榜社交媒体类别的至少第七名。“诈骗应用，”一条用户评论写道，“这不是真正的 XChat。”</p>
+<p>当 XChat 应用最终上线时，发布过程也显得杂乱无章。起初，美国的用户可以访问该应用，而英国的用户却不行。“英国应该很快就会上线；遇到了一点小障碍，”X 的产品负责人 Nikita Bier 在回应社交媒体上沮丧的网友时写道。当早期的下载者抱怨注册引导流程令人困惑时，Bier 告诉他们“去怪苹果”及其应用商店的规定。</p>
+<h3><strong>初体验</strong></h3>
+<p>第一次下载 XChat 应用时，我不知道该先给谁发消息。翻看我的 iMessage 历史记录，我最常发短信的前五位亲友甚至都没有 X 账户。所以，撇开任何加密方面的担忧不谈，一开始我就觉得 XChat 对我的实际消息需求来说太小众了。</p>
+<p>在 XChat 上迷失方向、试图随便找个人发消息的我，花了一个下午的时间翻阅旧的私信（DM），并决定重新启动之前的三个聊天记录。我发送了打招呼的消息后，聊天记录中出现了一个弹窗：“此对话现已端到端加密。”但我其实并不真的需要这个功能，因为在我测试 XChat 应用期间根本没人回复我——我发出的消息只收到了可怜的爱心和火焰表情包回应。</p>
+<blockquote>
+<p><em>注：XChat 应用程序内设有一个可阻止对方截屏的开关选项。（截图提供：Reece Rogers）</em></p>
+</blockquote>
+<p>除了只能给拥有 X 账户的人发消息这一局限性之外，XChat 极其有限的功能似乎也实现得很糟糕。例如，用户可以选择“阻止截屏”作为选项，但这并不是默认开启的，每次发起新对话时都需要在设置中手动打开。</p>
+<p>任何想要加密消息的人都已经有了经过考验和测试的成熟工具，所以很难想象 XChat 能真正在市场上占据一席之地。“如果你想要的是良好的安全性，用 Signal。如果你想要的是能够几乎和任何人用加密消息聊天，用 WhatsApp，”Quintin 说。“如果你的整个生活都围绕着 X，我猜这总比没有强。”</p>
+<p>该应用的隐私措施也令人费解。XChat 的下载页面声称：“无追踪。完全隐私。”但在同一页面下方隐私部分列出的信息似乎与此矛盾。列出的 XChat“与您关联的数据”包括：联系人、标识符和使用数据。当你点击 XChat 的“开发者隐私政策”时，它只会跳转到 X 平台的总体政策页面，而不是为这款加密消息应用量身定制的具体政策。</p>
+<h3><strong>另一个 Messenger</strong></h3>
+<p>隐私政策并不是 X 和 XChat 共享的唯一东西。在 XChat 中点击“帮助”选项卡，会在应用外部的浏览器窗口中打开 X 的帮助中心。其他重要文档也是如此，比如服务条款和 Cookie 使用政策。在 XChat 应用的左下角甚至有一个专门设计的按钮，点击就会直接把你跳回 X 的主应用。</p>
+<p>就在我第一次点击那个按钮时，我意识到 XChat 感觉比任何其他东西都更像 Facebook 的 Messenger。两个平台都提供加密消息传递，Messenger 在 2024 年将其添加为大多数聊天的默认设置。就像 XChat 一样，你必须创建一个 Facebook 账户才能使用 Messenger，并且你的两个账户是链接在一起的。Messenger 甚至有一个和 XChat 类似的按钮（尽管它在右上角），可以让你快速跳回 Facebook 应用。</p>
+<p>除了功能上的相似之外，XChat 在对大多数人的“无意义程度”上也已经很像 Messenger。在 Messenger 上，每个发给我疯狂视频或可疑新闻链接的上了年纪的亲戚，都已经有了我的手机号码和其他联系方式，所以我唯一真正阅读这些聊天记录的时候，就是我在 Facebook Marketplace 上试图给公寓买个二手沙发的时候。</p>
+<p>如果你在 XChat 上给我发消息，我很可能也会错过。在碎片化的消息平台领域中，它不过是另一个小众角落。除了那些已经是 X 重度用户的人之外，XChat 看起来只是一个毫无吸引力、可有可无的聊天平台。</p>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"xchat-messenger-not-signal","sender":"Reece Rogers","subject":"XChat 的问题不在加密口号，而在产品本身","snippet":"XChat 被马斯克包装成安全加密通信应用，但文章认为它更像 X 平台的附属私信工具，而不是 Signal 这类独立、安全、成熟的通信产品。它依赖 X 账户，隐私政策含混，功能粗糙，发布过程混乱，实际使用场景也很窄。所谓加密卖点并不能掩盖它作为社交平台延伸产品的局限。","date":"2026-04-27","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Notes"],"tags":[],"mdTheme":"magazine","sourcePath":"notes/xchat-messenger-not-signal.md","sourceUrl":"https://www.wired.com/story/elon-musk-xchat-app-is-more-like-facebook-messenger-than-signal/","body":"$3","prompts":[]},"listPosition":{"index":86,"total":365}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

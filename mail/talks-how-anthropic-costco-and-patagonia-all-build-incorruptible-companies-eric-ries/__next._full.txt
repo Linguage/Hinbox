@@ -1,0 +1,583 @@
+1:"$Sreact.fragment"
+3:I[39756,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+4:I[37457,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"ViewportBoundary"]
+b:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"MetadataBoundary"]
+d:I[68027,[],"default"]
+:HL["/hinbox/_next/static/chunks/24888a04b79e7824.css","style"]
+:HL["/hinbox/_next/static/media/fba5a26ea33df6a3-s.p.1bbdebe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"vMUiZWVsRx3pCqxArlZcR","c":["","mail","talks-how-anthropic-costco-and-patagonia-all-build-incorruptible-companies-eric-ries"],"q":"","i":false,"f":[[["",{"children":["mail",{"children":[["id","talks-how-anthropic-costco-and-patagonia-all-build-incorruptible-companies-eric-ries","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hinbox/_next/static/chunks/24888a04b79e7824.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[79520,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],""]
+f:I[59665,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],"default"]
+:HL["https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","style"]
+2:["$","html",null,{"lang":"zh-CN","className":"plus_jakarta_sans_9710934b-module__-vnxFq__variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function () {\n  try {\n    var theme = window.localStorage.getItem('hinbox:theme');\n    if (theme !== 'light' && theme !== 'dark' && theme !== 'sepia') {\n      theme = 'light';\n    }\n    window['__HINBOX_THEME__'] = theme;\n    document.documentElement.dataset.theme = theme;\n    document.documentElement.style.colorScheme = theme === 'dark' ? 'dark' : 'light';\n    function applyBodyTheme() {\n      if (document.body) {\n        document.body.dataset.theme = theme;\n      }\n    }\n    if (document.body) {\n      applyBodyTheme();\n    } else {\n      document.addEventListener('DOMContentLoaded', applyBodyTheme);\n    }\n  } catch (error) {\n    window['__HINBOX_THEME__'] = 'light';\n    document.documentElement.dataset.theme = 'light';\n    document.documentElement.style.colorScheme = 'light';\n  }\n})();"}}],"",["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","rel":"stylesheet"}],["$","$Le",null,{"id":"mathjax-config","strategy":"afterInteractive","children":"\n          window.MathJax = {\n            tex: {\n              inlineMath: [['$', '$'], ['\\\\(', '\\\\)']],\n              displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']],\n              processEscapes: true,\n              packages: { '[+]': ['noerrors', 'noundefined'] },\n            },\n            svg: {\n              fontCache: 'none',\n            },\n            startup: {\n              typeset: false,\n              ready: () => {\n                window.MathJax.startup.defaultReady();\n                window.dispatchEvent(new Event('MathJaxReady'));\n              },\n            },\n          };\n          "}],["$","$Le",null,{"id":"mathjax-cdn","strategy":"afterInteractive","src":"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"}]]}],["$","body",null,{"className":"font-[family-name:var(--font-jakarta)] antialiased","suppressHydrationWarning":true,"children":["",["$","$Lf",null,{"weeklyNavCounts":{"inboxWeeklyCount":10,"sentWeeklyCount":0,"starredTotalCount":21},"people":[{"id":"david-perell","name":"David Perell","email":""},{"id":"lenny-s-podcast","name":"Lenny's Podcast","email":""},{"id":"ryan-peterman","name":"Ryan Peterman","email":""},{"id":"anthropic","name":"Anthropic","email":""},{"id":"dwarkesh-patel","name":"Dwarkesh Patel","email":""},{"id":"stripe","name":"Stripe","email":""},{"id":"stephen-wolfram","name":"Stephen Wolfram","email":""},{"id":"latent-space","name":"Latent Space","email":""},{"id":"lex-fridman","name":"Lex Fridman","email":""},{"id":"steve-jobs","name":"Steve Jobs","email":""},{"id":"20vc-with-harry-stebbings","name":"20VC with Harry Stebbings","email":""},{"id":"jeremy-stern","name":"Jeremy Stern","email":""},{"id":"turing","name":"Turing","email":""},{"id":"demis-hassabis","name":"Demis Hassabis","email":""},{"id":"the-diary-of-a-ceo","name":"The Diary Of A CEO","email":""},{"id":"elon-musk","name":"Elon Musk","email":""},{"id":"sauteedveggies","name":"SauteedVeggies","email":""},{"id":"andy-matuschak","name":"Andy Matuschak","email":""},{"id":"mind-the-game","name":"Mind the Game","email":""},{"id":"ramona-shelburne","name":"Ramona Shelburne","email":""},{"id":"jared-weiss","name":"Jared Weiss","email":""},{"id":"deeplearningai","name":"DeepLearningAI","email":""},{"id":"cursor","name":"Cursor","email":""},{"id":"y-combinator","name":"Y Combinator","email":""},{"id":"openai","name":"OpenAI","email":""},{"id":"every","name":"Every","email":""},{"id":"sequoia-capital","name":"Sequoia Capital","email":""},{"id":"alex-kantrowitz","name":"Alex Kantrowitz","email":""},{"id":"peter-dizikes-mit-news","name":"Peter Dizikes ｜ MIT News","email":""},{"id":"world-finance-journal","name":"World Finance Journal","email":""},{"id":"andrej-karpathy","name":"Andrej karpathy","email":""},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","email":""},{"id":"jd-vance","name":"JD Vance","email":""},{"id":"街-大学","name":"やまぐち街なか大学","email":""},{"id":"jc","name":"JC","email":""}],"tags":[{"id":"translated","name":"translated","count":123},{"id":"interview","name":"interview","count":24},{"id":"ai","name":"ai","count":17},{"id":"人工智能","name":"人工智能","count":17},{"id":"clippings","name":"clippings","count":15},{"id":"essays","name":"Essays","count":9},{"id":"talks","name":"Talks","count":8},{"id":"深度学习","name":"深度学习","count":8},{"id":"ai-agents","name":"ai-agents","count":7},{"id":"cognition","name":"cognition","count":6},{"id":"nba","name":"NBA","count":6},{"id":"ai编程","name":"AI编程","count":5},{"id":"humanity","name":"humanity","count":5},{"id":"math","name":"math","count":5},{"id":"steve-jobs","name":"steve-jobs","count":5},{"id":"大语言模型","name":"大语言模型","count":5},{"id":"机器学习","name":"机器学习","count":5},{"id":"agi","name":"AGI","count":4},{"id":"anthropic","name":"Anthropic","count":4},{"id":"claude-code","name":"Claude Code","count":4},{"id":"doge","name":"DOGE","count":4},{"id":"nvidia","name":"nvidia","count":4},{"id":"windsurf","name":"Windsurf","count":4},{"id":"政府效率","name":"政府效率","count":4},{"id":"文艺复兴科技","name":"文艺复兴科技","count":4},{"id":"英伟达","name":"英伟达","count":4},{"id":"软件工程","name":"软件工程","count":4},{"id":"ai编程工具","name":"AI编程工具","count":3},{"id":"apple","name":"apple","count":3},{"id":"cursor","name":"Cursor","count":3},{"id":"deepseek","name":"deepseek","count":3},{"id":"linus-torvalds","name":"Linus Torvalds","count":3},{"id":"linux内核","name":"Linux内核","count":3},{"id":"llm","name":"llm","count":3},{"id":"mathematics","name":"mathematics","count":3},{"id":"reports","name":"Reports","count":3},{"id":"偏微分方程","name":"偏微分方程","count":3},{"id":"勒布朗-詹姆斯","name":"勒布朗·詹姆斯","count":3},{"id":"开源","name":"开源","count":3},{"id":"开源ai","name":"开源AI","count":3},{"id":"强化学习","name":"强化学习","count":3},{"id":"数学哲学","name":"数学哲学","count":3},{"id":"数学教育","name":"数学教育","count":3},{"id":"访谈","name":"访谈","count":3},{"id":"量化投资","name":"量化投资","count":3},{"id":"马斯克","name":"马斯克","count":3},{"id":"黄仁勋","name":"黄仁勋","count":3},{"id":"ai-agent","name":"AI Agent","count":2},{"id":"ai-coding","name":"ai-coding","count":2},{"id":"ai代理","name":"AI代理","count":2},{"id":"ai基础设施","name":"AI基础设施","count":2},{"id":"ai安全","name":"AI安全","count":2},{"id":"ai数学","name":"AI数学","count":2},{"id":"ai智能体","name":"AI智能体","count":2},{"id":"ai计算","name":"AI计算","count":2},{"id":"alphafold","name":"AlphaFold","count":2},{"id":"claude","name":"Claude","count":2},{"id":"devin","name":"Devin","count":2},{"id":"economics","name":"economics","count":2},{"id":"emacs","name":"Emacs","count":2},{"id":"essay","name":"essay","count":2},{"id":"git","name":"Git","count":2},{"id":"google","name":"Google","count":2},{"id":"ilya-sutskever","name":"Ilya Sutskever","count":2},{"id":"jeff-dean","name":"jeff-dean","count":2},{"id":"jepa","name":"JEPA","count":2},{"id":"org-mode","name":"Org mode","count":2},{"id":"programming","name":"programming","count":2},{"id":"software-engineering","name":"software-engineering","count":2},{"id":"vibe-coding","name":"Vibe Coding","count":2},{"id":"writing","name":"writing","count":2},{"id":"世界模型","name":"世界模型","count":2},{"id":"人性","name":"人性","count":2},{"id":"代数几何","name":"代数几何","count":2},{"id":"代码编辑器","name":"代码编辑器","count":2},{"id":"价值投资","name":"价值投资","count":2},{"id":"伯克希尔哈撒韦","name":"伯克希尔哈撒韦","count":2},{"id":"关税政策","name":"关税政策","count":2},{"id":"创业历程","name":"创业历程","count":2},{"id":"加速计算","name":"加速计算","count":2},{"id":"吉姆-西蒙斯","name":"吉姆·西蒙斯","count":2},{"id":"哲学","name":"哲学","count":2},{"id":"国际合作","name":"国际合作","count":2},{"id":"大型语言模型","name":"大型语言模型","count":2},{"id":"好奇心","name":"好奇心","count":2},{"id":"季后赛","name":"季后赛","count":2},{"id":"工程实践","name":"工程实践","count":2},{"id":"巴菲特","name":"巴菲特","count":2},{"id":"形式化证明","name":"形式化证明","count":2},{"id":"彼得-蒂尔","name":"彼得·蒂尔","count":2},{"id":"微软","name":"微软","count":2},{"id":"提示工程","name":"提示工程","count":2},{"id":"数学","name":"数学","count":2},{"id":"数学研究","name":"数学研究","count":2},{"id":"文班亚马","name":"文班亚马","count":2},{"id":"智能代理开发","name":"智能代理开发","count":2},{"id":"毕业演讲","name":"毕业演讲","count":2},{"id":"版本控制","name":"版本控制","count":2},{"id":"科学发现","name":"科学发现","count":2},{"id":"科技停滞","name":"科技停滞","count":2},{"id":"软件工程变革","name":"软件工程变革","count":2},{"id":"软件开发","name":"软件开发","count":2},{"id":"量子力学","name":"量子力学","count":2},{"id":"阿贝尔奖","name":"阿贝尔奖","count":2},{"id":"风险投资","name":"风险投资","count":2},{"id":"agent设计","name":"Agent设计","count":1},{"id":"ai-for-science","name":"AI for Science","count":1},{"id":"ai-编程","name":"AI 编程","count":1},{"id":"ai伦理","name":"AI伦理","count":1},{"id":"ai最佳实践","name":"AI最佳实践","count":1},{"id":"ai大模型","name":"AI大模型","count":1},{"id":"ai并购","name":"AI并购","count":1},{"id":"ai应用","name":"AI应用","count":1},{"id":"ai开发者大会","name":"AI开发者大会","count":1},{"id":"ai推理","name":"AI推理","count":1},{"id":"ai收购","name":"AI收购","count":1},{"id":"ai数学发现","name":"AI数学发现","count":1},{"id":"ai生物医药","name":"AI生物医药","count":1},{"id":"ai竞争","name":"AI竞争","count":1},{"id":"ai编程代理","name":"AI编程代理","count":1},{"id":"ai芯片","name":"AI芯片","count":1},{"id":"ai规模化","name":"AI规模化","count":1},{"id":"ai辅助学习","name":"AI辅助学习","count":1},{"id":"ai辅助开发","name":"AI辅助开发","count":1},{"id":"anysphere","name":"Anysphere","count":1},{"id":"biography","name":"biography","count":1},{"id":"blackwell架构","name":"Blackwell架构","count":1},{"id":"cag","name":"CAG","count":1},{"id":"career","name":"career","count":1},{"id":"ceo交接","name":"CEO交接","count":1},{"id":"chatgpt","name":"ChatGPT","count":1},{"id":"chris-bishop","name":"Chris Bishop","count":1},{"id":"claude-4","name":"Claude 4","count":1},{"id":"claude-sonnet-4-5","name":"Claude Sonnet 4.5","count":1},{"id":"coding-agent","name":"Coding Agent","count":1},{"id":"context-engineering","name":"Context Engineering","count":1},{"id":"cs50","name":"CS50","count":1},{"id":"cuda生态","name":"CUDA生态","count":1},{"id":"deep-search","name":"Deep Search","count":1},{"id":"deepmind","name":"DeepMind","count":1},{"id":"distributed-systems","name":"distributed-systems","count":1},{"id":"elon-musk","name":"Elon Musk","count":1},{"id":"engineering","name":"engineering","count":1},{"id":"fields奖","name":"Fields奖","count":1},{"id":"geoffrey-hinton","name":"Geoffrey Hinton","count":1},{"id":"gpt-4","name":"GPT-4","count":1},{"id":"gpt-4-5","name":"GPT-4.5","count":1},{"id":"gpu与深度学习","name":"GPU与深度学习","count":1},{"id":"gpu架构","name":"GPU架构","count":1},{"id":"gpu算力","name":"GPU算力","count":1},{"id":"grok-3","name":"Grok 3","count":1},{"id":"haskell","name":"haskell","count":1},{"id":"incident","name":"incident","count":1},{"id":"jim-simons","name":"Jim Simons","count":1},{"id":"julia","name":"Julia","count":1},{"id":"june-huh","name":"june-huh","count":1},{"id":"kaggle","name":"Kaggle","count":1},{"id":"kiro-spec模式","name":"Kiro SPEC模式","count":1},{"id":"labor","name":"labor","count":1},{"id":"lean","name":"Lean","count":1},{"id":"lisp","name":"Lisp","count":1},{"id":"llm工具","name":"LLM工具","count":1},{"id":"mcp","name":"MCP","count":1},{"id":"mit","name":"MIT","count":1},{"id":"mvp","name":"MVP","count":1},{"id":"naval-ravikant","name":"Naval Ravikant","count":1},{"id":"ncaa疯狂三月","name":"NCAA疯狂三月","count":1},{"id":"noema","name":"noema","count":1},{"id":"notes","name":"notes","count":1},{"id":"notion","name":"Notion","count":1},{"id":"nvidia-gtc-2025","name":"NVIDIA GTC 2025","count":1},{"id":"openai","name":"OpenAI","count":1},{"id":"optimus机器人","name":"Optimus机器人","count":1},{"id":"peter-lax","name":"Peter Lax","count":1},{"id":"pixar","name":"pixar","count":1},{"id":"prompt-engineering","name":"Prompt Engineering","count":1},{"id":"psychology","name":"psychology","count":1},{"id":"publishing","name":"publishing","count":1},{"id":"python","name":"Python","count":1},{"id":"reliability","name":"reliability","count":1},{"id":"report","name":"report","count":1},{"id":"research","name":"Research","count":1},{"id":"research-career","name":"research-career","count":1},{"id":"robotics","name":"robotics","count":1},{"id":"sanjay-ghemawat","name":"Sanjay Ghemawat","count":1},{"id":"satya-nadella","name":"Satya Nadella","count":1},{"id":"scaling-laws","name":"Scaling Laws","count":1},{"id":"security","name":"security","count":1},{"id":"skills","name":"skills","count":1},{"id":"slimv","name":"Slimv","count":1},{"id":"technical-report","name":"technical-report","count":1},{"id":"terence-tao","name":"terence-tao","count":1},{"id":"vim","name":"Vim","count":1},{"id":"vlime","name":"Vlime","count":1},{"id":"wolfram","name":"Wolfram","count":1},{"id":"xai","name":"xAI","count":1},{"id":"yann-lecun","name":"Yann LeCun","count":1},{"id":"yc","name":"YC","count":1},{"id":"上下文工程","name":"上下文工程","count":1},{"id":"个人反思","name":"个人反思","count":1},{"id":"个人电脑","name":"个人电脑","count":1},{"id":"中美关系","name":"中美关系","count":1},{"id":"乌克兰战争","name":"乌克兰战争","count":1},{"id":"乔姆斯基","name":"乔姆斯基","count":1},{"id":"交通基础设施","name":"交通基础设施","count":1},{"id":"产品市场契合","name":"产品市场契合","count":1},{"id":"人工智能未来","name":"人工智能未来","count":1},{"id":"人形机器人","name":"人形机器人","count":1},{"id":"人机协作","name":"人机协作","count":1},{"id":"人机博弈","name":"人机博弈","count":1},{"id":"人生哲学","name":"人生哲学","count":1},{"id":"人类未来","name":"人类未来","count":1},{"id":"人类福祉","name":"人类福祉","count":1},{"id":"代理开发","name":"代理开发","count":1},{"id":"代理式编程","name":"代理式编程","count":1},{"id":"代码生成","name":"代码生成","count":1},{"id":"任务管理","name":"任务管理","count":1},{"id":"仿真学习","name":"仿真学习","count":1},{"id":"企业采用","name":"企业采用","count":1},{"id":"众包协作","name":"众包协作","count":1},{"id":"优绩主义","name":"优绩主义","count":1},{"id":"伦理监管","name":"伦理监管","count":1},{"id":"伯克希尔-哈撒韦","name":"伯克希尔·哈撒韦","count":1},{"id":"俄乌战争","name":"俄乌战争","count":1},{"id":"保罗-狄拉克","name":"保罗·狄拉克","count":1},{"id":"保险业务","name":"保险业务","count":1},{"id":"信号处理","name":"信号处理","count":1},{"id":"信息动力学","name":"信息动力学","count":1},{"id":"信息物理学","name":"信息物理学","count":1},{"id":"全球贸易","name":"全球贸易","count":1},{"id":"公共美德","name":"公共美德","count":1},{"id":"具身智能","name":"具身智能","count":1},{"id":"写作","name":"写作","count":1},{"id":"写作工具","name":"写作工具","count":1},{"id":"冷战数学","name":"冷战数学","count":1},{"id":"创业转型","name":"创业转型","count":1},{"id":"创业领导力","name":"创业领导力","count":1},{"id":"创造力与年龄","name":"创造力与年龄","count":1},{"id":"制度经济学","name":"制度经济学","count":1},{"id":"加性数论","name":"加性数论","count":1},{"id":"包容性制度","name":"包容性制度","count":1},{"id":"医疗应用","name":"医疗应用","count":1},{"id":"半导体","name":"半导体","count":1},{"id":"协同设计","name":"协同设计","count":1},{"id":"单位距离问题","name":"单位距离问题","count":1},{"id":"南非种族隔离","name":"南非种族隔离","count":1},{"id":"卢卡-东契奇","name":"卢卡·东契奇","count":1},{"id":"压缩感知","name":"压缩感知","count":1},{"id":"变换编码","name":"变换编码","count":1},{"id":"可持续能源","name":"可持续能源","count":1},{"id":"可重复性危机","name":"可重复性危机","count":1},{"id":"史蒂夫-乔布斯","name":"史蒂夫·乔布斯","count":1},{"id":"史蒂夫-纳什","name":"史蒂夫·纳什","count":1},{"id":"同伦类型论","name":"同伦类型论","count":1},{"id":"哲学辩论","name":"哲学辩论","count":1},{"id":"国际政治","name":"国际政治","count":1},{"id":"在线教育","name":"在线教育","count":1},{"id":"地缘政治","name":"地缘政治","count":1},{"id":"埃尔德什猜想","name":"埃尔德什猜想","count":1},{"id":"埃罗尔-马斯克","name":"埃罗尔·马斯克","count":1},{"id":"埃隆-马斯克","name":"埃隆·马斯克","count":1},{"id":"基督教与科学","name":"基督教与科学","count":1},{"id":"基础主义","name":"基础主义","count":1},{"id":"基础模型","name":"基础模型","count":1},{"id":"复合工程","name":"复合工程","count":1},{"id":"外交谈判","name":"外交谈判","count":1},{"id":"多伦多大学","name":"多伦多大学","count":1},{"id":"多体物理","name":"多体物理","count":1},{"id":"多智能体协同","name":"多智能体协同","count":1},{"id":"大数假说","name":"大数假说","count":1},{"id":"太空探索","name":"太空探索","count":1},{"id":"孤子理论","name":"孤子理论","count":1},{"id":"学习路径","name":"学习路径","count":1},{"id":"学术写作","name":"学术写作","count":1},{"id":"学术建议","name":"学术建议","count":1},{"id":"学术生态","name":"学术生态","count":1},{"id":"学术研究方法","name":"学术研究方法","count":1},{"id":"学术自传","name":"学术自传","count":1},{"id":"宇宙学","name":"宇宙学","count":1},{"id":"官僚主义改革","name":"官僚主义改革","count":1},{"id":"定理证明","name":"定理证明","count":1},{"id":"家族故事","name":"家族故事","count":1},{"id":"对冲基金","name":"对冲基金","count":1},{"id":"对称性","name":"对称性","count":1},{"id":"对称性破缺","name":"对称性破缺","count":1},{"id":"小平邦彦","name":"小平邦彦","count":1},{"id":"少林寺","name":"少林寺","count":1},{"id":"就业与经济","name":"就业与经济","count":1},{"id":"就业影响","name":"就业影响","count":1},{"id":"工作尊严","name":"工作尊严","count":1},{"id":"工作流","name":"工作流","count":1},{"id":"工程精神","name":"工程精神","count":1},{"id":"幸福与成功","name":"幸福与成功","count":1},{"id":"库珀-弗拉格","name":"库珀·弗拉格","count":1},{"id":"开发环境","name":"开发环境","count":1},{"id":"开发者工具","name":"开发者工具","count":1},{"id":"开发者生产力","name":"开发者生产力","count":1},{"id":"开源模型","name":"开源模型","count":1},{"id":"形式主义","name":"形式主义","count":1},{"id":"彼得-拉克斯","name":"彼得·拉克斯","count":1},{"id":"微分几何","name":"微分几何","count":1},{"id":"心理学","name":"心理学","count":1},{"id":"思维链","name":"思维链","count":1},{"id":"慈善","name":"慈善","count":1},{"id":"慈善事业","name":"慈善事业","count":1},{"id":"慕尼黑安全会议","name":"慕尼黑安全会议","count":1},{"id":"成长型思维","name":"成长型思维","count":1},{"id":"技术监管","name":"技术监管","count":1},{"id":"技能退化","name":"技能退化","count":1},{"id":"投资哲学","name":"投资哲学","count":1},{"id":"推理时计算","name":"推理时计算","count":1},{"id":"提纲写作","name":"提纲写作","count":1},{"id":"摩根大通","name":"摩根大通","count":1},{"id":"播客","name":"播客","count":1},{"id":"政治哲学","name":"政治哲学","count":1},{"id":"数字革命","name":"数字革命","count":1},{"id":"数学反例","name":"数学反例","count":1},{"id":"数学史","name":"数学史","count":1},{"id":"数学基础","name":"数学基础","count":1},{"id":"数学实践","name":"数学实践","count":1},{"id":"数学家传记","name":"数学家传记","count":1},{"id":"数学工作流","name":"数学工作流","count":1},{"id":"数学形式化","name":"数学形式化","count":1},{"id":"数据中心","name":"数据中心","count":1},{"id":"数据效率","name":"数据效率","count":1},{"id":"数据科学","name":"数据科学","count":1},{"id":"文化多样性","name":"文化多样性","count":1},{"id":"文化转型","name":"文化转型","count":1},{"id":"文学编程","name":"文学编程","count":1},{"id":"斯多葛主义","name":"斯多葛主义","count":1},{"id":"无人机","name":"无人机","count":1},{"id":"日本数学","name":"日本数学","count":1},{"id":"日记写作","name":"日记写作","count":1},{"id":"智能代理","name":"智能代理","count":1},{"id":"智能体ai","name":"智能体AI","count":1},{"id":"智能分析","name":"智能分析","count":1},{"id":"更衣室训话","name":"更衣室训话","count":1},{"id":"未来战争","name":"未来战争","count":1},{"id":"未来趋势","name":"未来趋势","count":1},{"id":"机器人技术","name":"机器人技术","count":1},{"id":"杰米-戴蒙","name":"杰米·戴蒙","count":1},{"id":"柏拉图主义","name":"柏拉图主义","count":1},{"id":"查尔斯-巴克利","name":"查尔斯·巴克利","count":1},{"id":"查理-芒格","name":"查理·芒格","count":1},{"id":"标记语言","name":"标记语言","count":1},{"id":"格罗滕迪克","name":"格罗滕迪克","count":1},{"id":"概形","name":"概形","count":1},{"id":"模仿理论","name":"模仿理论","count":1},{"id":"模型应用","name":"模型应用","count":1},{"id":"模型驱动交易","name":"模型驱动交易","count":1},{"id":"模拟宇宙假说","name":"模拟宇宙假说","count":1},{"id":"欧洲创新","name":"欧洲创新","count":1},{"id":"欧洲民主","name":"欧洲民主","count":1},{"id":"欧盟资本市场","name":"欧盟资本市场","count":1},{"id":"欺骗性ai","name":"欺骗性AI","count":1},{"id":"比尔-盖茨","name":"比尔·盖茨","count":1},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","count":1},{"id":"沉思录","name":"沉思录","count":1},{"id":"沙奎尔-奥尼尔","name":"沙奎尔·奥尼尔","count":1},{"id":"波波维奇","name":"波波维奇","count":1},{"id":"泽连斯基","name":"泽连斯基","count":1},{"id":"活文档","name":"活文档","count":1},{"id":"测试时计算","name":"测试时计算","count":1},{"id":"涌现","name":"涌现","count":1},{"id":"深度阅读","name":"深度阅读","count":1},{"id":"湖人三连冠","name":"湖人三连冠","count":1},{"id":"炒作与现实","name":"炒作与现实","count":1},{"id":"热力学第二定律","name":"热力学第二定律","count":1},{"id":"特斯拉","name":"特斯拉","count":1},{"id":"特朗普","name":"特朗普","count":1},{"id":"狄拉克","name":"狄拉克","count":1},{"id":"狄拉克方程","name":"狄拉克方程","count":1},{"id":"理论物理","name":"理论物理","count":1},{"id":"生产力工具","name":"生产力工具","count":1},{"id":"生成式ai","name":"生成式AI","count":1},{"id":"相对论","name":"相对论","count":1},{"id":"知识管理","name":"知识管理","count":1},{"id":"研究方法","name":"研究方法","count":1},{"id":"研究生指南","name":"研究生指南","count":1},{"id":"硅谷","name":"硅谷","count":1},{"id":"社交媒体","name":"社交媒体","count":1},{"id":"社会公平","name":"社会公平","count":1},{"id":"福柯","name":"福柯","count":1},{"id":"离散几何","name":"离散几何","count":1},{"id":"私募股权","name":"私募股权","count":1},{"id":"科学哲学","name":"科学哲学","count":1},{"id":"科学研究","name":"科学研究","count":1},{"id":"科学论文","name":"科学论文","count":1},{"id":"科技史","name":"科技史","count":1},{"id":"科比-布莱恩特","name":"科比·布莱恩特","count":1},{"id":"移民政策","name":"移民政策","count":1},{"id":"稀疏表示","name":"稀疏表示","count":1},{"id":"空间技术","name":"空间技术","count":1},{"id":"竞技长青","name":"竞技长青","count":1},{"id":"笔记技巧","name":"笔记技巧","count":1},{"id":"第一性原理","name":"第一性原理","count":1},{"id":"算法与社会","name":"算法与社会","count":1},{"id":"篮球战术","name":"篮球战术","count":1},{"id":"篮球访谈","name":"篮球访谈","count":1},{"id":"类型论","name":"类型论","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"约束等距性","name":"约束等距性","count":1},{"id":"纯文本写作","name":"纯文本写作","count":1},{"id":"纯粹数学","name":"纯粹数学","count":1},{"id":"线性代数","name":"线性代数","count":1},{"id":"经典阅读","name":"经典阅读","count":1},{"id":"结对编程","name":"结对编程","count":1},{"id":"编程教学","name":"编程教学","count":1},{"id":"编程语言","name":"编程语言","count":1},{"id":"美国ai政策","name":"美国AI政策","count":1},{"id":"美国政府改革","name":"美国政府改革","count":1},{"id":"美国经济","name":"美国经济","count":1},{"id":"美欧关系","name":"美欧关系","count":1},{"id":"翻译","name":"翻译","count":1},{"id":"职业自律","name":"职业自律","count":1},{"id":"职业辩护","name":"职业辩护","count":1},{"id":"联邦政府改革","name":"联邦政府改革","count":1},{"id":"联邦财政","name":"联邦财政","count":1},{"id":"股东信","name":"股东信","count":1},{"id":"股东大会","name":"股东大会","count":1},{"id":"能源","name":"能源","count":1},{"id":"能量基模型","name":"能量基模型","count":1},{"id":"自动驾驶","name":"自动驾驶","count":1},{"id":"自我认知","name":"自我认知","count":1},{"id":"自由意志主义","name":"自由意志主义","count":1},{"id":"自由民主","name":"自由民主","count":1},{"id":"苹果","name":"苹果","count":1},{"id":"苹果公司","name":"苹果公司","count":1},{"id":"药物研发","name":"药物研发","count":1},{"id":"蓝鳍金枪鱼","name":"蓝鳍金枪鱼","count":1},{"id":"虚拟细胞","name":"虚拟细胞","count":1},{"id":"蛋白质折叠","name":"蛋白质折叠","count":1},{"id":"蜂巢思维","name":"蜂巢思维","count":1},{"id":"行为偏差","name":"行为偏差","count":1},{"id":"西部决赛","name":"西部决赛","count":1},{"id":"规模法则","name":"规模法则","count":1},{"id":"规范驱动开发","name":"规范驱动开发","count":1},{"id":"言论自由","name":"言论自由","count":1},{"id":"计算增强生成","name":"计算增强生成","count":1},{"id":"计算数学","name":"计算数学","count":1},{"id":"计算机教育","name":"计算机教育","count":1},{"id":"计算机证明","name":"计算机证明","count":1},{"id":"训练体系","name":"训练体系","count":1},{"id":"论文写作","name":"论文写作","count":1},{"id":"论文撰写","name":"论文撰写","count":1},{"id":"访谈实录","name":"访谈实录","count":1},{"id":"詹姆斯-西蒙斯","name":"詹姆斯·西蒙斯","count":1},{"id":"语言学","name":"语言学","count":1},{"id":"诺贝尔经济学奖","name":"诺贝尔经济学奖","count":1},{"id":"谷歌","name":"谷歌","count":1},{"id":"贝叶斯方法","name":"贝叶斯方法","count":1},{"id":"财政削减","name":"财政削减","count":1},{"id":"资本配置","name":"资本配置","count":1},{"id":"超级智能","name":"超级智能","count":1},{"id":"超级计算","name":"超级计算","count":1},{"id":"跨领域训练","name":"跨领域训练","count":1},{"id":"身体转型","name":"身体转型","count":1},{"id":"软件工程范式","name":"软件工程范式","count":1},{"id":"软件开发最佳实践","name":"软件开发最佳实践","count":1},{"id":"软件开发未来","name":"软件开发未来","count":1},{"id":"运动恢复","name":"运动恢复","count":1},{"id":"还原论","name":"还原论","count":1},{"id":"通用人工智能","name":"通用人工智能","count":1},{"id":"重整化","name":"重整化","count":1},{"id":"量化交易","name":"量化交易","count":1},{"id":"金融服务","name":"金融服务","count":1},{"id":"金融监管","name":"金融监管","count":1},{"id":"阅读方法","name":"阅读方法","count":1},{"id":"集合论","name":"集合论","count":1},{"id":"非虚构阅读","name":"非虚构阅读","count":1},{"id":"预训练","name":"预训练","count":1},{"id":"领导力","name":"领导力","count":1},{"id":"香农信息熵","name":"香农信息熵","count":1},{"id":"马刺","name":"马刺","count":1},{"id":"马库斯-奥勒留","name":"马库斯·奥勒留","count":1}],"moduleNavItems":[{"id":"essays","label":"Essays","href":"/?label=Essays","order":40,"icon":"BookOpen","count":62},{"id":"talks","label":"Talks","href":"/?label=Talks","order":42,"icon":"Video","count":165},{"id":"reports","label":"Reports","href":"/?label=Reports","order":41,"icon":"FileText","count":36},{"id":"notes","label":"Notes","href":"/?label=Notes","order":30,"icon":"Eye","count":78}],"children":"$L10"}]]}]]}]
+10:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"min-h-screen px-12 py-12 font-sans text-slate-900","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n            (function () {\n              var pathname = window.location.pathname || '';\n              var canonicalPrefix = '/hinbox';\n\n              if (/^/hinbox(?:/|$)/i.test(pathname) && pathname !== pathname.replace(/^/hinbox/i, canonicalPrefix)) {\n                var target = pathname.replace(/^/hinbox/i, canonicalPrefix) + window.location.search + window.location.hash;\n                window.location.replace(target);\n                return;\n              }\n            }());\n          "}}],["$","div",null,{"className":"mx-auto flex min-h-[60vh] max-w-2xl flex-col justify-center gap-4","children":[["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"页面未找到"}],["$","p",null,{"className":"text-base leading-7 text-slate-600","children":"如果你是从大写路径进入本站，系统会自动跳转到小写的规范地址。"}],["$","p",null,{"className":"text-base","children":["返回首页：",["$","a",null,{"className":"text-sky-600 underline underline-offset-4","href":"/hinbox/","children":"/hinbox/"}]]}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+11:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+12:T1b9ce,<h3>访谈概述</h3>
+<p>在本期播客中，主持人 Lenny Rachitsky 对话了《精益创业》（<em>The Lean Startup</em>）的作者 Eric Ries，深入探讨了他的新书《不可腐蚀》（<em>Incorruptible</em>）。如果说《精益创业》教导创始人如何打造一家成功的公司，那么这本新书则聚焦于<strong>如何保护你所建立的基业</strong>。</p>
+<p>Eric 指出，高达 80% 获风投支持的创始人在公司上市三年内会被踢出局。许多伟大的公司最终走向平庸甚至堕落，并非因为竞争，而是被一种被称为“金融引力（Financial Gravity）”的结构性力量所吞噬（即“股东至上主义”）。为了抵御这种风险，Eric 提出了“精神气质+结构完整性（Ethos + Integrity）”的蓝图，并通过详实的案例（如 Anthropic、Novo Nordisk、Cloudflare、Vectura 和 Costco 等），详细拆解了企业如何利用“公共利益公司（PBC）”、“使命守护者”和“精神控股公司”等法律与治理结构，确保公司在追求商业成功的同时，永远不背叛其核心使命。这不仅是道德层面的呼吁，更是建立终极竞争优势、吸引顶尖人才的战略利器。</p>
+<h3>专用词语翻译列表</h3>
+<table>
+<thead>
+<tr>
+<th align="left">英文原词 / 术语</th>
+<th align="left">中文翻译</th>
+<th align="left">语境说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><em>The Lean Startup</em></td>
+<td align="left">《精益创业》</td>
+<td align="left">Eric Ries的经典著作，深刻影响了当代创投圈。</td>
+</tr>
+<tr>
+<td align="left"><em>Incorruptible</em></td>
+<td align="left">《不可腐蚀》</td>
+<td align="left">Eric Ries的新书名，探讨企业如何抵御腐化。</td>
+</tr>
+<tr>
+<td align="left">Financial gravity</td>
+<td align="left">金融引力 / 财务引力</td>
+<td align="left">指在资本主义制度下，将公司拖入平庸和唯利是图的无形力量。</td>
+</tr>
+<tr>
+<td align="left">Shareholder primacy</td>
+<td align="left">股东至上主义</td>
+<td align="left">认为公司唯一目的是为股东实现利益最大化的治理理念。</td>
+</tr>
+<tr>
+<td align="left">Fiduciary duty</td>
+<td align="left">信义义务 / 忠实义务</td>
+<td align="left">董事和高管对公司及股东承担的法律层面的忠诚与勤勉义务。</td>
+</tr>
+<tr>
+<td align="left">Public Benefit Corporation (PBC)</td>
+<td align="left">公共利益公司</td>
+<td align="left">一种企业法定结构（如特拉华州PBC），允许公司在追求利润的同时兼顾特定的公共利益使命。</td>
+</tr>
+<tr>
+<td align="left">Mission-driven vs. Mission-hopeful</td>
+<td align="left">使命驱动 vs. 伪使命驱动（寄希望于使命）</td>
+<td align="left">前者将使命写入架构；后者仅仅把使命当成宣传口号。</td>
+</tr>
+<tr>
+<td align="left">Mission guardian</td>
+<td align="left">使命守护者</td>
+<td align="left">负责监督公司不偏离核心使命的个人、董事会成员或独立机构。</td>
+</tr>
+<tr>
+<td align="left">Long-Term Benefit Trust (LTBT)</td>
+<td align="left">长期利益信托</td>
+<td align="left">Anthropic 设立的一种治理结构，旨在监督公司发展以造福人类。</td>
+</tr>
+<tr>
+<td align="left">Spiritual holding company</td>
+<td align="left">精神控股公司</td>
+<td align="left">Eric 提出的统称，指代那些持有公司治理权以保护其核心精神/价值观的实体。</td>
+</tr>
+<tr>
+<td align="left">Perpetual Purpose Trust (PPT)</td>
+<td align="left">永久目的信托</td>
+<td align="left">一种非经济实体结构，其存在只为了监督和维护公司的特定目标（如 Patagonia 的架构）。</td>
+</tr>
+<tr>
+<td align="left">Conway's Law</td>
+<td align="left">康威定律</td>
+<td align="left">组织设计出的系统/架构，其结构必然是该组织沟通结构的缩影。</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<figure class="video-embed video-embed--youtube">
+  <div class="video-embed__frame">
+    <iframe src="https://www.youtube.com/embed/PoJ1vTdHpks" title="YouTube video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+  <figcaption class="video-embed__caption">YouTube video</figcaption>
+</figure>
+<h2>访谈正文</h2>
+<p><strong>节目片头（精彩片段混剪）</strong></p>
+<p><strong>Eric:</strong> 各种著名的公司，摧毁它们的往往不是竞争。它们自身的成功反而成了负资产。我想讲讲 OpenAI 和 Anthropic 的故事。Dario（Anthropic 创始人）当时还是个初次创业者，公司也完全算不上什么当红炸子鸡。那时候 AI 热潮还没爆发，ChatGPT 还没发明出来。尽管如此，他们是“AI 安全”这一使命的坚定信仰者。因此，他们的一位投资者建议他们来找我聊聊。我告诉他们：“听着，如果你们不把这件事（公司治理结构）搞好，后果将会是这样……” 他们非常有决心去解决这个问题。
+他们把这写进了公司章程。Anthropic 的营利性董事会中，有几位董事是由一个外部的“受托人（Trustees）”团体任命并对其负责的。这个团体由没有 Anthropic 股权的 AI 安全专家组成。每当你看到 Anthropic 做出正确的事情——比如当他们认为某个模型太危险而拒绝发布时——想一想，这让他们付出了多少代价。这本新书《不可腐蚀》，就是关于如何保护你所建立的基业。你需要防范什么？我们都知道这种力量，我称之为“没有人能控制，但每个人都在服从的力量”，它往往会把组织拖入平庸，直到我们失去对它的控制。
+解决这个问题的宏观方案是什么？——“难即是易（Harder is easier）”。如果你愿意在决策时坚持原则，你会获得意想不到的回报。但大多数领导者在被要求捍卫自己的原则时都做不到，因为他们被灌输了基于投资回报率（ROI）的思维，也就是“股东至上主义”。他们认为那才是实现利润最大化的途径。那简直是疯了。</p>
+<p><strong>Lenny（开场白）:</strong>
+今天我的嘉宾是 Eric Ries，他是初创企业历史上最具影响力、最震撼人心的著作《精益创业》的作者。15年后的今天，他带着一本名为《不可腐蚀：为什么好公司会变坏，以及伟大公司如何保持伟大》的新书回归。Eric 描述这两本书之间联系的方式是：《精益创业》是关于帮助你建立一家成功的公司，而这本新书是关于帮助你<strong>保护你所建立的基业</strong>。
+Eric 写这本书是因为他看到太多创始人失去了对公司的控制权，最终对事情的发展感到非常失望和沮丧。这并不是你经常能听到的事情，但这几乎是每个成功的创始人都会面临的问题。Eric 分享了大量震撼人心的故事、具体战术和非常明确的建议，告诉你如果想建立一家基业长青的公司，作为创始人你需要了解什么、做什么。</p>
+<p>（此处省略 Lenny 播报 WorkOS 和其他赞助商广告的内容）</p>
+<h3>介绍新书《不可腐蚀》</h3>
+<p><strong>Lenny:</strong>
+Eric，非常感谢你的到来，欢迎再次来到本播客。</p>
+<p><strong>Eric:</strong>
+能再次做客是我的荣幸。恭喜你自上次我们聊天以来所取得的所有成就。</p>
+<p><strong>Lenny:</strong>
+谢谢你，Eric。对于那些可能与世隔绝的人来说，你多年前写了《精益创业》，那可能是目前最有影响力、最成功的创业书籍。回顾这 15 年，它经历了各种浪潮：从“这绝对是正确的做事方式”，到反弹说“不，这完全错了，这招现在行不通了”，再到现在的“好吧，这其实是对的”。我正好在准备这次访谈时想到了这一点。
+感觉现在的顶尖 AI 公司，他们的构建方式恰恰就是“精益创业”。我刚刚采访了 Claude Code 的产品负责人 Cat。他们的运作方式是：推出 MVP（虽然他们不这么叫，而是叫“研究预览版”），把它推向市场，看看人们是否真的在乎这个东西。他们会告诉你这东西还没完全准备好，但它已经面世了。然后他们再进行迭代和构建。我觉得人们没有给予你足够的赞誉，因为这实际上就是当前 AI 公司的运作方式。</p>
+<p><strong>Eric:</strong>
+我很感激你这么说。有趣的是，在每一次浪潮中都会有反弹，总有人会写文章说：“因为出现了某某情况，你不再需要精益创业了。”我记得当 Quibi（注：一家曾获巨额融资但短命的短视频平台）出现时，有人写道：“Quibi 证明了你不需要精益创业。”我总是回应说：“我们为什么不等这些公司真正成功了，再来看看它到底证明了什么呢？”
+但人们也忘记了，这不是一种宗教。所以对我来说重要的不是人们是否使用“最小可行产品（MVP）”这个词。这些并不是面向客户的术语。许多运用这些概念的公司，他们对外并不会谈论自己是如何使用的，他们只是在内部应用。
+这只是一种显然正确的路径。对我来说最有趣的是，（精益创业）中我认为最经得起时间考验的一个极其重要的方面是：撇开模型和底层技术不谈，那些席卷全球的特定 AI 产品，你可以清楚地看出，连 AI 实验室自己都不知道它们最终会如此受欢迎。显然，对于 ChatGPT、Claude Code，他们原本并没有预料到。在宏大的计划中，这些只是一些小实验；它们并不是公司那种“这是我们的终极押注，我们全押了”的项目。这就非常经典了。产品开发的一个普遍真理是：你没有预测未来的能力。当你假装自己能预测未来时，你就会惹上麻烦。如果你把一切都当作一个“假设（hypothesis）”来对待，你就能获得科学方法带来的好处，这非常有帮助。</p>
+<p><strong>Lenny:</strong>
+你今天带来了一本新书，叫做《不可腐蚀（Incorruptible）》。这和《精益创业》是一本非常不同的书。它在很多方面感觉非常个人化。我听你描述《精益创业》和这本新书的结合方式是：《精益创业》是关于帮助你建立一家成功的公司，而《不可腐蚀》是关于帮助你保护你所建立的基业。我想从“保护你所建立的基业”这第二部分开始。你需要防范什么？创始人会遇到这种怎样的“腐败/腐化”？</p>
+<h3>保护你所建立的基业</h3>
+<p><strong>Eric:</strong>
+我们都知道书中提到的这种力量。我称之为“没有任何人能控制，但每个人都在服从的力量”，它往往会把组织拖入平庸，直到我们失去对它们的控制。</p>
+<p>有时候我们失去控制是因为被解雇了，被赶出了自己的公司。有时候是因为我们就像弗兰肯斯坦和他的怪物一样：组织开始变得充满恶意、官僚主义，或者坦白说，变得邪恶，而我们却不知道如何阻止它。</p>
+<p>我一直坐在第一排观察这一切。我帮助人们建立公司已经很长时间了。我帮助人们为他们自己和整个社会创造了难以想象的财富。我为他们所做的工作感到自豪，也为我在众多公司中扮演的小角色感到自豪。然而，我也看到了这种黑暗面。这不仅仅是创始人被解雇的问题，虽然我们稍后会谈到这个。</p>
+<p>举个例子。前几天，我和几个朋友出去吃晚饭。我们不在自己熟悉的社区，所以有人说：“这里有家餐厅，我有几年没去了，但非常好吃，我们去试试吧。”我们去了，坐下吃晚饭。我朋友只吃了一口食物，然后就开始看手机。我们说：“老兄，你太没礼貌了。你为什么看手机？”他说：“等一下，就等一下。嗯，不出所料。”他把手机转过来给我们看。通过那口食物的味道，我就能吃出这家餐厅被私募股权公司（PE）接管了！</p>
+<p>我讲过这个故事很多次，很多人都会对我说：“哦，对对，我知道你说的是哪家餐厅。”然后他们会一口气报出十几家不同的餐厅名字。到底发生了什么，让你竟然能在食物中“尝出”一家公司的所有权结构？</p>
+<p>有多少人曾亲眼目睹自己喜爱的著名品牌被毁掉？我在书中讲述了数百年来发生的故事，各种各样的著名公司，摧毁它们的不是竞争，不是别人拿出了更好的产品。不，它们自身的成功成了负资产。<strong>因为下金蛋的鹅越肥，宰杀它的诱惑就越大。</strong></p>
+<p><strong>Lenny:</strong>
+这是一个非常直观的例子。这让我想起了 Vital Farms 的鸡蛋。这是一家我们在超市经常买的散养有机鸡蛋品牌。我不知道你是否在 Twitter 或 TikTok 上看到了这个新闻，大家都在抱怨他们的鸡蛋质量变差了，而且现在查出含有最高水平的毒素，后来人们发现他们现在被贝莱德（BlackRock，全球最大的资产管理公司）收购了。</p>
+<p><strong>Eric:</strong>
+不，我之前还在好奇这件事呢。哦，好吧。现在这是我最喜欢的例子了！我甚至都不知道这个。但对，这种事太常见了。有一次我在接受采访，记者正准备告诉我一个天然食品品牌的故事，那个产品的名字就是创始人的名字。她说她被投资者赶下台了。记者刚要讲下去，我就说：“让我猜猜接下来发生了什么。董事会为了追求更高的增长和更高的利润率把她赶走了。结果就是产品质量下降，客户超级愤怒，员工也很愤怒，现在市场份额开始萎缩。”那个记者惊呆了：“你怎么知道的？你不是说你不知道这家公司吗？”</p>
+<p>这种模式如此普遍。我们甚至没有一个专门的名词来称呼它。我们每天都在经历，但不知道该叫它什么。</p>
+<p>但我知道该怎么称呼它。我知道我们的祖父母会怎么称呼它——他们会称之为<strong>腐化（Corruption）</strong>。这不是指法律意义上的受贿或贪污。不，这就像你造了一座桥，桥塌了。Lenny，假设你是个工程师，我问你：“为什么我的桥塌了？”如果你回答：“因为地心引力。”我会觉得你在敷衍我。我当然知道某种意义上是对的，就像我们在商业上会说“这是不可避免的，因为贪婪，因为公司变大了”。但我真正想知道的是：“这座桥到底为什么会塌？更重要的是，为什么其他的桥没有塌？”</p>
+<p>这时候我们才需要仔细研究，你会说：“哦，这需要研究载荷、风载荷、剪切拉力。”我们走近一看，发现：“哦，看，所有的金属螺栓都被腐蚀生锈了，难怪它会塌。”然后如果我说：“我想建一座新桥，我不想它再塌了，我该怎么做？”你绝不会说：“这就是地心引力，你无能为力。”不，你会说：“下次我们用不锈钢螺栓吧，这样就不会被腐蚀了。”好主意！</p>
+<p>所以，这本书就是关于：<strong>什么是组织架构意义上的“不锈钢”？</strong> 这本书的结构不像传统的商业书，它更像是一个“双重悬疑小说”。首先，既然我们都认为市场会优胜劣汰、奖励创造价值的人，为什么这种“摧毁价值”的事情几百年来一直在发生？其次，如果这真的是不可避免的，是由贪婪、资历或规模引起的，那为什么会有例外存在？</p>
+<p><strong>Lenny:</strong>
+你真的给出了答案和解决方案。因为听起来这像是个无解的难题，但你确实为创始人提供了具体的应对之法。刚才顺便提一下 Vital Farms 鸡蛋的事，我不确定毒素的事情是否属实，目前只是网上的病毒式传播，我还没深入调查。</p>
+<p><strong>Eric:</strong>
+我们俩课后都得去做做功课了，毕竟这是喂给孩子们吃的东西，我们在乎。听到这个消息我肯定很担心。</p>
+<h3>为什么创始人会被赶出局</h3>
+<p><strong>Lenny:</strong>
+我想谈谈听众在听这段对话，甚至考虑买你这本书时，脑海中可能浮现的两件事。第一种心态是：“我绝不会让这种事发生在我的公司身上。别人那是软弱，也许是他们的价值观不够坚定。”第二种心态是：“我真的需要做这些吗？有很多公司做得非常好，我认为他们并没有做你说的这些事。我为什么要关注这个？”我们先从第一点开始。你书中的一个核心论点是：这不仅仅是一个道德价值观的问题，它是美国商业体系中一个结构性的元素。</p>
+<p><strong>Eric:</strong>
+我要做一个听起来很激进，但我有证据支持的声明。</p>
+<p>如果你不把这件事（公司治理架构）搞对，你对公司做出的任何关于长远发展的决策都将毫无意义——<strong>因为到那时候，做决定的已经不是你了</strong>。</p>
+<p>根据哈佛法学院的数据，在那些由风险投资（VC）支持、且采用了律师提供的所谓“标准最佳实践”设立结构的公司中，<strong>在公司上市 3 年后，只有 20% 的创始人仍然担任 CEO。</strong> 从统计学上讲，每个人都被他们的律师、银行家、VC 告知“你是个例外，这种事不会发生在你身上”。但从统计数据来看，你成为那 80% 的可能性要大得多。</p>
+<p>我讲一个具体的故事。有一家非常火爆的公司，在他们 IPO 前的一两年找到我。他们正在筹备 IPO。你也知道，我建立了“长期证券交易所（Long-Term Stock Exchange）”，我做过很多这类事情，人们经常来找我咨询。他们想要建议：“我们该如何构建 IPO 架构？我们想立足长远。我们真的是一家使命驱动的公司。”等等。</p>
+<p>我看了他们的治理文件，我说：“好消息是，你采用了所有的‘最佳实践’。所以，你是彻底完蛋了。”因为你如果不做任何改变，这肯定会搞砸。我就像在书里写的那样，拿出了所有的数据：这里是案例，这里是数据，你需要了解这些。</p>
+<p>这位创始人非常担忧。他说：“好的，我们绝对要采取行动，我们要修复它。”但他几个月后给我回了电话。我问：“你打算怎么做？”他说：“你知道吗？我和我的投行谈了，和律师谈了，和 CFO 谈了，和总法律顾问（GC）谈了，和风投谈了，和增长基金也谈了。你知道他们都怎么说吗？他们都说：‘Eric 太扫兴了。如果他真的相信你的愿景，如果他真的看到你们公司有多特别，他就不会这么说话。你是个例外。’”</p>
+<p>我说：“好吧老兄，祝你好运。”这家公司上市了，IPO 非常成功，很多人赚了很多钱。然而，在成为上市公司仅仅 5 个月后，他们的一家竞争对手被收购了，整个赛道的人都慌了。公司股价暴跌，<strong>这位创始人在公司上市 5 个月后就被扫地出门了</strong>。</p>
+<p>现在，如果你去读关于这家公司的报道，人们会说：“哦，他犯了这些那些错误。他们的商业模式很糟糕。”他犯错了吗？我确定他犯了。存在问题吗？肯定有。但他真的就那么不堪，以至于只配得到 5 个月的宽容期吗？那些现在说“商业模式有严重缺陷”的人，正是 5 个月前投资这家公司的人。这短短 5 个月里，模式真的发生了翻天覆地的变化吗？</p>
+<p>这就是正在发生的事情。这种崩溃就在我们身边，而我们却被告知这是正常的，这是不可避免的。但这并不是真的。这是因为我们在内部文化、管理实践，以及外部的治理结构上做出的具体选择导致的。在这两方面，我们都被建议去采取那些极其脆弱的架构。我再说一遍，如果你认为自己会是那个例外，请再三思。</p>
+<h3>永远觉得“太早”，直到“太晚”</h3>
+<p><strong>Lenny:</strong>
+我很期待谈谈如何在这些治理要素上采取行动，但让我们先谈谈人们脑海中想象的另一个批判声音，就像是：“我得先找到产品市场契合点（Product-Market Fit, PMF），以后再操心这些事。我要做的事情太多了，成功的几率那么低，我哪有时间搞别的？”</p>
+<p><strong>Eric:</strong>
+完全同意。你刚才的引入里提到一点很有意思，你说“很多其他公司似乎也做得很好，他们没有这些保护措施，所以他们也没事”。遇到这种反驳，我建议你重新核实一下数据。有一次有人对我说：“Cloudflare 简直就是一家极其普通的公司，他们不搞这些（使命保护的）东西。”我回答：“回去查查资料吧哥们。Cloudflare 采用了我们讨论的许多保护机制。他们是我书中的案例之一，我是故意挑选他们的。”</p>
+<p>很多你第一时间不会联想到是那种“行善/使命驱动”的公司，其实在组织结构上都非常受使命驱动，而且它们几乎总是受到本书中提到的一种或多种治理结构的保护。所以，去查查资料吧。人们过去也常告诉我 Costco 是一个不受保护的例子。结果当我深入了解时，我很惊讶地发现，它实际上深深植根于一种治理堡垒之中。如果你去研究一下，你会大吃一惊的。</p>
+<p>我们来谈谈“寻找产品市场契合点”的借口，因为这非常有趣。这也是全书最重要的方法论之一：关于如何保护一个产品/公司，最重要的问题不是它需要“什么”保护，而是“何时”必须实施这些保护。这就像一句古老的谚语：种一棵树最好的时间是 40 年前，其次是现在。<strong>对于保护架构来说，在它变得“太晚”之前，人们永远觉得“太早”。</strong></p>
+<p>让我给你举个例子，这种场景我亲眼见过几百次，我真的在讨论这些事情的会议室里待过。故事通常是这样开始的：你正在注册公司，你和律师交谈。“嘿，我想要在章程里加入这些叫做‘使命保护条款（Mission protective provisions）’的东西。我听了 Lenny 播客里的那个家伙说的。”你的律师会翻个白眼想：“又来了。你到底还要从 Lenny 的播客里给我找多少好主意？”然后他会拍拍你的头说：“哦，亲爱的，这想法真可爱，真棒。去寻找产品市场契合点吧。去取得一些成功。成功最终是你最大的筹码，成功会保护你的。现在别担心这个。”你说：“好的，太好了。谢谢提醒。”</p>
+<p>现在你要融资了，你让 VC 加入了董事会。他们也说同样的话：“是的，我完全支持你。我们站在同一阵线，我们想要的东西是一样的。我们投资是因为我们相信你这个创始人。现在没必要做这个，我们以后再做，在更合适的时候再做。”好的。</p>
+<p>现在你进入了成长期（Growth round）。你现在的董事会里有那些号称“大胆逆行”的增长期风投。他们会说：“我不知道耶，你可能不想跟别人太不一样，这会让你很难融资。”你想：“我以为你是个大胆的逆行者呢？什么情况？”好吧，“现在别担心，我们以后总能做的。”</p>
+<p>现在你在做 IPO 准备了。你有投行、律师、总法律顾问。他们都说：“对对对，这个跟 IPO 打包在一起做是个好主意。你现在不用担心。首先我们得让飞机安全降落，把内部事务整理好。”等等等等。</p>
+<p>我真的在这样一个房间里待过：创始人和 CFO 坐在一起，IPO 规划路演即将开始。我们马上要提交文件了，创始人问：“嘿，那些‘使命保护条款’怎么样了？我真的想确保我们的客户能参与我们的 IPO，我希望实现广泛的共同繁荣，我希望为员工做这件事。我们在 S-1（招股书）里写了这些吗？”CFO 会看着他说：“哦，你是认真的吗？哦抱歉老兄，你应该早点说的。现在太晚了。”你问：“等等，去年我跟你谈的时候，你说那时候做太早了啊！”“对，那时候是太早，但现在已经太晚了。”</p>
+<p>所以，究竟有没有一个所谓的“正确时间”？<strong>没有。永远没有合适的时间来做这件事。</strong> 如果你拖延，你最终会发现自己处于一个再也无法实施它的境地。你将失去所有的筹码。<strong>成功不会保护你，因为成功正是让你成为目标的原因。</strong></p>
+<p>我之前讲的那个上市 5 个月就被解雇的 CEO 的故事。在那个 IPO 中工作的所有人，每一个银行家、每一个律师、CFO、所有人，他们都在公司股价上涨和下跌的过程中产生的交易量里赚得盆满钵满。他们都很好，他们都奔赴下一个 IPO 去了。他们就像食肉动物，寻找下一个猎物。而同时，那些客户、员工，那些真正在乎这家公司的人，却没有那么幸运。</p>
+<p><strong>Lenny:</strong>
+这深深地触动了我。这直击心脏。很明显，这件事对你来说是多么的个人化和重要。很明显，你在职业生涯中一次又一次地看到这种情况发生。</p>
+<p><strong>Eric:</strong>
+哦，是的。我就是在那些“案发”的会议室里亲身经历过的人。</p>
+<h3>蓝图：精神气质 + 结构完整性</h3>
+<p><strong>Lenny:</strong>
+好的。那么我们来谈谈创始人应该怎么做。我们可以在不同方向上探讨一下，宏观层面的解决方案是什么？然后对于一个早期创始人来说，他们这周或下周能做的具体三件事是什么？</p>
+<p><strong>Eric:</strong>
+好的。从宏观上讲，确实有一个蓝图。我保证。当我们谈论生活在晚期资本主义体系下的恐怖时，很容易感到沮丧，你会觉得：“这就完了。”这本书的第一部分就叫“深渊的形状”，所以我不想粉饰太平，这确实非常严酷。如果你没有研究过这些案例研究，如果你不知道 Whole Foods 发生了什么，如果你不知道 Vectura 发生了什么，这真的很严酷，重要的是要去面对发生的事情，这样它才不会发生在你身上。但有时候会觉得我们是如此的无助。</p>
+<p>正如我所说，这是一个双重谜团。不仅是“为什么会发生这种情况”，还有“在一个看似不可避免的规律下，怎么会有例外？”让我再讲一个故事，然后我们再进入非常具体的战术细节。我们需要一些故事作为我们的数据库来提取这些原则。我给你剧透一下蓝图：<strong>“精神气质 + 结构完整性（Ethos + Integrity）”就是我们的公式。</strong> 精神气质指的是内部协同、价值观性格选择；结构完整性意味着有能力去抵抗，去保持我们的架构与“人类的繁荣福祉”对齐。</p>
+<p>让我们把时间再往前推一点。这次我们去 1920 年的丹麦。我想给你讲讲一位名叫 Marie Krogh 的女士。她是丹麦最早执业的认证医生之一，也是女性医学教育的积极倡导者，她自己的一生也非常酷。</p>
+<h3>诺和诺德的百年治理堡垒</h3>
+<p><strong>Eric:</strong>
+但她今天之所以出名，很大程度上是因为她的丈夫 August，他当时刚获得了诺贝尔奖，是一位非常著名的科学家。不幸的是，几乎在同一时间，Marie 被诊断出患有一种致命的疾病。在那个时候，这种病没有已知的治愈方法，那就是糖尿病。</p>
+<p>就在她丈夫获得诺贝尔奖时，她接到了这个“死刑判决”。他问她是否愿意和他一起去北美进行巡回演讲，她答应了。所以他们去了北美，他到处向科学家们发表演讲。一天晚上的晚宴上，Marie 坐在一位科学家旁边，那位科学家告诉她：“嘿，在加拿大，有研究人员发现了一种新技术，可以分离出一种叫做‘胰岛素’的物质，这可能是治疗糖尿病的方法。”</p>
+<p>于是，Marie 说服她的丈夫：“我们应该改变行程，去加拿大亲眼看看。”他们去了。两人都是科学家，所以他们立刻明白这意味着什么：这不仅能拯救 Marie 的生命，还能拯救数百万人。所以他们和加拿大人商量：“我们能将这项技术商业化吗？”加拿大人表示开放态度，但所有参与的人都有一个担忧。</p>
+<p>到目前为止，我们一直在谈论“被赶出公司”或“公司被夺走”的担忧。这是一种危险。但还有一种危险，就是“收割他人劳动成果”的诱惑。那种去剥削、去压榨，而不是创造新价值的诱惑。他们当时就是在担心这个。</p>
+<p>Lenny，我想让你和我一起想象这个场景。假设我得依靠你提供一种救命的疗法，我患有糖尿病。你是世界上唯一制造胰岛素的人。在这种情况下，我当然希望你向我收取一个公平的价格。这既是道德上的正义，我也希望你有足够的动力继续生产这种药，否则我可能会死。</p>
+<p>但如果有一天你醒来想：“等一下，我不需要向 Eric 收取公平的价格。”或者有投资者在你耳边说：“Lenny，你不需要收他公平的价格。你可以随便开价，要多少有多少。”这就是我每天都会生活在恐惧中的原因。</p>
+<p>因此，在 Martin Shkreli（注：著名的美国前对冲基金经理，曾因恶意抬高救命药价格被称为“全美最招人恨的人”）真正将这种“敲诈”作为商业策略的几十年前，Krogh 夫妇和加拿大科学家们就在担心这种事可能会发生在他们的新公司身上。所以，当他们回到丹麦创建这家名为 Nordisk Insulinlaboratorium 的公司时，他们使用了一种非常特殊的结构来注册。<strong>它是一家营利性公司。它确实有外部投资者，但它的所有权和治理权掌握在一个非营利基金会手中。</strong> 在文献中，这种双层结构被称为“工业基金会（Industrial foundation）”。</p>
+<p>如果 Nordisk Insulinlaboratorium 听起来很耳熟，那是因为它就是今天我们称之为“诺和诺德（Novo Nordisk）”的前身公司。诺和诺德如今是世界上最大的公司之一。</p>
+<p>这个故事最让我感兴趣的是，这种结构经受住了考验，并在 100 多年的时间里，保护了诺和诺德的科学严谨“精神气质”。与此同时，你的律师、你的银行家、你的顾问正在向你推销的所谓“最佳实践”，它们的历史可能还没有你家附近公园里的树老。</p>
+<p>所以我希望所有在听这个节目的创始人、产品经理、领导者、董事会成员：下一次当有人向你推销一种“最佳实践”，而你觉得“哦，我猜我必须这么做，因为我们生活在一个由 ROI 主导的文化中，我们必须按 ROI 排序”时。我希望你能想一想：是的，那个人听起来很聪明，他们的履历很光鲜，他们上了名牌商学院。但问问你自己，你确定他们比诺贝尔奖得主更聪明吗？因为 August 和 Marie 在 100 年前就解决了这个问题，而且它顶住了无数次的攻击。</p>
+<p>实际上，我在书中讲了一个故事。Lenny，我知道你会觉得我在夸大其词，或者你的部分听众会认为“Eric 是个夸大狂”。但我保证，这是一个百分之百真实的故事：诺和诺德非营利基金会的受托人（Trustees），有一次不得不强行干预，以保护那家“营利性公司”免受想要将其“卖掉套现”的诱惑。我不细讲整个故事了，在这个案例中，受托人做出了正确的事情，因为他们有这样做的合法权力。<strong>他们的那次干预，最终创造了超过 5000 亿美元的股东价值。</strong> 我没为了夸张而多加个零，就是 5000 亿美元。</p>
+<p>所以，当人们第一次听到这些事情时，很自然地会觉得我们只是在谈论商业道德或企业社会责任。就好像这是一种额外的东西，“等我们搞定了真正的、严肃的商业之后，再去考虑这些”。不，这是世界上最强大的价值创造引擎之一。</p>
+<p>对很多人来说，这可能是第一次听到这种做法。但它对你来说是新的，不代表它真的是新的。德国的光学公司蔡司（Zeiss，为你我眼镜提供镜片的公司），他们在 1885 年就采用了这种结构。</p>
+<p>了解这些例子的存在很重要，我们就能知道：所谓的“金融引力”并没有什么不可避免的。我们实际上有一个数据集可以研究。有一整个学术研究分支表明，比如像诺和诺德和蔡司这样采用该结构的公司，<strong>它们活到 50 岁的可能性是传统公司的 6 倍。</strong> 它们拥有更高的资本回报率，为投资者赚了更多的钱，它们在很多方面都做得更好。所以，这种技术的存在在某种程度上是一个公开的秘密。</p>
+<p><strong>Lenny:</strong>
+在进入具体方法之前，让我们再次提醒人们为什么值得这样做。因为有些方法听起来会觉得：“我的天，这太麻烦了。我必须做所有这些奇怪的事情，而别人都没做。我必须去说服所有这些人，这不会限制我们未来的发展吗？”让我们再提醒大家一次，为什么这很重要，如果不这么做，会有多么痛苦？</p>
+<h3>Vectura 集团与菲利普莫里斯公司（烟草巨头）</h3>
+<p><strong>Eric:</strong>
+天哪，有太多反面教材可以选了。有太多痛苦了。我再讲一个故事。我们一直在讲快乐的故事，让我给你讲一个不太快乐的故事。</p>
+<p>多年来我一直在做一个练习。我会问创始人或任何级别的高管：“在我们进入细节之前，请先告诉我，你认为世界上最邪恶的公司是哪家？”</p>
+<p>有时候人们立刻就知道该说谁。但有些人会问：“邪恶是什么意思？”我说：“就是那种不管他们给你多少钱，你都绝对不会去那里工作的公司。你觉得他们没干什么好事。”每个人脑子里都有这样一家公司。</p>
+<p>你不用告诉我你是哪家。我会在会议室里问一圈，大家都在聊天框里输入。有人会说是哈里伯顿（Halliburton），有人会写科技公司（现在科技公司越来越多出现在这些名单上，这在我年轻时是不可能的）。有时是孟山都（Monsanto），或者一些私募股权基金。他们总能说出一家公司，所以找例子并不难。</p>
+<p>我父亲是呼吸科医生，所以我从小就被教育：菲利普莫里斯（Philip Morris，著名烟草公司，生产万宝路）是世界上最邪恶的公司。我们今天就用它作为假设。如果你的价值观不同，你觉得菲利普莫里斯很好，那随你便，你挑一家你死也不想去的公司代入就行。</p>
+<p>现在，我让人们想象他们目前工作的公司。如果你是创始人，想象你的公司；如果你是员工，想象你珍视的公司。想象一下，有一天菲利普莫里斯突然出现，并说：“我想以比目前股价高出 1 美元的价格收购这家公司。你卖吗？”</p>
+<p>大多数人会说：“绝对不卖。去他的，我不卖。”曾经有个人问我：“他们买来做什么？”我说：“哦，为了明确起见，他们打算用你的公司来向儿童推销香烟。”“那你卖吗？”“不成交。坚决不，Fxxk NO！”我其实不能在你的播客上说出人们在面对这种假设时所爆的粗口。人们对这个想法感到非常愤怒。</p>
+<p>当我们讨论这个时，我说：“好吧，但你是否知道，根据你自己签署的法律文件、你公司现在的章程（这不是假设的未来，而是你已经启动的规则），<strong>你承担着一项‘信义义务（Fiduciary duty）’，要求你在这个情况下必须同意出售！</strong>”</p>
+<p>人们感到非常愤怒。他们说：“这不可能！我的律师，我的好哥们，他绝不会这么对我。”我说：“打电话给他，问问我说的对不对，然后再给我回电话。”然后他们说：“他说是的。他说他给了我一套‘最佳实践’文件，是为了方便我融资，这是在帮我。”</p>
+<p>然而，偶尔会有人说：“Eric，你夸大其词了。是的，理论上可能会发生，但拜托，现实生活中真的会发生吗？这是我真的需要担心的事吗？我还在寻找 PMF 呢！”</p>
+<p>所以在你说我夸大其词之前，我希望你从 Vectura 集团创始人（几位科学家）的角度来考虑一下。Vectura 是一家从英国巴斯大学剥离出来的公司。他们生产哮喘和慢阻肺（COPD）的吸入式治疗药物（就是那种吸入器，治病救人的医药公司）。他们非常成功，筹集了资金，并在伦敦证券交易所上市。</p>
+<p><strong>有一天，真实的菲利普莫里斯烟草公司试图收购他们。</strong></p>
+<p>我之所以知道这个故事，是因为我用菲利普莫里斯的例子已经好几年了。当我在为这本书做研究时，我随口问了 Claude（AI模型）：“真的有人像我假设的那样被菲利普莫里斯收购过吗？”Claude 说：“你是在问我关于 Vectura 的事吗？”我惊呆了：“快给我讲讲。”菲利普莫里斯当时声称他们希望在尼古丁之外实现业务多元化，他们说“哦，我们对吸入东西很在行，所以拥有一家吸入器公司很有道理……”</p>
+<p>正常人听到这个都会觉得：“这说不通。为什么一家大型烟草公司要拥有一家健康医药公司？”</p>
+<p>当时摆在 Vectura 董事会面前的有三个选择：一，菲利普莫里斯出价每股 165 便士；二，一家美国私募股权公司出价每股 155 便士；三，保持独立（因为公司运转良好，根本没有问题）。</p>
+<p>当时英国公众感到非常愤怒。英国胸科协会恳求他们拒绝。每一个思考了 5 秒钟的人都能看出，这将是一个巨大的破坏价值的错误。但唯一重要的人，是 Vectura 集团董事会的成员。他们大概为此开了两次会，然后说：“我们的手脚被捆住了。<strong>我们有信义义务必须接受出价最高的一方。</strong>” 于是，他们被烟草公司收购了。</p>
+<p>所以，如果你认为我在夸大其词，是的，我是夸大了。我假设的溢价是 1 美元，而在现实生活中，溢价只有 15 美分（约10便士）！</p>
+<p>让我们看看接下来发生了什么？你能猜到吗？</p>
+<p><strong>Lenny:</strong>
+不太好。</p>
+<p><strong>Eric:</strong>
+菲利普莫里斯花了 11 亿英镑收购了 Vectura。三年内，他们注销了 9 亿美元的资产，并将其拆解变卖。这家公司现在已经不存在了。</p>
+<p>对我来说，这就是赌注。这就是发生的现实。每次遇到那些说“我绝不会那么做”的人，我感觉自己就像是个法庭律师，我说：“好的，我理解你有好心，但能让我看看你在文件上的签名吗？哦看，特拉华州的章程是公开记录的（如果你想知道某家公司是否有崇高的使命，或者是否会步上述公司的后尘，直接去查他们的章程）。这是你的签名吗？你自己签署了这份文件。你甚至不了解你自己的公司是如何运作的。”</p>
+<p>我认为这种风险绝对是关乎公司生死的。特别是现在我们进入了一个“奇迹时代”，进入了一个技术极其强大、具有全球规模影响力的时代。很多创始人、产品人员，他们希望创造出一种能让自己引以为豪的产品，一种让他们的孙辈听了会觉得“哇，原来我们家的财富是这么来的”的产品。我认识很多非常有钱但非常痛苦的人，因为他们的“心血之作”被毁掉了。如果结局是这样，我们为什么还要做这些呢？</p>
+<h3>“难即是易”原则</h3>
+<p><strong>Lenny:</strong>
+好的，让我们谈谈具体该怎么做。这会是一个高层次的概述。如果你真的想认真对待这些事情，显然需要去买这本书。它 5 月 26 日就出版了。</p>
+<p><strong>Eric:</strong>
+是的，任何买书的地方都有。</p>
+<p><strong>Lenny:</strong>
+我想先在听众脑海中播下一颗种子。当他们听到这种理念时，OpenAI 以及“建立非营利组织”的想法可能会出现在他们的脑海中。</p>
+<p><strong>Eric:</strong>
+是的，我们在书中会讲到。在书中我讲述了 Anthropic 的故事，我在其中扮演了一点小角色。但我们先从简单的事情说起。因为 AI 就像是人类的“期末考试”，这些治理问题在 AI 领域被极度放大了，我们当然必须把它做对，我也尽我所能让我们走上正确的道路。但在更简单的业务中更容易看清这一点。OpenAI 的情况极其复杂。所以让我们看看一些更简单的例子。</p>
+<p>首先，让我们从我称之为 <strong>“难即是易（Harder is easier）”</strong> 的原则开始。这是任何人都可以采用的领导原则。真的，没有任何人可以说是毫无权力的。每个人都有一些影响力。如果你有任何影响力，你就可以采用这个原则。</p>
+<p>当我与人们谈论商业时，无论是车库里的两个小伙子、创始人，还是超级董事会或 C 级高管，每个人总是对我说你刚才说的话：“天哪，Eric，做生意已经够难了，你现在还想让我做额外的事？我现在还要担心 Vectura 事件和其他乱七八糟的事。我光是努力熬过这一天就已经精疲力竭了。”</p>
+<p>但我认为这是一种完全倒置的看待问题的方式。我问人们：“有没有想过，你觉得做生意这么难的原因之一，<strong>是因为没有人信任你？</strong>”</p>
+<p>如果他们信任你，也许事情会稍微容易一点？这不仅仅是假设，我们有非常好的证据。在员工信任公司的企业中，他们在员工沟通上花费的时间要少得多，一致性更好，大家都在朝着同一个方向划船。当客户信任你时，你显然会拥有更高的忠诚度。你的获客成本更低。更重要的是，当你犯错时，客户更有可能不离不弃，他们更愿意尝试你的新产品。太多人在抱怨“天哪，客户太善变了，他们没有忠诚度，他们只在乎竞争对手的花哨营销”。但也许，正是因为你把“赢得信任”视为“额外的事情”，这才是问题所在。</p>
+<p>所以，“难即是易”原则的意思是：<strong>如果你愿意预先付出努力，致力于质量、设计、道德、诚信、安全（无论什么，我不想告诉你你的价值观是什么，你来告诉我你的），如果你愿意在决策中有原则，你会得到这些意想不到的回报。</strong></p>
+<p>但是，你不能为了回报而这么做，否则就不管用。你必须为了事情本身而做。<strong>值得信赖（Trustworthiness）是所有商业中最被低估的资产。</strong> 能够创造“值得信赖”的行为，如果我们按照传统的 ROI（投资回报率）来排序，它们永远会排在最下面。因为“做正确的事情”带来的回报是无形的，而成本是有形的。</p>
+<h3>Cloudflare 使命的诞生故事</h3>
+<p><strong>Eric:</strong>
+让我给你讲另一个故事。我们一直在谈论高高在上的东西，我想谈谈非常实际的东西，那就是我之前提到的 Cloudflare。</p>
+<p>我喜欢 Cloudflare，因为创始人 Matthew Prince 和他的联合创始人非常反感那种咨询公司式的废话（BS）。早期的时候，他们从哈佛商学院出来，简直是被那种教育搞出了心理创伤。所以他们说：“我们不想听什么使命宣言，不想听什么价值观。我们只是做了一个防火墙并把它放到云端。没那么复杂，我们不想听。”所以很多年来，他们都没有“使命宣言”。</p>
+<p>这是一个关键点。作为领导者，我们过于关注撰写所谓的“价值观”和“使命宣言”，以至于忘记了：<strong>使命宣言（Mission statement）并不是使命本身（Mission）。地图不是领土。使命是我们正在孕育的那个活生生的‘超级生物体’所涌现出来的一种属性。</strong> 它不是你可以随便贴上去的标签。你必须把它融入进去。如果你想拥有一家代表质量的公司，你必须从内部构建质量。戴明（Edward Deming）在 40 年代就教导过这一点，这并不是什么新想法。这是工匠精神的真正含义。</p>
+<p>好了，我们怎么知道 Cloudflare 其实一直有使命？因为他们经常做一些“难即是易”的事情，甚至自己都不知道为什么。在他们的历史上有一个非常著名的例子。一些支持民主的抗议者（为了避免说错得罪某个国家，我不提具体国家的名字了），遭到国家级的黑客攻击，试图瘫痪他们的网站，导致他们无法协调民主抗议活动。他们跑遍了硅谷，乞求大型科技公司帮助他们保卫网站。</p>
+<p>没人愿意做。所有那些大型跨国公司，甚至是谷歌级别的，都说“我们太害怕了，不敢惹麻烦”。而当时的微型初创公司 Cloudflare 却说：“我们来做。”这些人只是免费版客户，根本不付钱。但 Cloudflare 说：“是的，我们将冒着惹怒国家级黑客的风险来保护你，因为这是正确的事情，没有任何财务回报。”他们就是这样的公司。</p>
+<p>几年后，他们在一起吃午饭，一位工程师说：“你知道我为什么喜欢在这家公司工作吗？我只是觉得这是我工作过的第一个<strong>只是想创造一个更好的互联网</strong>的地方。”</p>
+<p>桌上的每个人都说：“对，创造一个更好的互联网。”有人问 Matthew：“哦，那是我们的使命宣言吗？”Matthew 说：“不。我们没有使命宣言。你在说什么？”但实际上，这是随着时间推移，工程师们、在那儿工作的人一直在说的一句话：“创造一个更好的互联网”。这是他们谈论工作的方式。最终，创始人们被说服了：“好吧，我们把它采纳为我们的使命宣言。”直到今天，这就是他们的使命宣言。随着规模变大，他们最终也必须确立正式的价值观，记录这些涌现的属性是至关重要的，否则人们怎么知道它们是什么呢？顺便提一句，他们的头号价值观是<strong>坚持原则（Be principled）</strong>，这是终极的“难即是易”的举动。</p>
+<p>这听起来都很棒。当它不需要你付出任何代价时，拥有价值观和使命宣言是一件很有趣的事情。但有时，它可能会非常昂贵，会让你举步维艰。这就是为什么我们称之为“难即是易”原则。</p>
+<p>有一天，一名初级工程师（不是什么高级管理人员）走进了 CEO Matthew Prince 的办公室，他说：“老板，我们的使命宣言是不是‘创造一个更好的互联网’？”</p>
+<p>“嗯哼。”当你是一名 CEO，任何以这句话开头的谈话，通常意味着你要增加额外的工作量。所以你心里想：“这次又是什么事？”</p>
+<p>那名工程师说：“你在董事会上说，我们收入的第一大驱动力（促使人们从免费计划升级到高级计划的原因）是网络加密服务（SSL加密）。你说这很合理，因为 SSL 加密的成本很高，我们不能免费提供它，我们需要购买证书、进行加密计算，消耗计算资源。”</p>
+<p>“所以呢？”</p>
+<p>“老板，一个‘更好的互联网’不应该是一个加密的互联网吗？”</p>
+<p>Matthew 说：“是的。那你的重点是什么？”</p>
+<p>“但如果是更好的，为什么我们不免费提供呢？”</p>
+<p>如果你曾经在公司里当过中层管理人员，你就知道这种感觉。你每天坐在办公室里想：“天哪。”每天都有人走进你的办公室说：“老板，为了一个崇高的理由，让我们免费送出我们的核心产品吧！”作为中层管理者的职责就是回答：“不，我们有战略，回到战略上去。”然后说：“嘿，谢谢你的参与和反馈，但我们要干活了。”</p>
+<p>所以，每个人都期待 Matthew 会做出那样的反应。毕竟，这是常理：“这是我们最赚钱的产品，你却说我们应该免费送，赶紧走开吧！”</p>
+<p>不。Matthew 曾经告诉我：“一旦我看到了这一点，我就无法忽视它。” 他说出了三个关键词：“<strong>搞定它（Let's figure it out）。</strong>”</p>
+<p>这就是我认为非常强大的领导原则——“搞定它”原则。如果你致力于某件事（比如你代表了对质量的坚持），那这确实会让生活变得更难。但我钦佩的优秀领导者，他们陶醉于这种困难，因为每一次遇到这种不可能的两难境地，都是一次向团队传授“你真正坚持什么”的机会。</p>
+<p>所以，Matthew 坚持让整个团队团结起来，找出如何免费提供加密服务的方法。当然，他不能只是直接免费送，他强调说：“让公司破产并不能实现使命。我们必须找到一种使其可持续发展的方法。”</p>
+<p>我不赘述所有的技术细节，总之他们不得不手写汇编语言软件，与证书颁发机构进行复杂的业务交易，最终他们成功地把自己的成本降了下来。</p>
+<p>请注意，在这个过程中的任何时候，首先，他们都可以把“困难”作为借口：“哦，这太难了，我们做不到，放弃吧。”其次，一旦他们把成本降下来了，他们本可以心想：“等一下，现在这些都是纯利润了啊！成本变低了，我们就可以赚更多免费的钱。”</p>
+<p>当他们终于发布这项免费功能时，他们必须向董事会报告发生了什么：他们的高级付费产品的转化率下降了。所以，他们当时完全可以轻易地放弃，但他们没有。他们坚持了下来，因为“这就是我们的立场/使命”。</p>
+<p>当然，这是一个结局美好的故事。此举让他们漏斗顶端的流量呈数量级增长。事实上，直到今天，人们仍然在谈论 Cloudflare 是我们理所当然地拥有一个加密互联网的原因。他们所赢得的信任，是他们如今成为一家 700 亿美元公司的原因。</p>
+<p>但大多数领导者在被要求捍卫自己的原则时都做不到，因为他们被灌输的是“基于投资回报率（ROI）”的思维，被灌输了“股东至上”，他们被告知这才是实现利润最大化的途径。</p>
+<h3>Groupon的电子邮件频率死亡螺旋</h3>
+<p><strong>Eric:</strong>
+我给大家提供一个简单的对比。Groupon 的创始人 Andrew Mason 曾给我讲过这个故事。大家还记得 Groupon（团购鼻祖）吗？也许现在它有点淡出公众视野了，但在过去，Groupon 是美国增长最快的非上市公司之一。它的成功是由每天一封包含超值优惠的电子邮件驱动的。他们的核心模式就是：你每天只收到一封来自 Groupon 的邮件。他们就是靠“每天一封邮件”上市的，就这么成功。</p>
+<p>他给我讲，有一天，他的高管和员工开始走进他的办公室。他们会说：“老板，我们现在是上市公司了，我们需要实现季度目标，需要赚更多的钱。也许我们可以一天发两封邮件？”</p>
+<p>Andrew 说：“不。每天一封邮件是我们的灵魂。”</p>
+<p>但他说，随着时间的推移，团队不断地消磨他的意志。他们不断地使用一些听起来很像“精益创业”的语言：“我们难道不该做个实验吗？我们难道不该看看数据吗？ROI 怎么样？”</p>
+<p>最后他妥协了：“好吧，好吧，我们跑个实验。”</p>
+<p>他运行了实验，发现每天发两封邮件确实能赚更多的钱。所以他无法说“不”，一切看起来都很好。几个月后，又有人走进他的办公室说：“老板，既然两封比一封好，你应该发三封邮件。”</p>
+<p>接下来的事情你们都知道了，他们一天发八封邮件。这不仅发生在 Groupon，我听过太多 CEO 告诉我这个关于电子邮件频率的相似故事。不知为何，电子邮件频率就像是前沿阵地——在这个问题上我们根本找不到任何理由去捍卫“做正确的事”，所以我们就去做了错误的事（滥发邮件）。在短期内，他们赚了一大笔钱，但最终这摧毁了整个公司的用户体验。</p>
+<p>所以，如果你能坚持“难即是易”的原则，这就是防止公司失去那些让其与众不同的特质的第一道防线。</p>
+<p><strong>Lenny:</strong>
+Eric，你真是一个出色的讲故事的人，我坐在这里听得完全入迷了。</p>
+<p><strong>Eric:</strong>
+谢谢你。</p>
+<h3>如何定义你的目标（Purpose）</h3>
+<p><strong>Lenny:</strong>
+我想谈谈具体该怎么操作。我们要不要写一份使命宣言？价值观是这其中的一部分吗？跟我们说说要点吧。</p>
+<p><strong>Eric:</strong>
+重申一遍，写下宣言本身并没有价值。宣言不是它的本质。这就是为什么我更愿意使用一个老派的词“精神气质（Ethos）”。</p>
+<p>我试图在写整本书时，不使用任何时髦的咨询行业行话。所以我尽量不使用“利益相关者（stakeholder）”这个词，尽量不使用“文化（culture）”这个词。我试图真正回归老派的风格。与其谈论利益相关者、使命宣言和价值观，我想知道的是：<strong>你的信义义务对象（fiduciaries）是谁？</strong> 这是一个真正的老派词汇。</p>
+<p>但对我来说，每一位领导者必须回答的问题，每一个产品都必须回答的问题是：
+<strong>它的目的是什么（What is its purpose）？</strong>
+<strong>你宁愿死，也不愿意背叛谁（Who would you rather die than betray）？</strong></p>
+<p>如果你告诉我“我想要一个高质量的产品”，那就是我宁死也不愿粗制滥造出货的东西。想想史蒂夫·乔布斯是怎么做的，他是一个会因为电脑内部线路的布局跟人吵架的人，即使他根本不打算让客户打开电脑看到里面。这就是典型的“难即是易”。这必须成为一种刻在骨子里的方式。如果你了解 Patagonia（巴塔哥尼亚）创始人 Yvon Chouinard 的故事，他今天因为环保行动主义而闻名，但他最初是一个“质量狂热者”。他认为质量是一个客观函数，每一种产品都有其应得的质量水平。大多数人觉得这很疯狂，但这正是 Patagonia 如此成功的原因。</p>
+<p>所以，无论那个目的（Purpose）是什么，我们必须找到将它编码到我们的管理系统中的方法，以至于<strong>我们没有任何途径可以通过背叛这一原则来赚钱。</strong> 这既需要在操作/运营层面发生，也需要在治理层面发生。两者都非常重要。</p>
+<p>当人们听到这里时，我知道有些人会说：“目的？这又是某种 ESG（环境、社会和公司治理）的废话吗？”</p>
+<p>书里有一个非常有趣的引用。前几年，食品巨头联合利华（Unilever）经历了一个阶段，他们要将“目标/意义（Purpose）”注入到所有的产品中。一位华尔街投资者受够了这种做法，给他们写了一封刻薄的信，信里说：“当我们连好乐门（Hellmann's）蛋黄酱的‘崇高目的’都要辩论的时候，我认为你们已经迷失了方向。”</p>
+<p>我喜欢这句话，因为它很有趣，但在我看来，它之所以有趣是因为：好乐门蛋黄酱虽然卑微，但它是食物。它的“目的”非常明确：让人吃得安全健康。</p>
+<p>你以为好乐门蛋黄酱的产品经理怎么看待他们的“目的”无关紧要吗？回到我们 Vital Farms 鸡蛋的问题，试想一下，当一个效率咨询师出现并说：“如果你让这东西含有致癌物，我们可以在材料清单上省下 3 美分。”如果你没有底线，你可能会问：“那这不会反咬我们一口吗？”咨询师回答：“肯定会，但在你的股票期权兑现很久之后老兄。你操什么心呢？”</p>
+<p>如果产品经理认为他们的目的是“质量”，这很重要；如果他们认为自己的目的是“榨取和利用”，那后果很严重。如果你又觉得我在夸大其词：强生公司（J&#x26;J）的产品经理曾在婴儿爽身粉中加入石棉并掩盖真相。因为尽管他们嘴上说他们的使命是“患者健康”，但他们真正的使命已经变成了增长、优化和季度目标。</p>
+<p>所以，这是第一个也是最重要的步骤：弄清楚我们的“目的”是什么？我们宁死也不愿背叛谁？你得把它写下来。你可以像 Costco 创始人 Saul Price 那样说：“客户第一，员工第二，股东排最后。”或者像伟大的彼得·德鲁克说的（他认为上述顺序反了），“应该是员工第一，客户第二，股东最后。”我不在乎。你来告诉我你相信什么，你得把它写下来。</p>
+<p>然后我们必须做一件我称之为 <strong>“使命驱动（Mission drive）”</strong> 的事。声称自己使命驱动的公司中，大多数只是“伪使命驱动（Mission hopeful）”。那只是在一个榨取式引擎外面裹上的一层糖衣。我不买账。</p>
+<p><strong>如果你对成为一家“使命驱动”的公司是认真的，你必须向我证明，除了实现使命之外，你无法通过其他方式获利。</strong></p>
+<p>这就是我们必须进行的审计。我们必须审视：如果公司里有人受到诱惑去偷工减料、去降低性能、去削减最容易被削减的东西（如安全、性能、质量、设计，创新排在第五）。这些就像煤矿里的金丝雀（灾难预警），因为背叛信任的核心在于“即使我背叛了你，你甚至都不会注意到”。</p>
+<p>我们要问：在我们团队里（哪怕只是一个5人团队），有没有任何人的奖金目标、OKR 体系，可以通过背叛我们的原则来获利？如果有，那就是系统漏洞。利用 AI 和自动化测试，我们现在有很多新的审计和预防能力，但我们必须选择使用这些工具。</p>
+<p><strong>Lenny:</strong>
+为了确保大家听清楚。所以首先是写下你的“目的（Purpose）”，无论它是什么。我想应该就是一句话？</p>
+<p><strong>Eric:</strong>
+是的，那太好了。比如“创造一个更好的互联网”就是一个非常棒的“目的”。我在书中讲了 Devoted Health（一家健康保险公司）的故事，他们对员工的指示是：“像对待你自己的父母一样对待每一位客户。”</p>
+<p><strong>Lenny:</strong>
+我听过这个，简单清晰易懂。</p>
+<h3>使命驱动 vs. 伪使命驱动</h3>
+<p><strong>Lenny:</strong>
+好的。第一步写下你的目标。那么如何将其制度化？是通过结构化的方式，还是仅仅是仔细检查正在发生的一切？</p>
+<p><strong>Eric:</strong>
+我在书里有更正式的讨论，但基本上我会说：这是去识别你的“信义承诺（Fiduciary commitments）”：你承诺要对哪些人做好事？你想为这些人设定的指标或目标是什么？然后，用什么问责系统来确保：兑现这些承诺，对你来说和赚钱一样重要。</p>
+<p><strong>Lenny:</strong>
+就像是为你刚才说的那些利益相关者（虽然你不想叫他们利益相关者）设定 OKR。</p>
+<p><strong>Eric:</strong>
+完全正确，就像是为他们设定的 OKR。人们总是说：“你在试图把你的价值观强加给我。”不是的。是你来告诉我你在乎什么，然后你来告诉我，你如何衡量你声称在乎的事情。</p>
+<p>在书中，我有一节叫做“‘不作恶’ vs. ‘季度财报’”。我研究了那些在谷歌工作了很久的员工离开谷歌时写的博客文章。这成了一种文学体裁。那里有 50 篇这样的文章，都在书里链接了。它们都是令人难以置信的文献，它们都带有一种非常怀旧和悲伤的基调。</p>
+<p>事先声明，谷歌是一家伟大的公司。我不是说谷歌坏，但谷歌曾经有过一种“不作恶（Don't be evil）”的精神气质，后来它有点丢失了。它从网站上被拿掉了，然后出现在员工手册里。现在，它甚至不在员工手册里了。事实上，谷歌因为打破了“不作恶”的承诺而被起诉过两次，而且两次都不得不和解。谷歌的处境就是这么令人悲伤。</p>
+<p>我记得我和其中一位前谷歌员工交谈过，他在那里待了大概 13 年。他说：“既然我们有这么好的初衷，为什么还会失去它？我曾经很想相信管理层，我觉得他们本意是好的。”</p>
+<p>我问了他一个假设性的问题：“谷歌按时提交下一份季度财报的概率是多少？”
+他说：“Eric，这是个愚蠢的问题。显然他们会按时提交。”
+我说：“不，给个具体的概率数字。”
+他说：“字面意义上的 100.0%。就像太阳明天会升起一样确定。”</p>
+<p>我说：“很好。现在告诉我，谷歌可能会意外致人死亡并掩盖真相的概率是多少？”
+他说：“拜托老兄，他们可能不会这么做的，这么说不公平。”
+我追问：“给个数字。是 100% 不会吗？”
+他说：“嗯……大概 90%，95% 吧。”你可以看出他已经开始能想象这种情况是如何发生的了。他说：“如果是自动驾驶汽车撞了人呢？”</p>
+<p>我说：“等等，这怎么可能？关于季度财报，我们有 100% 的确定性。而关于杀人并掩盖真相，我们居然觉得‘大概95%不会吧’。我们的本质终究是人，居然在财报这件事上无比确定，而在杀人掩盖这件事上不确定？这到底是怎么回事？”</p>
+<p><strong>谷歌会按时报告其季度财报，是因为有一个庞大的、令人难以置信的昂贵机构，每天在确保这每次都会发生，绝无例外。</strong> 而“不作恶”只是一句口号。</p>
+<p>所以，如果有人告诉你“我对某件事是认真的”。太好了。现在，<strong>给我看看你的机器/架构！给我看看你为确保这件事每次都发生所做出的承诺安排！</strong> 如果你没有这样一个机制，那么无论他们的意图多么好，他们都在骗你。</p>
+<h3>结构完整性（Integrity）与个人诚信</h3>
+<p><strong>Lenny:</strong>
+这可能是进入第二个话题的一个好过渡。刚才说的部分是“精神气质（Ethos）”——价值观、目标、使命。接下来我们谈谈“结构完整性（Integrity）”。</p>
+<p><strong>Eric:</strong>
+为什么我使用 Integrity 这个词？在普通人的日常语言中（而不是顾问的套话中），Integrity 有两层含义。</p>
+<p>第一层是指个人的“诚信/正直”。比如，Lenny 是一个非常有 Integrity 的人，如果你说下午 2 点在哪里见我，我知道你肯定会在那里。而且更重要的是，如果你不确定，你绝对不会说“我们2点见”，你只会说“我尽量”。诚信的人知道，说实话需要做出真正的承诺。</p>
+<p>但我们也有一个词叫做“结构完整性（Structural integrity）”。我之前说过生锈螺栓和不锈钢的区别。<strong>在一个组织中，这两层含义合二为一。</strong> 一个结构薄弱的组织无法信守诺言，因为当初做出承诺的那个人可能早就不在那个位置上了。想象一下，你得到了 Vectura 创始人的承诺，他们永远不会向儿童出售香烟。哎呀对不起，他们被卖了，承诺无效了。这不是 Integrity。</p>
+<p>对于一个组织来说，“结构完整性”的目标是赋予它权力，去抵抗来自内部的诱惑，抵抗董事会层面的背叛，抵抗来自外部的压力。如前所述，Costco 非常著名地拥有一个“治理堡垒（Governance fortress）”，保护它免受外界华尔街的压力。华尔街经常攻击 Costco。我在书中引用了一句关于华尔街分析师痛批 Costco 的搞笑引言：“Costco 拿了理应属于股东的钱，反而将其投资于改善客户体验！”这竟然是一句针对它的严肃批评！</p>
+<p>那他们为什么能抵挡住呢？因为他们手头有反击的法律工具。他们的董事会认为，自己的责任是作为抵御这种压力的“堡垒”，而不是作为顺从“金融引力”的放大器。</p>
+<p>这听起来可能非常抽象和具有挑战性。现在我们谈论的是董事会层面的事情、IPO，很多人觉得“我没有那个权力”。没关系，我们可以从非常简单的事情开始。</p>
+<p>我之前提到过，大多数创始人从未读过自己公司的公司章程（Corporate Charter）。如果你是一个创始人，公司正在运营，但你从未读过自己的章程，这是你的家庭作业，你必须去读！这太普遍了，以至于 HBO 的电视剧《硅谷》里拿这个开了个玩笑：一位投资者痛斥创始人：“你甚至不知道你自己的 XX 公司是怎么运作的！”结果创始人因此失去了控制权。这在现实中真的会发生。</p>
+<p>但如果你真的去读了你的章程，你可能会比现在更困惑。因为你会读到这样一句话：“Acme Corporation（你的公司）特此注册成立，<strong>以从事任何合法的行为或活动（To pursue any lawful act or activity）。</strong>”</p>
+<p>你读了之后可能会觉得：“这听起来很开放、很自由啊。”
+错了。它听起来开放，但事实并非如此。</p>
+<h3>拥有 40 年历史的“自然法则”：股东至上主义</h3>
+<p><strong>Eric:</strong>
+不幸的是，我们生活在一个被称为 <strong>“股东至上（Shareholder primacy）”</strong> 的时代。这意味着，根据这个理论（也就是我们现在所遵循的主流法律理论），一个组织不是一个充满活力的生命体；相反，它是一个且仅是一个“旨在充实股东财富的金融工具”，仅此而已。</p>
+<p>因此，在这套法律体系下，“从事任何合法的行为或活动”的实际潜台词是：“在法律允许的范围内最大化股东回报”。</p>
+<p>我们这一代人都是在这种理念下长大的，把它当成了“自然法则”，认为资本主义一直都是这样。但这是错误的。在数百年的股份制公司历史中，只有在过去的 40 年里（1980年代起），我们才有了这种极端的“股东至上”理念。在 80 年代之前，我们的祖父母、曾祖父母、亚当·斯密都认为这是显而易见的理所当然——公司是为了追求某种具体的东西、在法律上所谓的“有益目的（Beneficial purpose）”而存在的。</p>
+<p>在 19 世纪，如果你想成立一家公司，你必须向州立法机关发表声明，说明你想做的这件事会对公众有益。你申请说：“我想修一条铁路。”政府会问：“为什么？”你必须回答：“在这两个地方之间修建运河/铁路将对公众有益。”</p>
+<p>为了让你感受一下现在的“最佳实践”与历史常态有多么不同：假设在 19 世纪，你是美国最富有的人，你对一家公司说：“我想买下这家公司，并改变它的业务用途，因为我有钱。”
+首先，公司董事会被合法授权与你抗争到底。他们不必答应。如果他们被强制收购，那可是传奇般的商业战争。
+第二点更有意思，假设你还是成功了，你接管了公司并宣布：“我将把它的目的从‘修铁路’改变为‘最大化股东价值’。” <strong>在当时，这将构成犯罪。法院会撤销你的公司章程。你会因为“超越了公司的授权”而被判处企业死刑。</strong></p>
+<p>所以，“股东至上”是一个非常新的想法。我们认为它是自然的，但实际上它非常新。这就是最终让 Vectura（被烟草公司收购的医药公司）等公司走向毁灭的原因。</p>
+<p>好消息是，在 2026 年（注：这里指当下的年代），一群公司治理的反叛者已经花过去的 15 到 20 年在对抗这种体制，并构建了你可以使用的替代结构。其中之一叫做 <strong>“公共利益公司（Public Benefit Corporation，简称 PBC）”</strong>。</p>
+<h3>公共利益公司（PBC）：最简单的保护伞</h3>
+<p><strong>Eric:</strong>
+外界对这个词有很多混淆，因为人们在农贸市场的有机商品上看到过一个带圆圈的字母“B”（B Corp，共益企业认证）。它不是那个。这有点混乱，因为发明那个认证的人也发明了这个法律结构，而且字母“B”都在两者中。但我要告诉你，<strong>注册成为“公共利益公司（PBC）”是我在这个播客中告诉你的最简单的一件事。</strong> 没有比这更容易的了。</p>
+<p>它只是一份两页纸的法律文件，你的律师明天就可以帮你在特拉华州提交。你只需在文件里声明：“这家公司的目的不仅仅是从事任何合法的行为或活动。相反，这是一家旨在通过创建安全负责任的 AI 系统来促进人类繁荣福祉的公司。”或者“我们通过创造高质量的产品并销售它们来促进人类繁荣”。无论你做什么，写下来就行。没有比这更容易的了。</p>
+<p>现今许多最优秀的公司都在使用这种结构。所有的主要 AI 实验室都是作为 PBC 注册的。其中最著名的当属 Anthropic。</p>
+<p>仅仅写下来并不能保证你就是好人，它作用有限。但它确实解决了一个非常具体的问题：<strong>如果有一天有投资者起诉你，说你没有为了“利益最大化”而把公司卖掉，违反了对投资者的信义义务。你可以理直气壮地说：“不，当初投资者同意了我们的‘目的’是做这件对公众有益的事情。”</strong></p>
+<p>为什么 Anthropic 能够抵御所有这些华尔街资本的压力？PBC 就是保护 Anthropic 免受外部压力的“护甲”中几个互锁组件之一。如果你连这个都不做，我就帮不了你了。这是起码的底线。</p>
+<p>如果你不是创始人，你可能会想：我们在我现在的公司里做过这个吗？
+这听起来可能很傻，但你直接问就行。即使你是在参加工作面试。</p>
+<p>有一次有个人来找我寻求建议。他想倡导这些理念，但他坦白说：“我需要一份工作，我现在还处于失业状态。在给你提建议之前，你需要知道我不勇敢，我不敢做任何冒险的事，我也不是什么社会活动家。我只是想要一份工作。但我愿意做一点点事。”</p>
+<p>我感觉他是在让我教他做一道“不需要面粉的饼干”，在要求“不承担风险”的前提下能做什么？</p>
+<p>我说：“好的，你可以做这件事。无论是在工作面试中，还是直接问你的老板。面试结束时，他们通常会问：‘你还有什么问题吗？’ 你可以问：<strong>‘这是一家使命驱动（Mission-driven）的公司吗？’</strong>”</p>
+<p>他们肯定会说：“是的！”
+“好的，你怎么证明？我们做了什么事情体现了使命驱动？”
+他们可能会说：“哦，我们周五有免费啤酒，我们周六会去清理当地的公园。”（不管他们说什么，你只管点头说：“太好了。”）
+然后你接着问：<strong>“酷，但那是公司法律层面的‘使命’吗？这也写进特拉华州的公司章程（Charter）里了吗？”</strong></p>
+<p>被你问到的那个人几乎肯定不知道答案。但这是一个非常合理的问题，因为如果你在一家没有将使命写进章程的公司工作，你最终会被背叛（如果公司被收购拆解，员工往往最先倒霉）。你有权知道。</p>
+<p>更重要的是，仅仅通过提出这个问题，你就迫使他们去寻找答案。在一个管理良好的公司里，有专人负责确保候选人可能问的每一个问题都能找到答案。所以她不得不去问她的老板，她的老板再去问老板。我曾在董事会上看到过这种事：“我们最近总是被候选人问到一个非常恼人的问题，我们不知道怎么回答。”</p>
+<p>也许，这位正在听 Lenny 播客的 CEO 早就想实施 PBC 架构了，但他一直犹豫：“我不知道我是否得到了董事会的支持，我不太敢提出来。”而现在，作为员工的你，在面试中给了他一个借口：“啊，我们必须这么做，因为大家都这么做，连员工都开始问了！”如果你读过 AI 大战中发生的一些疯狂事件的事后复盘，你会发现，领导层动机中一个令人惊讶的巨大比例是：“我们需要让我们的员工保持开心”。</p>
+<p>所以，做那个“想要知道我们真实的法律使命是什么”的员工吧。这只是第一步，也是在“结构完整性”方面最简单的一步。一家没有做到这一点的公司，非常容易在未来面临被迫违背初衷的风险。</p>
+<h3>“弊端”与反对意见</h3>
+<p><strong>Lenny:</strong>
+提交这个（PBC）章程有任何弊端吗？</p>
+<p><strong>Eric:</strong>
+没有。这是唯一一件完全不需要妥协的事情。也许你会遇到一个对它持怀疑态度或不喜欢的投资者。但再次强调，这种情况唯一变得相关的时刻，是该投资者试图强迫你出售公司而你不想卖的时候。所以你可以直接问他们：“你的意思是，在那种情况发生时，你认为应该由你来决定而不是我？”然后你就可以问自己：一个对这个问题回答“是”的人，真的是适合你的合作伙伴吗？</p>
+<p>他们嘴上都说着“我是‘创始人友好（founder-friendly）’的，我相信你的愿景”。真的吗？</p>
+<p>唯一的缺点在于，书中几乎所有的保护技术，都有一个共同的“缺点”——人们会浪费你的时间试图说服你放弃实施它们。你要做好心理准备。书中有一整节专门讲“如何与你的投资者交谈”，还有一整节讲“如何与你的律师交谈”。详细说明了该说什么、你可能会遇到什么问题。我把多年来听到的所有反对意见都写了下来并给出了应对方法。</p>
+<p>如果你和律师谈，他们会说：“你可能想保留你的选择权。你不想过早地致力于你的‘目的’。”
+如果我听到这个，我会说：“真的吗？保留我的选择权？保留那种把我的客户变成毫无价值的数据榨干，甚至把他们杀掉卖肉的‘选择权’？我不想要这种选择权！”</p>
+<p>律师们会说：“你永远不知道你未来可能需要做什么。”
+然后我们又会抱怨：“为什么没有人信任我？”
+废话！因为你连那种极端无底线的作恶选项都不愿意从桌面上拿掉！你都不敢做承诺，谁会信任你？所以，这个操作完全没有坏处，绝对是不假思索就该做的事。</p>
+<p><strong>Lenny:</strong>
+这听起来是一个非常棒的核心启示。如果听众从这次谈话中只能带走一件事，那就是去做这件事。</p>
+<h3>Anthropic 案例：史上增长最快的公司</h3>
+<p><strong>Lenny:</strong>
+Anthropic 实施了这一架构（PBC），这是一件极具意义的大事。因为人们对这一切的普遍批评往往是：“这会限制我们的增长，损害我们的潜力。这就变成了一种‘情感大于理智’的软弱企业。资本主义在创造成功企业、价值和创新方面是行之有效的，我们为什么要弄这些条条框框？”</p>
+<p>而 Anthropic，作为有史以来增长最快的公司，不仅打破了所有商业记录，而且它正是一家<strong>公共利益公司（PBC）</strong>，这应该能让创始人们对实施这一架构感到放心。</p>
+<p><strong>Eric:</strong>
+哦，是的。Anthropic 帮了很大的忙，因为他们实施了书中的许多做法，包括我们提到的“长期利益信托（Long-Term Benefit Trust）”和双层治理结构。但有趣的是，即使 Anthropic 取得了如此大的成功，人们仍然会说：“我担心我实施了之后会融不到资。”</p>
+<p>我说：“Anthropic 融到的资还少吗？”这根本不是障碍！</p>
+<p>事实上，如果你问人们“为什么 Anthropic 会赢？”，他们通常会列举一些表面特征：比如，Anthropic 的推理成本比竞争对手低；他们的产品迭代速度比竞争对手快；他们比竞争对手更专注。</p>
+<p>对于每一个理由，如果你追问“为什么？”
+——“哦，他们有更好的技术基础设施。”为什么？
+——“因为他们在内部取得了一些技术突破。”为什么？
+如果你一直问下去，最终的答案一定是：“因为他们拥有最顶尖的人才。”</p>
+<p>为什么他们有最好的人才？
+——“因为人们想在那里工作。”
+为什么人们想去那里？
+——“因为人们想为‘好人’工作。他们认为这些人肩负着拯救世界的使命。”</p>
+<p>为什么他们有这个使命？
+——“因为这是他们的精神气质（Ethos）。”
+那为什么他们能保护这种精神气质不被商业资本腐蚀？
+——<strong>因为他们将“精神气质”与“结构完整性（Integrity）”结合在了一起。</strong></p>
+<p>这几乎是你听过的每一个突破性成功故事的核心，你都会发现这种深层的价值观与架构对齐，这是赋予他们竞争优势、驱动产品差异化的根源。</p>
+<p><strong>Lenny:</strong>
+你说得太对了。我刚刚在播客上采访了 Claude Code 的产品负责人 Cat，我问她：“你们怎么能发布得这么快？”他们现在基本上每周甚至每天都在发布庞大的产品或功能。她回答中很大一部分正是你所描述的：“<strong>我们在使命上高度一致（Mission aligned）</strong>。这让我们非常容易决定某件事我们要不要做。”</p>
+<h3>组织中的“火炬手”</h3>
+<p><strong>Eric:</strong>
+这就是关键所在。记得我们之前谈到人们说“做生意很难”吗？那是<strong>因为大多数人从未在一家‘使命高度一致’的公司工作过。</strong> 这种状态，就相当于一个组织进入了“心流（Flow state）”。</p>
+<p>这是一种很棒的感觉，它让一切都变得更容易。比如你不需要为各种鸡毛蒜皮的事情开会。你不会有使命错位。</p>
+<p>在大多数传统的组织中，会有一种人，我称他们为**“火炬手（Torchbearers）”**。他们是组织中罕见的、无论如何都只致力于“做正确的事”的人。史蒂夫·乔布斯非常出名的一点是，他喜欢举行越级会议。他不想只和他的直接下属见面，他不在乎那些。他想会见整个组织中的“火炬手”。这些人才是推动我们前进的人。</p>
+<p>如果你是一个火炬手，想象一下那些无论如何也不会发布垃圾内容的设计师；那些绝不牺牲质量或性能的工程师；那些即使有人抱怨，也始终优先考虑正确事情的产品经理。</p>
+<p>如果你曾在一家传统公司担任过这样的职位，老兄，你的生活肯定糟透了！每天都有人拿着电子表格跑进你的办公室问：“但是‘做正确的事’的投资回报率（ROI）是多少？”你只能无奈地说：“我不知道，它就是正确的事啊！”</p>
+<p>在一家使命高度一致的公司里，这种情况不会发生。有两种“抗体”可以抵御这种现象。
+首先，因为每个人在使命上是一致的，<strong>所以根本没必要去制作那个用 ROI 来算计的电子表格</strong>。已故的伟大管理学家克莱顿·克里斯坦森（Clay Christensen）曾说过：“100% 的时间做正确的事，比 98% 的时间做正确的事要容易得多。” 因为你现在不需要为那 2% 的妥协去开会辩论了。如果有人提出一个不安全但能多赚一块钱的点子，我们甚至都不需要开会讨论，我直接就能告诉你“我们不会做的”。</p>
+<p>但我认为被低估的第二点是，我称之为 <strong>“文化银行（Culture bank）”</strong> 的实践。</p>
+<h3>文化银行：存款与取款</h3>
+<p><strong>Eric:</strong>
+当你开始将“值得信赖（Trustworthiness）”视为一种资产时，你会意识到：某些行为会建立这种资产，而其他行为会消耗它。</p>
+<p>我从一位我最喜欢的创始人 Todd Park（Devoted Health 创始人）那里学到了一个规则。他则是从建立星巴克的霍华德·舒尔茨（Howard Schultz）那里学来的。</p>
+<p>在那些有着强大文化的企业里，你总能看到这样的模式：<strong>如果你做了一件捍卫公司价值观的事情，并且这件事伴随着“自我牺牲”，那就是在向“文化银行”里存款。</strong> （光靠嘴上说唱高调是不算数的。）</p>
+<p>书中我讲过得克萨斯州一家名为 HEB 的杂货店的故事。那年发生了一场冰雪风暴，大面积停电。商店经理让所有的顾客免费把装满购物车的杂货拿回家，因为收银系统坏了。人们会说：“哇，多勇敢的经理啊。”不，那是 HEB 对员工的培训：当你在做正确的事情（哪怕牺牲短期利润）时，你是在向“文化银行”存款。所以存款意味着你做出了牺牲。</p>
+<p>“取款（Withdrawals）”则恰恰相反。你为了组织的短期利益，做了一些贪婪、自私的事情。</p>
+<p>“Todd Park 规则”非常简单（虽然很多人第一次听到时觉得这是不可能的）：
+<strong>“只存款，永远不取款（Only make deposits. Never make withdrawals）。”</strong></p>
+<p>就这么简单。因为你总会犯错，所以难免会有“意外取款”的时候，但你<strong>绝不能“故意取款”</strong>。这就是真正的力量所在。当你听到有人（像你刚才提到的 Cat 以及 Anthropic 团队）处于那种“组织心流”中时，意味着这种原则已经被内化到了组织中。这就是管理学先驱 Mary Parker Follett 所说的“无形领导者（The invisible leader）”。</p>
+<p>这意味着，即使没有经理在场监督，人们也会自发地去做，因为大家已经内化了“这就是我们的目标”。当周围的每个人都在做同样的事情时，整个组织的速度就会呈指数级增长。</p>
+<p><strong>Lenny:</strong>
+我想听听 OpenAI 和 Anthropic 之间的故事，因为你提到“结构性完整”的一部分是采用这种“非营利/PBC”架构。所以，谈谈那里发生的事情，以及你对此的看法。我还想听听关于实际组织结构的细节，比如这个双层治理结构是什么？非营利部分具体是怎么运作的？</p>
+<h3>OpenAI 和 Anthropic 的治理架构</h3>
+<p><strong>Eric:</strong>
+OpenAI 并不是一个特别好的学习案例，因为它的故事太离奇了。它涉及到像埃隆·马斯克（Elon Musk）和萨姆·奥特曼（Sam Altman）这样的超级大人物在进行“生死决斗”。这太复杂了，如果我们有时间可以深入探讨。但我在这里扮演了一个非常奇特、甚至可以说是无足轻重的角色，Anthropic 的成功我不居功，所有的荣誉都归于 Dario、Daniela 和整个团队。</p>
+<p>那是 OpenAI 经历的倒数第二或第三次危机时的事情。他们（Dario 等人）离开了 OpenAI，想创立 Anthropic。今天人们会说：“哦，这架构对 Anthropic 当然管用，他们现在是一家世界级的公司。”但当时，Dario 只是个初次创业的创始人（Technical founder）。我当时在场，他在技术上令人印象深刻，但就像所有第一次当技术创始人的人一样生涩。支持他的投资者都是一些“有效利他主义（Effective Altruism）”的信徒，而不是最顶级的风投基金。在那个时候，没有哪家顶级风投想参与那一轮融资。</p>
+<p>那时的 Anthropic 根本不是现在的超级明星。生成式 AI 热潮还没开始，ChatGPT 还没发明出来，我们现在经历的这场“群体狂热”也尚未发生。尽管如此，他们是“AI 安全使命”的坚定信仰者。</p>
+<p>于是，他们的一位投资者建议他们来找我聊聊。在很多人眼里，我像是一个专门收集古怪治理理念的“怪人”（就像别人收集蝴蝶标本一样）。当他们来找我时，我给他们讲了今天讲给你的这个“恐怖故事”。我告诉他们：“听着，如果你们不把架构搞好，后果将会是如此这般。”他们非常有决心要解决这个问题。</p>
+<p>所以我们讨论了该怎么做。我给了一点点建议。他们在公司章程里写明了他们将要这样做。从一开始他们就是一家 PBC（公共利益公司），并且他们在章程里写下了他们有权实施这些额外的改革。我们要把功劳归于他们，他们认真对待了这件事，说服了投资者。这其实并不容易，因为直到 C 轮融资，他们才真正实施了所谓的“长期利益信托（Long-Term Benefit Trust, LTBT）”，为此他们捍卫了这个设计长达两年。但他们在从成立起的所有法律文件中，都保留了实施该设计的权利和意图。这是一个非常重要的选择。</p>
+<p>直到今天，Anthropic 营利性董事会中的部分董事，仍然是由一个外部的“受托人（Trustees）”团体任命的，并且对他们负责。这个团体由 AI 安全专家组成，且<strong>他们在 Anthropic 中没有股权</strong>。这意味着他们对 Anthropic 的财务增长没有经济利益动机，他们的动机是确保公司走在正确的轨道上。</p>
+<p>所以，每当你看到 Anthropic 做出正确的事情（比如拒绝发布某个他们认为太危险的模型）时，想一想这让他们付出了多少代价！人们会说：“哦，他们这么做是为了公关噱头。”公关当然好，但你知道什么更好吗？就是拥有一个排名第一、所有人都必须付钱使用的模型！那才是真金白银。</p>
+<p>人们还说他们和五角大楼起了冲突。澄清一下，我认为他们甚至不是那个故事里的主要演员。那是一个关于政府过度干预的故事，Anthropic 被置于一个不可能的境地。即便是那些认为他们做错了的人，在战术上也会钦佩他们，因为<strong>我们生活在一个公司极少会拒绝金钱的时代。在这里，他们拒绝了一份 2 亿美元的合同，并承受了世界上最大军队和政府的愤怒。</strong> 这需要极大的勇气。</p>
+<p>部分勇气来源于这样一个事实：他们有这样的结构，投资者不能在关键时刻随意罢免 Dario。我认为这种结构实际上比传统的“创始人独裁控制（Founder control）”更好。Dario 并没有像马克·扎克伯格、拉里或谢尔盖那样拥有双层股权结构下的超级投票权。Anthropic 的结构本质上更加“制度化”。</p>
+<p>要回答你的问题：如果我们想要真正抵御外部压力，我们需要一个我称之为**“使命守护者（Mission guardian）”**的角色。必须有某个人或某个实体的工作，就是确保这艘船保持任务锁定或任务对齐。因为金融引力如此强大，这绝对不会偶然发生。</p>
+<h3>使命守护者详解</h3>
+<p><strong>Eric:</strong>
+Anthropic 解决这个问题的方案，是通过“长期利益信托（LTBT）”的形式设立使命守护者。OpenAI 非常著名地拥有非营利基金会（尽管他们现在正在转变为公共利益公司结构）。显然，谷歌和 Facebook 受到的是创始人控制的保护，创始人就是使命守护者。这些都是我们看到的结构。</p>
+<p>我在书里讲了一个我经历过的非常奇怪的故事。我当时在梵蒂冈（对，你没听错），你看我这样子，去梵蒂冈干嘛？梵蒂冈召开了一次关于 AI 治理的会议，邀请我发表演讲。</p>
+<p>我当时在梵蒂冈的一个座谈会上，和所有顶尖的 AI 公司坐在一起。这感觉很奇怪。我顺着那一排看过去：我、Anthropic、OpenAI、Google、Cohere、Palantir，我们都在一个台上。</p>
+<p>那一刻我意识到：<strong>这些开发 AI 的公司里，没有一家拥有“标准”的公司治理结构！</strong> 这说明情况有多严重。没有一个制造这种技术的人敢说：“哦对，标准治理结构就行，那样很好。”他们知道那样做太危险了。</p>
+<p>当然，他们采用了不同的方法来设立使命守护者，有些更好，有些更糟。例如，我认为创始人控制权实际上有很多负面效应。</p>
+<p><strong>Lenny:</strong>
+当你提到“标准治理”时，意思是指这些 AI 公司的做法与所有其他普通初创公司的做法都不一样？他们明白自己必须采取不同的方式来保护人类免受 AI 可能带来的负面影响。</p>
+<p><strong>Eric:</strong>
+是的！完全正确。因为这项技术太有价值了。如果你认为“股东应该管理它”，那你基本上就是在说：<strong>“不管是谁，只要他能借到最多的钱，他就应该能够控制这项技术。”这太疯狂了！</strong> 这不能是它运作的方式。</p>
+<p>我认为任何公司都不应该以这种方式被治理，但 AI 公司绝对不能！</p>
+<p><strong>Lenny:</strong>
+好的，为了让听众对这些术语有个概念。刚才提到我们需要认真思考这些架构，有非营利组织的方法，还有其他什么术语是人们应该思考的？</p>
+<p><strong>Eric:</strong>
+我们谈到了需要一个使命守护者。第一个问题是：使命守护者是一个“人”还是一个“事物”？这是我们的第一个决策点。我认为对于早期初创公司来说，在向更永久的结构过渡期间，利用**“创始人控制权（Founder control）”**作为一座临时桥梁是没问题的。有些公司依靠创始人控制权走得很远。</p>
+<h3>精神控股公司（Spiritual holding companies）</h3>
+<p><strong>Eric:</strong>
+但其实，许多拥有绝对控制权的创始人最终都非常痛苦，正如你在社交媒体上看到的，他们几乎每天都在经历心理崩溃。因为你变成了“阿特拉斯（希腊神话中扛着天球的巨人）”，你甚至无法耸耸肩休息一下。你一个人在阻挡着深渊的诱惑，压力太大了。</p>
+<p>所以，我认为更好、更永久的解决方案是将保护机制<strong>编码到结构本身</strong>中。这可以通过单一实体来实现，比如 Costco，规则直接写在结构本身里。但这存在一个问题：每次外部攻击削掉一小块防御，他们没有机制能让这些防御再长回来。所以这就像你建了一座堡垒，但你没有办法去修复和更新它。</p>
+<p>根据数据证据，更好的方法是：<strong>让某个利益相关者（团体）成为使命的守护者（管家），并拥有更新这些人的机制。</strong> 有些人通过所谓的“员工持股信托（Employee ownership trust）”来实现这一点，比如英国的约翰·刘易斯合伙公司。合作社模式在大规模企业中也能奏效，例如西班牙的蒙德拉贡（Mondragon），它拥有 8 万名员工，是一家巨型企业，但他们是由员工合作社组成的。你也可以通过员工投票信托来实现，阿里巴巴就是这样受到保护的，员工为董事会成员投票。</p>
+<p>但这都太复杂了。对我来说，最简单的两个解决方案：
+一是像诺和诺德例子中的<strong>非营利基金会（Nonprofit foundation）</strong>。
+二是所谓的<strong>永久目的信托（Perpetual Purpose Trust，简称 PPT）</strong>。</p>
+<p>永久目的信托是一个“非经济实体”。比如诺和诺德基金会是世界上最大的慈善基金会，因为它拥有诺和诺德很大一部分的经济权益，这运作得很好；但 Anthropic 的长期利益信托（LTBT）完全没有任何经济维度，它只有执行使命监督的责任。</p>
+<p>永久目的信托（比如 Patagonia 就是用这个结构治理的）的好处是，你不仅有受托人（Trustees），你还会设立一个被称为“目的保护者（Purpose protector）”的角色。这个人的唯一工作，就是如果受托人偏离了使命，他就去起诉受托人！所以如果事情出错了，会有人进行干预。这就像政府里的制衡机制，是一种更稳定、更持久的结构。</p>
+<p>对我来说，我使用 <strong>“精神控股公司（Spiritual holding company）”</strong> 这个总称来描述这类事物。因为前面提到过，倡导每一种具体结构的人都认为自己的版本是最好的。我甚至都没提到常青基金、拖船基金（Tugboat Foundation，他们根本不相信引入外部投资者），还有 ESOP（员工持股计划）。</p>
+<p>方法有很多，我们需要一个总称——我称之为“精神控股公司”。就像伯克希尔·哈撒韦（Berkshire Hathaway）这种金融控股公司一样，但这个控股公司持有的不是全资资产，而是持有<strong>整个组织的精神和赋予其生命的灵魂/价值观</strong>。</p>
+<p>我在书里列举了大量证据，证明这种结构更稳定、更持久、更有可能投资于我们真正关心的质量和研发，而且，它对股东来说，比传统的股东至上结构要好得多。</p>
+<h3>创始人控制权的陷阱</h3>
+<p><strong>Lenny:</strong>
+如果这一切听起来像个巨大的拖累，工作量很大而且很烦人，我会对听众说：回放这期播客的第一个小时，仔细听听如果不这么做，你究竟会陷入怎样的深渊和痛苦之中。</p>
+<p><strong>Eric:</strong>
+没错！如果你想知道什么是真正的“烦人/折磨”，我给你讲个故事。我有个朋友，是被他的投资者赶下台的创始人。</p>
+<p>我去参加了一个为他举办的“庆祝派对”。人们从全国各地飞来，甚至包括那些被他裁掉的员工也来参加了这个派对。那里可能有 1000 人，气氛不可思议。我当时在跟一个新创始人解释我为什么不能立刻帮他：“对不起，我现在得去参加这个派对。”那个新创始人听完我的描述后惊叹道：“哇！这个创始人获得了如此巨大的尊重。这正是我想创建的那种公司！”</p>
+<p>我说：“老兄，你根本没在听我说话！他现在已经不在那里工作了。他就像 Saul Price（被董事会逼走的Price Club创始人）一样。这不是一个庆功派对，<strong>这是一场葬礼，一场追悼会（Wake）！</strong>”</p>
+<p>他问：“什么？他去世了？”
+“没有，他没死。”
+“那公司破产了？”
+“没有，公司好得很，那不是问题。”
+他接着问：“难道新任的 CEO 是个混蛋？”
+我说：“不，我挺喜欢这个新 CEO 的，他也是我的朋友，人完全没问题。”</p>
+<p>他很不解：“那问题出在哪里？”
+我说：“问题在于，如果一家公司随时可以被‘斩首’，你就再也不能信任它了。”</p>
+<p>这家公司在其 15 年的生命中所做出的所有承诺，现在再也没有人相信了。新任 CEO 正在到处做出新的承诺，但我们心里清楚：既然一个拥有公司 5% 股份的激进投资者就能在任何时候将你赶下台，我凭什么相信你说的话？</p>
+<p>然后大家都在纳闷，为什么人们对各行各业机构的信任都在崩溃？因为我们正在教授的领导哲学，从根本上就是反信任的！</p>
+<p>所以，是的，如果你觉得要担心这些合规的事情很扫兴，你知道真正扫兴的是什么吗？和我一起去参加那场“创始人出局派对”。那才叫糟透了。那是一位为他的投资者赚了数十亿美元的创始人，但这永远都不够。永远不够。</p>
+<p><strong>Lenny:</strong>
+能从你这里听到这些真是太重要、太震撼了。因为世界上很少有人能像你一样，见到这么多创始人，与这么多初创公司合作。你处于一个吃力不讨好的位置——试图说服人们去做这些听起来很麻烦的事。所以我很佩服你愿意站出来呼吁。尽管现在这些想法感觉很奇怪，但在我们的孙辈看来，这应该是他们听过的最理所当然的事情。</p>
+<p><strong>Eric:</strong>
+是的，你现在就可以走在前面。你知道，当我第一次开始谈论“精益创业”时，人们也觉得那很奇怪。比你们现在觉得这件事还要奇怪得多！所以我经历过这些。</p>
+<p>我不经常写书。我不是那种每 30 分钟发一条推文的网红。我花了几年的时间才把这些东西整理出来。只有当我发现了一些我自己亲身经历过、在我的工作中发现有用，并且我帮助很多人实践过的事情时，我才会写下来。这需要很长时间，需要大量的实验和测试。</p>
+<p>这是数百家我曾有机会合作并亲眼看到哪些有效、哪些无效的公司的经验结晶。所以我向你描述的痛苦不是什么假设的东西，我不是在试图哄骗你做某事。我没什么要卖给你的。这只是数据向我们展示的，可以防止我们在整个经济中看到的这种“价值破坏流行病”的唯一出路。</p>
+<h3>创始人本周就可以做的三件事</h3>
+<p><strong>Lenny:</strong>
+那么，给一个听到这里觉得“哇，我真的得做点什么了”的早期创始人的最后战术建议是什么？接下来的这一两周，他们能立刻去做的三件事是什么？</p>
+<p><strong>Eric:</strong>
+好的，我们从最容易的事情开始。</p>
+<p>首先，如果你还没有融资，或者你只筹集了 SAFE 协议的资金，你现在可以随心所欲地做任何决定。千万不要浪费这个黄金时刻！每个人都急于做大，急于进入下一个阶段，但此时此刻，你拥有一个极其宝贵的窗口期。那些已经融了 A 轮或者准备 IPO 的创始人（那些你羡慕的人），他们现在要做这件事比你痛苦得多，因为他们必须去获得投资者的同意。对于他们来说，“种树第二好的时间是今天”，他们仍然必须做，但<strong>你拥有不可思议的特权</strong>。</p>
+<p>所以，这三个成本极低的事情，请务必去做：</p>
+<ol>
+<li>
+<p><strong>注册为公共利益公司（PBC）：</strong> 让律师提交文件，这太容易了。并在里面写下一条你真正认可的使命（目的）。检验你是否写对了使命的方法是：试着和你的联合创始人头脑风暴（不需要花十周，花一个小时就行），进行逆向思维测试——“你能想到任何通过违背这一声明来赚钱的方法吗？”如果能，你会因为在这个场景中赚了钱而感到高兴还是悲伤？如果你会感到悲伤和内疚，那就把它写进章程里堵死这条路。<strong>永远不要让自己陷入“既富有又悲惨”的境地。</strong></p>
+</li>
+<li>
+<p><strong>确立“董事誓言（Director's Oath）”：</strong> 我们没时间详细聊这个。最近 Anthropic 和 Figma 之间发生了一场很大的关于董事会席位和利益冲突的纠纷，这就是为什么我们要问：在这些奇怪的情况下，我们的责任是什么？每家公司都在问我：“你是说我的董事会上不能有做 AI 的人吗？” 但其实不让懂 AI 的人进董事会更危险。我们陷入了不可能的境地。我的解决方案是：就像医生有希波克拉底誓言（首先，不伤害病人）一样，为什么董事没有？董事们掌握的权力比护士大得多。这可以作为加入董事会的前提条件，直接写进公司章程里。</p>
+</li>
+<li>
+<p><strong>保留创始人优先股（Founder's preferred shares）：</strong> 也就是超级投票权。如果你不知道这是什么，去问 AI 给你解释，输入提示词：“Eric 刚才说‘创始人优先股’未来可能会让我个人多赚十亿美元，你能解释一下为什么吗？”如果你有了这个基础（这是你在个人财务层面上无论如何都该做的事），那就利用它来确保对董事会的控制权等。如果你和你的律师谈这些“使命保护条款”，而你的律师在那儿拖后腿，或者你不想按小时付给他们昂贵的咨询费，我实际上帮忙创办了一家名为 Virgil 的律师事务所。他们很乐意提供帮助，而且不按小时收费。确保你找到一个懂行的人聊聊这件事。</p>
+</li>
+</ol>
+<p>最后，当你弄清楚了你想做哪些事情后，把自己放在投资者的位置上想象一下，投资者可能会说：“听起来你是个贪婪的混蛋，把所有权力都揽在自己身上，你想当终身皇帝吗？”</p>
+<p>当然，你不想当终身皇帝。目前，我们在“投资者控制的公司”和“创始人控制的公司”之间存在一种二分法，每个人都觉得必须二选一。但这两个选择都不够好。我们想要创造的是我所说的**“使命控制的公司（Mission controlled companies）”**。</p>
+<p>在“使命控制”的公司里，使命本身具有最高的主权。所以，如果你对于把权力全揽在自己身上感到不安，那是时候考虑类似 Anthropic 的 LTBT（长期利益信托）结构了。在早期阶段实施非常容易，因为你现在还不需要真的去启动一个非营利组织运作。就像如果你不想成为诺和诺德那么复杂，你只要像 Anthropic 那样把权利写进章程里就行了。声明：“10%的股权特此质押给一个非营利基金会，基金会拥有一个董事会席位，享有未来 1%的收入”等等，随你怎么写。这些很容易，写进章程，然后发射后不管（fire and forget），以后再去正式启动它。但<strong>确保你现在拥有做这件事的权利。</strong></p>
+<p>这是书中最容易做的底线要求。</p>
+<h3>AI 对齐（AI Alignment）与 人类对齐</h3>
+<p><strong>Lenny:</strong>
+有趣的是，这其中有多少与“AGI（通用人工智能）对齐”如此相似：寻找一种方法让 AI 对齐，寻找一种方法让你的业务对齐。</p>
+<p><strong>Eric:</strong>
+这不是巧合。这背后有一个深刻的哲学原因。</p>
+<p>我给你一个简单的版本，然后再给一个复杂的版本。
+简单的版本是：<strong>“谁来对齐‘对齐者’（Who aligns the aligners）？”</strong></p>
+<p>这是 AI 领域目前头号未解决的问题。这不是技术问题。我们在技术对齐（Technical alignment）问题上取得了巨大进展，但我们在人类对齐（Human alignment）问题上毫无进展。</p>
+<p>自从几十年前提出**“康威定律（Conway's Law）”**以来，我们就知道：软件产品/技术架构，实际上是制造软件的人类沟通结构的组织印记。我们平时很少去想它，但公司的组织结构图真的就是清晰可见的架构图。为什么？因为人类的价值观会从父母（组织）流向孩子（产品）。因此，如果你试图解决 AI 的对齐问题，但人类自己都无法就“要对齐到哪些人类价值观”达成一致，那你早就完蛋了。</p>
+<p>更深层、更有趣的问题是，科学文献中有一个被称为**“涌现智能（Emergent intelligence）”**的概念。我在书中写到了它，因为公司/组织是地球上最古老的“人工智能”形式。</p>
+<p>公司就是涌现智能的一个例子。<strong>让 Transformer 架构起作用并展现出智能的那个科学原理，同样在组织中发挥作用。</strong> 组织确实是超级生命体。它们的“活着”方式，与这些 AI 模型的涌现智能是一样的。</p>
+<p>如果你不知道这是什么，这听起来可能非常形而上学、奇怪和诡异。所以我给你一个纯物理层面的演示，我保证不讲玄学。</p>
+<p>我最喜欢的“涌现智能”演示之一（Lenny你可以把这个视频链接贴出来，我书里也提到了），研究人员创造了一个被称为“搬运钢琴谜题”的实验。（你可能知道《老友记》里罗斯搬沙发在楼梯间大喊“Pivot!”那个梗，人们经常把这个谜题的视频发给我）。</p>
+<p>他们让蚂蚁去解决这个版本的谜题：想象有两堵墙，墙上有缝隙，还有一个巨大的“I”字形不规则物体。如果你观察人类解决这个谜题，过程是这样的：他们尝试一种方法，思考，然后后退、调整。当你观看人类解决这个谜题的视频时，你能明显看出这是一个“智能体”在尝试解决问题，因为他们会尝试合乎逻辑的方法，行不通就会学习和改变。</p>
+<p>如果你把一只蚂蚁放进去，它显然无法解决它。但是放一千只蚂蚁进去，它们就能解开！如果你看蚁群解决这个难题的视频，你发誓你看到了一个“智能”在起作用。因为它就像人类一样：尝试某件事、停下来思考、重新定位、尝试不同的方法。这太神奇了！</p>
+<p>研究人员发现，对于蚂蚁，放进去的蚂蚁越多，解决速度越快。<strong>但是对于人类解决组织难题，你加的人类越多，情况就越糟。</strong></p>
+<p><strong>除非这些人类进行了非常谨慎的“对齐（Aligned）”</strong>，这就是组织设计的核心教训。</p>
+<p>我们正在孕育这些被称作公司的东西。如果我们不适当地照顾它们，它们就会发展出我们不喜欢的突现特征/涌现属性。那不是我们想要的。而面对这种深植于你制造的机器 DNA 中的结构性问题，无论用多少“创始人模式（Founder mode）”的微观管理都是洗不干净的。请务必小心。</p>
+<p><strong>Lenny:</strong>
+我在这里听到的是，我们的组织应该雇佣更多的蚂蚁。</p>
+<h3>康威定律与隐形领导者</h3>
+<p><strong>Lenny:</strong>
+Eric，我们给了大家很多值得思考的东西。我认为大家听完会觉得：“哇，我真的应该认真思考这个问题并认真对待。”在结束之前，你还有什么最后的想法或经验教训想留给听众吗？</p>
+<p><strong>Eric:</strong>
+让我们谈谈 Mary Parker Follett 吧。我刚才顺带提到了她，我觉得很多人可能从来没听说过她。所以让我再给大家来一个“历史的回声”。</p>
+<p>大多数人都听说过一个叫弗雷德里克·温斯洛·泰勒（Frederick Winslow Taylor）的人。泰勒是我的“好朋友”，他是早期科学管理理论的先驱之一（他在1911年写了《科学管理原理》）。“泰勒主义”是有史以来最受欢迎的管理热潮之一。如果你觉得现在的管理学有很多跟风炒作，那你真该看看当年的泰勒主义——它甚至曾在美国最高法院被辩论，登上了 1910 年代的头版新闻。人们为他拍电影，他是一个非常有名的人。</p>
+<p>但他有一位同时代的人，是一位女性，名叫 Mary Parker Follett。她的作品远远超前于她的时代。如果你今天读她的书，你会以为她生活在 2026 年！</p>
+<p>她会写下这样的话：
+“我们需要关注‘与人共权（power with）’，而不是‘控制他人（power over）’。”
+“上级和下属共同服从‘情境法则’（意味着我们共同努力找出情况需要什么，而不是仅仅告诉下属该怎么做）。”
+她说，<strong>领导者的标志是，他们能否培养出更多的领导者。</strong></p>
+<p>如果现在有人对你说这句话，你会觉得：“哇，这太适合发 TikTok 或 Twitter 了！太棒了，这是在哪个播客上听到的？”
+不，那是在 1920 年她写下的。</p>
+<p>不幸的是，由于你能猜到的性别原因，她被彻底从历史中抹去了。她的作品完全遗失，在整个 20 世纪的大部分时间里根本没有人在研究它。直到 1990 年代，她才被重新发现并重新出版。伟大的彼得·德鲁克称她为“管理学的先知”。</p>
+<p>她最重要的概念之一是她所说的**“无形领导者（The invisible leader）”**。我太喜欢这个概念了。想象一下在 1920 年，一个女人到处对人们说这些话会多么震撼。</p>
+<p>她会说：“Roundtree 先生，Roundtree 巧克力工厂的老板，其实并不是 Roundtree 巧克力工厂的领导者。”
+人们会说：“女士，你在说什么？他的名字就写在门上。他的家族拥有这家工厂。如果他不是领导者，谁是？”
+她会回答：“很高兴你问了。Roundtree 先生是一位出色的领导者，<strong>因为他非常擅长向员工灌输这家工厂存在意义的‘共同目标感’。而这个‘共同目标’（而不是 Roundtree 先生本人），才是他们真正的无形领导者。</strong>”</p>
+<p>这也许是最强大的概念了。如果你想作为领导者管理一些东西，你必须明白，<strong>影响任何组织生命的最关键决策，几乎根据定义，都是在“没有管理者在场”的时候做出的。</strong></p>
+<p>你以为当你在大会上告诉大家“我们将构建高质量的产品，我们的愿景是这个，计划是那个”时，是你做出了决定。但当产品经理、设计师和工程师做出真正的权衡时，你并不在场！当有人坐在那里写代码，决定是做圆角还是直角，拟物化还是扁平化。当用户点击这个按钮时，我们是弹窗双重确认，还是直接清空他们的硬盘？</p>
+<p>成千上万个微小的决定在发生。那时，只有“无形领导者（即组织的共同目标）”在场。所以，如果你不培养这种共同的目标感，你就无法控制将要发生的事情。再说一次，你的承诺将一文不值。</p>
+<p>如果你想做点课外阅读，去读读 Mary Parker Follett 吧。她会启发你的。</p>
+<h3>书籍资源与结语</h3>
+<p><strong>Lenny:</strong>
+如果这些内容对你有一点点吸引力，如果你想探索或实施它，去买 Eric 的书《不可腐蚀（Incorruptible）》。有一个网站可以看吗，还是直接谷歌搜索？</p>
+<p><strong>Eric:</strong>
+当然。你可以在任何卖书的地方找到它。我们确实有一个网站，incorruptible.co。请加入邮件列表。我们有大量附赠内容，特别是针对那些执行者，我们有实施指南、高级实施指南、读者指南，甚至还有在原稿中被删掉的“秘密章节”。我努力让去网站预订并注册的读者觉得物超所值。</p>
+<p>但你不必非从我这里买。精装本、有声书、电子书都有。网站上我最喜欢的功能之一是，我们列出了 100 多家当地独立书店的名单，你可以在这些书店的网站上订购。所以，如果你不仅想帮我个忙，买上十几二十本送人，而且还想让你的当地独立书店开心一整天（支持你的社区支柱，成为他们最喜欢的顾客），你可以打电话给他们说：“有一本新书要出了，我想买一批送人，能在发布日拿到吗？”</p>
+<p>你的朋友会感谢你，书店会感谢你，我也会感谢你。</p>
+<p><strong>Lenny:</strong>
+很好的推销！《不可腐蚀：为什么好公司会变坏，以及伟大公司如何保持伟大》。Eric Ries，非常感谢你的到来。</p>
+<p><strong>Eric:</strong>
+嘿，谢谢你，Lenny。感谢你给我这个机会来谈论它，祝贺你所做的一切。</p>
+<p><strong>Lenny:</strong>
+谢谢 Eric。大家再见。</p>
+<p>（节目结尾，播报订阅和评论呼吁）</p>
+5:["$","$L11",null,{"email":{"id":"talks-how-anthropic-costco-and-patagonia-all-build-incorruptible-companies-eric-ries","sender":"Lenny's Podcast","subject":"如何建立不可腐蚀的公司","snippet":"在本期播客中，主持人 Lenny Rachitsky 对话了《精益创业》（The Lean Startup）的作者 Eric Ries，深入探讨了他的新书《不可腐蚀》（Incorruptible）。如果说《精益创业》教导创始人如何打造一家成功的公司，那么这本新书则聚焦于如何保护你所建立的基业。 Eric 指出，高达 80% 获风投支持的创始人在公司上市三年内会被踢出局。","date":"2026-05-10","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["translated","interview"],"mdTheme":"magazine","sourcePath":"talks/how-anthropic-costco-and-patagonia-all-build-incorruptible-companies-eric-ries.md","sourceUrl":"https://www.youtube.com/watch?v=PoJ1vTdHpks&list=WL&index=9","coverImage":"$undefined","body":"$12","prompts":[]},"listPosition":{"index":49,"total":365},"matchedPerson":{"id":"lenny-s-podcast","name":"Lenny's Podcast","email":""}}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[27201,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"IconMark"]
+c:[["$","title","0",{"children":"如何建立不可腐蚀的公司 · Hinbox"}],["$","meta","1",{"name":"description","content":"在本期播客中，主持人 Lenny Rachitsky 对话了《精益创业》（The Lean Startup）的作者 Eric Ries，深入探讨了他的新书《不可腐蚀》（Incorruptible）。如果说《精益创业》教导创始人如何打造一家成功的公司，那么这本新书则聚焦于如何保护你所建立的基业。 Eric 指出，高达 80% 获风投支持的创始人在公司上市三年内会被踢出局。"}],["$","meta","2",{"name":"application-name","content":"Hinbox"}],["$","link","3",{"rel":"canonical","href":"https://linguage.github.io/hinbox/mail/talks-how-anthropic-costco-and-patagonia-all-build-incorruptible-companies-eric-ries"}],["$","meta","4",{"property":"og:title","content":"如何建立不可腐蚀的公司"}],["$","meta","5",{"property":"og:description","content":"在本期播客中，主持人 Lenny Rachitsky 对话了《精益创业》（The Lean Startup）的作者 Eric Ries，深入探讨了他的新书《不可腐蚀》（Incorruptible）。如果说《精益创业》教导创始人如何打造一家成功的公司，那么这本新书则聚焦于如何保护你所建立的基业。 Eric 指出，高达 80% 获风投支持的创始人在公司上市三年内会被踢出局。"}],["$","meta","6",{"property":"og:url","content":"https://linguage.github.io/hinbox/mail/talks-how-anthropic-costco-and-patagonia-all-build-incorruptible-companies-eric-ries"}],["$","meta","7",{"property":"og:site_name","content":"Hinbox"}],["$","meta","8",{"property":"og:locale","content":"zh_CN"}],["$","meta","9",{"property":"og:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","meta","10",{"property":"og:image:width","content":"1200"}],["$","meta","11",{"property":"og:image:height","content":"630"}],["$","meta","12",{"property":"og:image:alt","content":"如何建立不可腐蚀的公司"}],["$","meta","13",{"property":"og:type","content":"article"}],["$","meta","14",{"property":"article:published_time","content":"2026-05-10T00:00:00.000Z"}],["$","meta","15",{"property":"article:author","content":"Lenny's Podcast"}],["$","meta","16",{"property":"article:tag","content":"translated"}],["$","meta","17",{"property":"article:tag","content":"interview"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"如何建立不可腐蚀的公司"}],["$","meta","20",{"name":"twitter:description","content":"在本期播客中，主持人 Lenny Rachitsky 对话了《精益创业》（The Lean Startup）的作者 Eric Ries，深入探讨了他的新书《不可腐蚀》（Incorruptible）。如果说《精益创业》教导创始人如何打造一家成功的公司，那么这本新书则聚焦于如何保护你所建立的基业。 Eric 指出，高达 80% 获风投支持的创始人在公司上市三年内会被踢出局。"}],["$","meta","21",{"name":"twitter:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","link","22",{"rel":"icon","href":"/hinbox/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","23",{"rel":"icon","href":"/hinbox/icon.svg?icon.6ca2692a.svg","sizes":"any","type":"image/svg+xml"}],["$","$L13","24",{}]]
+8:null

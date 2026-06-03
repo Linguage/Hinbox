@@ -1,0 +1,137 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T2164,<p>对于特纳斯而言，这并非可有可无之事。尽管人工智能显然是未来趋势，且已有数以百万计的人在使用它，但对其持怀疑态度的人甚至更多。像 Claude Code 和 OpenClaw 这样功能强大的新型 AI 代理技术，对大多数人来说仍因风险过高或技术门槛过高而难以采用。如果苹果不能为大众破解这一难题，别人就会捷足先登。本周宣布将于九月卸任首席执行官一职、转任公司董事会执行主席的蒂姆·库克，在史蒂夫·乔布斯之后出色地领导了公司，但唯独在这个重要的领域留下了空白。2024 年大张旗鼓推出的 Apple Intelligence，表现平平且尚未完成。特纳斯能否成功引领这样一款产品？这很难说，因为这位现任硬件工程高级副总裁，在其职业生涯的大部分时间里都远离公众视野。直到他成为接替库克职位的头号人选这一点变得显而易见时，他才开始接受更多媒体采访。人们视他为像库克那样有条不紊的执行者，而非乔布斯那样的远见家，但这或许只是因为他有着类似的低调作风。也许一旦登上最高职位，他就能释放潜能，放手追求更高远的目标。</p>
+<p>我本人与他的接触并不多。十年前，我曾与他和他的团队在苹果的输入设计实验室待了一天。“我从 2001 年就开始了，这些年来有幸参与了众多产品的研发，”他这样向我作自我介绍。那天，他深入探讨了诸如量子点、镉的环境影响，以及“并非所有白光都生而平等”等极为细节的话题。显然，他很讨人喜欢；他和团队成员之间充满了有趣的玩笑。更近一段时间，我曾就苹果的未来，特别是其在 AI 转型中领先一步的计划，询问过特纳斯和全球营销主管格雷格·乔斯维亚克。特纳斯承认 AI 是一个“巨大的转折点”，但同时也将其表述为苹果所经历的众多飞跃之一。每一款成功产品——Apple II、Mac、iTunes、iPod、iPhone、iPad——都建立在上一款产品的基础之上。“我们从不考虑去发布一项技术，”他说，“我们想要推出的是惊艳的产品、功能和体验，我们不希望用户去思考背后的技术如何使之成为可能。这就是我们看待 AI 的方式。”</p>
+<p>这固然很好，但我回想起 21 世纪中期，当时所有人都在等待苹果推出手机。当乔布斯最终于 2007 年 1 月交出答卷时，那款产品定义了整个移动时代。要求特纳斯在 AI 时代做出类似的壮举，是个极高的要求——但这是一个必须抓住的机遇。AI 有可能颠覆整个 iPhone 生态系统。到这个十年结束时，人们不太可能还在手机上滑动点击来使用 Uber 或 Lyft。他们只会吩咐自己那随时待命的 AI 代理带他们回家。或者，那位代理早已判断好他们要去哪里，无需提出请求的繁琐，车就已经在等候了。“有相应的 App”可能会被“让代理去做”所取代。当我向乔斯维亚克和特纳斯暗示，苹果必定在开发一款以 AI 为中心的设备来适应这种转变时——也许就像前苹果设计奇才乔尼·艾维正与 OpenAI 联手打造的那种设备——他们未予置评，但坚称目前搭载多种 AI 模型的 iPhone，或许还能再火五十年。“iPhone 哪也不会去，”乔斯维亚克告诉我。</p>
+<p>如果要揣摩言外之意，我会更仔细地审视苹果本周的另一项宣布。接替特纳斯原先硬件工程高级副总裁职位的，将是苹果芯片战略背后的奇才——乔尼·斯鲁吉。斯鲁吉领导的运动将苹果硬件业务的重心从设计转向了定制芯片。苹果定制设计的芯片是其过去十年几乎所有创新背后的秘密，造就了更强大、更节能的产品。斯鲁吉在苹果所受到的尊敬程度，堪比当初的乔尼·艾维。2021 年，我就苹果的芯片战略同时采访了斯鲁吉和特纳斯，特纳斯强调了将定制芯片置于设计过程中心是多么高效。苹果的产品已经配备了称为神经网络引擎的定制 AI 芯片。我怀疑，苹果在 AI 领域不可避免的重大举措中，一个重要的部分将涉及更强大的神经网络引擎。也许，它们将把业界 AI 芯片领导者英伟达所提供的强大芯片的大量算力，直接带到设备之上。据报道，苹果已与博通达成了协议，将在未来一年左右交付 AI 芯片。可以预见，这些芯片及其后继者会进入 Mac、iPhone，甚至可能进入一款能让个人代理蓬勃发展的同时保护隐私的、全新的设备。</p>
+<p>这也为另一场硅谷对决拉开了序幕。虽然苹果不与英伟达直接竞争，但其芯片战略可能会使特纳斯与英伟达首席执行官黄仁勋为争夺行业 AI 领先地位的炫耀资本而针锋相对。两家公司之间的关系已然紧张，据传这可以追溯到史蒂夫·乔布斯认为英伟达在其 GPU 芯片中抄袭了皮克斯的技术。这都是苹果必须打造的、能够解决 AI 问题的那款产品的背景故事，就像 Mac 解决了桌面计算、iPhone 解决了移动通讯、AirTag 解决了行李丢失问题那样。苹果在这款产品上可能已深耕许久，但将其打磨至完美并扣下扳机的重任，将落在特纳斯肩上。他的一个优势是，在苹果工作了 25 年后，他懂得什么造就了伟大的产品。“会有那么一种感觉，”他上个月告诉我，“我一直无法确切指出那是什么，但在某个时刻，你会获得一种直觉，知道什么能够达到苹果的品质标准。你可以看着某样东西，然后说，没错，这足够好了，这会让我们感到骄傲。我永远无法描述它。这是一种不可思议的、潜移默化的苹果价值观的传承。”</p>
+<p>蒂姆·库克作为苹果首席执行官干得非常出色，但留下了公司如何在 AI 时代占据主导地位这一未解之题。这是约翰·特纳斯的工作。时间紧迫。</p>
+<p>本文是史蒂文·利维《Backchannel》时事通讯的一期。往期通讯可在此处阅读。</p>
+<table>
+<thead>
+<tr>
+<th align="left">英文术语</th>
+<th align="left">中文翻译</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">AI agent</td>
+<td align="left">人工智能代理</td>
+</tr>
+<tr>
+<td align="left">Claude Code</td>
+<td align="left">Claude Code</td>
+</tr>
+<tr>
+<td align="left">OpenClaw</td>
+<td align="left">OpenClaw</td>
+</tr>
+<tr>
+<td align="left">Apple Intelligence</td>
+<td align="left">Apple Intelligence</td>
+</tr>
+<tr>
+<td align="left">executive chairman</td>
+<td align="left">执行主席</td>
+</tr>
+<tr>
+<td align="left">SVP of hardware engineering</td>
+<td align="left">硬件工程高级副总裁</td>
+</tr>
+<tr>
+<td align="left">Input Design Lab</td>
+<td align="left">输入设计实验室</td>
+</tr>
+<tr>
+<td align="left">quantum dots</td>
+<td align="left">量子点</td>
+</tr>
+<tr>
+<td align="left">cadmium</td>
+<td align="left">镉</td>
+</tr>
+<tr>
+<td align="left">inflection point</td>
+<td align="left">转折点</td>
+</tr>
+<tr>
+<td align="left">Apple II</td>
+<td align="left">Apple II</td>
+</tr>
+<tr>
+<td align="left">Mac</td>
+<td align="left">Mac</td>
+</tr>
+<tr>
+<td align="left">iTunes</td>
+<td align="left">iTunes</td>
+</tr>
+<tr>
+<td align="left">iPod</td>
+<td align="left">iPod</td>
+</tr>
+<tr>
+<td align="left">iPhone</td>
+<td align="left">iPhone</td>
+</tr>
+<tr>
+<td align="left">iPad</td>
+<td align="left">iPad</td>
+</tr>
+<tr>
+<td align="left">Uber</td>
+<td align="left">优步</td>
+</tr>
+<tr>
+<td align="left">Lyft</td>
+<td align="left">来福车</td>
+</tr>
+<tr>
+<td align="left">Jony Ive</td>
+<td align="left">乔尼·艾维</td>
+</tr>
+<tr>
+<td align="left">Johny Srouji</td>
+<td align="left">乔尼·斯鲁吉</td>
+</tr>
+<tr>
+<td align="left">custom silicon</td>
+<td align="left">定制芯片</td>
+</tr>
+<tr>
+<td align="left">neural engines</td>
+<td align="left">神经网络引擎</td>
+</tr>
+<tr>
+<td align="left">Nvidia</td>
+<td align="left">英伟达</td>
+</tr>
+<tr>
+<td align="left">Broadcom</td>
+<td align="left">博通</td>
+</tr>
+<tr>
+<td align="left">Jensen Huang</td>
+<td align="left">黄仁勋</td>
+</tr>
+<tr>
+<td align="left">GPU</td>
+<td align="left">图形处理器</td>
+</tr>
+<tr>
+<td align="left">AirTag</td>
+<td align="left">AirTag</td>
+</tr>
+<tr>
+<td align="left">Backchannel newsletter</td>
+<td align="left">《Backchannel》时事通讯</td>
+</tr>
+</tbody>
+</table>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"essays-apple-s-next-ceo-needs-to-launch-a-killer-ai-product","sender":"Steven Levy","subject":"苹果下一任 CEO 必须推出一款杀手级 AI 产品","snippet":"Tim Cook 是出色的 CEO，但未能攻克 AI。打造杀手级 AI 产品将是 John Ternus 的头号任务","date":"2026-04-24","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Essays"],"tags":["clippings"],"mdTheme":"magazine","sourcePath":"essays/apple-s-next-ceo-needs-to-launch-a-killer-ai-product.md","sourceUrl":"https://www.wired.com/story/apples-next-ceo-needs-to-launch-a-killer-ai-product/","body":"$3","prompts":[]},"listPosition":{"index":94,"total":365}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

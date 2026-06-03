@@ -1,0 +1,256 @@
+1:"$Sreact.fragment"
+3:I[39756,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+4:I[37457,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"ViewportBoundary"]
+b:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"MetadataBoundary"]
+d:I[68027,[],"default"]
+:HL["/hinbox/_next/static/chunks/24888a04b79e7824.css","style"]
+:HL["/hinbox/_next/static/media/fba5a26ea33df6a3-s.p.1bbdebe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"vMUiZWVsRx3pCqxArlZcR","c":["","mail","talks-cursor-coding-agents-tutorial-2026"],"q":"","i":false,"f":[[["",{"children":["mail",{"children":[["id","talks-cursor-coding-agents-tutorial-2026","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hinbox/_next/static/chunks/24888a04b79e7824.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[79520,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],""]
+f:I[59665,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],"default"]
+:HL["https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","style"]
+2:["$","html",null,{"lang":"zh-CN","className":"plus_jakarta_sans_9710934b-module__-vnxFq__variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function () {\n  try {\n    var theme = window.localStorage.getItem('hinbox:theme');\n    if (theme !== 'light' && theme !== 'dark' && theme !== 'sepia') {\n      theme = 'light';\n    }\n    window['__HINBOX_THEME__'] = theme;\n    document.documentElement.dataset.theme = theme;\n    document.documentElement.style.colorScheme = theme === 'dark' ? 'dark' : 'light';\n    function applyBodyTheme() {\n      if (document.body) {\n        document.body.dataset.theme = theme;\n      }\n    }\n    if (document.body) {\n      applyBodyTheme();\n    } else {\n      document.addEventListener('DOMContentLoaded', applyBodyTheme);\n    }\n  } catch (error) {\n    window['__HINBOX_THEME__'] = 'light';\n    document.documentElement.dataset.theme = 'light';\n    document.documentElement.style.colorScheme = 'light';\n  }\n})();"}}],"",["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","rel":"stylesheet"}],["$","$Le",null,{"id":"mathjax-config","strategy":"afterInteractive","children":"\n          window.MathJax = {\n            tex: {\n              inlineMath: [['$', '$'], ['\\\\(', '\\\\)']],\n              displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']],\n              processEscapes: true,\n              packages: { '[+]': ['noerrors', 'noundefined'] },\n            },\n            svg: {\n              fontCache: 'none',\n            },\n            startup: {\n              typeset: false,\n              ready: () => {\n                window.MathJax.startup.defaultReady();\n                window.dispatchEvent(new Event('MathJaxReady'));\n              },\n            },\n          };\n          "}],["$","$Le",null,{"id":"mathjax-cdn","strategy":"afterInteractive","src":"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"}]]}],["$","body",null,{"className":"font-[family-name:var(--font-jakarta)] antialiased","suppressHydrationWarning":true,"children":["",["$","$Lf",null,{"weeklyNavCounts":{"inboxWeeklyCount":10,"sentWeeklyCount":0,"starredTotalCount":21},"people":[{"id":"david-perell","name":"David Perell","email":""},{"id":"lenny-s-podcast","name":"Lenny's Podcast","email":""},{"id":"ryan-peterman","name":"Ryan Peterman","email":""},{"id":"anthropic","name":"Anthropic","email":""},{"id":"dwarkesh-patel","name":"Dwarkesh Patel","email":""},{"id":"stripe","name":"Stripe","email":""},{"id":"stephen-wolfram","name":"Stephen Wolfram","email":""},{"id":"latent-space","name":"Latent Space","email":""},{"id":"lex-fridman","name":"Lex Fridman","email":""},{"id":"steve-jobs","name":"Steve Jobs","email":""},{"id":"20vc-with-harry-stebbings","name":"20VC with Harry Stebbings","email":""},{"id":"jeremy-stern","name":"Jeremy Stern","email":""},{"id":"turing","name":"Turing","email":""},{"id":"demis-hassabis","name":"Demis Hassabis","email":""},{"id":"the-diary-of-a-ceo","name":"The Diary Of A CEO","email":""},{"id":"elon-musk","name":"Elon Musk","email":""},{"id":"sauteedveggies","name":"SauteedVeggies","email":""},{"id":"andy-matuschak","name":"Andy Matuschak","email":""},{"id":"mind-the-game","name":"Mind the Game","email":""},{"id":"ramona-shelburne","name":"Ramona Shelburne","email":""},{"id":"jared-weiss","name":"Jared Weiss","email":""},{"id":"deeplearningai","name":"DeepLearningAI","email":""},{"id":"cursor","name":"Cursor","email":""},{"id":"y-combinator","name":"Y Combinator","email":""},{"id":"openai","name":"OpenAI","email":""},{"id":"every","name":"Every","email":""},{"id":"sequoia-capital","name":"Sequoia Capital","email":""},{"id":"alex-kantrowitz","name":"Alex Kantrowitz","email":""},{"id":"peter-dizikes-mit-news","name":"Peter Dizikes ｜ MIT News","email":""},{"id":"world-finance-journal","name":"World Finance Journal","email":""},{"id":"andrej-karpathy","name":"Andrej karpathy","email":""},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","email":""},{"id":"jd-vance","name":"JD Vance","email":""},{"id":"街-大学","name":"やまぐち街なか大学","email":""},{"id":"jc","name":"JC","email":""}],"tags":[{"id":"translated","name":"translated","count":123},{"id":"interview","name":"interview","count":24},{"id":"ai","name":"ai","count":17},{"id":"人工智能","name":"人工智能","count":17},{"id":"clippings","name":"clippings","count":15},{"id":"essays","name":"Essays","count":9},{"id":"talks","name":"Talks","count":8},{"id":"深度学习","name":"深度学习","count":8},{"id":"ai-agents","name":"ai-agents","count":7},{"id":"cognition","name":"cognition","count":6},{"id":"nba","name":"NBA","count":6},{"id":"ai编程","name":"AI编程","count":5},{"id":"humanity","name":"humanity","count":5},{"id":"math","name":"math","count":5},{"id":"steve-jobs","name":"steve-jobs","count":5},{"id":"大语言模型","name":"大语言模型","count":5},{"id":"机器学习","name":"机器学习","count":5},{"id":"agi","name":"AGI","count":4},{"id":"anthropic","name":"Anthropic","count":4},{"id":"claude-code","name":"Claude Code","count":4},{"id":"doge","name":"DOGE","count":4},{"id":"nvidia","name":"nvidia","count":4},{"id":"windsurf","name":"Windsurf","count":4},{"id":"政府效率","name":"政府效率","count":4},{"id":"文艺复兴科技","name":"文艺复兴科技","count":4},{"id":"英伟达","name":"英伟达","count":4},{"id":"软件工程","name":"软件工程","count":4},{"id":"ai编程工具","name":"AI编程工具","count":3},{"id":"apple","name":"apple","count":3},{"id":"cursor","name":"Cursor","count":3},{"id":"deepseek","name":"deepseek","count":3},{"id":"linus-torvalds","name":"Linus Torvalds","count":3},{"id":"linux内核","name":"Linux内核","count":3},{"id":"llm","name":"llm","count":3},{"id":"mathematics","name":"mathematics","count":3},{"id":"reports","name":"Reports","count":3},{"id":"偏微分方程","name":"偏微分方程","count":3},{"id":"勒布朗-詹姆斯","name":"勒布朗·詹姆斯","count":3},{"id":"开源","name":"开源","count":3},{"id":"开源ai","name":"开源AI","count":3},{"id":"强化学习","name":"强化学习","count":3},{"id":"数学哲学","name":"数学哲学","count":3},{"id":"数学教育","name":"数学教育","count":3},{"id":"访谈","name":"访谈","count":3},{"id":"量化投资","name":"量化投资","count":3},{"id":"马斯克","name":"马斯克","count":3},{"id":"黄仁勋","name":"黄仁勋","count":3},{"id":"ai-agent","name":"AI Agent","count":2},{"id":"ai-coding","name":"ai-coding","count":2},{"id":"ai代理","name":"AI代理","count":2},{"id":"ai基础设施","name":"AI基础设施","count":2},{"id":"ai安全","name":"AI安全","count":2},{"id":"ai数学","name":"AI数学","count":2},{"id":"ai智能体","name":"AI智能体","count":2},{"id":"ai计算","name":"AI计算","count":2},{"id":"alphafold","name":"AlphaFold","count":2},{"id":"claude","name":"Claude","count":2},{"id":"devin","name":"Devin","count":2},{"id":"economics","name":"economics","count":2},{"id":"emacs","name":"Emacs","count":2},{"id":"essay","name":"essay","count":2},{"id":"git","name":"Git","count":2},{"id":"google","name":"Google","count":2},{"id":"ilya-sutskever","name":"Ilya Sutskever","count":2},{"id":"jeff-dean","name":"jeff-dean","count":2},{"id":"jepa","name":"JEPA","count":2},{"id":"org-mode","name":"Org mode","count":2},{"id":"programming","name":"programming","count":2},{"id":"software-engineering","name":"software-engineering","count":2},{"id":"vibe-coding","name":"Vibe Coding","count":2},{"id":"writing","name":"writing","count":2},{"id":"世界模型","name":"世界模型","count":2},{"id":"人性","name":"人性","count":2},{"id":"代数几何","name":"代数几何","count":2},{"id":"代码编辑器","name":"代码编辑器","count":2},{"id":"价值投资","name":"价值投资","count":2},{"id":"伯克希尔哈撒韦","name":"伯克希尔哈撒韦","count":2},{"id":"关税政策","name":"关税政策","count":2},{"id":"创业历程","name":"创业历程","count":2},{"id":"加速计算","name":"加速计算","count":2},{"id":"吉姆-西蒙斯","name":"吉姆·西蒙斯","count":2},{"id":"哲学","name":"哲学","count":2},{"id":"国际合作","name":"国际合作","count":2},{"id":"大型语言模型","name":"大型语言模型","count":2},{"id":"好奇心","name":"好奇心","count":2},{"id":"季后赛","name":"季后赛","count":2},{"id":"工程实践","name":"工程实践","count":2},{"id":"巴菲特","name":"巴菲特","count":2},{"id":"形式化证明","name":"形式化证明","count":2},{"id":"彼得-蒂尔","name":"彼得·蒂尔","count":2},{"id":"微软","name":"微软","count":2},{"id":"提示工程","name":"提示工程","count":2},{"id":"数学","name":"数学","count":2},{"id":"数学研究","name":"数学研究","count":2},{"id":"文班亚马","name":"文班亚马","count":2},{"id":"智能代理开发","name":"智能代理开发","count":2},{"id":"毕业演讲","name":"毕业演讲","count":2},{"id":"版本控制","name":"版本控制","count":2},{"id":"科学发现","name":"科学发现","count":2},{"id":"科技停滞","name":"科技停滞","count":2},{"id":"软件工程变革","name":"软件工程变革","count":2},{"id":"软件开发","name":"软件开发","count":2},{"id":"量子力学","name":"量子力学","count":2},{"id":"阿贝尔奖","name":"阿贝尔奖","count":2},{"id":"风险投资","name":"风险投资","count":2},{"id":"agent设计","name":"Agent设计","count":1},{"id":"ai-for-science","name":"AI for Science","count":1},{"id":"ai-编程","name":"AI 编程","count":1},{"id":"ai伦理","name":"AI伦理","count":1},{"id":"ai最佳实践","name":"AI最佳实践","count":1},{"id":"ai大模型","name":"AI大模型","count":1},{"id":"ai并购","name":"AI并购","count":1},{"id":"ai应用","name":"AI应用","count":1},{"id":"ai开发者大会","name":"AI开发者大会","count":1},{"id":"ai推理","name":"AI推理","count":1},{"id":"ai收购","name":"AI收购","count":1},{"id":"ai数学发现","name":"AI数学发现","count":1},{"id":"ai生物医药","name":"AI生物医药","count":1},{"id":"ai竞争","name":"AI竞争","count":1},{"id":"ai编程代理","name":"AI编程代理","count":1},{"id":"ai芯片","name":"AI芯片","count":1},{"id":"ai规模化","name":"AI规模化","count":1},{"id":"ai辅助学习","name":"AI辅助学习","count":1},{"id":"ai辅助开发","name":"AI辅助开发","count":1},{"id":"anysphere","name":"Anysphere","count":1},{"id":"biography","name":"biography","count":1},{"id":"blackwell架构","name":"Blackwell架构","count":1},{"id":"cag","name":"CAG","count":1},{"id":"career","name":"career","count":1},{"id":"ceo交接","name":"CEO交接","count":1},{"id":"chatgpt","name":"ChatGPT","count":1},{"id":"chris-bishop","name":"Chris Bishop","count":1},{"id":"claude-4","name":"Claude 4","count":1},{"id":"claude-sonnet-4-5","name":"Claude Sonnet 4.5","count":1},{"id":"coding-agent","name":"Coding Agent","count":1},{"id":"context-engineering","name":"Context Engineering","count":1},{"id":"cs50","name":"CS50","count":1},{"id":"cuda生态","name":"CUDA生态","count":1},{"id":"deep-search","name":"Deep Search","count":1},{"id":"deepmind","name":"DeepMind","count":1},{"id":"distributed-systems","name":"distributed-systems","count":1},{"id":"elon-musk","name":"Elon Musk","count":1},{"id":"engineering","name":"engineering","count":1},{"id":"fields奖","name":"Fields奖","count":1},{"id":"geoffrey-hinton","name":"Geoffrey Hinton","count":1},{"id":"gpt-4","name":"GPT-4","count":1},{"id":"gpt-4-5","name":"GPT-4.5","count":1},{"id":"gpu与深度学习","name":"GPU与深度学习","count":1},{"id":"gpu架构","name":"GPU架构","count":1},{"id":"gpu算力","name":"GPU算力","count":1},{"id":"grok-3","name":"Grok 3","count":1},{"id":"haskell","name":"haskell","count":1},{"id":"incident","name":"incident","count":1},{"id":"jim-simons","name":"Jim Simons","count":1},{"id":"julia","name":"Julia","count":1},{"id":"june-huh","name":"june-huh","count":1},{"id":"kaggle","name":"Kaggle","count":1},{"id":"kiro-spec模式","name":"Kiro SPEC模式","count":1},{"id":"labor","name":"labor","count":1},{"id":"lean","name":"Lean","count":1},{"id":"lisp","name":"Lisp","count":1},{"id":"llm工具","name":"LLM工具","count":1},{"id":"mcp","name":"MCP","count":1},{"id":"mit","name":"MIT","count":1},{"id":"mvp","name":"MVP","count":1},{"id":"naval-ravikant","name":"Naval Ravikant","count":1},{"id":"ncaa疯狂三月","name":"NCAA疯狂三月","count":1},{"id":"noema","name":"noema","count":1},{"id":"notes","name":"notes","count":1},{"id":"notion","name":"Notion","count":1},{"id":"nvidia-gtc-2025","name":"NVIDIA GTC 2025","count":1},{"id":"openai","name":"OpenAI","count":1},{"id":"optimus机器人","name":"Optimus机器人","count":1},{"id":"peter-lax","name":"Peter Lax","count":1},{"id":"pixar","name":"pixar","count":1},{"id":"prompt-engineering","name":"Prompt Engineering","count":1},{"id":"psychology","name":"psychology","count":1},{"id":"publishing","name":"publishing","count":1},{"id":"python","name":"Python","count":1},{"id":"reliability","name":"reliability","count":1},{"id":"report","name":"report","count":1},{"id":"research","name":"Research","count":1},{"id":"research-career","name":"research-career","count":1},{"id":"robotics","name":"robotics","count":1},{"id":"sanjay-ghemawat","name":"Sanjay Ghemawat","count":1},{"id":"satya-nadella","name":"Satya Nadella","count":1},{"id":"scaling-laws","name":"Scaling Laws","count":1},{"id":"security","name":"security","count":1},{"id":"skills","name":"skills","count":1},{"id":"slimv","name":"Slimv","count":1},{"id":"technical-report","name":"technical-report","count":1},{"id":"terence-tao","name":"terence-tao","count":1},{"id":"vim","name":"Vim","count":1},{"id":"vlime","name":"Vlime","count":1},{"id":"wolfram","name":"Wolfram","count":1},{"id":"xai","name":"xAI","count":1},{"id":"yann-lecun","name":"Yann LeCun","count":1},{"id":"yc","name":"YC","count":1},{"id":"上下文工程","name":"上下文工程","count":1},{"id":"个人反思","name":"个人反思","count":1},{"id":"个人电脑","name":"个人电脑","count":1},{"id":"中美关系","name":"中美关系","count":1},{"id":"乌克兰战争","name":"乌克兰战争","count":1},{"id":"乔姆斯基","name":"乔姆斯基","count":1},{"id":"交通基础设施","name":"交通基础设施","count":1},{"id":"产品市场契合","name":"产品市场契合","count":1},{"id":"人工智能未来","name":"人工智能未来","count":1},{"id":"人形机器人","name":"人形机器人","count":1},{"id":"人机协作","name":"人机协作","count":1},{"id":"人机博弈","name":"人机博弈","count":1},{"id":"人生哲学","name":"人生哲学","count":1},{"id":"人类未来","name":"人类未来","count":1},{"id":"人类福祉","name":"人类福祉","count":1},{"id":"代理开发","name":"代理开发","count":1},{"id":"代理式编程","name":"代理式编程","count":1},{"id":"代码生成","name":"代码生成","count":1},{"id":"任务管理","name":"任务管理","count":1},{"id":"仿真学习","name":"仿真学习","count":1},{"id":"企业采用","name":"企业采用","count":1},{"id":"众包协作","name":"众包协作","count":1},{"id":"优绩主义","name":"优绩主义","count":1},{"id":"伦理监管","name":"伦理监管","count":1},{"id":"伯克希尔-哈撒韦","name":"伯克希尔·哈撒韦","count":1},{"id":"俄乌战争","name":"俄乌战争","count":1},{"id":"保罗-狄拉克","name":"保罗·狄拉克","count":1},{"id":"保险业务","name":"保险业务","count":1},{"id":"信号处理","name":"信号处理","count":1},{"id":"信息动力学","name":"信息动力学","count":1},{"id":"信息物理学","name":"信息物理学","count":1},{"id":"全球贸易","name":"全球贸易","count":1},{"id":"公共美德","name":"公共美德","count":1},{"id":"具身智能","name":"具身智能","count":1},{"id":"写作","name":"写作","count":1},{"id":"写作工具","name":"写作工具","count":1},{"id":"冷战数学","name":"冷战数学","count":1},{"id":"创业转型","name":"创业转型","count":1},{"id":"创业领导力","name":"创业领导力","count":1},{"id":"创造力与年龄","name":"创造力与年龄","count":1},{"id":"制度经济学","name":"制度经济学","count":1},{"id":"加性数论","name":"加性数论","count":1},{"id":"包容性制度","name":"包容性制度","count":1},{"id":"医疗应用","name":"医疗应用","count":1},{"id":"半导体","name":"半导体","count":1},{"id":"协同设计","name":"协同设计","count":1},{"id":"单位距离问题","name":"单位距离问题","count":1},{"id":"南非种族隔离","name":"南非种族隔离","count":1},{"id":"卢卡-东契奇","name":"卢卡·东契奇","count":1},{"id":"压缩感知","name":"压缩感知","count":1},{"id":"变换编码","name":"变换编码","count":1},{"id":"可持续能源","name":"可持续能源","count":1},{"id":"可重复性危机","name":"可重复性危机","count":1},{"id":"史蒂夫-乔布斯","name":"史蒂夫·乔布斯","count":1},{"id":"史蒂夫-纳什","name":"史蒂夫·纳什","count":1},{"id":"同伦类型论","name":"同伦类型论","count":1},{"id":"哲学辩论","name":"哲学辩论","count":1},{"id":"国际政治","name":"国际政治","count":1},{"id":"在线教育","name":"在线教育","count":1},{"id":"地缘政治","name":"地缘政治","count":1},{"id":"埃尔德什猜想","name":"埃尔德什猜想","count":1},{"id":"埃罗尔-马斯克","name":"埃罗尔·马斯克","count":1},{"id":"埃隆-马斯克","name":"埃隆·马斯克","count":1},{"id":"基督教与科学","name":"基督教与科学","count":1},{"id":"基础主义","name":"基础主义","count":1},{"id":"基础模型","name":"基础模型","count":1},{"id":"复合工程","name":"复合工程","count":1},{"id":"外交谈判","name":"外交谈判","count":1},{"id":"多伦多大学","name":"多伦多大学","count":1},{"id":"多体物理","name":"多体物理","count":1},{"id":"多智能体协同","name":"多智能体协同","count":1},{"id":"大数假说","name":"大数假说","count":1},{"id":"太空探索","name":"太空探索","count":1},{"id":"孤子理论","name":"孤子理论","count":1},{"id":"学习路径","name":"学习路径","count":1},{"id":"学术写作","name":"学术写作","count":1},{"id":"学术建议","name":"学术建议","count":1},{"id":"学术生态","name":"学术生态","count":1},{"id":"学术研究方法","name":"学术研究方法","count":1},{"id":"学术自传","name":"学术自传","count":1},{"id":"宇宙学","name":"宇宙学","count":1},{"id":"官僚主义改革","name":"官僚主义改革","count":1},{"id":"定理证明","name":"定理证明","count":1},{"id":"家族故事","name":"家族故事","count":1},{"id":"对冲基金","name":"对冲基金","count":1},{"id":"对称性","name":"对称性","count":1},{"id":"对称性破缺","name":"对称性破缺","count":1},{"id":"小平邦彦","name":"小平邦彦","count":1},{"id":"少林寺","name":"少林寺","count":1},{"id":"就业与经济","name":"就业与经济","count":1},{"id":"就业影响","name":"就业影响","count":1},{"id":"工作尊严","name":"工作尊严","count":1},{"id":"工作流","name":"工作流","count":1},{"id":"工程精神","name":"工程精神","count":1},{"id":"幸福与成功","name":"幸福与成功","count":1},{"id":"库珀-弗拉格","name":"库珀·弗拉格","count":1},{"id":"开发环境","name":"开发环境","count":1},{"id":"开发者工具","name":"开发者工具","count":1},{"id":"开发者生产力","name":"开发者生产力","count":1},{"id":"开源模型","name":"开源模型","count":1},{"id":"形式主义","name":"形式主义","count":1},{"id":"彼得-拉克斯","name":"彼得·拉克斯","count":1},{"id":"微分几何","name":"微分几何","count":1},{"id":"心理学","name":"心理学","count":1},{"id":"思维链","name":"思维链","count":1},{"id":"慈善","name":"慈善","count":1},{"id":"慈善事业","name":"慈善事业","count":1},{"id":"慕尼黑安全会议","name":"慕尼黑安全会议","count":1},{"id":"成长型思维","name":"成长型思维","count":1},{"id":"技术监管","name":"技术监管","count":1},{"id":"技能退化","name":"技能退化","count":1},{"id":"投资哲学","name":"投资哲学","count":1},{"id":"推理时计算","name":"推理时计算","count":1},{"id":"提纲写作","name":"提纲写作","count":1},{"id":"摩根大通","name":"摩根大通","count":1},{"id":"播客","name":"播客","count":1},{"id":"政治哲学","name":"政治哲学","count":1},{"id":"数字革命","name":"数字革命","count":1},{"id":"数学反例","name":"数学反例","count":1},{"id":"数学史","name":"数学史","count":1},{"id":"数学基础","name":"数学基础","count":1},{"id":"数学实践","name":"数学实践","count":1},{"id":"数学家传记","name":"数学家传记","count":1},{"id":"数学工作流","name":"数学工作流","count":1},{"id":"数学形式化","name":"数学形式化","count":1},{"id":"数据中心","name":"数据中心","count":1},{"id":"数据效率","name":"数据效率","count":1},{"id":"数据科学","name":"数据科学","count":1},{"id":"文化多样性","name":"文化多样性","count":1},{"id":"文化转型","name":"文化转型","count":1},{"id":"文学编程","name":"文学编程","count":1},{"id":"斯多葛主义","name":"斯多葛主义","count":1},{"id":"无人机","name":"无人机","count":1},{"id":"日本数学","name":"日本数学","count":1},{"id":"日记写作","name":"日记写作","count":1},{"id":"智能代理","name":"智能代理","count":1},{"id":"智能体ai","name":"智能体AI","count":1},{"id":"智能分析","name":"智能分析","count":1},{"id":"更衣室训话","name":"更衣室训话","count":1},{"id":"未来战争","name":"未来战争","count":1},{"id":"未来趋势","name":"未来趋势","count":1},{"id":"机器人技术","name":"机器人技术","count":1},{"id":"杰米-戴蒙","name":"杰米·戴蒙","count":1},{"id":"柏拉图主义","name":"柏拉图主义","count":1},{"id":"查尔斯-巴克利","name":"查尔斯·巴克利","count":1},{"id":"查理-芒格","name":"查理·芒格","count":1},{"id":"标记语言","name":"标记语言","count":1},{"id":"格罗滕迪克","name":"格罗滕迪克","count":1},{"id":"概形","name":"概形","count":1},{"id":"模仿理论","name":"模仿理论","count":1},{"id":"模型应用","name":"模型应用","count":1},{"id":"模型驱动交易","name":"模型驱动交易","count":1},{"id":"模拟宇宙假说","name":"模拟宇宙假说","count":1},{"id":"欧洲创新","name":"欧洲创新","count":1},{"id":"欧洲民主","name":"欧洲民主","count":1},{"id":"欧盟资本市场","name":"欧盟资本市场","count":1},{"id":"欺骗性ai","name":"欺骗性AI","count":1},{"id":"比尔-盖茨","name":"比尔·盖茨","count":1},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","count":1},{"id":"沉思录","name":"沉思录","count":1},{"id":"沙奎尔-奥尼尔","name":"沙奎尔·奥尼尔","count":1},{"id":"波波维奇","name":"波波维奇","count":1},{"id":"泽连斯基","name":"泽连斯基","count":1},{"id":"活文档","name":"活文档","count":1},{"id":"测试时计算","name":"测试时计算","count":1},{"id":"涌现","name":"涌现","count":1},{"id":"深度阅读","name":"深度阅读","count":1},{"id":"湖人三连冠","name":"湖人三连冠","count":1},{"id":"炒作与现实","name":"炒作与现实","count":1},{"id":"热力学第二定律","name":"热力学第二定律","count":1},{"id":"特斯拉","name":"特斯拉","count":1},{"id":"特朗普","name":"特朗普","count":1},{"id":"狄拉克","name":"狄拉克","count":1},{"id":"狄拉克方程","name":"狄拉克方程","count":1},{"id":"理论物理","name":"理论物理","count":1},{"id":"生产力工具","name":"生产力工具","count":1},{"id":"生成式ai","name":"生成式AI","count":1},{"id":"相对论","name":"相对论","count":1},{"id":"知识管理","name":"知识管理","count":1},{"id":"研究方法","name":"研究方法","count":1},{"id":"研究生指南","name":"研究生指南","count":1},{"id":"硅谷","name":"硅谷","count":1},{"id":"社交媒体","name":"社交媒体","count":1},{"id":"社会公平","name":"社会公平","count":1},{"id":"福柯","name":"福柯","count":1},{"id":"离散几何","name":"离散几何","count":1},{"id":"私募股权","name":"私募股权","count":1},{"id":"科学哲学","name":"科学哲学","count":1},{"id":"科学研究","name":"科学研究","count":1},{"id":"科学论文","name":"科学论文","count":1},{"id":"科技史","name":"科技史","count":1},{"id":"科比-布莱恩特","name":"科比·布莱恩特","count":1},{"id":"移民政策","name":"移民政策","count":1},{"id":"稀疏表示","name":"稀疏表示","count":1},{"id":"空间技术","name":"空间技术","count":1},{"id":"竞技长青","name":"竞技长青","count":1},{"id":"笔记技巧","name":"笔记技巧","count":1},{"id":"第一性原理","name":"第一性原理","count":1},{"id":"算法与社会","name":"算法与社会","count":1},{"id":"篮球战术","name":"篮球战术","count":1},{"id":"篮球访谈","name":"篮球访谈","count":1},{"id":"类型论","name":"类型论","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"约束等距性","name":"约束等距性","count":1},{"id":"纯文本写作","name":"纯文本写作","count":1},{"id":"纯粹数学","name":"纯粹数学","count":1},{"id":"线性代数","name":"线性代数","count":1},{"id":"经典阅读","name":"经典阅读","count":1},{"id":"结对编程","name":"结对编程","count":1},{"id":"编程教学","name":"编程教学","count":1},{"id":"编程语言","name":"编程语言","count":1},{"id":"美国ai政策","name":"美国AI政策","count":1},{"id":"美国政府改革","name":"美国政府改革","count":1},{"id":"美国经济","name":"美国经济","count":1},{"id":"美欧关系","name":"美欧关系","count":1},{"id":"翻译","name":"翻译","count":1},{"id":"职业自律","name":"职业自律","count":1},{"id":"职业辩护","name":"职业辩护","count":1},{"id":"联邦政府改革","name":"联邦政府改革","count":1},{"id":"联邦财政","name":"联邦财政","count":1},{"id":"股东信","name":"股东信","count":1},{"id":"股东大会","name":"股东大会","count":1},{"id":"能源","name":"能源","count":1},{"id":"能量基模型","name":"能量基模型","count":1},{"id":"自动驾驶","name":"自动驾驶","count":1},{"id":"自我认知","name":"自我认知","count":1},{"id":"自由意志主义","name":"自由意志主义","count":1},{"id":"自由民主","name":"自由民主","count":1},{"id":"苹果","name":"苹果","count":1},{"id":"苹果公司","name":"苹果公司","count":1},{"id":"药物研发","name":"药物研发","count":1},{"id":"蓝鳍金枪鱼","name":"蓝鳍金枪鱼","count":1},{"id":"虚拟细胞","name":"虚拟细胞","count":1},{"id":"蛋白质折叠","name":"蛋白质折叠","count":1},{"id":"蜂巢思维","name":"蜂巢思维","count":1},{"id":"行为偏差","name":"行为偏差","count":1},{"id":"西部决赛","name":"西部决赛","count":1},{"id":"规模法则","name":"规模法则","count":1},{"id":"规范驱动开发","name":"规范驱动开发","count":1},{"id":"言论自由","name":"言论自由","count":1},{"id":"计算增强生成","name":"计算增强生成","count":1},{"id":"计算数学","name":"计算数学","count":1},{"id":"计算机教育","name":"计算机教育","count":1},{"id":"计算机证明","name":"计算机证明","count":1},{"id":"训练体系","name":"训练体系","count":1},{"id":"论文写作","name":"论文写作","count":1},{"id":"论文撰写","name":"论文撰写","count":1},{"id":"访谈实录","name":"访谈实录","count":1},{"id":"詹姆斯-西蒙斯","name":"詹姆斯·西蒙斯","count":1},{"id":"语言学","name":"语言学","count":1},{"id":"诺贝尔经济学奖","name":"诺贝尔经济学奖","count":1},{"id":"谷歌","name":"谷歌","count":1},{"id":"贝叶斯方法","name":"贝叶斯方法","count":1},{"id":"财政削减","name":"财政削减","count":1},{"id":"资本配置","name":"资本配置","count":1},{"id":"超级智能","name":"超级智能","count":1},{"id":"超级计算","name":"超级计算","count":1},{"id":"跨领域训练","name":"跨领域训练","count":1},{"id":"身体转型","name":"身体转型","count":1},{"id":"软件工程范式","name":"软件工程范式","count":1},{"id":"软件开发最佳实践","name":"软件开发最佳实践","count":1},{"id":"软件开发未来","name":"软件开发未来","count":1},{"id":"运动恢复","name":"运动恢复","count":1},{"id":"还原论","name":"还原论","count":1},{"id":"通用人工智能","name":"通用人工智能","count":1},{"id":"重整化","name":"重整化","count":1},{"id":"量化交易","name":"量化交易","count":1},{"id":"金融服务","name":"金融服务","count":1},{"id":"金融监管","name":"金融监管","count":1},{"id":"阅读方法","name":"阅读方法","count":1},{"id":"集合论","name":"集合论","count":1},{"id":"非虚构阅读","name":"非虚构阅读","count":1},{"id":"预训练","name":"预训练","count":1},{"id":"领导力","name":"领导力","count":1},{"id":"香农信息熵","name":"香农信息熵","count":1},{"id":"马刺","name":"马刺","count":1},{"id":"马库斯-奥勒留","name":"马库斯·奥勒留","count":1}],"moduleNavItems":[{"id":"essays","label":"Essays","href":"/?label=Essays","order":40,"icon":"BookOpen","count":62},{"id":"talks","label":"Talks","href":"/?label=Talks","order":42,"icon":"Video","count":165},{"id":"reports","label":"Reports","href":"/?label=Reports","order":41,"icon":"FileText","count":36},{"id":"notes","label":"Notes","href":"/?label=Notes","order":30,"icon":"Eye","count":78}],"children":"$L10"}]]}]]}]
+10:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"min-h-screen px-12 py-12 font-sans text-slate-900","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n            (function () {\n              var pathname = window.location.pathname || '';\n              var canonicalPrefix = '/hinbox';\n\n              if (/^/hinbox(?:/|$)/i.test(pathname) && pathname !== pathname.replace(/^/hinbox/i, canonicalPrefix)) {\n                var target = pathname.replace(/^/hinbox/i, canonicalPrefix) + window.location.search + window.location.hash;\n                window.location.replace(target);\n                return;\n              }\n            }());\n          "}}],["$","div",null,{"className":"mx-auto flex min-h-[60vh] max-w-2xl flex-col justify-center gap-4","children":[["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"页面未找到"}],["$","p",null,{"className":"text-base leading-7 text-slate-600","children":"如果你是从大写路径进入本站，系统会自动跳转到小写的规范地址。"}],["$","p",null,{"className":"text-base","children":["返回首页：",["$","a",null,{"className":"text-sky-600 underline underline-offset-4","href":"/hinbox/","children":"/hinbox/"}]]}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+11:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+12:T966d,<h3>内容概述</h3>
+<p>本期内容是一门关于如何高效使用 AI 编程智能体（Coding Agents）构建软件的进阶教程。讲解人以当前流行的 AI 代码编辑器 Cursor 为例，系统阐述了智能体的工作原理及其核心运行机制。课程内容涵盖了编写高质量提示词与上下文管理的方法、如何在庞大的代码库中进行精准与语义搜索、利用“计划模式”（Plan Mode）开发新功能的标准流程、遵循调试基本原则解决复杂 Bug（如使用 Debug 模式和 MCP 服务器），以及如何通过引入 Bugbot 进行代码审查与自动化测试。最后，讲解人还分享了如何通过配置“规则”（Rules）和“技能”（Skills）以及集成 CLI 工具，为团队量身定制 AI 智能体，从而全方位提升软件工程的开发效率与代码质量。</p>
+<h3>专用词语翻译列表</h3>
+<table>
+<thead>
+<tr>
+<th align="left">英文原词 / 缩写</th>
+<th align="left">中文翻译</th>
+<th align="left">语境说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Coding Agent</td>
+<td align="left">编程智能体 / AI 编程助手</td>
+<td align="left">能够自主编写、修改代码并执行工具的 AI 模型</td>
+</tr>
+<tr>
+<td align="left">Harness</td>
+<td align="left">运行环境 / 框架</td>
+<td align="left">智能体运行的底层架构，包含指令、工具和模型</td>
+</tr>
+<tr>
+<td align="left">System Prompt</td>
+<td align="left">系统提示词</td>
+<td align="left">指导 AI 模型行为的基础设定指令</td>
+</tr>
+<tr>
+<td align="left">Context / Context Window</td>
+<td align="left">上下文 / 上下文窗口</td>
+<td align="left">智能体的“工作记忆”，包含对话历史、文件内容等</td>
+</tr>
+<tr>
+<td align="left">Semantic Search</td>
+<td align="left">语义搜索</td>
+<td align="left">基于文本含义而非具体字词匹配的搜索方式</td>
+</tr>
+<tr>
+<td align="left">Embedding Model</td>
+<td align="left">嵌入模型 / 向量模型</td>
+<td align="left">将代码库转化为可供 AI 语义理解的向量数据的模型</td>
+</tr>
+<tr>
+<td align="left">Grep / Ripgrep</td>
+<td align="left">Grep / Ripgrep 命令</td>
+<td align="left">用于在代码库中进行精确字符串匹配搜索的工具</td>
+</tr>
+<tr>
+<td align="left">Sub Agent</td>
+<td align="left">子智能体</td>
+<td align="left">在独立上下文窗口中运行，专门处理特定子任务的 AI</td>
+</tr>
+<tr>
+<td align="left">Mermaid Diagram</td>
+<td align="left">Mermaid 图表</td>
+<td align="left">一种使用文本代码生成架构图、流程图的工具</td>
+</tr>
+<tr>
+<td align="left">Tech Debt</td>
+<td align="left">技术债务</td>
+<td align="left">因采取短期快速的编码方案而在未来需要付出代价的代码</td>
+</tr>
+<tr>
+<td align="left">Plan Mode</td>
+<td align="left">计划模式</td>
+<td align="left">Cursor 中的功能，可先生成分步开发计划再生成代码</td>
+</tr>
+<tr>
+<td align="left">Debug Mode</td>
+<td align="left">调试模式</td>
+<td align="left">Cursor 中的功能，通过收集运行时证据来排查复杂 Bug</td>
+</tr>
+<tr>
+<td align="left">MCP Servers</td>
+<td align="left">MCP 服务器</td>
+<td align="left">模型上下文协议服务器，用于将外部工具数据接入智能体</td>
+</tr>
+<tr>
+<td align="left">Bugbot</td>
+<td align="left">Bugbot</td>
+<td align="left">Cursor 提供的 AI 代码审查机器人功能</td>
+</tr>
+<tr>
+<td align="left">Rules</td>
+<td align="left">规则</td>
+<td align="left">全局生效的 Markdown 文件，规定智能体需始终遵循的规范</td>
+</tr>
+<tr>
+<td align="left">Skills</td>
+<td align="left">技能</td>
+<td align="left">动态加载的功能扩展模块，智能体在需要时调用的专门工作流</td>
+</tr>
+<tr>
+<td align="left">CLI Tool</td>
+<td align="left">命令行工具</td>
+<td align="left">在终端中运行的工具（如 GitHub CLI, Docker 等）</td>
+</tr>
+<tr>
+<td align="left">Fuzz (Testing)</td>
+<td align="left">模糊测试</td>
+<td align="left">向软件输入大量随机或变异数据以发现潜在 Bug 的测试方法</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>访谈/课程正文</h2>
+<h3>引言与核心概念</h3>
+<p><strong>讲解人：</strong>
+如今，开发人员正广泛使用智能体（Agents）来编写代码。大家不再亲手敲下每一行代码，而是与智能体交流，让它代为编写。在上一节课中，我们学习了智能体的核心行为逻辑：赋予它们强大的工具，并让它们在一个循环中自主运行。在本节课中，我们将探讨与编程智能体高效协作以构建软件的策略。让我们开始吧。</p>
+<p>Cursor 是一款内置了编程智能体的 AI 编辑器。这个智能体运行在一个被称为“运行环境（Harness）”的架构中。该架构由三个部分组成：首先是你向模型下达的<strong>指令（Instructions）</strong>，比如系统提示词或任何引导其行为的规则；其次是你提供给模型的<strong>工具（Tools）</strong>，比如编辑文件、搜索代码库或运行终端命令的能力；第三是该运行环境所使用的<strong>模型（Model）</strong>，在 Cursor 中，用户可以在多种前沿模型之间进行选择。</p>
+<p>基于你设定的目标，这些编程智能体能够承担非常复杂的任务，而且每个运行环境都有细微的差别。不过，你不需要过多考虑这些底层细节，Cursor 会为你处理好这一切。更重要的是，你要学习如何高效地使用这些模型，而这一切都要从你提供的提示词（Prompts）开始。</p>
+<h3>提示词编写与上下文管理</h3>
+<p><strong>讲解人：</strong>
+让我们来比较两种与模型交互或编写提示词的方法。你可以写一个非常简单的提示词，但这需要智能体去猜测你想要的页面布局、组件或样式方案。这有时候能行得通，但通常情况下，你需要向模型提供非常明确的意图。</p>
+<p>相比之下，如果你提供一个细节丰富得多的提示词，其中引用了代码库中现有的模式，或者提供了日志等附加信息，那么你获得高质量输出的概率就会高得多。在后续讲解开发新功能和使用“计划模式（Plan mode）”时，我们会深入探讨这一点。但需要记住的是：你通过提示词传达给模型的意图，真的会决定你最终获得的代码质量。</p>
+<p>在与智能体协作的过程中，你们的对话会不断积累“上下文（Context）”。比如你们来回发送的消息、智能体发起的工具调用，或者被读取的文件内容。这些上下文就像是智能体的“工作记忆”，它非常强大，但也存在一些限制。因此，你需要留意智能体占用了多少上下文。</p>
+<p>我通常建议：如果你要开始开发一个新功能，最好开启一段新的对话；或者如果你发现智能体开始偏离轨道并频繁犯错，这也是开启新对话的一个好信号。最新的模型在为你寻找正确的上下文方面变得越来越出色。当你为它们配备了高质量的工具（比如允许它们搜索整个代码库）时，它们就能根据需要调取所有相关的文件。所以，如果你明确知道要修改哪个文件，你可以在提示词中直接@标记它；如果你不知道，现在的智能体也相当擅长替你找到正确的文件。</p>
+<h3>搜索与理解代码库</h3>
+<p><strong>讲解人：</strong>
+软件工程师最重要的工作之一，就是在脑海中构建出代码库的“心理映射（Mental map）”，并深刻理解系统的运作方式。随着项目的扩大，找到正确的代码以及梳理这些复杂系统变得越来越困难。在过去，要梳理代码意味着你需要掌握正则表达式（Regex）的编写模式，或者学习新的工具才能高效地搜索代码库。但现在有了编程智能体，你可以用自然语言描述你要找的东西，然后让智能体利用工具帮你找到准确的信息。</p>
+<p>Cursor 为智能体配备了非常具体的搜索工具。了解这些工具的工作原理，有助于你提出更好的问题并获得更准确的结果。</p>
+<p>寻找一段代码最精确的方法是进行“精确匹配（Exact match）”。无论是函数名、变量名，还是代码中的其他片段，智能体都可以使用诸如 <code>grep</code> 这样的工具来帮你找到这些精确的字符串匹配，它们还能帮你编写复杂的正则表达式。后来出现了比 <code>grep</code> 更好的工具，比如支持递归搜索的 <code>ripgrep</code>，两者都很棒。但在 Cursor 中我们更进了一步，使用了一种叫做 <code>instant grep</code> 的技术，它能在极其庞大的代码库中进一步加速这种基于智能体的搜索。你不需要学习或配置任何东西，Cursor 的智能体会自动使用它们。你只需用自然语言与智能体交谈，它就会在后台使用这些工具来搜索你的代码库。</p>
+<p>当你不知道确切的关键词时，“语义搜索（Semantic search）”可以通过你提供的文本含义来帮你找到代码库中的对应部分。比如，如果你问智能体：“我们在哪里处理用户认证？”，语义搜索能帮你找到像 <code>middleware</code>（中间件）这样的文件，即使该文件中并没有直接出现“认证（authentication）”这个确切的字符串。这之所以可能，是因为 Cursor 会使用一个嵌入模型（Embedding model）将你的代码库转化为可搜索的向量数据。说白了就是，Cursor 对你的整个代码库和所有代码符号有深刻的理解，然后能将它们与你使用的自然语言映射起来。根据我们的研究，当你在代码库中将精确匹配（如 <code>grep</code>）和语义搜索结合使用时，可以显著提高响应质量，在处理超大型代码库时效果尤为显著。同样，你不需要配置任何东西，Cursor 会在启动应用程序时在后台自动索引你的代码库。</p>
+<p>智能体还可以生成“子智能体（Sub agents）”来更高效地完成任务。Cursor 内置了一个“探索子智能体（Explore sub-agent）”来帮你搜寻代码库。这个子智能体在自己独立的上下文窗口中运行，与父智能体隔离开来，因此它既快速又高效，不会使主对话变得臃肿。正如我们在课程第一部分所讲的，理解并管理你的上下文至关重要。如果你在一个包含大量文件的庞大代码库中进行搜索，会消耗大量的上下文和 token。因此，我强烈建议使用子智能体来优化上下文管理，它们只会返回搜索结果，从而让主对话保持高度专注。</p>
+<p>对于庞大或陌生的代码库，你还可以要求智能体为你生成架构图。一个很受欢迎的工具叫做 Mermaid 图表，它可以帮你把整个代码库可视化。这些图表对于新人入职培训文档，或者审查数据在系统中的流向非常有帮助。</p>
+<p>我经常看到的一个常见错误是：开发者要求智能体修改代码，但他们自己还没有完全搞懂这些代码的运作原理。于是智能体可能会去创建一套新的工具函数，或者在代码库中引入一种全新的设计模式，而实际上代码库中原本就有现成的代码可以复用。在这里，你的“意图”非常关键。编程智能体会非常字面地理解你的请求。如果你不提供明确的意图，它们就会基于自己的判断行事。这有时或许可行，但遵循代码库中现有的模式是非常重要的，否则你将会制造大量的技术债务（Tech debt）。</p>
+<p>所以，在进入下一环节之前，我强烈建议先使用编程智能体来加深对代码库的理解。</p>
+<h3>开发新功能与计划模式（Plan Mode）</h3>
+<p><strong>讲解人：</strong>
+现在你能找到代码并对代码库有了更好的理解，是时候进入下一章了。我们将学习如何把想法转化为新功能，如何从制定计划开始，如何验证其可行性，并最终将想法变成真正运行的软件。</p>
+<p>借助编程智能体高效开发新功能的关键在于：<strong>将工作拆解为智能体可以自行验证的步骤。</strong> 因此，我建议在开发任何新功能时，都先制定一个计划，并设置好护栏，以便智能体能够验证并修复自己的错误。实际上，在你真正去生成所有代码之前，编程智能体非常擅长帮你梳理在计划阶段需要做出的各种决策。</p>
+<p>在 Cursor 中，我们有一个名为“计划模式（Plan mode）”的功能，它可以帮助你调研代码库、提出并回答澄清性问题，然后生成一个你可以编辑和修改的分步计划，最后再去生成代码。让我们实际看一看。</p>
+<p>现在我打开了 Cursor，针对我们的文档系统，我有一个好主意：我想为我们支持的每一个 AI 模型添加专门的页面，以便用户能看到更多细节。在智能体输入框中，我按下 <code>Shift + Tab</code> 键进入计划模式，然后输入：“让我们在应用文档中为我们支持的每个模型添加专属页面。”</p>
+<p>我故意把这个提示词写得有些模糊。我希望与模型进行交互，共同弄清楚这里的需求，并反复打磨这个计划，以确保它的质量。智能体开始工作了，你可以看到它实际上启动了我们刚才提到的“探索子智能体”去理解文档站点的结构、现有代码库的工作原理、哪些代码可以复用，以及我们需要在代码库中添加或修改哪些内容。查看日志，我们能看到模型正在使用诸如 <code>grep</code> 这样的工具来精确匹配文件。它正在阅读特定的文件，并思考实现我们目标的最佳方案。此外，它还可以运行 Shell 命令去寻找更复杂的代码模式。</p>
+<p>接着，它会向我提出一些问题，希望能明确我们的需求。我们收到的第一个问题是：“哪些模型应该有专属页面？”
+我回答：“只包含未隐藏的模型。”因为我们支持的模型很多，初期我们尽量保持一个小而聚焦的集合。</p>
+<p>Cursor 界面的一个优点是，我们可以创建非常互动的 Markdown 计划，我们可以在其中直接编辑并根据需要进行修改。当准备就绪时，我们就可以点击“构建（Build）”按钮。
+让我们一起通读一下这个计划，确保它大体上是正确的：</p>
+<ul>
+<li>我们有一个列出所有模型的模型页面。</li>
+<li>模型建议针对我们支持的所有不同页面使用动态路由（Dynamic route），这看起来很合理。</li>
+<li>它会在我们的配置文件中通过 ID 查找模型。</li>
+<li>它将创建一个新组件来展示模型的能力，这也不错。</li>
+<li>它会在侧边导航栏中连接这些页面，并列出了可能需要修改的文件。</li>
+<li>这里甚至还有一个我们之前提到的 Mermaid 架构图，帮助我们将数据在应用程序中的流向可视化。</li>
+</ul>
+<p>如果我想的话，我可以在这里直接进行修改，但为了节省时间，我们就直接点击“构建”。好了，计划启动，代码开始生成了。</p>
+<p>我们可以点击查看代码差异（Diff）。但我想先对智能体说：“启动本地开发服务器来测试这些修改。”我们现在可以告诉智能体，既然代码写好了，它实际上知道该如何启动我们的软件。因为我们正在为这个文档应用开发 Web 程序，它可以直接在后台运行开发服务器，监听端口，然后在 Cursor 内部打开集成浏览器，这样我们就可以去验证修改了。</p>
+<p>文档页面已经在 localhost 上打开了。让我把它放大一点。在左侧导航栏中，现在有了一个“模型”下拉菜单。我们看到了一些新模型，可以点击其中一个页面。它正在编译新页面……结果报错了，这其实太好了！
+这是一个很好的例子，向我们展示了如何向模型提供反馈。在这种情况下，看起来是一个函数错误，提示“这个 manifest 不是一个函数”。我会复制这个错误，把它粘贴给模型，然后按下回车。使用强类型语言、代码检查工具（Linters）或其他能向模型提供报错反馈的工具，好处就在于此：你可以迅速把错误扔回给它，它知道该如何修复。</p>
+<p>现在我们的应用正在编译，它进行了热重载（Hot reloads），我们可以看到新版本正常工作了。我们计划的第一个版本已经完成！</p>
+<p>在审查模型的输出时，我们可能会想对某些地方进行微调和迭代。目前的设计还过得去，但我认为可以做得更好。所以，我直接截了一张图粘贴进去，并说：“实际上，让我们把特性的胶囊标签（Pills）做得更好看一些，换上更好的图标。”
+向模型提供图片或其他上下文的绝佳之处在于，它为模型理解你当前看到的内容提供了极其丰富的信号。在 Cursor 的集成浏览器中，我们也有一些很好的功能，比如可以直接点选页面上的特定元素，或者像使用外部 Chrome 浏览器一样打开开发者工具。</p>
+<p>模型正在进行修改。我们看到它决定为我们的标签使用一些花哨的颜色，我觉得还可以。我也喜欢它选的图标，图标肯定好多了。
+但现在我可能想换一种方式，这次我使用语音输入：“让我们保持颜色更符合我们设计系统的品牌调性。”然后提交。因为我们的文档中其他地方并没有太多紫色或绿色，接着它就会去修改。</p>
+<p><strong>从制定计划开始，然后通过与智能体反复沟通来迭代设计细节——这就是我构建绝大多数新事物的工作流。</strong> 说实话，我对目前的成果非常满意。现在我们可能已经把这个功能做到了可以发布的状态。</p>
+<p>我们构建了一个新功能，但软件总是有 Bug，而且有些 Bug 很难被发现和理解。在下一章中，我们将学习如何使用智能体，以系统化的方法来寻找和修复 Bug。</p>
+<h3>使用智能体进行代码调试</h3>
+<p><strong>讲解人：</strong>
+随着智能体为我们编写了越来越多的代码，工程师们花在审查代码、寻找并修复 Bug 上的时间也越来越多。即使有编程智能体的帮助，温习一下如何进行高效调试的基本原则也是很有价值的。无论是人类还是智能体来执行这项工作，出色的调试都遵循相同的原则：</p>
+<ol>
+<li><strong>你需要有办法复现这个问题。</strong> 如果你无法复现，就很难验证它是否已被修复。</li>
+<li><strong>你需要将问题精简到最核心的情况。</strong> 其他所有多余的信息只会干扰你和智能体。</li>
+<li><strong>你要隔离你正在修改的代码。</strong> 如果你一次性修改了三个地方，就很难确切找出根本原因。</li>
+<li><strong>你要带着关于根本原因的具体假设进行排查。</strong> 这有助于你快速隔离并发现问题。</li>
+<li><strong>为你的代码添加观测手段（Instrument your code）。</strong> 添加日志或使用调试器，来弄清楚数据在系统中是如何流动的。</li>
+<li><strong>最后，一旦你找到并修复了问题，要通过编写测试来防止未来出现回归（Regressions）。</strong> 这能确保这个 Bug 未来不会再次出现。</li>
+</ol>
+<p>如果你能遵循这些调试基本原则，你就能在排查修复 Bug 时游刃有余。</p>
+<p>对于一些错误信息非常明确或相对简单的 Bug，智能体通常可以直接修复。比如我们在上一章中看到的那个错误，你可以直接把报错信息粘贴给智能体并说：“嘿，请修复这个问题。”它基本上就能通过提供的堆栈跟踪（Stack trace）准确地找出所需的信息。所以，在这种情况下，智能体发挥了作用，页面重载，问题修复。这对于简单的 Bug 非常有效。</p>
+<p>然而，当你需要调试一个更系统性的问题并寻找其根本原因时，这种方法就行不通了。对于最困难的 Bug，我们推荐使用 Cursor 中的**“调试模式（Debug mode）”**。</p>
+<p>与简单地粘贴一段堆栈跟踪不同，调试模式会首先去收集运行时证据，并遵循我们刚才讨论过的那些调试原则：
+首先，它会针对到底哪里出错了生成一些假设；其次，它会插桩你的代码，尝试添加一些有针对性的日志，以便智能体后续读取；接着，它会回来要求你实际重现这个问题。所以你在应用中点击操作，触发 Bug，然后智能体就会收集并读取这些日志数据。最后，它会分析日志，试图找出根本原因，并基于收集到的证据进行极其精准的修复。
+我们发现，相比于让你手动粘贴大量信息或做大量苦力活，这种方法在寻找和修复最困难的 Bug 时非常有效。</p>
+<p>我个人在调试时还发现了一些其他有用的技巧：</p>
+<ul>
+<li><strong>你可以让多个模型来修复同一个 Bug，然后比较它们的结果。</strong> 每个模型可能会采取稍微不同的方法。当你拥有多次射门机会时，你就能从几个选项中挑出最好的一个。</li>
+<li><strong>你可以让智能体使用工具去为你收集证据。</strong> 如果你在处理数据库时发现了一个慢查询，你可以让智能体去分析那个查询。在底层，它可能会使用 <code>explain analyze</code> 语句等工具，找出查询缓慢的原因，然后建议你修改数据库 Schema，或者添加索引来加速查询。</li>
+<li><strong>智能体还可以从外部工具中提取数据。</strong> 你可以安装并使用 MCP 服务器来引入丰富的外部数据。例如，你正在调查一个错误，你可以使用 Sentry MCP 服务器将真实的运行时错误信息直接引入智能体的上下文中，以帮助你发现并修复应用程序中的根本原因。</li>
+</ul>
+<p>但我最核心的建议是：<strong>务必确保你真正理解了智能体提出的解决方案。</strong>
+如果你不理解修复方案，你就很难验证这段代码是否真的正确。举个例子，如果你在使用 TypeScript，智能体可能会图省事直接加上一个 <code>any</code> 类型，但这显然不是你理想的解决方案。因此，当智能体提出修复方案时，你应该不断提问，直到你完全理解它。你可以问：“还有没有其他我们没有考虑到的边界情况？”或者“这真的是问题的根本原因吗？”</p>
+<p>正如我们在本课程第一部分所讨论的，智能体有时会产生幻觉（Hallucinate），生成一些听起来很有道理的解释或代码片段，但实际上并没有解决根本问题。因此，你需要建立起自己的判断力，确认你拿到的是真正能修复问题的正确代码。</p>
+<p>现在你了解了调试方法，以及编程智能体如何帮助你加速排查过程。接下来你需要确保这些修改是正确的，并且不会在未来引入倒退（Regression）。因此在下一章中，你将学习如何使用编程智能体来审查和测试你的代码。</p>
+<h3>代码审查、测试与优化</h3>
+<p><strong>讲解人：</strong>
+编程智能体能够编写大量代码，这也意味着它们同样可能制造技术债务，或者无意中引入 Bug。无论代码是由智能体写的还是人类手写的，你对“什么样的代码能够被合并（Merge）”的标准都应该保持一致。</p>
+<p>AI 生成的代码可能看起来是正确的，但却存在细微的差错。它可能遵循了你现有的所有代码模式、成功编译、通过了测试，但仍在代码库的某个角落埋下了隐患。这就是为什么代码审查（Code review）如此至关重要。你需要建立起正确的流程，以维持一个高质量的代码库，并在问题触达生产环境之前截获它们。作为一名工程师，做好代码审查是你的本职工作。</p>
+<p>在请其他人看我们的代码之前，我们应该先自己进行一次彻底的自审。在 Cursor 中，基于上一章的内容，我点击了“查找问题（Find issues）”，让智能体浏览我们刚刚生成的代码。
+它确实发现了一个问题。它说，对于侧边栏中的模型列表，我们使用的是纯字符串，而不是本地化的翻译文本。因此，如果我们用另一种语言查看这些文档，它仍然会显示英文版本。我认为这确实是个 Bug，我同意这个判断。我点击“使用智能体修复（Fix with agent）”，它会在代码修改的具体行数上打上标记，我们可以直接让智能体去修复这个问题。在请团队里的任何人看 PR（Pull Request）之前，我会在本地完成所有的这些检查与平衡。</p>
+<p>如果你一直让智能体编写了大量代码，那么审查和理解这一大段代码可能会很困难。所以我推荐的一个技巧是，（我这里直接使用语音模式）对智能体说：“把我现在的工作变更拆分成更小的、更具语义化的提交（Semantic commits），然后把这些变更推送上去，帮我创建一个新的 PR。”
+我发现，当你把它拆分成更具语义化的提交记录时，对于人类审查者来说，逐步查阅提交记录并理解代码逻辑会容易得多，尤其是当他们有疑问的时候。事实证明，智能体在分离出模板化的样板代码与真正需要审查的业务代码方面，做得相当不错。接着，我们把代码推送到 GitHub 上生成 PR，开始让团队成员审查这些变更的流程。</p>
+<p>现在我们在 GitHub 上打开了 PR。在让团队其他人审查之前，我喜欢做两件事：
+第一件事是，我自己先在 PR 上审查一遍代码，这本来就是一个很好的最佳实践。
+第二件事是，我使用 AI 代码审查工具再做一次复查，以确保我没有引入任何回归问题或逻辑错误。Cursor 可以使用一款名为 Bugbot 的产品来审查我的 PR 并发现错误进行评论。市面上有很多工具可以做到这一点，它们作为防止代码倒退的另一道防线非常有用。</p>
+<p>好的，看起来 Bugbot 确实在我们的 Pull Request 中发现了两个问题。第一个被定性为中等严重程度的逻辑漏洞：这个信息图标被遮挡了。第二个问题是跨两个文件出现了重复的函数。像重复函数这种问题，绝对能在人工代码审查中被发现。能在请团队成员看这个 PR 之前就把它修复掉，真是太棒了。</p>
+<p>Cursor 还可以自动修复这些问题。只需一行命令，你就可以直接在 PR 上进行评论并推送修复。如果需要，你甚至可以点击查看预览中的具体代码差异（Diff）。这超级有帮助。我一直用它来确保在让团队介入之前，我的代码拥有极高的质量。</p>
+<p>防止代码回归的另一种方法是：要求智能体帮我们编写测试。
+过去，构建覆盖率极其全面的测试需要做大量的工作，大多数团队只有在系统崩溃后才会添加测试，或者需要制定一套繁重的流程来确保达到一定比例的测试覆盖率。但我发现，智能体让编写测试变得更加平易近人。你不仅可以要求智能体为新功能编写测试，还可以让它自己验证这些测试是否正确。当你拥有这些高质量的测试用例后，你就能拥有更多的信心，放手让智能体更自主地工作、修改代码，而不必担心未来会引入回归问题。</p>
+<p>回到 Cursor，我打算让智能体“为我们刚添加的独立模型页面的新功能编写一些测试，你可以使用我们现有的测试基础设施。”在这个例子中，我的应用程序里已经设置好了一些测试。但即使你还没有设置测试框架，智能体也非常擅长帮你从零开始。你可以让它配置单元测试、Playwright 集成测试，或者任何你喜欢的测试框架，它可以帮你着手构建高质量且健壮的系统。</p>
+<p>我让 Cursor 里的智能体编写一些新测试，它去检查了我们应用中测试的配置方式，然后决定编写几个单元测试来防止未来的回归。现在，在我后续提交的每一个 PR 中，这都可以作为我们 CI（持续集成）流程的一部分，以确保我们没有破坏任何现有功能。</p>
+<p>我确保代码保持高质量的另一种方式是：<strong>我使用智能体对应用程序的许多不同交互路径进行测试和模糊测试（Fuzz testing）。</strong> 在这个例子中，我要求智能体从头到尾测试一遍，确保文档页面中的一切都在正常工作：搜索、复制页面、分享反馈、页面间导航、切换主题……基本上就是测试所有的功能。它足足跑了近 45 分钟到一个小时，最后带回了非常高质量的测试产物、视频和截图，确保一切都按预期运作。所以，当我在开发新功能和进行代码审查时，我经常会启动几个智能体去替我彻头彻尾地测试一遍。</p>
+<p>随着你越来越多地使用编程智能体，你的开发速度就会受限于系统中“最慢的那一环”。那一环往往是：等待测试套件运行完毕、在整个代码库中运行类型检查或 lint 检查，或者是 CI 管道中的其他步骤。如果你能在这些地方做出改进，它将在你或你的队友与智能体的每一次交互中得到回报。所以，你可以要求智能体去优化这些事情，比如加速你的测试套件、精简依赖树、优化 CI 管道、加快类型检查，或者只是单纯地减少构建时间。
+过去，这些事情可能被排在了低优先级的待办事项里。但现在，既然智能体每天要运行这些命令几十上百次，优化它们所带来的时间节省绝对会产生巨大的复利。最棒的是，智能体可以直接替你完成这项工作。你可以要求智能体分析你的测试性能，或者审计依赖项并剥离未使用到的代码。因为这些都是范围非常明确、结果可验证的任务，所以智能体可以做得非常出色。我强烈推荐这样做，这能提升你整个团队的速度。</p>
+<p>现在你已经掌握了如何发布新功能、在出错时进行调试，以及审查代码以确保高质量。最后一块拼图是：通过定制你的智能体，使其完美契合你的代码库，从而进一步加速你的工作流。</p>
+<h3>自定义智能体：规则（Rules）与技能（Skills）</h3>
+<p><strong>讲解人：</strong>
+编程智能体即使不做任何定制化也已经非常智能了。它们对软件工程有着深刻的理解，通常能做出正确的决策。然而，它们并不了解你的团队喜欢用什么规范编写软件，也不了解你们业务的具体背景。这就需要用到自定义功能了。</p>
+<p>你可以对智能体进行定制，以帮助它们更高效地工作并产出更高质量的结果。Cursor 提供了两个层次的定制方案，这就好比你引导一名新队友入职一样：
+一是**“规则（Rules）”<strong>，用于规定他们应该永远牢记的事情；
+二是</strong>“技能（Skills）”**，用于赋予他们在必要时可以调用的专业知识。</p>
+<p><strong>规则（Rules）</strong> 是智能体在每次对话开始时都能看到的 Markdown 文件。你可以把它们看作是“永远包含在内”的指令，用于塑造智能体处理你代码的方式。一个好的 Rules 文件应该是简短的、具体的，并明确指出你希望智能体参考的代码库中的优秀范例。
+我发现 Rules 最适合用来记录诸如：智能体需要知道的构建或测试命令、我希望智能体遵循的代码约定，或者是指向我们代码库中经典模式的指针。当我梳理出这些内容时，我会把它们放进一个 Rules 文件里，然后把它提交到 git 仓库中，这样我的整个团队都能从这份共享知识中受益。</p>
+<p>你可能会有一种冲动，想要为所有事情都编写 Rule。但请你务必克制这种冲动。过多的规则会消耗不必要的上下文空间，而且老实说，可能会让智能体感到困惑。因此，我建议你的规则要保持精简且高质量。这是一个你和你的团队不断更新的共享库，它们会包含在每一次对话中。所以，如果有些东西你只是偶尔需要用到，你应该把它放进“技能（Skill）”中。</p>
+<p><strong>技能（Skills）</strong> 通过引入专业知识和工作流，扩展了智能体的能力。与永远加载的 Rules 不同，Skills 是动态加载的，由智能体来决定什么时候使用它们。在最基本的形式下，Skills 就是一个 Markdown 文件，但它们也可以包含自定义资产，甚至是可以让智能体执行的脚本。
+你还可以像运行工作流一样运行 Skills。例如，我有一个 <code>/pr</code> 技能。当调用时，它会指示智能体：为我提交代码（Commit）、推送到分支（Push），并创建一个 Pull Request。这真的非常非常有帮助。</p>
+<p>我们的社区已经创建了许多非常有用的规则、技能以及其他扩展 Cursor 能力的插件。我们构建了一个插件系统（Plug-in system），让你可以轻松安装所有的这些功能。所以，我们目前讨论过的所有东西——规则、技能、MCP 服务器、子智能体——都可以很好地打包在一起，并通过我们的市场分享给你的团队或更广泛的 Cursor 社区。你可以直接在我们的应用内或网页端浏览并安装新插件。</p>
+<p>我关于定制智能体的最后一个建议是：<strong>你可以要求智能体使用终端里安装的几乎任何命令行工具（CLI Tool）。</strong> 比如 GitHub CLI，或者是 AWS、Kubernetes、Docker 的命令行。智能体非常擅长使用这些工具，你只需直接要求它们使用即可。
+我发现这在调试问题时特别有用。比如，我不用切出去打开 GitHub 网页，只需直接对它说：“嘿，去查一下为什么这个 PR 的 CI 失败了。”它就会使用 GitHub CLI 调取信息。这实在太方便了。</p>
+<p>好了，现在你已经用规则、技能或者你安装的插件对智能体进行了全副武装。在最后一章中，我们将把我们在课程中学到的所有知识融会贯通。</p>
+<h3>实战演练与总结</h3>
+<p><strong>讲解人：</strong>
+恭喜你！你已经掌握了如何与编程智能体协同工作。你现在知道如何使用智能体来理解代码库、快速创建功能、搜索和排查 Bug、审查代码，以及根据自身需求定制智能体。现在，我想把我们学到的所有东西串联起来。</p>
+<p>让我们想象一下：你刚刚加入了一个负责运营电商平台的团队。在你的第一周，你接到了一项任务——在结账流程中添加“折扣码（Discount codes）”功能。你对这个代码库还很不熟悉，因为你刚入职。所以，在我们写任何代码之前，你需要做的第一件事就是理解代码库。</p>
+<p>因此，你的提示词可能会这样写：“我需要在我们的结账流程中添加折扣码功能。但在我做任何修改之前，你能给我讲解一下现有的结账流程是怎样的吗？涉及哪些服务？你能给我展示一下数据流向吗？”
+你可以阅读它的输出，然后提出一些跟进问题来填补知识盲区：“价格计算的逻辑是怎样的？我们具体在哪里计算订单总额的？”
+如果你观察它的输出日志，你会发现智能体结合了我们在课程前面提到的 <code>grep</code> 精确匹配和语义搜索，追踪了代码库的特定部分，以帮助你理解它的工作原理。</p>
+<p>现在你理解了代码库，我们就可以创建一个计划并开始开发该功能。我们按下 <code>Shift + Tab</code> 切入“计划模式（Plan mode）”，审视它生成的计划。这时候我们需要进行审查。我们剔除掉那些对第一次迭代来说过于庞大复杂的步骤，将重点放在我们试图实现的核心逻辑上——即应用折扣码计算折扣金额，并在订单摘要中显示。准备就绪后，我们点击“构建”，创建出该功能的第一个版本。</p>
+<p>功能初步完成后，我们发现有一个测试总是失败：当你输入一组不同的折扣码时，根据输入的先后顺序，它会得出不同的计算结果。这是一个相当棘手的 Bug。这时候，我们就可以切换到“调试模式（Debug mode）”，让智能体去调查根本原因。它将运用我们在“寻找和修复 Bug”那一章中学到的所有调试原则，来帮助我们找到根本原因并完成修复。</p>
+<p>在将代码推送到 GitHub 并打开 PR 之后，我可以使用 AI 代码审查工具进行新一轮的代码 Review，在合并代码之前，确保没有出现任何新的倒退。</p>
+<p>现在，代码已经合并，功能已经完成。在这个过程中，我们学到了一些经验，我们希望能将其反哺到我们的共享知识库中，让整个团队受益。于是，我们回到 Rules 文件中，将在这次任务中学到的特定注意事项添加进去，并提交到 git 仓库。这样一来，将来如果团队里有其他人需要处理折扣码相关的逻辑，他们就能从这份共享知识中直接受益。</p>
+<p>希望这个完整的实战例子能对你有所帮助，它涵盖了我们在课程中讨论过的所有核心内容。但说实话，我能给你的最好建议是：<strong>把你今天学到的东西付诸实践，去真正地构建点什么。</strong></p>
+<p>这些工具和模型进化得如此之快，以至于所有具体的细节都会随着时间而改变。但是，你正在学习的这项核心技能——<strong>“如何与编程智能体进行协同”</strong>，正在迅速成为软件工程领域最重要的一环。只有不断突破这些编程智能体能力的边界，你才能在最新工具和模型不断演进的过程中获得最大的收益。</p>
+<p>祝你好运，保持好奇心，继续创造！</p>
+5:["$","$L11",null,{"email":{"id":"talks-cursor-coding-agents-tutorial-2026","sender":"leerob","subject":"掌握AI编程智能体：Cursor使用进阶指南","snippet":"一门关于如何高效使用AI编程智能体构建软件的进阶教程。以Cursor为例，系统阐述智能体的工作原理，涵盖提示词与上下文管理、代码库搜索、计划模式开发新功能、调试Bug、Bugbot代码审查与自动化测试，以及规则与技能的团队定制。","date":"2026-04-16","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["translated"],"mdTheme":"magazine","sourcePath":"talks/cursor-coding-agents-tutorial-2026.md","sourceUrl":"https://www.youtube.com/watch?v=kF2WQgk1LtY","coverImage":"$undefined","body":"$12","prompts":[]},"listPosition":{"index":111,"total":365},"matchedPerson":"$undefined"}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[27201,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"IconMark"]
+c:[["$","title","0",{"children":"掌握AI编程智能体：Cursor使用进阶指南 · Hinbox"}],["$","meta","1",{"name":"description","content":"一门关于如何高效使用AI编程智能体构建软件的进阶教程。以Cursor为例，系统阐述智能体的工作原理，涵盖提示词与上下文管理、代码库搜索、计划模式开发新功能、调试Bug、Bugbot代码审查与自动化测试，以及规则与技能的团队定制。"}],["$","meta","2",{"name":"application-name","content":"Hinbox"}],["$","link","3",{"rel":"canonical","href":"https://linguage.github.io/hinbox/mail/talks-cursor-coding-agents-tutorial-2026"}],["$","meta","4",{"property":"og:title","content":"掌握AI编程智能体：Cursor使用进阶指南"}],["$","meta","5",{"property":"og:description","content":"一门关于如何高效使用AI编程智能体构建软件的进阶教程。以Cursor为例，系统阐述智能体的工作原理，涵盖提示词与上下文管理、代码库搜索、计划模式开发新功能、调试Bug、Bugbot代码审查与自动化测试，以及规则与技能的团队定制。"}],["$","meta","6",{"property":"og:url","content":"https://linguage.github.io/hinbox/mail/talks-cursor-coding-agents-tutorial-2026"}],["$","meta","7",{"property":"og:site_name","content":"Hinbox"}],["$","meta","8",{"property":"og:locale","content":"zh_CN"}],["$","meta","9",{"property":"og:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","meta","10",{"property":"og:image:width","content":"1200"}],["$","meta","11",{"property":"og:image:height","content":"630"}],["$","meta","12",{"property":"og:image:alt","content":"掌握AI编程智能体：Cursor使用进阶指南"}],["$","meta","13",{"property":"og:type","content":"article"}],["$","meta","14",{"property":"article:published_time","content":"2026-04-16T00:00:00.000Z"}],["$","meta","15",{"property":"article:author","content":"leerob"}],["$","meta","16",{"property":"article:tag","content":"translated"}],["$","meta","17",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","18",{"name":"twitter:title","content":"掌握AI编程智能体：Cursor使用进阶指南"}],["$","meta","19",{"name":"twitter:description","content":"一门关于如何高效使用AI编程智能体构建软件的进阶教程。以Cursor为例，系统阐述智能体的工作原理，涵盖提示词与上下文管理、代码库搜索、计划模式开发新功能、调试Bug、Bugbot代码审查与自动化测试，以及规则与技能的团队定制。"}],["$","meta","20",{"name":"twitter:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","link","21",{"rel":"icon","href":"/hinbox/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","22",{"rel":"icon","href":"/hinbox/icon.svg?icon.6ca2692a.svg","sizes":"any","type":"image/svg+xml"}],["$","$L13","23",{}]]
+8:null

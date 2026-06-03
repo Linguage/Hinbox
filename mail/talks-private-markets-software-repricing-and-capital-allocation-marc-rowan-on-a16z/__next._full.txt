@@ -1,0 +1,304 @@
+1:"$Sreact.fragment"
+3:I[39756,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+4:I[37457,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"ViewportBoundary"]
+b:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"MetadataBoundary"]
+d:I[68027,[],"default"]
+:HL["/hinbox/_next/static/chunks/24888a04b79e7824.css","style"]
+:HL["/hinbox/_next/static/media/fba5a26ea33df6a3-s.p.1bbdebe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"vMUiZWVsRx3pCqxArlZcR","c":["","mail","talks-private-markets-software-repricing-and-capital-allocation-marc-rowan-on-a16z"],"q":"","i":false,"f":[[["",{"children":["mail",{"children":[["id","talks-private-markets-software-repricing-and-capital-allocation-marc-rowan-on-a16z","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hinbox/_next/static/chunks/24888a04b79e7824.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[79520,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],""]
+f:I[59665,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],"default"]
+:HL["https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","style"]
+2:["$","html",null,{"lang":"zh-CN","className":"plus_jakarta_sans_9710934b-module__-vnxFq__variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function () {\n  try {\n    var theme = window.localStorage.getItem('hinbox:theme');\n    if (theme !== 'light' && theme !== 'dark' && theme !== 'sepia') {\n      theme = 'light';\n    }\n    window['__HINBOX_THEME__'] = theme;\n    document.documentElement.dataset.theme = theme;\n    document.documentElement.style.colorScheme = theme === 'dark' ? 'dark' : 'light';\n    function applyBodyTheme() {\n      if (document.body) {\n        document.body.dataset.theme = theme;\n      }\n    }\n    if (document.body) {\n      applyBodyTheme();\n    } else {\n      document.addEventListener('DOMContentLoaded', applyBodyTheme);\n    }\n  } catch (error) {\n    window['__HINBOX_THEME__'] = 'light';\n    document.documentElement.dataset.theme = 'light';\n    document.documentElement.style.colorScheme = 'light';\n  }\n})();"}}],"",["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","rel":"stylesheet"}],["$","$Le",null,{"id":"mathjax-config","strategy":"afterInteractive","children":"\n          window.MathJax = {\n            tex: {\n              inlineMath: [['$', '$'], ['\\\\(', '\\\\)']],\n              displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']],\n              processEscapes: true,\n              packages: { '[+]': ['noerrors', 'noundefined'] },\n            },\n            svg: {\n              fontCache: 'none',\n            },\n            startup: {\n              typeset: false,\n              ready: () => {\n                window.MathJax.startup.defaultReady();\n                window.dispatchEvent(new Event('MathJaxReady'));\n              },\n            },\n          };\n          "}],["$","$Le",null,{"id":"mathjax-cdn","strategy":"afterInteractive","src":"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"}]]}],["$","body",null,{"className":"font-[family-name:var(--font-jakarta)] antialiased","suppressHydrationWarning":true,"children":["",["$","$Lf",null,{"weeklyNavCounts":{"inboxWeeklyCount":10,"sentWeeklyCount":0,"starredTotalCount":21},"people":[{"id":"david-perell","name":"David Perell","email":""},{"id":"lenny-s-podcast","name":"Lenny's Podcast","email":""},{"id":"ryan-peterman","name":"Ryan Peterman","email":""},{"id":"anthropic","name":"Anthropic","email":""},{"id":"dwarkesh-patel","name":"Dwarkesh Patel","email":""},{"id":"stripe","name":"Stripe","email":""},{"id":"stephen-wolfram","name":"Stephen Wolfram","email":""},{"id":"latent-space","name":"Latent Space","email":""},{"id":"lex-fridman","name":"Lex Fridman","email":""},{"id":"steve-jobs","name":"Steve Jobs","email":""},{"id":"20vc-with-harry-stebbings","name":"20VC with Harry Stebbings","email":""},{"id":"jeremy-stern","name":"Jeremy Stern","email":""},{"id":"turing","name":"Turing","email":""},{"id":"demis-hassabis","name":"Demis Hassabis","email":""},{"id":"the-diary-of-a-ceo","name":"The Diary Of A CEO","email":""},{"id":"elon-musk","name":"Elon Musk","email":""},{"id":"sauteedveggies","name":"SauteedVeggies","email":""},{"id":"andy-matuschak","name":"Andy Matuschak","email":""},{"id":"mind-the-game","name":"Mind the Game","email":""},{"id":"ramona-shelburne","name":"Ramona Shelburne","email":""},{"id":"jared-weiss","name":"Jared Weiss","email":""},{"id":"deeplearningai","name":"DeepLearningAI","email":""},{"id":"cursor","name":"Cursor","email":""},{"id":"y-combinator","name":"Y Combinator","email":""},{"id":"openai","name":"OpenAI","email":""},{"id":"every","name":"Every","email":""},{"id":"sequoia-capital","name":"Sequoia Capital","email":""},{"id":"alex-kantrowitz","name":"Alex Kantrowitz","email":""},{"id":"peter-dizikes-mit-news","name":"Peter Dizikes ｜ MIT News","email":""},{"id":"world-finance-journal","name":"World Finance Journal","email":""},{"id":"andrej-karpathy","name":"Andrej karpathy","email":""},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","email":""},{"id":"jd-vance","name":"JD Vance","email":""},{"id":"街-大学","name":"やまぐち街なか大学","email":""},{"id":"jc","name":"JC","email":""}],"tags":[{"id":"translated","name":"translated","count":123},{"id":"interview","name":"interview","count":24},{"id":"ai","name":"ai","count":17},{"id":"人工智能","name":"人工智能","count":17},{"id":"clippings","name":"clippings","count":15},{"id":"essays","name":"Essays","count":9},{"id":"talks","name":"Talks","count":8},{"id":"深度学习","name":"深度学习","count":8},{"id":"ai-agents","name":"ai-agents","count":7},{"id":"cognition","name":"cognition","count":6},{"id":"nba","name":"NBA","count":6},{"id":"ai编程","name":"AI编程","count":5},{"id":"humanity","name":"humanity","count":5},{"id":"math","name":"math","count":5},{"id":"steve-jobs","name":"steve-jobs","count":5},{"id":"大语言模型","name":"大语言模型","count":5},{"id":"机器学习","name":"机器学习","count":5},{"id":"agi","name":"AGI","count":4},{"id":"anthropic","name":"Anthropic","count":4},{"id":"claude-code","name":"Claude Code","count":4},{"id":"doge","name":"DOGE","count":4},{"id":"nvidia","name":"nvidia","count":4},{"id":"windsurf","name":"Windsurf","count":4},{"id":"政府效率","name":"政府效率","count":4},{"id":"文艺复兴科技","name":"文艺复兴科技","count":4},{"id":"英伟达","name":"英伟达","count":4},{"id":"软件工程","name":"软件工程","count":4},{"id":"ai编程工具","name":"AI编程工具","count":3},{"id":"apple","name":"apple","count":3},{"id":"cursor","name":"Cursor","count":3},{"id":"deepseek","name":"deepseek","count":3},{"id":"linus-torvalds","name":"Linus Torvalds","count":3},{"id":"linux内核","name":"Linux内核","count":3},{"id":"llm","name":"llm","count":3},{"id":"mathematics","name":"mathematics","count":3},{"id":"reports","name":"Reports","count":3},{"id":"偏微分方程","name":"偏微分方程","count":3},{"id":"勒布朗-詹姆斯","name":"勒布朗·詹姆斯","count":3},{"id":"开源","name":"开源","count":3},{"id":"开源ai","name":"开源AI","count":3},{"id":"强化学习","name":"强化学习","count":3},{"id":"数学哲学","name":"数学哲学","count":3},{"id":"数学教育","name":"数学教育","count":3},{"id":"访谈","name":"访谈","count":3},{"id":"量化投资","name":"量化投资","count":3},{"id":"马斯克","name":"马斯克","count":3},{"id":"黄仁勋","name":"黄仁勋","count":3},{"id":"ai-agent","name":"AI Agent","count":2},{"id":"ai-coding","name":"ai-coding","count":2},{"id":"ai代理","name":"AI代理","count":2},{"id":"ai基础设施","name":"AI基础设施","count":2},{"id":"ai安全","name":"AI安全","count":2},{"id":"ai数学","name":"AI数学","count":2},{"id":"ai智能体","name":"AI智能体","count":2},{"id":"ai计算","name":"AI计算","count":2},{"id":"alphafold","name":"AlphaFold","count":2},{"id":"claude","name":"Claude","count":2},{"id":"devin","name":"Devin","count":2},{"id":"economics","name":"economics","count":2},{"id":"emacs","name":"Emacs","count":2},{"id":"essay","name":"essay","count":2},{"id":"git","name":"Git","count":2},{"id":"google","name":"Google","count":2},{"id":"ilya-sutskever","name":"Ilya Sutskever","count":2},{"id":"jeff-dean","name":"jeff-dean","count":2},{"id":"jepa","name":"JEPA","count":2},{"id":"org-mode","name":"Org mode","count":2},{"id":"programming","name":"programming","count":2},{"id":"software-engineering","name":"software-engineering","count":2},{"id":"vibe-coding","name":"Vibe Coding","count":2},{"id":"writing","name":"writing","count":2},{"id":"世界模型","name":"世界模型","count":2},{"id":"人性","name":"人性","count":2},{"id":"代数几何","name":"代数几何","count":2},{"id":"代码编辑器","name":"代码编辑器","count":2},{"id":"价值投资","name":"价值投资","count":2},{"id":"伯克希尔哈撒韦","name":"伯克希尔哈撒韦","count":2},{"id":"关税政策","name":"关税政策","count":2},{"id":"创业历程","name":"创业历程","count":2},{"id":"加速计算","name":"加速计算","count":2},{"id":"吉姆-西蒙斯","name":"吉姆·西蒙斯","count":2},{"id":"哲学","name":"哲学","count":2},{"id":"国际合作","name":"国际合作","count":2},{"id":"大型语言模型","name":"大型语言模型","count":2},{"id":"好奇心","name":"好奇心","count":2},{"id":"季后赛","name":"季后赛","count":2},{"id":"工程实践","name":"工程实践","count":2},{"id":"巴菲特","name":"巴菲特","count":2},{"id":"形式化证明","name":"形式化证明","count":2},{"id":"彼得-蒂尔","name":"彼得·蒂尔","count":2},{"id":"微软","name":"微软","count":2},{"id":"提示工程","name":"提示工程","count":2},{"id":"数学","name":"数学","count":2},{"id":"数学研究","name":"数学研究","count":2},{"id":"文班亚马","name":"文班亚马","count":2},{"id":"智能代理开发","name":"智能代理开发","count":2},{"id":"毕业演讲","name":"毕业演讲","count":2},{"id":"版本控制","name":"版本控制","count":2},{"id":"科学发现","name":"科学发现","count":2},{"id":"科技停滞","name":"科技停滞","count":2},{"id":"软件工程变革","name":"软件工程变革","count":2},{"id":"软件开发","name":"软件开发","count":2},{"id":"量子力学","name":"量子力学","count":2},{"id":"阿贝尔奖","name":"阿贝尔奖","count":2},{"id":"风险投资","name":"风险投资","count":2},{"id":"agent设计","name":"Agent设计","count":1},{"id":"ai-for-science","name":"AI for Science","count":1},{"id":"ai-编程","name":"AI 编程","count":1},{"id":"ai伦理","name":"AI伦理","count":1},{"id":"ai最佳实践","name":"AI最佳实践","count":1},{"id":"ai大模型","name":"AI大模型","count":1},{"id":"ai并购","name":"AI并购","count":1},{"id":"ai应用","name":"AI应用","count":1},{"id":"ai开发者大会","name":"AI开发者大会","count":1},{"id":"ai推理","name":"AI推理","count":1},{"id":"ai收购","name":"AI收购","count":1},{"id":"ai数学发现","name":"AI数学发现","count":1},{"id":"ai生物医药","name":"AI生物医药","count":1},{"id":"ai竞争","name":"AI竞争","count":1},{"id":"ai编程代理","name":"AI编程代理","count":1},{"id":"ai芯片","name":"AI芯片","count":1},{"id":"ai规模化","name":"AI规模化","count":1},{"id":"ai辅助学习","name":"AI辅助学习","count":1},{"id":"ai辅助开发","name":"AI辅助开发","count":1},{"id":"anysphere","name":"Anysphere","count":1},{"id":"biography","name":"biography","count":1},{"id":"blackwell架构","name":"Blackwell架构","count":1},{"id":"cag","name":"CAG","count":1},{"id":"career","name":"career","count":1},{"id":"ceo交接","name":"CEO交接","count":1},{"id":"chatgpt","name":"ChatGPT","count":1},{"id":"chris-bishop","name":"Chris Bishop","count":1},{"id":"claude-4","name":"Claude 4","count":1},{"id":"claude-sonnet-4-5","name":"Claude Sonnet 4.5","count":1},{"id":"coding-agent","name":"Coding Agent","count":1},{"id":"context-engineering","name":"Context Engineering","count":1},{"id":"cs50","name":"CS50","count":1},{"id":"cuda生态","name":"CUDA生态","count":1},{"id":"deep-search","name":"Deep Search","count":1},{"id":"deepmind","name":"DeepMind","count":1},{"id":"distributed-systems","name":"distributed-systems","count":1},{"id":"elon-musk","name":"Elon Musk","count":1},{"id":"engineering","name":"engineering","count":1},{"id":"fields奖","name":"Fields奖","count":1},{"id":"geoffrey-hinton","name":"Geoffrey Hinton","count":1},{"id":"gpt-4","name":"GPT-4","count":1},{"id":"gpt-4-5","name":"GPT-4.5","count":1},{"id":"gpu与深度学习","name":"GPU与深度学习","count":1},{"id":"gpu架构","name":"GPU架构","count":1},{"id":"gpu算力","name":"GPU算力","count":1},{"id":"grok-3","name":"Grok 3","count":1},{"id":"haskell","name":"haskell","count":1},{"id":"incident","name":"incident","count":1},{"id":"jim-simons","name":"Jim Simons","count":1},{"id":"julia","name":"Julia","count":1},{"id":"june-huh","name":"june-huh","count":1},{"id":"kaggle","name":"Kaggle","count":1},{"id":"kiro-spec模式","name":"Kiro SPEC模式","count":1},{"id":"labor","name":"labor","count":1},{"id":"lean","name":"Lean","count":1},{"id":"lisp","name":"Lisp","count":1},{"id":"llm工具","name":"LLM工具","count":1},{"id":"mcp","name":"MCP","count":1},{"id":"mit","name":"MIT","count":1},{"id":"mvp","name":"MVP","count":1},{"id":"naval-ravikant","name":"Naval Ravikant","count":1},{"id":"ncaa疯狂三月","name":"NCAA疯狂三月","count":1},{"id":"noema","name":"noema","count":1},{"id":"notes","name":"notes","count":1},{"id":"notion","name":"Notion","count":1},{"id":"nvidia-gtc-2025","name":"NVIDIA GTC 2025","count":1},{"id":"openai","name":"OpenAI","count":1},{"id":"optimus机器人","name":"Optimus机器人","count":1},{"id":"peter-lax","name":"Peter Lax","count":1},{"id":"pixar","name":"pixar","count":1},{"id":"prompt-engineering","name":"Prompt Engineering","count":1},{"id":"psychology","name":"psychology","count":1},{"id":"publishing","name":"publishing","count":1},{"id":"python","name":"Python","count":1},{"id":"reliability","name":"reliability","count":1},{"id":"report","name":"report","count":1},{"id":"research","name":"Research","count":1},{"id":"research-career","name":"research-career","count":1},{"id":"robotics","name":"robotics","count":1},{"id":"sanjay-ghemawat","name":"Sanjay Ghemawat","count":1},{"id":"satya-nadella","name":"Satya Nadella","count":1},{"id":"scaling-laws","name":"Scaling Laws","count":1},{"id":"security","name":"security","count":1},{"id":"skills","name":"skills","count":1},{"id":"slimv","name":"Slimv","count":1},{"id":"technical-report","name":"technical-report","count":1},{"id":"terence-tao","name":"terence-tao","count":1},{"id":"vim","name":"Vim","count":1},{"id":"vlime","name":"Vlime","count":1},{"id":"wolfram","name":"Wolfram","count":1},{"id":"xai","name":"xAI","count":1},{"id":"yann-lecun","name":"Yann LeCun","count":1},{"id":"yc","name":"YC","count":1},{"id":"上下文工程","name":"上下文工程","count":1},{"id":"个人反思","name":"个人反思","count":1},{"id":"个人电脑","name":"个人电脑","count":1},{"id":"中美关系","name":"中美关系","count":1},{"id":"乌克兰战争","name":"乌克兰战争","count":1},{"id":"乔姆斯基","name":"乔姆斯基","count":1},{"id":"交通基础设施","name":"交通基础设施","count":1},{"id":"产品市场契合","name":"产品市场契合","count":1},{"id":"人工智能未来","name":"人工智能未来","count":1},{"id":"人形机器人","name":"人形机器人","count":1},{"id":"人机协作","name":"人机协作","count":1},{"id":"人机博弈","name":"人机博弈","count":1},{"id":"人生哲学","name":"人生哲学","count":1},{"id":"人类未来","name":"人类未来","count":1},{"id":"人类福祉","name":"人类福祉","count":1},{"id":"代理开发","name":"代理开发","count":1},{"id":"代理式编程","name":"代理式编程","count":1},{"id":"代码生成","name":"代码生成","count":1},{"id":"任务管理","name":"任务管理","count":1},{"id":"仿真学习","name":"仿真学习","count":1},{"id":"企业采用","name":"企业采用","count":1},{"id":"众包协作","name":"众包协作","count":1},{"id":"优绩主义","name":"优绩主义","count":1},{"id":"伦理监管","name":"伦理监管","count":1},{"id":"伯克希尔-哈撒韦","name":"伯克希尔·哈撒韦","count":1},{"id":"俄乌战争","name":"俄乌战争","count":1},{"id":"保罗-狄拉克","name":"保罗·狄拉克","count":1},{"id":"保险业务","name":"保险业务","count":1},{"id":"信号处理","name":"信号处理","count":1},{"id":"信息动力学","name":"信息动力学","count":1},{"id":"信息物理学","name":"信息物理学","count":1},{"id":"全球贸易","name":"全球贸易","count":1},{"id":"公共美德","name":"公共美德","count":1},{"id":"具身智能","name":"具身智能","count":1},{"id":"写作","name":"写作","count":1},{"id":"写作工具","name":"写作工具","count":1},{"id":"冷战数学","name":"冷战数学","count":1},{"id":"创业转型","name":"创业转型","count":1},{"id":"创业领导力","name":"创业领导力","count":1},{"id":"创造力与年龄","name":"创造力与年龄","count":1},{"id":"制度经济学","name":"制度经济学","count":1},{"id":"加性数论","name":"加性数论","count":1},{"id":"包容性制度","name":"包容性制度","count":1},{"id":"医疗应用","name":"医疗应用","count":1},{"id":"半导体","name":"半导体","count":1},{"id":"协同设计","name":"协同设计","count":1},{"id":"单位距离问题","name":"单位距离问题","count":1},{"id":"南非种族隔离","name":"南非种族隔离","count":1},{"id":"卢卡-东契奇","name":"卢卡·东契奇","count":1},{"id":"压缩感知","name":"压缩感知","count":1},{"id":"变换编码","name":"变换编码","count":1},{"id":"可持续能源","name":"可持续能源","count":1},{"id":"可重复性危机","name":"可重复性危机","count":1},{"id":"史蒂夫-乔布斯","name":"史蒂夫·乔布斯","count":1},{"id":"史蒂夫-纳什","name":"史蒂夫·纳什","count":1},{"id":"同伦类型论","name":"同伦类型论","count":1},{"id":"哲学辩论","name":"哲学辩论","count":1},{"id":"国际政治","name":"国际政治","count":1},{"id":"在线教育","name":"在线教育","count":1},{"id":"地缘政治","name":"地缘政治","count":1},{"id":"埃尔德什猜想","name":"埃尔德什猜想","count":1},{"id":"埃罗尔-马斯克","name":"埃罗尔·马斯克","count":1},{"id":"埃隆-马斯克","name":"埃隆·马斯克","count":1},{"id":"基督教与科学","name":"基督教与科学","count":1},{"id":"基础主义","name":"基础主义","count":1},{"id":"基础模型","name":"基础模型","count":1},{"id":"复合工程","name":"复合工程","count":1},{"id":"外交谈判","name":"外交谈判","count":1},{"id":"多伦多大学","name":"多伦多大学","count":1},{"id":"多体物理","name":"多体物理","count":1},{"id":"多智能体协同","name":"多智能体协同","count":1},{"id":"大数假说","name":"大数假说","count":1},{"id":"太空探索","name":"太空探索","count":1},{"id":"孤子理论","name":"孤子理论","count":1},{"id":"学习路径","name":"学习路径","count":1},{"id":"学术写作","name":"学术写作","count":1},{"id":"学术建议","name":"学术建议","count":1},{"id":"学术生态","name":"学术生态","count":1},{"id":"学术研究方法","name":"学术研究方法","count":1},{"id":"学术自传","name":"学术自传","count":1},{"id":"宇宙学","name":"宇宙学","count":1},{"id":"官僚主义改革","name":"官僚主义改革","count":1},{"id":"定理证明","name":"定理证明","count":1},{"id":"家族故事","name":"家族故事","count":1},{"id":"对冲基金","name":"对冲基金","count":1},{"id":"对称性","name":"对称性","count":1},{"id":"对称性破缺","name":"对称性破缺","count":1},{"id":"小平邦彦","name":"小平邦彦","count":1},{"id":"少林寺","name":"少林寺","count":1},{"id":"就业与经济","name":"就业与经济","count":1},{"id":"就业影响","name":"就业影响","count":1},{"id":"工作尊严","name":"工作尊严","count":1},{"id":"工作流","name":"工作流","count":1},{"id":"工程精神","name":"工程精神","count":1},{"id":"幸福与成功","name":"幸福与成功","count":1},{"id":"库珀-弗拉格","name":"库珀·弗拉格","count":1},{"id":"开发环境","name":"开发环境","count":1},{"id":"开发者工具","name":"开发者工具","count":1},{"id":"开发者生产力","name":"开发者生产力","count":1},{"id":"开源模型","name":"开源模型","count":1},{"id":"形式主义","name":"形式主义","count":1},{"id":"彼得-拉克斯","name":"彼得·拉克斯","count":1},{"id":"微分几何","name":"微分几何","count":1},{"id":"心理学","name":"心理学","count":1},{"id":"思维链","name":"思维链","count":1},{"id":"慈善","name":"慈善","count":1},{"id":"慈善事业","name":"慈善事业","count":1},{"id":"慕尼黑安全会议","name":"慕尼黑安全会议","count":1},{"id":"成长型思维","name":"成长型思维","count":1},{"id":"技术监管","name":"技术监管","count":1},{"id":"技能退化","name":"技能退化","count":1},{"id":"投资哲学","name":"投资哲学","count":1},{"id":"推理时计算","name":"推理时计算","count":1},{"id":"提纲写作","name":"提纲写作","count":1},{"id":"摩根大通","name":"摩根大通","count":1},{"id":"播客","name":"播客","count":1},{"id":"政治哲学","name":"政治哲学","count":1},{"id":"数字革命","name":"数字革命","count":1},{"id":"数学反例","name":"数学反例","count":1},{"id":"数学史","name":"数学史","count":1},{"id":"数学基础","name":"数学基础","count":1},{"id":"数学实践","name":"数学实践","count":1},{"id":"数学家传记","name":"数学家传记","count":1},{"id":"数学工作流","name":"数学工作流","count":1},{"id":"数学形式化","name":"数学形式化","count":1},{"id":"数据中心","name":"数据中心","count":1},{"id":"数据效率","name":"数据效率","count":1},{"id":"数据科学","name":"数据科学","count":1},{"id":"文化多样性","name":"文化多样性","count":1},{"id":"文化转型","name":"文化转型","count":1},{"id":"文学编程","name":"文学编程","count":1},{"id":"斯多葛主义","name":"斯多葛主义","count":1},{"id":"无人机","name":"无人机","count":1},{"id":"日本数学","name":"日本数学","count":1},{"id":"日记写作","name":"日记写作","count":1},{"id":"智能代理","name":"智能代理","count":1},{"id":"智能体ai","name":"智能体AI","count":1},{"id":"智能分析","name":"智能分析","count":1},{"id":"更衣室训话","name":"更衣室训话","count":1},{"id":"未来战争","name":"未来战争","count":1},{"id":"未来趋势","name":"未来趋势","count":1},{"id":"机器人技术","name":"机器人技术","count":1},{"id":"杰米-戴蒙","name":"杰米·戴蒙","count":1},{"id":"柏拉图主义","name":"柏拉图主义","count":1},{"id":"查尔斯-巴克利","name":"查尔斯·巴克利","count":1},{"id":"查理-芒格","name":"查理·芒格","count":1},{"id":"标记语言","name":"标记语言","count":1},{"id":"格罗滕迪克","name":"格罗滕迪克","count":1},{"id":"概形","name":"概形","count":1},{"id":"模仿理论","name":"模仿理论","count":1},{"id":"模型应用","name":"模型应用","count":1},{"id":"模型驱动交易","name":"模型驱动交易","count":1},{"id":"模拟宇宙假说","name":"模拟宇宙假说","count":1},{"id":"欧洲创新","name":"欧洲创新","count":1},{"id":"欧洲民主","name":"欧洲民主","count":1},{"id":"欧盟资本市场","name":"欧盟资本市场","count":1},{"id":"欺骗性ai","name":"欺骗性AI","count":1},{"id":"比尔-盖茨","name":"比尔·盖茨","count":1},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","count":1},{"id":"沉思录","name":"沉思录","count":1},{"id":"沙奎尔-奥尼尔","name":"沙奎尔·奥尼尔","count":1},{"id":"波波维奇","name":"波波维奇","count":1},{"id":"泽连斯基","name":"泽连斯基","count":1},{"id":"活文档","name":"活文档","count":1},{"id":"测试时计算","name":"测试时计算","count":1},{"id":"涌现","name":"涌现","count":1},{"id":"深度阅读","name":"深度阅读","count":1},{"id":"湖人三连冠","name":"湖人三连冠","count":1},{"id":"炒作与现实","name":"炒作与现实","count":1},{"id":"热力学第二定律","name":"热力学第二定律","count":1},{"id":"特斯拉","name":"特斯拉","count":1},{"id":"特朗普","name":"特朗普","count":1},{"id":"狄拉克","name":"狄拉克","count":1},{"id":"狄拉克方程","name":"狄拉克方程","count":1},{"id":"理论物理","name":"理论物理","count":1},{"id":"生产力工具","name":"生产力工具","count":1},{"id":"生成式ai","name":"生成式AI","count":1},{"id":"相对论","name":"相对论","count":1},{"id":"知识管理","name":"知识管理","count":1},{"id":"研究方法","name":"研究方法","count":1},{"id":"研究生指南","name":"研究生指南","count":1},{"id":"硅谷","name":"硅谷","count":1},{"id":"社交媒体","name":"社交媒体","count":1},{"id":"社会公平","name":"社会公平","count":1},{"id":"福柯","name":"福柯","count":1},{"id":"离散几何","name":"离散几何","count":1},{"id":"私募股权","name":"私募股权","count":1},{"id":"科学哲学","name":"科学哲学","count":1},{"id":"科学研究","name":"科学研究","count":1},{"id":"科学论文","name":"科学论文","count":1},{"id":"科技史","name":"科技史","count":1},{"id":"科比-布莱恩特","name":"科比·布莱恩特","count":1},{"id":"移民政策","name":"移民政策","count":1},{"id":"稀疏表示","name":"稀疏表示","count":1},{"id":"空间技术","name":"空间技术","count":1},{"id":"竞技长青","name":"竞技长青","count":1},{"id":"笔记技巧","name":"笔记技巧","count":1},{"id":"第一性原理","name":"第一性原理","count":1},{"id":"算法与社会","name":"算法与社会","count":1},{"id":"篮球战术","name":"篮球战术","count":1},{"id":"篮球访谈","name":"篮球访谈","count":1},{"id":"类型论","name":"类型论","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"约束等距性","name":"约束等距性","count":1},{"id":"纯文本写作","name":"纯文本写作","count":1},{"id":"纯粹数学","name":"纯粹数学","count":1},{"id":"线性代数","name":"线性代数","count":1},{"id":"经典阅读","name":"经典阅读","count":1},{"id":"结对编程","name":"结对编程","count":1},{"id":"编程教学","name":"编程教学","count":1},{"id":"编程语言","name":"编程语言","count":1},{"id":"美国ai政策","name":"美国AI政策","count":1},{"id":"美国政府改革","name":"美国政府改革","count":1},{"id":"美国经济","name":"美国经济","count":1},{"id":"美欧关系","name":"美欧关系","count":1},{"id":"翻译","name":"翻译","count":1},{"id":"职业自律","name":"职业自律","count":1},{"id":"职业辩护","name":"职业辩护","count":1},{"id":"联邦政府改革","name":"联邦政府改革","count":1},{"id":"联邦财政","name":"联邦财政","count":1},{"id":"股东信","name":"股东信","count":1},{"id":"股东大会","name":"股东大会","count":1},{"id":"能源","name":"能源","count":1},{"id":"能量基模型","name":"能量基模型","count":1},{"id":"自动驾驶","name":"自动驾驶","count":1},{"id":"自我认知","name":"自我认知","count":1},{"id":"自由意志主义","name":"自由意志主义","count":1},{"id":"自由民主","name":"自由民主","count":1},{"id":"苹果","name":"苹果","count":1},{"id":"苹果公司","name":"苹果公司","count":1},{"id":"药物研发","name":"药物研发","count":1},{"id":"蓝鳍金枪鱼","name":"蓝鳍金枪鱼","count":1},{"id":"虚拟细胞","name":"虚拟细胞","count":1},{"id":"蛋白质折叠","name":"蛋白质折叠","count":1},{"id":"蜂巢思维","name":"蜂巢思维","count":1},{"id":"行为偏差","name":"行为偏差","count":1},{"id":"西部决赛","name":"西部决赛","count":1},{"id":"规模法则","name":"规模法则","count":1},{"id":"规范驱动开发","name":"规范驱动开发","count":1},{"id":"言论自由","name":"言论自由","count":1},{"id":"计算增强生成","name":"计算增强生成","count":1},{"id":"计算数学","name":"计算数学","count":1},{"id":"计算机教育","name":"计算机教育","count":1},{"id":"计算机证明","name":"计算机证明","count":1},{"id":"训练体系","name":"训练体系","count":1},{"id":"论文写作","name":"论文写作","count":1},{"id":"论文撰写","name":"论文撰写","count":1},{"id":"访谈实录","name":"访谈实录","count":1},{"id":"詹姆斯-西蒙斯","name":"詹姆斯·西蒙斯","count":1},{"id":"语言学","name":"语言学","count":1},{"id":"诺贝尔经济学奖","name":"诺贝尔经济学奖","count":1},{"id":"谷歌","name":"谷歌","count":1},{"id":"贝叶斯方法","name":"贝叶斯方法","count":1},{"id":"财政削减","name":"财政削减","count":1},{"id":"资本配置","name":"资本配置","count":1},{"id":"超级智能","name":"超级智能","count":1},{"id":"超级计算","name":"超级计算","count":1},{"id":"跨领域训练","name":"跨领域训练","count":1},{"id":"身体转型","name":"身体转型","count":1},{"id":"软件工程范式","name":"软件工程范式","count":1},{"id":"软件开发最佳实践","name":"软件开发最佳实践","count":1},{"id":"软件开发未来","name":"软件开发未来","count":1},{"id":"运动恢复","name":"运动恢复","count":1},{"id":"还原论","name":"还原论","count":1},{"id":"通用人工智能","name":"通用人工智能","count":1},{"id":"重整化","name":"重整化","count":1},{"id":"量化交易","name":"量化交易","count":1},{"id":"金融服务","name":"金融服务","count":1},{"id":"金融监管","name":"金融监管","count":1},{"id":"阅读方法","name":"阅读方法","count":1},{"id":"集合论","name":"集合论","count":1},{"id":"非虚构阅读","name":"非虚构阅读","count":1},{"id":"预训练","name":"预训练","count":1},{"id":"领导力","name":"领导力","count":1},{"id":"香农信息熵","name":"香农信息熵","count":1},{"id":"马刺","name":"马刺","count":1},{"id":"马库斯-奥勒留","name":"马库斯·奥勒留","count":1}],"moduleNavItems":[{"id":"essays","label":"Essays","href":"/?label=Essays","order":40,"icon":"BookOpen","count":62},{"id":"talks","label":"Talks","href":"/?label=Talks","order":42,"icon":"Video","count":165},{"id":"reports","label":"Reports","href":"/?label=Reports","order":41,"icon":"FileText","count":36},{"id":"notes","label":"Notes","href":"/?label=Notes","order":30,"icon":"Eye","count":78}],"children":"$L10"}]]}]]}]
+10:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"min-h-screen px-12 py-12 font-sans text-slate-900","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n            (function () {\n              var pathname = window.location.pathname || '';\n              var canonicalPrefix = '/hinbox';\n\n              if (/^/hinbox(?:/|$)/i.test(pathname) && pathname !== pathname.replace(/^/hinbox/i, canonicalPrefix)) {\n                var target = pathname.replace(/^/hinbox/i, canonicalPrefix) + window.location.search + window.location.hash;\n                window.location.replace(target);\n                return;\n              }\n            }());\n          "}}],["$","div",null,{"className":"mx-auto flex min-h-[60vh] max-w-2xl flex-col justify-center gap-4","children":[["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"页面未找到"}],["$","p",null,{"className":"text-base leading-7 text-slate-600","children":"如果你是从大写路径进入本站，系统会自动跳转到小写的规范地址。"}],["$","p",null,{"className":"text-base","children":["返回首页：",["$","a",null,{"className":"text-sky-600 underline underline-offset-4","href":"/hinbox/","children":"/hinbox/"}]]}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+11:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+12:Te73f,<h3>访谈概述</h3>
+<p>本次访谈由知名风投机构 Andreessen Horowitz (a16z) 的代表作为主持人，对话阿波罗全球管理公司（Apollo Global Management）联合创始人兼首席执行官 Marc Rowan。
+在访谈中，Marc Rowan 深入回顾了他在德崇证券（Drexel）的早年经历，以及1990年创立阿波罗的传奇故事。他详细阐述了阿波罗如何从传统的私募股权机构转型为资产管理规模超万亿美元的退休服务与信贷巨头。此外，双方还深入探讨了在人工智能（AI）和大规模工业复兴的背景下，科技创投与私募信贷之间的交叉机遇，AI对企业软件和就业市场的深远影响，以及 Rowan 个人在推动企业文化、任人唯贤（Meritocracy）和展现道德领导力方面的深刻见解。</p>
+<h3>专用词语翻译列表</h3>
+<table>
+<thead>
+<tr>
+<th align="left">英文原词 / 缩写</th>
+<th align="left">中文翻译</th>
+<th align="left">语境说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">S&#x26;P</td>
+<td align="left">标普（标准普尔）</td>
+<td align="left">指代美国标普500指数</td>
+</tr>
+<tr>
+<td align="left">Fixed income market</td>
+<td align="left">固定收益市场</td>
+<td align="left">债券及其他固定收益类资产的交易市场</td>
+</tr>
+<tr>
+<td align="left">Private markets</td>
+<td align="left">私募市场</td>
+<td align="left">非公开交易的资产市场（私募股权、私募信贷等）</td>
+</tr>
+<tr>
+<td align="left">Drexel (Drexel Burnham Lambert)</td>
+<td align="left">德崇证券</td>
+<td align="left">20世纪80年代华尔街著名的投资银行，被誉为“垃圾债之王”</td>
+</tr>
+<tr>
+<td align="left">Wharton</td>
+<td align="left">沃顿商学院</td>
+<td align="left">宾夕法尼亚大学下属的著名商学院</td>
+</tr>
+<tr>
+<td align="left">Investment grade</td>
+<td align="left">投资级</td>
+<td align="left">信用评级较高的债券或企业（违约风险较低）</td>
+</tr>
+<tr>
+<td align="left">High yield bonds</td>
+<td align="left">高收益债券</td>
+<td align="left">俗称“垃圾债”，信用评级低于投资级的债券</td>
+</tr>
+<tr>
+<td align="left">Levered loans</td>
+<td align="left">杠杆贷款</td>
+<td align="left">向已经具有较高债务水平的公司提供的贷款</td>
+</tr>
+<tr>
+<td align="left">PIK (Payment-in-kind)</td>
+<td align="left">实物支付</td>
+<td align="left">借款方以额外债券或股权而非现金来支付利息的融资方式</td>
+</tr>
+<tr>
+<td align="left">Securitized product</td>
+<td align="left">证券化产品</td>
+<td align="left">将缺乏流动性但能产生可预见现金流的资产打包成的金融产品</td>
+</tr>
+<tr>
+<td align="left">Highly confident letter</td>
+<td align="left">高度自信函</td>
+<td align="left">投行出具的表明“高度自信”能为某项交易筹集到所需资金的信函</td>
+</tr>
+<tr>
+<td align="left">Apollo Global Management</td>
+<td align="left">阿波罗全球管理公司</td>
+<td align="left">全球顶尖的另类资产管理公司，由Marc Rowan等人创立</td>
+</tr>
+<tr>
+<td align="left">Credit Lyonnais</td>
+<td align="left">法国里昂信贷银行</td>
+<td align="left">曾经的法国国有银行，阿波罗早期的重要资金来源</td>
+</tr>
+<tr>
+<td align="left">AUM (Assets Under Management)</td>
+<td align="left">资产管理规模</td>
+<td align="left">金融机构负责管理的客户资产总值</td>
+</tr>
+<tr>
+<td align="left">Permanent Capital</td>
+<td align="left">永久资本</td>
+<td align="left">投资期限长、没有明确赎回期限的资本（如保险资金）</td>
+</tr>
+<tr>
+<td align="left">Drawdown fund</td>
+<td align="left">提款型基金 / 封闭式基金</td>
+<td align="left">传统私募股权基金模式，根据投资进度向LP要求打款</td>
+</tr>
+<tr>
+<td align="left">BDC (Business Development Company)</td>
+<td align="left">业务发展公司</td>
+<td align="left">一种专门为中小企业提供融资的封闭式投资基金</td>
+</tr>
+<tr>
+<td align="left">LLM (Large Language Model)</td>
+<td align="left">大语言模型</td>
+<td align="left">如 OpenAI 的 GPT 等基于深度学习的自然语言处理模型</td>
+</tr>
+<tr>
+<td align="left">Enterprise software / SaaS</td>
+<td align="left">企业软件 / 软件即服务</td>
+<td align="left">面向企业用户的软件应用模式</td>
+</tr>
+<tr>
+<td align="left">DEI (Diversity, Equity, and Inclusion)</td>
+<td align="left">多元、公平与包容</td>
+<td align="left">现代企业治理和招聘中的一种理念标准</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<figure class="video-embed video-embed--youtube">
+  <div class="video-embed__frame">
+    <iframe src="https://www.youtube.com/embed/oYK_MmZW9XI" title="YouTube video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+  <figcaption class="video-embed__caption">YouTube video</figcaption>
+</figure>
+<h2>访谈正文</h2>
+<h3>引言</h3>
+<p><strong>Marc Rowan</strong>：目前美国股市中，有10只股票占据了标普指数近50%的权重，而且它们都受到同一种趋势的驱动。全球固定收益市场也在发生同样的情况。因此，如果你是一名投资者，想要寻找投资的多元化，除了私募市场之外，你别无他选。如今有许多伟大的公司，比如 Anthropic 以及其他同类公司，它们都是私有企业，价值高达数万亿美元，然而大多数投资者对它们却没有任何风险敞口。</p>
+<p><strong>主持人</strong>：十多年前，Marc Andreessen 写过一篇著名文章，提出“软件正在吞噬世界”。随着人工智能向经济的各个领域渗透，这句话现在感觉比以往任何时候都更加真实。我们现在倾向于假设每一项工作都将被取代或增强。2025年证明了数据中心、芯片和能源的巨大需求；而到了2026年，市场开始认识到，如果这种趋势继续下去，每一个投资者都会被这种趋势所裹挟。Marc，非常感谢您能来参加我们的节目，并在您的办公室接待我们。</p>
+<p><strong>Marc Rowan</strong>：这是我的荣幸。</p>
+<p><strong>主持人</strong>：我想我们也许可以先回顾一下过去。1984年，您从沃顿商学院毕业后加入了德崇证券（Drexel）。那时候您在这家公司看到了什么？</p>
+<h3>德崇证券、米尔肯与“白纸思维”的起源</h3>
+<p><strong>Marc Rowan</strong>：这是一件很有意思的事情。当时从沃顿商学院我们那个项目毕业的人，基本上都去了高盛（Goldman Sachs）。但我对德崇的业务——也就是为企业家融资、为新公司融资——感到非常震撼。在那里，你其实不需要懂太多深奥的金融知识，但你需要非常了解商业运作，因为这些客户并不是当时的埃克森美孚（Exxon），也不是当时的顶级蓝筹公司。它们的商业模式确实存在合理性的疑问。相比于金融的技术细节和公开募股之类的东西，我一直对商业本身更感兴趣。事实证明，我没有失望，那段经历非常棒。</p>
+<p><strong>主持人</strong>：在那段时期，德崇证券培养出了一大批人才，这绝对是最引人注目的现象之一。你几乎可以把今天所有的主要信贷机构的渊源，都追溯到那一批人身上。当时贵公司的文化，或者是客户的关注点，是不是塑造了这种惊人的人才输出？</p>
+<p><strong>Marc Rowan</strong>：这种“商业至上”的心态和对商业本质的深刻理解，最终都归结于如何做出信贷决策。这些公司不是投资级的，它们的评级低于投资级。这就迫使你必须去了解它们业务的基本面，而不是依赖第三方。
+同时，一个全新的市场正在被创造出来。那时没有高收益债券，没有杠杆贷款，没有ETF，也没有真正意义上的证券化产品。我们今天习以为常的所有产品，在当时都不存在。这就迫使你必须拥有“白纸思维”（Clean sheet thinking，即从零开始构建的思维）。我记得 PIK（实物支付）的整个概念就是在一个下午为了解决某个特定问题而创造出来的。后来又创造了银本位或银指数债券来解决另一个问题，依此类推。包括“高度自信函”（Highly confident letter）的概念、过桥融资的概念，所有这些东西基本上都是“遇到问题-提出解决方案”的产物。
+这种了解商业、了解信贷，同时具备白纸思维的文化，无疑是今天推动阿波罗前进的动力。</p>
+<p><strong>主持人</strong>：我知道迈克尔·米尔肯（Michael Milken）长期以来一直是您的导师。这么多年来，您从他那里学到的最有价值的经验是什么？</p>
+<p><strong>Marc Rowan</strong>：数不胜数。但我经常讲一个关于他的故事：当时我还算是个聪明的年轻人，掌握了自己的专业技能，评价也不错。但是，每当市场出现波动时，我就会接到迈克尔的电话。他会问：“你能从纽约飞来加州一趟吗？”我当然会问什么时候去。假设那是星期一，他就会说：“星期二。”所以，这种处理问题的即时性和“商业至上”的心态，绝对是迈克尔的风格。
+当时我坐在交易台上，在每个交易日结束时，迈克尔都会从我桌旁走过。我原本应该掌握所有的答案，因为迈克尔同时在处理一百万件事情，而我只负责一件事。但每天他都会问我一个我不知道答案的问题。他这么做不是为了挑衅我，也不是为了炫耀他有多聪明，他是在向我展示如何将不同的信息点联系起来（Connect the dots）。
+我认为这正是当今世界运行规律的重要组成部分。你能否将地缘政治的动态、技术领域的变革、金融市场的情况，以及各种各样的人和个性结合起来，用一种连贯的方式构建出良好的人际关系、出色的交易和伙伴关系，从而造福世界？这是我学到的主要经验。
+此外，他最精辟的一句话往往也是最有价值的：<strong>“你要么拥抱变革，要么变革就会降临到你头上。”</strong> 我们现在绝对正处于这样一个时刻。</p>
+<p><strong>主持人</strong>：确实如此。多年来您在很大程度上塑造了阿波罗，这也是我很期待聊的话题。让我们把时间拨回1990年，您能讲讲创立这家公司的起源故事吗？</p>
+<h3>阿波罗的起源：从失业到手握60亿美元</h3>
+<p><strong>Marc Rowan</strong>：当然。如果现在的听众不了解1990年发生了什么，你们可以回想一下2008年的雷曼兄弟（Lehman Brothers）。1990年是一场全球性的经济衰退，伴随着银行业危机、德克萨斯州房地产危机、纽约房地产危机，以及储贷危机，简直是一团糟。
+周五我离开办公室，周日回来时，我把所有私人物品装在一个纸箱里带走了——德崇证券倒闭了。这是一个伟大的教训：金融服务公司的死亡原因只有两种——“心脏病”或者“癌症”。</p>
+<p>心脏病指的是资金流动性风险（Funding risk）。如果你借短贷长，你就会面临流动性风险。我们在贝尔斯登（Bear Stearns）身上看到了这一点，在雷曼兄弟身上也看到了这一点，这种事一再发生。我可以告诉你这个深刻的教训：<strong>我们在阿波罗永远不会让这种情况发生。</strong> 理解这种资金流动性问题、这种心脏病风险，已经深深植根于我们的文化中。
+而癌症风险，当然是指在很长一段时间内不断增加不良资产。作为一家坚持本金安全至上理念的公司，我们绝不允许这种情况发生。我们承认错误，我们继续前进，我们承担损失，我们不会加倍下注或做其他类似的事情。</p>
+<p>回到1990年，想象一下，在全球金融危机中成为一个失业的投资银行家，这对职业生涯来说绝对不是一个好处境。幸运的是，我们当时有一群人共用一个办公室。德崇的倒闭非常突然，以至于我们仍在为客户处理交易，而且根本没有拿到报酬的希望，也没有公司的支持，纯粹出于职业本能。</p>
+<p>巧合的是，我们接到了法国国有银行——法国里昂信贷银行（Credit Lyonnais）的一个推销电话，问我们是否有兴趣在强大的里昂信贷旗帜下成立一家并购精品店。在1990年，这简直是个糟糕透顶的主意。当时根本没有任何并购活动，市场完全丧失了信心。我记得我们中的一个人随口说了一句：“但这将是部署资金配置的绝佳时机。”对方说：“巴黎有个人，他的想法和你们完全一样。不如我给你们安排个会面？”</p>
+<p>几个月后，我们带着法国政府通过里昂信贷银行提供的8亿美元离开了。你要知道，我们这群人以前从未为机构管理过资金，而这家机构以前也不是一个投资方。到了那年底，我们掌握了这家银行的60亿美元资金。在1990年，没有人能拥有60亿美元。</p>
+<p><strong>主持人</strong>：这太惊人了。</p>
+<p><strong>Marc Rowan</strong>：我们后来成为了里昂信贷银行最大的利润中心。在接下来的几年里，我们每年稳定地为他们赚取超过30亿美元的利润。我们在巴黎非常受欢迎，尽管除了在餐厅点菜用的法语外，我们什么法语都不会说。要是把我们鸡同鸭讲的经历拍成电影，版权绝对能卖出天价。</p>
+<p>但最终，作为法国国有银行的里昂信贷银行，因为过度支持法国工业而破产了。在绝望中为了维持其资本基础，它将其最赚钱的投资部门（也就是阿波罗）卖给了其最大的客户——弗朗索瓦·皮诺（Francois Pinault）。</p>
+<p>有趣的是，弗朗索瓦·皮诺根本不知道他买下的是一家投资公司。他认为自己买下的是新秀丽（Samsonite）、库利根（Culligan）和范尔度假村（Vail Resorts），毕竟他是个实业家。所以如果把我们与弗朗索瓦·皮诺第一次会面的场景拍成电影，也绝对非常搞笑。
+不过幸运的是，我们的过往业绩足够出色，随着时间的推移，我们不仅为皮诺赚了很多钱，还开始将我们的业务扩展到美国、欧洲和国际的机构投资者。剩下的故事大家就都知道了。但在大约18年的时间里，我们的业务范围一直相对集中。</p>
+<p><strong>主持人</strong>：直到今天，人们仍然（我认为是不正确地）把阿波罗称为一家私募股权（PE）公司。但其实是您，比任何人都更深刻地将这项业务转变成了一个涵盖退休服务和大型另类资产管理的庞大企业。您当时在 Athene（阿波罗旗下的退休服务平台）看到了什么？您现在如何看待阿波罗这家公司？</p>
+<h3>阿波罗如何成为万亿美元规模的退休与信贷巨头</h3>
+<p><strong>Marc Rowan</strong>：让我先稍微倒退一下。今天，阿波罗的资产管理规模（AUM）略超过1万亿美元，这只是一个衡量标准。我们目前涉足两大业务：退休服务业务和资产管理业务。如果你分析一下这1万亿美元的资产构成，80%是信贷资产，其中绝大多数是投资级信贷。剩下的20%（约2000亿美元）中，一半是我们所谓的“混合型股权”（Hybrid equity，类似合伙人权益），另一半才是传统的私募股权基金产品。</p>
+<p>当你听到人们说“阿波罗是一家私募股权公司”时，这和我们实际的业务构成完全不同。实际上，阿波罗主要是一家投资级信贷机构。
+当你的公司规模很小时，你可以做一家很棒的交易撮合机构（Deal shop）。但是当你想要把规模做大时，你必须服务于某个基本面的社会效益（Fundamental good），否则来自社会的压力、政府的监管和周围的力量就会制约你。所以我总是从“我们在创造什么社会效益”出发，然后再考虑业务的驱动力是什么。这两者是重合的。</p>
+<p>我们创造的社会效益有三点：
+首先，我们是全球最大的退休收入提供商。
+其次，我们是当前主要发生在美国、同时也遍及欧洲、亚洲等地的全球工业复兴的最大融资来源。
+最后，我们为公开市场提供了投资的多元化选择，而这正是我们所做的事情中最不被理解的部分。</p>
+<p>目前在美国股市，10只股票占据了标普指数近50%的权重，它们都与同一种趋势深度绑定。到目前为止，这些公司的表现令人惊叹。但问题是，我们几乎把全国的退休系统都押注在这10只股票上了。如果情况恶化，我们事后肯定会质疑这种做法的明智性。
+同样的情况也将发生在全球固定收益市场中。历史上由10家大型银行主导的市场，即将变成由5家大银行和5家大型科技公司主导。固定收益市场的集中度将变得和股票市场一样高。
+因此，如果你是一名投资者，正在寻找多元化配置，除了私募市场，你找不到其他地方。世界上80%的经济活动都发生在私募市场。</p>
+<p>看看现在发生的事情：像 Anthropic、OpenAI、SpaceX、Cognition、Cursor 等等伟大的公司，它们都是私营企业，拥有数万亿美元的价值，但大多数投资者对它们完全没有风险敞口。我们将看到同样的趋势在工业企业中发生。出于各种已知的原因，许多工业公司将决定保持私有化更长的时间。</p>
+<p>因此，当我审视今天的业务时，它既是在服务于基本面的社会效益，也是建立在大趋势之上的。目前的趋势是：世界正在变老；人们没有为退休攒够钱；巨大的退休收入缺口正在推动我们的业务向前发展，人们需要收入。
+与此同时，企业正在疯狂借款——其规模堪比人类发明火以来的所有投资总和——用于建设基础设施、能源系统、能源传输、下一代制造业、人工智能、国防安全以及数据中心，所有这一切都在同时发生。</p>
+<p>所以，一边是主要为投资级的借款人（大型企业）急需巨额资本来应对现代趋势，另一边是退休人员对稳定收入的迫切需求。而阿波罗，就站在中间将两者匹配起来。有时候我觉得我们就像站在繁华的十字路口，车流24小时不息。你问我感觉怎么样？我说我很累，但我不会退休。</p>
+<p><strong>主持人</strong>：我觉得非常有必要深入探讨一下贵公司在另类资产管理生态中独树一帜的“永久资本”（Permanent capital）基础。我记得我们曾在一起吃晚饭时您提到过，这项业务的本质在很大程度上可以归结为负债成本与通过边际风险单位创造超额回报，也就是要在时间的推移中不断拉大这两者之间的利差。这是您对这项业务的精辟总结吗？</p>
+<h3>永久资本、资产发掘与为何“资产”才是稀缺资源</h3>
+<p><strong>Marc Rowan</strong>：完全正确。我们可以从几个不同的角度来理解这个问题，这源于人们对我们这个行业“成功是什么样子”的一种误解。</p>
+<p>对于传统的资产管理公司来说，资产管理规模（AUM）是一个很好的成功衡量标准。因为只要你给传统资管公司任何数量的资金，他们都能把它投出去，因为他们只需去公开市场上买现成的东西。但如果你给我们任何数量的资金，我们不一定能投得出去。我们的投资速度受限于我们发掘和创造资产的速度。因此，我认为应该根据我们创造优质投资的能力来评判我们，而我认为这种能力是有限的。最终限制我们的不是资本，而是我们创造资产的能力。</p>
+<p>由此可以得出几个结论：如果每一项我们创造的资产都是短缺的，作为企业所有者、建设者和战略家，我想从每一项资产中赚取更多的钱。所以，是的，我喜欢通过管理资产来赚取管理费；但我也想作为本金投资者（Principal）下场。只要市场允许，我希望拥有资产端尽可能多的上行收益。</p>
+<p>更有趣的是，那些涉足私募市场的客户，他们并不总是掌握和你一样的信息，无论他们是基于信托义务还是非信托义务让你管理他们的钱，他们都喜欢这种利益一致性（Alignment）。没有什么比与你的客户成为利益共同体更棒的了。所以，从外部原因来看，我希望与客户利益一致；而从有效的战略来看，资产是短缺的，我想赚更多的钱，因此拥有庞大的资本基础至关重要。</p>
+<p>我最近一直在说：我们这个市场一直存在“轻资产”（Capital light）和“重资产”（Capital heavy）模式之争。我认为我们应该理直气壮地选择重资产。审视我们即将进入的世界，变化是唯一的常态，而且变化的速度比以往任何时候都要快。在这样一个世界里，什么是有价值的？一方面，我认为品牌和声誉有价值。其次，我认为“保证结果的能力”有价值。而无论是为资产发行人提供确定性，还是在保险或退休收入端为客户提供担保，资本都是能够提供这种保证的关键。</p>
+<p>所以，我们积累了庞大的资本基础，而且还会继续变大。这使我们能够与客户并肩作战。我认为这是我们在不断变化的世界中所处的最佳甜点区。</p>
+<p><strong>主持人</strong>：您早些时候曾提出过一个观点：公开市场与私募市场之间的区别，其实比过去人们想象的要微妙得多。历史上，公开市场被认为是流动性好且安全的，而私募市场被认为是缺乏流动性且高风险的。</p>
+<h3>推进私募市场民主化：每日定价与新的资本渠道</h3>
+<p><strong>主持人</strong>：但我注意到您最近宣布，您将对旗下一系列产品实行每日按市值计价（Daily mark-to-market）。在将私募市场推向更广泛的退休生态或财富生态的过程中，您如何看待这种“民主化”？</p>
+<p><strong>Marc Rowan</strong>：我们这个行业虽然已经有40年左右的商业化历史，但如果你回顾一下，整个行业最初完全是建立在单一的资本来源上的，也就是机构投资者的“另类投资”配额中，并且基本上全是基金模式。它的节奏相对缓慢，虽然有私募股权基金，但也有房地产私募股权、基础设施私募股权和信贷私募股权基金。这是一门相对简单的生意，你不需要大量的基础设施，因为面对的都是同样的机构，按季度出具报告就可以了。</p>
+<p>但现在，我们面临着五个新市场：我们服务个人投资者，服务保险公司，服务机构投资者的债务和股权配置，服务传统的资产管理公司，以及服务 401(k) 养老金计划。这五个新市场对那种需要长期锁定的“提款型基金”（Drawdown fund）毫无兴趣。他们生活在一个公开、透明的世界里。如果我们还傲慢地认为他们会去适应我们的老规矩，那就太自大了。如果我们想服务他们，想在他们的世界中生存，我们就必须去适应他们。但同时，我们也不能把我们的产品搞砸，不能造成风险与回报之间不可接受的错配。</p>
+<p>因此，我们从我们的投资级私募产品线开始。到6月30日，我们将实现每日估值。但这还不够，我们还需要标准化的信息，标准化的 CUSIPs 或 ICE ID（证券标识码），标准化的数据仓库，做市机制，定期公布价格，以及引入其他交易商。这关乎创造一个生态系统。到9月底，这将推广到我们整个信贷业务。</p>
+<p>我相信这是必然的发展方向。在世界上任何一个市场，只要你引入了透明度和价格发现机制，它的规模通常会扩大10倍。这种变化就像所有其他变革一样，可能会让人感到不舒服，但它确实要来了。这五个新市场需要它。它在实施的第一天会完美吗？不会。它会每天都变得更好吗？一定会的。也许不久的将来，这甚至会应用到股权投资上。但这并不是今年的任务。</p>
+<p><strong>主持人</strong>：我还知道您曾多次谈到，媒体对“私募信贷”的定义过于狭隘，往往只局限于直接贷款（Direct lending）和 BDC。从您的角度来看，您如何描述更广泛的私募信贷生态系统？随着生态系统的成熟，您认为在这个市场中什么样的机构才能成为最终的赢家？</p>
+<p><strong>Marc Rowan</strong>：我认为首先归结于管理信贷账本的技能组合。归根结底，管理信贷与管理股权是完全不同的。在信贷中，你只能拿回你的本金和利息。作为一般规则，你不应该承担过度的风险，你应该充分分散投资。而在股权投资中，你承担风险是能获得超额回报的。这种心态上的差异也许显而易见，但在人们的实际业绩和构建投资组合的方式中，这一点往往并没有被贯彻。</p>
+<p>其次，你需要有较低的资本成本，或者说拥有多样化的资本成本。我认为我们之所以能在这个领域取得巨大成功，原因之一是我们愿意将低成本的退休负债与安全的长周期收益资产进行匹配。我们绝不能把高风险的长周期资产放在受监管的资产负债表上。</p>
+<p>如果你看看私募投资级资产最大的发行人，你会看到英特尔、法国航空、法国电力公司、AT&#x26;T、Meta、BP能源等等。这些都是大型上市公司。上市公司的CFO和CEO们现在明白，融资市场分为三类：
+第一是银行市场。银行市场是世界上最好的短期融资来源，因为银行吸收的是短期存款，放出的是短期贷款。银行是最好的短期贷款人，但不是一个好的长期贷款人。
+第二是公开债券市场，第三是私募资本市场，这两个都是优秀的长期贷款人。但公开市场只提供标准化的产品。如果你需要任何非标准化的定制融资，你就必须来到私募市场。</p>
+<p>再想想我们今天所处的世界。当我们建设一个需要整合能源、芯片和电力承购协议的数据中心时，这绝对不简单。它或许具备良好的信贷资质，但它绝不简单。它不是那种由单一发行人承销的标准的10年期债券。因此，我们需要有能力也有意愿将智慧投入到投资级信贷中。
+其实投资级信贷本身并不是一门利润丰厚的资管生意，但我们确实需要这些资产。更重要的是，一旦我们发掘了这些资产，它就能反哺我们的第三方信贷业务。因为如果我们作为一家大型退休服务保险公司需要这种资产，其他保险公司也会需要，养老基金需要，大学捐赠基金需要，个人投资者很可能也会需要。这就是我们现在看到的局面。作为本金投资者的我们，用实际的资金投入向市场展示了我们的利益一致性，这让人们对这些投资级信贷承销感到放心。</p>
+<p><strong>主持人</strong>：我最喜欢的一句话是——这有点像我职业生涯的隐喻，也是一种投资哲学——**“机会往往存在于不同专业领域的交叉点上。”**我喜欢生活在各种事物的交叉口。我很想转移一下话题，探讨一下阿波罗和 a16z 两个机构之间的交叉机遇。</p>
+<h3>当创投遇上信贷：为工业复兴融资</h3>
+<p><strong>主持人</strong>：我们的创始人 Marc Andreessen 十多年前写过一篇文章，说“软件正在吞噬世界”。随着人工智能向经济各领域的渗透，这句话比以往任何时候都更加真实。结果就是，我们发现自己正在资助越来越多资本密集型的企业，比如国防、能源、机器人、制造业和公共安全领域。最终，我认为这些企业大多数都需要从早期的风险投资中毕业，并很可能成为（或已经成为）您的客户。在您看来，我们两家公司之间有什么潜在的机会？</p>
+<p><strong>Marc Rowan</strong>：机会巨大，简直说不完。首先我要深入探讨一下这个“交叉点”的概念，因为这种交叉确实在我们的业务中创造了价值。
+想象一下机构投资者是如何分配资金的：他们把资金分成不同的“篮子”。有些篮子如果他们有优秀的投资团队，就自己管理；有些篮子外包给顾问或投资经理，但它们仍然在固定的篮子里。传统的篮子有股票（公开市场股票）、固定收益（公开固定收益），有时候还有一个流动性篮子、一个实物资产篮子，然后还有一个叫做“另类投资”的篮子。这40年来大多数情况都是这样。
+那么问题来了：对于那些非公开上市、绝对安全，但回报率又达不到“另类投资”那么高的股权资产，你该怎么办？它没有归属。它既不能放在公开市场的篮子里，也不属于另类投资，因为它回报不够高，但它的风险收益比却是最好的。我们把这称为“混合资产”。这是我们增长最快的业务。</p>
+<p>同样，对于“私募投资级信贷”这种资产，由于机构固定收益篮子里的东西大多是公开市场的，因此它们无法成为资金来源。但我们却能够进行资产发掘并赚取超额回报，就是因为“私募但达到投资级”的资产没有现成的篮子。现在，随着我们做得越来越大，我们正在改变世界，我们看到机构开始采用“全投资组合方法”，家族办公室等也在发生转变。
+在这个中间地带，几乎总是能诞生最好的资产类别，因为这里资本形成不足，而且没有专门的人把管理这种风险作为他们的日常工作。这正是发生在我们两家公司之间的事情。</p>
+<p>你所处的生态系统（a16z 是主要玩家之一）过去从未面临过高度资本密集的局面。而现在，不仅变得资本密集，而且其规模将超乎想象。正如我所暗示的，投入到数据中心、芯片、机器人、制造业、国防领域的资金，将比人类发明火以来的任何时期都要多。这些绝不可能完全用股权融资来解决，因为那样既低效，规模上也无法实现。它必须被拆解成各种不同的风险层级，这正是我们现在看到正在发生的事情。</p>
+<p>如果我看看今年我们业务的驱动因素，那就是数据中心和大规模的芯片融资。我们正在做的是拆解风险。在风投端、股权端，是对这些公司基本业务的承销；而在基础设施端，那些可重复使用的、具有硬资产价值的部分，正在以适当的回报率和风险评级被卸载到信贷市场。
+我相信我们正在接近一个非常有趣的时期。我们以前从未真正讨论过如此巨量的资金，我认为这就是我们现在的处境。</p>
+<p>2025年只是概念验证阶段，证明了我们确实需要数据中心、芯片和能源。到了2026年，市场开始认识到如果这种趋势持续下去——仅今年就有四家上市科技公司投入8000亿美元资本支出，更不用说私募领域的投入了——所有投资者将会变得过度集中在某些特定的资产标的上，我们会触碰集中度限制（Concentration limits）。我们开始在各个领域看到这种情况，我认为信用利差将会走阔。
+真正优秀的企业家最终将与另一种类型的企业家建立合作关系——也就是那些能够帮助将信贷资产、混合股权及其他资产民主化的金融企业家。</p>
+<p>我也不认为这种想象力会止步于芯片、数据和能源。我去过湾区、西雅图和其他地方，机器人技术完全是另一个广阔天地。一旦世界能够解决 Waymo 面临的挑战——即在不断变化的环境中解决自动驾驶问题，安全至上且不能停机——那么把这套逻辑应用在建筑设备上的难度，绝对不应该比 Waymo 更难。在其他类型的机器人上也是同理。
+我们才刚刚起步。为什么这些都要用股权融资？要知道，我们有一个庞大的设备租赁市场。那个市场的资本成本比风险投资要低得多，资本规模也大得多。这为像我们这样的机构提供了实现多元化的途径，并提供了合适的杠杆率以及对拆解这些风险的深刻理解。建立在这类风险合作上的信任，我相信会让我们未来更多地去你们的老家（硅谷）出差，反之亦然。这也是我们实体办公战略的一部分。
+我们热爱纽约，但纽约有一定的局限性（这里不是谈政治的播客，否则我们可以就此展开）。我们致力于建设第二总部，我们需要接触到第二大的人才库。直觉告诉我，那个第二大的人才库将更加专注于拥抱变革，专注于挑战者商业模式，并确保我们与增长生态系统建立深厚的合作关系。美国是世界羡慕的对象，我们希望保持这种状态。</p>
+<p><strong>主持人</strong>：听您这么说真棒。有人问我们到底是属于硅谷还是华尔街？是一个创业者、投资者还是运营者？我觉得答案应该简单地回答“是的，都是”。如果一件事太容易被归类、太容易被定义，那就说明它处于边缘位置，而真正的机会往往存在于这些身份的交汇处。</p>
+<p><strong>Marc Rowan</strong>：确实。从1990年我们成立到2008年，虽然我们公司的规模稍微变大了一些，但基本上都在做同样的事情。在2008年的时候，我们行业里那些你熟知的公司大约管理着400亿美元，而现在我们管理着一万亿美元，有些公司稍微大一点，有些稍微小一点。
+这难道仅仅归功于优秀的管理吗？我愿意相信有这方面的因素，但这绝对不是主要的驱动力。真正的答案是：我们是被外部力量塑造的。从全球金融危机后走出来，经历了新冠疫情，经历了利率变化，经历了产品的爆发式增长。
+那么，现在正在塑造我们行业的外部力量是什么？我认为主要来自于经济结构本身的转变。我们的假设是：<strong>每一份工作都将被取代或被（AI）增强。每一份工作。</strong></p>
+<h3>AI、企业软件与为什么每一份工作都将被取代或增强</h3>
+<p><strong>Marc Rowan</strong>：我认为这正是即将发生的事情。如果一个世界的GDP在增长，利润率在增长，工资在增长，但就业人数没有增长，也许这并不是一件坏事。也许这就是人口老龄化、平均每个退休人员对应的劳动力减少、或者移民减少所带来的必然结果。作为国家、世界或城市，我们如何去平衡这一点，将是一个非常有趣的挑战。</p>
+<p><strong>主持人</strong>：我们的许多听众都是科技生态系统中的创业者。他们中的许多人可能还没有与阿波罗合作的经验。对于听到这期节目的创业者，他们应该如何思考在什么时候、以及如何尽早地与您接触并建立合作？</p>
+<p><strong>Marc Rowan</strong>：这就是我们的专长所在。我们是否有能力并愿意集中精力为任何一位创业者处理交易，这几乎完全取决于我们拥有的两项资源：时间和金钱。而在这两者中，时间是目前最稀缺的资源。因此，能够吸引我们的注意力，并向我们描绘一幅不仅是你们当前的状况，更包括你们未来走向何方、以及我们如何实现共赢的图景，我认为这是大势所趋。
+这种情况正在发生在那些需要特定专业知识的领域。比如国防领域，我们在这个领域投入了大量时间。你不能只是凭空出现说你要做国防，你必须对整个生态系统、环境等有深刻的了解。</p>
+<p>但这同样也体现在“资本有限”这个概念上。历史上，那些创造了巨大价值的伟大创业者，往往只有一个选择：等待公开市场作为他们退出的途径。现在世界变化如此之快，也许他们想要的是一次阶段性的私募流动性变现，从而将他们的资本回收，投入到具有更高回报率的新项目中，并继续参与未来的私募资本增长，最终实现公开上市或全面变现。我们在我们的生态系统中看到了各种各样这样的模式。</p>
+<p>我相信我们将会看到越来越多这类合作伙伴关系如雨后春笋般涌现。无论是在 OpenAI 为民主化其大语言模型而构建的生态系统中，还是 Anthropic 为民主化其技术路径而建立的生态系统中。我认为，以增长和金融为核心的合作伙伴关系的爆发，才刚刚开始。</p>
+<p><strong>主持人</strong>：我很想深入探讨一下您在AI领域所看到的价值或残余价值。人们一直在谈论“SaaS末日”（SaaS Apocalypse）。几个月来您一直指出，直接贷款领域真正的问题在于对企业软件的过度敞口，并且最终AI会继续冲击这部分业务。我想请教一下，我们现在处于什么位置？未来会走向哪里？</p>
+<p><strong>Marc Rowan</strong>：我认为没有回头路可走了。这当然是我们的主观偏见，而且并不能涵盖所有情况，也不适用于每一家公司。但如果你认为我们是在8到12周前一觉醒来才发现AI会影响企业软件，那真的不对。作为负责任的信贷从业者或投资者，我们怎么可能忽视这一点？
+到目前为止，媒体和公众的焦点一直集中在信贷市场存在的问题上，因为它是最容易被看见的。但如果信贷市场都有问题，那就意味着在股权投资端的问题更加严重。过去十年里，私募股权行业有30%的资金投向了企业软件。
+我个人预计，大量存量私募股权的回报将是灾难性的，因为他们对企业软件的敞口太大了。这并不意味着企业软件公司会倒闭，差得远呢。这只是意味着，将它们高价转售给公开市场或其他接盘侠的前景大大降低了，仅仅是因为当初买入它们的价格太高了，而那个价格反映的是一个没有AI参与竞争的未来。现在AI来了，竞争对手出现了。再说一次，这不适用于所有公司或所有情况，但变化的规模简直无法估量。</p>
+<p>如果不那么专注于技术的普通人都能在他们的日常业务中看到这一点——我回想一下我们是如何运营这家公司的，阿波罗的每一个人都能预见，有了AI的辅助，他们目前所做的工作将如何改变。少部分人甚至可以预见，当数据和软件变得免费时，商业模式“应该”是什么样子，而不是“现在”是什么样子。
+这还有另一个层面的问题：你如何设想启动一项新业务？启动的成本是多少？启动的速度有多快？我们现在看到的初创企业比以往任何时候都多。因为挑战者现在可以从一个完全不同的起点起步。
+这也是我们感到疲惫的原因。这也是为什么作为一家老牌且成功的公司，我们必须对被替代的风险保持高度的偏执（Paranoid）。在那些“存在标准正确答案”的领域，变化的速度是最快的。为什么我们在代码和软件领域看到了这种剧变？因为归根结底，AI 可以自己检查 AI 生成的代码是否正确。所以这种变化曲线几乎是一条垂直线。</p>
+<p>另一方面，如果你想找出一个“最出色的莎士比亚论文”，我们会看到AI也在进步，但这需要人的判断去引导，因为没有绝对正确的答案。所以，这部分领域也会发生变化，但变化速度不会那么垂直。
+这完美地描述了我们的商业世界：在一些有明确正确答案的事情上，比如会计、交易操作等，我们将看到彻底的“替代”。而在需要判断力和专业知识的领域，我们将看到“增强”或辅助。
+这是一种永久状态吗？并不是，因为我们谁都不知道这一切最终会走向何方，也不知道未来的AI判断力能达到多高。因此，我们需要继续保持偏执，继续专注于拥抱变化。
+就近期而言，我非常看好那些积极采用新技术、具备变革心态的企业。实际上，我非常看好工资的增长。我认为我们将看到就业市场出现周期性的轮动。我之前说过，我认为我们将看到蓝筹工人（蓝领）地位的上升和白领阶层的衰退。这对一直没有基于这种假设运作的政治界来说，将是一个艰难的处境。对于大量白领聚集的“蓝州/蓝市”来说也是一个挑战。但我们越快适应这一趋势，创造出新的企业、新的产业——历史上一直如此——每个人的处境就会变得越好。</p>
+<p><strong>主持人</strong>：退一步讲，作为一名贷款人，鉴于事物变化如此之快，AI是如何改变您对“什么类型的抵押品值得放贷”或“什么才是可预测的现金流”的看法的？</p>
+<p><strong>Marc Rowan</strong>：作为贷款人，我们一直抱有一种心态：变化是常态。如果我回想一下以2000年为分水岭的时期，人们曾担心美国的整个数字基础设施会在千年虫（Y2K）危机中崩溃。好吧，我们挺过来了。但你从那里往下看，在2000年，市场还在给所谓的“黄页”（Yellow pages）公司发放贷款。黄页怎么可能被取代呢？毕竟它是免费的、颗粒度极高的、根植于文化的。但在今年的新员工培训班上，我用到“黄页”这个词时，大家都举手问那是什么东西。</p>
+<p>历史的变迁并未停止。曾经，电视台和广播电台被认为是具有巨大价值的特许经营权。现在它们已经衰落了，其他形式的内容出现并取代了它们。它们没有消失，但价值大幅缩水。有线电视曾是部分的继承者，现在也被取代了；卫星电视被取代了；移动电话被取代了；光纤被取代了……你只需看看这种变化的周期。
+作为一名贷款人，你深知这一点。你要分散投资，在你察觉到风险的地方要求高级担保，你寻找硬资产作为抵押品，而且你要接受一个事实：你无法做出一个管用二三十年的决定。在我们的业务中，你只能做出管用三、五或七年的决定。市场上有优秀的贷款人（我认为我们是其中之一），也有糟糕的贷款人；有优秀的银行，也有糟糕的银行；有优秀的保险公司，也有糟糕的保险公司。信贷是一门手艺，而不是每个人都具备的技能。</p>
+<h3>道德领导力：宾大风波、唯才是举与“做对的事，而不是容易的事”</h3>
+<p><strong>主持人</strong>：我想把话题稍微转向一个不同的方向——关于道德领导力。我非常钦佩您的一点是您在打击反犹太主义方面的热情。显然，在10月7日事件之后，这在您的母校（宾夕法尼亚大学）达到了高潮。我很好奇，在那个时刻，您是如何决定如此公开地与大学领导层进行抗争的？</p>
+<p><strong>Marc Rowan</strong>：如果我当时多想一想，我可能就不会这么做了。我是一个充满激情的人，但我不得不说，整件事让我觉得极其不公平，且极其不明智。</p>
+<p>我们当时看到的并不是“言论自由”，而是“有偏向性的言论”、“特权言论”。在他们举办所谓的“巴勒斯坦权利会议”之前，我最初与大学的交涉是写信给大学校长，我说：“我是一个言论自由的绝对主义者。我认为这个会议应该继续进行，但是，作为一所拥有300年历史的道德机构，大学不仅在资助它、推广它，甚至要求犹太学生在犹太教的圣日参加它，而且你们还将这个已经举办多年的会议的控制权外包给了一个众所周知的哈马斯同情者和恐怖分子同情者。除了这些，我都没有意见。”</p>
+<p>大学无法反思自己在一个社会中的角色。大学在社会中的角色到底是什么？太多时候，这个问题是模糊的。我认为我们当时的校长不知道大学在社会中的角色是什么。它是为了追求卓越的学术和研究，还是为了推动社会变革？如果说是为了社会变革，那到底是谁的社会变革？是她的社会变革吗？是校董会决定的，还是教职员工决定的？有过投票吗？没有。在我们的大学里发生的事情是，我们经历了一种“非敌即友”、“反美主义”、“反资本主义”、“极度反唯才是举（Anti-merit）”的狂热情绪。</p>
+<p>巴以冲突并不完全是一个反犹太主义的问题。我们在这些大学看到的，其实更像是一个反美、反体制的问题。
+因此，当这种情况持续存在时，我认为我们不应该支持那些违反基本道德原则的行为。结果事实证明，很多人和我有同样的感觉，即使他们没有大声说出来。绝大多数捐赠者决定把给大学的捐款降到每年1美元。我们成功引起了大学的注意。
+最终，在华盛顿特区的公开听证会上，他们无法直接将恐怖主义称为“谋杀”，而不仅仅是“应受谴责的”，这超出了公众和权力机构的容忍底线。最终校董会主席和校长都辞职了。但我们在社会上的许多地方都看到了类似的现象。</p>
+<p>我们在商界也看到了这种情况。在某些情况下，人们在 DEI（多元化、公平与包容）的剑下倒下，或者在气候变化/ESG的剑下倒下，人们变得极端绝对主义。当我在2021年接任首席执行官时，我说的第一件事是，我希望我在德克萨斯州说的话，和我在加利福尼亚州说的话是一样的。为了迎合不同的人编造不同的故事太累了。我宁愿做我自己。</p>
+<p>如果你看看我们在气候变化方面所做的政策，只有一条规则：<strong>让情况变好，而不是变坏。</strong> 就这么简单。这对于某些绝对主义者来说是不可接受的。好吧，我们就是我们，我们会做我们该做的事。我们会让情况变得更好，而不是更坏。
+在就业方面，如果仅仅根据一些与生俱来的特征（不可改变的特征）来决定是否录取某人进入高等学府或雇佣某人进入劳动力市场，这听起来是我能想象到的最反美国价值观的事情，我完全同意这毫无意义。然而，企业界却盲目地接受了它，但我们没有。我们坚持了同样的公式：<strong>我们为了能力和成就（Merit）而招聘，并根据个人的“跋涉距离”（Distance traveled，即克服困难的程度）进行调整。</strong>
+这个“跋涉距离”与你无法改变的天生特征无关。它关乎你作为一个个体，而不是你所在的阶级或群体。让我看看这个孩子，让我看看这个为了取得成就而不得不克服巨大障碍的个体。那才是我想要的人。那才是我们的大学、我们的企业、我们的创业生态中应该想要的人。这不是关于把权力集中在少数精英手中，这是关于民主化，同时也不破坏我认为使这个国家伟大的一种信念：即每个人都有成功的机会。不是基于你的肤色、你的宗教、你的性取向、你的原籍国或任何其他不可改变的特征。我们不把你当作一个群体来对待，我们把你当作一个个体来对待。
+顺便说一句，这在今天显然是个有争议的立场，尽管它本不应该有争议。</p>
+<p>但无论阿波罗这里的团队是否完全同意我在宾大的做法，无论他们是否完全同意我们的气候政策，无论他们是否完全同意我们在招聘上的做法，我收到了压倒性的、关于“道德领导力”的积极反馈。这是阿波罗的原则之一：<strong>我们做正确的事，而不是容易的事（We do right over easy）。</strong>
+随波逐流地宣布“零碳排放”是容易的，或者什么都不说也是容易的；而坚持说“我们要让情况变好，但如果这包括为碳氢能源提供融资，我们也会做”，这才是困难的。
+同意这个指标或那个政治正确的标准是容易的；而坚持“唯才是举+跋涉距离”是困难的。</p>
+<p>我希望这已经深深植根于我们公司的文化中。这么做并非没有代价，但我也不认为它应该没有代价。总体而言，如果重来一次，我还是会以完全相同的方式做所有的决定。我认为这让我们与众不同。我们也不是唯一这样做的公司，外面也有其他的同行。但是，只要你把头伸出战壕，就肯定会有挨打的风险。</p>
+<p>但话说回来，我们中有多少人能有这样的机会？这也是我拜访你（a16z）和 Marc（Andreessen）时说过的话。我们是世界上最幸运的人。我们已经实现了我们想要实现的一切。现在已经不再是关于赚钱了。现在的目标是从“成功”走向“有意义的价值（Significance）”。我们能做些什么来改变世界？我们被赋予了这样的机会。我们当然可以去打高尔夫，但这对我来说行不通。我们不仅要履行社会对我们的期望，我们更要真正地去领导潮流。</p>
+<p><strong>主持人</strong>：这很自然地引出了关于阿波罗公司文化的话题。您如何看待阿波罗的文化？我知道“为了赢而战（Playing to win）”是核心精神之一。随着公司的规模不断扩大，您是如何保持贯穿整个访谈的这种创业精神和文化的？</p>
+<h3>阿波罗的文化：“为了赢而战”与打造超越创始人的百年老店</h3>
+<p><strong>Marc Rowan</strong>：这是今天最好的问题，这实际上占据了我大部分的时间。过去一年里，我们投入精力最大的项目就是企业文化。它是为了回答一个简单的问题：<strong>是什么让阿波罗成为阿波罗？</strong></p>
+<p>好消息或坏消息是，这经历了长达六个月的反复讨论。想想看发生了什么：当我们在一家小公司时，文化是单一的。每个人都在同样的环境下成长，每个人接受入职培训的方式都一样。一切都是透明可见的，相当简单。但当资产管理部门有4000人，退休服务部门有2000人时，我们现在必须非常有意识地去塑造它。
+另外，我还会做这份工作很长一段时间，但我不可能永远做下去。作为创始人，我在文化建设上有一定的自由度，但我想确保我们在做的事情是有意为之的。
+如果我们招募了一个年轻人，我们教他业务，教他文化，这很容易。但如果你是一个在其他公司工作了15年、被招来帮我们补充技能的人，而现在有500个像你这样的人，我们该如何向你传授我们的文化？
+我们知道如何让你在商业上获得成功。但如果你为我工作，你可能会以一种方式学习文化；如果你为 John Zito 工作，又是另一种方式；Jim Zelter 又是第三种方式……所以我们花了六个月的时间来探讨“是什么让阿波罗成为阿波罗”。</p>
+<p>这个探讨的结果现在体现在我们网站“招聘”板块下的一份文件中。它回答了“是什么让阿波罗成为阿波罗”。这份文件充满了争议性，而且极其诚实，它本来就该是这样。它的意思是：如果你正在考虑来这里工作，请确保这适合你；如果你已经在这里并试图弄清楚我们的文化规范是什么，这是为你准备的。
+现在，由我们来按照这种标准去招聘、按照这种标准去考核、按照这种标准去晋升、按照这种标准去做入职培训，并将其实践出来。虽然我们总结了六项原则，但最终都回到了“为了赢而战”。</p>
+<p>我想你在许多成长型公司中一定也能看到这一点。你如何让一家已经非常成功的公司保持饥饿感、保持求胜欲？大多数公司都会达到一个顶峰，然后衰退走向平庸，有些甚至会陷入混乱。（我看到了你们制作的图表，把百视达等公司放在了衰落曲线上。那些是明显的例子。）但在大多数公司中，领导层和高级团队——在史蒂夫·乔布斯的话语体系里，他们往往“错把过程当成了产品”。他们认为正是现在的流程让他们走到今天的。在我们的世界里，就是人们对失败的恐惧压倒了对胜利的渴望。人们害怕犯错。
+那么我们如何教导这一点呢？我们基本上会说，即便是对我来说，我的决策最多也只有60%是正确的。关键在于：<strong>迅速失败，迅速修复。</strong>
+在阿波罗，你不会因为做了一个糟糕的决定而被解雇。你会因为没有认识到错误、不承担责任或不修复错误而被解雇。
+我们有一面“耻辱墙”。这里的每一位高级专业人士都曾让公司亏过钱。如果你没有亏过钱，那只能说明你做的事情不够多，你承担的风险不够多，或者你为公司做的贡献不够大。因此，我们将“作为一个团队获胜和作为一个团队失败”的理念正常化了。我们不断地让员工轮岗，我们拥有鼓励“白纸思维”的文化，我们在你生命中的重要时刻支持你。没有唯一标准的答案，你必须每天在实践中去体会。</p>
+<p>有趣的是，这在公司内部是众所周知的。新来的人会觉得：“我的天哪，这太棒了。我们很高兴来到这里。”但在公司外部，想要传达这一点却很难。因为我们在过去18年里作为一家私募股权公司，媒体资源一直对我们有刻板印象，他们认为我们“好勇斗狠、唯利是图”。也许那曾经是真的，但20年过去了，你或许该重新审视一下这家公司，但这需要投入资源，而外界往往缺乏这种资源。所以我们的任务之一，就是克服你节目一开始提到的那种对我们行业的刻板印象。
+私募股权是一门了不起的生意。五年前它在我们管理的一万亿美元资产中可能占一千亿美元，未来它依然会是具有巨大影响力、催生创意和变革的最重要业务。但是，天哪，我们现在还有太多其他的事情正在发生，也许外界值得好好看一看。开展这个文化项目也非常有趣，现在就是要让它焕发活力。</p>
+<p><strong>主持人</strong>：当我阅读那份文件时，我看到了我们两家公司之间的许多相似之处。就像您说的，我们从非常不同的起点审视世界，但我一直钦佩阿波罗的原因之一，正是这种“建立一家伟大的机构”，而不仅仅是“运作一只基金”的理念。这也是我经常用来作对比的观点。</p>
+<p><strong>Marc Rowan</strong>：这正是目前正在发生的事情。我们正在建立一家成熟的金融机构。如果我总结一下我们这个行业，我们都是从私募股权公司起步的，然后我们决定涉足房地产，但这本质上仍然是房地产私募股权；然后我们做了基础设施私募股权，信贷私募股权。几乎我们行业中的所有公司都停步于此了。因为他们已经积累了惊人的财富，生活得非常滋润。如果你不是为了去改变什么而建立一家机构，为什么要自讨苦吃呢？
+下一批公司确实自讨了一些苦吃，他们说“我们要服务零售（散户）市场”，并为此开发了战略、基础设施和技术。但大多数公司也就停在那里了。
+而对于我们来说，我们环顾世界，发现这个世界短缺退休收入，世界将需要更多的退休收入；世界将需要为这场全球工业复兴提供更好的融资来源。那就让我们建立相应的结构、产品和基础设施来实现它吧！
+这就是推动我们实现企业化、实现每日定价、推动做市机制和创新的原因。我不认为接下来的五年将是波澜不惊的。我认为五年后的资管公司将比过去五年发生更大的变化。
+因此，一种能够适应变化、预知变化并接受变化的文化，一种让人们像你们机构一样不断轮岗和尝试不同事物的文化，这正是我们所追求的。</p>
+<p><strong>主持人</strong>：也许您刚刚已经回答了这个问题，但如果您展望25年——或者我应该说40年后，因为您肯定还会做很长时间——那时候阿波罗文化中必须保留下来的、需要超越您个人存在的特质是什么？您希望公司核心保持不变的部分是什么？</p>
+<p><strong>Marc Rowan</strong>：这里面有几个要素。
+第一是<strong>白纸思维</strong>。让我们不要仅仅满足于去“改进”，让我们质问到底什么是“正确答案”。
+第二是<strong>非正式性（Informality）</strong>。就知识和智力探讨而言，这是一种“智力上的不服从”（Intellectual insubordination），我把它与真正职场上的不服从区分开来。这是一种在一个由正确答案获胜的环境中，我们可以把彼此当作平等的人来对待的氛围。
+第三是关注<strong>最重要的时刻（Moments that matter）</strong>。对人们来说，这是一份可以干一辈子的工作。这项业务最终是靠经验运转的。而只有当你的合伙人整个职业生涯都留在这里时，经验才能得以延续。如果他们要和我们共度一生，我们必须认识到，在他们的职业生涯之外，他们会遇到许多开心的事，也会经历许多悲伤的事。我们在这些人生关键时刻如何对待员工——无论公司是4000人、6000人还是2000人——都非常重要。它几乎比我们做的任何其他事情都更有影响力。</p>
+<p>所以，是的，让我们保持极高的智力参与度，让我们拥有一种勇于挑战的文化，让我们保持非正式的扁平化沟通，让我们追求正确的答案，让我们接受特别是在技术冲击下传统权力等级制度所面临的风险。但同时，也让我们保持人性，把人当人看。
+你如何平衡这两者，如何将它们结合在一起，我认为这就是神奇之处。我身边的这个团队，我不会拿世界上任何地方的团队来换。也许仅仅是因为我们足够了解彼此，但我真的认为他们非常出色。</p>
+<p><strong>主持人</strong>：太棒了，Marc，非常感谢您参加我们的访谈。</p>
+<p><strong>Marc Rowan</strong>：这是我的荣幸，非常感谢。</p>
+5:["$","$L11",null,{"email":{"id":"talks-private-markets-software-repricing-and-capital-allocation-marc-rowan-on-a16z","sender":"a16z","subject":"专访阿波罗CEO Marc Rowan：私募市场的演进与AI时代的信贷变革","snippet":"a16z对话阿波罗全球管理公司CEO Marc Rowan。回顾创立阿波罗的传奇故事，阐述从私募股权到万亿美元退休服务与信贷巨头的转型，探讨AI与工业复兴背景下科技创投与私募信贷的交叉机遇。","date":"2026-05-27","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["translated"],"mdTheme":"magazine","sourcePath":"talks/private-markets-software-repricing-and-capital-allocation-marc-rowan-on-a16z.md","sourceUrl":"https://www.youtube.com/watch?v=oYK_MmZW9XI","coverImage":"$undefined","body":"$12","prompts":[]},"listPosition":{"index":14,"total":365},"matchedPerson":"$undefined"}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[27201,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"IconMark"]
+c:[["$","title","0",{"children":"专访阿波罗CEO Marc Rowan：私募市场的演进与AI时代的信贷变革 · Hinbox"}],["$","meta","1",{"name":"description","content":"a16z对话阿波罗全球管理公司CEO Marc Rowan。回顾创立阿波罗的传奇故事，阐述从私募股权到万亿美元退休服务与信贷巨头的转型，探讨AI与工业复兴背景下科技创投与私募信贷的交叉机遇。"}],["$","meta","2",{"name":"application-name","content":"Hinbox"}],["$","link","3",{"rel":"canonical","href":"https://linguage.github.io/hinbox/mail/talks-private-markets-software-repricing-and-capital-allocation-marc-rowan-on-a16z"}],["$","meta","4",{"property":"og:title","content":"专访阿波罗CEO Marc Rowan：私募市场的演进与AI时代的信贷变革"}],["$","meta","5",{"property":"og:description","content":"a16z对话阿波罗全球管理公司CEO Marc Rowan。回顾创立阿波罗的传奇故事，阐述从私募股权到万亿美元退休服务与信贷巨头的转型，探讨AI与工业复兴背景下科技创投与私募信贷的交叉机遇。"}],["$","meta","6",{"property":"og:url","content":"https://linguage.github.io/hinbox/mail/talks-private-markets-software-repricing-and-capital-allocation-marc-rowan-on-a16z"}],["$","meta","7",{"property":"og:site_name","content":"Hinbox"}],["$","meta","8",{"property":"og:locale","content":"zh_CN"}],["$","meta","9",{"property":"og:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","meta","10",{"property":"og:image:width","content":"1200"}],["$","meta","11",{"property":"og:image:height","content":"630"}],["$","meta","12",{"property":"og:image:alt","content":"专访阿波罗CEO Marc Rowan：私募市场的演进与AI时代的信贷变革"}],["$","meta","13",{"property":"og:type","content":"article"}],["$","meta","14",{"property":"article:published_time","content":"2026-05-27T00:00:00.000Z"}],["$","meta","15",{"property":"article:author","content":"a16z"}],["$","meta","16",{"property":"article:tag","content":"translated"}],["$","meta","17",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","18",{"name":"twitter:title","content":"专访阿波罗CEO Marc Rowan：私募市场的演进与AI时代的信贷变革"}],["$","meta","19",{"name":"twitter:description","content":"a16z对话阿波罗全球管理公司CEO Marc Rowan。回顾创立阿波罗的传奇故事，阐述从私募股权到万亿美元退休服务与信贷巨头的转型，探讨AI与工业复兴背景下科技创投与私募信贷的交叉机遇。"}],["$","meta","20",{"name":"twitter:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","link","21",{"rel":"icon","href":"/hinbox/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","22",{"rel":"icon","href":"/hinbox/icon.svg?icon.6ca2692a.svg","sizes":"any","type":"image/svg+xml"}],["$","$L13","23",{}]]
+8:null

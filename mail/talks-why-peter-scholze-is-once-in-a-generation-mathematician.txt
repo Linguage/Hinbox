@@ -1,0 +1,226 @@
+1:"$Sreact.fragment"
+3:I[39756,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+4:I[37457,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"ViewportBoundary"]
+b:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"MetadataBoundary"]
+d:I[68027,[],"default"]
+:HL["/hinbox/_next/static/chunks/24888a04b79e7824.css","style"]
+:HL["/hinbox/_next/static/media/fba5a26ea33df6a3-s.p.1bbdebe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"vMUiZWVsRx3pCqxArlZcR","c":["","mail","talks-why-peter-scholze-is-once-in-a-generation-mathematician"],"q":"","i":false,"f":[[["",{"children":["mail",{"children":[["id","talks-why-peter-scholze-is-once-in-a-generation-mathematician","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/hinbox/_next/static/chunks/24888a04b79e7824.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$@a"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$@c"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[79520,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],""]
+f:I[59665,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js"],"default"]
+:HL["https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","style"]
+2:["$","html",null,{"lang":"zh-CN","className":"plus_jakarta_sans_9710934b-module__-vnxFq__variable","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"(function () {\n  try {\n    var theme = window.localStorage.getItem('hinbox:theme');\n    if (theme !== 'light' && theme !== 'dark' && theme !== 'sepia') {\n      theme = 'light';\n    }\n    window['__HINBOX_THEME__'] = theme;\n    document.documentElement.dataset.theme = theme;\n    document.documentElement.style.colorScheme = theme === 'dark' ? 'dark' : 'light';\n    function applyBodyTheme() {\n      if (document.body) {\n        document.body.dataset.theme = theme;\n      }\n    }\n    if (document.body) {\n      applyBodyTheme();\n    } else {\n      document.addEventListener('DOMContentLoaded', applyBodyTheme);\n    }\n  } catch (error) {\n    window['__HINBOX_THEME__'] = 'light';\n    document.documentElement.dataset.theme = 'light';\n    document.documentElement.style.colorScheme = 'light';\n  }\n})();"}}],"",["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap","rel":"stylesheet"}],["$","$Le",null,{"id":"mathjax-config","strategy":"afterInteractive","children":"\n          window.MathJax = {\n            tex: {\n              inlineMath: [['$', '$'], ['\\\\(', '\\\\)']],\n              displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']],\n              processEscapes: true,\n              packages: { '[+]': ['noerrors', 'noundefined'] },\n            },\n            svg: {\n              fontCache: 'none',\n            },\n            startup: {\n              typeset: false,\n              ready: () => {\n                window.MathJax.startup.defaultReady();\n                window.dispatchEvent(new Event('MathJaxReady'));\n              },\n            },\n          };\n          "}],["$","$Le",null,{"id":"mathjax-cdn","strategy":"afterInteractive","src":"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"}]]}],["$","body",null,{"className":"font-[family-name:var(--font-jakarta)] antialiased","suppressHydrationWarning":true,"children":["",["$","$Lf",null,{"weeklyNavCounts":{"inboxWeeklyCount":10,"sentWeeklyCount":0,"starredTotalCount":21},"people":[{"id":"david-perell","name":"David Perell","email":""},{"id":"lenny-s-podcast","name":"Lenny's Podcast","email":""},{"id":"ryan-peterman","name":"Ryan Peterman","email":""},{"id":"anthropic","name":"Anthropic","email":""},{"id":"dwarkesh-patel","name":"Dwarkesh Patel","email":""},{"id":"stripe","name":"Stripe","email":""},{"id":"stephen-wolfram","name":"Stephen Wolfram","email":""},{"id":"latent-space","name":"Latent Space","email":""},{"id":"lex-fridman","name":"Lex Fridman","email":""},{"id":"steve-jobs","name":"Steve Jobs","email":""},{"id":"20vc-with-harry-stebbings","name":"20VC with Harry Stebbings","email":""},{"id":"jeremy-stern","name":"Jeremy Stern","email":""},{"id":"turing","name":"Turing","email":""},{"id":"demis-hassabis","name":"Demis Hassabis","email":""},{"id":"the-diary-of-a-ceo","name":"The Diary Of A CEO","email":""},{"id":"elon-musk","name":"Elon Musk","email":""},{"id":"sauteedveggies","name":"SauteedVeggies","email":""},{"id":"andy-matuschak","name":"Andy Matuschak","email":""},{"id":"mind-the-game","name":"Mind the Game","email":""},{"id":"ramona-shelburne","name":"Ramona Shelburne","email":""},{"id":"jared-weiss","name":"Jared Weiss","email":""},{"id":"deeplearningai","name":"DeepLearningAI","email":""},{"id":"cursor","name":"Cursor","email":""},{"id":"y-combinator","name":"Y Combinator","email":""},{"id":"openai","name":"OpenAI","email":""},{"id":"every","name":"Every","email":""},{"id":"sequoia-capital","name":"Sequoia Capital","email":""},{"id":"alex-kantrowitz","name":"Alex Kantrowitz","email":""},{"id":"peter-dizikes-mit-news","name":"Peter Dizikes ｜ MIT News","email":""},{"id":"world-finance-journal","name":"World Finance Journal","email":""},{"id":"andrej-karpathy","name":"Andrej karpathy","email":""},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","email":""},{"id":"jd-vance","name":"JD Vance","email":""},{"id":"街-大学","name":"やまぐち街なか大学","email":""},{"id":"jc","name":"JC","email":""}],"tags":[{"id":"translated","name":"translated","count":123},{"id":"interview","name":"interview","count":24},{"id":"ai","name":"ai","count":17},{"id":"人工智能","name":"人工智能","count":17},{"id":"clippings","name":"clippings","count":15},{"id":"essays","name":"Essays","count":9},{"id":"talks","name":"Talks","count":8},{"id":"深度学习","name":"深度学习","count":8},{"id":"ai-agents","name":"ai-agents","count":7},{"id":"cognition","name":"cognition","count":6},{"id":"nba","name":"NBA","count":6},{"id":"ai编程","name":"AI编程","count":5},{"id":"humanity","name":"humanity","count":5},{"id":"math","name":"math","count":5},{"id":"steve-jobs","name":"steve-jobs","count":5},{"id":"大语言模型","name":"大语言模型","count":5},{"id":"机器学习","name":"机器学习","count":5},{"id":"agi","name":"AGI","count":4},{"id":"anthropic","name":"Anthropic","count":4},{"id":"claude-code","name":"Claude Code","count":4},{"id":"doge","name":"DOGE","count":4},{"id":"nvidia","name":"nvidia","count":4},{"id":"windsurf","name":"Windsurf","count":4},{"id":"政府效率","name":"政府效率","count":4},{"id":"文艺复兴科技","name":"文艺复兴科技","count":4},{"id":"英伟达","name":"英伟达","count":4},{"id":"软件工程","name":"软件工程","count":4},{"id":"ai编程工具","name":"AI编程工具","count":3},{"id":"apple","name":"apple","count":3},{"id":"cursor","name":"Cursor","count":3},{"id":"deepseek","name":"deepseek","count":3},{"id":"linus-torvalds","name":"Linus Torvalds","count":3},{"id":"linux内核","name":"Linux内核","count":3},{"id":"llm","name":"llm","count":3},{"id":"mathematics","name":"mathematics","count":3},{"id":"reports","name":"Reports","count":3},{"id":"偏微分方程","name":"偏微分方程","count":3},{"id":"勒布朗-詹姆斯","name":"勒布朗·詹姆斯","count":3},{"id":"开源","name":"开源","count":3},{"id":"开源ai","name":"开源AI","count":3},{"id":"强化学习","name":"强化学习","count":3},{"id":"数学哲学","name":"数学哲学","count":3},{"id":"数学教育","name":"数学教育","count":3},{"id":"访谈","name":"访谈","count":3},{"id":"量化投资","name":"量化投资","count":3},{"id":"马斯克","name":"马斯克","count":3},{"id":"黄仁勋","name":"黄仁勋","count":3},{"id":"ai-agent","name":"AI Agent","count":2},{"id":"ai-coding","name":"ai-coding","count":2},{"id":"ai代理","name":"AI代理","count":2},{"id":"ai基础设施","name":"AI基础设施","count":2},{"id":"ai安全","name":"AI安全","count":2},{"id":"ai数学","name":"AI数学","count":2},{"id":"ai智能体","name":"AI智能体","count":2},{"id":"ai计算","name":"AI计算","count":2},{"id":"alphafold","name":"AlphaFold","count":2},{"id":"claude","name":"Claude","count":2},{"id":"devin","name":"Devin","count":2},{"id":"economics","name":"economics","count":2},{"id":"emacs","name":"Emacs","count":2},{"id":"essay","name":"essay","count":2},{"id":"git","name":"Git","count":2},{"id":"google","name":"Google","count":2},{"id":"ilya-sutskever","name":"Ilya Sutskever","count":2},{"id":"jeff-dean","name":"jeff-dean","count":2},{"id":"jepa","name":"JEPA","count":2},{"id":"org-mode","name":"Org mode","count":2},{"id":"programming","name":"programming","count":2},{"id":"software-engineering","name":"software-engineering","count":2},{"id":"vibe-coding","name":"Vibe Coding","count":2},{"id":"writing","name":"writing","count":2},{"id":"世界模型","name":"世界模型","count":2},{"id":"人性","name":"人性","count":2},{"id":"代数几何","name":"代数几何","count":2},{"id":"代码编辑器","name":"代码编辑器","count":2},{"id":"价值投资","name":"价值投资","count":2},{"id":"伯克希尔哈撒韦","name":"伯克希尔哈撒韦","count":2},{"id":"关税政策","name":"关税政策","count":2},{"id":"创业历程","name":"创业历程","count":2},{"id":"加速计算","name":"加速计算","count":2},{"id":"吉姆-西蒙斯","name":"吉姆·西蒙斯","count":2},{"id":"哲学","name":"哲学","count":2},{"id":"国际合作","name":"国际合作","count":2},{"id":"大型语言模型","name":"大型语言模型","count":2},{"id":"好奇心","name":"好奇心","count":2},{"id":"季后赛","name":"季后赛","count":2},{"id":"工程实践","name":"工程实践","count":2},{"id":"巴菲特","name":"巴菲特","count":2},{"id":"形式化证明","name":"形式化证明","count":2},{"id":"彼得-蒂尔","name":"彼得·蒂尔","count":2},{"id":"微软","name":"微软","count":2},{"id":"提示工程","name":"提示工程","count":2},{"id":"数学","name":"数学","count":2},{"id":"数学研究","name":"数学研究","count":2},{"id":"文班亚马","name":"文班亚马","count":2},{"id":"智能代理开发","name":"智能代理开发","count":2},{"id":"毕业演讲","name":"毕业演讲","count":2},{"id":"版本控制","name":"版本控制","count":2},{"id":"科学发现","name":"科学发现","count":2},{"id":"科技停滞","name":"科技停滞","count":2},{"id":"软件工程变革","name":"软件工程变革","count":2},{"id":"软件开发","name":"软件开发","count":2},{"id":"量子力学","name":"量子力学","count":2},{"id":"阿贝尔奖","name":"阿贝尔奖","count":2},{"id":"风险投资","name":"风险投资","count":2},{"id":"agent设计","name":"Agent设计","count":1},{"id":"ai-for-science","name":"AI for Science","count":1},{"id":"ai-编程","name":"AI 编程","count":1},{"id":"ai伦理","name":"AI伦理","count":1},{"id":"ai最佳实践","name":"AI最佳实践","count":1},{"id":"ai大模型","name":"AI大模型","count":1},{"id":"ai并购","name":"AI并购","count":1},{"id":"ai应用","name":"AI应用","count":1},{"id":"ai开发者大会","name":"AI开发者大会","count":1},{"id":"ai推理","name":"AI推理","count":1},{"id":"ai收购","name":"AI收购","count":1},{"id":"ai数学发现","name":"AI数学发现","count":1},{"id":"ai生物医药","name":"AI生物医药","count":1},{"id":"ai竞争","name":"AI竞争","count":1},{"id":"ai编程代理","name":"AI编程代理","count":1},{"id":"ai芯片","name":"AI芯片","count":1},{"id":"ai规模化","name":"AI规模化","count":1},{"id":"ai辅助学习","name":"AI辅助学习","count":1},{"id":"ai辅助开发","name":"AI辅助开发","count":1},{"id":"anysphere","name":"Anysphere","count":1},{"id":"biography","name":"biography","count":1},{"id":"blackwell架构","name":"Blackwell架构","count":1},{"id":"cag","name":"CAG","count":1},{"id":"career","name":"career","count":1},{"id":"ceo交接","name":"CEO交接","count":1},{"id":"chatgpt","name":"ChatGPT","count":1},{"id":"chris-bishop","name":"Chris Bishop","count":1},{"id":"claude-4","name":"Claude 4","count":1},{"id":"claude-sonnet-4-5","name":"Claude Sonnet 4.5","count":1},{"id":"coding-agent","name":"Coding Agent","count":1},{"id":"context-engineering","name":"Context Engineering","count":1},{"id":"cs50","name":"CS50","count":1},{"id":"cuda生态","name":"CUDA生态","count":1},{"id":"deep-search","name":"Deep Search","count":1},{"id":"deepmind","name":"DeepMind","count":1},{"id":"distributed-systems","name":"distributed-systems","count":1},{"id":"elon-musk","name":"Elon Musk","count":1},{"id":"engineering","name":"engineering","count":1},{"id":"fields奖","name":"Fields奖","count":1},{"id":"geoffrey-hinton","name":"Geoffrey Hinton","count":1},{"id":"gpt-4","name":"GPT-4","count":1},{"id":"gpt-4-5","name":"GPT-4.5","count":1},{"id":"gpu与深度学习","name":"GPU与深度学习","count":1},{"id":"gpu架构","name":"GPU架构","count":1},{"id":"gpu算力","name":"GPU算力","count":1},{"id":"grok-3","name":"Grok 3","count":1},{"id":"haskell","name":"haskell","count":1},{"id":"incident","name":"incident","count":1},{"id":"jim-simons","name":"Jim Simons","count":1},{"id":"julia","name":"Julia","count":1},{"id":"june-huh","name":"june-huh","count":1},{"id":"kaggle","name":"Kaggle","count":1},{"id":"kiro-spec模式","name":"Kiro SPEC模式","count":1},{"id":"labor","name":"labor","count":1},{"id":"lean","name":"Lean","count":1},{"id":"lisp","name":"Lisp","count":1},{"id":"llm工具","name":"LLM工具","count":1},{"id":"mcp","name":"MCP","count":1},{"id":"mit","name":"MIT","count":1},{"id":"mvp","name":"MVP","count":1},{"id":"naval-ravikant","name":"Naval Ravikant","count":1},{"id":"ncaa疯狂三月","name":"NCAA疯狂三月","count":1},{"id":"noema","name":"noema","count":1},{"id":"notes","name":"notes","count":1},{"id":"notion","name":"Notion","count":1},{"id":"nvidia-gtc-2025","name":"NVIDIA GTC 2025","count":1},{"id":"openai","name":"OpenAI","count":1},{"id":"optimus机器人","name":"Optimus机器人","count":1},{"id":"peter-lax","name":"Peter Lax","count":1},{"id":"pixar","name":"pixar","count":1},{"id":"prompt-engineering","name":"Prompt Engineering","count":1},{"id":"psychology","name":"psychology","count":1},{"id":"publishing","name":"publishing","count":1},{"id":"python","name":"Python","count":1},{"id":"reliability","name":"reliability","count":1},{"id":"report","name":"report","count":1},{"id":"research","name":"Research","count":1},{"id":"research-career","name":"research-career","count":1},{"id":"robotics","name":"robotics","count":1},{"id":"sanjay-ghemawat","name":"Sanjay Ghemawat","count":1},{"id":"satya-nadella","name":"Satya Nadella","count":1},{"id":"scaling-laws","name":"Scaling Laws","count":1},{"id":"security","name":"security","count":1},{"id":"skills","name":"skills","count":1},{"id":"slimv","name":"Slimv","count":1},{"id":"technical-report","name":"technical-report","count":1},{"id":"terence-tao","name":"terence-tao","count":1},{"id":"vim","name":"Vim","count":1},{"id":"vlime","name":"Vlime","count":1},{"id":"wolfram","name":"Wolfram","count":1},{"id":"xai","name":"xAI","count":1},{"id":"yann-lecun","name":"Yann LeCun","count":1},{"id":"yc","name":"YC","count":1},{"id":"上下文工程","name":"上下文工程","count":1},{"id":"个人反思","name":"个人反思","count":1},{"id":"个人电脑","name":"个人电脑","count":1},{"id":"中美关系","name":"中美关系","count":1},{"id":"乌克兰战争","name":"乌克兰战争","count":1},{"id":"乔姆斯基","name":"乔姆斯基","count":1},{"id":"交通基础设施","name":"交通基础设施","count":1},{"id":"产品市场契合","name":"产品市场契合","count":1},{"id":"人工智能未来","name":"人工智能未来","count":1},{"id":"人形机器人","name":"人形机器人","count":1},{"id":"人机协作","name":"人机协作","count":1},{"id":"人机博弈","name":"人机博弈","count":1},{"id":"人生哲学","name":"人生哲学","count":1},{"id":"人类未来","name":"人类未来","count":1},{"id":"人类福祉","name":"人类福祉","count":1},{"id":"代理开发","name":"代理开发","count":1},{"id":"代理式编程","name":"代理式编程","count":1},{"id":"代码生成","name":"代码生成","count":1},{"id":"任务管理","name":"任务管理","count":1},{"id":"仿真学习","name":"仿真学习","count":1},{"id":"企业采用","name":"企业采用","count":1},{"id":"众包协作","name":"众包协作","count":1},{"id":"优绩主义","name":"优绩主义","count":1},{"id":"伦理监管","name":"伦理监管","count":1},{"id":"伯克希尔-哈撒韦","name":"伯克希尔·哈撒韦","count":1},{"id":"俄乌战争","name":"俄乌战争","count":1},{"id":"保罗-狄拉克","name":"保罗·狄拉克","count":1},{"id":"保险业务","name":"保险业务","count":1},{"id":"信号处理","name":"信号处理","count":1},{"id":"信息动力学","name":"信息动力学","count":1},{"id":"信息物理学","name":"信息物理学","count":1},{"id":"全球贸易","name":"全球贸易","count":1},{"id":"公共美德","name":"公共美德","count":1},{"id":"具身智能","name":"具身智能","count":1},{"id":"写作","name":"写作","count":1},{"id":"写作工具","name":"写作工具","count":1},{"id":"冷战数学","name":"冷战数学","count":1},{"id":"创业转型","name":"创业转型","count":1},{"id":"创业领导力","name":"创业领导力","count":1},{"id":"创造力与年龄","name":"创造力与年龄","count":1},{"id":"制度经济学","name":"制度经济学","count":1},{"id":"加性数论","name":"加性数论","count":1},{"id":"包容性制度","name":"包容性制度","count":1},{"id":"医疗应用","name":"医疗应用","count":1},{"id":"半导体","name":"半导体","count":1},{"id":"协同设计","name":"协同设计","count":1},{"id":"单位距离问题","name":"单位距离问题","count":1},{"id":"南非种族隔离","name":"南非种族隔离","count":1},{"id":"卢卡-东契奇","name":"卢卡·东契奇","count":1},{"id":"压缩感知","name":"压缩感知","count":1},{"id":"变换编码","name":"变换编码","count":1},{"id":"可持续能源","name":"可持续能源","count":1},{"id":"可重复性危机","name":"可重复性危机","count":1},{"id":"史蒂夫-乔布斯","name":"史蒂夫·乔布斯","count":1},{"id":"史蒂夫-纳什","name":"史蒂夫·纳什","count":1},{"id":"同伦类型论","name":"同伦类型论","count":1},{"id":"哲学辩论","name":"哲学辩论","count":1},{"id":"国际政治","name":"国际政治","count":1},{"id":"在线教育","name":"在线教育","count":1},{"id":"地缘政治","name":"地缘政治","count":1},{"id":"埃尔德什猜想","name":"埃尔德什猜想","count":1},{"id":"埃罗尔-马斯克","name":"埃罗尔·马斯克","count":1},{"id":"埃隆-马斯克","name":"埃隆·马斯克","count":1},{"id":"基督教与科学","name":"基督教与科学","count":1},{"id":"基础主义","name":"基础主义","count":1},{"id":"基础模型","name":"基础模型","count":1},{"id":"复合工程","name":"复合工程","count":1},{"id":"外交谈判","name":"外交谈判","count":1},{"id":"多伦多大学","name":"多伦多大学","count":1},{"id":"多体物理","name":"多体物理","count":1},{"id":"多智能体协同","name":"多智能体协同","count":1},{"id":"大数假说","name":"大数假说","count":1},{"id":"太空探索","name":"太空探索","count":1},{"id":"孤子理论","name":"孤子理论","count":1},{"id":"学习路径","name":"学习路径","count":1},{"id":"学术写作","name":"学术写作","count":1},{"id":"学术建议","name":"学术建议","count":1},{"id":"学术生态","name":"学术生态","count":1},{"id":"学术研究方法","name":"学术研究方法","count":1},{"id":"学术自传","name":"学术自传","count":1},{"id":"宇宙学","name":"宇宙学","count":1},{"id":"官僚主义改革","name":"官僚主义改革","count":1},{"id":"定理证明","name":"定理证明","count":1},{"id":"家族故事","name":"家族故事","count":1},{"id":"对冲基金","name":"对冲基金","count":1},{"id":"对称性","name":"对称性","count":1},{"id":"对称性破缺","name":"对称性破缺","count":1},{"id":"小平邦彦","name":"小平邦彦","count":1},{"id":"少林寺","name":"少林寺","count":1},{"id":"就业与经济","name":"就业与经济","count":1},{"id":"就业影响","name":"就业影响","count":1},{"id":"工作尊严","name":"工作尊严","count":1},{"id":"工作流","name":"工作流","count":1},{"id":"工程精神","name":"工程精神","count":1},{"id":"幸福与成功","name":"幸福与成功","count":1},{"id":"库珀-弗拉格","name":"库珀·弗拉格","count":1},{"id":"开发环境","name":"开发环境","count":1},{"id":"开发者工具","name":"开发者工具","count":1},{"id":"开发者生产力","name":"开发者生产力","count":1},{"id":"开源模型","name":"开源模型","count":1},{"id":"形式主义","name":"形式主义","count":1},{"id":"彼得-拉克斯","name":"彼得·拉克斯","count":1},{"id":"微分几何","name":"微分几何","count":1},{"id":"心理学","name":"心理学","count":1},{"id":"思维链","name":"思维链","count":1},{"id":"慈善","name":"慈善","count":1},{"id":"慈善事业","name":"慈善事业","count":1},{"id":"慕尼黑安全会议","name":"慕尼黑安全会议","count":1},{"id":"成长型思维","name":"成长型思维","count":1},{"id":"技术监管","name":"技术监管","count":1},{"id":"技能退化","name":"技能退化","count":1},{"id":"投资哲学","name":"投资哲学","count":1},{"id":"推理时计算","name":"推理时计算","count":1},{"id":"提纲写作","name":"提纲写作","count":1},{"id":"摩根大通","name":"摩根大通","count":1},{"id":"播客","name":"播客","count":1},{"id":"政治哲学","name":"政治哲学","count":1},{"id":"数字革命","name":"数字革命","count":1},{"id":"数学反例","name":"数学反例","count":1},{"id":"数学史","name":"数学史","count":1},{"id":"数学基础","name":"数学基础","count":1},{"id":"数学实践","name":"数学实践","count":1},{"id":"数学家传记","name":"数学家传记","count":1},{"id":"数学工作流","name":"数学工作流","count":1},{"id":"数学形式化","name":"数学形式化","count":1},{"id":"数据中心","name":"数据中心","count":1},{"id":"数据效率","name":"数据效率","count":1},{"id":"数据科学","name":"数据科学","count":1},{"id":"文化多样性","name":"文化多样性","count":1},{"id":"文化转型","name":"文化转型","count":1},{"id":"文学编程","name":"文学编程","count":1},{"id":"斯多葛主义","name":"斯多葛主义","count":1},{"id":"无人机","name":"无人机","count":1},{"id":"日本数学","name":"日本数学","count":1},{"id":"日记写作","name":"日记写作","count":1},{"id":"智能代理","name":"智能代理","count":1},{"id":"智能体ai","name":"智能体AI","count":1},{"id":"智能分析","name":"智能分析","count":1},{"id":"更衣室训话","name":"更衣室训话","count":1},{"id":"未来战争","name":"未来战争","count":1},{"id":"未来趋势","name":"未来趋势","count":1},{"id":"机器人技术","name":"机器人技术","count":1},{"id":"杰米-戴蒙","name":"杰米·戴蒙","count":1},{"id":"柏拉图主义","name":"柏拉图主义","count":1},{"id":"查尔斯-巴克利","name":"查尔斯·巴克利","count":1},{"id":"查理-芒格","name":"查理·芒格","count":1},{"id":"标记语言","name":"标记语言","count":1},{"id":"格罗滕迪克","name":"格罗滕迪克","count":1},{"id":"概形","name":"概形","count":1},{"id":"模仿理论","name":"模仿理论","count":1},{"id":"模型应用","name":"模型应用","count":1},{"id":"模型驱动交易","name":"模型驱动交易","count":1},{"id":"模拟宇宙假说","name":"模拟宇宙假说","count":1},{"id":"欧洲创新","name":"欧洲创新","count":1},{"id":"欧洲民主","name":"欧洲民主","count":1},{"id":"欧盟资本市场","name":"欧盟资本市场","count":1},{"id":"欺骗性ai","name":"欺骗性AI","count":1},{"id":"比尔-盖茨","name":"比尔·盖茨","count":1},{"id":"沃伦-巴菲特","name":"沃伦·巴菲特","count":1},{"id":"沉思录","name":"沉思录","count":1},{"id":"沙奎尔-奥尼尔","name":"沙奎尔·奥尼尔","count":1},{"id":"波波维奇","name":"波波维奇","count":1},{"id":"泽连斯基","name":"泽连斯基","count":1},{"id":"活文档","name":"活文档","count":1},{"id":"测试时计算","name":"测试时计算","count":1},{"id":"涌现","name":"涌现","count":1},{"id":"深度阅读","name":"深度阅读","count":1},{"id":"湖人三连冠","name":"湖人三连冠","count":1},{"id":"炒作与现实","name":"炒作与现实","count":1},{"id":"热力学第二定律","name":"热力学第二定律","count":1},{"id":"特斯拉","name":"特斯拉","count":1},{"id":"特朗普","name":"特朗普","count":1},{"id":"狄拉克","name":"狄拉克","count":1},{"id":"狄拉克方程","name":"狄拉克方程","count":1},{"id":"理论物理","name":"理论物理","count":1},{"id":"生产力工具","name":"生产力工具","count":1},{"id":"生成式ai","name":"生成式AI","count":1},{"id":"相对论","name":"相对论","count":1},{"id":"知识管理","name":"知识管理","count":1},{"id":"研究方法","name":"研究方法","count":1},{"id":"研究生指南","name":"研究生指南","count":1},{"id":"硅谷","name":"硅谷","count":1},{"id":"社交媒体","name":"社交媒体","count":1},{"id":"社会公平","name":"社会公平","count":1},{"id":"福柯","name":"福柯","count":1},{"id":"离散几何","name":"离散几何","count":1},{"id":"私募股权","name":"私募股权","count":1},{"id":"科学哲学","name":"科学哲学","count":1},{"id":"科学研究","name":"科学研究","count":1},{"id":"科学论文","name":"科学论文","count":1},{"id":"科技史","name":"科技史","count":1},{"id":"科比-布莱恩特","name":"科比·布莱恩特","count":1},{"id":"移民政策","name":"移民政策","count":1},{"id":"稀疏表示","name":"稀疏表示","count":1},{"id":"空间技术","name":"空间技术","count":1},{"id":"竞技长青","name":"竞技长青","count":1},{"id":"笔记技巧","name":"笔记技巧","count":1},{"id":"第一性原理","name":"第一性原理","count":1},{"id":"算法与社会","name":"算法与社会","count":1},{"id":"篮球战术","name":"篮球战术","count":1},{"id":"篮球访谈","name":"篮球访谈","count":1},{"id":"类型论","name":"类型论","count":1},{"id":"系统工程","name":"系统工程","count":1},{"id":"约束等距性","name":"约束等距性","count":1},{"id":"纯文本写作","name":"纯文本写作","count":1},{"id":"纯粹数学","name":"纯粹数学","count":1},{"id":"线性代数","name":"线性代数","count":1},{"id":"经典阅读","name":"经典阅读","count":1},{"id":"结对编程","name":"结对编程","count":1},{"id":"编程教学","name":"编程教学","count":1},{"id":"编程语言","name":"编程语言","count":1},{"id":"美国ai政策","name":"美国AI政策","count":1},{"id":"美国政府改革","name":"美国政府改革","count":1},{"id":"美国经济","name":"美国经济","count":1},{"id":"美欧关系","name":"美欧关系","count":1},{"id":"翻译","name":"翻译","count":1},{"id":"职业自律","name":"职业自律","count":1},{"id":"职业辩护","name":"职业辩护","count":1},{"id":"联邦政府改革","name":"联邦政府改革","count":1},{"id":"联邦财政","name":"联邦财政","count":1},{"id":"股东信","name":"股东信","count":1},{"id":"股东大会","name":"股东大会","count":1},{"id":"能源","name":"能源","count":1},{"id":"能量基模型","name":"能量基模型","count":1},{"id":"自动驾驶","name":"自动驾驶","count":1},{"id":"自我认知","name":"自我认知","count":1},{"id":"自由意志主义","name":"自由意志主义","count":1},{"id":"自由民主","name":"自由民主","count":1},{"id":"苹果","name":"苹果","count":1},{"id":"苹果公司","name":"苹果公司","count":1},{"id":"药物研发","name":"药物研发","count":1},{"id":"蓝鳍金枪鱼","name":"蓝鳍金枪鱼","count":1},{"id":"虚拟细胞","name":"虚拟细胞","count":1},{"id":"蛋白质折叠","name":"蛋白质折叠","count":1},{"id":"蜂巢思维","name":"蜂巢思维","count":1},{"id":"行为偏差","name":"行为偏差","count":1},{"id":"西部决赛","name":"西部决赛","count":1},{"id":"规模法则","name":"规模法则","count":1},{"id":"规范驱动开发","name":"规范驱动开发","count":1},{"id":"言论自由","name":"言论自由","count":1},{"id":"计算增强生成","name":"计算增强生成","count":1},{"id":"计算数学","name":"计算数学","count":1},{"id":"计算机教育","name":"计算机教育","count":1},{"id":"计算机证明","name":"计算机证明","count":1},{"id":"训练体系","name":"训练体系","count":1},{"id":"论文写作","name":"论文写作","count":1},{"id":"论文撰写","name":"论文撰写","count":1},{"id":"访谈实录","name":"访谈实录","count":1},{"id":"詹姆斯-西蒙斯","name":"詹姆斯·西蒙斯","count":1},{"id":"语言学","name":"语言学","count":1},{"id":"诺贝尔经济学奖","name":"诺贝尔经济学奖","count":1},{"id":"谷歌","name":"谷歌","count":1},{"id":"贝叶斯方法","name":"贝叶斯方法","count":1},{"id":"财政削减","name":"财政削减","count":1},{"id":"资本配置","name":"资本配置","count":1},{"id":"超级智能","name":"超级智能","count":1},{"id":"超级计算","name":"超级计算","count":1},{"id":"跨领域训练","name":"跨领域训练","count":1},{"id":"身体转型","name":"身体转型","count":1},{"id":"软件工程范式","name":"软件工程范式","count":1},{"id":"软件开发最佳实践","name":"软件开发最佳实践","count":1},{"id":"软件开发未来","name":"软件开发未来","count":1},{"id":"运动恢复","name":"运动恢复","count":1},{"id":"还原论","name":"还原论","count":1},{"id":"通用人工智能","name":"通用人工智能","count":1},{"id":"重整化","name":"重整化","count":1},{"id":"量化交易","name":"量化交易","count":1},{"id":"金融服务","name":"金融服务","count":1},{"id":"金融监管","name":"金融监管","count":1},{"id":"阅读方法","name":"阅读方法","count":1},{"id":"集合论","name":"集合论","count":1},{"id":"非虚构阅读","name":"非虚构阅读","count":1},{"id":"预训练","name":"预训练","count":1},{"id":"领导力","name":"领导力","count":1},{"id":"香农信息熵","name":"香农信息熵","count":1},{"id":"马刺","name":"马刺","count":1},{"id":"马库斯-奥勒留","name":"马库斯·奥勒留","count":1}],"moduleNavItems":[{"id":"essays","label":"Essays","href":"/?label=Essays","order":40,"icon":"BookOpen","count":62},{"id":"talks","label":"Talks","href":"/?label=Talks","order":42,"icon":"Video","count":165},{"id":"reports","label":"Reports","href":"/?label=Reports","order":41,"icon":"FileText","count":36},{"id":"notes","label":"Notes","href":"/?label=Notes","order":30,"icon":"Eye","count":78}],"children":"$L10"}]]}]]}]
+10:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"min-h-screen px-12 py-12 font-sans text-slate-900","children":[["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n            (function () {\n              var pathname = window.location.pathname || '';\n              var canonicalPrefix = '/hinbox';\n\n              if (/^/hinbox(?:/|$)/i.test(pathname) && pathname !== pathname.replace(/^/hinbox/i, canonicalPrefix)) {\n                var target = pathname.replace(/^/hinbox/i, canonicalPrefix) + window.location.search + window.location.hash;\n                window.location.replace(target);\n                return;\n              }\n            }());\n          "}}],["$","div",null,{"className":"mx-auto flex min-h-[60vh] max-w-2xl flex-col justify-center gap-4","children":[["$","h1",null,{"className":"text-3xl font-semibold tracking-tight","children":"页面未找到"}],["$","p",null,{"className":"text-base leading-7 text-slate-600","children":"如果你是从大写路径进入本站，系统会自动跳转到小写的规范地址。"}],["$","p",null,{"className":"text-base","children":["返回首页：",["$","a",null,{"className":"text-sky-600 underline underline-offset-4","href":"/hinbox/","children":"/hinbox/"}]]}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+11:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+12:T52e5,<h1>Why Peter Scholze is once in a Generation Mathematician</h1>
+<p><a href="https://www.youtube.com/watch?v=7kC8Id5ephE">原文链接</a></p>
+<p>数学史上，能够重构一个领域基础语言的人物寥若晨星，Peter Scholze 正是其中之一。这篇文章以2018年菲尔兹奖颁奖为切入点，追溯这位德国数学家如何从少年时读不懂费马大定理的证明出发，逐步构建出"完美胚空间"与"凝聚数学"，从而重塑算术几何的整体格局。</p>
+<p>文章尤为值得关注的，是对 Scholze 独特思维方式的深度呈现：他惯于从结论逆向推导，将前人艰涩冗长的证明压缩重建，以更清晰的视角取而代之。24岁破格晋升为德国最年轻的正教授，绝不只是天赋异禀的故事，更是一种认知结构与问题哲学的胜利。他始终将自己定位为探索者而非发明家，相信那些数学真理早已存在于彼处，只等有人发现。对任何好奇数学突破究竟如何真正发生的读者而言，这是一篇难得的窗口文章。</p>
+<hr>
+<p>一个人如何重写一个被数百年来无数杰出思想家研究过的数学分支？Peter Scholze 不仅仅是解决问题，他构建了一套全新的概念语言，以弥合不同数域宇宙之间的鸿沟。</p>
+<p>我们将深入探讨他独特的"逆向学习"过程——以 Andrew Wiles 对费马大定理的证明为切入点——以及他如何吸收椭圆曲线（elliptic curves）和模形式（modular forms）等复杂结构。我们还将详细解析他最重要的几项贡献，包括：</p>
+<ul>
+<li><strong>p进数（p-adic Numbers）</strong>：一种基于素数整除性来定义距离的数系。</li>
+<li><strong>完美胚空间（Perfectoid Spaces）</strong>：一种类分形结构，使数学家能够在混合特征（mixed-characteristic）世界与等特征（equal-characteristic）世界之间"倾斜"问题。</li>
+<li><strong>凝聚数学（Condensed Mathematics）</strong>：与 Dustin Clausen 合作，重建拓扑学与代数方法之基础的宏大项目。</li>
+</ul>
+<p>从24岁便破纪录地晋升为正教授，到"液态张量实验"（Liquid Tensor Experiment），这是一个将自己视为探索者而非发明家的人的故事——他相信，那些真理早已存在于彼处，只等被人发现。</p>
+<p>#inspiringscience #FieldsMedal #sciencedocumentary #mathematician</p>
+<hr>
+<h3>引言</h3>
+<p>2018年8月，里约热内卢的里约中心会议厅内，空气中弥漫着一种难以言说的期待，无声的张力如弦般绷紧。这是国际数学家大会（International Congress of Mathematicians）的前夜——一场每四年才举办一次的盛会。</p>
+<p>所有目光都聚焦在即将揭晓的菲尔兹奖上，这是数学界的最高荣誉。获奖者名单被严格保密。菲尔兹奖常被称为"数学界的诺贝尔奖"，每四年颁发一次，授予年龄不超过40岁的数学家，以彰显其突破性成就与无限潜力，表彰那些足以重塑数学思维的开创性工作。</p>
+<p>这一年，从普林斯顿到京都，各大学的走廊里流传着一个被认为是最强有力竞争者的名字。人们相信，这不是"会不会"的问题，而是"什么时候"的问题。这个名字，便是 Peter Scholze。当他被呼唤走上台时，出现在众人面前的，是一个不事张扬的人。三十岁的他，是史上最年轻的获奖者之一。他身形高挑、清瘦，举止静默内敛，与这份荣誉所象征的分量形成了某种奇妙的反差。面对耀眼的灯光与如潮的掌声，他显得略微局促——一个注重私人生活的人，此刻猝然站在了数学世界的中央。颁奖词随即宣读，表彰他在算术几何（arithmetic geometry）领域发动的一场革命。他在这个探究数与形之间最深层联系的领域，点燃了一场彻底的范式转变。一个人，在三十一岁生日到来之前，如何能重写一门已让几个世纪最非凡的思想者为之倾注心血的数学分支？让我们一探究竟。</p>
+<p>Peter Scholze 于1987年12月11日出生于德国德累斯顿，在柏林长大。他的家庭以科学为母语：父亲是物理学家，母亲是计算机科学家，姐姐后来则攻读了化学。</p>
+<p>这样的家庭环境，为一颗痴迷于逻辑与结构的心灵提供了天然的土壤。他就读于柏林的 Hinrich Hertz 文理高中，这是一所以数学和自然科学为特色的学校。</p>
+<p>正如他后来回忆的，在那里，对数学感兴趣并不会让你显得格格不入。他卓越的才能很早便显现出来，曾多次参加国际数学奥林匹克竞赛（International Mathematical Olympiad），先后斩获三枚金牌、一枚银牌。然而，他真正旅程的起点，发生在任何竞赛之外的地方。十六岁那年，他得知 Andrew Wiles 在十年前证明了费马大定理（Fermat's Last Theorem）。这道题目以其表面上的朴素而著称：方程 x^n + y^n = z^n 在 n 大于2时没有正整数解。Scholze 下决心要理解这个证明。他很快发现，这个证明是一座现代数学的迷宫，以前人从未驾驭过的方式，将各个迥异的领域联结在一起。他在一次采访中回忆道，当时他什么都看不懂，却觉得这一切无比迷人。这个时刻，深刻塑造了他。</p>
+<h3>如何开创一个新领域</h3>
+<p>Scholze 没有就此放弃，也没有从代数教材的第一页重新开始，而是走上了一条逆向学习之路。他从结论出发——Wiles 那部鸿篇巨制般的证明——然后向前追溯，逐一识别、学习理解全貌所需的每一块数学拼图。线性代数之类的科目，他从未在课堂上系统地学过；他只是在需要理解更复杂结构时，自然而然地将其吸收融会。他着迷的，不仅仅是解开费马大定理这道谜题，更是谜题本身所用到的那些"零件"——Wiles 所借助的奇异而美丽的数学对象：椭圆曲线（elliptic curves）与模形式（modular forms）。</p>
+<h3>以繁复迷惑对手</h3>
+<p>那些结构本身，比它们被构建来求解的问题更令他着迷。</p>
+<p>高中毕业后，Scholze 进入波恩大学，继续深耕他对数论（number theory）与几何的热情。他那独特的学习方式，始终让他与众不同。他的同学、日后的同事 Eugen Helman 回忆说，Scholze 上课从不做笔记——他根本不需要。他能在当下就将内容融会贯通，理解之深，足以令其永不遗忘。他以惊人的速度穿越大学课程：三个学期完成本科，再用两个学期拿下硕士——一个原本需要五年的学程，他在两年半内便走完了。2010年，年仅22岁的他还是一名在 Michael Rapoport 指导下的研究生，一则传言便已开始在数学界悄然流传。传言事关一部臭名昭著的288页证明——Harris-Taylor，朗兰兹纲领（Langlands program）的一块基石。</p>
+<h3>永不被证伪</h3>
+<p>传言说，波恩有位学生将整个证明改写成了仅仅37页。这位学生，正是 Peter Scholze。他的论文远不只是摘要或压缩版本——他找到了一条全新的视角，一条更为清晰的路径，绕开了原始论证中最艰险的部分。这是一次令人震惊的清晰与力量的展示。现任职于波士顿大学的数论学家 Jared Weinstein 惊讶于一个如此年轻的人，竟能产出如此深刻的成果。这篇论文宣告了一种新型数学心灵的降临——它不只是追随复杂的论证，而是着眼于从更坚实的基础上将其重建。波恩大学深知他才华的分量。2012年，就在他完成博士学业后不久，大学便任命他为正教授。年仅24岁，他成为德国最年轻的W3级教授。德国学术体系以其严格、按部就班的晋升路径著称，能够绕过传统的博士后阶段、将最高教授级别授予一位如此年轻的学者，是一个非同寻常的举措。大学深知，他们招募的不只是一位前途无量的数学家，而是一位将为整整一代人定义这门学科的人物。</p>
+<h3>避免反馈</h3>
+<p>要理解为 Scholze 赢得菲尔兹奖的工作，我们必须走入他为自己开辟的那个奇异而美丽的数字世界。</p>
+<p>我们熟悉的数字体系——实数（real numbers）——可以被想象为一条连续的直线。我们从整数出发，如1、2、3……以及散布其间的分数。但这条直线上布满了"孔洞"：π或√2这样的数并非分数，却在直线上占据着确定的位置。实数正是我们在补全有理数、填满所有这些空隙之后得到的。在这条直线上度量距离的方式很直观：5与7之间的距离是2。但如果存在其他的距离度量方式呢？正是这个问题，引向了p进数（p-adic Numbers）。</p>
+<p>让我们选取一个素数 p，比如5。在5进数的世界里，一个数的"大小"不取决于它距零有多远，而取决于它能被5整除多少次。以某个基数的更高次幂表示的数，被认为比这个基数本身更"小"：例如，25（5的平方）比5更小，125（5的三次方）则更小。一个数含有越多5的因子，它的5进"大小"就越小。这看上去匪夷所思，却为数论提供了一个强大的透镜——而数论正是以素数因子为核心的学问。数学家将这些数系想象为一座塔：最底层，我们将所有数按除以5的余数分组，这叫做模运算（modular arithmetic）；再往上一层，按除以25的余数分组；然后是125，如此无限延伸。在这个体系中，若两个数在这座塔的高处共处同一个"房间"，便被视为彼此相近。p进数正是用这种全新的距离概念来补全有理数的结果，一如实数是用标准距离概念来补全有理数一样。而且，p进数并非只有一种，而是构成一个无穷的家族——每个素数对应一个体系：有2进数、3进数、7进数……多年来，Scholze 在这些平行宇宙中如鱼得水，以至于反而觉得我们日常的数字才是陌生的那种。</p>
+<h3>写作</h3>
+<h3>糟糕职业生涯的戒律</h3>
+<p>他曾说，比起p进数，实数（real numbers）反而让他困惑得多。</p>
+<p>p进数世界是算术几何（arithmetic geometry）的核心研究对象，然而它们也带来了一个根本性的难题：这些系统具有混合特征（mixed-characteristic）。设想一个数字系统：在某些系统中，将一不断与自身相加，永远无法回到零——这正是我们日常使用的数字，称为"特征零"系统；而在另一些系统中，将一连续相加若干次（比如p次）之后，结果会归零，就如同时钟走过12点后又回到1点，这被称为"特征p"系统。混合特征系统则像是同时踏入两个世界：其主体数字系统表现为特征零，但当你考察其"剩余域"——即将数字除以p取余所得的结构——时，那部分却表现为特征p。这种混合环境使问题极为棘手，因为你要同时应对两种迥异的行为逻辑。反之，若主系统与其剩余域属于同一特征（无论是同为特征零还是同为特征p），问题往往会简单得多。</p>
+<p>数十年来，数学家们一直致力于寻找连接这两个世界的桥梁。Peter Scholze在其2012年的博士论文中建造了这座桥。他引入了一类全新的数学对象，称为完美胚空间（Perfectoid Spaces）——一种存在于p进数领域中、带有复杂分形结构的几何对象，其构建本身就是一门全新概念语言的诞生。完美胚空间的核心操作称为"倾斜"（tilting）：数学家可以将混合特征世界中的难题"倾斜"为等特征（equal-characteristic）世界中的等价问题，在那里求解后，再将答案"倾斜"回原来的设定。</p>
+<h3>完美胚空间的初步应用</h3>
+<p>这就好比拥有一位翻译，能在不丢失任何意义的前提下，将一部以晦涩古语写就的文学作品，完美转译为通俗易懂的现代语言。这一全新数学机制的首个重大应用，是Scholze对"权重单值性猜想"（weight monodromy conjecture）——多项式方程解的几何学中一个重要猜想——某一特殊情形的证明，这也成为他博士论文的核心。然而，证明这一猜想不过是个开始：他不仅解决了一个问题，更创造了一件具有普遍威力的工具。正如他的合作者 Anna Caraiani 所言，这些对象在当时的预期之外，在"百万个其他方向"上找到了应用，"仅仅因为它们就是应当思考的正确对象"。</p>
+<h3>深化统一：从朗兰兹纲领到凝聚数学</h3>
+<p>2018年荣获菲尔兹奖（Fields Medal）之后，荣誉持续纷至沓来，Scholze作为世界顶尖数学家之一的地位愈发稳固。2019年，他获得了德国联邦功勋十字勋章大十字勋位，并被任命为位于波恩、声誉卓著的马克斯·普朗克数学研究所（Max Planck Institute for Mathematics）所长，那里是他的学术家园。然而，他的目光早已投向别处——投向那些旨在触及数学现实更深层次的研究项目。</p>
+<p>现代数学中最宏伟的愿景之一，是由罗伯特·朗兰兹（Robert Langlands）于20世纪60年代提出的朗兰兹纲领（Langlands program）。它常被描述为数学的"大统一理论"——一张庞大的猜想网络，将数论（number theory）所研究的数字世界与表示论及调和分析所研究的对称与波的世界深刻地联系在一起。颇具意味的是，曾深深启发少年Scholze的费马大定理证明，本身正是朗兰兹纲领中一个细小片段的证明。如今，凭借完美胚空间这一强大工具，Scholze重新踏上这片宏大的数学版图。他的工作使数学家得以将朗兰兹纲领的触角延伸至新的高维领域，揭示出他所称的"全新互反律（reciprocity laws）体系"。正如同行所言，Scholze的成果表明，朗兰兹纲领比我们以为的更为深邃，更为系统，无处不在。</p>
+<p>就在拓展这一数学宏纲的同时，Scholze又开启了两个瞄准更根本层次统一的新项目。其一是与密歇根大学的 Bhargav Bhatt 合作发展的"棱晶上同调"（prismatic cohomology）。上同调（cohomology）是一套通过研究几何形状（尤其是其中的"洞"）来探究其性质的工具体系。数十年来，数学家已发展出许多不同的上同调理论，各适用于不同情境，有如彩虹的各色光带。棱晶上同调则是那枚棱镜本身——一个单一的统一结构，包容着所有不同的颜色，并揭示它们之间的内在关联。其二是与哥本哈根大学的 Dustin Clausen 合作的凝聚数学（Condensed Mathematics），其野心更为宏大。</p>
+<p>这一项目力图从根本上重建拓扑学（topology）的基础——拓扑学是研究空间在连续形变下不变性质的数学分支。数十年来，数学家在尝试将代数工具与拓扑空间研究相结合时，屡屡遭遇技术困境。凝聚数学提出以全新概念"凝聚集"（condensed set）取代传统的拓扑空间作为基本对象，这一新基础从设计之初便旨在与代数方法无缝契合。这项工作处于该领域的绝对前沿，其中一个核心证明极为复杂，连Scholze本人在完成后都对其正确性没有十足把握。于是，他与合作者们发起了液态张量实验（Liquid Tensor Experiment）——借助一款名为 Lean 的计算机证明助手，向全球数学界公开征集，对该证明进行形式化验证。历时六个多月，一支数学家团队将他的论证翻译成计算机代码，并于2021年5月，由计算机确认了证明的正确性。</p>
+<p>尽管研究高度抽象，同行们谈及 Peter Scholze 时，描述却异常平实而亲切。他为人踏实慷慨，尽管才智卓绝，却从不让人感到被居高临下。他以讲座和论文的非凡清晰度著称，也乐于向学生和年轻研究者阐释自己的想法。然而，他本质上是一个极为私密的人，日益增长的名望令他颇感不堪其扰。他更愿意专注于数学本身，并以一种独特的心智方式从事研究：他常常不落笔记，更偏好将整个结构和论证保存在脑海中，这迫使他将思想提炼到最简洁、最纯粹的形式。他曾解释道："你的脑容量是有限的，所以无法同时应付两件复杂的事。"这一心智方式正是他表达清晰的动力之源——在他看来不过是简单复述的东西，对旁人而言却如醍醐灌顶，因为他已独自完成了那项寻找最直接路径的巨大概念工程。他与一位同为数学家的妻子共同生活，育有一女。</p>
+<h3>探索者的自我认知</h3>
+<p>2013年底，女儿的出生促使他更加珍视时间、自律生活。他赶在女儿出生前匆匆完成了一篇论文，感叹此后有一段时间几乎一事无成。他说，数学是他的激情所在，填满了生命中所有的闲暇时光，但他抗拒将自己的工作浪漫化。当被问及是否觉得自己天生就该成为数学家，他说这个想法"太哲学了"。</p>
+<p>或许最能说明问题的，是他对自己工作的定位：他视自己不为发明者，而是一位探索者。对他而言，数学真理是等待被发现的客观存在，而非被创造出来的。他在接受国际数学家大会（International Congress of Mathematicians）电视台采访时说："做研究真的就像是发现那些早已存在于那里的事物。"他也一再表示，自己仍处于学习阶段："我还处在努力了解那里究竟有什么的阶段。"</p>
+<p>在同行眼中，他正在重绘地图，发现新大陆；而在他自己看来，不过还在丈量海岸线。今年37岁的 Peter Scholze 创作出惊人数量的原创研究成果——据合作者描述，他几个月内的产出，便足以支撑一篇博士论文。他的博士导师 Michael Rapoport 深信，他仍有许多想法有待结出果实。他的工作不断向更基础的领域推进，而迄今所建立的那些结构，本身也不过是一座更宏大、尚不可见的数学大厦中的几块砖石。</p>
+<hr>
+<h2>术语表</h2>
+<table>
+<thead>
+<tr>
+<th>英文</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Andrew Wiles</td>
+<td>Andrew Wiles（数学家，费马大定理证明者）</td>
+</tr>
+<tr>
+<td>Anna Caraiani</td>
+<td>Anna Caraiani（数学家，Scholze的合作者）</td>
+</tr>
+<tr>
+<td>arithmetic geometry</td>
+<td>算术几何（研究数与形之间深层联系的数学分支）</td>
+</tr>
+<tr>
+<td>Bhargav Bhatt</td>
+<td>Bhargav Bhatt（数学家，密歇根大学，棱晶上同调合作者）</td>
+</tr>
+<tr>
+<td>cohomology</td>
+<td>上同调</td>
+</tr>
+<tr>
+<td>Condensed Mathematics</td>
+<td>凝聚数学</td>
+</tr>
+<tr>
+<td>condensed set</td>
+<td>凝聚集</td>
+</tr>
+<tr>
+<td>Dustin Clausen</td>
+<td>Dustin Clausen（数学家，凝聚数学合作者）</td>
+</tr>
+<tr>
+<td>elliptic curves</td>
+<td>椭圆曲线</td>
+</tr>
+<tr>
+<td>equal-characteristic</td>
+<td>等特征</td>
+</tr>
+<tr>
+<td>Eugen Helman</td>
+<td>Eugen Helman（数学家，Peter Scholze 的同学与同事）</td>
+</tr>
+<tr>
+<td>Fermat's Last Theorem</td>
+<td>费马大定理</td>
+</tr>
+<tr>
+<td>Fields Medal</td>
+<td>菲尔兹奖</td>
+</tr>
+<tr>
+<td>Harris-Taylor</td>
+<td>Harris-Taylor 证明（朗兰兹纲领中的重要数学成果）</td>
+</tr>
+<tr>
+<td>International Congress of Mathematicians</td>
+<td>国际数学家大会</td>
+</tr>
+<tr>
+<td>International Mathematical Olympiad</td>
+<td>国际数学奥林匹克竞赛</td>
+</tr>
+<tr>
+<td>Jared Weinstein</td>
+<td>Jared Weinstein（数论学家，现任职于波士顿大学）</td>
+</tr>
+<tr>
+<td>Langlands program</td>
+<td>朗兰兹纲领（数学中连接数论与表示论的宏大纲领）</td>
+</tr>
+<tr>
+<td>Lean</td>
+<td>Lean（计算机证明助手）</td>
+</tr>
+<tr>
+<td>Liquid Tensor Experiment</td>
+<td>液态张量实验</td>
+</tr>
+<tr>
+<td>Michael Rapoport</td>
+<td>Michael Rapoport（数学家，Peter Scholze 的博士导师）</td>
+</tr>
+<tr>
+<td>mixed-characteristic</td>
+<td>混合特征</td>
+</tr>
+<tr>
+<td>modular arithmetic</td>
+<td>模运算</td>
+</tr>
+<tr>
+<td>modular forms</td>
+<td>模形式</td>
+</tr>
+<tr>
+<td>number theory</td>
+<td>数论</td>
+</tr>
+<tr>
+<td>p-adic Numbers</td>
+<td>p进数</td>
+</tr>
+<tr>
+<td>Perfectoid Spaces</td>
+<td>完美胚空间</td>
+</tr>
+<tr>
+<td>Peter Scholze</td>
+<td>Peter Scholze（数学家，菲尔兹奖得主）</td>
+</tr>
+<tr>
+<td>prismatic cohomology</td>
+<td>棱晶上同调</td>
+</tr>
+<tr>
+<td>real numbers</td>
+<td>实数</td>
+</tr>
+<tr>
+<td>Robert Langlands</td>
+<td>罗伯特·朗兰兹（数学家，朗兰兹纲领提出者）</td>
+</tr>
+<tr>
+<td>tilting</td>
+<td>倾斜（完美胚空间中的核心操作）</td>
+</tr>
+<tr>
+<td>topology</td>
+<td>拓扑学</td>
+</tr>
+<tr>
+<td>W3 professor</td>
+<td>W3级教授（德国学术体系中的最高正教授职级）</td>
+</tr>
+<tr>
+<td>weight monodromy conjecture</td>
+<td>权重单值性猜想</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+5:["$","$L11",null,{"email":{"id":"talks-why-peter-scholze-is-once-in-a-generation-mathematician","sender":"Turing","subject":"为什么 Peter Scholze 被称为一代一遇的数学家","snippet":"文章围绕 Scholze 的学术路径与关键贡献展开，重点介绍完美胚空间、凝聚数学及其对算术几何整体语言的重塑。","date":"2025-12-27","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Talks"],"tags":["translated","mathematics"],"mdTheme":"magazine","sourcePath":"talks/why-peter-scholze-is-once-in-a-generation-mathematician.md","sourceUrl":"https://www.youtube.com/watch?v=7kC8Id5ephE","coverImage":"$undefined","body":"$12","prompts":[]},"listPosition":{"index":196,"total":365},"matchedPerson":{"id":"turing","name":"Turing","email":""}}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+13:I[27201,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"IconMark"]
+c:[["$","title","0",{"children":"为什么 Peter Scholze 被称为一代一遇的数学家 · Hinbox"}],["$","meta","1",{"name":"description","content":"文章围绕 Scholze 的学术路径与关键贡献展开，重点介绍完美胚空间、凝聚数学及其对算术几何整体语言的重塑。"}],["$","meta","2",{"name":"application-name","content":"Hinbox"}],["$","link","3",{"rel":"canonical","href":"https://linguage.github.io/hinbox/mail/talks-why-peter-scholze-is-once-in-a-generation-mathematician"}],["$","meta","4",{"property":"og:title","content":"为什么 Peter Scholze 被称为一代一遇的数学家"}],["$","meta","5",{"property":"og:description","content":"文章围绕 Scholze 的学术路径与关键贡献展开，重点介绍完美胚空间、凝聚数学及其对算术几何整体语言的重塑。"}],["$","meta","6",{"property":"og:url","content":"https://linguage.github.io/hinbox/mail/talks-why-peter-scholze-is-once-in-a-generation-mathematician"}],["$","meta","7",{"property":"og:site_name","content":"Hinbox"}],["$","meta","8",{"property":"og:locale","content":"zh_CN"}],["$","meta","9",{"property":"og:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","meta","10",{"property":"og:image:width","content":"1200"}],["$","meta","11",{"property":"og:image:height","content":"630"}],["$","meta","12",{"property":"og:image:alt","content":"为什么 Peter Scholze 被称为一代一遇的数学家"}],["$","meta","13",{"property":"og:type","content":"article"}],["$","meta","14",{"property":"article:published_time","content":"2025-12-27T00:00:00.000Z"}],["$","meta","15",{"property":"article:author","content":"Turing"}],["$","meta","16",{"property":"article:tag","content":"translated"}],["$","meta","17",{"property":"article:tag","content":"mathematics"}],["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","19",{"name":"twitter:title","content":"为什么 Peter Scholze 被称为一代一遇的数学家"}],["$","meta","20",{"name":"twitter:description","content":"文章围绕 Scholze 的学术路径与关键贡献展开，重点介绍完美胚空间、凝聚数学及其对算术几何整体语言的重塑。"}],["$","meta","21",{"name":"twitter:image","content":"https://linguage.github.io/hinbox/og/default.svg"}],["$","link","22",{"rel":"icon","href":"/hinbox/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","23",{"rel":"icon","href":"/hinbox/icon.svg?icon.6ca2692a.svg","sizes":"any","type":"image/svg+xml"}],["$","$L13","24",{}]]
+8:null

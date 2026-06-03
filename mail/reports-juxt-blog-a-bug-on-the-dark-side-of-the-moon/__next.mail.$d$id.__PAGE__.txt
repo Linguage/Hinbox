@@ -1,0 +1,144 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T4187,<h1>JUXT Blog: A bug on the dark side of the Moon</h1>
+<p><a href="https://www.juxt.pro/blog/a-bug-on-the-dark-side-of-the-moon/">原文链接</a></p>
+<p>阿波罗导航计算机的代码曾被无数人审查与模拟，被认为已无懈可击。然而，本文作者借助现代行为规约语言与AI工具，在这段历史代码中发现了一个隐藏的资源锁泄漏bug。仅仅缺失四字节指令，却可能在阿波罗11号任务中引发致命危机。文章推演了当迈克尔·柯林斯独自在月球背面时，一次意外的开关触碰如何导致陀螺仪系统无声假死，将宇航员置于难以决策的绝境。这不仅是一次跨越半个世纪的代码考古，更揭示了一个深刻的工程洞见：最严重的错误往往不在于编码本身，而在于行为规约的缺失。它引导我们重新审视，在极度追求可靠性的系统中，究竟该如何定义“正确”。</p>
+<hr>
+<p>阿波罗导航计算机（Apollo Guidance Computer, AGC）是历史上受到最严密审查的代码库之一。数以千计的开发者阅读过它。学者们发表了关于其可靠性的论文。模拟器逐条指令地运行它。我们独立发现了其中的一个 bug：陀螺仪控制代码中的一个资源锁，在错误路径上会发生泄漏。<sup><a href="#fn-dagger">†</a></sup></p>
+<p>我们使用了 Claude 和 Allium（我们开源的行为规约语言），将 13 万行 AGC 汇编代码提炼为 1.25 万行规约。这些规约源自代码本身，该过程直接为我们指明了缺陷所在。</p>
+<h3>梳理代码</h3>
+<p>自 2003 年以来，该源代码就已公开，当时 Ron Burkey 和一个志愿者团队开始煞费苦心地从 MIT 仪器实验室的打印清单上手工转录它。2016 年，前 NASA 实习生 Chris Garry 的 GitHub 仓库走红，登上了趋势榜首。数以千计的开发者浏览了这台拥有 2K 可擦除 RAM 和 1MHz 时钟的机器的汇编语言。</p>
+<p>AGC 的程序存储在 74KB 的磁芯线绳（core rope）中：在工厂里，铜线手工穿过微小的磁芯（穿过磁芯的线是 1；绕过磁芯的线是 0）。编织这些线的女性在内部被称为“Little Old Ladies”，而这种内存本身被称为 LOL memory。程序被物理地编织进了硬件中。Mike Stewart 将其分析到了单个门电路的层面，而 Virtual AGC 项目则在模拟环境中运行该软件。阿波罗 11 号飞行程序的唯一来源，是 MIT 博物馆馆藏中的一对打印件。</p>
+<p>据我们所能确定的，尚未有针对该飞行代码的形式化验证、模型检查或静态分析的论文发表。审查很深入，但那是特定的一种审查：阅读代码、模拟代码、验证转录。</p>
+<p>我们采取了一种不同的方法。我们使用 Allium 从惯性测量单元（Inertial Measurement Unit, IMU）子系统中提炼出了一份行为规约，该子系统是一个基于陀螺仪的平台，用于告诉航天器其指向的方向。该规约对每个共享资源的生命周期进行了建模：何时被获取，何时必须被释放，以及在哪些路径上。</p>
+<p>它暴露出了一个缺陷。</p>
+<h3>丢失引用</h3>
+<p>AGC 通过一个名为 <code>LGYRO</code> 的共享资源锁来管理 IMU。当计算机需要向陀螺仪施加力矩（以修正平台漂移或执行星体对准）时，它会在开始时获取 <code>LGYRO</code>，并在三个轴都完成施矩后将其释放。该锁防止两个例程同时争用陀螺仪硬件。</p>
+<p>锁在进入时获取，在退出时释放。但存在第三种可能性，且它不会释放锁。</p>
+<p>“锁定”（Caging）是一项紧急措施：一种物理夹具，将 IMU 的万向节锁定在位，以保护陀螺仪免受损坏。机组人员可以通过驾驶舱内的一个带保护盖的开关来触发它。</p>
+<p>当施矩正常完成时，例程通过 <code>STRTGYR2</code> 退出，<code>LGYRO</code> 锁被清除。当施矩正在进行时 IMU 被锁定，代码会通过一个名为 <code>BADEND</code> 的例程退出，该例程不会清除锁。缺失了两条指令：</p>
+<pre><code class="language-plaintext">CAF  ZERO
+TS   LGYRO
+</code></pre>
+<p>四个字节。</p>
+<p>1969 年 7 月 21 日，当尼尔·阿姆斯特朗和巴兹·奥尔德林在月球表面行走时，迈克尔·柯林斯独自在指令舱“哥伦比亚号”（Columbia）中轨道运行。每隔两小时，他就会消失在月球背面，与地球失去无线电联系。“我现在是独自一人，真正的独自一人，与任何已知生命绝对隔离。我就是那唯一的一个，”他在《携火而行》（Carrying the Fire）中写道。“如果清点一下人数，比分将是月球那边三十亿零两个，而这边是一个加上天知道还有什么。”</p>
+<p>在每次经过时，他都会运行程序 52（Program 52），这是一种星体观测对准，用于保持导航平台指向正确的方向。如果平台漂移，带他回家的发动机点火就会指向错误的方向。</p>
+<h3>无线电静默</h3>
+<p>以下是我们设想该 bug 可能如何显现的过程。<sup><a href="#fn-ddagger">‡</a></sup></p>
+<p>柯林斯刚在下设备舱的光学观测站完成了星体观测，并输入了最后的指令。计算机正在向陀螺仪施矩，以在所有三个轴上应用修正。</p>
+<p>他穿过一个由翻盖保护的锁定开关，在狭窄的驾驶舱内向主面板移回。一只手肘碰到了盖子，拨动了开关。代码优雅地处理了这一点：一个名为 <code>CAGETEST</code> 的例程检测到了锁定，放弃施矩并退出。P52 失败了，他也明白原因：锁定中断了修正。他解除 IMU 的锁定，返回光学观测站重新对准。</p>
+<p>他启动了一个新的 P52。程序挂起了。</p>
+<p>没有警报，没有程序指示灯。DSKY（显示和键盘，他与计算机唯一的接口）接受了输入却毫无反应。他尝试了 V41，即手动陀螺仪施矩动词。同样的结果。计算机上的其他一切正常运作。只有陀螺仪操作死了。</p>
+<p>第一次失败看起来很正常：对准期间发生的锁定事件，有着已知的恢复方法。第二次却没有给出任何关于哪里出错的线索。针对意外锁定的受训反应是解除锁定并重新对准。柯林斯受过重启计算机的训练，但这次失败没有任何迹象表明他需要这么做。指令被接受了，其他一切正常。这看起来会像是硬件故障，而不是锁死。</p>
+<p>“过去六个月里，我内心深处的恐惧就是把他们留在月球上，然后独自返回地球，”柯林斯后来在写到交会对接（rendezvous）时说。在月球背面陀螺仪系统死机，而阿姆斯特朗和奥尔德林在月面上等待一次取决于他已无法对准的平台的交会点火，正是那种场景。</p>
+<p>一次硬重置本可以清除它。但在月球降落期间，即使有任务控制中心在线，且有 Steve Bales 做出瞬间的中止或继续决定，1202 报警也已经足够令人紧张了。</p>
+<p>在月球背面，孤身一人，面对一台接受指令却毫无动作的计算机，柯林斯将不得不独自做出那个决定。</p>
+<h3>已知的航标</h3>
+<p>玛格丽特·汉密尔顿（作为 COMANCHE 的<a href="https://airandspace.si.edu/stories/editorial/rope-mother-margaret-hamilton">“绳母”</a>）在最终飞行程序被织入磁芯绳存储器（core rope memory）之前批准了它们。她在 MIT Instrumentation Laboratory 的团队开创了我们现在<a href="https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)#Legacy">习以为常</a>的概念：优先级调度（priority scheduling）、异步多任务处理（asynchronous multitasking）、重启保护（restart protection）和基于软件的错误恢复（software-based error recovery）。甚至“软件工程”（software engineering）一词也归功于她。</p>
+<p>当下降期间触发 1202 报警时，他们的重启保护拯救了阿波罗 11 号的着陆，清除了停滞任务的积压，并仅重启程序员标记为至关重要的那些任务。大多数现代系统无法如此优雅地处理过载。</p>
+<p>确实暴露出的最严重的错误是规范错误，而不是编码错误。编写月球着陆制导代码的 Don Eyles <a href="https://www.doneyles.com/LM/Tales.html">记录了几例</a>。例如，<a href="https://en.wikipedia.org/wiki/Apollo_Lunar_Module#Rendezvous_radar">交会雷达</a>的 ICD（接口控制文档）规定两个 800 Hz 电源将进行频率锁定，但对其电压电平或相位关系只字未提。传统解释将原因归咎于电源之间任意的相位偏移。但 Mike Stewart 最近在阿波罗硬件上的实验工作，在没有任何相位偏移的情况下，重现了阿波罗 11 号遥测中看到的确切振荡。两个参考电压之间的差异本身就足以使系统陷入狂乱。这似乎是 1202 报警的根本原因。</p>
+<p><a href="https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/IMU_MODE_SWITCHING_ROUTINES.agc#L717"><code>BADEND</code></a> 是一个所有 IMU 模式切换操作共享的通用终止例程。它清除 <code>MODECADR</code>（停滞寄存器），唤醒休眠的任务，然后退出。但 <code>LGYRO</code> 是一个陀螺仪专用的锁，仅由脉冲加矩（pulse-torquing）代码获取，且仅由 <code>STRTGYR2</code> 中的正常完成路径释放。当错误路径路由到 <code>BADEND</code> 时，它正确处理了通用资源，但没有处理陀螺仪专用的锁。</p>
+<p>AGC 的编写极具防御性，以至于任何<a href="https://www.ibiblio.org/apollo/hrst/archive/1029.pdf">重启</a>或重大程序更改都会清除 <code>LGYRO</code>。对准失败后的正常恢复程序将以程序更改开始，自动清除锁。部分因为这个原因，<a href="https://www.ibiblio.org/apollo/Documents/contents_of_luminary_1d.pdf#page=52">该异常</a>直到几次任务之后才被发现。</p>
+<h3>星光观测</h3>
+<p>我们通过使用 Allium（一种 AI 原生的行为规范语言）提炼 IMU 子系统的行为规范，独立识别出了这个问题。该规范将每个共享资源建模为具有生命周期的实体：获取、持有、释放。</p>
+<p>IMU 实体声明了一个 <code>gyros_busy</code> 字段来建模 <code>LGYRO</code>。两条规则约束它：</p>
+<pre><code>rule GyroTorque {
+    -- Sends gyro torquing pulse commands. Reserves the gyros,
+    -- enables power supply, and dispatches pulses per axis.
+    when: GyroTorque(command: GyroTorqueCommand)
+
+    requires:
+        imu.mode != caged
+        imu.gyros_busy = false
+
+    ensures:
+        imu.gyros_busy = true
+        GyroTorqueStarted()
+}
+
+rule GyroTorqueBusy {
+    -- Gyros already reserved by another torquing operation.
+    -- Caller sleeps until LGYRO is cleared.
+    when: GyroTorque(command: GyroTorqueCommand)
+
+    requires: imu.gyros_busy = true
+
+    ensures:
+        JobSleep(job: calling_job())
+}
+</code></pre>
+<p><code>GyroTorque</code> 要求 <code>gyros_busy = false</code> 并保证 <code>gyros_busy = true</code>：锁被获取。在其后的每条路径上的某个地方，该锁<em>必须</em>被释放。规范没有显示释放发生在代码中的哪里，但它使这种义务变得明确：如果 <code>gyros_busy</code> 变为 true，<em>某物</em>必须将其重新设置为 false。</p>
+<p>随着这种义务被记录下来，Claude 追踪了 <code>gyros_busy</code> 被设置为 true 之后运行的每条路径。正常的完成路径（<code>STRTGYR2</code>）清除了它。锁定中断路径（<code>BADEND</code>）则没有。另一个共享资源 <code>MODECADR</code> 在 <code>BADEND</code> 中被正确清除了：<code>LGYRO</code> 缺失了。</p>
+<p>规范在穿过 IMU 模式切换代码的每条路径上强制提出这个问题。审查 <code>BADEND</code> 的人会看到对 <code>BADEND</code> 设计要处理的每个资源进行了正确、完整的清理。</p>
+<p>规范从另一个方向切入：从 <code>LGYRO</code> 开始，询问是否有任何路径未能清除它。</p>
+<p><strong>测试验证所写的代码；行为规范则追问代码的用途。</strong></p>
+<p>由 Allium 提炼的规范对所有路径上的资源生命周期进行建模，包括那些最难测试的路径。你可以在 GitHub 上查看 <a href="https://github.com/juxt/Apollo-11/tree/master/specs">Allium 规范</a>和<a href="https://github.com/juxt/agc-lgyro-lock-leak-bug">该错误的复现</a>。</p>
+<h3>航向修正</h3>
+<p>汉密尔顿的团队通过将常数零加载到<a href="https://www.ibiblio.org/apollo/assembly_language_manual.html">累加器</a>（<code>CAF ZERO</code>）中并将其存入锁寄存器（<code>TS LGYRO</code>）来释放资源。每一次释放都由程序员手动放置，他记住了可能到达该点的每一条路径。</p>
+<p>现代语言试图在结构上使锁泄漏变得不可能：Go 有 <a href="https://go.dev/blog/defer-panic-and-recover"><code>defer</code></a>，Java 有 <a href="https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html"><code>try-with-resources</code></a>，Python 有 <a href="https://docs.python.org/3/reference/compound_stmts.html#the-with-statement"><code>with</code></a>，Rust 的<a href="https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html">所有权系统</a>使锁泄漏成为编译时错误。</p>
+<p>尽管如此，锁泄漏依然存在。MITRE 将该模式归类为 <a href="https://cwe.mitre.org/data/definitions/772.html">CWE-772</a>：“有效生命周期结束后资源未释放”，并将其被利用的可能性评为高。并非所有资源都由语言运行时管理。数据库连接、分布式锁、shell 脚本中的文件句柄、必须按正确顺序销毁的基础设施：这些通常仍然是程序员的责任。在任何程序员负责编写清理代码的地方，同样的错误都在潜伏。</p>
+<p>每一个阿波罗乘组都安全回家了。从阿波罗 11 号到 14 号，该缺陷存在于指令舱软件（COMANCHE）和登月舱软件（LUMINARY）的多次<a href="https://www.ibiblio.org/apollo/Luminary.html">任务</a>中。</p>
+<hr>
+<p>一个潜在的问题潜藏在经过飞行验证的汇编代码中。你的代码里隐藏着什么？<a href="https://www.juxt.pro/contact/">让我们谈谈</a>。</p>
+<p><em>感谢 <a href="https://www.linkedin.com/in/dazraf">Farzad “Fuzz” Pezeshkpour</a> 独立<a href="https://github.com/juxt/agc-lgyro-lock-leak-bug">复现了该错误</a>，并感谢 <a href="https://www.linkedin.com/in/dansmithy/">Danny Smith</a> 和 <a href="https://www.linkedin.com/in/pmgandhi/">Prashant Gandhi</a> 审阅本文的早期草稿。</em></p>
+<p><em>† 2026 年 4 月 8 日。本文已修订以纠正事实错误。正如 Ron Burkey 所说：“仅仅因为某个特定的 AGC 问题没有被修复就断言它没有被注意到，这通常是危险的”。我们感谢他和 Mike Stewart 分享他们对阿波罗计划的深厚知识，并感谢他们抽出时间澄清事实。</em></p>
+<p><em>‡ 2026 年 4 月 8 日。上述描述的场景不可能按所写的那样发生。正如 Mike Stewart 指出的那样，<code>LGYRO</code> 在 <code>STARTSB2</code> 中也会被清零，而 <code>STARTSB2</code> 会在任何重大程序更改时通过 <code>GOPROG2</code> 执行。启动新的 P52 本身就会在加矩开始之前清除该锁。在主动进行脉冲加矩时触发 <code>BADEND</code> 是罕见的，并且可以通过正常程序来避免。在能够触发并持续存在该错误的非常具体的场景中，它不会静默失败：多个任务堆积起来尝试对陀螺仪加矩，直到计算机耗尽空间并触发程序报警。该问题在阿波罗 14 号飞行之前被发现，并且关于它可能如何发生以及恢复程序的描述被添加到了<a href="https://www.ibiblio.org/apollo/Documents/LUM159_text.pdf">阿波罗 14 号程序说明</a>中。</em></p>
+<h2>术语表</h2>
+<table>
+<thead>
+<tr>
+<th>原文</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Allium</td>
+<td>Allium</td>
+</tr>
+<tr>
+<td>Chris Garry</td>
+<td>Chris Garry</td>
+</tr>
+<tr>
+<td>Danny Smith</td>
+<td>Danny Smith</td>
+</tr>
+<tr>
+<td>Don Eyles</td>
+<td>Don Eyles</td>
+</tr>
+<tr>
+<td>Farzad “Fuzz” Pezeshkpour</td>
+<td>Farzad “Fuzz” Pezeshkpour</td>
+</tr>
+<tr>
+<td>Margaret Hamilton</td>
+<td>玛格丽特·汉密尔顿</td>
+</tr>
+<tr>
+<td>Mike Stewart</td>
+<td>Mike Stewart</td>
+</tr>
+<tr>
+<td>Prashant Gandhi</td>
+<td>Prashant Gandhi</td>
+</tr>
+<tr>
+<td>Ron Burkey</td>
+<td>Ron Burkey</td>
+</tr>
+<tr>
+<td>Steve Bales</td>
+<td>Steve Bales</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-juxt-blog-a-bug-on-the-dark-side-of-the-moon","sender":"Rosetta Reports","subject":"月球暗面之虫：阿波罗导航计算机中的一个隐藏 Bug","snippet":"阿波罗导航计算机的代码曾被无数人审查与模拟，被认为已无懈可击。然而，本文作者借助现代行为规约语言与AI工具，在这段历史代码中发现了一个隐藏的资源锁泄漏bug。仅仅缺失四字节指令，却可能在阿波罗11号任务中引发致命危机。文章推演了当迈克尔·柯林斯独自在月球背面时，一次意外的开关触碰如何导致陀螺仪系统无声假死，将宇航员置于难以决策的绝境。","date":"2026-04-07","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["translated"],"mdTheme":"magazine","sourcePath":"reports/juxt-blog-a-bug-on-the-dark-side-of-the-moon.md","sourceUrl":"https://www.juxt.pro/blog/a-bug-on-the-dark-side-of-the-moon/","body":"$3","prompts":[]},"listPosition":{"index":135,"total":365}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

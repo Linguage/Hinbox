@@ -1,0 +1,433 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T6cb7,<h1>Claude 4.5 新特性</h1>
+<ul>
+<li>来源：<a href="https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-5#key-improvements-in-opus-4-5-over-opus-4-1">What's new in Claude 4.5</a></li>
+</ul>
+<p>Claude 4.5 推出了三款针对不同用例设计的模型：</p>
+<ul>
+<li><strong>Claude Opus 4.5</strong>：我们最智能的模型，结合了极致的能力与实用的性能。非常适合复杂的专业任务、专业软件工程和高级智能体。价格比之前的 Opus 模型更亲民。</li>
+<li><strong>Claude Sonnet 4.5</strong>：我们用于复杂智能体和编程的最佳模型，在大多数任务中拥有最高智力水平。</li>
+<li><strong>Claude Haiku 4.5</strong>：我们最快且最智能的 Haiku 模型，具有接近前沿的性能。这也是首个支持扩展思维（extended thinking）的 Haiku 模型。</li>
+</ul>
+<h2>Opus 4.5 相比 Opus 4.1 的主要改进</h2>
+<h3>极致智力</h3>
+<p>Claude Opus 4.5 代表了我们最智能的模型，结合了极致的能力与实用的性能。它在推理、编程和复杂问题解决任务上实现了阶梯式的提升，同时保持了 Opus 系列一贯的高质量输出。</p>
+<h3>Effort 参数</h3>
+<p>Claude Opus 4.5 是唯一支持 <a href="https://platform.claude.com/docs/en/build-with-claude/effort">Effort 参数</a>的模型，允许您控制 Claude 在响应时使用的 Token 数量。这使您能够通过单个模型在回复的详尽程度和 Token 效率之间进行权衡。</p>
+<p>Effort 参数会影响响应中的所有 Token，包括文本回复、工具调用和扩展思维。您可以选择：</p>
+<ul>
+<li><strong>High effort（高）</strong>：最大程度的详尽性，适用于复杂的分析和详细的解释。</li>
+<li><strong>Medium effort（中）</strong>：平衡的方法，适用于大多数生产用例。</li>
+<li><strong>Low effort（低）</strong>：最节省 Token 的响应，适用于大批量自动化任务。</li>
+</ul>
+<h3>卓越的计算机使用能力</h3>
+<p>Claude Opus 4.5 引入了<a href="https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool">增强的计算机使用能力</a>，新增了缩放（zoom）操作，能够以全分辨率详细检查特定的屏幕区域。这使得 Claude 能够检查在标准截图中可能不清楚的细微 UI 元素、小字体文本和详细的视觉信息。</p>
+<p>缩放功能在以下方面特别有价值：</p>
+<ul>
+<li>检查微小的 UI 元素和控件</li>
+<li>阅读精细的印刷品或详细文本</li>
+<li>分析信息密集的复杂界面</li>
+<li>在采取行动前验证精确的视觉细节</li>
+</ul>
+<h3>实用性能</h3>
+<p>Claude Opus 4.5 以比之前的 Opus 模型<a href="https://platform.claude.com/docs/en/about-claude/pricing">更亲民的价格</a>提供旗舰级的智力，使先进的 AI 能力能够应用于更广泛的应用程序和用例。</p>
+<h3>思维块保留</h3>
+<p>Claude Opus 4.5 <a href="https://platform.claude.com/docs/en/build-with-claude/extended-thinking#thinking-block-preservation-in-claude-opus-4-5">自动保留所有之前的思维块</a>贯穿整个对话，在扩展的多轮交互和工具使用会话中保持推理的连续性。这确保了 Claude 在处理复杂的、长期运行的任务时，可以有效利用其完整的推理历史。</p>
+<h2>Sonnet 4.5 相比 Sonnet 4 的主要改进</h2>
+<h3>卓越的编程能力</h3>
+<p>Claude Sonnet 4.5 是我们需要迄今为止最好的编程模型，在整个开发生命周期中都有显著改进：</p>
+<ul>
+<li><strong>SWE-bench Verified 表现</strong>：在编程基准测试中达到先进的最前沿水平</li>
+<li><strong>增强的规划和系统设计</strong>：更好的架构决策和代码组织</li>
+<li><strong>改进的安全工程</strong>：更稳健的安全实践和漏洞检测</li>
+<li><strong>更好的指令遵循</strong>：更精确地遵守编程规范和要求</li>
+</ul>
+<p>当启用<a href="https://platform.claude.com/docs/en/build-with-claude/extended-thinking">扩展思维</a>时，Claude Sonnet 4.5 在编程任务上的表现显著更好。扩展思维默认是禁用的，但我们建议在进行复杂的编程工作时启用它。请注意，扩展思维会影响 <a href="https://platform.claude.com/docs/en/build-with-claude/prompt-caching#caching-with-thinking-blocks">Prompt 缓存效率</a>。有关配置详情，请参阅<a href="https://platform.claude.com/docs/en/about-claude/models/migrating-to-claude-4#extended-thinking-recommendations">迁移指南</a>。</p>
+<h3>智能体能力</h3>
+<p>Claude Sonnet 4.5 在智能体能力方面引入了重大进展：</p>
+<ul>
+<li><strong>扩展的自主操作</strong>：Sonnet 4.5 可以独立工作数小时，同时保持清晰度和对渐进式进展的专注。该模型一次稳步推进少量任务，而不是试图一次性完成所有任务。它提供基于事实的进度更新，准确反映已完成的工作。</li>
+<li><strong>上下文感知</strong>：Claude 现在会在整个对话过程中追踪其 Token 使用情况，并在每次工具调用后接收更新。这种感知能力有助于防止过早放弃任务，并使其能在长期运行的任务中更有效地执行。有关技术细节，请参阅<a href="https://platform.claude.com/docs/en/build-with-claude/context-windows#context-awareness-in-claude-sonnet-4-5">上下文感知</a>和<a href="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-4-best-practices#context-awareness-and-multi-window-workflows">Prompt 指南</a>。</li>
+<li><strong>增强的工具使用</strong>：该模型更有效地使用并行工具调用，在研究期间同时发起多个推测性搜索，并一次读取多个文件以更快地构建上下文。通过改进跨多个工具和信息源的协调能力，使模型能够在智能体搜索和编程工作流中有效利用广泛的能力。</li>
+<li><strong>高级上下文管理</strong>：Sonnet 4.5 在外部文件中保持出色的状态追踪，在跨会话中保持目标导向。结合更有效的上下文窗口使用和我们新的上下文管理 API 功能，该模型可以优化处理跨扩展会话的信息，以随时间推移保持连贯性。</li>
+</ul>
+<p>Claude Sonnet 4.5 拥有一种改进的沟通方式，即简洁、直接且自然。它提供基于事实的进度更新，并且可能会在工具调用后跳过冗长的总结以保持工作流的势头（尽管可以通过 Prompt 调整这一点）。</p>
+<p>有关使用此沟通风格的详细指导，请参阅 <a href="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-4-best-practices">Claude 4 最佳实践</a>。</p>
+<h3>创意内容生成</h3>
+<p>Claude Sonnet 4.5 在创意内容任务方面表现出色：</p>
+<ul>
+<li><strong>演示文稿和动画</strong>：在创建幻灯片和视觉内容方面，匹敌或超过 Claude Opus 4.1 和 Opus 4.5</li>
+<li><strong>创意才华</strong>：生成润色过的、专业的内容，并具有很强的指令遵循能力</li>
+<li><strong>初次尝试质量</strong>：在初次尝试中即可生成可用的、设计良好的内容</li>
+</ul>
+<h2>Haiku 4.5 相比 Haiku 3.5 的主要改进</h2>
+<p>Claude Haiku 4.5 代表了 Haiku 模型系列的变革性飞跃，为我们最快的模型类别带来了前沿能力：</p>
+<h3>极速且接近前沿的智力</h3>
+<p>Claude Haiku 4.5 以更低的成本和更快的速度提供了与 Sonnet 4 相当的接近前沿的性能：</p>
+<ul>
+<li><strong>接近前沿的智力</strong>：在推理、编程和复杂任务上匹敌 Sonnet 4 的性能</li>
+<li><strong>增强的速度</strong>：速度是 Sonnet 4 的两倍以上，并针对每秒输出 Token 数 (OTPS) 进行了优化</li>
+<li><strong>最佳的性价比</strong>：以三分之一的成本提供接近前沿的智力，非常适合大批量部署</li>
+</ul>
+<h3>扩展思维能力</h3>
+<p>Claude Haiku 4.5 是<strong>首个支持扩展思维的 Haiku 模型</strong>，为 Haiku 系列带来了高级推理能力：</p>
+<ul>
+<li><strong>极速推理</strong>：访问 Claude 的内部推理过程以解决复杂问题</li>
+<li><strong>思维摘要</strong>：为生产级部署提供摘要式的思维输出</li>
+<li><strong>穿插思维</strong>：在工具调用之间进行思考，以实现更复杂的多步骤工作流</li>
+<li><strong>预算控制</strong>：配置思维 Token 预算，以平衡推理深度与速度</li>
+</ul>
+<p>必须通过在 API 请求中添加 <code>thinking</code> 参数来显式启用扩展思维。有关实现细节，请参阅<a href="https://platform.claude.com/docs/en/build-with-claude/extended-thinking">扩展思维文档</a>。</p>
+<p>当启用<a href="https://platform.claude.com/docs/en/build-with-claude/extended-thinking">扩展思维</a>时，Claude Haiku 4.5 在编程和推理任务上的表现显著更好。扩展思维默认是禁用的，但我们建议在处理复杂问题解决、编程工作和多步推理时启用它。请注意，扩展思维会影响 <a href="https://platform.claude.com/docs/en/build-with-claude/prompt-caching#caching-with-thinking-blocks">Prompt 缓存效率</a>。有关配置详情，请参阅<a href="https://platform.claude.com/docs/en/about-claude/models/migrating-to-claude-4#extended-thinking-recommendations">迁移指南</a>。</p>
+<h3>上下文感知</h3>
+<p>Claude Haiku 4.5 具有<strong>上下文感知</strong>功能，使模型能够在整个对话过程中追踪其剩余的上下文窗口：</p>
+<ul>
+<li><strong>Token 预算追踪</strong>：Claude 在每次工具调用后收到关于剩余上下文容量的实时更新</li>
+<li><strong>更好的任务持久性</strong>：通过了解可用的工作空间，模型可以更有效地执行任务</li>
+<li><strong>多上下文窗口工作流</strong>：改进了跨扩展会话的状态转换处理</li>
+</ul>
+<p>这是首个具有原生上下文感知能力的 Haiku 模型。有关 Prompt 指南，请参阅 <a href="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-4-best-practices#context-awareness-and-multi-window-workflows">Claude 4 最佳实践</a>。</p>
+<h3>强大的编程和工具使用</h3>
+<p>Claude Haiku 4.5 提供了现代 Claude 模型所期望的强大编程能力：</p>
+<ul>
+<li><strong>编程熟练度</strong>：在代码生成、调试和重构任务上表现出色</li>
+<li><strong>全工具支持</strong>：兼容所有 Claude 4 工具，包括 bash、代码执行、文本编辑器、网络搜索和计算机使用</li>
+<li><strong>增强的计算机使用</strong>：针对自主桌面交互和浏览器自动化工作流进行了优化</li>
+<li><strong>并行工具执行</strong>：为复杂工作流高效协调多个工具</li>
+</ul>
+<p>Haiku 4.5 专为需要兼顾智力和效率的用例而设计：</p>
+<ul>
+<li><strong>实时应用</strong>：交互式用户体验的快速响应时间</li>
+<li><strong>大批量处理</strong>：大规模部署的经济高效型智力</li>
+<li><strong>免费层实现</strong>：以可接受的价格提供优质的模型质量</li>
+<li><strong>子智能体架构</strong>：用于多智能体系统的快速、智能的智能体</li>
+<li><strong>大规模计算机使用</strong>：经济高效的自主桌面和浏览器自动化</li>
+</ul>
+<h2>新 API 功能</h2>
+<h3>编程式工具调用 (Beta)</h3>
+<p><a href="https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling">编程式工具调用</a>允许 Claude 在代码执行容器内通过编写代码以编程方式调用您的工具，而无需每次工具调用都经过模型的往返交互。这显著降低了多工具工作流的延迟，并通过允许 Claude 在数据到达模型上下文窗口之前对其进行过滤或处理来减少 Token 消耗。</p>
+<pre><code class="language-python">tools=[
+    {
+        "type": "code_execution_20250825",
+        "name": "code_execution"
+    },
+    {
+        "name": "query_database",
+        "description": "Execute a SQL query against the sales database. Returns a list of rows as JSON objects.",
+        "input_schema": {...},
+        "allowed_callers": ["code_execution_20250825"]  # Enable programmatic calling
+    }
+]
+</code></pre>
+<p>主要优势：</p>
+<ul>
+<li><strong>降低延迟</strong>：消除工具调用之间与模型的往返交互</li>
+<li><strong>Token 效率</strong>：在返回给 Claude 之前，以编程方式处理和过滤工具结果</li>
+<li><strong>复杂工作流</strong>：支持循环、条件逻辑和批处理</li>
+</ul>
+<p><a href="https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool">工具搜索工具</a>使 Claude 能够通过按需动态发现和加载工具来处理数百或数千个工具。Claude 不必预先将所有工具定义加载到上下文窗口中，而是搜索您的工具目录并仅加载其所需的工具。</p>
+<p>提供两种搜索变体：</p>
+<ul>
+<li><strong>Regex</strong> (<code>tool_search_tool_regex_20251119</code>)：Claude 构建正则表达式模式来搜索工具名称、描述和参数</li>
+<li><strong>BM25</strong> (<code>tool_search_tool_bm25_20251119</code>)：Claude 使用自然语言查询来搜索工具</li>
+</ul>
+<pre><code class="language-python">tools=[
+    {
+        "type": "tool_search_tool_regex_20251119",
+        "name": "tool_search_tool_regex"
+    },
+    {
+        "name": "get_weather",
+        "description": "Get the weather at a specific location",
+        "input_schema": {...},
+        "defer_loading": True  # Load on-demand via search
+    }
+]
+</code></pre>
+<p>这种方法解决了两个关键挑战：</p>
+<ul>
+<li><strong>上下文效率</strong>：通过不预先加载所有工具定义，节省 10-20K Token</li>
+<li><strong>工具选择准确性</strong>：即使有 100 多个可用工具，也能保持高准确性</li>
+</ul>
+<h3>Effort 参数 (Beta)</h3>
+<p><a href="https://platform.claude.com/docs/en/build-with-claude/effort">Effort 参数</a>允许您控制 Claude 在响应时使用的 Token 数量，在响应详尽性和 Token 效率之间进行权衡：</p>
+<pre><code class="language-python">response = client.beta.messages.create(
+    model="claude-opus-4-5-20251101",
+    betas=["effort-2025-11-24"],
+    max_tokens=4096,
+    messages=[{"role": "user", "content": "..."}],
+    output_config={
+        "effort": "medium"  # "low", "medium", or "high"
+    }
+)
+</code></pre>
+<p>Effort 参数会影响响应中的所有 Token，包括文本回复、工具调用和扩展思维。较低的 Effort 级别产生更简洁的响应和最少的解释，而较高的 Effort 则提供详细的推理和全面的答案。</p>
+<h3>工具使用示例 (Beta)</h3>
+<p><a href="https://platform.claude.com/docs/en/agents-and-tools/tool-use/implement-tool-use#providing-tool-use-examples">工具使用示例</a>允许您提供有效的工具输入具体示例，以帮助 Claude 了解如何更有效地使用您的工具。这对于具有嵌套对象、可选参数或格式敏感输入的复杂工具特别有用。</p>
+<pre><code class="language-python">tools=[
+    {
+        "name": "get_weather",
+        "description": "Get the current weather in a given location",
+        "input_schema": {...},
+        "input_examples": [
+            {
+                "location": "San Francisco, CA",
+                "unit": "fahrenheit"
+            },
+            {
+                "location": "Tokyo, Japan",
+                "unit": "celsius"
+            },
+            {
+                "location": "New York, NY"  # Demonstrates optional 'unit' parameter
+            }
+        ]
+    }
+]
+</code></pre>
+<p>示例包含在 Prompt 中与工具架构并列，向 Claude 展示格式良好的工具调用的具体模式。每个示例必须根据该工具的 <code>input_schema</code> 有效。</p>
+<h3>记忆工具 (Beta)</h3>
+<p>新的<a href="https://platform.claude.com/docs/en/agents-and-tools/tool-use/memory-tool">记忆工具</a>使 Claude 能够在上下文窗口之外存储和检索信息：</p>
+<pre><code class="language-python">tools=[
+    {
+        "type": "memory_20250818",
+        "name": "memory"
+    }
+]
+</code></pre>
+<p>这允许：</p>
+<ul>
+<li>随时间推移构建知识库</li>
+<li>跨会话维护项目状态</li>
+<li>通过基于文件的存储保留实际上无限的上下文</li>
+</ul>
+<h3>上下文编辑</h3>
+<p>使用<a href="https://platform.claude.com/docs/en/build-with-claude/context-editing">上下文编辑</a>通过自动清除工具调用来进行智能上下文管理：</p>
+<pre><code class="language-python">response = client.beta.messages.create(
+    betas=["context-management-2025-06-27"],
+    model="claude-sonnet-4-5",  # or claude-haiku-4-5
+    max_tokens=4096,
+    messages=[{"role": "user", "content": "..."}],
+    context_management={
+        "edits": [
+            {
+                "type": "clear_tool_uses_20250919",
+                "trigger": {"type": "input_tokens", "value": 500},
+                "keep": {"type": "tool_uses", "value": 2},
+                "clear_at_least": {"type": "input_tokens", "value": 100}
+            }
+        ]
+    },
+    tools=[...]
+)
+</code></pre>
+<p>此功能会在接近 Token 限制时自动删除较旧的工具调用和结果，帮助管理长期运行的智能体会话中的上下文。</p>
+<h3>增强的停止原因</h3>
+<p>Claude 4.5 模型引入了一个新的 <code>model_context_window_exceeded</code> 停止原因，明确指示生成何时因达到上下文窗口限制而停止，而不是请求的 <code>max_tokens</code> 限制。这使得在应用程序逻辑中更容易处理上下文窗口限制。</p>
+<pre><code class="language-json">{
+  "stop_reason": "model_context_window_exceeded",
+  "usage": {
+    "input_tokens": 150000,
+    "output_tokens": 49950
+  }
+}
+</code></pre>
+<h3>改进的工具参数处理</h3>
+<p>Claude 4.5 模型包含一个错误修复，可保留工具调用字符串参数中的预期格式。以前，字符串参数中的尾随换行符有时会被错误地剥离。此修复确保需要精确格式（如文本编辑器）的工具能够准确接收预期的参数。</p>
+<p><strong>示例：</strong></p>
+<pre><code class="language-json">// 之前：最后的换行符被意外剥离
+{
+  "type": "tool_use",
+  "id": "toolu_01A09q90qw90lq917835lq9",
+  "name": "edit_todo",
+  "input": {
+    "file": "todo.txt",
+    "contents": "1. Chop onions.\n2. ???\n3. Profit"
+  }
+}
+
+// 之后：尾随换行符按预期保留
+{
+  "type": "tool_use",
+  "id": "toolu_01A09q90qw90lq917835lq9",
+  "name": "edit_todo",
+  "input": {
+    "file": "todo.txt",
+    "contents": "1. Chop onions.\n2. ???\n3. Profit\n"
+  }
+}
+</code></pre>
+<h3>Token 计数优化</h3>
+<p>Claude 4.5 模型包含自动优化以提高模型性能。这些优化可能会向请求添加少量 Token，但<strong>您无需为这些系统添加的 Token 付费</strong>。</p>
+<h2>Claude 4 引入的功能</h2>
+<p>以下功能是在 Claude 4 中引入的，并适用于所有 Claude 4 模型，包括 Claude Sonnet 4.5 和 Claude Haiku 4.5。</p>
+<h3>新的拒绝（Refusal）停止原因</h3>
+<p>Claude 4 模型引入了一个新的 <code>refusal</code> 停止原因，用于模型出于安全原因拒绝生成内容的情况：</p>
+<pre><code class="language-json">{
+  "id": "msg_014XEDjypDjFzgKVWdFUXxZP",
+  "type": "message",
+  "role": "assistant",
+  "model": "claude-sonnet-4-5",
+  "content": [{"type": "text", "text": "I would be happy to assist you. You can "}],
+  "stop_reason": "refusal",
+  "stop_sequence": null,
+  "usage": {
+    "input_tokens": 564,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 22
+  }
+}
+</code></pre>
+<p>使用 Claude 4 模型时，您应该更新应用程序以<a href="https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/handle-streaming-refusals">处理 <code>refusal</code> 停止原因</a>。</p>
+<h3>摘要式思维 (Summarized thinking)</h3>
+<p>启用扩展思维后，Claude 4 模型的 Messages API 会返回 Claude 完整思维过程的摘要。摘要式思维提供了扩展思维的全部智力优势，同时防止滥用。</p>
+<p>虽然 API 在 Claude 3.7 和 4 模型之间是一致的，但扩展思维的流式响应可能会以“块状”模式传输，流式事件之间可能存在延迟。</p>
+<p>有关更多信息，请参阅<a href="https://platform.claude.com/docs/en/build-with-claude/extended-thinking#summarized-thinking">扩展思维文档</a>。</p>
+<h3>穿插思维 (Interleaved thinking)</h3>
+<p>Claude 4 模型支持将工具使用与扩展思维穿插进行，允许进行更自然的对话，其中工具使用和回复可以与常规消息混合。</p>
+<p>有关更多信息，请参阅<a href="https://platform.claude.com/docs/en/build-with-claude/extended-thinking#interleaved-thinking">扩展思维文档</a>。</p>
+<h3>行为差异</h3>
+<p>Claude 4 模型有明显的行为变化，可能会影响您构建 Prompt 的方式：</p>
+<h4>沟通风格的变化</h4>
+<ul>
+<li><strong>更简洁直接</strong>：Claude 4 模型的沟通效率更高，解释更少冗长</li>
+<li><strong>更自然的语气</strong>：回复稍微更具对话性，减少了机器味</li>
+<li><strong>注重效率</strong>：完成动作后可能会跳过详细总结以保持工作流势头（如果需要，您可以通过 Prompt 要求更多细节）</li>
+</ul>
+<h4>指令遵循</h4>
+<p>Claude 4 模型经过训练可进行精确的指令遵循，需要更明确的指导：</p>
+<ul>
+<li><strong>明确行动</strong>：如果您希望 Claude 采取行动，请使用直接的语言，如“进行这些更改”或“实施此功能”，而不是“您可以建议更改吗”</li>
+<li><strong>清晰说明期望行为</strong>：Claude 将精确遵循指令，因此具体说明您想要什么有助于获得更好的结果</li>
+</ul>
+<p>有关使用这些模型的全面指导，请参阅 <a href="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-4-best-practices">Claude 4 Prompt 工程最佳实践</a>。</p>
+<h3>更新的文本编辑器工具</h3>
+<p>文本编辑器工具已针对 Claude 4 模型进行了更新，更改如下：</p>
+<ul>
+<li><strong>工具类型</strong>：<code>text_editor_20250728</code></li>
+<li><strong>工具名称</strong>：<code>str_replace_based_edit_tool</code></li>
+<li>不再支持 <code>undo_edit</code> 命令</li>
+</ul>
+<p>如果您从 Claude Sonnet 3.7 迁移并正在使用文本编辑器工具：</p>
+<pre><code class="language-python"># Claude Sonnet 3.7
+tools=[
+    {
+        "type": "text_editor_20250124",
+        "name": "str_replace_editor"
+    }
+]
+
+# Claude 4 Models
+tools=[
+    {
+        "type": "text_editor_20250728",
+        "name": "str_replace_based_edit_tool"
+    }
+]
+</code></pre>
+<p>有关更多信息，请参阅<a href="https://platform.claude.com/docs/en/agents-and-tools/tool-use/text-editor-tool">文本编辑器工具文档</a>。</p>
+<h3>更新的代码执行工具</h3>
+<p>如果您正在使用代码执行工具，请确保使用最新版本 <code>code_execution_20250825</code>，该版本添加了 Bash 命令和文件操作功能。</p>
+<p>旧版本 <code>code_execution_20250522</code>（仅 Python）仍然可用，但不建议用于新实现。</p>
+<p>有关迁移说明，请参阅<a href="https://platform.claude.com/docs/en/agents-and-tools/tool-use/code-execution-tool#upgrade-to-latest-tool-version">代码执行工具文档</a>。</p>
+<h2>定价和可用性</h2>
+<h3>定价</h3>
+<p>Claude 4.5 模型保持了具有竞争力的定价：</p>
+<table>
+<thead>
+<tr>
+<th>模型</th>
+<th>输入</th>
+<th>输出</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Claude Opus 4.5</td>
+<td>$5 / 百万 Token</td>
+<td>$25 / 百万 Token</td>
+</tr>
+<tr>
+<td>Claude Sonnet 4.5</td>
+<td>$3 / 百万 Token</td>
+<td>$15 / 百万 Token</td>
+</tr>
+<tr>
+<td>Claude Haiku 4.5</td>
+<td>$1 / 百万 Token</td>
+<td>$5 / 百万 Token</td>
+</tr>
+</tbody>
+</table>
+<p>有关更多详细信息，请参阅<a href="https://platform.claude.com/docs/en/about-claude/pricing">定价文档</a>。</p>
+<h3>第三方平台定价</h3>
+<p>从 Claude 4.5 模型（Opus 4.5、Sonnet 4.5 和 Haiku 4.5）开始，AWS Bedrock 和 Google Vertex AI 提供两种端点类型：</p>
+<ul>
+<li><strong>全球端点 (Global endpoints)</strong>：动态路由以实现最大可用性</li>
+<li><strong>区域端点 (Regional endpoints)</strong>：保证数据通过特定地理区域路由，<strong>价格溢价 10%</strong></li>
+</ul>
+<p><strong>此区域定价适用于所有 Claude 4.5 模型：Opus 4.5、Sonnet 4.5 和 Haiku 4.5。</strong></p>
+<p><strong>Claude API (1P) 默认为全球模式，不受此更改影响。</strong> Claude API 仅提供全球服务（等同于其他提供商的全球端点产品和定价）。</p>
+<p>有关实施细节和迁移指南：</p>
+<ul>
+<li><a href="https://platform.claude.com/docs/en/build-with-claude/claude-on-amazon-bedrock#global-vs-regional-endpoints">AWS Bedrock 全球与区域端点</a></li>
+<li><a href="https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai#global-vs-regional-endpoints">Google Vertex AI 全球与区域端点</a></li>
+</ul>
+<h3>可用性</h3>
+<p>Claude 4.5 模型可通过以下方式获取：</p>
+<table>
+<thead>
+<tr>
+<th>模型</th>
+<th>Claude API</th>
+<th>Amazon Bedrock</th>
+<th>Google Cloud Vertex AI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Claude Opus 4.5</td>
+<td><code>claude-opus-4-5-20251101</code></td>
+<td><code>anthropic.claude-opus-4-5-20251101-v1:0</code></td>
+<td><code>claude-opus-4-5@20251101</code></td>
+</tr>
+<tr>
+<td>Claude Sonnet 4.5</td>
+<td><code>claude-sonnet-4-5-20250929</code></td>
+<td><code>anthropic.claude-sonnet-4-5-20250929-v1:0</code></td>
+<td><code>claude-sonnet-4-5@20250929</code></td>
+</tr>
+<tr>
+<td>Claude Haiku 4.5</td>
+<td><code>claude-haiku-4-5-20251001</code></td>
+<td><code>anthropic.claude-haiku-4-5-20251001-v1:0</code></td>
+<td><code>claude-haiku-4-5@20251001</code></td>
+</tr>
+</tbody>
+</table>
+<p>也可通过 Claude.ai 和 Claude Code 平台使用。</p>
+<h2>迁移指南</h2>
+<p>破坏性更改和迁移要求因您升级前的模型而异。有关详细的迁移说明，包括分步指南、破坏性更改和迁移清单，请参阅<a href="https://platform.claude.com/docs/en/about-claude/models/migrating-to-claude-4">迁移到 Claude 4.5</a>。</p>
+<p>迁移指南涵盖以下场景：</p>
+<ul>
+<li><strong>Claude Sonnet 3.7 → Sonnet 4.5</strong>：包含破坏性更改的完整迁移路径</li>
+<li><strong>Claude Haiku 3.5 → Haiku 4.5</strong>：包含破坏性更改的完整迁移路径</li>
+<li><strong>Claude Sonnet 4 → Sonnet 4.5</strong>：更改极少的快速升级</li>
+<li><strong>Claude Opus 4.1 → Sonnet 4.5</strong>：无破坏性更改的无缝升级</li>
+<li><strong>Claude Opus 4.1 → Opus 4.5</strong>：无破坏性更改的无缝升级</li>
+<li><strong>Claude Opus 4.5 → Sonnet 4.5</strong>：无破坏性更改的无缝降级</li>
+</ul>
+<p><a href="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-4-best-practices">最佳实践</a></p>
+<p><a href="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-4-best-practices">学习 Claude 4.5 模型的 Prompt 工程技巧</a></p>
+<p><a href="https://platform.claude.com/docs/en/about-claude/models/overview">模型概览</a></p>
+<p><a href="https://platform.claude.com/docs/en/about-claude/models/overview">将 Claude 4.5 模型与其他 Claude 模型进行比较</a></p>
+<p><a href="https://platform.claude.com/docs/en/about-claude/models/migrating-to-claude-4">迁移指南</a></p>
+<p><a href="https://platform.claude.com/docs/en/about-claude/models/migrating-to-claude-4">从以前的模型升级</a></p>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-claude-4-5-new-features","sender":"Hinbox","subject":"Claude 4.5 新特性","snippet":"","date":"2025-12-02","isRead":false,"isStarred":false,"hasAttachment":false,"labels":["Inbox"],"tags":[],"mdTheme":"magazine","sourcePath":"reports/claude-4-5-new-features.md","body":"$3","prompts":[]},"listPosition":{"index":215,"total":365}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

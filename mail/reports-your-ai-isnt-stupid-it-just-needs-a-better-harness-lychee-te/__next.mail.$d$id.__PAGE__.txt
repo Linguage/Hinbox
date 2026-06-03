@@ -1,0 +1,237 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T5506,<h1>你的 AI 并不笨——它只是需要更好的缰绳</h1>
+<p>当你的 AI Agent 在第十步突然崩溃、编造数据、输出乱码时，你很容易觉得是模型不够聪明。但这篇文章提出了一个更值得深思的诊断：问题不在马，而在缰绳。作者梳理了 AI 工程从 Prompt Engineering 到 Context Engineering、再到 Harness Engineering 的范式跃迁，指出对于长周期自主任务而言，核心瓶颈已不再是「提问方式」或「知识范围」，而是系统有没有为模型设计好一套可执行的约束框架。文章给出了四條设计原则——用约束代替指令、将状态外化于上下文窗口、让每一步可验证、局部失败而非全局崩溃——并展开了一个七层 Harness 栈的具体结构，从认知层到工具层、合约层再到编排层，层层递进。这不是一篇空谈方法论的文章，而是直指生产级 Agent 系统最容易被忽视的工程短板。如果你曾为 Agent 的不可靠感到困惑，这篇文章会帮你把问题重新定义为：不是模型不行，是系统没兜住。</p>
+<hr>
+<h2>你的 AI 并不「蠢」——它只是需要更好的 Harness</h2>
+<p><strong>TL;DR.</strong> Agents 失败不是因为模型弱，而是因为系统未定义。</p>
+<p>一个好的 harness 做四件事：</p>
+<ul>
+<li>约束模型能做什么</li>
+<li>外部化它必须记住的内容</li>
+<li>验证它采取的每一步</li>
+<li>在出错时恢复</li>
+</ul>
+<h3>问题：十步崩溃</h3>
+<p>假设你部署一个自主 agent 来编写市场调研报告。第 1 到第 3 步完美执行：它规划任务、搜索网络、提取竞争对手数据。</p>
+<p>但到了第 7 步，它开始编造统计数据——因为搜索工具的载荷超过了上下文窗口并被静默截断。到了第 10 步，它输出了一段损坏的 JSON 字符串，因为循环中没有 schema 验证器。整个 pipeline 崩溃。</p>
+<p>我们都见证过这种「agentic collapse」。在那些时刻，我们很容易归咎于模型的推理能力。但在生产级 AI 中，问题通常不在马，而在缰绳。</p>
+<h3>根因：AI 工程中的范式转变</h3>
+<p>过去两年间，业界一直将 AI 失败视为沟通问题。如果模型失败了，我们以为只需要问得更好或给它更好的文档。但对于长周期、自主执行的任务，这些方法触及了硬上限。</p>
+<p>我们现在正进入 <strong>Harness Engineering</strong> 的时代——一门设计系统<em>围绕</em>模型的学科。Agent 不仅仅是 LLM。它是嵌入在代码、状态管理和恢复工作流的严格支架中的 LLM。</p>
+<p>以下是该领域的演变：</p>
+<table>
+<thead>
+<tr>
+<th>时代</th>
+<th>焦点</th>
+<th>局限</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Prompt Engineering</strong></td>
+<td>*指令：*如何提问。</td>
+<td>脆弱；步骤间零持久化。</td>
+</tr>
+<tr>
+<td><strong>Context Engineering</strong></td>
+<td>*信息：*知道什么（如 RAG）。</td>
+<td>无状态；无法控制长周期执行。</td>
+</tr>
+<tr>
+<td><strong>Harness Engineering</strong></td>
+<td>*系统设计：*如何约束和运行。</td>
+<td>解决持续的多步执行控制。</td>
+</tr>
+</tbody>
+</table>
+<p>每个时代并没有取代上一个——它包含了上一个。好的 Harness Engineering 仍然需要好的 prompts 和好的 context。但它增加了两者都不提供的执行层。</p>
+<p>自然而然的下一个问题是：<strong>那个执行层实际上是什么样的？</strong></p>
+<p>不是概念上的——而是结构上的。如果模型不再是系统，那么它位于何处？什么包围着它？什么控制着它？</p>
+<p>在高层面上，一个生产级 agent 系统看起来像这样：</p>
+<pre><code>┌─────────────────────────────────┐
+│          用户请求                │
+└────────────────┬────────────────┘
+                 ▼
+┌─────────────────────────────────┐
+│    HARNESS（7 层栈）            │
+│  ┌───────────────────────────┐  │
+│  │     LLM（模型）            │  │
+│  └───────────────────────────┘  │
+└────────────────┬────────────────┘
+                 ▼
+┌─────────────────────────────────┐
+│        经验证的输出              │
+└─────────────────────────────────┘
+</code></pre>
+<p>模型位于 harness <em>内部</em>。它从不直接与用户对话，也从不未经监督地与外部世界交流。每个输入在进入时被过滤；每个输出在发出前被验证。</p>
+<hr>
+<h3>好的 Harness 的设计原则</h3>
+<p>在深入具体层之前，有必要确立应指导每个设计决策的原则。当你不确定你的 harness 是否尽到职责时，回到这四条检验标准：</p>
+<p><strong>1. 约束而非指令。</strong> 如果你能通过编程方式限制模型的选择，就永远不要依赖模型「正确选择」一个写着「始终以有效 JSON 响应」的 prompt 是一种希望。一个拒绝畸形输出的 schema 验证器是一种保证。</p>
+<p><strong>2. 外部化状态。</strong> 如果一条信息对任务的连续性至关重要——已完成什么、待处理什么、什么失败了——它必须存在于上下文窗口之外。上下文窗口是易失的。磁盘上的文件不是。</p>
+<p><strong>3. 让每一步都可验证。</strong> 如果你无法检查它，你就不能信任它。Harness 的每一层都应产生可由生成它们的模型之外的东西验证的输出。</p>
+<p><strong>4. 局部失败而非全局失败。</strong> 一次工具调用失败应触发该步骤的重试——而不是整个 pipeline 的重启。任何失败的影响范围应尽可能小，小到你的状态管理允许的程度。</p>
+<p>这些不是抽象的理想到。它们是具有直接实现后果的工程约束，你将看到它们在下面的栈中反复出现。</p>
+<hr>
+<h3>7 层 Harness 栈</h3>
+<p>一个健壮的 harness 不仅仅是来回传递文本。它编排一个类型化、有状态、可观测的系统。以下是生产就绪栈在底层的样貌。</p>
+<h3>1. 认知</h3>
+<p>基础层。它限制模型的操作边界。Harness 不向模型提供庞大、百科全书式的 system prompt，而是提供其当前角色、成功标准和严格的否定约束（<em>不要</em>做什么）的局部「地图」。可以把它理解为给模型一份职位描述，而不是一本百科全书。</p>
+<p>在实践中，这通常表现为结构化的 system prompts、角色文件（如 <code>agents.md</code>），或限定于单个步骤的动态生成的任务简报。</p>
+<h3>2. 工具</h3>
+<p>Harness 并非简单地将原始工具输出传回给 LLM。它充当一个严格的中间件层，应用：</p>
+<ul>
+<li><strong>排序：</strong> 使用 embedding 相似度或 BM25 评分，只呈现最相关的结果。</li>
+<li><strong>去重：</strong> 在重复数据浪费宝贵的 token 之前将其去除。</li>
+<li><strong>Token 预算截断：</strong> 硬性限制工具载荷以防止上下文溢出——正是我们开场示例中的失败模式。</li>
+</ul>
+<h3>3. 合约与接口</h3>
+<p>这是大多数团队跳过的层——也是导致最神秘的生产故障的层。</p>
+<p>模型用概率说话。Harness 必须用类型说话。</p>
+<p>系统中的每个边界——LLM 与工具之间、一个 agent 与另一个之间、harness 与外部世界之间——都需要一个显式合约：严格的 JSON schema、类型化的函数签名、带版本的 API 规范。没有这个，你就会遇到 <strong>schema drift</strong>：模型一次将 <code>price</code> 字段生成为字符串，下一次生成为浮点数，你的下游 pipeline 就悄无声息地产生垃圾数据。</p>
+<p>合约层在每个边界交叉点验证输入和输出，在不符合的内容传播<em>之前</em>将其拒绝。这就是原则 1（约束而非指令）发挥作用的地方。没有合约，微妙的 schema drift 会悄无声息地破坏下游系统，例如，定价字段从 float 切换为 string，pipeline 没有崩溃但分析功能被破坏。</p>
+<h3>4. 编排</h3>
+<p>没有这一层，LLM 倾向于无限循环、跳过关键步骤或过早宣布胜利。Harness 强制执行一个结构化工作流——有向无环图（DAG）或状态机——定义合法的转换：<em>Plan → Gather → Draft → Verify</em>。模型提出动作；harness 决定哪些动作被允许。</p>
+<h3>5. 记忆与状态</h3>
+<p>状态必须被显式管理以防止遗忘。一个成熟的 harness 将记忆分为两个层级：</p>
+<ul>
+<li><strong>工作记忆（短期）：</strong> 当前步骤所需的即时对话和上下文窗口。</li>
+<li><strong>持久状态（长期）：</strong> 一个结构化文件（如 <code>state.json</code>），精确跟踪哪些子任务处于待处理、进行中或已完成状态——跨上下文重置甚至跨 session 存活。</li>
+</ul>
+<p>这就是原则 2（外部化状态）的实践。如果一条信息只存在于上下文窗口内，它最终会被丢失。</p>
+<h3>6. 评估与观测</h3>
+<p>系统不能仅仅依赖「另一个 LLM prompt」来做验证。评估层必须是异构的：</p>
+<ul>
+<li><strong>基于规则的检查：</strong> 验证 JSON schema、字符串长度或必填字段。</li>
+<li><strong>基于工具的验证：</strong> 通过编译器运行代码、执行测试套件，或使用浏览器自动化（如 Playwright）实际测试 UI。</li>
+<li><strong>LLM-as-judge：</strong> <em>仅</em>保留用于主观或语义评分——语气、连贯性、用户友好度——确定性检查无法适用的地方。</li>
+</ul>
+<h3>7. 约束与恢复</h3>
+<p>在自主环境中，工具故障和 API 超时是常态，而非例外。Harness 必须强制执行<strong>幂等性</strong>：如果某一步失败，系统重试该特定步骤，而不破坏整体状态或重复之前的工作。这就是将脆弱 demo 转变为弹性系统的关键——也是原则 4（局部失败而非全局失败）的具体化。</p>
+<hr>
+<h3>一次完整 Agent 运行示例</h3>
+<p>要理解这些层级如何防止级联崩溃，让我们追踪市场研究 Agent（Market Research Agent）的一个完整周期——包括一次真实的故障。</p>
+<p><strong>步骤 1 —— 用户请求：</strong> "比较竞争对手 A 与竞争对手 B 的定价。"</p>
+<p><strong>步骤 2 —— 编排与状态：</strong> Planner LLM 将该任务拆解为一个包含两个并行分支的 DAG。<code>state.json</code> 将"获取竞争对手 A"标记为 <code>IN_PROGRESS</code>。</p>
+<p><strong>步骤 3 —— 工具调用：</strong> LLM 触发一次网络搜索。Tool 层获取 50 条结果，应用 BM25 排序，对重叠文本进行去重，仅返回前 3,000 个 token——完全在预算之内。Contract 层在将工具输出传递给模型之前，依据预期的 schema 对其做校验。</p>
+<p><strong>步骤 4 —— 评估：</strong> LLM 生成定价数据。Evaluation 层运行基于规则的 schema 检查，捕获到 JSON 缺少必需的 <code>currency</code> 字段。</p>
+<p><strong>步骤 5 —— 恢复：</strong> 缰绳系统在用户看到错误之前截获它。由于该操作是幂等的，系统将完整的错误追踪信息传回给 LLM 进行局部重试——无需重新启动整个流水线。</p>
+<p><strong>步骤 6 —— 状态更新：</strong> 修正后的数据通过验证。<code>state.json</code> 将竞争对手 A 标记为 <code>COMPLETED</code>，缰绳系统转向竞争对手 B。</p>
+<p><strong>步骤 7 —— 硬故障：</strong> 网络搜索工具对竞争对手 B 返回空结果——目标网站已宕机。缰绳系统检测到空载荷，记录失败，并触发回退：使用替代搜索查询进行重试。关键在于，此时 <code>state.json</code> 保持不变——在该步骤完全成功之前，不会写入任何部分或损坏的数据。</p>
+<p><strong>步骤 8 —— 回退成功：</strong> 替代查询返回有效结果。Contract 层验证 schema，Evaluation 层确认所有必需字段均已存在，直到此时 <code>state.json</code> 才将竞争对手 B 标记为 <code>COMPLETED</code>。</p>
+<p>该周期在长时间运行的任务中重复数十次或数百次。与我们引言中那 10 步级联崩溃不同，当某个工具彻底失败时，系统吸收了冲击并在无需人工干预的情况下恢复。没有幻觉。没有静默失败。没有崩溃。</p>
+<hr>
+<h3>进阶陷阱：来自一线的 4 条经验教训</h3>
+<p>当你将这架构扩展到可连续运行数小时时，会涌现出一些新的故障模式，它们远超任何提示词调优所能修复的范围。以下是生产环境中屡屡让团队受挫的四种模式。</p>
+<h3>陷阱 1："上下文焦虑"现象</h3>
+<p>随着 Agent 持续工作，其上下文窗口逐渐填满，模型往往会表现出一种行为偏移——实践者们称其为"上下文焦虑"。当接近 token 限制时（通常超过 70% 容量），或当延迟飙升时，模型开始跳过步骤或过早地结束任务。它表现得仓促紧张，仿佛能感到围堵的墙壁正在逼近。</p>
+<p><strong>解决方案：</strong> 就地摘要并不够——它仍会让模型在杂乱、退化了的上下文中运行。相反，应当执行 <strong>上下文重置（Context Reset）</strong>。缰绳系统监控上下文利用率，并以编程方式触发重置：</p>
+<pre><code class="language-python"># 此阈值基于经验得出，需根据具体模型和工作负载调整。
+if (tokens_used / max_context) > 0.7:
+    save_state_to_disk(state)
+    terminate_current_instance()
+    launch_fresh_agent(state)
+</code></pre>
+<p>缰绳系统将精确的项目状态保存到持久化存储中，终止当前 LLM 实例，然后启动一个全新的 Agent——其上下文窗口是干净的。新 Agent 读取已保存的状态，进行自我定位，然后继续运行。这种做法成本高昂，但对于超出单个上下文窗口容量的任务而言，可靠性显著提升。</p>
+<h3>陷阱 2：自我评分幻觉</h3>
+<p>如果你让 AI 对自己的工作打分，它往往以不应有的自信去认可平庸的输出。这不是某个特定模型的 bug——而是一个结构性的缺陷。生成输出的同一组权重，定位能力不足以去批判它。</p>
+<p><strong>解决方案：</strong> 使用 <strong>Sprint Contract</strong> 实现严格的关注点分离。在开始工作之前，Generator Agent 与独立的 Evaluator Agent 协商出一个具体、可测试的"完成"定义。两条规则不可妥协：</p>
+<p>第一，Evaluator 必须<strong>执行</strong>：它应当运行代码、在无头浏览器中验证界面、或依据 schema 检查输出——而非仅阅读原始文本后做出判断。无法伪造的验证才是唯一有效的验证。</p>
+<p>第二，Evaluator 必须在干净的上下文中运行，而非读取 Generator 的完整推理链。如果 Evaluator 阅读了 Generator 的思维链，它就会继承 Generator 的假设和盲点——这彻底违背了独立审查的初衷。给 Evaluator 的只有输出结果和成功标准。除此之外，什么也不给。</p>
+<h3>陷阱 3：为"看起来正确"而优化</h3>
+<p>当 LLM 被置于不可能或自相矛盾的约束之下——修复这个 bug，但不要改动任何代码；让它更短，但什么都得包括——实践者们观察到一种一致的行为模式。模型不再尝试解决实际问题，而是转而优化"看起来正确"。输出变得流畅但空洞：幻觉数据、表面上合理但逻辑有误、或在技术上满足了提示词的字面要求却违背了其意图。</p>
+<p>最近关于转向向量和模型内部表示的研究——包括 Anthropic 在探查语言模型内部状态方面的工作——表明，这并非只是表层文本预测出了偏差。在矛盾压力下，模型内部状态似乎出现了可测量的偏移，尽管这一研究方向仍处于早期阶段。</p>
+<p><strong>解决方案：</strong> 实际的结论直截了当。LLM 基于当前上下文的轨迹来预测下一个 token。如果你的缰绳系统反馈回激进、情绪化的错误信息（"你真笨，这完全错了"），就会使上下文偏向一种"失败"叙事——模型随后的输出往往会进一步退化。缰绳系统的反馈必须严格保持客观：提供编译错误、断言失败、schema 不匹配。给模型一个需要解决的问题，而不是一个需要摆脱的恶名。</p>
+<h3>陷阱 4：记忆整合循环</h3>
+<p>要使 Agent 作为一个长期运行的系统来运转，持久化状态管理不是一次性配置。随着时间的推移，记忆日志会变得臃肿且自相矛盾——旧的决策与新的决策冲突，冗余的条目在每次读取时浪费 token。</p>
+<p>一些生产级 Agent 系统已采用一种通常被称为 <strong>记忆整合（Memory Consolidation）</strong> 的方法：一种自动化的例行程序，定期处理和压缩 Agent 积累的工作日志。来自使用此模式的团队的报告（包括开源 Agent 框架和 Anthropic 内部工具中的参考实现）显示出令人印象深刻的结果——在一个有记录的案例中，缰绳系统将 32K token 的嘈杂、重复历史压缩为一份干净的 7K token 状态文件，且无明显信息丢失。</p>
+<p><strong>解决方案：</strong> 实现一个自动化的整合周期。当 Agent 处于空闲状态时——在任务之间或低优先级的时间窗口内——触发一个后台作业，读取原始日志，去重条目，以最新数据为准解决冲突，并写入一份干净、压缩的状态文件。这使得 Agent 在下一次运行时保持快速、经济和准确。可以把它理解为对 AI 工作记忆执行磁盘碎片整理。</p>
+<hr>
+<h3>从何处入手：最小可行缰绳系统</h3>
+<p>如果这七层架构让你感到压力过大，不必在第一天就全部建完。从第 7 层——约束与恢复（Constraints &#x26; Recovery）——开始，然后反向推进。你可以忍受不完美的提示词。你可以忍受朴素的工具集成。但你无法容忍一个在失败时破坏自身状态或默默吞掉错误的 Agent。</p>
+<p>以下是一个 Day 1 缰绳系统在实际中的样貌：</p>
+<ul>
+<li><strong><code>state.json</code></strong> —— 一个单一的结构化文件，用于追踪任务状态。如果进程崩溃，你可以从中断处接续。</li>
+<li><strong>重试包装器</strong> —— 每个工具调用都附带 try/catch，至少包含一次自动重试和指数退避。</li>
+<li><strong>Schema 校验器</strong> —— 每个 LLM 输出在被接受之前，都先依据 JSON schema 进行校验。格式错误的输出触发重试，而非崩溃。</li>
+<li><strong>工具输出截断</strong> —— 对每个工具的载荷施加固定的 token 预算硬上限。上下文窗口内部的静默截断是幻觉最常见的成因之一。</li>
+</ul>
+<p>这四组件可以在一个下午内完成构建。一旦你的 Agent 能够体面地失败，你就有资格让它变得更智能了。</p>
+<h3>结语</h3>
+<p>软件的未来是 Agent 优先的。随着模型获得自主生成和验证复杂系统的原始能力，人类的价值正在发生转移。重要的不再是编写语法，而是设计能让自主执行变得可靠的约束条件。</p>
+<p>未来十年最成功的构建者，不会是写出最好代码的那些人。他们会是设计出最好缰绳系统的那些人——为最快的马匹打造最强韧的缰绳，而这些缰绳只不过是几条原则的一贯运用：约束（constrain）、外化（externalize）、验证（verify）、恢复（recover）。</p>
+<hr>
+<p><em>关于每一层的实现细节——状态存储、验证节点、Sprint Contract，以及从何处入手——请参阅配套 FAQ：</em><a href="https://blog.ltbase.dev/posts/agents/harness-engineering-faq.html"><strong>从理论到生产的 Harness Engineering</strong></a></p>
+<h2>术语表</h2>
+<table>
+<thead>
+<tr>
+<th>原文</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Agent</td>
+<td>自主智能体</td>
+</tr>
+<tr>
+<td>Agentic collapse</td>
+<td>Agent 级联崩溃</td>
+</tr>
+<tr>
+<td>BM25</td>
+<td>BM25（保留原文，信息检索中的排序算法）</td>
+</tr>
+<tr>
+<td>Context Reset</td>
+<td>上下文重置</td>
+</tr>
+<tr>
+<td>DAG</td>
+<td>DAG（有向无环图，Directed Acyclic Graph）</td>
+</tr>
+<tr>
+<td>Evaluator</td>
+<td>Evaluator Agent（保留原文，评估方 Agent）</td>
+</tr>
+<tr>
+<td>Generator</td>
+<td>Generator Agent（保留原文，生成方 Agent）</td>
+</tr>
+<tr>
+<td>Harness</td>
+<td>控制框架／缰绳系统（本文中特指围绕模型构建的系统约束层）</td>
+</tr>
+<tr>
+<td>Harness Engineering</td>
+<td>围绕模型进行系统设计的工程学科</td>
+</tr>
+<tr>
+<td>LLM-as-judge</td>
+<td>LLM 作为评判者</td>
+</tr>
+<tr>
+<td>Memory Consolidation</td>
+<td>记忆整合</td>
+</tr>
+<tr>
+<td>Schema drift</td>
+<td>Schema 偏移</td>
+</tr>
+<tr>
+<td>Sprint Contract</td>
+<td>Sprint Contract（保留原文，一种针对冲刺阶段的工作合约机制）</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-your-ai-isnt-stupid-it-just-needs-a-better-harness-lychee-te","sender":"Lychee Technology","subject":"你的 AI 并不笨——它只是需要更好的缰绳","snippet":"当你的 AI Agent 在第十步突然崩溃、编造数据、输出乱码时，你很容易觉得是模型不够聪明。但这篇文章提出了一个更值得深思的诊断：问题不在马，而在缰绳。作者梳理了 AI 工程从 Prompt Engineering 到 Context Engineering、再到 Harness Engineering 的范式跃迁，指出对于长周期自主任务而言，核心瓶颈已不再是「提问方式」或「知识范围」，而是系统有没有为模型设计好一套可执行的约束框架。","date":"2026-04-16","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["translated"],"mdTheme":"magazine","sourcePath":"reports/your-ai-isnt-stupid-it-just-needs-a-better-harness-lychee-te.md","sourceUrl":"https://blog.ltbase.dev/posts/agents/harness-engineering","body":"$3","prompts":[]},"listPosition":{"index":110,"total":365}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

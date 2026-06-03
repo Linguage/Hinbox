@@ -1,0 +1,210 @@
+1:"$Sreact.fragment"
+2:I[46777,["/hinbox/_next/static/chunks/b6b1a2c88fb5cc3b.js","/hinbox/_next/static/chunks/1903ba569dd77551.js"],"default"]
+6:I[97367,["/hinbox/_next/static/chunks/ff1a16fafef87110.js","/hinbox/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T8690,<h1>Designing AI for Disruptive Science</h1>
+<p><a href="https://www.asimov.press/p/ai-science">原文链接</a></p>
+<p>扩大AI规模是否必然带来科学的范式转变？本文以博尔赫斯的地图寓言与伦敦地铁图的演进为切入点，冷静剖析了当前AI在科研应用中的深层局限。作者指出，现有AI本质上是“预测性机器”，擅长在既有框架内累积细节，却无法像麦克斯韦方程那样，通过重构概念词汇来催生颠覆性发现。若仅止步于此，科学恐将陷入“超常态科学”的陷阱——在旧范式内的预测愈发精准，提出全新问题的能力却日益萎缩。本文呼吁我们跳出对算力与规模的迷信，探索如何设计真正“富有远见”的AI系统，为反思人工智能与科学探索的未来边界提供了极具启发性的视角。</p>
+<hr>
+<h3>为什么扩大AI规模不会自动带来范式转变。</h3>
+<p><img src="https://substackcdn.com/image/fetch/$s_!DzmV!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F18f54019-17ca-4c21-b886-cb112c763fde_2000x1260.jpeg" alt=""></p>
+<p>Ella Watkins-Dulaney 为 Asimov Press 制作。</p>
+<p>在《论科学的精确性》（<em>On Exactitude in Science</em>）中，作家豪尔赫·路易斯·博尔赫斯想象了这样一个帝国：它对制图学如此投入，以至于其制图师绘制了一幅与帝国本身一样大且一样详细的地图。“在西方的沙漠中，至今仍有那幅地图的破败残迹，”博尔赫斯写道，“上面栖居着野兽与乞丐。”博尔赫斯的地图是关于知识的一则寓言，其启示之一是，过多的细节会迅速变得不切实际——如此比例的地图将是完美的，却是无用的。</p>
+<p>但面对如今的AI系统，人们不禁会想，这样的地图是否终究不再那么荒谬。计算机和互联网已经帮助我们数字化了大部分人类知识，而AI使我们能够快速轻松地扫描它。例如，大语言模型在跨越大部分已记录人类知识的<a href="https://arxiv.org/pdf/2005.14165">数万亿个单词</a>上进行训练。在生物学中，像 <a href="https://alphafold.ebi.ac.uk/">AlphaFold</a> 这样的系统从大型数据库中学习，以根据氨基酸序列预测蛋白质的折叠结构。</p>
+<p>这意味着，在某些领域，类似于博尔赫斯原尺寸地图的事物已经变得极为有用。考虑到这一领域的进展速度，推动科学进步现在似乎只需构建越来越庞大、越来越易于导航的此类AI系统版本，从而有效地绘制每一个领域的地图。</p>
+<p>然而，缺乏实用性从来不是博尔赫斯地图的唯一缺陷。更深层次的问题在于，增加细节只会给你带来更多同类信息——更多的道路、更多的山脉、更多的村庄——而你可能需要的却是一种完全不同的示意图。</p>
+<p>以伦敦地铁图为例。在1933年之前，该地图将车站绘制在伦敦的地理准确位置上。但这使得大部分车站聚集的伦敦市中心变成了一团无法阅读的乱麻，而缺乏相关数据的外部郊区却占据了大部分空间。制图员 Harry Beck <a href="https://tfl.gov.uk/corporate/about-tfl/culture-and-heritage/art-and-design/harry-becks-tube-map">解决了</a>这种低效问题，他放弃了地理准确性，转而将网络重绘为带有彩色线条和等距车站的电路图。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!cigK!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1e3596d0-ae44-4478-9548-4274032abe21_800x626.jpeg" alt=""></p>
+<p>1908年的伦敦地铁系统口袋地图。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!VsWm!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f4bd2cb-dcb6-46e1-b1fd-6078e95e35bd_5350x3746.jpeg" alt=""></p>
+<p>Harry Beck 绘制的1933年伦敦地铁图。</p>
+<p>科学范式也可以被看作是一种地图，但与 Beck 不同，科学家通常不会提前知道他们的地图将用于何处。相反，新范式是由用一套简单统一的原则来解释复杂现象的渴望所驱动的。这样的原则往往会产生连锁效应（knock-on implications），其影响远远超出了激发它们的现象。</p>
+<p>例如，到十九世纪中叶，电学和磁学由一系列分别发现的定律拼凑描述，每个定律解释一种不同的现象。物理学家詹姆斯·克拉克·麦克斯韦通过用四个简短的<a href="https://en.wikipedia.org/wiki/Maxwell%27s_equations">方程式</a>替换这种拼凑，简化了该领域。但它们也暗示了能够穿过空间传播的电磁波的存在，包括当时尚未被任何人探测到的低频波。这些波最终成为了无线电的基础。</p>
+<p>相比之下，当前的AI并没有被设定来做这件事。它擅长在现有框架内进行预测，但范式转变（paradigm shifts）需要用更简单的替代方案来替换这些框架，而这些替代方案的影响尚未被探索。一个在电磁测量数据上训练的计算系统可能完美预测了这些结果，但绝不会发现无线电。</p>
+<p>从这个角度来看，即使AI在科学工作中变得越来越核心，我们也有陷入可以称之为“超常态科学”（<em>hypernormal science</em>）的风险：我们在当前模型内的预测变得越来越好，同时提出全新类别问题的能力却在减弱。很像博尔赫斯的制图师帝国，我们冒着将更多细节与对领地的真正理解相混淆的风险。</p>
+<p>为了避免这种短视，我们必须刻意构建能帮助我们设计出全新概念词汇的AI。换言之，我们必须构建富有远见的机器，而不仅仅是预测性的机器。</p>
+<h3>范式如何运作</h3>
+<p>在探索如何构建这种富有远见的AI之前，更仔细地审视科学中的范式转变实际是如何发生的，会有所帮助。科学通常通过在现有范式内增加事实来进步，这个范式就像一个领域的规则手册一样运作。但随着时间的推移，会积累出现有范式无法解释的证据，从而需要一个新范式。</p>
+<p>人们可能会期望，既然新范式能更好地解释事实，它就会立刻取代旧范式。相反，它们往往只有在变得对新的应用有用之后，才会获得主导地位。</p>
+<p>一个例子是狭义相对论的发展。在十九世纪末，物理学家可以用波动方程来描述光。因为每一种人们熟悉的波（如声波或水波）似乎都需要一个物质载体，所以科学界的共识是，光也必须通过一种不可见的介质传播，这种介质被称为发光以太（<em>luminiferous ether</em>）。学术界深深依恋于这个概念；英国物理学界的元老开尔文勋爵甚至<a href="https://www.gutenberg.org/files/46706/46706-h/46706-h.htm">宣称</a>，以太是物理学中我们能够绝对确定其存在的唯一事物。</p>
+<p>阿尔伯特·A·迈克尔逊和爱德华·W·莫雷推断，如果以太存在，地球的运动就会产生一股“<a href="https://galileoandeinstein.phys.virginia.edu/lectures/michelson.html">以太风</a>”，使得沿着这股风传播的光，其有效速度会与穿过这股风传播的光略有不同。迈克尔逊和莫雷将光沿着两条垂直的路径发送，并预期由于这种速度差异，其中一束光会比另一束光稍晚返回。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!yaw3!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5c76a54f-4ce1-4583-bc30-c01a6f8bd991_742x432.jpeg" alt=""></p>
+<p>迈克尔逊-莫雷装置（1887年）。通过将一束光沿垂直路径分离并重新组合，干涉仪可以探测到光传播时间的微小差异，如果地球在发光以太中运动，这种差异是预期会出现的。该设备安装在一块石板顶部，漂浮在水银槽上。</p>
+<p>这一结果并没有立刻说服学术界放弃以太的概念。许多物理学家（包括<a href="https://history.aip.org/exhibits/gap/Michelson/Michelson.html">迈克尔逊</a>）反而采取了一种折中立场，即以太的效应必定以某种方式被隐藏了。最突出的是，亨德里克·洛伦兹<a href="https://pages.jh.edu/rrynasi1/PhysicalPrinciples/literature/Lorentz1904ElectromagneticPhenomenaInASystemMovingWithAnyVelocityLessThanThatOfLight-Perret%2BJeffrey.pdf">提出</a>，以太是存在的，但在其中运动的物体会在运动方向上缩短，从而抵消了预期的信号。</p>
+<p>另一种范式最终由阿尔伯特·爱因斯坦提出，当时他是瑞士伯尔尼的一名26岁的专利局职员。他的<a href="https://www.fourmilab.ch/etexts/einstein/specrel/specrel.pdf">狭义相对论</a>假设了两个原理：物理定律在每个匀速运动的参考系中都是相同的，并且对于所有这样的观察者来说，真空中的光速都是相同的。通过这些原理，爱因斯坦试图引入“一个简单且一致的理论”，借此“引入‘发光以太’将被证明是多余的”。</p>
+<p>起初，洛伦兹和爱因斯坦的理论都能同样好地解释已知的实验数据。但随着时间的推移，爱因斯坦的理论被证明要丰硕得多。如果光速真的是恒定的，那么空间和时间就不可能是绝对的。这最终导致了质量与能量必然等价的证明，根据爱因斯坦著名的方程 E=mc²，这现在支撑着从核能到医学成像的技术。</p>
+<p>即使是不完整的范式也能站稳脚跟，只要其核心思想足够有用。例如，查尔斯·达尔文的自然选择理论提供了一个可以解释生物物种多样性的单一原理，尽管它仍然<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2778973/">缺乏解释</a>特征实际上是如何从亲代传递给子代的。在1860年代末，他假设了缺失的机制，即“泛生论”（pangenesis）这个错误的概念。在其中，他推测体内的每一个细胞都会脱落被称为“微芽”（gemmules）的微小颗粒，这些颗粒聚集在生殖器官中，并将特征传递给子代。尽管有这个错误，达尔文的核心愿景还是存活了下来，并在生物学家中传播开来，直到遗传学提供了必要的物理机制。</p>
+<p>因此，爱因斯坦和达尔文都能够提出简单而优雅的理论，这些理论能够做出超越当前证据的预测，即使一些细节缺失或错误。在这两个案例中，他们决定性的优势都不是范式<em>内部</em>的技术技能，而是走出范式的意愿：爱因斯坦受益于他是学术界的<a href="https://worksinprogress.co/issue/why-science-needs-outsiders/">局外人</a>，因为这使他摆脱了对以太观念的依恋，<sup><a href="#user-content-fn-1" id="user-content-fnref-1" data-footnote-ref aria-describedby="footnote-label">1</a></sup> 而达尔文则挪用了查尔斯·莱尔地质学中的概念，以及托马斯·马尔萨斯经济学中的资源竞争概念。</p>
+<h3>当前的 AI 训练面临“超常态科学”的风险</h3>
+<p>如果范式转变需要走出主流逻辑，我们应该问问当前的 AI 是否具备这种设定。</p>
+<p>考虑一个早期的尝试。在 1970 年代末，计算机科学家 Douglas Lenat 构建了 Automated Mathematician，这是一个被设计用来不仅发现新事实，而且发现整个数学概念的程序。它会从简单的想法开始，对它们进行组合和变化，并保留那些看起来有趣的结果。它似乎奏效了，据报道重新发现了素数和哥德巴赫猜想。但它的创造力最终证明是有限的，因为它“发现”的许多概念已经隐含在程序内部编写数学的方式中。</p>
+<p>尽管当今的 AI 比 Automated Mathematician 拥有大得多的能力，但类似的限制依然适用。大多数机器学习系统是通过最小化相对于数据集的预测误差来训练的，而这些数据集的输入和标签是预先定义的。这使它们非常擅长预测当前数据，但也将它们锁定在从所学数据的概念词汇中。</p>
+<p>考虑细菌学说（germ theory）出现之前的医学。在十九世纪中叶，医生认为疾病是由有害空气引起的，并据此保留了详尽的记录。医生 William Farr <a href="https://archive.org/details/b24751297/page/n3/mode/2up">绘制</a>了整个伦敦的霍乱死亡地图，发现它们与低海拔强烈相关，他认为这是因为有害蒸汽在低洼地区积聚。他实际上捕捉到了一个真实信号：低洼地区更靠近受污染的泰晤士河。但因为他的数据是围绕空气质量组织的，他无法找到真正的原因。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!E4dT!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcc2c8efb-0245-41e9-a021-a7d274df1ef7_1900x800.png" alt=""></p>
+<p>William Farr 的“海拔定律”。在 1849 年伦敦的霍乱爆发中，死亡率随着距泰晤士河的高度增加而急剧下降：底部最宽的条带标记了每万人的最高死亡人数，随着海拔升高而变窄。Farr 将此作为瘴气在低洼处积聚的证据，尽管相同的梯度也与受污染的河水相符。图片来源：General Register Office (William Farr), Report on the Mortality of Cholera in England, 1848–49 (London: HMSO, 1852)。</p>
+<p>在 Farr 的记录上训练的 AI 甚至可能找到更微妙的关联，并且对于预测下一次爆发中哪些街区受打击最严重将确实有用。但它无法推导出水源性微生物的概念，因为这不是任何人已经记录过的变量。这需要像路易·巴斯德和罗伯特·科赫这样的研究人员，使用显微镜和培养皿而不是统计记录册，来建立<a href="https://curiosity.lib.harvard.edu/contagion/feature/germ-theory">细菌学说</a>，并为抗生素、无菌手术和现代公共卫生打开大门。</p>
+<p>2023 年，Google DeepMind 使用了一个名为 GNoME 的图神经网络（graph neural network）来大规模预测晶体结构的稳定性，发现了 220 万种新材料。但绝大多数是<a href="https://pubs.acs.org/doi/10.1021/acs.chemmater.4c00643">已知</a>结构类型内的替代，例如将一种元素替换为元素周期表上的相邻元素。该系统在相对于已知结构的热力学稳定性方面进行了令人印象深刻的优化，但无法偏离这些结构太远。</p>
+<p>一些被称为基础模型（foundation models）的较新 AI 模型，部分地通过直接从原始数据学习而不是从人工整理的标签中学习，绕过了这个问题。例如，蛋白质生成模型 <a href="https://www.science.org/doi/10.1126/science.ads0018?__cf_chl_tk=9VLXfr3nB1Z23FBDJ4j8cciMbNoNB8wA0KLHzm7iqaw-1771344408-1.0.1.1-LpCfKYwckCOyg3WOfkfKtPL7lTuH0vMCGVE9WtSz2RA">ESM3</a> 在蛋白质序列和结构上进行了训练，并成功设计了一种与自然界发现的蛋白质高度不同的新型荧光蛋白。</p>
+<p>虽然令人印象深刻，但以这种方式生成新型蛋白质类似于填补地图上未探索的空间，而不是完全创造新的地图。例如，ESM3 不会去问氨基酸序列是否是正确的描述层次，也不会问是否有一些其他的组织原则可以将蛋白质行为与生物学之外的现象统一起来。</p>
+<p>当研究人员<a href="https://arxiv.org/abs/2507.06952">训练</a>一个基础模型处理一千万个模拟太阳系时，它学会了以高精度预测行星轨道，但没有获得引力的表征。相反，它拼凑了一个统计规律性的拼凑物，碰巧产生了正确的轨迹。当然，这些模型可能已经包含了一些指向当前理论之外的规律，埋藏在它们的权重中；但提取它们本身就需要专门的研究。</p>
+<p>随着科学家在工作中更频繁地使用 AI，这变得日益重要。在这一范围的最远端，研究人员已开始开发“AI 科学家”——旨在通过串联文献搜索、想法生成、代码编写、实验执行和论文起草来执行整个科学工作流程的端到端流水线。如果这些系统成功了，它们可能能够比人类科学家工作得快得多，从而可能构成已完成的大多数科学工作。</p>
+<p>但这些系统必须评估它们产生的新想法的质量，而在不参考现有范式的情况下很难做到这一点。当系统提出一个新的假设或实验时，对于什么构成一个好想法，唯一可用的代理指标是与现有科学的一致性。这通常涉及通过模拟同行评审，与已确立的结果保持一致，并看起来像是对该领域的一个合理贡献。一个真正新颖的重构在这些指标上可能会<a href="https://www.asimov.press/p/legibility-problem">得分很低</a>，原因与范式转变的工作总是面临来自受过其旨在替代的范式训练的审稿人的阻力相同。</p>
+<p>简而言之，在现有基准上优化性能使得替代方案难以出现。而这，反过来，又带来了“超常态科学”的风险。</p>
+<p>考虑遗传学中的一个思想实验（thought experiment）。几个世纪以来，育种者保留了关于哪些动物交配、它们的后代看起来像什么，以及哪些性状出现在哪些家系中的详细记录。在这样的数据上训练的 AI 可以学会预测任意给定的两个亲本的后代可能有什么样的体型、颜色或产量，这肯定会证明是非常有用的。</p>
+<p>但这样的预测器永远不会发现基因作为一个离散的遗传单位，也不会发现 DNA 作为其载体。没有这种洞察力，虽然农民可能会对他们更好的育种预测感到兴奋，我们将无法拥有创造转基因生物或靶向基因疗法的能力。事实上，长期处于“超常态科学”的状态是危险的，恰恰因为它的实际影响不会立即可见。</p>
+<p>有早期迹象表明这已经在发生了。最近一项对 4100 万篇研究论文的<a href="https://www.nature.com/articles/s41586-025-09922-y">研究</a>发现，使用 AI 的科学家发表的论文更多，获得的引用也更多，但总的来说，AI 增强的研究涵盖的主题范围少了大约百分之五。这似乎是因为 AI 倾向于在现有数据丰富的问题上，即当前范式最确立的地方。结果是，AI 引导作者趋同于已知的解决方案，而不是寻找新的解决方案。</p>
+<h3>科学的苦涩教训</h3>
+<p>在 2019 年题为<a href="http://www.incompleteideas.net/IncIdeas/BitterLesson.html">苦涩的教训（The Bitter Lesson）</a>的文章中，计算机科学家理查德·萨顿观察到，试图将人类知识构建在内的方法，随着时间的推移，总是败给那些仅仅扩展搜索和学习的方法。“我们希望 AI 智能体能像我们一样去发现，”他写道，“而不是包含我们已经发现的东西。”这自然适用于范式转变，根据定义，范式转变超越了现有知识。那么，实现范式转变的 AI 的路径，似乎就是让开道路，让计算运行。</p>
+<p>确实，像 AlphaZero（完全通过自我对弈学习国际象棋）这样的开放式系统，能够创造出强大且极具原创性的结果。除了规则外从零开始，它与自己对弈了数百万局，生成策略并丢弃那些会输的策略。在一天之内，它就达到了超人类水平的棋力，并且下出了极其原创的走法。特级大师彼得·海涅·尼尔森<a href="https://www.chess.com/news/view/google-s-alphazero-destroys-stockfish-in-100-game-match">将之比作</a>一个降临地球的优越物种，向我们展示如何下棋。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!1mLe!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F613dad10-4cd9-49e9-949a-53003d0cf9e7_1024x1024.webp" alt=""></p>
+<p>2017 年国际象棋引擎 AlphaZero 和 Stockfish 之间的一场比赛中的局面。AlphaZero 仅从规则出发通过自我对弈进行训练；Stockfish 依赖人类设计的评估启发式方法和深度搜索。评论员经常指出 21.Bg5!! 是 AlphaZero 独特风格的例证，因为在标准的国际象棋启发式方法下它看起来很糟糕，但经过漫长的延迟，随着局势逐渐收紧转化为胜利，它证明了其强大。</p>
+<p>科学可能看起来像是同一问题的一个更复杂的版本，需要更强大的计算来解决。然而，在某些意义上，事实恰恰相反。国际象棋的规则很简单，但获胜策略却异常复杂。在科学中，获胜的范式可能异常简单；狭义相对论只有两个公设。但如果没有后见之明，就没有明确的方法来挑选出一个获胜的范式。</p>
+<p>为了设计用于颠覆性科学的 AI，我们需要理解是什么“规则”使得一个范式优于另一个范式，并构建针对这些规则进行优化的系统。这被证明是一个比扩展计算更难的问题。答案不能仅仅是实验上的成功，因为实验很慢，而且并不总是能可靠地区分范式（洛伦兹和爱因斯坦的情况就是如此）。还有其他合理的候选因素，但还没有一个能提供充分的表述。</p>
+<p>一条规则可能是，好的范式是简单的。已经有一些早期的尝试让 AI 针对这一点进行优化。例如，在物理学中，像 <a href="https://arxiv.org/abs/1905.11481">AI Feynman</a> 这样的符号回归系统试图发现解释数据的最简单方程，而不是进行黑盒映射。在取自《费曼物理学讲义》的基准测试中，该方法发现了全部 100 个测试方程，而先前的软件只找到了 71 个。人们甚至可以使用最小描述长度（Minimum Description Length）原理将追求简单理论的驱动力形式化，该原理有效地惩罚了不必要的复杂性。<sup><a href="#user-content-fn-2" id="user-content-fnref-2" data-footnote-ref aria-describedby="footnote-label">2</a></sup></p>
+<p>但这些系统目前处理的是具有预选变量的干净数据，并且每次只搜索一个数据集。到目前为止，它们在重新发现我们已经知道的方程方面经过了测试，但还没有证明它们能找到新的方程。</p>
+<p>另一条规则可能是，好的范式能做出有效的类比。费曼在他的讲义中用了<a href="https://www.feynmanlectures.caltech.edu/II_12.html">一整章</a>来论述热流、流体流动、扩散和静电学都共享相同的方程这一观察，将其视为关于自然的一个深刻事实。这在直觉上是合理的：一个已经在两个领域中起作用的想法，在第三个领域中起作用的机会更大。</p>
+<p>最明显的一类类比是跨学科的，就像达尔文从经济学中借用了竞争性稀缺的逻辑，并将其应用于生物学一样。原则上，AI 可以以任何个人研究者都无法匹敌的规模搜索这些联系，在各领域之间搜寻在结构上相似的想法。已经构建了一些<a href="https://www.pnas.org/doi/10.1073/pnas.1807185116">早期系统</a>，能够在专利和产品描述的大型数据库中寻找功能类比。</p>
+<p>但有些类比不是在书面理论之间，而是在一个想法和一种感官直觉之间。在十六岁时，爱因斯坦<a href="https://sites.pitt.edu/~jdnorton/Goodies/Chasing_the_light/">想象</a>自己骑在一束光旁边，并问自己会看到什么。麦克斯韦方程组将光建模为一种波。但如果这是真的，如果一个人以光速旅行，这束波看起来就会是冻结的，静止地挂在太空中。对爱因斯坦来说，这幅画面在物理上感觉是不对的；这种本能的不适感最终启发他发展出了狭义相对论。<sup><a href="#user-content-fn-3" id="user-content-fnref-3" data-footnote-ref aria-describedby="footnote-label">3</a></sup></p>
+<p>一些研究项目正试图将 AI 推理建立在物理经验之上。已经有一些<a href="https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2025.1668910/full">多模态架构（multimodal architectures）</a>的早期尝试，可以联合处理视觉、语言和动作。<a href="https://royalsocietypublishing.org/rsos/article/12/7/250646/235354/Autonomous-self-driving-laboratories-a-review-of">自动驾驶实验室（Self-driving laboratories）</a>将 AI 与操纵真实材料的机器人仪器连接起来，这原则上可以将抽象推理建立在物理反馈之上（尽管大多数在单一的实验领域内运作）。但这些是早期的努力，机械臂移液试剂与多感官的人类经验之间的差距是巨大的。</p>
+<p>与此同时，获得有效类比的最快途径可能是同时利用人类和 AI 的能力。人类在模态<em>之间</em>具有广度——我们同时看、听、触摸、在空间中移动和阅读——这为我们进行结构类比的能力奠定了基础。AI 在模态<em>内部</em>具有深度，其处理的信息量远远超过任何人所能做到的。如果 AI 能够帮助研究人员更快地跨越学科边界进行学习，也许通过对 LLMs 的规范使用，单凭这一点就能加速发现。</p>
+<p>更深层的问题在于，我们对范式转变究竟是如何发生的缺乏良好的形式化理解。简单性和类比本身似乎并不构成一个完整的描述。J.J. 汤姆孙的“<a href="https://en.wikipedia.org/wiki/Plum_pudding_model">葡萄干布丁（plum pudding）</a>”模型将原子想象成带有正电荷的球体，电子散布在其中。它很简单，符合当时已知的情况，并且具有滑稽的类比性，但很快就证明是完全错误的。</p>
+<p>因此，就目前而言，科学的苦涩教训可能是：直到我们更好地理解科学本身之前，科学的加速不会自然而然地发生。<sup><a href="#user-content-fn-4" id="user-content-fnref-4" data-footnote-ref aria-describedby="footnote-label">4</a></sup> 但如果我们能够识别出产生范式转变的条件，我们就可以开始去设计它们。</p>
+<h3>元科学的赞歌</h3>
+<p>理解和编纂科学绝非易事。自1620年培根的《新工具》（<em>Novum Organum</em>）以来，我们对科学在理论上如何运作有了一个合理的描述——观察、形成假设、检验和修正。但范式转变似乎既取决于方法，也同样取决于条件：例如，谁有资格做科学，他们因什么而获得奖励，以及思想在学科之间能多自由地跨越。</p>
+<p>我们可以从历史中学到一些东西。贝尔实验室、Xerox PARC 以及剑桥大学早期的分子生物学实验室都产生了异常密集的范式转变成果，主要因为它们是拥有足够<a href="https://institute.global/insights/tech-and-digitalisation/a-new-national-purpose-reimagining-uk-science-and-technology-through-lovelace-disruptive-invention-laboratories">制度保护</a>的小群体，能够追求那些按常规标准看来没有成效的想法。事实上，这与使得 AlphaZero 取得成功的独立自我对弈有着明显的相似之处。但可供研究的历史上的范式转变数量有限，而且我们才刚刚开始探索设计空间。</p>
+<p><img src="https://substackcdn.com/image/fetch/$s_!1Sqm!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68a61810-ebd0-4c64-bac1-14e6fd6bb19f_2048x1435.jpeg" alt=""></p>
+<p>1942年，工程师们在贝尔实验室的制图室工作。</p>
+<p>在这里，AI 本身或许能够提供帮助。我们从未能够对科学机构进行受控实验；不可能创建仅在一方面有所不同并进行结果比较的实验室。但我们可以在不同的研究条件下并行运行 AI 智能体群体，并详细分析结果。在这个意义上，AI 科学家或许能赋予元科学它的第一个模式生物。</p>
+<p>例如，人们可以测试群体结构如何塑造发现：与规模庞大、联系紧密的团队相比，小型、孤立的团队是否会产生更多的概念重组？扁平化层级结构是否优于僵化的层级结构？人们可以运行独立改变这些因素的 AI 智能体群体并衡量结果——这在真实的机构中是不切实际的，因为在真实的机构中，规模、层级和沟通模式全都纠缠在一起。</p>
+<p>围绕科学 AI 的一些乐观情绪基于这样一种直觉：如果我们构建具有强得多的通用推理能力的系统，发现将作为一个近乎自动的后果随之而来。但无法保证这会自然而然地发生。许多技术曾承诺带来激进的科学加速，但到目前为止，并未完全兑现其承诺。</p>
+<p>例如，互联网使知识变得更容易搜索，并且在理论上可能导致了快得多的科学。在线协作在某些时候确实促成了更好的科学工作，例如在<a href="https://en.wikipedia.org/wiki/Polymath_Project">博学项目（Polymath Project）</a>中。但这种革命在很大程度上并未大规模出现，主要是因为我们组织科学的方式中更深层的低效（例如职业激励）仍然是一个瓶颈。甚至有证据表明，在线期刊实际上<a href="https://www.science.org/doi/10.1126/science.1150473">缩小了</a>研究人员的阅读和引用范围，因为科学家搜索或跟随超链接，而不是浏览期刊，从而潜在地加速了共识的形成，而不是扩大了所探索的思想空间。</p>
+<p>AI 可能会在更大的规模上重复这种模式——在现有范式内产生更快的结果，而颠覆性科学的结构性条件却保持不变或恶化。没有理由期望这个设计问题会自行解决。但如果我们把用于颠覆性科学的 AI 视为一个刻意的研究计划，我们就有更好的机会构建范式转变所需的能力。而要做到这一点，我们将必须理解如何设计科学本身。</p>
+<hr>
+<p><strong>Alvin Djajadikerta</strong> 是 <a href="https://www.evidentia.bio/">Evidentia Labs</a> 的 CEO 兼 <a href="https://science.works/">Science Works</a> 的创始研究员。他拥有剑桥大学分子神经科学博士学位。</p>
+<p><strong>引用：</strong> Djajadikerta, Alvin. “Designing AI for Disruptive Science.” <em>Asimov Press</em> (2026). DOI: <a href="https://doi.org/10.62211/29ej-27et">10.62211/29ej-27et</a></p>
+<hr>
+<h2>术语表</h2>
+<table>
+<thead>
+<tr>
+<th>原文</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>hypernormal science</em></td>
+<td>“超常态科学”</td>
+</tr>
+<tr>
+<td><em>luminiferous ether</em></td>
+<td>发光以太</td>
+</tr>
+<tr>
+<td><em>Novum Organum</em></td>
+<td>《新工具》</td>
+</tr>
+<tr>
+<td><em>On Exactitude in Science</em></td>
+<td>《论科学的精确性》</td>
+</tr>
+<tr>
+<td>Alvin Djajadikerta</td>
+<td>Alvin Djajadikerta</td>
+</tr>
+<tr>
+<td>foundation models</td>
+<td>基础模型</td>
+</tr>
+<tr>
+<td>gemmules</td>
+<td>微芽</td>
+</tr>
+<tr>
+<td>germ theory</td>
+<td>细菌学说</td>
+</tr>
+<tr>
+<td>graph neural network</td>
+<td>图神经网络</td>
+</tr>
+<tr>
+<td>Gödel</td>
+<td>哥德尔</td>
+</tr>
+<tr>
+<td>Henri Poincaré</td>
+<td>庞加莱</td>
+</tr>
+<tr>
+<td>J.J. Thomson</td>
+<td>J.J. 汤姆孙</td>
+</tr>
+<tr>
+<td>knock-on implications</td>
+<td>连锁效应</td>
+</tr>
+<tr>
+<td>Minimum Description Length</td>
+<td>最小描述长度</td>
+</tr>
+<tr>
+<td>multimodal architectures</td>
+<td>多模态架构</td>
+</tr>
+<tr>
+<td>pangenesis</td>
+<td>泛生论</td>
+</tr>
+<tr>
+<td>paradigm shifts</td>
+<td>范式转变</td>
+</tr>
+<tr>
+<td>Peter Heine Nielsen</td>
+<td>彼得·海涅·尼尔森</td>
+</tr>
+<tr>
+<td>plum pudding</td>
+<td>葡萄干布丁</td>
+</tr>
+<tr>
+<td>Richard Sutton</td>
+<td>理查德·萨顿</td>
+</tr>
+<tr>
+<td>Self-driving laboratories</td>
+<td>自动驾驶实验室</td>
+</tr>
+<tr>
+<td>The Bitter Lesson</td>
+<td>苦涩的教训</td>
+</tr>
+<tr>
+<td>thought experiment</td>
+<td>思想实验</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>此文章由 AI 翻译</em></p>
+<section data-footnotes class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes</h2>
+<ol>
+<li id="user-content-fn-1">
+<p>相比之下，被广泛认为是那个时代领军数学家的庞加莱，<a href="https://galison.scholars.harvard.edu/publications/einsteins-clocks-poincar%C3%A9s-maps">得出了</a>与爱因斯坦几乎相同的许多数学结论，但没有看到其对空间和时间本质的启示，因为他无法让自己抛弃发光以太。 <a href="#user-content-fnref-1" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-2">
+<p>AI 先驱 Marvin Minsky 曾称算法概率是“自哥德尔以来最重要的发现”，同时指出它在计算上是不可行的，在实践中必须进行近似。 <a href="#user-content-fnref-2" data-footnote-backref="" aria-label="Back to reference 2" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-3">
+<p>在他二十多岁后期，爱因斯坦同样<a href="https://www.unsw.edu.au/newsroom/news/2015/11/without-einstein-it-would-have-taken-decades-longer-to-understan">受到</a>一种感官直觉的启发，发展了他的广义相对论，该理论根据质量如何导致时空弯曲来解释引力。“我正坐在伯尔尼专利局办公室的椅子上，”他回忆道。“突然一个想法击中了我：如果一个人自由下落，他将感觉不到自己的重量。”这种动觉直觉直接导致了引力和加速度不可区分的想法，他在随后的几年中将其发展成了完整的广义相对论。 <a href="#user-content-fnref-3" data-footnote-backref="" aria-label="Back to reference 3" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-4">
+<p>有些人会认为，人类可能暂时保住他们的科学工作，这是件好事。就我个人而言，我更愿意享受科学加速可能创造的丰富健康与繁荣的未来，与家人和朋友共度时光，也许在业余时间偶尔读读 AI 生成的科学书籍。 <a href="#user-content-fnref-4" data-footnote-backref="" aria-label="Back to reference 4" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>
+0:{"buildId":"vMUiZWVsRx3pCqxArlZcR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"email":{"id":"reports-designing-ai-for-disruptive-science","sender":"Asimov Press","subject":"设计 AI 以实现颠覆性科学","snippet":"扩大AI规模是否必然带来科学的范式转变？本文以博尔赫斯的地图寓言与伦敦地铁图的演进为切入点，冷静剖析了当前AI在科研应用中的深层局限。作者指出，现有AI本质上是“预测性机器”，擅长在既有框架内累积细节，却无法像麦克斯韦方程那样，通过重构概念词汇来催生颠覆性发现。若仅止步于此，科学恐将陷入“超常态科学”的陷阱——在旧范式内的预测愈发精准，提出全新问题的能力却日益萎缩。","date":"2026-03-24","isRead":true,"isStarred":false,"hasAttachment":false,"labels":["Inbox","Reports"],"tags":["translated"],"mdTheme":"magazine","sourcePath":"reports/designing-ai-for-disruptive-science.md","sourceUrl":"https://www.asimov.press/p/ai-science","body":"$3","prompts":[]},"listPosition":{"index":161,"total":365}}],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/hinbox/_next/static/chunks/1903ba569dd77551.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null
